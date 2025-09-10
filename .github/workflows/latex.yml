@@ -1,45 +1,52 @@
 name: Build LaTeX and Deploy PDFs
 
 on:
-  push:
-    branches:
-      - main
+  push:
+    branches:
+      - main
 
 jobs:
-  build-and-deploy:
-    runs-on: ubuntu-latest
-    permissions:
-      pages: write
-      id-token: write
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
 
-    steps:
-      - name: Checkout repo
-        uses: actions/checkout@v3
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
 
-      - name: Install LaTeX essentials
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y texlive-latex-base texlive-latex-recommended texlive-latex-extra
+      - name: Install LaTeX essentials
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y texlive-latex-base texlive-latex-recommended texlive-latex-extra
 
-      - name: Compile main.tex in each folder
-        run: |
-          mkdir public
-          for dir in */ ; do
-            if [ -f "$dir/main.tex" ]; then
-              pdflatex -interaction=nonstopmode -output-directory "$dir" "$dir/main.tex"
-              cp "$dir/main.pdf" public/
-            fi
-          done
+      - name: Compile main.tex in each folder
+        run: |
+          mkdir public
+          for dir in */ ; do
+            if [ -f "$dir/main.tex" ]; then
+              pdflatex -interaction=nonstopmode -output-directory "$dir" "$dir/main.tex"
+              cp "$dir/main.pdf" public/
+            fi
+          done
 
-      - name: Create index.html
-        run: |
-          echo "<!DOCTYPE html><html><body><h1>PDF Documents</h1><ul>" > public/index.html
-          for pdf in public/*.pdf; do
-            echo "<li><a href=\"$(basename "$pdf")\">$(basename "$pdf")</a></li>" >> public/index.html
-          done
-          echo "</ul></body></html>" >> public/index.html
+      - name: Create index.html
+        run: |
+          echo "<!DOCTYPE html><html><body><h1>PDF Documents</h1><ul>" > public/index.html
+          for pdf in public/*.pdf; do
+            echo "<li><a href=\"$(basename "$pdf")\">$(basename "$pdf")</a></li>" >> public/index.html
+          done
+          echo "</ul></body></html>" >> public/index.html
 
-      - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v2
-        with:
-          folder: public
+      - name: Setup Pages
+        uses: actions/configure-pages@v3
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v2
+        with:
+          path: public
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v2
