@@ -19,15 +19,12 @@ jobs:
       - name: Compile and create index using Docker
         run: |
           mkdir public
-          docker run --rm -v "$(pwd):/data" texlive/texlive:2024 /bin/bash -c " \
+          docker run --rm -v "$(pwd):/data" texlive/texlive:latest /bin/bash -c " \
             find /data -name \"main.tex\" | while read -r tex_file; do \
               dir=$(dirname \"$tex_file\"); \
-              # Compile the LaTeX file
               cd \"$dir\"; \
               pdflatex -interaction=nonstopmode main.tex; \
-              # Go back to the root directory
               cd /data; \
-              # If PDF was created, sanitize the filename and copy it
               if [ -f \"$dir/main.pdf\" ]; then \
                 relative_path=${dir#./}; \
                 sanitized_name=$(echo \"$relative_path\" | sed 's/\//_/g'); \
