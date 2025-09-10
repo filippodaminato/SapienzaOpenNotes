@@ -1,0 +1,43 @@
+name: Build LaTeX and Deploy PDFs
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Install LaTeX
+        run: sudo apt-get update && sudo apt-get install -y texlive-full
+
+      - name: Compile main.tex in each folder
+        run: |
+          mkdir public
+          for dir in */ ; do
+            if [ -f "$dir/main.tex" ]; then
+              pdflatex -output-directory "$dir" "$dir/main.tex"
+              cp "$dir/main.pdf" public/
+            fi
+          done
+
+      - name: Upload PDFs for Pages
+        uses: actions/upload-pages-artifact@v2
+        with:
+          path: public
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+
+    steps:
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v2
