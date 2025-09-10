@@ -31,4 +31,5 @@ Vedi [CONTRIBUTING.md](CONTRIBUTING.md) per le linee guida.
 ---
 
 ## 📜 Licenza
-Questo progetto è rilasciato sotto licenza **CC-BY-SA 4.0**, quindi è libero di essere usato, modificato e condiviso con attribuzione.
+Questo progetto è rilasciato sotto licenza **MIT**.  
+Puoi usarlo, modificarlo e ridistribuirlo liberamente, a patto di includere la licenza originale.
