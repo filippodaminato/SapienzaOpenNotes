@@ -14,20 +14,26 @@ jobs:
 
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v4 # Update to v4
+        uses: actions/checkout@v4
 
       - name: Install LaTeX essentials
         run: |
           sudo apt-get update
           sudo apt-get install -y texlive-latex-base texlive-latex-recommended texlive-latex-extra
 
-      - name: Compile main.tex in each folder
+      - name: Compile all main.tex files
         run: |
           mkdir public
-          for dir in */ ; do
-            if [ -f "$dir/main.tex" ]; then
-              pdflatex -interaction=nonstopmode -output-directory "$dir" "$dir/main.tex"
-              cp "$dir/main.pdf" public/
+          find . -name "main.tex" | while read -r tex_file; do
+            dir=$(dirname "$tex_file")
+            pdflatex -interaction=nonstopmode -output-directory "$dir" "$tex_file"
+            if [ -f "$dir/main.pdf" ]; then
+              # Get the path relative to the root, e.g., "postgraduate_courses/condensed_matter_physics/caprara"
+              relative_path=${dir#./}
+              # Replace slashes with underscores and remove any leading/trailing underscores
+              sanitized_name=$(echo "$relative_path" | sed 's/\//_/g')
+              # Copy the PDF to the public folder with the new name
+              cp "$dir/main.pdf" "public/$sanitized_name.pdf"
             fi
           done
 
@@ -35,18 +41,20 @@ jobs:
         run: |
           echo "<!DOCTYPE html><html><body><h1>PDF Documents</h1><ul>" > public/index.html
           for pdf in public/*.pdf; do
-            echo "<li><a href=\"$(basename "$pdf")\">$(basename "$pdf")</a></li>" >> public/index.html
+            # Create a more readable link text
+            link_text=$(basename "$pdf" | sed 's/\.pdf//' | sed 's/_/ /g')
+            echo "<li><a href=\"$(basename "$pdf")\">$link_text</a></li>" >> public/index.html
           done
           echo "</ul></body></html>" >> public/index.html
 
       - name: Setup Pages
-        uses: actions/configure-pages@v5 # Update to v5
+        uses: actions/configure-pages@v5
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3 # Update to v3
+        uses: actions/upload-pages-artifact@v3
         with:
           path: public
 
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4 # Update to v4
+        uses: actions/deploy-pages@v4
