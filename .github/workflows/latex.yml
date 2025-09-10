@@ -16,32 +16,28 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Compile and create index using Docker
+      - name: Compile all main.tex files
         run: |
           mkdir public
-          docker run --rm -v "$(pwd):/data" texlive/texlive:latest /bin/bash -c " \
-            find /data -name \"main.tex\" | while read -r tex_file; do \
-              dir=$(dirname \"$tex_file\"); \
-              # Go to the directory and compile
-              cd \"$dir\"; \
-              pdflatex -interaction=nonstopmode main.tex; \
-              # Go back to the root
-              cd /data; \
-              # Check if the PDF file was successfully created
-              if [ -f \"$dir/main.pdf\" ]; then \
-                relative_path=${dir#./}; \
-                sanitized_name=$(echo \"$relative_path\" | sed 's/\//_/g'); \
-                cp \"$dir/main.pdf\" \"/data/public/$sanitized_name.pdf\"; \
-              else \
-                echo \"Compilation failed for $tex_file\"; \
-              fi; \
-            done \
-          "
+          find . -name "main.tex" | while read -r tex_file; do
+            dir=$(dirname "$tex_file")
+            # Compile the LaTeX file directly from its directory to find includes
+            docker run --rm -v "$(pwd):/data" -w "/data/$dir" texlive/texlive:latest pdflatex -interaction=nonstopmode main.tex
+            
+            # Check if the PDF file was successfully created
+            if [ -f "$dir/main.pdf" ]; then
+              relative_path=${dir#./}
+              # Remove "SapienzaPhysicsOpenNotes" and "main" from the path
+              sanitized_name=$(echo "$relative_path" | sed 's/SapienzaPhysicsOpenNotes\///' | sed 's/main//' | sed 's/\//_/g' | sed 's/__/_/g' | sed 's/^_//' | sed 's/_$//')
+              cp "$dir/main.pdf" "public/$sanitized_name.pdf"
+            else
+              echo "Compilation failed for $tex_file"
+            fi
+          done
 
       - name: Create index.html
         run: |
           echo "<!DOCTYPE html><html><body><h1>PDF Documents</h1><ul>" > public/index.html
-          # Use 'ls' to check for files before looping
           if ls public/*.pdf 1> /dev/null 2>&1; then
             for pdf in public/*.pdf; do
               link_text=$(basename "$pdf" | sed 's/\.pdf//' | sed 's/_/ /g')
