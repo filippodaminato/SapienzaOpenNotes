@@ -16,32 +16,30 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Install LaTeX essentials
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y texlive-latex-base texlive-latex-recommended texlive-latex-extra
-
-      - name: Compile all main.tex files
+      - name: Compile and create index using Docker
         run: |
           mkdir public
-          find . -name "main.tex" | while read -r tex_file; do
-            dir=$(dirname "$tex_file")
-            pdflatex -interaction=nonstopmode -output-directory "$dir" "$tex_file"
-            if [ -f "$dir/main.pdf" ]; then
-              # Get the path relative to the root, e.g., "postgraduate_courses/condensed_matter_physics/caprara"
-              relative_path=${dir#./}
-              # Replace slashes with underscores and remove any leading/trailing underscores
-              sanitized_name=$(echo "$relative_path" | sed 's/\//_/g')
-              # Copy the PDF to the public folder with the new name
-              cp "$dir/main.pdf" "public/$sanitized_name.pdf"
-            fi
-          done
+          docker run --rm -v "$(pwd):/data" texlive/texlive:2024 /bin/bash -c " \
+            find /data -name \"main.tex\" | while read -r tex_file; do \
+              dir=$(dirname \"$tex_file\"); \
+              # Compile the LaTeX file
+              cd \"$dir\"; \
+              pdflatex -interaction=nonstopmode main.tex; \
+              # Go back to the root directory
+              cd /data; \
+              # If PDF was created, sanitize the filename and copy it
+              if [ -f \"$dir/main.pdf\" ]; then \
+                relative_path=${dir#./}; \
+                sanitized_name=$(echo \"$relative_path\" | sed 's/\//_/g'); \
+                cp \"$dir/main.pdf\" \"/data/public/$sanitized_name.pdf\"; \
+              fi; \
+            done \
+          "
 
       - name: Create index.html
         run: |
           echo "<!DOCTYPE html><html><body><h1>PDF Documents</h1><ul>" > public/index.html
           for pdf in public/*.pdf; do
-            # Create a more readable link text
             link_text=$(basename "$pdf" | sed 's/\.pdf//' | sed 's/_/ /g')
             echo "<li><a href=\"$(basename "$pdf")\">$link_text</a></li>" >> public/index.html
           done
