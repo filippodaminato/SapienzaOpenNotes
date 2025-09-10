@@ -1,0 +1,182 @@
+
+\section{Lezione 1: Introduzione alla Fisica dello Stato Solido}
+\label{appendix:lesson01}
+
+\section*{Introduzione al corso}
+
+Questo corso è un'introduzione alla fisica dello stato solido, a un livello molto basilare. Il libro di testo di riferimento principale è l'Ashcroft-Mermin, "Solid State Physics".
+
+Il corso inizierà con la definizione di solido e tratterà esclusivamente di solidi cristallini, ovvero solidi che si trovano in una fase cristallina. Verranno introdotti gli strumenti necessari per descrivere i cristalli e successivamente si studierà come la struttura di un cristallo possa essere analizzata tramite raggi X. Questa parte del corso includerà la teoria dello scattering di raggi X da un cristallo.
+
+Successivamente, si considererà il movimento degli atomi che formano un cristallo reale, descrivendo le loro oscillazioni e come queste contribuiscano a varie quantità fisiche, come ad esempio il calore specifico di un solido.
+
+Dopo aver studiato la parte cristallina del problema, si passerà alla parte elettronica. Un solido è composto da atomi, che contengono nuclei ed elettroni, e gli elettroni forniscono un contributo importante alle proprietà fisiche di un solido. Si imparerà quindi a trattare la parte elettronica delle proprietà di un cristallo, in particolare come distinguere tra un metallo e un isolante. Questa è principalmente una manifestazione della fisica quantistica, anche a temperatura ambiente e superiori, dove, a causa del principio di Pauli, gli elettroni devono riempire la struttura a bande del sistema. A seconda di quante bande sono riempite e qual è il riempimento di ciascuna banda, il sistema risulterà essere un metallo o un isolante.
+
+Verranno descritte le proprietà dei metalli e poi si passerà agli isolanti e allo studio della fisica dei semiconduttori, che costituirà la parte finale del corso.
+
+\section*{Fasi della materia e interazioni atomiche}
+
+Considerando gli atomi, possiamo attribuire loro un'energia cinetica, che dipende dalla loro velocità, e un'energia di interazione, che dipende dalla distanza tra di loro. Tipicamente, l'interazione tra due atomi in funzione della loro distanza, $r$, ha una forma come quella rappresentata in figura.
+
+A grandi distanze, l'energia di interazione tende a una costante. Per convenzione, possiamo porre questa costante a zero. Ciò è irrilevante poiché l'energia potenziale è definita a meno di una costante. Questo significa che quando due atomi sono molto lontani l'uno dall'altro, non esercitano alcuna forza reciproca.
+
+Man mano che gli atomi si avvicinano, esiste una certa distanza di equilibrio tra una coppia di atomi. Se proviamo a spingere gli atomi troppo vicini, si manifesta un'enorme repulsione a causa della sovrapposizione delle shell elettroniche esterne, che si respingono. Pertanto, non possiamo avvicinare troppo due atomi, e abbiamo questa enorme repulsione a distanze molto brevi.
+
+\subsection*{Stati di aggregazione}
+
+Ora possiamo porci la seguente domanda: data una collezione di un gran numero di atomi, qual è la fase stabile per questa collezione? Dobbiamo considerare i parametri termodinamici che controllano questa collezione di atomi, come la temperatura ($T$) e la pressione ($P$) o la densità.
+
+Le proprietà della materia sono molto semplici a temperature molto alte o a densità molto basse. In queste condizioni, l'energia cinetica degli atomi ($K$) è molto maggiore della loro energia di interazione ($U$).
+
+\begin{equation}
+ K \gg U \rightarrow \text{Gas}
+\end{equation}
+
+Quando l'energia cinetica è molto più grande dell'energia di interazione, non c'è modo di intrappolare un atomo in un pozzo di potenziale, perché l'energia cinetica lo fa "saltare via". Ci troviamo quindi in una fase gassosa. Nel limite di un gas perfetto, che corrisponde a temperature molto alte o densità molto basse, possiamo persino calcolare l'equazione di stato.
+
+Se riduciamo la temperatura o aumentiamo la densità (ad esempio, aumentando la pressione), arriviamo a un punto in cui le due quantità sono comparabili.
+
+\begin{equation}
+ K \sim U \rightarrow \text{Liquido (fase condensata)}
+\end{equation}
+
+In questa situazione, si ha la condensazione, un fenomeno che dà origine a una fase condensata. Un liquido è un sistema in cui la compressibilità è molto bassa. A differenza di un gas, un liquido può essere difficilmente compresso e ha un volume definito. Tuttavia, in un liquido, le particelle possono muoversi l'una rispetto all'altra perché la loro energia cinetica è comparabile con l'energia potenziale. In un liquido, esiste una distanza media caratteristica tra le particelle, ma la loro configurazione è casuale e possono muoversi.
+
+Se andiamo a temperature ancora più basse o a densità più elevate, arriviamo a una situazione in cui l'energia cinetica è molto minore dell'energia potenziale.
+
+\begin{equation}
+ K \ll U \rightarrow \text{Solido}
+\end{equation}
+
+Questo è un solido. In un solido, l'atomo è intrappolato nel pozzo di potenziale e l'energia cinetica consente solo piccole oscillazioni. L'atomo non ha sufficiente energia cinetica per sfuggire.
+
+\subsection*{Tipi di solidi}
+
+Esistono essenzialmente due tipi di solidi:
+\begin{itemize}
+    \item \textbf{Solidi amorfi:} (es. vetro, zolfo amorfo) Gli atomi sono intrappolati in posizioni fisse, quindi il sistema non può fluire, ma la posizione degli atomi è casuale su larga scala.
+    \item \textbf{Cristalli:} Non solo gli atomi sono congelati in una data posizione, ma questa posizione corrisponde a una distribuzione ordinata di atomi nello spazio, un pattern ben definito che costituisce un cristallo.
+\end{itemize}
+
+Il nostro primo obiettivo principale in questo corso è descrivere la fase cristallina. È importante notare che una fase solida cristallina è una fase a bassissima entropia, perché gli atomi sono ordinati nello spazio. Quasi tutti i sistemi sono solidi a temperature molto basse, ad eccezione dell'elio, che può rimanere liquido fino allo zero assoluto a causa di importanti effetti quantistici.
+
+\section*{Reticoli di Bravais}
+
+Per descrivere un cristallo, dobbiamo immaginare un pattern regolare di atomi (o molecole).
+
+\subsection*{Cristallo Unidimensionale}
+
+Immaginiamo di avere un cristallo unidimensionale, cioè con gli ioni disposti su una linea. C'è solo un modo per disporre atomi indistinguibili in un pattern ordinato su una linea: metterli tutti alla stessa distanza. Chiamiamo questa distanza comune, il passo reticolare, $a$. Questo oggetto è un \textbf{reticolo} (in inglese, \textit{lattice}). Questo è un cristallo unidimensionale. I reticoli cristallini furono classificati dal fisico Bravais, quindi li chiamiamo \textbf{reticoli di Bravais}.
+
+\subsection*{Definizione Generale di Reticolo di Bravais}
+
+Esistono molti modi equivalenti per introdurre il concetto di reticolo di Bravais. Atteniamoci a una descrizione più fisica.
+
+Immaginiamo di vivere in un mondo tridimensionale. Scegliamo tre vettori in questo mondo: $\vec{a}_1, \vec{a}_2, \vec{a}_3$, non complanari (cioè, linearmente indipendenti). Definiamo quindi un vettore del reticolo di Bravais, $\vec{R}$, come una collezione di vettori che sono combinazioni lineari di questi tre vettori con coefficienti interi.
+
+\begin{equation}
+ \vec{R} = n_1 \vec{a}_1 + n_2 \vec{a}_2 + n_3 \vec{a}_3 \quad , \quad n_i \in \mathbb{Z}
+\end{equation}
+
+Una proprietà di tutti i reticoli di Bravais è la periodicità. Questo è un modello matematico infinito in tutte le direzioni che descrive un cristallo. Naturalmente, un cristallo reale è finito e ha dei confini, ma lontano dai bordi, questa è una descrizione piuttosto buona della situazione all'interno di un cristallo reale.
+
+Un'altra proprietà importante è che un reticolo di Bravais appare identico se osservato da un punto del reticolo $\vec{R}$ o da un altro punto del reticolo $\vec{R}'$.
+
+\subsection*{Cella Primitiva}
+
+I vettori $\vec{a}_1, \vec{a}_2, \vec{a}_3$ sono chiamati \textbf{vettori primitivi}. La scelta di questi vettori non è unica. Per un dato reticolo, ci sono infinite scelte possibili per i vettori primitivi.
+
+Il volume del parallelepipedo formato dai tre vettori primitivi, $\vec{a}_1, \vec{a}_2, \vec{a}_3$, è dato da:
+
+\begin{equation}
+ V_c = |\vec{a}_1 \cdot (\vec{a}_2 \times \vec{a}_3)|
+\end{equation}
+
+Questo volume, $V_c$, è il volume della \textbf{cella primitiva}. Una cella primitiva è un volume dello spazio che, quando traslato attraverso tutti i vettori del reticolo di Bravais, riempie l'intero spazio senza sovrapposizioni.
+
+Una proprietà fondamentale è che il volume della cella primitiva, $V_c$, è indipendente dalla scelta dei vettori primitivi. Questo significa che, sebbene possiamo scegliere diversi set di vettori primitivi per lo stesso reticolo, il volume della cella primitiva che essi definiscono sarà sempre lo stesso.
+
+All'interno di una cella primitiva, per costruzione, c'è esattamente \textbf{un punto del reticolo}. Se sommiamo i contributi di tutti i punti del reticolo agli angoli, spigoli e facce di una cella, otteniamo sempre 1. Ad esempio, nel caso tridimensionale, ci sono 8 vertici, ognuno dei quali è condiviso da 8 celle. Quindi il contributo dei vertici è $8 \times (1/8) = 1$.
+
+\subsection*{Cella di Wigner-Seitz}
+
+Esiste una costruzione geometrica ben definita per ottenere una cella primitiva, che è particolarmente utile. Questa è la \textbf{cella di Wigner-Seitz}. La ricetta per costruire una cella di Wigner-Seitz è la seguente:
+\begin{enumerate}
+    \item Scegliere un punto del reticolo.
+    \item Disegnare i segmenti che collegano questo punto a tutti gli altri punti del reticolo (in pratica, solo ai vicini più prossimi).
+    \item Tracciare i piani perpendicolari a questi segmenti nel loro punto medio.
+    \item Il più piccolo volume racchiuso da questi piani è la cella primitiva di Wigner-Seitz.
+\end{enumerate}
+La cella di Wigner-Sietz ha la piena simmetria del reticolo.
+
+\subsection*{Reticolo con Base}
+
+Finora abbiamo discusso di reticoli di Bravais, che sono un'astrazione matematica. Un vero cristallo è formato da un reticolo e da una \textbf{base}, cioè un insieme di atomi associati a ciascun punto del reticolo.
+
+\begin{equation}
+ \text{Cristallo} = \text{Reticolo} + \text{Base}
+\end{equation}
+
+La base può essere costituita da un singolo atomo o da più atomi (o molecole). Ad esempio, nel cloruro di sodio (NaCl), la base è composta da uno ione Na$^+$ e uno ione Cl$^-$.
+
+Un esempio di struttura che non è un reticolo di Bravais ma un reticolo con una base è il \textbf{reticolo a nido d'ape (honeycomb)}. Se si prova a trovare un set di vettori primitivi per il reticolo a nido d'ape, si scopre che è impossibile. Ad esempio, l'ambiente visto da un punto non è lo stesso visto da un suo vicino. Tuttavia, possiamo descrivere la struttura a nido d'ape come un reticolo triangolare (che è un reticolo di Bravais) con una base di due atomi.
+
+\section*{Classificazione dei Reticoli di Bravais}
+
+\subsection*{Reticoli Bidimensionali}
+
+In due dimensioni, ci sono \textbf{cinque} reticoli di Bravais distinti, che possono essere classificati in base alle loro simmetrie.
+\begin{enumerate}
+    \item \textbf{Obliquo:} La cella unitaria è un parallelogramma generico. $|\vec{a}_1| \neq |\vec{a}_2|$, $\gamma \neq 90^\circ$.
+    \item \textbf{Rettangolare:} Cella unitaria rettangolare. $|\vec{a}_1| \neq |\vec{a}_2|$, $\gamma = 90^\circ$.
+    \item \textbf{Rettangolare centrato:} Uguale al rettangolare, ma con un punto del reticolo aggiuntivo al centro della cella. Può essere descritto con una cella primitiva a forma di rombo.
+    \item \textbf{Quadrato:} $|\vec{a}_1| = |\vec{a}_2|$, $\gamma = 90^\circ$.
+    \item \textbf{Esagonale (o triangolare):} $|\vec{a}_1| = |\vec{a}_2|$, $\gamma = 120^\circ$.
+\end{enumerate}
+
+\subsection*{Reticoli Tridimensionali}
+
+In tre dimensioni, ci sono \textbf{quattordici} reticoli di Bravais, che appartengono a \textbf{sette} sistemi cristallini (cubico, tetragonale, ortorombico, monoclino, triclino, esagonale e trigonale).
+
+Ci concentreremo sul sistema \textbf{cubico}, che include tre reticoli di Bravais:
+\begin{enumerate}
+    \item \textbf{Cubico semplice (SC - Simple Cubic):} La cella convenzionale è un cubo con un punto del reticolo a ogni vertice.
+    \item \textbf{Cubico a corpo centrato (BCC - Body-Centered Cubic):} Come il SC, ma con un punto del reticolo aggiuntivo al centro del cubo. Esempi: Ferro (Fe), Cromo (Cr).
+    \item \textbf{Cubico a facce centrate (FCC - Face-Centered Cubic):} Come il SC, ma con un punto del reticolo aggiuntivo al centro di ogni faccia del cubo. Esempi: Rame (Cu), Oro (Au), Alluminio (Al).
+\end{enumerate}
+
+\subsection*{Fattore di Impacchettamento Atomico (APF)}
+
+Il fattore di impacchettamento atomico è una misura di quanto densamente gli atomi sono impacchettati in una struttura cristallina. È definito come il rapporto tra il volume occupato dagli atomi in una cella unitaria e il volume totale della cella unitaria.
+
+\begin{equation}
+ \text{APF} = \frac{N_{\text{atomi}} V_{\text{atomo}}}{V_{\text{cella}}}
+\end{equation}
+
+Assumendo che gli atomi siano sfere rigide (modello "hard-sphere") che si toccano lungo le direzioni di massima densità.
+
+\paragraph{Reticolo Cubico Semplice (SC):}
+\begin{itemize}
+    \item Atomi per cella: $N_{\text{atomi}} = 8 \times (1/8) = 1$.
+    \item Relazione tra lato della cella $a$ e raggio atomico $R$: Gli atomi si toccano lungo lo spigolo del cubo, quindi $a = 2R$.
+    \item Volume della cella: $V_{\text{cella}} = a^3 = (2R)^3 = 8R^3$.
+    \item APF: $\text{APF}_{\text{SC}} = \frac{1 \times \frac{4}{3}\pi R^3}{8R^3} = \frac{\pi}{6} \approx 0.52$.
+\end{itemize}
+È una struttura molto "vuota".
+
+\paragraph{Reticolo Cubico a Corpo Centrato (BCC):}
+\begin{itemize}
+    \item Atomi per cella: $N_{\text{atomi}} = (8 \times 1/8) + 1 = 2$.
+    \item Relazione tra $a$ e $R$: Gli atomi si toccano lungo la diagonale del corpo del cubo. La lunghezza della diagonale è $\sqrt{3}a$. Lungo questa diagonale ci sono 4 raggi atomici ($R+2R+R$). Quindi $\sqrt{3}a = 4R$, da cui $a = 4R/\sqrt{3}$.
+    \item Volume della cella: $V_{\text{cella}} = a^3 = (4R/\sqrt{3})^3$.
+    \item APF: $\text{APF}_{\text{BCC}} = \frac{2 \times \frac{4}{3}\pi R^3}{(4R/\sqrt{3})^3} = \frac{\sqrt{3}\pi}{8} \approx 0.68$.
+\end{itemize}
+
+\paragraph{Reticolo Cubico a Facce Centrate (FCC):}
+\begin{itemize}
+    \item Atomi per cella: $N_{\text{atomi}} = (8 \times 1/8) + (6 \times 1/2) = 4$.
+    \item Relazione tra $a$ e $R$: Gli atomi si toccano lungo la diagonale di una faccia. La lunghezza della diagonale della faccia è $\sqrt{2}a$. Lungo questa diagonale ci sono 4 raggi atomici. Quindi $\sqrt{2}a = 4R$, da cui $a = 4R/\sqrt{2} = 2\sqrt{2}R$.
+    \item Volume della cella: $V_{\text{cella}} = a^3 = (2\sqrt{2}R)^3$.
+    \item APF: $\text{APF}_{\text{FCC}} = \frac{4 \times \frac{4}{3}\pi R^3}{(2\sqrt{2}R)^3} = \frac{\sqrt{2}\pi}{6} \approx 0.74$.
+\end{itemize}
+Il reticolo FCC, insieme alla struttura esagonale compatta (HCP), rappresenta l'impacchettamento più denso possibile di sfere identiche.

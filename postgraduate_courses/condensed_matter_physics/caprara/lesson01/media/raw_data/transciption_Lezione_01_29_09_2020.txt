@@ -1,0 +1,674 @@
+ and website.
+ Thank you.
+ Thank you.
+ I'm going also to fix a consulting time, unorario di ricevimento, on Wednesdays this year.
+ Last year was on Tuesdays.
+ It will be on Wednesday, from 3 p.m. to 4 p.m.
+ This may be in person or via Google Meet or Skype or whatever.
+ So, a few words about the course, this is an introduction I sent mainly to solid state physics.
+ Very introductory course, very basic level to start with.
+ The main reference textbook is the Ashcroft Mermin textbook.
+ And the course is, as I said, an introduction to solid state physics.
+ So we start with a definition of a solid and we'll only deal with crystalline solids.
+ So solids that are in a crystalline phase.
+ So we will introduce the necessary tool to describe crystals and then we will study how a crystal structure can be studied by means of X-ray.
+ This will be a part of the course, the theory of X-ray scattering from a crystal.
+ Then we will let the atom forming a real crystal to move and we will learn how to describe this oscillation of the atoms and how those oscillations contribute to various physical quantities like, for instance, the specific heat of a solid.
+ Once studying the crystal part of the problem, we will move to the electron part. A solid is made of atoms. Atoms contain the nuclei and the electrons, and the electrons provide an important part to the physical property of a solid.
+ And so we will learn how to deal with the electron part of the property of a crystal. In particular, how to distinguish between a metal and an insulator.
+ This is mainly a manifestation of quantum physics, even at room temperatures and above room temperatures, where, because of the Pauli principle, the electrons must pile up in the band structure of the system.
+ And depending on how many bands are filled and what is the filling of each band, the system will result in a metal or in an insulator.
+ We will describe the properties of metals and then we move to the insulators and study the physics of semiconductors.
+ And that will be the final part of the course, dealing with semiconductors.
+ About organization. Last year we had two midterm assessment tests to esoneri for any itinerary.
+ This year we don't yet know because we must understand how to deal with a mixed mode for the esoneri.
+ The midterm assessment is not easy because you are so many.
+ And if a lot of you are at home, we are two people, me and my colleague in the other channel.
+ And dealing with so many people may be difficult, so we have to figure out how to deal with this.
+ Once we find a reasonable way to deal with this, we decided whether this year we will have this midterm assessment or not.
+ This will be done in the next few days.
+ We need to know how the situation evolves and how the situation, how many people are here,
+ how many people are staying at home. And once we know this, we can make a decision about this.
+ What else? Okay, this year I was told that this is the channel for students whose name begins
+ with the letters from K to Z, plus all the foreign students, all the foreign students, independent of the letter,
+ their names belong to this course. And this is quite rigid this year because, of course, there is an organization and we must know who is sitting where.
+ And so I was asked to be very rigid and very strict about belonging to this or the other channel.
+ The other year I was not so rigid, but this year they asked me to be very rigid.
+ And so people belonging to the other channel must stick to their channel.
+ So before I start with some introductory notion, this is maybe the time for questions if you
+ have some.
+ Of course, if you have a question, you can ask a question whenever you want.
+ You can ask questions either in English or in Italian.
+ Of course, if you ask a question in Italian, I will translate your question for the other
+ students and then reply in English.
+ But you must feel free to ask questions even in Italian if you don't feel like asking questions in English.
+ Okay?
+ If you have questions now, you may ask.
+ And there are no questions in the chat.
+ Okay?
+ Okay.
+ Okay.
+ Okay.
+ Okay.
+ Okay.
+ Okay.
+ Okay.
+ Let me start with some very basic introductory concepts.
+ When we deal with the atoms, we can attribute buttons.
+ The kinetic energy that depends on their velocity and an interaction energy that depends on the distance between the atoms.
+ Usually, the interaction between two atoms as a function of their distance, R, has a shape like this.
+ So, at very large distances, the interaction energy goes to a constant.
+ We can say, for the sake of definiteness, to put this constant to zero.
+ This is immaterial because potential energy is defined up to a constant.
+ It means that when the two atoms are very far from one another, they do not exert a force on one another.
+ As the atoms get closer, there is a certain equilibrium distance between a pair of atoms.
+ And then if we try to push the atom too close, then there is a huge repulsion because of the overlap between the external electron shells that repel.
+ And so we cannot push two atoms too close together.
+ And so we have this huge repulsion at very short distance.
+ So now we can ask our self the following question.
+ Suppose we have a collection of atoms, a large number of atoms.
+ What is the stable phase for this collection of atoms?
+ So we must say something about the parameters that control this collection of atoms from the thermodynamic point of view.
+ And usually we know from thermodynamics that those variables controlling the macroscopic behavior are parameters like temperature and the pressure or the density.
+ You can pick either the pressure or the temperature.
+ Now, properties of the matter are very simple at a very high temperature or very low density.
+ If we are at a very high temperature or very low densities, then the kinetic energy of the atoms is much larger than their interaction energy.
+ Their typical interaction energy.
+ You can take this number here as an estimate of their typical interaction energy.
+ OK, so when the kinetic energy is much larger than this number, there is no way to trap an atom in this potential well, because the kinetic energy makes this atom jump away.
+ And so you are in a gas phase.
+ This is very simple. You know that in the limit of a perfect gas, which means a very high temperature or very low density.
+ We can even calculate the equation of state.
+ This system is so simple that it's the only system for which we know the exact solution in statistical mechanics.
+ The gas phase is the simplest phase of all.
+ Now, suppose you reduce the temperature or you increase the density by reducing the volume of the systems.
+ For instance, you can increase the density or by increasing the pressure.
+ Then you go to a point where the two quantities are comparable.
+ In this situation, you have condensation.
+ Condensation is a phenomenon that gives rise to a condensed phase.
+ This is condensed matter physics because we are dealing with condensed phase, not gaseous phase, condensed phase.
+ Condensed phase can be a liquid phase.
+ A liquid is a system where the compressibility of the system is very low.
+ You can hardly compress a liquid with a gas.
+ A gas can be easily compressed.
+ A liquid can be hardly compressed as a volume, which is defined.
+ Nonetheless, in a liquid, the particle can move one with respect to the other because their kinetic energy is comparable with this potential energy.
+ So in a liquid, there is a characteristic average distance between the particle, which is this one.
+ But if I assume a portion of the liquid, the atoms will be in a random configuration where the atoms can occupy position at random in space.
+ Of course, there will be a tendency if I look at the closest atoms to stay at the distance, which is of the order of this or not.
+ But if I go away, then I will see atoms in all positions.
+ And these atoms can move one with respect to the other.
+ So we are in a liquid phase. A liquid, you know, can flow because the atoms are relatively loose and can move one with respect to the other.
+ And this is a characteristic of the liquid phase. So the liquid phase is a condensed phase.
+ So it has a volume. It is hardly compressible. But at the same time, the atoms are sufficient to move.
+ If we go even further down in temperature or at higher density by compressing the system, we go to a situation where the kinetic energy is much smaller than the potential energy.
+ And this is a solid. In a solid, the atom is trapped here and the kinetic energy only allows for a small oscillation.
+ Because the atom has not sufficient kinetic energy to jump and go away. It's trapped there.
+ Okay? This situation, which is very low temperature, very high pressure, is a solid.
+ There are essentially two kinds of solid. In one solid, this is for instance glass or amorphous sulfur, the atoms are trapped in position so the system cannot flow.
+ But the position of the atoms is random on a larger scale. If I go, if I look at the portion of my solid at some scale, I see a random pattern of atoms. This is amorphous solid.
+ There are crystals in which not only the atom are frozen in a given position, but this position is an orderly distribution of atoms in space.
+ A very well-defined pattern that makes a crystal.
+ Our first main goal in this course is to describe this crystal phase.
+ And so, we have to set up a mathematical machinery to describe such a crystal phase.
+ It is important to notice that a crystal solid phase is very low entropy phase, because the atoms are ordered in space, form a very well defined structure.
+ Almost all systems are solid at very low temperature, except for helium.
+ Helium is a very light element.
+ So the kinetic energy may be large.
+ Helium is a noble gas, so helium atoms are really not much willing to attract.
+ So the potential energy is very weak so that helium can stay liquid down to absolute zero.
+ This is the only material among the elements that stays liquid down to absolute zero because quantum effect becomes important before the system becomes a crystal.
+ So helium is a quantum liquid because the quantum effect, the uncertainty in the position of the nuclei is much larger than their average distance and the system stays a liquid because of quantum effect.
+ We will ignore this quantum effect and imagine that all the systems we deal with are crystalline solids at zero temperature, okay.
+ So we deal with all the systems that are crystalline solids at zero temperature.
+ Now, we have to imagine a regular pattern of atoms.
+ When I say atoms, I say atoms or molecules.
+ It depends on what are the constitutive elements of the system.
+ They may be atom or molecules.
+ The important things is that in a crystal we have an ordinary pattern of those constituents.
+ Okay.
+ So to warm up and start with something, let's imagine that is possible with imagination.
+ And now it's also possible in practice to have a one dimensional crystal.
+ One dimensional, I mean that my ions for some reasons are on a line.
+ So I have to figure out how many ways are there to put atoms in an ordered pattern on a line.
+ Can you figure it out?
+ I have my atoms from the gas phase of the liquid.
+ I must pick them up and then put them in an ordered pattern on this line.
+ How many ways are there to do this?
+ Excluding permutation.
+ The atoms are all indistinguishable, so permutation of the atoms is not a different way.
+ Only one.
+ Thank you.
+ I'm happy with this answer.
+ Only one way in one dimension, I have to put all the atoms at the same distance.
+ So in one dimension, there is one only solid phase where all the atoms are at the same distance
+ apart.
+ Let's call this common distance, the space in A, and this object is a lattice.
+ In Italian, this is a reticolo, a lattice.
+ Okay.
+ This is a one dimensional crystal.
+ And this is a lattice.
+ Crystal lattices were classified by a physicist Bravais.
+ So we call this a Bravais lattice.
+ Now, before discussing one and two dimensional lattices, two and three dimensional lattices,
+ I will review the general definition of a Bravais lattice and then we will move to examples of two dimensional and three dimensional lattices.
+ There, the situation is much more complicated, as you can figure out, the higher the dimension, the more lattices exist.
+ There are many equivalent ways to introduce the concept of bravilaccus, okay?
+ Some of those ways are more mathematical.
+ Of course, for various reasons, I prefer to stick to a more physical description of lattices.
+ But if you like formal mathematics, you can find very formal definition.
+ Those definitions are all equivalent. So let's imagine to live in a three-dimensional world, okay?
+ Let's assign three vectors in this three-dimensional world: a1, a2, and a3, not collinear.
+ And a1, they must be, in mathematical words, linearly independent.
+ Okay?
+ Then we define a breve lattice vector of r as a collection of vectors
+ that are linear combination of these three vectors
+ with integer coefficients.
+ Okay?
+ So it's very simple.
+ Suppose I have n2 and n3 equal to 0 for a moment.
+ In the direction of a1, I can move one step, two steps, three steps, four steps, five steps, and forever.
+ Or minus one step, minus two steps, minus three steps, forever.
+ The same elongation, the same elongation.
+ Okay?
+ This is a periodic pattern.
+ In a moment I'll draw some lattices, so if you wait, I will give you examples of lattices.
+ So, one property of all bravered lattices is periodicity.
+ This is infinite in all directions, periodic, and this is a mathematical description of
+ a crystal.
+ Of course, a real crystal is finite, whereas a bravered lattice is infinite.
+ So we must learn one day or another how to deal with a finite system.
+ For a finite system, this description is, of course, only partial because you cannot
+ go forever. All real crystal in nature have boundaries. And so no real crystal is a real, a brevet lattice.
+ Really strictly speaking, but away from the boundaries, this is a rather good description
+ of the situation within a real crystal. So we adopt this mathematical model, which is
+ a mathematical model, as a reasonable mathematical model for a physical crystal. As physicists,
+ we must know the difference between mathematical models and physical world. This difference must
+ always be borne in mind because, of course, we need to adapt our description whenever
+ the assumptions of our description fail. Okay, so always remember that this is a mathematical
+ description and, of course, it has something to do with the real world, but we have to be
+ careful when dealing with the difference. Now, the first important consequence of this
+ definition of a brevet lattice is that if the vector r belongs to a brevet lattice, also
+ the vector -r belongs to the same brevet lattice. Why? Because if I have n1, n2 and n3 that define
+ a point of the lattice, also -n1, -n2 and -n3 are integers that define the point -r. So by
+ the very definition of a brevet lattice, if the point r belongs to the lattice, also
+ the point -r belongs to the same lattice. This is very important, please, and this is called
+ inversion. So, by definition, all brevet lattices are periodic and all brevet lattices enjoy
+ inversion symmetry. By very definition.
+ Now, for instance, if you look at this lattice, if I take this
+ point as the origin, this point belongs to the lattice and this point belongs to the lattice.
+ This belongs to the lattice and this belongs to the lattice. So there is inversion symmetry
+ with respect to the origin. Another important property of all Breville lattices is periodicity,
+ which means that the lattice looks exactly, exactly, mark my word, exactly the same
+ when I put the origin on every atom.
+ When I sit on a lattice point and I look around, I see the lattice exactly the same as if I move
+ to another point and look at the lattice because the lattice is infinite in all directions.
+ So all the points are equivalent.
+ So warm-up question before I go to two-dimensional brevet lattice I will ask you a warm-up question.
+ Suppose I have this lattice
+ and forever I am lazy so I will draw a few seconds and forever this is a regular lattice
+ is this a brevet lattice
+ this is not a brevet lattice because if I look from this point as the origin I have one point to my left
+ 1.120 degrees up and 1.120 degrees down if I look from I choose another color from this point
+ I see one point to my right not my left there is no point to my left
+ and I have 120 degree up on my left and 150 degree down on my left so those two points are not equivalent
+ in a Brevet lattice all lattice points are equivalent so this is not a Brevet lattice
+ then you may ask me so your theory of Brevet lattice is
+ useless because this is a very regular structure but you cannot describe it as a Brevet lattice
+ if you are patient I will show that this can be described as a Brevet lattice with a basis and
+ this is the most general description you can read around your points if you look carefully
+ and you take two colors you will find that in this lattice there are only two different points
+ each purple point is surrounded by pink points
+ or pink points are equivalent so they form a brevet lattice all purple points are equivalent so they
+ form a brevet lattice each pink point is surrounded by purple point each purple point is surrounded
+ by pinpoint the pink point form a brevet lattice and i'll tell you in a while what kind of lattice is
+ that the purple point form a braille lattice so we can describe this lattice as the
+ compenetration of two braille lattices this compenetration is called a basis
+ oh this is actually not an octagon is a triangular lattice but okay we'll come to this in a while
+ okay we can choose it we can select a few yes we can say that the lattice for instance is formed by
+ joining only the pink and the purple are given with respect to the lattice by a basis vector which
+ is the same for all the points we will come to this so this is just to warn you that a breve lattice
+ does not exhaust all the possible periodic patterns but we will learn in a while how to deal with
+ exception to the simple prevalent structure okay now suppose i take my hexagon and i complete my
+ hexagon with the central point so all my hexagons now are decorated with a central point
+ is this a prevalent yes why yes now all the points are equivalent
+ so if i take the lattice i had to show before it's called for reasons that may be clear honeycomb
+ the honeycomb is the hexagon without the centers and the honeycomb is not a bravelatis
+ this with the centers
+ is a bravelatis
+ because now all the points are really if i take this this is exactly equivalent to this now so this is
+ now let's go to two dimensions
+ how many brevet lattice are there in two dimensions
+ the simplest brevet lattice of all
+ is a lattice where the only symmetries are translational symmetry and inversion symmetry
+ those of course are always there because we have shown that by very definition
+ all the brevet lattice enjoys these two symmetries translational symmetry and inversion symmetry
+ if you have no other symmetry than these then you have the simplest crystal structure you may think
+ of in two dimension this is called the monoclinic
+ monoclinic is a structure where you you have two vectors
+ that form an angle five
+ the two vectors
+ of different lengths
+ and the angle five is not 90 degrees
+ i can draw a crystal
+ this is a monoclinic crystal
+ as you can see if i take this as the origin
+ if this point is on the lattice also the inverted point is on the lattice so you have inversion
+ symmetry you have no other symmetry so this is a periodic pattern and the only symmetry it enjoys
+ is inversion symmetry with respect to any origin you can choose because all the points are equivalent
+ this is a prevalent okay
+ hi professor then we go to the next point
+ if i change this angle gradually
+ i get at a point where the angle is 90 degrees
+ a1 and a2 are different their length is
+ different but the angle now is 90 degrees
+ this is a rectangular
+ the name is orthorhombic
+ and this crystal is more symmetric than this
+ why now i draw this crystal
+ okay so this is regular infinite
+ I take an origin if this point is on the lattice also this point is on the lattice so inversion
+ symmetry is always there but now imagine that I rotate this crystal by 180 degrees around this axis
+ I rotate so the crystal goes unto itself by 180 degree rotation about this axis 90 degrees not
+ enough because if I rotate by 90 degree I obtain obtain another crystal equivalent to this but
+ different because if I rotate only by 90 degrees now the rectangles are oriented in this direction
+ so the two crystals look different but if I rotate by 180 degree the points go to other points but the
+ crystal looks just the same so this rectangular or thorombic crystal enjoys this 180 degree rotation
+ symmetry that is not present in the monoclea what else i can do professore scusi posso una domanda si ma
+ facendo la mente forse non so se sto sbagliando qualcosa se prendo comunque un parallelogramma
+ lo ruoto di 180 gradi orientato sempre nella stessa maniera questa questa rotazione di 180
+ gradi fa tornare il reticolo in sé stesso anche nel caso del monoclinic no se prendo il monoclinic
+ lo vuoto di 180 gradi per una diversa giacitura del del parallelepipedo del parallelogramma una
+ diversa giacitura sì in che senso è possibile non voglio togliere tempo ma è possibile vederlo vedere
+ un piccolo disegno non vorrei togliere tempo alla lezione ma è possibile allora lo faccio dopo ok va
+ bene grazie grazie the next is something that we already met is the hexagonal
+ so this is a lattice where a1 and a2 are equal and they form for instance this is a possible choice
+ an angle of 120 degrees
+ then i complete the drawing
+ and you get such a crystal and including the central point the central point if i start from this origin
+ is obtained by taking a2 and then a1 you see that from this origin first i take a2 then i take a1 or
+ first a1 and then a2 of course this commutative and i end in the central point so this is the hexagonal
+ of this and a1 and a2 are the same
+ then we have the most symmetric of all this is this will be true in all dimension the square
+ lattice which in the in the language is called the tetragonal
+ in the tetragonal
+ a1 and a2 are equal and the angle is 90 degrees
+ so this is a square lattice
+ a square lattice now enjoys a 90 degree rotation about this point which the rectangular lattice
+ does not enjoy i can rotate by 90 degree and the lattice goes on to itself by rotation
+ so apparently there are four brevet lattices in two dimensions but there are five
+ there is one that we missed with this classification
+ and the one we missed has the same symmetry as the orthorhombic
+ and this obtained by a decoration of the orthorhombic
+ if i start from the orthorhombic
+ and i have a point in the middle of the face i obtain a new breve lattice
+ that has the same symmetry as the orthorhombic but is different from the orthorhombic
+ lattice and this is a centered orthorhombic
+ if you want to
+ describe this lattice you can take
+ a1 and a2 that are equal but for an angle phi so the center is described by a1 equal a2
+ but phi different from 90 degrees or 120 degrees
+ to exclude the tetragonal and the hexagonal okay
+ this is a different breville lattice from this
+ but enjoys the same symmetry and i will tell you how to deal with this
+ similarly so in total in one dimension there is one breville lattice
+ in two dimensions there are in total five possible
+ i write here this
+ one dimension one revelat is two dimension five very lattices three dimension how many
+ there are in total 14. they are
+ seven fundamental plus seven decoration this is four fundamental plus one decoration in three
+ dimension then will be four fundamental with the main symmetries and seven will be obtained by
+ suitable decoration of the seven fundamental revela this is okay
+ so many so i have some tools
+ here
+ let's start with the lowest of all the signatures
+ yes
+ so
+ so
+ in realtà in due dimensioni ce l'ha
+ perché
+ ho la rotazione rispetto
+ è un singolo parallelogramma il problema vero ce l'ho
+ andando in tre dimensioni per il monoclinico quindi in due dimensioni in realtà
+ diciamo questa simmetria di rotazione di 180 quello mi va lì quindi mi descriverebbe lo stesso reticolo
+ si sovrappone a se stesso con una rotazione di 180
+ diciamo sì la simmetria di cui non gode diversa
+ allora quella simmetria sì ce l'hanno in comune in realtà il monoclinico e l'ortorombico
+ la simmetria che li differenzia perché uno è più simmetrico dell'altro
+ la simmetria che li differenzia è un'altra simmetria di cui godono questi reticoli
+ che è la mirror symmetry
+ la simmetria speculare, the mirror symmetry with respect to the plane
+ so you're right
+ so if I rotate by 180 degrees
+ I go to the same line
+ so the symmetry is common to both
+ but they are distinguished by a mirror symmetry
+ because the rectangular has mirror planes
+ this is a mirror plane
+ and this is a mirror plane
+ whereas this is not a mirror plane for this
+ because this goes unto itself
+ but this is reflected
+ and does not go unto itself
+ so you have no mirror symmetries
+ with respect to
+ the main direction of the lattice
+ so the two are
+ differ not by the rotation symmetry but
+ by the mirror
+ so
+ monoclinic
+ this is a monoclinic
+ the three
+ axes are all different
+ a different from b different from c the
+ three or a one different from a two different from b3
+ and the three angles are all different alpha beta and gamma all different
+ angles so the resulting object is this
+ all the faces are parallelograms but they are all different
+ all different parallelograms there is no one parallelogram equal to the other
+ and so this object of course enjoys inversion symmetry if this point is on
+ the lattice also the inverted point is on the same lattice
+ but there's no mirror symmetry whatever mirror symmetry you try to
+ obtain there is no mirror symmetry whatsoever so this
+ three clinic this is called the pre-clinic is the lesson metric of all
+ languages
+ three clinic means that there are three different angles
+ the next in order of symmetry is the monoclinic
+ monoclinic monoclinic this is monoclinic and this is monoclinic so monoclinic is
+ a different from b different from c a one different from a two different from a three
+ all different but two faces are rectangles and only one face is a parallelogram which means that
+ two angles are 90 degrees and only one angle is different from 90 degrees so two angles are 90
+ degrees this is a rectangle this is a rectangle and this is a parallelogram okay so now as you
+ see this is mirror symmetry this is a plane with respect to which my system is mirror symmetric so
+ this system is more symmetric than this system this is triclinic this is monoclinic
+ the monoclinic is more symmetric than the triclinic
+ then the next is the orthorhombic orthorhombic is now a parallelepiped all the angles are 90 degrees
+ all the faces are rectangles but all the rectangles are different this rectangle is
+ different from this rectangle and it's different from this rectangle so the three sides are different
+ but all the angles are 90 degrees so now you have a lot of rotation and mirror symmetry this system
+ is very symmetric and this is the orthorhombic
+ then we have the tetragonal which is the more symmetric of all it's a cube so all the sides are
+ the same all the angles are the same 90 degrees this is the symmetry of a cube as i will show you
+ in a while that the cube is a very symmetric object actually this is the most symmetric crystal that you
+ may think of in three dimension the cubic crystal is the most symmetrical there are a lot of symmetries
+ and I will let you in a while play with the symmetry in a more visible way for instance I tell you one if
+ you rotate by 120 degree around this axis the cube goes onto itself so one it's difficult to figure out
+ but there is an hexagon hidden in a cube I will show you in a while where is this hexagon actually
+ is here this is the hexagon hidden in a cube
+ then we go to the rhombohedral rhombohedral is very simple because all the sides are the same length
+ all the sides same length so you take a cube you squeeze it along one diagonal
+ and you get this object the sides are all the same length so the face are rhombuses
+ but it's skewed so it's less symmetric than a cube but it's obtained for a cube by skewing
+ it along the diagonal and this is the rhomboidral all the sides are the same length and all the
+ angles are the same in a vertex all the triangles that come to a vertex vertex are the same
+ i i call this this is the cubic the tetragonal is this sorry the tetragonal is the same as though
+ as the orthorhombic but with the basis that is a square and the height is different so it is obtained
+ from the orthorhombic by only squeezing one base to a square so this is the tetragonal sorry
+ I I I missed so tetragonal is like a parallelepiped with one square phase a1 a2 and a3 a1 equal a2
+ different from a3 this is tetragonal okay then rhombohedral
+ then i have the hexagonal the hexagonal is a rhombus with 120 degrees angle here
+ so those are two equilateral triangles this is called hexagonal because if i put
+ three of these objects one next to the other i get an hexagon i can make the drawing now and so this is
+ called hexagonal this is the drawing of the hexagonal scusi
+ so
+ this object here is one third of the hexagon so this this and this and this and this form of one third
+ then i have another third here and another third here those three are all the same so if i put three
+ of this object one next to the other i get this example okay so this is why this is called exactly
+ and finally sorry this is the cubic the most symmetrical is the cubic which is cubic
+ one two three four five six seven
+ and now we must add the decoration
+ so there is no way to decorate
+ the pre-cleaning so the pre-cleaning is lonely the poor pre-cleaning the monoclinic
+ can be decorated if i take my monoclinic crystal
+ and i add one point at the center of the base and of course of the top they must be equivalent
+ i obtain another brevet lattice which is the base center at the monoclinic
+ so there are in total two monoclinic brevet lattice one which is a simple monoclinic and the other which
+ is base centered monoclinic then i go to the next the orthorhombic
+ and when i go to the orthorhombic there are two possible decoration three possible
+ decorations your thrombies can be decorated in three ways first way
+ i put again one point at the center of each basis so i have the base center
+ then i can put one point at the center of each phase one two three four five six and this is phase central
+ and finally i can put one single point
+ at the crossing points of point of the diagonals
+ and this is a nuclear lattice which is called the body central
+ so in total there are four orthorhombic lattices one which is primitive and three that are obtained
+ by decorating the primitive with points on the faces points on the basis and one point in the body of
+ my crystal then we move to the tetragonal
+ and the tetragonal has only the body centered variant
+ can you tell me why for instance the base centered tetragonal is not a new brevet lattice but
+ is one of the brevet lattices that we have in the list
+ for instance if i want to take the tetragonal i recall that the tetragonal is a square basis
+ okay this is the problem if i put one point at the center of the basis what kind of lattice do i get
+ a travel now i put one point here and one point here what is this new life is this a new lattice
+ it's the same because now this is a new square is smaller than that square but
+ the size doesn't matter so this is not a new lattice this is again a tetragonal lattice whereas
+ if i put a point at the crossing of the diagonals this is a new lattice which is the body centered
+ now you can tell me or try to figure out if i put points at the center of all the faces so
+ if i try to to make the face centered why this is not the new lattice you can think about this
+ so the dragon is two brevi lattices rhombo hydro again this is lonely like the monoclinic there is
+ no way to decorate a rhombo hydro so this is one hexagonal it's lonely there is no way to decorate
+ an hexagonal to get a new lattice cubic comes into two other variants which is face centered
+ and the body centered so in total i have three cubic lattices
+ one plus two is three plus four is seven plus three is ten plus four fourteen
+ now for instance why if i take a base center at the cubic i don't get a new latte what lattice do i
+ get if i take a face now it's not the same because the square at the base is smaller
+ but i get nonetheless one of the lattices in the list what kind of lattice do i get
+ i make the drawing this may help
+ i have a cube
+ and i put one point
+ here and one point there what lattice did i get
+ thank you because this side is equal to this so this is a square
+ but it's a smaller square than this so the height is larger than this so this is tetragonal it's not
+ but it's already in the list so it's not a new lattice as you see not all lattices can be
+ decorated to give other lattices the only one that can be decorated is the monoclinic in one way
+ the orthorhombic in three ways the tetragonal in one way and the cubic in two ways okay
+ this list exhausts the list of all possible
+ now
+ a1 a2 and a3 are called primitive vectors
+ okay the primitive vectors define
+ a volume that has as edges the primitive vector
+ which is called the primitive cell
+ each primitive cell contains exactly one lattice point
+ why for instance take the cubic this is simple you have to learn how to make this
+ computation you have one two three four five six seven eight eight vertices and there is a point
+ at each vertex professor but this point is shared by other neighboring cubes because you can fill
+ the space by putting cubes primitive cell one next to the other it's like with lego
+ so this point does not entirely belong to this cube how many other cubes share the same point
+ one two three four five six seven eight so the fraction of this point is one over eight
+ one over eight plus one over eight plus one over eight plus one over eight
+ eight times is one so there is one lattice point in each primitive cell
+ and this must never be forgotten each primitive cell contains exactly one lattice point
+ now what is the volume of the primitive cell the volume of the parallel people on the three vectors
+ a1 a2 and a3 is given as the absolute value
+ of a1 times scalar product a2 cross vector product a3
+ now this gives the volume of a primitive cell for the cube is very simple because a1 a2
+ cross a3 is parallel to a1 and is whose size is a squared times a is a cube so you have the volume
+ of the cube but the same holds for all the other primitive cells that i've shown here
+ for this cell this cell all the cells are given all the volumes are given by the same formula
+ where a1 a2 and a3 are the primitive vectors now this choice of the primitive vector is not unique
+ this is very important no you need
+ let's take for instance a square lattice
+ now one possible choice of the primitive vector of a square lattice is the most simple choice is a1
+ and a2
+ can you suggest me another choice to say for instance for a2
+ if i take this as a2 prime a1 and a2 prime with integer coefficient
+ span exactly the same railway lattice as a1 and a2 and as you can easily show
+ this primitive cell has exactly the same volume as these primitive cells all the primitive cells have
+ the same volume and this is because all must contain exactly one lattice point so they cannot
+ have different volumes otherwise the density of the crystal would not be uniquely defined
+ so all the primitive cells have the same volume but there is an infinite because i could also
+ choose this as a two second and this vector a one and a two seconds span again exactly the same lattice
+ and you now can figure out there are very many different choices of a one and a two in fact
+ infinite choices so the choice of the primitive vectors is not unique which means that the choice
+ that the primitive cell is not uniquely defined of course the most reasonable choice for the
+ primitive cell is the one that makes clear all the symmetries of the lattice so in the case of the
+ cube this is the simplest primitive cell of all but of course I can take a cell that is skewed
+ and so it's not so easy to see the symmetries of the lattice
+ scusi no
+ scusi as i told you
+ not always the primitive cell highlights the symmetry properties of the lattice
+ in some cases it is possible to choose the
+ vectors in a way that highlights the symmetries but take now the hexagonal lattice
+ this is the primitive cell of the hexagonal lattice this cell enjoys the property that each
+ point is shared as a fraction because it belongs also to other neighboring primitive cells so that
+ the total number of lattice point is again one per primitive cell but there is nothing in this object
+ that recalls the hexagonal symmetry so the hexagonal symmetry is lost
+ even more if i take for instance the face center of the cubic because if i take the face center of the
+ cubic i have a cube and then i must put an extra point and in the middle of each phase of my cube
+ one two three four five six okay so now a reasonable choice for the primitive vector is this a1 a2 and a3
+ they form
+ parallelograms so the primitive cell of this object is very skewed and does not look like a cube
+ so if I take the primitive the most natural primitive cell for this phase central cube
+ the the symmetry property of the cube is lost
+ so one possibility is to represent the phase centered cube not with the primitive cell
+ but to take as representative of the symmetry of the system another cell that is called the conventional
+ so one possible conventional choice for the phase centered cubic is to take the cube plus
+ the points in the middle of all the phases
+ okay one two three four five six now why this is conventional because in this
+ cell there is more than one lattice points who can tell me how many lattice points are in this cell
+ let's start with the vertices
+ the vertices are the same as in simple cubic each comes for one over eight there are eight so it's
+ eight times one over eight which is one then there are six points in the faces one two three four five six
+ each point in a face by how many cubes is shared so it counts for one half
+ and six times one half is three and one plus three is four so if i take the volume of the primitive
+ cell of the space center cubic the volume is one-fourth of the volume of the conventional cell
+ because the primitive cell contains one point the conventional cell contains four points and so the
+ volume must be four times larger try and see that this is the case try and calculate the volume of the
+ primitive cell the vectors that you can choose for primitive are for instance a one is a the side
+ of the cube divided by two because i am in the middle one one zero a two a over two one zero one
+ and a three equal a over two zero one one those are the primitive vectors of the phase center cube
+ so now you can calculate the volume of the primitive cell and you should find out that this volume is
+ one fourth of the volume of the cube of side a which is the conventional unit cell
+ so now the question is is there a possible choice of my cell so that it is at the same time primitive
+ in the sense that it contains only one lattice point and conventional in the sense that it shows
+ the symmetries of my lattice and the answer is yes it is possible and this is called the wigner size
+ for instance in the case of the cubic centred of the face centred cubic this is the primitive cell
+ the primitive cell is not a cube the lattice point is exactly in the middle of this object
+ i will tell you in the next lecture how to obtain this object but now i want to show you
+ the symmetries of this object i want to convince you that this object has the same symmetry of a cube
+ so let's take a cube and let's take this object if i look at this vertex here
+ you have a fourfold 90 degrees rotation symmetry exactly if i take this and rotate by 90 degree
+ if i take this vertex here i have 120 degrees rotation symmetry exactly as if i take
+ this vertex here now you see the either hexagon if i rotate by this i have 120 degree symmetry
+ so this object is not a cube but it enjoys all the signatures of the cube this is also true
+ this is the wigner size for the body centered cube those are the hexagons and those are the squares
+ again a very strange object but this is the primitive cell of a body centered cube
+ that has all the symmetry of the cube
+ and contains exactly one lapis part so it may look strange but with this you can fill the space
+ without leaving empty space or superposition this is exactly one leg of building block you can put
+ all those objects one beside the other and fill the space exactly the same with this object here
+ so those are primitive cells those enjoy all the symmetries of the class they belong to this is the
+ cubic so this object has the same symmetry property as the simple cubic and those are the wigner sides
+ cells for the face-centered cubic and the body center
+ okay i think we can stop here as the first lecture is
+ if you have questions unfortunately i cannot hear you at home very well
+ so the answer is exactly as i see that in two dimension actually 180 degrees is an inversion
+ which is not true in a higher dimension exactly uh professor can you hear me
+ excuse me professor
+ i have to stop the recording professor can you hear me
+ excuse me professor
+ professor professor
+ prof
+ sento lontanissimo mi dica
+ le registrazioni delle delle lezioni verranno
+ si non so ancora come perché vengono salvate su questo computer locale
+ quindi immagino che prima o poi mi daranno modo di salvarle da qualche parte dove io posso condividerle
+ spero di risolvere questo problema nei prossimi giorni
+ nel momento l'ho registrata ma è finita non sul mio computer ma su questo computer locale
+ immagino che nei prossimi giorni il manager di questo computer condividerà sul mio google drive
+ e quindi da quel momento in poi avrò possesso della mia registrazione
+ ok d'accordo la ringrazio
+ prego
+ allora ora devo ripercorrere in reverse
+ scusi
+ scusi
+ scusi
+ il problema è che quest'anno non dipende da me
+ cioè l'unico modo che ha per cambiare il canale
+ temo che sia di non venire in classe
+ cioè di seguire le mie lezioni e di non venire qui
+ però è possibile da dire se io non ci segui
+ diciamo che segui solo la classe
+ separiamo il cambio canale come presenza in classe
+ dal cambio canale come non...
+ allora per quello che riguarda la classe
+ quest'anno c'è questa complicazione extra
+ che finché non sapremo e non so se mai lo sapremo
+ quante persone verranno in classe
+ perché oggi c'erano penso più di 90
+ persone collegate da casa più voi qui
+ quindi diciamo c'è il problema di capienza
+ anche se un giorno mai ci saranno lezioni
+ per tutta la classe. Il problema del cambio
+ di canale quello effettivo cioè di fare
+ esami con l'altro professore è questo
+ problema che io ho indicato anche l'anno
+ scorso. In un mondo ragionevole dove c'è
+ un osmosi tra i due canali non c'è problema.
+ Quando il movimento è solo da un canale
+ all'altro che succede? Che io ho delle
+ sessioni affollatissime tipo che io ho
+ 70 studenti e il mio collega ne ha 10.
+ Allora come posso interrogare 70 persone?
+ E' chiaro che devo comunque chiedere aiuto
+ al mio collega che ne ha 10, potrei dire
+ qualcuno. E a quel punto il modo più facile
+ per assegnare è di dire uno dei modi più
+ facili per lettera, ci dividiamo per lettera.
+ Per cui, diciamo, se il problema fosse solo seguire le lezioni,
+ quello non c'è problema.
+ Quando il problema attiene all'esame,
+ il mio dovere principale è fare in modo che la sessione d'esame funzioni.
+ Funzioni con dei vincoli, perché uno può immaginare
+ che lui non ha niente da fare, fa esame per 20 giorni,
+ chi se ne frega?
+ In quei 20 giorni io ho anche altro da fare,
+ purtroppo non è che il mio unico compito istituzionale
+ è di fare esame.
+ Quello è uno dei miei infiniti compiti e ho altre cose da fare.
+ Quindi devo cercare di rendere l'esame compatibile con i miei altri impegni
+ e naturalmente fare in modo che per nessuno di voi l'esame sia, come dire,
+ si trottraga per un tempo infinito di dire io ti interrogo,
+ lui lo interrogo tra un mese, eccetera, eccetera.
+ Anche questo non è possibile.
+ E quindi per contemplare tutte le cose, solo io che ho la situazione sotto mano,
+ posso decidere come gestire l'esame.
+ Se siete ragionevoli voi, anch'io sono una persona ragionevole,
+ quindi se il collega ne ha 10 e io ne ho 20, posso dire
+ come 20 ancora li gestisco, siccome nel passato si è verificato 10/60, io non li posso gestire
+ 60 con l'altro collega 10, quindi l'unica cosa che posso dirvi è siate ragionevoli
+ perché poi alla fine il mio collega e io siamo nella stessa commissione d'esame,
+ quindi se io sono nei guai, persino i miei, cioè per voi ho seguito con lui,
+ faccio l'esame con lui, ma questo non esiste da nessuna parte al mondo.
+ Un tempo noi avevamo la commissione d'esame, se entravi in un'aula dove c'erano tutti
+ i professori, e tu andavi da quello che era libero, non da quello dal quale avevi seguito.
+ Ok.
+ E quindi, diciamo, dopodiché insisto, io sono una persona ragionevole, mi assumo le mie
+ responsabilità, quindi se riesco ad gestire l'appello, nel passato, sui colleghi lo sanno,
+ lo faccio, non è che mi tiro indietro.
+ Però ragionevole vuol dire ragionevole.
+ Ho capito, credo, posso farlo allora?
+ Sì.
+ Per caso io seguissi da lei anche da caso.
+ Sì, sì.
+ Poi se ho allenato con un altro professore, cioè i corsi sono molto simili.
+ Il contenuto dei corsi è lo stesso, chiaramente.
+ Problemi di programma no, chiaramente noi due siamo, come dire, abbiamo delle sensibilità diverse perché non esistono mai due persone esattamente uguali, ma il contenuto dei corsi è esattamente lo stesso, li teniamo in parallelo, tant'è che gli iscritti li facciamo insieme.
+ Allora le posso rivolgere questa cosa, io seguo da lei, poi alla sessione di esame si verifica che lei ha molti più studenti di quanti ne ha il professor Polimedi, allora io lo faccio con il professor Polimedi, però se il numero è equilibrato posso fare anche con lei.
+ Ma questo appunto, quando lei parla di numeri equilibrati si rende conto che immediatamente sta toccando una scelta che non riguarda più me a chi ne vuoi?
+ L'anno scorso i suoi colleghi mi facevano la stessa domanda, l'anno scorso non c'era il covid fortunatamente quindi se c'è posto in aula io non ho più niente da dire sul posto perché io devo garantire naturalmente il posto a chi è assegnato al canale.
+ Una volta che tutti quelli del canale sono seduti, è chiaro che se qualcuno del canale resta in piedi, allora io dico scusa c'è lui in piedi, tu sei dell'altro canale, lascia il posto, ma quest'aula è abbastanza grande, tutti quelli del canale c'erano abbonato.
+ Ma vuoi dire che feci quest'altro discorso? E tutti, sì sì sì sì, poi quando tocca a qualcuno, eh ma professore ma io proprio ci tenevo a fare esame con lei, allora di che cosa abbiamo parlato al inizio? È chiaro che io parlo di ragionevolezza, tutte le volte che è stato ragionevole io ho fatto esami, io anche degli studenti dell'altro canale.
+ Quando è stato irragionevole che proprio non riuscivo a gestire il mio appennio ho dovuto dire grazie al professor Polimedi di dare una mano, ma è normale se accadesse che sono tutti solo del mio canale ma sono di nuovo ingestibili, immagino una situazione nella quale i miei, quindi nel canale tappa z, sono tante e Polimedi mi ha dieci, io sarei costretto a chiedere a Polimedi di prendersene alcuni del mio canale.
+ Io cerco di non farlo ovviamente ma cerco.
+ Perché per esempio un'altra cosa è quella che purtroppo non la gestisco io, dipende da variabili che sono sicuramente fuori dal mio controllo, probabilmente in parte anche fuori dal vostro ma io non lo so perché, perché voi a parte quest'anno che di nuovo il semestre è stato spostato in avanti quindi c'è ancora incertezza se il calendario dell'esame è quello o lo dobbiamo cambiare, quindi ancora non abbiamo pubblicato tutte le date degli esami.
+ In genere il giorno in cui iniziano i corsi, voi già conoscete tutte le date degli esami da qui al 2021 a settembre 2021, allora una volta che uno le conosce può anche organizzarsi, sentire come si muovono i colleghi, vedere, invece per motivi a me parzialmente sconosciuti ci sono degli appelli affollatissimi e degli appelli ai quali non vi è nessuno.
+ Allora se voi mi distribuisse fiequamente sarebbe anche facile che accada che io riesca a gestire tutti gli appelli, dopodiché se io appunto ne trovo in un appello 80 e poi a successivo ne ho 10, quello non l'ho scelto io purtroppo, e quindi magari se fosse stato 40 e 40 o 40 e 45 e 45 lo gestivo con 80 e 10 non riesco a gestirlo con le mie sole cose.
+ Quindi non c'è nessuno, voglio dire, il mio intento è solo di far funzionare l'appello d'esame, non ho nessun altro intento, ne voglio sottrarmi ai miei doveri, ai miei cose.
+ No, no, assolutamente, sono solo venuto a chiedere, poi naturalmente il problema dell'esame secondo me si vorrà più in là, diciamo ora per ora mi interessa solo seguire il corso.
+ Sì ma siccome io le posso dire per esperienza che anche quest'anno si è posto, dopodiché i ragazzi a cui è toccato ci sono rimasti male, dicono ma io speravo, ho detto sì ma la speranza uno può nutrirla però poi le condizioni concrete, quindi è accaduto che ci siano stati ragazzi che per l'essere appartenevano all'altro canale che hanno fatto l'esame con me e altri che no, ma non perché alcuni mi stavano simpatici e altri mi stavano antipatici, perché alcuni sono venuti in appelli poco affollati e altri sono venuti in appelli più affollati.
+ Quindi anche quello io non faccio differenza fra nessuno di voi, quindi non è che scelgo in base alla simpatia o antipatia personale, però scelgo in base alla situazione concreta nella quale vengo messo, cioè io non posso scegliere la situazione ma io devo gestirla, cioè ho il dovere e la responsabilità di gestirla.
+ Quindi è chiaro che poi le mie scelte sono conseguenza delle condizioni al contorno nelle quali vengo messo.
+ Arrivederci.
+ Grazie.

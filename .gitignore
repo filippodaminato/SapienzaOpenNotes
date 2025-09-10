@@ -1,0 +1,39 @@
+# Compilazione LaTeX
+*.aux
+*.bbl
+*.blg
+*.brf
+*.idx
+*.ilg
+*.ind
+*.lof
+*.log
+*.lot
+*.out
+*.toc
+*.acn
+*.acr
+*.alg
+*.glg
+*.glo
+*.gls
+*.ist
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.xdv
+
+# Backup/temporanei editor
+*~
+*.bak
+*.swp
+*.tmp
+*.DS_Store
+Thumbs.db
+
+# Cartelle auto-generate
+latex.out/
+build/
+
+
+*.pdf
