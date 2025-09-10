@@ -8,7 +8,6 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-    container: blang/latex:ubuntu  # immagine Docker con LaTeX preinstallato
     permissions:
       pages: write
       id-token: write
@@ -16,6 +15,11 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v3
+
+      - name: Install LaTeX essentials
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y texlive-latex-base texlive-latex-recommended texlive-latex-extra
 
       - name: Compile main.tex in each folder
         run: |
