@@ -8,6 +8,7 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    container: blang/latex:ubuntu  # immagine Docker con LaTeX preinstallato
     permissions:
       pages: write
       id-token: write
@@ -15,9 +16,6 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v3
-
-      - name: Install LaTeX
-        run: sudo apt-get update && sudo apt-get install -y texlive-full
 
       - name: Compile main.tex in each folder
         run: |
