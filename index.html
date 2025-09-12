@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sapienza Physics Open Notes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Sapienza Physics Open Notes</h1>
+    <p>Appunti condivisi di Fisica – Università La Sapienza, Roma</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>📖 Il Progetto</h2>
+      <p>
+        <span class="highlight">Sapienza Physics Open Notes</span> nasce per raccogliere, organizzare e condividere 
+        appunti e materiali di Fisica prodotti dagli studenti della Sapienza Università di Roma.  
+        L’obiettivo è creare un archivio <strong>libero, aperto e collaborativo</strong> che faciliti lo studio 
+        e favorisca la cooperazione tra studenti e ricercatori.
+      </p>
+    </section>
+
+    <section>
+      <h2>🤝 Collabora con noi</h2>
+      <p>
+        Questo progetto vive grazie al contributo della comunità.  
+        Puoi <strong>proporre correzioni, aggiungere appunti o migliorare i materiali</strong> 
+        aprendo una Pull Request sulla nostra repository GitHub.  
+      </p>
+      <p>
+        Insieme possiamo costruire una risorsa preziosa per tutti gli studenti di Fisica della Sapienza!
+      </p>
+    </section>
+
+    <section>
+      <h2>📂 Materiale disponibile</h2>
+      <input 
+        type="text" 
+        id="searchBox" 
+        placeholder="Cerca per titolo, professore o anno..."
+        style="width: 100%; padding: 0.5rem; margin-bottom: 1rem; border-radius: 8px; border: 1px solid #555;">
+      <ul id="pdf-list">
+        <li>Caricamento in corso...</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Sapienza Physics Open Notes – Progetto open source degli studenti di Fisica, La Sapienza Roma</p>
+  </footer>
+
+  <script>
+    let pdfData = [];
+
+    async function loadPDFs() {
+      try {
+        const response = await fetch('pdfs.json');
+        pdfData = await response.json();
+        renderList(pdfData);
+      } catch (error) {
+        console.error('Errore nel caricamento dei PDF:', error);
+        document.getElementById('pdf-list').innerHTML = '<li>Errore nel caricamento dei file.</li>';
+      }
+    }
+
+    function renderList(data) {
+      const list = document.getElementById('pdf-list');
+      list.innerHTML = '';
+
+      if (data.length === 0) {
+        list.innerHTML = '<li>Nessun file trovato.</li>';
+        return;
+      }
+
+      data.forEach(pdf => {
+        const li = document.createElement('li');
+        li.innerHTML = `
+          <a href="${pdf.file_name}" target="_blank">${pdf.title}</a> 
+          <span style="color:#aaa">– ${pdf.professor} (${pdf.year})</span>
+        `;
+        list.appendChild(li);
+      });
+    }
+
+    function filterList() {
+      const query = document.getElementById('searchBox').value.toLowerCase();
+      const filtered = pdfData.filter(pdf =>
+        pdf.title.toLowerCase().includes(query) ||
+        pdf.professor.toLowerCase().includes(query) ||
+        pdf.year.toLowerCase().includes(query)
+      );
+      renderList(filtered);
+    }
+
+    document.getElementById('searchBox').addEventListener('input', filterList);
+
+    loadPDFs();
+  </script>
+</body>
+</html>

@@ -16,42 +16,53 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Compile all main.tex files
+      - name: Compile all main.tex files and collect metadata
         run: |
           mkdir public
+          echo "[" > public/pdfs.json
+          first_entry=true
+
           find . -name "main.tex" | while read -r tex_file; do
             dir=$(dirname "$tex_file")
-            # Compile the LaTeX file directly from its directory to find includes
+
+            # Compilazione LaTeX
             docker run --rm -v "$(pwd):/data" -w "/data/$dir" texlive/texlive:latest pdflatex -interaction=nonstopmode main.tex
-            
-            # Check if the PDF file was successfully created
+
             if [ -f "$dir/main.pdf" ]; then
               relative_path=${dir#./}
-              # Remove "SapienzaPhysicsOpenNotes" and "main" from the path
-              sanitized_name=$(echo "$relative_path" | sed 's/SapienzaPhysicsOpenNotes\///' | sed 's/main//' | sed 's/\//_/g' | sed 's/__/_/g' | sed 's/^_//' | sed 's/_$//')
-              cp "$dir/main.pdf" "public/$sanitized_name.pdf"
+              sanitized_name=$(echo "$relative_path" | sed 's/\//_/g' | sed 's/^_//' | sed 's/_$//')
+              pdf_file="${sanitized_name}.pdf"
+              cp "$dir/main.pdf" "public/$pdf_file"
+
+              # Aggiungi metadati dal config.json
+              if [ -f "$dir/config.json" ]; then
+                title=$(jq -r '.title' "$dir/config.json")
+                professor=$(jq -r '.professor' "$dir/config.json")
+                year=$(jq -r '.year' "$dir/config.json")
+              else
+                title="Corso sconosciuto"
+                professor="N/D"
+                year="N/D"
+              fi
+
+              if [ "$first_entry" = true ]; then
+                first_entry=false
+              else
+                echo "," >> public/pdfs.json
+              fi
+
+              echo "  {\"title\": \"$title\", \"professor\": \"$professor\", \"year\": \"$year\", \"file_name\": \"$pdf_file\"}" >> public/pdfs.json
             else
-              echo "Compilation failed for $tex_file"
+              echo "❌ Compilazione fallita per $tex_file"
             fi
           done
 
-      - name: Create index.html
-        run: |
-          echo "<!DOCTYPE html><html><body><h1>PDF Documents</h1><ul>" > public/index.html
-          if ls public/*.pdf 1> /dev/null 2>&1; then
-            for pdf in public/*.pdf; do
-              link_text=$(basename "$pdf" | sed 's/\.pdf//' | sed 's/_/ /g')
-              echo "<li><a href=\"$(basename "$pdf")\">$link_text</a></li>" >> public/index.html
-            done
-          else
-            echo "<li>No PDF files were compiled.</li>" >> public/index.html
-          fi
-          echo "</ul></body></html>" >> public/index.html
+          echo "]" >> public/pdfs.json
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
-      - name: Upload artifact
+      - name: Upload PDFs artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: public
