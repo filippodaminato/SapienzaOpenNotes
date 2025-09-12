@@ -1,0 +1,734 @@
+ *I'm sorry to hear you*
+ *I'm sorry to hear you too*
+ *I'm sorry to hear you*
+ *I'm sorry to hear you*
+ *I'm sorry to hear you*
+ *I'm sorry to hear you*
+ Ok, so let's start with the discussion that we started on Friday.
+ We were looking at the response curve of a bacteria.
+ The impacted response curve.
+ Ok, so in this case,
+ the quantity that we want to look at is the Tumbling Rate.
+ Ok, and according to the formula that we already discussed in a response theory,
+ this Tumbling Rate should depend via a certain response curve
+ on the concentration of the gradient.
+ Ok, and what we understood the other day is that this response curve should have a peculiar behaviour
+ as compared to the one that we are used to in physics.
+ Ok, and why is that?
+ Because we know that bacteria have adaptation, so that they, we know that they are sensitive
+ to the concentration variation and not to the absolute value of the concentration.
+ So what we said the other day was that if the kernel is something like this, an exponentially
+ decaying function, ok, as it is for many phenomena of physics, ok, then in this case we would
+ not get adaptation because we just understood that if we keep the signal for, if we impose
+ a step-like variation of the input, what we would get is that there is a finite change in the observed variable.
+ Therefore, we understood that to have adaptation, the integral of this function should be equal to zero, ok.
+ And in it, people measured this response kernel in bacteria, what they found is that this response kernel
+ has precisely a shape with zero integral, so it is something like that.
+ Ok, so this is r to as a function.
+ Ok, very good.
+ And if we take an integral of this function, the positive and the negative areas are equal
+ one to the other and therefore the integral is equal.
+ Ok.
+ So now what I would like to show you is that this kind of behaviour very simply shows that
+ a linear approximation from the dumping rate which is the one that we used in the computation
+ in the last lectures is a reasonable assumption.
+ Ok.
+ So to see this let's first try to understand the meaning of this kernel
+ and the meaning is the following one.
+ Let's say that we want to understand what is the time rate of time t
+ so here what we need to do is this expression here
+ means you can interpret it as saying that we look at time t
+ so we want to compute alpha time t
+ then what we need to do, we need to look at all times t' smaller than t
+ ok, because you see here t' is the regression model
+ and this goes from 0 to t so to write smaller than t
+ so we need to look at all times smaller than t
+ and consider the contribution of the nutrient at all these past times
+ but weight it with the kernel R
+ so the kernel R is somehow a sort of membrane kernel
+ that weights the effect of the input
+ in this case the nutrient concentration
+ of the external signal, the nutrient concentration
+ in the past times
+ so if this is an exponential function
+ this means that it waits much more
+ the immediate previous steps
+ and much less all the steps in the further past
+ ok
+ if this is a function like this
+ what does it mean?
+ it means that when t minus t prime is small
+ so when you're looking here at small times
+ ok so let's say
+ let's say just to make an example
+ let's imagine that this is of the order of t, big t
+ the measurement time that we already introduced in the past
+ the time that the bacterium utilizes to perform a counter-attacking measurement
+ ok so let's say that this is t and this is t
+ ok so what does it mean that for a positive difference t
+ the signal is evaluated with a plus sign ok
+ so let's imagine that instead of being this smoothed curve
+ this is like a stepwise function ok
+ if it was a stepwise function then we would evaluate c
+ here so let's say c at times t minus t ok
+ with a plus sign ok
+ and then we would subtract because this is with a minus sign ok
+ we would subtract c of t minus 2t ok
+ so you see this is basically a derivative
+ because here you divide by t by t this is just the derivative of c
+ so this is just a very rough way to show you that a kernel like this
+ which weighs different sides the immediate past
+ and the net to immediate past is somehow performing a derivative
+ ok so but now we will try to make this simple argument more formal
+ ok but this is a little bit here
+ so to make this little argument more formal
+ what we will do is the following
+ first of all we need it's convenient to change the integral to change variables
+ ok so let's say that I call t minus t prime I call this tau
+ ok therefore this integral becomes when t prime is equal to t this becomes equal to 0
+ ok right and when this is equal to 0 this becomes t but then there is a minus sign here so 0 t and then we have the tau this becomes the arc of tau and this becomes c of t minus t ok I just rewrote the integral in variables
+ and why I did that? I did that because I did that because now now what I am doing is that I can assume that c I assume two things that c is a slowly varying function of itself
+ okay and the second thing that I assume is that r goes to zero for a certain t star let's say which is smaller than t
+ so that I can substitute here the t to infinity
+ okay
+ okay once I do this I can what I can do is that I can expand this if c is a slowly varying function I can expand c of t minus tau with respect to t
+ and why is that because tau since r goes to zero on a range that is smaller than t then what happens is that the relative increment of tau with respect to t is smaller and I have assumed that this is a slowly varying function
+ I can write c of t minus tau I can write it as c of t plus the derivative of c with respect to t evaluating in t multiplied by minus tau plus other hyaluronic terms
+ and therefore this integral becomes integral
+ here i have this is c dot plus c with the t and here i have minus t minus t
+ then at this point what do i assume? at this point i assume that the nutrient concentration is changing in time because the bacterium is moving
+ therefore what do i have? if this is so this should be c of t
+ okay and then i could have minus tau and if the variation of c is due to the movement of the bacterium
+ this becomes the gradient of c dot where b is the velocity of t
+ the c over the t the c over the x the x over the t in larger dimensions than one this is the expression
+ ok ok so this is correct but only under certain circumstances
+ and what are the circumstances you have to imagine that you have this bacterium here
+ and the bacterium is moving ok let's say that the gradient is increasing the nutrient is increasing going towards the right for example ok
+ and if the bacterium performs a straight motion in this environment while moving it measures a positive gradient of the nutrient ok
+ however if the bacterium in this time in which the kernel is different from zero performs a number
+ then it changes completely direction therefore the evaluation of the gradient is just a random number ok
+ so to be able to write this expression here we need to add here a factor
+ that expresses the fact that this is true only when the bacterium goes astray
+ ok but we know what is this factor because we know that tumbling events
+ are random events distributed with a possum distribution ok
+ and therefore we know that the probability of having a certain number of tumbling events
+ of a is a possum distribution ok
+ so this distribution is just e to the minus alpha t
+ alpha tau sorry because we are looking in the time tau
+ ok we are looking along the time tau tau is the variable along which we are going to this expansion
+ ok and then we would have alpha tau k divided by k factorial and we want to evaluate the probability that there are no cambons
+ so this for k equal to 0 the probability of 0 cambons is just e to the minus alpha
+ okay so here we should put e to the minus alpha
+ where alpha is the alpha the original alpha the alpha let's say before the change here alpha is a variable that depends on time
+ okay nothing has changed so far this is inside the integral so inside the integral to first approximation we can put alpha equal to alpha 0
+ okay
+ so now let's plug everything inside
+ so we have the alpha of t is equal to alpha 0
+ and then this is the final expression that we got it's the integral so it's minus there is a minus here
+ and
+ sorry
+ okay
+ this minus goes already this minus here okay
+ so we have minus and then we have the integral from zero to infinity
+ the tau
+ and then let's put it let's put it specifically we have c of t minus
+ minus we get this
+ tau gradient of c dot v
+ e minus tau multiplied by tau
+ ok
+ ok
+ so what is it
+ and then we have the
+ so what do we get
+ 0 and then we have the first contribution
+ ok
+ c of t
+ the integration variable is tau
+ integral 0 to infinity
+ delta
+ r of tau
+ r of tau
+ ok
+ and then we have the second contribution
+ and the second contribution is
+ minus
+ gradient of c dot v
+ ok
+ and we have integral from 0 to infinity
+ into tau
+ and then we will get tau
+ r of tau
+ into the minus of u
+ ok
+ but we know that the integral of the response kernel is 0
+ this is what we said at the beginning
+ ok
+ so this term is 0
+ ok
+ what about this term?
+ this term is different from 0
+ and actually it is positive
+ and why is that?
+ because the response kernel is positive for small times
+ and negative for large times
+ and it is true that we have a tau here that is increasing
+ but we also have the exponential which is decreasing
+ so overall the weight is larger for the positive time
+ it is positive on average
+ so it counts more the positive values than the negative ones
+ so this turns out to be a positive number
+ let's call it a number
+ it's a number
+ and so what we get is that in the end the downlink rate
+ is just equal to the value in our sense of any variation of the nutrient
+ minus our constant factor very cross C
+ and so what we get is that a linear expansion with respect to the nutrient gradient
+ is after all a reasonable approximation
+ so this is to go back to what we already used last time as an assumption
+ here we are seeing that this assumption is reasonable
+ ok?
+ ok very good
+ so now this is interesting
+ and remember that we applied this linear expansion in the model of the contextist model in one dimension
+ but I mean the simple model that we have been looking at here in one dimension is a very strong simplification of what occurs in reality where movement occurs in dimensions larger than one
+ so what about dimensions larger than one how can we model hemotactic behavior
+ so to understand at least we will not try to solve the resulting equations but at least to try to understand where we come from
+ we can go back to what we obtained in the end with our one dimensional model
+ so if you remember with our one dimensional model
+ we found that we saw the model for the stationary distribution of bathinia
+ ok so under the assumption of having reached stationary state
+ we come to the p of x and we saw that this p of x had a form like this
+ so at Boltzmann gives form where this p of x was if you remember the derivative of the tumbling rate with respect to c dot evaluated by zero
+ and then here we have the nutrient as a function of spatial distribution
+ okay and if you remember this solution here allowed us to say that since this prefactor here is negative
+ the exponent of this expression overall is positive
+ okay and therefore the maxima of the population are precisely where the maxima of the nutrient concentration are located
+ okay so if you want to practice with the correct sign you can practice like this
+ it is the same thing because we have understood that alpha is a decreasing function of the nutrient particles
+ okay okay so what about this this means that if this is a potential function we can associate it to this potential function
+ this quantity here acts in the stationary state as an effective potential
+ okay this is what this writing is telling us
+ if this acts as an effective potential then we can evaluate it is the resulting force
+ okay and the resulting force would be minus the derivative of V with respect to x
+ which would precisely be this constant this is a constant
+ and then this would be this derivative of the gradient of the nutrient
+ okay so this we can call it chi
+ well chi is a constant it's not important but it is precisely related to the variation of the boundary break
+ what matters for my argument now is that this is a constant
+ so I mean we see that it's like if there is this effective chemotactic force
+ so let's call it effective chemotactic force
+ which pushes the bacteria to reach in the stationary state the maximum nutrient concentration
+ so starting from this here we can generalize to larger dimension
+ and we can try to write a general equation for phi of maximum
+ ok
+ so general dimension
+ if we follow exactly this same argument
+ force
+ we take the form of a gradient
+ ok
+ and we know that
+ when we have a population evolving
+ under fusion and under the action of some forces
+ its behavior can be described using Fokke-Planck equation
+ ok
+ and what is the Fokke-Planck equation
+ we already studied this
+ it says
+ that the probability invades a continuity equation
+ okay
+ of this form
+ where the probability capital J
+ has two terms
+ one term
+ is given by diffusion
+ the fact that particles or material in this case
+ tend to go from regions of larger populations
+ to regions with less population
+ this is the diffusion part
+ so that would be the gradient of p
+ with a minus sign
+ it goes opposite to the gradient of p
+ from when there are more to when there are less
+ and then there is a second contribution
+ which is proportional to all the external forces
+ that are present in my system
+ so now in this case if you think of the population of bacteria
+ moving in a medium where there is the nutrient
+ there are no external forces in this example
+ but we saw that the chemotactic process acts as an effective force
+ so we will put here that effective force
+ so we will put the EF
+ in our previous treatment we set for simplicity the friction coefficient is equal to zero
+ but in principle here the friction coefficient is equal to zero
+ ok
+ so we plug everything inside
+ and what we get is the equation for T
+ so here we will get the infusion term
+ this one
+ and then we will get the term with the force
+ we can directly
+ now we can directly substitute the expression of the force
+ so instead of putting the force
+ we will put this right
+ the radiators
+ right
+ so that's nice
+ but then we also need to consider that the nutrient is itself made of particles
+ of nutrients precisely
+ and that this particle they themselves diffuse
+ in the medium where the population of bacteria needs
+ which is basically that
+ ok
+ so we need to add to the equation of the bacteria
+ we need to add to the equation for the nutrient
+ ok
+ so if the nutrient just diffuses
+ this would simply be a diffusion equation
+ ok
+ maybe with a different diffusion coefficient
+ because bacteria and nutrient part are different
+ ok
+ but we also need to account in general
+ if we want to write down a general equation
+ we need to take into account the fact that the nutrient can adapt
+ ok
+ or it can be added to the medium
+ so we want to write down a general equation
+ we need one here
+ some other terms
+ ok
+ where this G and H
+ this is a production coefficient
+ and this is a degradation coefficient
+ ok
+ and in general this G and H
+ these are functions of both variables
+ in the most general situation
+ so you see when you have all these conditions
+ this set of two coupled equations
+ is having no trivial so
+ ok
+ and these are called the Keller seg
+ this is the Keller seg model
+ and maybe if one takes some assumptions
+ for the form of G, for the form of H
+ one can try to solve these equations
+ but in general they are quite complicated
+ ok
+ ok, very well, so with this final comment
+ about the larger dimensional temporalization
+ we completed the current on bacteria
+ ok
+ so just to wrap up what we studied
+ I mean what are the interesting aspects in what we saw
+ about chemotaxis and chemoreception
+ on the one hand we understood that this is a process where molecule counting occurs
+ so the bacteria are able with this binding and binding process via the receptor to count nutrient molecules
+ of course counting does not mean counting in the sense that we mean it
+ means that there is a relationship between how many nutrient molecules there are and the resulting behavior of the bacteria
+ ok so let's call it this process counting ok
+ then we understood that this counting process occurs in a noisy environment
+ if you remember the first part of the discussion it occurs in a noisy environment
+ and so this measurement that the bacterium performs should be done in such a way
+ that the signal is perceived with enough accuracy with respect to the environmental noise
+ so there is a play a balance between signal and noise and our biological unit the bacterium performs very well this task
+ ok averaging out the noise and getting a faithful evaluation of the signal
+ this is the first thing that we so there is efficiency ok in this counting process
+ there is a counting process and efficiency in the other process
+ then the second aspect that we saw is that there is a biochemical pathway that relates this counting process
+ to the resulting behavior of the bacterium and in this biochemical pathway in a way the incoming signal is amplified
+ so that very small variation of the external input can give rise to visible changes of the bacterium behavior
+ and so this means that overall the bacterium can react very efficiently to what happens outside
+ there are small variations of the nutrient
+ the bacterium this part knows its able to understand that there is this variation
+ and this small signal that it perceives it gets amplified and it can quickly change its behavior accordingly
+ ok so now we are going to see something similar with this schematic framework in another process
+ and this other process is photoreception so what happens when we see
+ so also in this case we will have a problem a phenomenon where we count an external signal
+ in this case the external signal is not the nutrient but it is the photons arriving in cornea
+ also in this case we have receptors in this case the receptors are the photoreceptors
+ and also in this case very small signal of the order of a few photons is perceived despite noise
+ and is transformed into a behavior, which in this case is a signal
+ so we will now look at this process and you can see that the same kind of mechanisms
+ at the level of information, dealing with information and extracting good information from an outside signal
+ also occur in photoreception
+ and I want to make these two examples because I want to show you that it is quite a general property the fact that all these biological processes they occur just exploiting as possible the signal that is observed
+ making the most of the signal and fighting in the best possible way the noise
+ ok so the first observations, the first comments on photoreceptions they were made by Lawrence
+ the beginning of the 20th century and Lawrence made some quick arguments about perception of light at very low intensity
+ ok and just by considering the intensity of external sources that humans typically are able to perceive
+ ok and just looking at the energy associated to this very low light intensity in these very low light conditions
+ he made a small computation and he said ok this low light intensity should correspond to a certain number of the order of 100 of photons incident on the cornea
+ in a small amount of time that we can use to get a perception ok and he said ok let's say there are approximately this light intensity is approximately 100 photons incident on the cornea since on the cornea there are many photoreceptors this means that typically it's not that all the photons will get on the same photoreceptors they are many they are distributed on the cornea
+ so therefore this means that typically each single photoreceptor will absorb one, two photons, very few photons.
+ But if this is true this means that photoreceptors should be able to work even when single individual photons hit on them and get absorbed.
+ So there should be really a very efficient process driving this perception mechanism because basically it works even with a few photons.
+ Okay, so this was the first observation just a very small argument but then this argument was made more quantitative with a series of consecutive experiments.
+ Okay, so before looking at these experiments let's try to set in a better way the argument of Lorenz.
+ Okay, so let's say that I have my cornea and behind the cornea there are these photoreceptors.
+ Photoreceptors are of two kinds so called cones and so called rods.
+ For the time being we will be interested in rods because rods are the photoreceptor which work well at low light intensity.
+ So for the time being we are looking at situations where we consider low light intensity.
+ Okay, so then let's say that we have a torch here, okay, a lamp emitting a certain light, okay, for a very small period of time.
+ Okay, so overall let's say that I turn the torch on for a small time, a large key, and then I turn it off.
+ Okay, very good, so let's say that the classical light intensity of my torch is a inner.
+ So this classical light intensity is proportional to the average number of photons hitting on my target.
+ The target is the cornea in this case. So let's say that I tilde sets the mean rate with which photons hit the cornea.
+ But then of this photons incident of the cornea, only some of them will be absorbed because absorption of photons is regulated by quantum mechanics.
+ Okay, so there is only a part of photons that get absorbed. First of all, and second of all, this absorption process is probabilistic.
+ Precisely because when you have light interaction with matter, you effectively get the photon absorb.
+ Okay, like the molecules that build up, and you can see what is the molecule in chunk here, but molecules that made up your carbon.
+ So let's say that this sets the rate, and let's say that the average number of absorbed photons, even this rate, it would be a certain coefficient alpha, which sets the percentage of incident photons that are absorbed,
+ and here we would have the rate, and the rate is proportional to t, so we would have overall it here, but then this is a rate, so we need to multiply by a time to get to the number of absorbed photons, so we would put the time in which the torch is on.
+ Okay, so this means that if I turn on my torch for a time T, on average I get the photon absorption.
+ Okay, but then we know that the process is a stochastic process, because this is basically a quantum process,
+ so actually you can derive this, this is not an assumption, you can derive this the probability of having n photon absorbed, given that the rate and the average number is n,
+ and this will be the standard for some distribution, which is this, here.
+ So this would give us the probability of absorbing n photons with a certain external source of light,
+ which is turned on for certain amount of time.
+ So then, according to Knowles, he said okay, he followed this previous argument that I was mentioning,
+ he said okay, he estimated that given the lowest intensity of perceived light,
+ there should be a minimum number of photons hitting on the cornea,
+ which means that if I turn on this light, the torch on and off,
+ if the intensity is too low, you don't see nothing.
+ Okay, so there should be a minimum number of photons hitting the cornea,
+ so let's say that this number is k, okay,
+ so that you need at least the k photons to hit the cornea, otherwise you can't see.
+ Okay, so under these circumstances, what is the probability to see?
+ Okay, the probability to see is the probability that at least k photons hit the cornea,
+ in this case, the minimum value of the photon that are necessary to see.
+ To see...
+ Okay.
+ So the probability to see therefore should be what?
+ Should be the sum because I see if I have k-photon, k+1-photon, k+2-photon and so on.
+ So it's the sum of all these probabilities starting from n equal to k to infinity.
+ This is just to say I need at least k-photons but I can have more, if I have more I still have it.
+ So this should be the sum of the n equal to infinity of that probability e to the minus alpha i
+ and this should be alpha i.
+ Okay, so this is a formula. So let's try to see how this probability looks like.
+ It is convenient to, since this is a sum of exponential it is convenient to plot it as a function of log n of i.
+ Okay, and clearly this expression here has two parameters. What are the two parameters?
+ The two parameters are k and alpha. Okay, so we would like to understand what is the role of k and what is the role of alpha in this expression.
+ So, I mean, the simplest thing to do is just to plot different curves. In one case, we fix k and we just change alpha and see what changes. And then we fix alpha and we change k and we see what changes.
+ Okay, so let's try to try the typical form of this function is a non-linear form, something like this. Okay. So now let's try to change, to keep k fixed.
+ And to change alpha. If you change alpha, you see that basically the major effect is just to shift this curve here.
+ Okay. This is alpha 1, this is alpha 2. If you change alpha, it's just a shift.
+ Okay. So now let's keep alpha fixed and let's change k. Let's increase k for example. As we increase k,
+ the curve becomes more non-linear. Okay. More stepwise. So increasing k, we increase the non-linearity,
+ increasing alpha is just a shift of the curve. Okay. Very good. So small k as in power. Let's
+ do this is a small k and these curves are the larger values of k. Okay. So this is something
+ that we can just deduce from this very similar. Okay. So now at some point people have said
+ okay but let's try to perform some experiment and let's try to see whether this kind of prediction
+ is actually true okay so these experiments were performed I think in the 50s but I'm not sure about the data
+ I can't even write it here so but they were performed by some people
+ hacked the shell Iranian underbar them okay and what they did okay they did something very simple
+ so they it was the three of them so they put one of them inside a dark room okay
+ and the other guys just turned on and off this torch and that's the guy in the dark room
+ did you see or you didn't see okay and in this way they evaluated the probability you see
+ with changing the intensity of the light okay so they tried to reconstruct this curve from experiments
+ they did this with several people okay people in their group so that they could see how this curve changed
+ they could reconstruct the curve and they could see how the curve changed from person to person
+ okay and what they got was precisely a curve which was perfectly consistent with this very simple prediction
+ that we just discussed. So it was an analog linear, let's say we did the data like this. So they fitted perfectly an analytical expression like that one and what they found was that fit was good when they took k equal to 6.
+ So actually k obviously the best value changed a little bit from person to person but it was quite robust around 6.
+ On the contrary what changed really very consistently from person to person it was the other parameter alpha.
+ So alpha was different from person to person but k was more or less the same for everyone.
+ This coefficient here is related to the proportion of absorbed photons with respect to the incident ones.
+ So this is really something that is also related to how precise the cornea is.
+ Probably maybe for some person it is smaller, for some other person it is larger and the photoreceptors are distributed in a different way.
+ But this is all inside this coefficient. On the other hand this K is something that is quite universal and it is the minimum number of photons that we need to acquire for being able to see.
+ And K equal to 6 is actually a very small number and since there are hundreds of photoreceptors in the cornea this means that as I was saying before typically one single raw receptor works even when we have very few photons hitting on the receptor.
+ So now I would like to investigate a little bit better how is it possible that this process works in such an efficient way with such a small number of photons.
+ Okay so this is what we will discuss in the following.
+ So let me first draw a little bit of what happens inside and then we will go back to experiments and try to see what people understand from this process.
+ So let's draw a little bit what happens in the corners, so this is the corner.
+ So all the cones arrive from the outside, and as I told you before there are two kinds of photoreceptors, the rods, they are called rods because they have this tribular form, and the cones which are sensitive to different colors and they actually work well when the intensity of light is larger.
+ for the time being will be forced to these receptors, these raw receptors, and there are many of them.
+ And these photoreceptors, they are cells, and they are cells, and these cells, they are not processed neurons, but they are almost very similar to neurons in the sense that they have synaptic
+ endings that connects them with other layers also. So here we have the photoreceptors, the first layer behind the cornea is given by photoreceptors.
+ Then these photoreceptors are connected via this synapses to another layer of cells.
+ I just draw them very schematically.
+ And these other cells are called bipolar cells.
+ So these bipolar cells, there are again many of them.
+ Each bipolar cells integrates the signals of many receptors.
+ And then these bipolar cells are connected to some other cells, which are called the ganglion cells.
+ And the axons of these ganglion cells,
+ this is a very schematic , it's much more complex.
+ The axons of these ganglion cells constitute the optical nerve.
+ This is the optical nerve.
+ So this is the scheme of what happens in photoreception.
+ So here we have the external signal that is elaborated by photoreceptors in a way that we investigate.
+ Then all these photoreceptors will send some signal to these bipolar cells.
+ The bipolar cells have the role to integrate out the noise coming from the signals of the photoreceptors
+ and we will see how this will occur.
+ And then finally this signal will get to the gandroid cells and the optic nerve, therefore to our brain.
+ So we have to stand up in these several stages.
+ What we need to do is to capture the signal, the outside signal,
+ then to clean it, this is what is done on the level of the bipolar cells,
+ and pass it to the brain, this is what happens.
+ Of course there is a lot of noise in all these processes,
+ and so we will try to understand how this whole system deals with this noise
+ and is able to extract a useful information to send it to the brain.
+ Okay, so to try to understand how this happens, we need to understand first of all
+ of how the arriving photos are captured by the receptors and how this capturing is then transporting a signal that can be transmitted to the photoreceptors.
+ So what happens in reality is that if we look at the, just zoom on one of these photoreceptors, the shape of this photoreceptor is something like this.
+ Then I will tell you what all these things are. This is the nucleus, this is a part of the cell where there are other important stuff that are crucial to the functioning of the cell.
+ And here there is this rod-like part, this is why these are called rods. And this rod-like part is made of some structures which are formed of small disks.
+ The important thing is that here there is a protein which is called the rhodopsin. I hope it's written in English. It should be something like this.
+ And inside this rhodopsin, which is protein, so just wrapped inside this protein, there is a molecule which is called retinol.
+ This is protein. Then we will look at this molecule.
+ We will see how this hits structure, for the time I think I just want to draw down the scheme.
+ And when the photon hits, what happens is that when the photon hits, it can be absorbed by the retinol.
+ And if it is absorbed by this retinal molecule, if it is absorbed by the retinol, the retinol changes the structure.
+ And when the retinol changes the structure, this is just a change, like the ones that you have studied in quantum mechanics, there is a molecule that absorbs one photon and changes the state.
+ This changes the state, this change of state is not just a change of electronic level, it's just a structure of the position of the nuclei.
+ So the molecule changes the structure and when it changes the structure something happens around this rhodopsin because due to the change of the structure some enzymes will get activated, precisely like in the case of chemoreception.
+ Some enzymes will get activated and these activated enzymes will change the balance of the concentration of certain heteropolymers and the change of this concentration will make the current through the sand membrane change.
+ So there will be a change in the current through the membrane and it is this change in current which is then sent, perceived to the ganglion cells, to the verbolar cells.
+ So the whole effect of absorbing these bottoms is to make this current change.
+ The transmembrane current and therefore also progression.
+ So now we would like to understand how is it possible that this photo changes the color.
+ So this will be all the part about photoreception.
+ And the first thing that we will look at is as people just try to understand it at the beginning, just perform experiments.
+ So before we will see experiments and we will try to see what people deduce to perform experiments.
+ Ok? And then we will look at this whole pathway that I described to you step by step.
+ Ok? But first let's see what people understood from experiments.
+ We already discussed experiments that were performed at the level of the single organism, men in this case.
+ They performed also experiments on rods and also other animals to understand behavior, directly behavior of changes.
+ Because here it's a behavior of change, it's a change in the ability to see.
+ They performed the same type of experiments also on rods to try to understand some of the things that I will discuss after.
+ But then they said, okay, now we want to understand something more about the functioning, not of the whole organism, but of the single receptor.
+ Okay, and so they went to look at the single receptor and performed experiments on the single receptor.
+ So these are the experiments that we will discuss.
+ Okay.
+ So these were experiments performed by a guy, his name was Barlow.
+ And what did Barlow do?
+ Okay, Barlow just took a single sector, I don't know, I don't remember the sector of what?
+ I think a salamander or rospo, I don't remember the name in English.
+ What's the name of that name?
+ Toad.
+ Toad, okay.
+ I don't remember because typically experiments will perform on this kind of experiments are performed on either salamander or on toads.
+ So what they did is just, okay, we have a circuit and we just put a photoreceptor inside an electric circuit.
+ So we can measure the current, across the, across the, and the potential difference across the receptor.
+ Okay?
+ And then they performed the same kind of experiment that we described before.
+ So they had a torch with a very low light intensity and they just turned on and off the torch by running with its intensity just to try to understand what happened.
+ So the first thing that Barlow noted was the following so let's say that I mentioned the current through the receptor and the current let's say that this is time and this is when I turn on the torch.
+ So the current before turning on the light the current was not perfectly fixed it fluctuated like everything else.
+ So the current fluctuated so this is I and what was the average value of this?
+ The average value of this was 20 p.com, stationary value in absence of an external signal.
+ Then at some point here the torch was turned on and when the torch was turned on there was a bump.
+ So actually the bump was on the opposite side so the current instead of increasing decreased.
+ For simplicity let me draw it as a positive value.
+ Let's remember that I should have written this like this.
+ In the paper they just plotted the absolute value of I minus I station.
+ Ok, so it was a positive one. So they, sorry, I stationery minus I.
+ So they plotted this. So this is positive.
+ This is a stationery value and instead of plotting this they plotted minus this.
+ Ok? So this is something that decreases. In reality it was something like this.
+ Ok? So the truth is that signal decreases but let's draw it as a positive value function which is simpler to do that.
+ Ok? So they have said that there was a part like this and if you repeat it then we will see what happens by repeating this many times
+ to see the statistics of this pump. But typically what I want to tell you now is that he repeated this experiment with just one on and off torching event for different light intensities.
+ So let's say that this is with a given light intensity and then you double the light intensity you will find the light peak.
+ So the larger the light intensity the larger was the average height of the peaks that were observed.
+ However, even at fixed, now let me fix the intensity, okay, let me consider a very very low light intensity and let me repeat the on/off event of the torch being on and off, yes light no light, yes light no light, many doubts.
+ ok so what they saw was the following, here I have situations and then here I have two
+ ok so here I have an event, then here I have another event, then here I have another event
+ then here I have another event, here I have another event
+ ok, so they observed something like this
+ and then maybe here I have another event
+ and so on
+ ok, so we are very very low at intensity, so what they observed is that
+ ok, the first thing that they observed is that the minimum jump that could be observed in this time series
+ maybe sometimes there was also a larger, I am just throwing a filter
+ So the larger pump here was also 1p compared
+ Just to set this number to understand this value relative to what happens in absence of signal
+ let's say this stationary signal is 20p compared
+ and the typical fluctuations of this typical fluctuation of the signal is 0,1p compared
+ ok, so on average this bump was larger than the typical fluctuation of the signal
+ ok
+ and all the bumps that were observed were multiples of this pic of pair
+ so this was approximately 2 pic of pairs in the maximum
+ ok
+ so this was again 2 pic of pairs
+ maybe there was another one at some point and it was 3 pic of pairs
+ ok
+ so all the jumps occurred in multiples of this 1 pic of pair
+ ok
+ so it was reasonable to assume that this corresponded to absorption events of single photons
+ so they said ok here I just absorbed one photon
+ here one photon, here two photons
+ here nothing occurs with zero photon
+ here one photon, here two photons and so on
+ ok so they used that
+ this was the most plausible explanation
+ if you think about how the photoreceptor and this whole scheme works
+ then in the end what is transmitted to the other cells
+ the information that is really transmitted to other cells
+ is the intensity current
+ the current intensity
+ ok, the electric current, the value of the electric current
+ so what we need to understand is how these events
+ here that we just looked and said ok one photo, one photo, zero photo, zero photo
+ how they translate in values of current
+ ok, so we are writing here at the current
+ but this is the current as a function of time
+ and we would like to understand whether we can associate
+ values of the current to there is a photo or there is not a photo
+ the information that is transmitted then to the other cells and therefore to the brain
+ so we would like to understand
+ if there is a relationship between current
+ and number of photos
+ so what I would like to do now and what I need actually
+ to measure
+ the probability
+ to get a certain value of the current
+ in an experiment like this
+ ok
+ ok
+ and to do that you just take this series
+ ok
+ and if you want to know how
+ I don't know this value of the current is probable
+ ok
+ this value here
+ you just count
+ how many times this value of the current occurred
+ during your time series
+ you divide by the global number of measurements
+ that you got in time
+ and that is the probability of getting that particular value of the current
+ ok
+ so they did this
+ experimentally
+ and they found a figure like this
+ something like this
+ ok
+ so let me draw a line for guiding the eye
+ and then according to whether the light intensity of the torch was lower or higher
+ let's say that we keep the intensity even lower
+ if you take the intensity even lower
+ you see that the third peak is depressed
+ ok
+ very good
+ very good
+ so this is the peak of the probability
+ in the experiment performed a fixed audition
+ to get a certain value of the current i
+ ok
+ so they wanted to
+ to try to understand to rationalize this curve
+ so let's say
+ ok
+ let's try to rationalize this curve
+ so let's start by thinking of the case
+ where there is no line
+ ok
+ I just measure
+ I do these experiments
+ there is no external line
+ and I measure the curve
+ as I told you before
+ the curve fluctuates
+ it's around a certain
+ the mean value is what I told you
+ 20 people per
+ but there are fluctuations
+ ok so there will be a distribution
+ of the values of the current in this case
+ because we have fluctuations
+ so we can assume that this distribution is a motion
+ it's the simplest thing that we get to
+ and it fits quite well today
+ so what we can say is that
+ the probability distribution of the current
+ when we have zero photons
+ ok
+ this will be what?
+ this will be a Gaussian
+ and this Gaussian will be centered around the stationary value
+ of 20 pico pair
+ with certain values
+ ok
+ where sigma naught, sigma zero is 0, 1 pico pair
+ and I am going to call you already
+ which is normalized
+ ok
+ so you can measure that
+ you see that this is a good approximation for your data
+ and we know that this stationary
+ we know what is the amplitude of the fluctuations
+ ok
+ very good
+ then we can look
+ we can say ok
+ let's look at this
+ now at the case where I have these small things
+ ok
+ ok
+ as I told you
+ this is one big compared on average
+ but there are fluctuations still
+ along this curve
+ so here if you look
+ at this peak there are fluctuations around this peak
+ so also in this case let's say also
+ when one photon gets absorbed
+ my electric current will fluctuate
+ ok
+ so I will get a gaussian also
+ in the case of when one photon is present
+ ok
+ and this gaussian let's say that
+ if i assume that this one photon makes my current change by one p compared
+ ok the average value of my current will go from this stationary to a certain value i1
+ which is just one p compares on top or actually minus the stationary value
+ so we get a Gaussian also in this case
+ okay
+ very good
+ and then this will have a certain variance
+ and let's say that the variance is adapt so i have a certain fluctuations associated to the
+ original current in absence of external signal
+ and then there will be slightly more fluctuations due to the fact that they have the signal arriving
+ and here again i have
+ and then i do this also for all the other cases so let's say that i want to compute this in the case n equal to 2
+ and then i will have always a gauss, i assume gaussions in all cases
+ i assume a gaussion in the case of 1 photon, in the case of 2 photons, in the case of 3 photons and so on
+ and so this will be i minus i2 squared, 2 sigma 0 squared plus sigma squared plus sigma 2 squared, normalized and what I assume for i2
+ I assume that this is i stationary ok minus 2 i1 so I assume what I told you before that the effect of two photos is twice the effect of one photo so on average these peaks which are remember they are on the opposite side in reality they are twice the peak that you would get in the smaller case
+ ok so peaks are the average value of the peaks is always a multiple of one million okay very good and I assume this also for n equal to 3 of course for n equal to 3 I'm going to put it here and so on okay very good so now how do I get the p of i
+ if I make this assumption for the average values in presence of single photons and I assume that the average values are multiples of the same one p of pair chain
+ ok so I want to go on with p of i by knowing the expressions of these probabilities so p of i I just use the the notion of a condition of probability ok so p of i will be the sum of fn from zero to infinity of p of i in the condition of 2n
+ multiplied by the t of n ok so remember this is a consequence of the definition of condition of probability because the definition of condition of probability is that the probability of getting i given that i know that there are n photons arriving on my photoreceptor is the joint probability of i
+ p of i and n divided by p of n okay this is the definition of conditional probability okay so that p of i and n is just p i n p of n okay but then once i have this joint probability if i want to get the probability of only the first variable i just need to marginalize
+ so i need to sum over all possible values of the variable i am not interested in so i need to sum over f and this is the result of this okay so now we know everything about this everything about these probabilities because this is the Poisson distribution that we already talked about the probability that if i send some photos all my photoreceptors
+ they get absorbed and this is the probability for which i have just assumed this Gaussian expression which i know it works quite well if i look at the profile of the data
+ so this would be the sum of an n this is just Gaussian here sigma n^2 is just the sum of all this
+ and then the p is just a possible distribution so it could be e to the minus m m to the n divided
+ in a vector where in this case m is equal to alpha i tilde let's say alpha 1 i tilde t okay
+ so why is this before if you remember in the argument when I'm describing the experiments of active Mirena I just wrote big M
+ now I am grabbing small M and why is that and I am putting here different character alpha 1
+ why is that because the previous experiments were performed on the organism okay
+ and therefore they considered the whole retina okay so this was the M began was the average number of photos
+ absorbed by the whole retina in time with T okay and this coefficient here contains the properties of the target so in that case the target was the whole retina
+ in this case the target is a single photoreceptor so the area is smaller so on average the average amount of absorbed the photon will be smaller because the photoreceptor is smaller than the whole retina
+ so basically this and this are related by the fact that this will be this multiplied by the number of photoreceptor basically
+ ok so this is the average number for one single photoreceptor so it's smaller ok
+ ok so you see this is a combination of gaussians but each gaussian is weighted with this Poisson weight
+ ok and when the light intensity is very small the average light intensity is very small this n will be very small
+ and this factor here this Poisson factor will be larger for the smaller values of n and they will decrease as n increases ok
+ so this explains this curve here so if you just take that formula you get basically this continuous curve here
+ so this expression here fits quite well with theta ok we are happy because we rationalized everything in what I have been telling you
+ but we understand that what is the origin of these pumps ok so here there is a first Gaussian with the weight p of n = 0
+ so this corresponds to 0 photons ok and this is the second Gaussian this is the second Gaussian and you see it is slower because it is weighted with a smaller possible weight
+ and this should correspond to the Gaussian from one photon and so on ok so this peaks correspond to different values of absorbed photons in this convolution here ok
+ this is the first thing that we notice the second thing that we notice is that if we want to take i the current as the quantity that needs to inform us
+ about the fact that there is something outside or not there is a signal outside or not we have a problem and why is that because if i send to the brain this value of the current then this value of the current unequivocally corresponds to the information no light
+ ok this is the m=0 contribution this is the m=1 this is the m=2 if i send this for it here it corresponds to there is something outside there is one photon i got one photon so very low light intensity ok but then what happens if my brain receives this value of the current one what happens if i
+ pass to the bipolar cells and the bipolar cells then pass to the optical nerve this value of the current ok what does it correspond does it correspond to 1/4 or 0/4 ok so there are regions of values of the current which are ambiguous they could be attributed to the presence of light outside or not so this is to show you
+ that there is noise remember that this curve here depends on the path that we completed these gaussions if instead of being gaussions this were delta function I would not have this problem ok I have this problem because I don't have delta functions on the possible values of the photo I have this noisy signal noisy signal fluctuations fluctuations fluctuations fluctuations so these fluctuations they
+ give rise to this ambiguity in the interpretation of the signal so there should be a mechanism through which this ambiguity is resolved or basically the brain takes out the best possible answer okay so it optimizes the information okay and now next time
+ we will see what would we do okay let's say that we receive this signal here okay and we need to interpret this so what would we do if we read for example this current here what would we say what would we say if we receive this current here what would you say so if you have a current reading and you read this current here would you say that there is one photo or zero photo
+ one okay and here zero okay so next time we will see that your answer is correct because your answer it was minimizes the error okay so I mean you have a brain so you are performing you are performing this very quick operation immediately but your brain is performing you are performing all easily okay next time we will see that actually your brain works very well
+ because you just gave the response and gave the answer that minimizes the error okay then we try to understand how does the receptor perform the same task okay but next time we will see this as a minimization of error problem okay so let's see you Friday

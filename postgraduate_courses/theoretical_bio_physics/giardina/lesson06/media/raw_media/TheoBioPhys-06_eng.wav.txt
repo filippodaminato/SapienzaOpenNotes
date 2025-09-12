@@ -1,0 +1,761 @@
+ Let me go back to the phenomenology that we have previously described, before going away from the external section of what we discussed in the previous lectures.
+ These are the experiments that were performed by Adler and Berlian Brown, who observed the bacterial behavior and studied their kinematic properties at the level of the single individual and the level of the animal.
+ So this experiment that we discussed is an experiment where under observed that if you put the population of bacteria in a nutrient where there is a gradient of the nutrient, the population moves towards the region where the concentration is high.
+ So there is this ability that this population has to explore space and proceed in the more favorable regions of space.
+ So this is the first experimental observation.
+ The second experimental observation is related to how Baphilia moves.
+ So what we understood in these lectures is that Baphilia move, they basically are in an overdraft regime.
+ They do not feel inertia, they are subject to the dissipative effects of the medium around them.
+ And unless they are able to move very quickly and they are able to do that because they have some motors and these motors allow them to propel.
+ And the effect of this propulsion is an erratic trajectory which is made of two different types of movements, a straight path and a run during this.
+ So this is the kind of trajectory that we have discussed the other time and we said that this kind of trajectory has been named run and tumble.
+ Okay. And this run and tumble where these are the runs and the tumbles are the relocational changes of content.
+ And what we'll also discuss the other time are the extensions of these run and tumbles and we said that this in absence of gradients
+ being a more continuous nutrient, the length of the run is typically 20 body lengths, 20 microns, okay?
+ And the duration of the run is only over one second.
+ Very good. And we also saw that the distribution is an exponential distribution, so there are very small fluctuations around these numbers.
+ So before I go into my perception, what I wanted to discuss with you is, okay, this is what happens when the bacterium moves in an homogenous environment.
+ No nutrient or homogenous nutrient.
+ But we also discussed that the interesting behavior occurs when there is a gradient.
+ So what happens to these trajectories, at the level of the individual trajectory, not at the level of the population?
+ What happens when there is a gradient?
+ So now let's imagine that there is a gradient going in this direction.
+ So there is more nutrient here and less nutrient here.
+ So what happens is that while moving, during its movement, the bacterium is able to measure the nutrient.
+ And what it does is that whenever it moves in the direction where the nutrient increases, it takes more time to run.
+ So the run becomes longer whenever the bacterium perceives a better nutrient.
+ Ok, so let's say that in this situation l'effetto colorato ce l'ha?
+ So let's say that our bacterium at some point is here and is moving in this direction.
+ Ok, so in the absence of a gradient it will stop here at 20 moments.
+ Ok, but along with this straight path it perceives that the nutrient is increasing.
+ And then the round becomes longer.
+ Ok, then at some point there is the rungle, the tunnel is always completely rungle.
+ Ok, so at this point there is the tunnel so things may happen, for example the tunnel is in this direction, backward.
+ Ok, in this direction there is no positive gradient, the gradient is negative because we said that the gradient is in this direction.
+ Then, the bacterium comes back to the usual length, 24 length.
+ Ok?
+ Ok, that's it.
+ And then there is another tumble and maybe it goes like this.
+ Ok, here the nutrient is increasing so it is a little bit longer.
+ Ok, and then another tumble and this other tumble is always in the direction of increasing nutrient and then it is like this and then it goes back.
+ Ok, so you see that the effect of this run and tumble when the run becomes a little bit longer when the direction is favorable.
+ On average it produces a bias and the bias is towards the right.
+ Because every time it moves towards the right the length is longer, ok?
+ Every time it goes backward the length is longer.
+ So on average it will move towards the right, ok?
+ Very good, so in particular what is the change is the duration of the run, ok?
+ Instead of being one second, it's longer. The speed remains more or less the same, it's always the flagellant that lasts, so the mechanism of propulsion is always the same.
+ So the speed remains the same, but it remains for more time along the straight path and so it travels more, ok?
+ So this is the area. So now what we need to understand is how this feedback between environment and movement,
+ function of the propulsion mechanism and adaptation of the length of the run occurs in the bacteria.
+ So that will be what we will do next.
+ So the first part of the problem that we will try to address is schema reception.
+ All that we described before assumes that during this run the bacteria is able to understand
+ that the bacteria is increasing. So there should be a mechanism for which the bacteria counts in the bacteria.
+ We will see in which sense the bacteria counts.
+ First, let's picture again the schematically of our bacteria.
+ So the process of counting is related to the fact that on the surface of this bacteria there are some proteins that are called chemolyceratos.
+ They are everywhere in the bacteria.
+ There are thousands of them.
+ And these chemoceptors are proteins and what they do basically is that here there are the molecules from the nutrient
+ and the molecules of the nutrient can bind with this protein and can unbind them.
+ So it is via binding and unbinding the chemoreceptor realises how many molecules there are outside.
+ Because the more molecules per unit line bind and unbind on the chemoreceptor
+ the larger is the concentration of the nutrient outside of the chemoreceptor itself.
+ So via this barbing and unbind process the chemoreceptor realizes what is the concentration outside of the nutrient.
+ We will try to make this more complicated later.
+ Ok, so let's say that this is the way the bacterium comes and then what is the task that the bacterium has to perform via this guarantee?
+ it has to understand whether the nutrient is increasing or not, so it has to measure variations of the nutrient, so this is the task, so variations of the nutrient, so let me call delta C, let me call C the concentration of the nutrient, so the concentration of the nutrient typically is a field which depends on position and time,
+ and in principle it can change because the bacteria changes position or because there are reasons why the concentration changes in time.
+ For example, here I describe a situation where there is a distribution of nutrient which is in homogeneous space, increasing towards the line.
+ But I can also imagine a situation where the nutrient is homogeneous, but I change it in time from the outside.
+ So I modulate the concentration of the nutrient in time.
+ In that case I would have a C which has no dependence on X, maybe it is homogeneous everywhere, but it changes in time.
+ By performing experiments of this kind, people understood that what is important dependence is the variation in time.
+ Namely, if you have a non-genius nutrient and you change the GPD time, you can make the runs by their length.
+ So, these experiments are probably less realistic in terms of what happens in real situations, but they explain that the real important factor is the factor that is a change in time.
+ Then what happens in more realistic situations is that in time nothing occurs but the material moves and so de facto when it moves it explores regions with different concentration of the nutrient.
+ Okay so effectively there is a change in time of the perceived nutrient but this change in time is due to the fact that the material moves.
+ Okay but the important point is the dependence in time. We will come back to that later on.
+ Okay so let's say now that what I would like to do is to equate whatever is its origin to estimate the variation of the concentration on a certain time scale.
+ Okay so I want to understand how the nutrient has changed on a certain time scale.
+ Okay so in particular my nutrient will have a relative variation.
+ Okay so imagine that for example I am moving from here to here or I am comparing point x1 and point x2
+ okay and in this way c is changing from x1 and x2 and if this c bar is the average value I will have a relative variation of my concentration.
+ Okay so this is what happens in reality the real situational space okay
+ but concentrations, this is what we would like the bacterium to perceive.
+ This is the signal that the bacterium needs to really perceive if it wants to do the best for its survival
+ to go towards the region of better cosmopolitan.
+ Very good, but now there is another problem that one thing is saying that here I have a concentration C by 1 and here I have a concentration C by 2.
+ And this is the real concentration of my nuclear.
+ Another thing is that in this point the concentration is measured by the bacterium.
+ Okay, very good. So, and what is the problem in botopacterium matters?
+ The problem in botopacterium matters is the following.
+ Let's say that I have my bacteria in this space, okay?
+ And for what I explained to you, the counting, of course,
+ the fact that I have this chemical sector, and this chemical sector that there is, let's say, a small working volume,
+ inside of the gamma receptor, and all the molecules in that volume bind and unbind to the gamma receptor,
+ and this is the way the gamma receptor comes.
+ So the way the gamma receptor comes and estimates this C1 bar, for example, is via this sampling volume.
+ So this sampling volume, however, is a fine sample.
+ So since the measurement occurs in a fine sample, it will be different from the real concentration.
+ What does it mean? It means that, imagine that I take a box, a large box, and I put many points in this box with a certain density.
+ I put all my points, and I tell you, these points are distributed uniformly, and the average concentration of this point is C bar, which is the number of points divided by the volume, but when these two points are very large.
+ Ok, so this is a very big volume, this is the average concentration of points are from you. You can do that in a simulation.
+ Now let's take a small volume, ok, take a small volume and let's measure here, let's imagine that you want to estimate from this small volume this concentration.
+ So in this volume you count m molecules, ok, and you divide by delta V which is the small volume, okay, this will be different from this.
+ And why? Because there are fluctuations, and as you know from your standard course, the effect of fluctuations becomes disregardable for large sizes, but when the sizes are small, they are different, ok.
+ So there will be some fluctuations in this small sample and what will be this fluctuation? Imagine that you could run on this point in this big box, the points are just drawn with a resolution, ok.
+ So in this small volume there will be fluctuation of m, the number of particles that belong to that small volume, ok.
+ So you will have that, the average value of m if you take many volumes, many small volumes, ok.
+ If you will distinct over all these small volumes, the average value of m will be nothing else than m.
+ m divided by, sorry, will be c bar, ok, with the average estimate, ok.
+ But the fluctuations, that m squared average, they will be exactly on the same order, if this is a possible process.
+ Ok, so when you take the linear fluctuation, it will be like this.
+ Ok, so the relative fluctuation of the concentration here, ok, so you will have that.
+ And here fluctuation of the number of parties also.
+ Inside the small volume will be one over square root of C bar delta V, ok.
+ If I just take this and divide by this, ok, and the fluctuation of C will be exactly the same.
+ Ok, so just by a statistical reason if you look at small volumes you will have fluctuations and the relative fluctuations of concentration in your sample will be like this.
+ Ok, and this statistical fluctuations is there because the volume is small and your sampling volume is small.
+ But not because the particles are disorganized.
+ The particles are homogeneous.
+ Ok, it's just a statistical fluctuation.
+ Ok, so you see that there is a problem because this statistical fluctuation does not correspond to a real variation of the concentration.
+ It's just a statistical effect.
+ Okay? So now let's go back to the bacterium because this volume here is precisely the analog of these small dots here.
+ Okay? So why did I discuss this? Because when the bacterium is here, it estimates the concentration of the nutrient,
+ but the concentration of the nutrient here is estimated with that error that we just discussed.
+ Okay? So that is the error that the bacterium makes when it computes the statistical error that it makes
+ when it computes the concentration at a given point in space and time.
+ Okay? So if the bacterium has to estimate in a correct way a real variation of the nutrient,
+ what we need to have? We need to have that the error is smaller than the signal.
+ Okay? So we need to have that delta C over C bar, the error, the statistical error,
+ should be smaller, okay, than the variation, the real variation of the signal.
+ Okay? This is what we want to measure. The error must be smaller, otherwise what I am measuring is CpD error.
+ Okay? Good. So now let's ask the question, how large is this error? Okay? So we want to go
+ to estimate this error and try to understand whether this error, given the variation of nutrients
+ that usually are found in physiological repetitions, satisfies this constraint.
+ Okay? Very good. So let's try to estimate, to estimate this and to compare it with this.
+ But the estimate of this, we already made it. Okay? It's just this.
+ Okay? We already did the computation. Okay?
+ So let's try to rewrite this computation in terms of quantities that are reasonable for the video.
+ Okay?
+ Sorry.
+ Yes.
+ I didn't get it very well, but the genome itself cannot modify the total amount of nutrients in the space that we are looking at.
+ So, I mean, we are looking at a case in which we have the bacteria that move with a certain kind of ground nutrients that itself exist in this space,
+ and we say that we have to understand the concentration that the bacteria will feed outside itself,
+ and then we don't think that the bacteria once comes to the one that comes to the nutrient can take the nutrient,
+ and so itself can modify the...
+ The bacterium doesn't take the nutrient because it binds and unbinds,
+ but if it takes it, they have done this experiment also with substances that the bacterium does not metabolize.
+ So what I am describing is a mechanism is independent of the potential action of the bacterium on the nutrient.
+ Then, of course, if these oxygen molecules that it needs for whatever, it will absorb them.
+ So it will change the concentration outside, but we are not taking into account that effect.
+ We are just assuming that the nutrient is not perturbed by the bacteria.
+ So also the binding process?
+ No, the binding, they continuously bind and unbind.
+ So we will see how this translates, we will go back to that, but this is not relevant.
+ Okay, because molecules bind one per time, so they really, in this process it is binding and unbinding that means counting, you will see that later on, okay.
+ Here is a level of the more schematic legend, okay, we are just assuming that, let's say that there is a certain time through which given this something volume,
+ the bacteria will count the molecules, we will then go back to understand how it does that, but for the time being, we can just say that in a certain time, the bacteria will count all the molecules that are in this molecule, okay, a very, very rough schematic picture, okay, and then, of course, when we are trying to estimate these things here, and therefore, I will just put there that number,
+ okay, that we estimated, so this is one over the square root of the average concentration, multiplied by something volume, and we can say, okay, something volume, something volume will be something of the order, of the length of the gamma receptor itself, just to make a reasonable and simple assumption, so if I call, what can I call it,
+ S, small s, the length of the gamma receptor, this will be something which goes across the stream, ok, basic assumption, ok.
+ So if you put the real numbers, this is actually, I'll try to do that.
+ So if the material really is this, ok, this quality will not be satisfied, ok.
+ I'm just only considering one single receptor.
+ One single receptor, then we go back and we are focusing on one receptor and just doing the simplest possible.
+ Then step by step we will make more refinement.
+ Ok, but then, so this, if you compare with the real relative variations of nutrients, you realize that
+ this is actually a little bit too big. Ok, if this were the situation, then it would be a problem.
+ Ok, but actually, at some point you realize that the bacteria can do better. Ok, how can it do better?
+ It can do better in the following way. So let's go back to our example here. Ok.
+ So let's assume that we are performing our measure of concentration not just in one volume but in several volumes.
+ Let's say that instead of considering one small volume than the B, I consider k in them.
+ So I consider k small volumes. This, this, this and this.
+ And I try to estimate my concentration by looking at these volumes.
+ So in this picture you realize that considering k small volumes delta B is completely equivalent to consider a bigger volume which is k delta B time small volume.
+ Okay, so it's like having a delta B prime let me call it, okay, which is k the origin of delta B. Okay, because these are independent redistributive so I put them together it's like having one per million volume. Okay, so I can redo exactly the same reasoning that I did before but with this larger volume.
+ and what I will get, I will get exactly the same expression but with delta diagram here. So I will get this, okay, which is equal to 1 square root over c bar k delta bar.
+ Okay, so you see that there is this k factor here which is favorable because k is larger than 1 therefore my relative to the statistical error increases.
+ Okay, so this, what does it mean? It means that if instead of using one single sample volume, I use many of them independent, they should be independent one or the other, then I can make my statistical error smoother.
+ Okay, so we can go back to the bacterium and we say okay, maybe the bacterium can explore this part. Okay, it can explore this part.
+ And why can I explore this part? Let's assume for the time being that the bacterium is fixed. It does not move. Okay? If it is fixed, nevertheless, what happens is that since these are molecules in water, they move. Right?
+ So if I wait by diffusion after a certain time, all these molecules will go away and new molecules will arrive. Okay?
+ Okay? So if I wait enough, it's like having two something volumes independent. Okay?
+ Or maybe if I wait a little bit longer, I can have three, I can have more. Okay?
+ Very well. So I understand that I can, if I now use this modified formula, instead of using one single volume,
+ I can increase the number of independent something volume, just weighting more.
+ Okay? So now I will try to understand what happens if we perform the measurement, the bacterium weights a longer time.
+ Okay? So let's say that, here it's clear, right? So I can...
+ Now I can put a K. The K is the number of independent sampling volumes in the time of my measurement.
+ Okay? So now we understand what is this K from that example.
+ So now let's say that my bacterium performs its measurement of the nucleic in a set of time T.
+ T is the time that the bacterium takes to measure the nucleic.
+ What we want to try to understand is what is the number of independent sampling molecules during this time T.
+ So these molecules will be fused, so after some time there will be new molecules and after some time there will be other molecules.
+ We want to understand how many independent samples there are in time.
+ Then to do that, what should I do? Well, I should exploit, I mean, how do I do that?
+ If I have, if this is my sampling volume, okay, these molecules of nutrients, those ones there, this is the kind of receptor,
+ each one of them moves by diffusion, because they are diffusing in water, okay,
+ and I need to compute how much time do these molecules take towards this volume, okay,
+ but I know how to do that, why I know how to do that, because if I assume that they purely diffuse,
+ this pure diffusion, what I know is that the distance traveled on average in time t goes as to the,
+ we studied this relationship here, ok, very good, so now let's suppose that this is 1/2, this is 1/2, ok,
+ this is a distance, it has the dimension of a distance, now let's say this is the distance traveled, the typical distance traveled in time t, ok,
+ so now we want that this distance traveled should be equal to the size of this region, ok, if I wait a time sufficient for this distance to be traveled there will be a change of the model, ok, so I need to impose that this quantity should be equal to s, because we said that this dimension is equal to the dimension of the receptor itself, ok,
+ so this equation allows me to say that the diffusion time, ok, the time the molecules take to change completely in this something volume is equal to what it would be equal to s squared divided by 2D, ok, very good, very good, so how many independent samples
+ do I get in time Qt, well I get Qt divided by the diffusion independent samples, ok, because the diffusion is the time I take to completely change the molecules, ok, so this is, yes.
+ Sorry, are we assuming that molecules move faster than the bacterium?
+ No, I'm assuming that the bacterium is T, so I'm not moving, yes.
+ Ok, ok, so this is the number of independent samples, so this comes up to B, let's put it here, T to B divided as 4, ok, very good.
+ Very good, so now I can plug everything here inside, ok, what do I find? It's right here.
+ So what would I find is that the statistical level beta 0 is c bar, ok, it will be equal to 1 of square root of c bar.
+ c bar is q and then I have k, but k is 2 d t over square, ok, therefore this is 1 over square root of what?
+ to the c bar s t, ok, this is a very, very, very approximate computations, ok, what we can assume is that here there should be a numerical fact,
+ here we are going to, so probably this should be something where we have a certain constant, A, B, C bar, S, T,
+ where this constant depends on the shapes of things, because we need something really very large,
+ so there should be a number here, which is a constant depending on the details of our receptor,
+ and then there is this answer here.
+ Okay, so what I want you to notice is that this, the square root is nothing else,
+ this will be useful later on, this is nothing else,
+ here on the square root is very similar to the current of particles on the gamma receptor.
+ If you go back to the computation that we remember that we hit bacterium in a layer,
+ and we estimate the current of particles hitting the bacterium on the outer surface,
+ we call that J dot, if you go back to the computation you will find this number,
+ so the number of particles per unit time that arrive on the surface of the bacterium,
+ of the sphere, because I mean basically assume that this was a sphere, okay?
+ And what we found out was that this J was, if you look back at the computation,
+ was 4 pi R B C, okay? It was this number here. So it was a geometrical pre-factor, R was the size of the sphere,
+ and then we had the fusion coefficient and then we had the concentration on the unit on that side, okay?
+ So it's something like this, where instead of the 4 pi, we have this geometrical, in general this geometrical factor,
+ it seems we are looking at a carbon receptor which is size S, we have S instead of R,
+ and then we have the diffusion coefficient, and then since we are looking at things over a time, T,
+ we multiply by the time, because this is number of particles on the surface per unit time,
+ if we want to look at the number of particles in a human interval, we should look at the time.
+ Okay, so it's basically the same idea that you have the fusion, particles are run on a target by the fusion,
+ and you are counting how many particles there are, and the error is one of the skeletal number of these particles.
+ So it's very much connected with what we already looked at.
+ Okay, very good. So now that we have this number, we can see what happens.
+ Okay, we can see what happens. We can see what happens because now we can make some arguments.
+ And as we have already said before, we wrote down a constraint, which is a constraint that should be realized if the bacterium is able to distinguish the gradients of the nutrient.
+ And it is something that is already there, so delta c over c bar should be smaller than delta c over c.
+ So the signal, the real variation of the nutrient should be under the statistical level.
+ Now we have estimated this, so now we want to estimate this.
+ Okay, so we can do that in two different contexts, so let's try to look at first at a situation where our bacteria is fixed in space, it doesn't move, but we are changing the nutrient.
+ Okay, so these experiments are being performed and there were some very good experiments to test these kinds of arguments.
+ So what happens then is that C is changing because I am changing it from the outside so it really has a development of time.
+ Okay, so Delta C, what is it?
+ It is just a derivative of C with derivative of T with respect to time multiplied by the time that I take to make my measurement which is with T.
+ Ok? So delta C over C bar is nothing other than this divided by C bar. Ok? So now we have a configuration of this and a configuration of this. Ok? We can substitute. So here what we get? We get 1 over square root of 2D C bar S and T. Ok?
+ And then on the right side we have that this should be smaller than the derivative of C with respect to E, 1 over star multiplied by E. Ok?
+ So now let's see this equality here, let's look at this equality in terms of the measurement time, this big T and you will understand why is that but why we are looking in terms of this T. First of all, all the other quantities they are fixed.
+ The size of the carboreceptor is fixed, the diffusion coefficient of the nutrients is given, the concentration nutrient is what it is, I can fix it in my experiments but this is something that I control or it is what it is in the natural environment but again it is not something that is up to the bacterium design.
+ Okay, likewise the speed with which the nutrient changes, this is something that the bacterium cannot design.
+ Okay, the only thing which can vary is this time.
+ Okay, so we can reduce this equality here as a disability for teeth.
+ Namely, we can ask what is the minimal time that the bacterium should take to measure the nutrient
+ in order to measure it with enough good precision to discriminate the radius.
+ Okay, because if this equality is not satisfied, the bacterium cannot distinguish between noise and signal.
+ It cannot understand whether there is really a variation of the nutrient or not.
+ Okay, so there will be a minimum time that is necessary to discriminate the signal in respect to the noise.
+ And we want to understand what is this minimum time.
+ Okay, so we can invert this equation and we write it in terms of T.
+ And what we get is the solid, we get T, this large, then A, B, C bar, S, one over C bar, the C over the T, squared, to the minus one third.
+ Okay, so we get T, it should be smaller than this T, okay, so we get this estimate, okay, which
+ is useful, but it's not in the end what interests us more, okay.
+ Why? Because in this situation here, the bacteria is not moving, I'm doing an experiment where it is fixed in space and I'm changing the nutrients from outside.
+ Okay, what is more interesting is to try to understand how this equation will be done, okay, if I now assume a different situation, namely that the nutrient
+ does not change in time but the bacterium moves and as it moves it explores regions where the nutrient is different. So there is an implicit depends on time which is due to the fact that the bacterium explores different regions.
+ So what happens if I want to explore this situation? Disquality, the starting disability remains the same. This one, ok.
+ But now I need to better express the right hand side. And why is that? Now I want to better express this, ok.
+ Because this is just due to the fact that x changes, ok.
+ So this will be a derivative with respect to t of a certain c of x, ok.
+ Let's do this in one dimension and then we'll see how general class is in the negative dimensions.
+ x changes, so if I want to express this, this will be the derivative of c with respect to x
+ multiplied by the x over the y.
+ Why x changes?
+ Here my bacterium, here it is in a certain x but the bacterium moves with a certain speed and then after some time it is in another x.
+ Okay, so there is a variation in time due to the variation in space.
+ Okay, so this is the velocity of g.
+ Okay, so this is now how we would express the variation of the experienced concentration.
+ Okay, and in generic dimension that would be the gradient of the nutrient multiplied by the velocity of g.
+ Okay, so this is what I should express things if I want to do better things.
+ Okay, very good.
+ And so now, okay, once I have this, I can re-express everything.
+ Okay, here, now this becomes the same as here.
+ This will become one over C bar, the gradient of C.
+ Okay, now this becomes this and once again I can multiply by T of course.
+ This is inserted now.
+ Okay, no, no, no, here I don't have it.
+ Yes.
+ Okay.
+ So now I can rewrite everything.
+ Okay.
+ No, no, no, no, here I don't have it.
+ This is directly the ...
+ Okay.
+ Okay, okay, good.
+ This is a link that I get.
+ Why don't you do this for me?
+ This is just the part of the derivative of C.
+ So then at this point I can try to use everything.
+ Okay.
+ And it's already working properly.
+ I don't think I have here.
+ I want to see something later.
+ That's why I was confused.
+ I'm looking at a different page.
+ Then I will just forget the expression.
+ It's just the same.
+ Instead of putting this here, I need to put it again.
+ Then it's exactly the same.
+ Okay, so I will get this same expression.
+ But instead of having 1 over c bar with c over the t, I should put that in there.
+ So I will get t plus a b c bar s.
+ And here I will get 1 over c bar gradient of c dot p squared minus dot f.
+ So, you can check, you can check this problem and everything but this water comes because you have 1/2 here and then you have another here.
+ Okay, so I get, in this case I get, again, I get that my measurement time should be larger than the set of minimum value of time which is given by this one in here.
+ Okay, so now why this is more interesting when thinking about the movement of the bacterium in space.
+ This is more interesting because for this thing to be meaningful, okay, you see this expression here, we have the gradient of C.
+ This means that my bacterium is going in a certain direction and it's measuring the nutrient, okay, and in that direction there is a certain gradient and this is what should go in there.
+ But if in this process while the bacterium measures it performs a tumble then everything is completely ruined. So if the bacterium performs a tumble in this measuring process it cannot really be measured.
+ So there is a minimum time that the bacterium must take to measure in order to make statistical fluctuations to make noise small enough but this minimum time should be smaller than the length of a drum otherwise everything is good.
+ So for everything to be consistent, for the bacterium to be able to do efficiently what it does, we need this T0 to be smaller than the time it takes to make a run.
+ So what we need to occur is that T0 should be smaller than T0.
+ Okay. Very good. And so now why this is interesting because here we can plug here inside realistic numbers.
+ Okay. So we can plug, we know the diffusion of typical nutrient molecules. Okay. We know what it is.
+ We know what is the typical concentration of nutrient that it encounters in the natural environment.
+ We know what is the order of the relative gradients that it sees around. Okay.
+ We can plug, we know the speed, the speed is just, if we go to this along the run,
+ this would be just the speed along the run and we know that it is 24 minutes per second,
+ so we are not responding, we know everything.
+ Okay, so we can plug inside the numbers and we can see what comes out.
+ Here I can just put some numbers just to give an example of this.
+ So, I'll give you the numbers and you can try to do some details.
+ Ok, so what I lose is the D equal 10 to the minus 5 cm^2/s, which is a typical value for amino acids, sugars.
+ Then, I also use the typical concentration of sugars in water, in the typical solutions of the MOV.
+ These concentrations are of the order of nanomolars, so here I just complete the computation of one nanomolar.
+ One nanomolar is 100 cm, it's 10^-12 moles for cm^3.
+ It would be 10^-9 per m^3 and cm^3 becomes something like this.
+ And then I chose S to be...
+ Here is a preliminary data vaccination and then we will see that.
+ I did this computation with IFI.
+ Here I picked up one micro, okay, that will come back to the size of the bacteria itself.
+ And then I chose this quantity here, the variation of C over C bar, which is gradient of C, B over C bar, okay.
+ This is the order of, I put it to be 130, okay, then I plugged everything inside and I got that T was on the order of 1.5 seconds.
+ So the order of magnitude is good because it's just the order of the length of the duration of a run, okay.
+ However, there are problems that I put under the carpet.
+ What are the problems? The problem is that I used a small value for the coefficient A.
+ So people have done more complicated computations in which they are put inside more realistic numbers A.
+ And then if I want to be honest I should not put one here, one microgram, I should put the extension of a chemo receptor which is much smoother.
+ So if I do this actually I get a number which is slightly larger, if I put here the extension of one chemo receptor which is something like this, I get a value that is too large.
+ And this tau here is of the order of 10 seconds, which would be a problem because that would mean that to estimate well my signal I need 10 seconds but the length of a run is one of the order of one second.
+ So that is a problem. However, I would be wrong even putting here 10 to the minus 2. Why is that?
+ Because I don't just have one chemoreceptor, I have many of them.
+ So when the bacterium estimates the nutrient, it does not just use one chemoreceptor, it uses many of them.
+ And this is the thing.
+ So if I use the whole surface of the bacterium, if the bacterium were a completely well defined chemoreceptor itself, then things would feel better.
+ If there was just one chemoreceptor, things would not go well, but there are many, so even if they do not cover the complete area of the bacterium, since there are many things out there.
+ And now we will try to see why it is like that.
+ To see why it is like that, we will make this argument here.
+ Sorry, I am going back and forth but this is just the best way to understand things.
+ So I told you that what is here, this quantity here, is just basically the quantity j-dot that we have already computed in the other computation.
+ The number of particles arriving on our target per unit time.
+ So I want to go back to that computation.
+ And that computation, if you remember, just assume that the target was here.
+ And that particle arrived.
+ And using the diffusion equation and Fitz's law, I just called the J dot.
+ Which was equal to four times.
+ B, C, and the size S.
+ Okay?
+ Very good.
+ So now I can exploit a similarity.
+ Okay?
+ So just to think of this process here.
+ Here the current are all these factors in going the current, the probability current is just used by this J.
+ Okay?
+ And if you remember Fitt's law, J is nothing else that might be the gradient of the probability of the probability C in this case.
+ Ok, so this is what we already brought the other time.
+ Ok, so now if you remember the setup of this computation, this looks very similar to something that happens in the electromagnetic field when you have a charge of sphere and you look at the electric field, at the lines of the electric field going inside the sphere.
+ This is a very useful analogy because if you go back to the electromagnetic case, here I have the current, in the bacterial case the currents are just concentration currents.
+ Here in the case of the conductor this is the electric field which is minus the area of the electric potential.
+ You see there is an analogy.
+ So the current plays the role of the electric field and the concentration plays the role of the potential.
+ And what was J dot?
+ J dot will get the integral around J across the ceiling.
+ So I just perform the integral over J dot M, this is the area, this is the M vector.
+ So J dot is the integral of the element of an obvious area.
+ And here if I do the same, if I take the integral instead of using J as E,
+ and I do exactly the same thing.
+ In the case of the electromagnetic, I can exploit the Gauss theorem,
+ and this is the charge on the conductor divided by the electric constant.
+ Okay, so J is the analog of E, and I have a fantastic red color, and J is just the analog of J.
+ Okay, it's an analogy.
+ Okay, so, but I can write this, I can do the computation and I just get what I wrote about, J = 4, 5, B, C, S.
+ Okay?
+ And for a conductor, if I perform this computation, what I get is that Q is nothing else than the capacity of the conductor
+ multiply by the potential, the difference of the potential from the conductor to P, okay?
+ Very good.
+ Which in this case, if you do this for a sphere, the capacity of a conducting sphere, this is nothing else than 4,
+ 5, epsilon, 0, the radius of the sphere, we call it S, or the conductor.
+ Ok?
+ But this is the capacity.
+ The capacity.
+ Ok?
+ So, you see that basically, if I do this in identification, I understand that I can find this factor here.
+ Ok?
+ Just by looking at the capacitor of an equivalent for that.
+ Ok?
+ So, this equivalence tells me, now imagine that I have something with a more complicated shape.
+ How do I compute J-DOT?
+ Well, people have been working a long time to compute the capacitors of many different conductors.
+ So, I don't need to do the computation again, I just look in the books.
+ Ok?
+ Where people have computed the capacitors for objects of the same shape.
+ Ok?
+ And I find out what is the j-dot.
+ So this is what people did.
+ We are not going to do the computation again.
+ This is what people did to compute the j-dot of something like this.
+ So let's assume that we have a sphere with circular functions.
+ And I call the GAR the radius of the sphere as more as the radius of the branches.
+ And I look at the books and the capacitor for a conductor with this shape has been completed.
+ So I just take it, I plug it inside the j-dot formula and I find my final result.
+ And so what do I find in this way? I find this.
+ I find that j-dot for that shape there is equal to 4i-d-c-s, oh sorry, r.
+ Where r is the size of the continuum, in the case of p.
+ And then I find that n is s divided ns plus pi r.
+ Where n is the number of functions, therefore n in our case is the number of receptors.
+ And why this formula is interesting, because you can plot numbers inside it.
+ What you can find is that if you use r = 1 µm, s = 10 m Armstrong, which is the correct value of the length of the receptor.
+ I even overestimated it before.
+ Okay, and you take n of the order of a few thousands.
+ Okay, here you put three thousand, which is realistic if you think of a real bacteria.
+ Okay, if you take this, what you will get is that j dot is one half of the maximal j.
+ The maximal j would be the j that you would get if the whole bacterium was a chemoreceptor.
+ Okay, so if you take back at the estimate of T0 that we did before, we said if it was a complete bacterium, that would be okay.
+ If it is just one chemoreceptor, I would get a T0, which is one five, okay.
+ But since we know that the situation is in between and this one, with the number of chemoreceptors
+ that you really have in the bacteria, things go ahead.
+ Okay, so this is the final message, okay.
+ Then actually I may think very easy here because the situation is even more complicated than that,
+ but more or less these arguments, these very simple arguments that we made give the correct estimate, okay.
+ More or less then pre-factors are wrong, one can do better combinations, but more or less the kind of argument is correct, okay.
+ And so the final message is there is an environment outside with fluctuations, okay.
+ This fluctuation could in principle ruin the ability to perceive gradients of the nutrient,
+ but the bacterium can take enough time to perform its measurement as to reduce the noise as compared to the signal and measure the signal, okay.
+ And this can be done working with measurement times of the order of the seconds which are precisely the length of the run.
+ Of course, you can also invert this argument and say, okay, the run is long approximately a second
+ because this is the minimal time that would be necessary for the bacterium to correctly exploit this environment.
+ You can take the other way around.
+ Okay, so the bacterium really optimizes things.
+ It makes these runs just the minimum time which is, however, enough for performing and for accurate measurement.
+ Okay, so this is the bottom line of this area.
+ Now, before going on, I would like to address a little bit better another point that we left very unwaving.
+ And this argument is what does it mean actually that the co-receptor counts.
+ So let's try to understand a little bit better what does it mean counting.
+ So I have a receptor here.
+ And there are particles of the nutrient molecules of the nutrient oxide.
+ And what does it mean counting?
+ And how does this way of counting connect with the concentration of the molecules?
+ So this, you can have an idea about this in this way.
+ You need to consider that, as I told you before,
+ where it comes is that, I made a zoom.
+ So this is a protein, the common sector is a protein.
+ We set the protuberances and at some point we have a molecule that binds to the receptor.
+ There are many molecules inside.
+ And at some point one binds.
+ By diffusion one of them heats the protein and it gets done.
+ So at some point it gets done but then after some time it unbinds.
+ So it's not that once it binds, it binds forever.
+ It binds and after some time it unbinds.
+ So now we are going to try to understand how this process of binding and unbinding is connected with the concentration of the material.
+ So this can be done dynamically which is a little bit more complicated but it can be done in the stationary state which is similar.
+ So let's call P bar the probability that the receptor is occupied.
+ Actually this comes from a dynamical process.
+ So we can imagine that there is a certain variable P of T, which is a binary not viable.
+ This is one if the receptor is occupied.
+ And this is zero if it is not occupied.
+ So this probability you just take a certain time and compute the average value of this dynamic at one kilogram at a time.
+ And that would give you, in a stationary situation, that would give you this P bar.
+ We can see what that would be, just the one over a certain T, integral from zero to T, for T long enough.
+ Long enough, but you are in a stationary region.
+ Let's assume that we are in a stationary region and that we can use this average probability of our receptor to be occupied.
+ Then there will be fluctuations, so the computation that I am doing is approximate because it discards the fluctuations of this value in time.
+ But let's do something simple, what can do as a complex computation, but let's do it simple.
+ So let's call this P probability.
+ And therefore, obviously, 1-P bar is the probability that the receptor is free, it's not occupied.
+ Okay, and then let's call to B the typical time in which the receptor is occupied.
+ And therefore, 1 over to B will be the typical rate at which a molecule that is bound to the receptor aligns.
+ Ok, so this is the rate, let me call it the unbinding rate.
+ Ok, the unbinding rate is the inverse of the typical time of bonding.
+ Ok, then the other quantity that we need is the number of particles, of molecules that heat the receptor per minute time.
+ And this is the quantity that we already talked, this is J-tov there, but complicated for one single receptor, so that would be 4 pi V, assuming that it is spherical, so multiplied by the size of the receptor and the concentration outside.
+ Ok, concentration outside which would be what it is.
+ Ok, very good, so now let's assume that we are in a stationary situation.
+ In a stationary situation this means that the number of particles of molecules that vacuum average that bind on the receptor during the time is equal to the number of particles during the time that unbind on the receptor.
+ Stationary situation. So the stationary situation what would we get, now let's compare the number of particles that bind to the receptor.
+ So the number of particles that bind to the receptor, for a particle to bind to the receptor, the receptor should be 3, otherwise it's time to bind.
+ So we need to put a 1 minus 2 because the probability for the receptor would be 3.
+ And then the number of particles per unit time that can arrive from the receptor is just the budget.
+ So that would be 4 plus B, S, C.
+ So this is the average number of particles getting to the receptor per unit time.
+ And then we need to work with the particle that can bind from the receptor per unit time.
+ So if they are bind, there should be a release of the receptor, so that we should put B bar.
+ The probability of the receptor is occupied.
+ And then therefore we should copy the rate at which they are bind,
+ which is just a gamma banding, so it's this over B.
+ So you see this is a relationship that connects this B bar,
+ which is the probability that the receptor is occupied with the concentration.
+ So we invert, okay, and if we invert, we find the B bar equal 4 pi B S C dot B divided 1 plus 4 pi B.
+ For now if you plug inside the real numbers, we already know what is rest, we know what is here, these are very small numbers, okay, so this term here is very small.
+ This is a one, so basically you can use the values, okay, so this is approximately four, five, B, S, to B, C, okay, so what does C bar if you just put the average value?
+ So what you see here is that the occupational probability of the receptor is directly proportional to the concentration.
+ So what actually this receptor does is not count what is outside, it's just being occupied or not occupied.
+ But the probability of being occupied is directly proportional to the concentration.
+ So the more often the chemoreceptor is occupied the larger is the concentration outside.
+ So the behavior of the receptor, being occupied or being occupied is a direct measurement of the concentration.
+ Ok, so that's how really things happen, it's not that the chemoreceptor counts, it's just that it's occupied or not occupied but this is directly proportional to the concentration.
+ Ok, good. So this is a little bit to understand how chemoreception works.
+ Everything that I said today can be complicated actually. Ok. So how can it be complicated?
+ Well, we did all our estimate of the noise and of the typical statistical fluctuation here by using average quantities.
+ So we assumed the average value and the typical fluctuation of the number of particles inside that sampling volume. Ok.
+ But in principle we know the precise equation that regulates how this molecules move.
+ So we could do in principle things with more accuracy.
+ So we could for example define a dynamical variable which I can call m of t.
+ Which is the number of molecules present at time t into leaving something volume.
+ And I will compute all the statistical properties of this model here and build a better estimate of the statistical nodes.
+ It's more complicated, but it's taken to come with the fusion process of the particle and so on, but this can be done.
+ It's more complicated, but in the end the kind of result that you get is very similar to what we got.
+ So I will not go into these more complicated populations.
+ Okay, so now that we have discovered a little bit how chemoreception works, nevertheless there are a lot of things to understand.
+ Because we need to understand how the information that is achieved by the chemoreceptor is then translated into movement,
+ into the fact that the general motor rotates in one direction or the other.
+ so what we now try to understand is what is the biochemical pathway
+ regulating the movement.
+ so this is complex but we will simplify.
+ I mean the main thing in this course is that we simplify
+ very rough scheme of things but we also understand the mechanisms.
+ This is easy for us.
+ So let's say that we have here a immunoreceptor.
+ We have immunoreceptor but there is considered one.
+ So this is binding and binding of processes.
+ So what happens inside?
+ What happens inside is the following.
+ Maybe it's too small.
+ Let me put it a little bit larger.
+ This chemoreceptor is larger.
+ Outside it can bind with the molecules of the nutrient but inside it can also bind with some other things.
+ In particular, it can bind with certain other molecules which I call A.
+ All these molecules that I will describe belong to the family of the kinase.
+ These are enzymes.
+ These are enzymes.
+ So this in particular is what is called Ka.
+ So this enzyme, and this enzyme, it can bind with the chemoreceptor.
+ But it can bind with the chemoreceptor only if the chemoreceptor is not aligned with the wound.
+ It should be filled.
+ There should be space defined.
+ So if the chemoreceptor is available, the Ka binds with the chemoreceptor and becomes activated.
+ Okay, so this becomes Ka plus.
+ Okay, and this is the first thing in here.
+ Then, so we have these Ka which are bound to the live chemoreceptors inside the NMT.
+ Then we have other kinase which move inside the NMT, okay, which are B, the KB.
+ The KB diffuse, they diffuse inside the bacterium, so by diffusion sometimes one KAB can arrive on top of a KAB plus, okay.
+ If the KB arrives on the KAB and the KAB is activated, then the KB becomes phosphorylated.
+ So this is a phosphorous group that can, they transfer synthase, the attachment of phosphide groups to the KB.
+ So this becomes what is called BY.
+ So this becomes KBY, okay.
+ And that is KBY, okay.
+ They diffuse, they diffuse, they diffuse.
+ And here there are the Fragenda motors.
+ They combine with the Fragenda motors, okay.
+ And Kb regulates the rotation of the Fragenda motors, okay.
+ In particular, the more Kb binds to the Fragenda motor,
+ the larger is the probability that the Fragenda motor will move clockwise, okay.
+ So, people have measured that and what they found is this graph here.
+ We will return on that next slide, but let me draw this.
+ We're experimenting with this.
+ So, here we just compute the probability of rotation clockwise.
+ Probability that the Fragenda motor rotates in a clockwise direction, okay.
+ As a function of the concentration of KYB.
+ So usually when you have square brackets it's the concentration of what's inside, okay.
+ So here we have the concentration and here we have the probability.
+ How do you measure that?
+ You take a bacterium and maybe you fix it somehow so that it doesn't move, okay.
+ And you just measure the concentration of KYB on the side and look at the bacterium for a long time
+ and you count the number of times the flagellar motor rotates clockwise.
+ Then you divide by time and you get the probability.
+ Okay, so it's just a correction.
+ Okay, and then people found something like this.
+ So it's a non-linear linear made like this.
+ So this should saturate as one because it's a probability.
+ And the scale here is of the nanomolar as I call the typical concentration of the nanomolar and something like the region where things change, which is this region here, are between one and four nanomolar.
+ Okay, then you have saturation.
+ So, they found this measurement, experiment.
+ So, this means that the more KYB you have, the more counter-wise the rotation you have, the more frequent the downwards.
+ Because remember that clockwise rotation corresponds to a downward.
+ Ok? So the shorter is the period of the round, the length of the duration.
+ Ok, so now you also understand qualitatively the mechanism by which you can make the length of the round, the duration of the round longer.
+ Why is that? Because if the receptor is bound from the nutrient, it cannot activate the class.
+ Ok, so the more nutrient there is outside, the more frequently the receptor is occupied by the molecule,
+ the less frequently it will activate A, the less by will be in the bacterium, the less kby will attach to the trigonometric motor,
+ the smaller will be the probability to rotate clockwise, ok, therefore the smaller will be the frequency of the dumbbells,
+ therefore the longer will be the direction of the dumbbells, ok, so this is the mechanism through which the nutrient outside is connected with the fact that when they go in the right direction they have a longer dumbbells, ok, so this is the mechanism.
+ ok, but then there are other ingredients which are important and what are these other ingredients from what I told you up to now it would seem that if the nutrient is larger, if the nutrient is larger outside the smaller should be this probability full stop, ok, but that would mean that if I perform an experiment
+ when the nutrient is homogenous, ok, but the concentration is larger overall, then the longer should be the run, everywhere, it's not like that
+ if the nutrient is homogenous, the duration of the run is always the same, one second
+ it is only when the nutrient changes its taste, it is only gradients that make the run longer
+ ok, so there should be some mechanism inside the bacterium which somehow pushes back to its natural state
+ the presence of KYB and KA+ and everything else if I don't have a continuous change of the concentration of the bacterium
+ ok, so what is this mechanism? this mechanism is due to some other kinase
+ and these kinase are the following, there are other kinase which are called KR and KB
+ ok, not to be confused, sorry this is KY and KYB
+ unfortunately they are called like that, so it's a little confusing
+ so KYB
+ this is YB
+ sorry, YB
+ and this is Y
+ and this is Y
+ ok, Y, sorry, I won't do this
+ ok, so what are these other two
+ these other two
+ they are other key analysis
+ which basically
+ set the concentration
+ of the KA back to the
+ equilibrium value
+ ok, so what they do
+ they change the properties
+ around the gamma
+ sector and the effect
+ we are going into the
+ chemistry of this
+ the effect is the following
+ so KA plus
+ usually regulates
+ KB
+ the orientation is correct
+ it regulates KB
+ and KB
+ adds
+ the group
+ to the environment
+ of the sector
+ ok
+ and I have another
+ which is KR
+ which subtracts
+ it is not important
+ to understand what this metalics group
+ will do
+ the important point is that
+ the combined effect of metalics group
+ is to regulate
+ the concentration of Ka+
+ so what happens is that usually
+ these two
+ are two right here
+ and so the amount
+ of metalic group
+ that influences the Ka+
+ is stationary
+ but when this Ka+
+ regulates Kb
+ if Ka+
+ decreases for example
+ then this decreases
+ because this regulates this
+ so this decreases because the Kb receptor is occupied
+ there is a lot of protein
+ an increase of protein
+ Ka+ decreases
+ this decreases
+ this decreases
+ but if this decreases
+ there will be an excess
+ which will make Ka+
+ increase again
+ so it's a feedback group
+ which tries to keep
+ Ka+ at the same level
+ so what does it mean
+ is that if my nutrient
+ increases a little bit
+ and this changes a little bit
+ after such a small time
+ the effect of this tube
+ will alleviate the effect
+ of the nutrient
+ so either the nutrient
+ keeps increasing
+ and then you keep this
+ loop out of equilibrium
+ because the nutrient keeps increasing
+ so this keeps decreasing
+ and so on
+ then you have an effect
+ if you have just
+ some part of the nutrient increases
+ and then it remains stationary
+ this feedback loop will
+ put everything
+ back to the situation
+ of a uniform one that I will have
+ in the case of a uniform one
+ so this is
+ the flippant loop that
+ makes what is called
+ adaptation possible
+ so you see the bacterium
+ adapts to increase
+ of the nutrient
+ so if I
+ have a stepwise environment
+ let's imagine that
+ I have an environment where
+ I have here a certain C1
+ and here a certain C2
+ but here everything is homogeneous
+ okay
+ then what happens that here
+ my bacteria
+ do perform the random trajectories
+ with length of
+ 20 populants
+ one second
+ all the lengths are of the same direction
+ then at some point some of
+ these trajectories will cross
+ let's assume that C2
+ is larger than C1
+ they will cross, when they cross
+ they feel a gradient
+ and then
+ this land
+ and this run will be longer
+ on average
+ but once they are here
+ since everything is homogenous here
+ they go back to their previous
+ behavior and here they diffuse
+ without
+ moving towards a specific
+ direction
+ so when they are on boundary
+ they have this bias
+ towards going in the favorable region
+ but once they are inside
+ they explore everything diffusively
+ without bias
+ ok? why?
+ because it is only when there is a change
+ that you have
+ a neat effect also done
+ otherwise you have it momentarily
+ but then you go back to the region
+ ok?
+ ok so next time
+ we will see
+ why we get this question

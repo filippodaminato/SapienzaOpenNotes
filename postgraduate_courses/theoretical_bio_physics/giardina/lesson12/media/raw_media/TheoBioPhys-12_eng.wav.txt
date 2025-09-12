@@ -1,0 +1,855 @@
+ We are considering an external life source, a large incident by Kansas City, and we are
+ assuming that the wave related to this external life source is, let's say, a sort of constant
+ diagram plus a time-variant modulation that is called the contrast.
+ And we are investigating how well our vision system is able to process this light information.
+ So to do that, we started looking the other day at the response of the photoreceptor to the incoming light.
+ And the idea is that we measure the variation of the intramembrane potential of the photoreceptor.
+ Okay, and we already, when looking at low intensity, we saw that this variation in intramembrane potential or in the electric current through the membrane, which are proportional altogether, this is associated to a variation of this potential that comes into units of, in the case of the electric potential, of the electric current of one
+ picture, in the case of the potential of a certain elementary function which is
+ associated with the absorption of one single photon. Ok, and we called this variation, we just modeled it in a simple way, let's say that if the photon is absorbed at a certain time at T1, this will be, ok, let's say that we should just to have a symmetric function, we consider the middle
+ point, ok, where this function is associated and we will say that this is the function associated to a photon which is absorbed here, ok, and this will be this function of V0 T minus Ti, we model it in this way, ok, and then if we have many photons arriving, their effect will be that they will be superimposed one upon the other, so
+ of course this would be a certain very complicated function depending on how many photons were absorbed by the photoreceptor and precisely at which times they were absorbed, ok. So in that case we can say that the potential P of T will be the background potential, the resting potential that will be yielded, that will bring potential in absence of any light,
+ in dark, plus the sum of all the, the contribution of all the absorbed photons, and this goes from 0 to n, where n is the number of absorbed photons in a certain time window, let's say that we look at the behavior of our photoreceptor in a certain time window, so this is the time window, and the other day what we copied it was the average value of V of T,
+ okay, so now what happens when I look at all this incoming light and what we understood was that performing this average means performing the average over the stochastic part of this process and what is the stochastic part of this process, the stochastic part of this process is due to the fact that photos are absorbed randomly because the absorption process is
+ intrinsically stochastic because it is of quantum origin and therefore the probability of a certain number of photons being absorbed is ruled by a possible distribution so we need to take it after these statistics. As your colleague who was commenting the other time there should be in principle also another source of fluctuations which are the term fluctuations which we already addressed at the level of low-life intensity.
+ But for the time being that we are considering photoreceptors as perfect atoms, namely if you remember a low light intensity we said that there is a probability distribution of observing a certain number of photons and then there is a probability distribution that we get a certain value of the current given that a certain number of photons is absorbed.
+ This means that for example if we consider the case n equal to 1 and in the case that 1 is absorbed, in principle if my photoreceptor at low light intensity was a perfect counter I need to find that this i is just a delta function of 1p compare.
+ Ok, however since it is not a perfect counter we don't find that 1p compare this distribution is not a 1p, it is not a delta function of 1p compare but it is not going to get motion ok and we look into account this fluctuation that transforms this perfect counting into motion the other time when looking at low light intensity we consider both of these sources
+ of stochasticity, one the fact that the number of absorbed photons is also invariable and the other the fact that even when we know precisely that there is a certain number of absorbed photons nevertheless distribution of the current fluctuates, fluctuates because of thermal fluctuations and we will see where this thermal fluctuation comes from later on.
+ Okay, so we consider at low light intensity we consider both of these sources of noise, now at large light intensity we are disregarding the second one.
+ We are assuming that photoreceptors are perfect counters. Every time they absorb the one photo they give a perfect response.
+ Maybe the potential just changes perfectly. Okay? Very well. Okay. Very good.
+ So this is why I am telling you this, because when we perform this average, therefore we perform the average over the possible distribution of precisely when the super photons have been absorbed.
+ So we estimated this distribution of probability, this probability density, and we found that this was e to the minus integral of the tau of r of tau.
+ Okay? And then this was r of t1, r of tn, okay? And this was the probability distribution of absorbing n photons at times t1.
+ Okay? So this is the probability of which we need to average all these photons.
+ This is a t-particular case one.
+ Then we average this quantity here the other last time and we found that this average value is b tilde plus the integral of t prime.
+ So we found this expression here.
+ No, or maybe we didn't find it.
+ Sorry, we didn't find it.
+ What did we arrive?
+ Okay, so we didn't find the final result.
+ So we started combining this one in here.
+ And where did we arrive?
+ Okay.
+ Now I need to remember precisely where we arrived.
+ I don't know.
+ Yes, I've told you.
+ Okay.
+ Okay.
+ Okay.
+ Okay.
+ Okay.
+ Okay.
+ Okay.
+ We are almost at the final.
+ Okay.
+ Why is that?
+ The reason is the following.
+ No, there is something missing.
+ Oh, yes.
+ Yes.
+ Okay.
+ So you see now you see that inside is the sum.
+ All the terms, they are all equal.
+ Okay.
+ Okay.
+ So you see now you see that inside is the sum.
+ All the terms, they are all equal.
+ Okay.
+ And why is that?
+ Because pj and ti, they are integration variables.
+ So these integrals, these n-1 integrals, they are all equal.
+ Okay.
+ Indeed, I just put the same integral to the power n-1.
+ And this integral here, it does not depend on ti, because ti is an integration variable.
+ I can call the integration variable in the way I like.
+ It's integrated up.
+ So the terms of the sum, they are all equal.
+ Therefore, I can just erase the sum and put a factor n-1.
+ So I would do that, I just erase this factor here, and I put an n-1.
+ No, n, because the sum goes from 1 to n.
+ Very good.
+ So now I can take everything that does not depend on n outside this sum here.
+ Let's do this.
+ This does not depend on n, so this should be integral.
+ And then this integral does not depend on n, so I will take it outside.
+ And then I have the sum. First of all, n and
+ and divided by 1 over n factorial is just 1 over n minus 1 factorial.
+ Okay. And then I have this integral.
+ I changed the names of the integration variables so that they are more anonymous.
+ So now I can make a change of variables here.
+ I will introduce n prime equal n minus 1.
+ Okay. And if I do this, this sum here becomes the sum when n starts from 0.
+ Okay. So let's split again.
+ The first thing that I need to do is split into the sum into the 0 contribution and the contribution with n equal 1.
+ Okay. But we already did that, right?
+ We have already incorporated the contribution and n equal to 0, right? Last time.
+ Ah, the other term, the other term, you're right. So, okay.
+ Excuse me, I want to use the exponentials to cancel the exponentials and get there.
+ Okay, okay. But nevertheless, so let's consider the contribution with n equal to 0 and then we'll look at it after that.
+ And then the sum, which goes from 1 to infinity. Okay. Very good.
+ So this we are going to consider, right? And it comes from the other one. So, yes.
+ When we started this computation, here we have a sum from i to 1 to n, so the term n equal 0 would be a sum from 1 to 0.
+ In the first, in the beginning, we had a sum from i, i starting from 1 to n, so yes.
+ So the contribution, so the term with 0 would not be there, that's what you're saying, right?
+ Okay, so we just have the sum starting from 1, ready?
+ Okay, so that's it, so I should have put that n equal to 1 here, since the start, okay.
+ Very good, so we have this, now I can make this change of variables, which now is meaningful.
+ So if m is equal to 1, this becomes m prime, which goes from 0 to infinity, that's okay.
+ This factorial here becomes 1 over m prime factorial, okay.
+ And this becomes this quantity of m prime, okay.
+ Very good, so this log you immediately recognize, this is the series expansion of an exponential,
+ so this is nothing else, e to the plus integral in the tau, in the S, we call it S, R of S, okay.
+ And so we are happy because this exponential is exactly the same with the opposite sign of the exponent of this one,
+ and their product is just one, okay.
+ And so in the end what we are left is B tilde plus the integral of this.
+ So I'm going to do the prime, R for the prime, V no, excuse me.
+ Okay.
+ And so that's why I have recently used this final result,
+ which was in the class.
+ And we have prime.
+ Okay.
+ Very good.
+ So now we did call the setup.
+ Is the meditation okay?
+ Can I erase everything?
+ Okay.
+ So now we remember that is the expression of R of T. Okay.
+ We can rewrite this expression here in a very different form.
+ If we now substitute you will see that there will be, let's do this, V of T, this would be equal to D tilde plus the integral in the D prime of V naught, T minus D prime R bar.
+ Okay, so this is something that does not depend on the contrast, okay, and we can call it V background.
+ Okay, because this is just, I told you, we are considering the situation where we have this light source in the environment and this light source is given by an average value, okay, the background, okay, plus a modulation.
+ So, the constant part is our bar and together with the resting potential of the membrane, we plug them together and we call it a background potential, okay, because this is not due to the variations that occur outside.
+ And then we have the part which is due to the variation outside which is really taking into account the response of the system to variation in the middle light signal, which will be given at this point by contrast, the contribution of the contrast.
+ Okay, and so we have this expression which is the one that we will be considering now.
+ Okay, so in particular what we will be interested in is as though the response of the system which is the difference between the background value and the potential which we get due to the fact that we have a contrast.
+ So we move delta v. Delta v is v minus v. And this is precisely given by this integral.
+ So you can see that this is now the behavior of the system is recasted into a linear response fashion.
+ Because here how it is our output of our object in this case the photoreceptor varies due to an external signal and in this case is the contrast.
+ So it is very similar for example to the response that we studied for chemoreception.
+ In chemoreception we have the uterine concentration that arrived in time and we recasted the response of the ductileum in this form here.
+ In that case we have the response kernel which had the ductileer C2 sinus organ.
+ So also in this case we find out that the response of the system is linear.
+ So this is a priori not evident because we have a situation where the perturbation is very strong.
+ We are at very large and high intensity.
+ Nevertheless we get a linear response.
+ The response of the photoreceptor is linear in the input, in the signal which is here the conscious.
+ Very good, so now let's try to understand what is the effect of this equation here.
+ And it is convenient to write it in E3F.
+ So if we take the Fourier transform of both sides here, we will get the response of the function of the media.
+ This is a convolution, therefore we get, sorry, here we have our bar here, because our bar here multiplies everything.
+ And then we get is our bar.
+ Okay.
+ So this is in .
+ And so you see, here, one scatter is given by this one here.
+ And this is usually called the transfer function.
+ And P indicates with a T as a transfer.
+ The meaning is that this is the way the contrast is transported by the Photoshop.
+ Okay, so now let's try to see what happens here.
+ Okay, so yes.
+ Okay, so what I did here is a simple example to try to understand the effect of the transfer function.
+ So let's try to look at a very, very simple case and to have an idea of what happens.
+ So let's assume that this modulation here, C of t, is a perfect modulation.
+ Okay, it's a cosine function at a given frequency.
+ So, we assume that C of t is what?
+ Let me use C zero, I think.
+ Yes, C zero, xylos, or only a bar.
+ Okay, so this is good.
+ Sorry.
+ What we get is the rate and the light intensity is just something like this.
+ Sorry, to start the sinus.
+ Okay.
+ RFT is this one.
+ Okay, so very, very, this is a bar.
+ This is the value of bar and then we have a sinusoidal modulation around this original.
+ And the frequency is of the bar.
+ So now we want to understand how our photoreceptor responds.
+ And in particular what is the effect of this transfer function.
+ This is really a very easy exercise.
+ So let's try to, I want just to apply this relationship here.
+ So I take the Fourier transform.
+ So let's go to c of omega.
+ Let's go to c of omega.
+ Let's see what is the convention that I use here.
+ It's with the lines.
+ So it's integral and equal t, c of t, e to the lines.
+ And of course, then we will get c of t, e to the line, e to the line.
+ Okay, very good.
+ So now let's plug inside this expression and see what it comes out.
+ It's really easy.
+ So what we get is that c of omega, it will be equal to the omega t.
+ And we will have e to the minus i omega t.
+ And we will get the c0.
+ And then we have the cosinos.
+ So we have e, i omega bar t, plus e, minus omega bar t, divided by t.
+ This is all the bar.
+ And then we remember the formula of the delta function.
+ If you remember this formula here, this would be given by what?
+ Therefore, we would get c0 over 2, and then we would get 2pi, and the first term will give us delta omega bar minus omega.
+ And the second exponential will give delta omega bar plus omega.
+ Ok?
+ Very good.
+ So at this point we can compute the variation with the potential.
+ Ok?
+ So delta B omega.
+ Ok?
+ And this will be given by T omega C omega.
+ Ok?
+ Very good.
+ And therefore we have already computed C omega which is this one.
+ So we will get C naught I.
+ Ok?
+ Ok, I think we are ok. Did I miss anything?
+ Very good, therefore now I need to fully embark
+ because now I want to get to delta B of T.
+ Ok, so it's coming from the C of T.
+ Now I want to see how this changes,
+ what is the response of my photoreceptor in real time.
+ So now I want to go to Delta View.
+ So what I need to do is to perform an operator's form.
+ It's just another size I have in here,
+ so I just plug inside of this thing,
+ So this remains as 0/2 because I want to erase the 2π with 2π, the π erases with π and then I will get δω and then I will have δω
+ and then I will have δω minus μ bar δω plus μ bar and then I will have the exponential that I will put it here.
+ So far it's just Fourier transforming and back Fourier transforming.
+ But now I just want to try to understand what is the effect of the transfer function.
+ So let me write the transfer function in this way.
+ This is an imaginary number because it's a few transformers and things like this is a complex number.
+ So we'll write it as a modulus and a face.
+ Very good.
+ And I have some properties and the properties are following since the transfer function in real time
+ t of t, remember, t of t is just R bar, v naught of t, ok?
+ Since the function t of t is real, then automatically we get some properties for it to be a transform
+ and these properties are the following: t of omega should be equal to t of minus omega, ok?
+ and that phi t of minus omega should be equal to minus phi t of omega, ok?
+ and these two properties here depend on the fact that t of t is real, ok?
+ therefore the complex value of t of t is just t of t, because this is real, ok?
+ if you just implement this condition, you find that, if you implement this condition, you take t of t, you write it as a Fourier transform,
+ you implement this equation, you will get this property of the Fourier transform.
+ It's very simple, if you want we can do that but it's a very generic property of real function that you should have studied in complex analysis.
+ Ok, so this is what we need to conclude our computation.
+ Remember that this is from minus infinity to plus infinity.
+ Why is that?
+ Because now let's rewrite this.
+ Let's rewrite this.
+ Can you repeat the idea behind the contrast function, the C of T?
+ The idea is that the C of T is a quantity that tells you what is the variation in your external intensity.
+ Okay?
+ So in the source?
+ In the source, yes.
+ In the environment, usually in this situation here, you consider someone, some person, some animal, whatever, in a certain environment,
+ and you have this environment where you have a certain average value of light intensity outside, like now, for example.
+ There will be the average value of the light intensity and then as things happen in front of me, there are modulations of this average value.
+ For example, I mean, if you just stand up and walk in front of me, there will be a variation of the light intensity that meets my rectum.
+ And this variation is a variation that occurs around the certain average value, which is our bar.
+ Okay, and CFT is the contrast. CFT measures the relative variation of light intensity around this other bar.
+ Perfect, thank you.
+ And why we are interested in the response to the contrast?
+ Because the response to the contrast of the photoreceptor is what is basically what allows us to function well.
+ So I function well if I react well but something changes in front of me.
+ Ok so if you start moving and you come towards me I need to change.
+ So the way I perceive this is a variation in the light intensity that hits my light.
+ So it is important from a biological point of view that I react well to these variations.
+ That's why we are interested in the contrast rather than the average light intensity.
+ This is a simple algebraic exercise.
+ Now I said it is convenient to express the transfer function in this way.
+ So now what I need to do is to plug this expression inside here and just go on to the form of view.
+ Okay, so at this point, this point here becomes a B of T, this will be equal to C zero halves.
+ And then I will have an integral T omega.
+ And then I will have the modulus T omega.
+ Okay.
+ And then I will have water.
+ I will have the phase.
+ Let me write that in the design now.
+ And then again.
+ And I will have to do the functions.
+ Let me just do this.
+ I think I'm not acting.
+ Okay.
+ Very, very good.
+ Okay, so now I just do a trick.
+ Okay, and the trick is the following.
+ Uh, yes.
+ You know, maybe it was the same thing.
+ It was something we didn't have to go back before.
+ Okay, so let's implement this.
+ So this would be C0 halves, then I would get T of omega bar, I need to take the first integral, I have a data function in omega bar, okay.
+ So we get the T of omega bar, and then we get EI phi T of omega bar, plus I omega bar phi T, okay.
+ So this is the first contribution, and then I get the second contribution, and the second contribution
+ would be C zero halves, and then I would get the T of minus omega bar, okay, because here
+ now this is the function that's made up omega should be equal to minus omega bar, and then
+ I get e to the i omega bar t, but this will be plus i bt of minus omega bar, okay, so because
+ the first term I get the delta is in omega bar, the delta is in minus omega bar, okay, but then
+ it's not this position here, okay, that's why I brought them, so basically this condition
+ here depends on what it is at the same, so I can put a plus here, and sorry, this is minus.
+ And then this other quantity here tells me that this phi t of minus omega is minus phi t of omega,
+ therefore I can change this term here, I can put a minus here and a plus here, so with a minus here and a plus here.
+ Exploding this equation here.
+ And now I have the job done because you see that now here I have the same exponent as here but with a minus sign.
+ So this would be C0, T of omega bar, and then I have cosinus of omega bar plus T of omega bar.
+ And so this is delta V of 2. So this was a very, very simple exercise, but this is what I wanted to show you.
+ If you see that the effect of the response of kernel, the response of kernel is this transfer function here, is twofold.
+ So there is a modulation from the output of the external signal, which is this factor here, and a shift in the phase.
+ So what happened?
+ Let's recapitulate what we have just done.
+ Let's say, okay, I have the photoreceptor.
+ There is an external signal with the modulation.
+ My photoreceptor has a response, can make this transfer function.
+ So, how is it that I perceive this impulse signal, this modulation?
+ I will perceive it with an amplification factor, which is this one, okay?
+ And I will perceive it slightly shifted.
+ Okay, so the response of my photoreceptor will be a shift and a modulation of the amplification.
+ Okay, and this is what we have just seen.
+ Okay, but, yeah, sorry the reason is...
+ Okay, but I mean the frequency you get in prime.
+ So you perceive the same frequency of the external modulation with a shift and a variation of the amplification.
+ Okay. Very good.
+ Okay, so now this is part of the investigation that we wanted to perform.
+ So, so far we have characterized the response of our photoreceptor to the outside signal.
+ But as I told you last time, this is not the only things that matter because there will also be noise.
+ So we also want to quantify the noise and to compare the response to the real signal, to the real contrast variation to the noise.
+ And we want to check that actually the signal to noise ratio is good.
+ And once we have done that, we can safely say that our system works efficiently.
+ Okay, so to do that what we need to do is the following, okay so let me, there is something here, we will write down the result.
+ So what we found, let me write, so this is how my potential, the photoreceptor potential changes when there is a contrast outside.
+ and we computed that and we said this function here, it's a linear response, we found that this is a linear response, a linear response for contrast, so this is what we got, ok?
+ In Fourier, in Fourier WP, equal to 1,000,000,000,000,000,000,000.
+ So, now we want to understand what is the noise, so to understand what is the noise, we first
+ set contrast equal to zero, okay, so we just have an average of the ground outside, the light
+ intensity is homogeneous in my environment, but even though the outside light is homogeneous
+ there will be fluctuations in what my photoreceptor perceives because the process underlying the
+ vision is stochastic. So we want to quantify these fluctuations. So we want to quantify these fluctuations what we need to do is we set the contrast equal to zero and we measure delta v equal to t squared average. So this is the contrast equal to zero.
+ So these are the fluctuations of our membrane potential. So we want to understand what are these fluctuations here. So with this I mean the average value of v of t minus average of v of t squared R and C.
+ And this is the standard quadratic fluctuation. Okay?
+ We call it, use a different symbol and we call it that.
+ Sorry, but I don't get very well. If we mean that if we get C equal to zero, we are omitting the light of the environment and the...
+ No, we are not omitting the light of the environment. We are assuming that the light of the outside is constant.
+ Remember that this is the expression of the rate. Rate means the light intensity.
+ So if you just put C of t equal to zero, this means that there is a constant rate,
+ which means that there is light outside and with a certain rate you will absorb photons.
+ The precise number of photons will not always be the same because they are absorbed in the possible distribution,
+ but there is a certain number of results.
+ So now what we would like to do is to draw this one in here,
+ and then we will evaluate the signal to noise ratio,
+ and the signal to noise ratio is given by what?
+ The response of the signal in presence of a real signal,
+ what we have responded in, in presence of a contrast,
+ dividing by noise, precisely this situation.
+ So that can be squared.
+ I need to take one half because I need to have the same dimension.
+ Or I can square both.
+ Likewise, I can take this.
+ The important thing is that I have the same dimensional quantity
+ only above and below the dimension.
+ Okay?
+ The numerator is related to the response to the absolute signal.
+ The denominator is related to statistical fluctuations
+ in absence of an external signal.
+ Okay, so we need to go...
+ We have already copied the numerator.
+ Okay, so our next task is to go to the denominator,
+ the statistical fluctuations.
+ Okay, very good.
+ So let me sketch what we are going to do.
+ What we are going to do is the following.
+ Okay, so we need to go to this coordinate here, which is delta V of T squared.
+ Okay.
+ So delta V of T squared, average, where delta V of T, I am calling delta V, V minus V average.
+ So we will push.
+ So you see this one now is just a particular case, okay, of this function here.
+ Evaluated for t equal to t prime.
+ Okay, so this is just this evaluated for t equal to t prime, okay.
+ But what is this?
+ This is the correlation function, the connected correlation function from my good action.
+ So this is the correlation function, connected means that I am taking, that I am looking at fluctuations.
+ So this is, this is, this function here, events of two one is t and t prime, okay.
+ Very good, but the interesting thing, and we will see that later on by hand, the interesting
+ thing is that if you don't have any contrast, okay, and we are doing this computation in absence
+ of contrast, you see that there is an homogeneous light environment outside us and, I mean, we
+ don't have any reason to believe that any specific time is different from another time, okay.
+ There is nothing that breaks translational invariance in time.
+ Every instant of time is equivalent to another one because nothing is changing outside, okay.
+ So outside there is nothing that depends on time, so we expect that the average behavior
+ of our system does not depend on the two types we need to be taken.
+ We expect time translational invariants to hold.
+ So what we do expect if there is nothing that breaks the time translational invariants
+ is that this quality actually depends on time differences.
+ It's just a function of the differences of times.
+ Let me make a comment, if the contrast is not equal to zero then you cannot assume that.
+ Because if you have a specific function of time, the contrast is a specific function of time, not all time is equal to zero.
+ But in absence of contrast, when the contrast is zero, you can say that.
+ Very good.
+ So if this correlation function is just a function of the time difference, this means that when you take the Fourier transform,
+ does not depend on two frequencies but just one.
+ Okay, because actually the only variable is one of this observable.
+ So when you have Fourier, it will be a certain C of omega depending on your own quantity.
+ Okay, omega function.
+ So now let's, in this case, let's try to compute this C of T minus T prime.
+ I'm very interested in the case where the two times are equal.
+ Okay, so when two times are equal, this means that we need to lie with this function in zeros.
+ If we look at the correlation function in terms of the time differences,
+ T equal to T prime means that this one in here, when we call it tau,
+ should be equal to zero for T equal to zero.
+ We call this C of tau, tau is the time difference.
+ So for T equal to T prime, the argument of this function should be zero.
+ So this means that in the end our delta B T squared is the connected correlation function evaluated in zero.
+ Okay, and therefore if I write it in Fourier transform, if I take the Fourier transform, if I just write C of T, this will be the Fourier transform of this expression here.
+ Ok, so if when I consider disconnecting, if I consider this correlation function in zero, the exponential becomes zero.
+ Ok, you see that this will simply be the integral of omega.
+ And why did I write this? I wrote this because you see that in this way, you see that every frequency contributes to the noise.
+ So, if we now rewrite the sigma to noise ratio, we rewrite it in Fourier, the sigma to noise ratio in Fourier would be what?
+ So, it would be delta V of omega in presence of the contrast, squared, okay, divided, now we understood that the contribution of the noise is just this C of omega, the connected correlation function, okay, evaluated at omega.
+ So, we already have the signal to noise ratio in Fourier, okay. So, we already completed this and this is just this square, okay. This is just this square, okay. We need to mark it this.
+ Once we compute this, we are done. So, now in the end all this is to say that we need to compute this correlation function, okay.
+ So, now we will compute this correlation function and Fourier transform it and finally evaluate the sigma to minus pressure.
+ Okay. So, now let's do this. Let's compute this correlation function.
+ So, the computation is very simple to what we did the other day.
+ Okay. Very good. So, now let's, we want to compute this.
+ Okay. This is the connected correlation function.
+ So, what we need to compute is delta V of t, delta V of t prime, okay.
+ This is the V of t minus average V of t, delta V of t prime minus average V of t.
+ Okay, and let's remember that V of t is equal to V tilde plus sum over I V naught T minus t.
+ Okay, and since we already performed the average value we already performed this computation
+ and what we found is that S, little S and S, V naught T minus S, R plus S.
+ Okay, so we already performed the other thing is computation and the result is this one.
+ Okay, so this is the average value of this.
+ Okay, we already performed this.
+ We do not need to perform this again.
+ Okay, very good.
+ So just to make the algebra simpler,
+ let me call a of t, f of t, okay,
+ sum over i, v naught, t minus v i.
+ So I don't have to write this again and again.
+ So now let's write what this is. Let's write all the pieces here. So I will get B of T, B of T prime. Then I will get minus B of T prime.
+ And then I will get minus B of T prime is T. And then I will get plus B of T prime.
+ Okay, but maybe it was convenient to directly write this fluctuation.
+ So I get rid of this. So sorry. Let me write it in a smarter way. Okay.
+ So I will write this B of T minus R of B of T. Okay. When I subtract this from this, it gets away. Okay.
+ And so this is just F of T minus F of T. Okay. Let's try a way to lose B of T in a bigger way.
+ Very good. So now I can rewrite this.
+ This is F minus F of T minus A of F of T.
+ So now I get F of T, F of T prime minus F of T prime minus F of T.
+ F of T prime minus F of T prime minus F of T prime.
+ So I multiply this by this and this by this.
+ Now I get another term here.
+ I multiply this by this and then I will get plus F of T.
+ F of T prime and therefore this becomes just the one.
+ Ok, so now I need to compute this.
+ So this I already know what it is.
+ Because remember F of T was this and I know what the average value is.
+ So this term here is simply integral in the S, V0 T minus S, R of S multiplied integral over Z, V0 T prime minus Z, R of Z.
+ So this I already know because I already know what are these average values here.
+ Okay, so the only thing that I need to compute is this one.
+ I need to compute this one.
+ So now let's try to see what is this.
+ I just plug inside the definition of f of T.
+ So that term there is the average value of the sum of i, V0 T minus Ti.
+ Okay, and I have another sum because each f is a sum, so I will use another, this is one M, and I should use another index, one M, V0.
+ This is another time, because two times are different.
+ So now I know what is this measure here, and so I know that to do this, I need to perform
+ sum from n equal, we understood that we should start from 1, because the 0 term does not mean contribution, 1 to infinity.
+ We would not have this condition for n equal to 0.
+ The fact that we have some, you know, means that I already have some models.
+ Ok, and then I will get 1 over m factorial due to the fact that I have, the photons are indistinguishable.
+ And then I would have the integral over what, 31, 31, ok, and then I have the sums, sum over i and k, and I have 2 to be 0.
+ Sorry, here we have a, this will be, ok, so this can be right here, sum over i and the sum over i.
+ So I have v naught of t minus ti, v naught t minus tk, t times minus tk, ok, so I need to perform this.
+ And then I have, sorry, I have the measure, ok, and the measure we already know what it is, e to the minus integral in the tau r of tau, if you remember, ok.
+ Ok, and then I will have r of 1 over here, ok, this is this, remember that this is sum over n, 1 over n factorial integral 31, sorry, we don't believe it, yes, integral 31, 30m into the minus,
+ minus and then we want to average okay so the average is this one we already saw that the other time when we want to average value so just for this okay okay so this is what we need to go to now okay and this is basically
+ is very similar to what we have already solved okay we just need to be careful and what we need to be careful we need to be careful because here when we have this double sum we you know that there are two distinct contributions so we need to distinguish the term i equal to k and all the terms that are different okay so we will now split
+ this sum into two contributions the contribution where i is equal to k and the contribution where you have the sum of all different indexes okay so let's do this and I'll do this here
+ so let's look at the contribution i equal to k okay so we will now split this
+ and this will give us two terms
+ okay
+ so we will have the term v0 t minus pi v0 t prime
+ minus ti
+ okay
+ and this is sum of the i
+ this is the
+ this is the contribution with i equal to k
+ okay
+ instead of having two sums I have just one
+ because i took the index
+ is equal to one to the other
+ and then I will get
+ the plus
+ the sum of i
+ different from k
+ of V naught T minus Ti V naught T prime minus Tk
+ and then we have the r's
+ r of 2 and r of 2
+ ok
+ so now let's do the first
+ contribution
+ ok
+ notice that this exponential
+ does not depend on any of the
+ integration of some of the variables
+ so I can put it outside
+ ok
+ so there will be always this exponential outside
+ so there will be this factor here
+ ok and now let's consider
+ this term here
+ ok
+ so this term here
+ you see
+ once again what do we have
+ we have
+ some inside
+ ok
+ and then you see
+ we have to perform n integrals
+ ok
+ over t1 and tm
+ all the integrals
+ where these integration variables
+ are different from i
+ ok
+ they will just have
+ the r factors
+ ok
+ and I will have n minus 1
+ so we get the
+ I will get this
+ integral
+ to t1
+ over r
+ of t1
+ to the n minus 1
+ ok
+ and then
+ when I
+ I will pick
+ among these integration variables
+ that is precisely equal to ti
+ ok
+ I will also get
+ these two terms
+ ok
+ and so we get the term
+ integral
+ over the ti
+ bring out
+ t minus ti
+ bring out
+ t prime minus ti
+ r point
+ r point
+ ok
+ so this is the first step
+ so now let's look at the second term
+ ok
+ where we have distinct contributions
+ so in this case ti and tk
+ they are always different
+ ok
+ I can proceed in a similar way
+ ok
+ and
+ you see again
+ when I perform the integrals
+ over all the integration variables
+ that are not
+ neither ti nor tk
+ I just get
+ the r
+ quantity to average
+ so I would get this factor here
+ that would be integral
+ t1 over t1
+ to be n minus 2
+ okay
+ n minus 2 times
+ and then
+ when the two variables
+ are equal
+ the integration variables are equal to ti and tk
+ I would get the integral
+ over ti
+ v0
+ t minus ti
+ over ti
+ okay
+ and then I would get the integral
+ over tk
+ v0
+ t prime minus tk
+ over tk
+ okay
+ very good
+ okay
+ so now let's perform these
+ things here
+ again what you can see is
+ as we did before
+ all these integrals here
+ are equal so this sum
+ is just an n
+ remember that there is an n factorial
+ here and somewhere
+ okay starting from
+ 1
+ very good
+ okay
+ so again
+ so what would we get
+ we have this exponential here
+ in front of everything
+ okay
+ and then all these
+ quantities here are equal
+ so we would get this becomes an n
+ okay so we would get
+ this does not impact an n
+ so it would be outside
+ okay and then i would get
+ 1 over n factorial
+ multiplied by n because
+ these are all n times equal
+ integral over t1
+ r of t1
+ to the n maximum
+ okay
+ and for the same reason
+ here
+ I will get plus
+ and there is some of that here also
+ okay
+ in the second line
+ will become
+ all these terms in the sum are equal
+ how many times we have
+ n multiplied by n minus 1
+ okay
+ n minus 1
+ divided by n factorial
+ okay
+ very good
+ and
+ and then I would get
+ and then I would get
+ sorry
+ the sum here starts from 1
+ in the first term
+ ok, but the second term
+ remember the second term is the one
+ where I need to have
+ ti different from t gay
+ so to have this term I need to have at least
+ two photons, so in this case
+ the sum starts from 2
+ ok, so here I would have
+ let me rewrite
+ therefore this is the first term
+ and the second term
+ here I would get the sum
+ starting from 2
+ ok
+ and then I would get
+ the
+ the integrals
+ ok, so integral over
+ t_i, integral over
+ t_k
+ no sorry, yes, ok
+ v_0
+ t minus t_i
+ v_0 t prime
+ minus t_k
+ ok
+ these two figures here
+ and then I will have
+ the term
+ again one
+ ok
+ and so you see
+ what happens is exactly what happened before
+ namely
+ this vector here
+ I can put it outside
+ so let's do this
+ put this here
+ remember
+ that I am completing this contribution
+ this one here
+ and then I have to subtract this
+ and we are already brought here
+ ok
+ so what I get
+ this is
+ let's put aside everything
+ that is common
+ ok
+ and then this
+ sorry
+ this I can put it aside
+ and then I have the sum
+ from 1 to infinity
+ of 1
+ n minus 1 factorial
+ between n minus 1
+ ok
+ and we already saw that this
+ is just an exponential like this
+ with a plus sign
+ ok
+ and then we have the other term
+ and the other term is
+ integral
+ and then we have the other term below
+ and then we have the other term below
+ and then we have the other term
+ and then we have the other terms below
+ and the other integral
+ and then we have the sum from 2 to infinity
+ but n minus 1 divided by n factorial
+ is just 1 over n minus 2 factorial
+ and then I have the same integral here with n minus 2
+ but here again I can change variable with a variable n prime
+ which is equal to n minus 2 this time
+ and I see that this is nothing other than the series expansion of the exponential plus sine
+ okay so both these two terms these two sums they are equal and they are both equal to the inverse of this
+ okay so the combination just comes out this term exponential here
+ and what I get is that I have two terms so let's now I can write everything
+ so I was calculating delta v of t delta v of t prime and I get these two contributions
+ so the first contribution is integral in the ti v0 t minus ti v0 t prime minus ti r of ti
+ then I get the second line plus integral that ti v0 t minus ti r of ti multiplied by the same thing with dk with dk
+ ok this is what we have just come with it but then we need to subtract this remember there was a minus this contribution here so we will have a minus integral the s v0 t minus s r of s multiplied integral over z v0 t prime minus z r of z
+ So these two terms are equal and they cancel each other. Okay? So in the end what we see is the result of this integral. Okay? So we completed our connected correlation and we found out that this is our connected correlation. Okay?
+ Um, so just to, yes, so to check that this depends on the time difference. Okay? Let's take the observation of time periods of very large, so very integrated over all times. Okay? And let's change variable. Okay?
+ We will use tau equal t minus t prime. This is just not a change variable. This is just to show you that I can write this as an integral over the i, v naught, t minus the i, and this would become t prime is just t minus tau.
+ t minus tau, minus the i, and this would become t prime.
+ Okay.
+ Yes.
+ Oh, no.
+ Ok.
+ Yes.
+ Ok.
+ Ok.
+ Ok.
+ Ok.
+ E' un'esplosione che si fa il bar.
+ Ok.
+ E' un esplosione che si fa il bar.
+ Ok.
+ E' un'esplosione che si fa il bar.
+ Ok.
+ E' un esplosione che si fa il bar.
+ Ok.
+ E' un esplosione che si fa il bar.
+ Ok.
+ E' un esplosione che si fa il bar.
+ Ok.
+ E' un esplosione che si fa il bar.
+ Ok.
+ E' un esplosione che si fa il bar.
+ Ok.
+ E' un esplosione che si fa il bar.
+ Ok.
+ E' un esplosione che si fa il bar.
+ Ok.
+ E' un esplosione che si fa il bar.
+ Ok.
+ E quindi, rimane la convoluzione tra le due risposte, diciamo, di tensione.
+ Ah, ok, va bene.
+ Actually, I was going to do this because otherwise you don't get time-translational invariance.
+ But since r is constant, we can substitute the r.
+ Ok?
+ So now what I've done is, what I can do is to change the variable.
+ So I just wrote the tau t minus t prime, the time difference.
+ Ok?
+ We wrote this in terms of t and tau.
+ And now I perform a central variable, a central variable, and I call s t i minus t, ok?
+ So if we do this, this is just r bar integral in the s, v0 of s.
+ Alright, let's do that.
+ It's the same, ok?
+ So, v0 of s and this is v0 of this will be s minus.
+ Ok?
+ Ok?
+ And so in the end,
+ I'm going to finish this.
+ What we find is that delta v of p,
+ delta v of the prime,
+ with zero contrast,
+ is equal to our bar integral in the s,
+ v0 over s,
+ v0 over s minus 2.
+ As you see, it only depends on the time difference,
+ which is tall and the time difference.
+ As I was telling you at the beginning,
+ but we saw it from the combination.
+ And then, once we have this expression,
+ it's easy to compute what this is in the air.
+ This is the C connected of omega, okay?
+ This would be equal to R-bar, V0 of omega, V0 of minus omega.
+ Therefore, remembering that V0 is a real function,
+ this is R-bar to modulus of omega, of the 0.0 square.
+ Okay?
+ And so finally, we got our expression here,
+ and we will comment on that later on,
+ but we will get a very simple expression.
+ Maybe I can finish this, okay?
+ Okay?
+ So we can estimate the signal to noise ratio.
+ We have already computed that,
+ so that was delta v of omega, okay?
+ Delta v of omega squared is just t omega squared multiplied by v naught of omega squared
+ and we take the modulus of course
+ and then the numerator becomes alpha squared
+ modulus of v naught of omega squared, okay?
+ This is just this formula here, okay?
+ And the denominator, we just computed that
+ and we find, what we found is that this is R bar
+ denot of omega squared.
+ And so the result of our computation,
+ assuming that photoreceptors are a real counter,
+ is that the sigma to noise ratio is just R bar.
+ Okay? So it's a very simple result
+ and Sopha can ask, okay, but we made this assumption, is this true?
+ Okay? So since this is just very big, I will show you that this is actually true
+ because people perform the experiments, okay?
+ and they perform experiments on the fly, the photoreceptors on the fly
+ where they could measure all these quantities that we have become in Sopha.
+ These were real measurements.
+ So they computed the transfer function, T of omega.
+ And this transfer function, they computed the different light intensities.
+ So they show to the fly different light intensities with the given modulations
+ and they measured the response function, this quantity, T of omega.
+ Okay, and they found something like this, this is a data point, okay.
+ So let's say that this was a certain average value of R1, like intensity, R1, R2, R3 and so on, okay.
+ And then they measured the noise, the quantity that they called the C of Omega, they called it noise of Omega, but it's just what we have computed them.
+ Okay, and they found similar curves for different values of R1, R2 and so on.
+ Then once they had both of them, they completed this ratio.
+ Okay, so they completed T of Omega squared divided by an noise of Omega, which is not the best, but now let's see Omega.
+ Okay, and they found something like this.
+ So all these different curves are different values of R bar, okay, so average values of the light intensities.
+ And so what you see from these curves, all these curves, is that this is basically a constant up to certain value of the frequency, okay.
+ So clearly something goes wrong when the frequency is large enough, let's say above this frequency here, but let's look below this frequency.
+ So here we have different contrasts for different values of R bar, so these are not the values, this is the values of this function and all these curves, this corresponds to a certain value of 1.
+ So they did this for many different values of 1 bar and they all found these curves with this plateau.
+ And then what they did, if this prediction is correct, the value of this plateau should be a bar.
+ Ok? Because the prediction predicts that the ratio, this quantity that is plotted here should be a constant and this constant should be a bar.
+ Ok? So they measure this plateau for all this value and they plotting the plateau as a function of a bar.
+ Ok? So if the prediction is correct, the points should lie on a straight line with a slope of one.
+ Ok? And what they found? Results like this. Ok? So they found that the prediction was correct.
+ And the conclusion is therefore that indeed the photoreceptor work basically as perfect counters.
+ They comply with this prediction at least up to this frequency here. Ok? And if you plug inside the number
+ and these frequencies of the order of, sorry, frequency of the order of 100 Hz anyway, maybe we can look at this here.
+ So this is very well obeyed up to a rate of 10 to 5. Ok?
+ So this means that up to a rate of 10 to 5, which is this very large intensity, the photoreceptor, they distort a little bit larger frequencies, but they work basically very well. Ok?
+ Yes?
+ No, the cd omega is the denominator. Delta is the answer.
+ Delta is equal to the cd omega.
+ Yes.
+ And then the cd omega is not the answer.
+ Yes, right, because here is the answer that we see.
+ If you look at the cd omega, if you look at the cd omega.
+ Okay.
+ Yes, in principle you take just the response term,
+ so you should not delta b omega, but just the plus function,
+ which is what we did here.
+ Ok, so let's stop here, and use the slide, and...

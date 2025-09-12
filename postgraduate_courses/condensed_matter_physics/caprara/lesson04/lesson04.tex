@@ -1,0 +1,94 @@
+\section{Lezione 4: Diffrazione e Struttura Cristallina}
+\label{appendix:lesson04}
+
+\subsection{Introduzione: Come "vedere" i cristalli?}
+Nelle lezioni precedenti abbiamo introdotto il formalismo matematico per descrivere la struttura periodica dei cristalli, basato sui concetti di reticolo di Bravais e reticolo reciproco. Ora ci poniamo una domanda sperimentale: come possiamo verificare che un dato solido sia cristallino e, in caso affermativo, determinarne la struttura?
+
+La risposta risiede nell'interazione della materia con la radiazione. Per "vedere" un oggetto, abbiamo bisogno di una sonda la cui lunghezza d'onda sia comparabile o inferiore alle dimensioni dell'oggetto stesso. Poiché la distanza tipica tra atomi in un solido è dell'ordine dell'Ångström ($1\text{Å} = 10^{-10} \text{m}$), abbiamo bisogno di una radiazione con una lunghezza d'onda simile. La luce visibile, con lunghezze d'onda di migliaia di Ångström, non è adatta. I \textbf{raggi X}, invece, hanno lunghezze d'onda proprio nell'intervallo giusto.
+
+Storicamente, lo studio della diffrazione dei raggi X da parte dei cristalli è la tecnica principe per la determinazione della loro struttura. Esistono due formulazioni principali, apparentemente diverse ma fondamentalmente equivalenti, per descrivere questo fenomeno: la legge di Bragg e la condizione di von Laue.
+
+\subsection{La Formulazione di Bragg (Approccio Fenomenologico)}
+La formulazione di William Lawrence Bragg, sviluppata prima di quella di von Laue, è più intuitiva e si basa su due assunzioni audaci ma efficaci:
+\begin{enumerate}
+    \item Un cristallo può essere visto come una pila di \textbf{piani reticolari} paralleli ed equidistanti.
+    \item Questi piani si comportano come \textbf{specchi semi-trasparenti} per i raggi X, riflettendo una piccola frazione della radiazione incidente.
+\end{enumerate}
+Consideriamo un fascio di raggi X monocromatici di lunghezza d'onda $\lambda$ che incide su una famiglia di piani reticolari separati da una distanza $d$. Sia $\theta$ l'angolo di incidenza, definito come l'angolo tra il raggio incidente e il piano stesso (non la normale al piano).
+
+
+
+Affinché le onde riflesse da due piani adiacenti diano luogo a interferenza costruttiva, la differenza di cammino ottico tra di esse deve essere un multiplo intero della lunghezza d'onda. Come si evince dalla geometria, questa differenza di cammino è pari a $2d\sin\theta$. Questo porta alla celebre \textbf{legge di Bragg}:
+
+\begin{equation}
+    2d\sin\theta = n\lambda, \quad \text{con } n = 1, 2, 3, ...
+\end{equation}
+dove $n$ è detto "ordine di diffrazione". Se questa condizione è soddisfatta, si osserva un picco di intensità riflessa. Misurando gli angoli $\theta$ per cui si osservano i picchi, e conoscendo $\lambda$, si possono determinare le distanze interplanari $d$ del cristallo.
+
+\subsection{La Formulazione di von Laue (Approccio Microscopico)}
+La trattazione di Max von Laue è più rigorosa e si basa su un'unica assunzione fisica: lo scattering dei raggi X da parte degli atomi del cristallo è \textbf{elastico}. Questo significa che l'energia del fotone X non cambia durante l'interazione, e quindi la sua lunghezza d'onda rimane costante. In questo modello, i centri diffusori (scatteratori) sono i singoli atomi che compongono il cristallo.
+
+Consideriamo un'onda piana incidente, descritta dal vettore d'onda $\underline{k}$, che viene diffusa da tutti gli atomi del cristallo. Noi osserviamo l'onda diffusa in una certa direzione, descritta dal vettore d'onda $\underline{k}'$. Poiché lo scattering è elastico, i moduli dei due vettori d'onda sono uguali: $|\underline{k}| = |\underline{k}'| = 2\pi/\lambda$.
+
+La condizione per l'interferenza costruttiva tra le onde diffuse da due atomi separati da un generico vettore del reticolo di Bravais $\underline{R}$ è che la differenza di fase tra le due onde sia un multiplo intero di $2\pi$. Questa differenza di fase è data dal prodotto scalare del \textbf{vettore scattering} $\Delta\underline{k} = \underline{k}' - \underline{k}$ con il vettore $\underline{R}$.
+La condizione deve valere per \textit{tutti} gli atomi del cristallo, e quindi per ogni vettore $\underline{R}$ del reticolo di Bravais. Si ottiene così la \textbf{condizione di von Laue}:
+
+\begin{equation}
+    (\underline{k}' - \underline{k}) \cdot \underline{R} = 2\pi \times \text{intero} \quad \forall \underline{R} \in \text{Reticolo di Bravais}
+\end{equation}
+
+Questa equazione è la definizione stessa del reticolo reciproco. Pertanto, la condizione di von Laue si riduce a una semplice ma potente affermazione: si osserva un picco di diffrazione se e solo se il vettore scattering è un vettore del reticolo reciproco.
+
+\begin{equation}
+    \Delta\underline{k} = \underline{k}' - \underline{k} = \underline{G}
+\end{equation}
+
+Questo risultato è di fondamentale importanza: un esperimento di diffrazione dei raggi X mappa direttamente il \textbf{reticolo reciproco} del cristallo. Misurando la posizione dei picchi di diffrazione, si ricostruisce il reticolo reciproco e da questo, tramite le relazioni che lo definiscono, si risale univocamente al reticolo di Bravais reale.
+
+\subsection{Equivalenza tra le formulazioni e la Sfera di Ewald}
+Le due formulazioni sono equivalenti. Partendo dalla condizione di Laue, $\underline{k}' = \underline{k} + \underline{G}$, ed elevandola al quadrato, otteniamo $|\underline{k}'|^2 = |\underline{k}|^2 + |\underline{G}|^2 + 2\underline{k} \cdot \underline{G}$. Sfruttando la condizione di scattering elastico $|\underline{k}'|^2 = |\underline{k}|^2$, si arriva a:
+
+\begin{equation}
+    2\underline{k} \cdot \underline{G} + G^2 = 0
+\end{equation}
+Questa è un'altra forma della condizione di Laue. Ricordando che a ogni vettore $\underline{G}$ è associata una famiglia di piani reticolari (hkl) ad esso perpendicolari, e che la distanza tra questi piani è $d_{hkl} = 2\pi/|\underline{G}|$, si può dimostrare che questa equazione è identica alla legge di Bragg.
+
+Una costruzione geometrica molto utile per visualizzare la condizione di diffrazione è la \textbf{sfera di Ewald}.
+\begin{enumerate}
+    \item Nello spazio reciproco, si disegna il vettore $\underline{k}$ del raggio incidente, facendolo terminare nell'origine del reticolo reciproco (il punto $\underline{G}=0$).
+    \item Si costruisce una sfera di raggio $k = |\underline{k}|$ centrata nell'origine del vettore $\underline{k}$. Questa è la sfera di Ewald.
+\end{enumerate}
+La condizione di diffrazione $\underline{k}' = \underline{k} + \underline{G}$ è soddisfatta se e solo se la sfera di Ewald interseca un altro punto $\underline{G}$ del reticolo reciproco. In tal caso, il vettore che congiunge il centro della sfera con il punto $\underline{G}$ intersecato è il vettore d'onda diffratto $\underline{k}'$.
+
+\subsection{Fattore di Struttura: Cristalli con Base}
+Finora abbiamo considerato cristalli con un solo atomo per cella primitiva. Se il cristallo ha una \textbf{base} di più atomi, dobbiamo considerare l'interferenza tra le onde diffuse dai diversi atomi all'interno della stessa cella. L'ampiezza totale dell'onda diffusa in una direzione corrispondente a un vettore del reticolo reciproco $\underline{G}$ è data dal \textbf{fattore di struttura} $S(\underline{G})$.
+Se la base è composta da $m$ atomi, con il $j$-esimo atomo in posizione $\underline{d}_j$ all'interno della cella, il fattore di struttura è:
+
+\begin{equation}
+    S(\underline{G}) = \sum_{j=1}^{m} f_j(\underline{G}) e^{i\underline{G}\cdot\underline{d}_j}
+\end{equation}
+L'intensità del picco di diffrazione è proporzionale a $|S(\underline{G})|^2$. Il termine $f_j(\underline{G})$ è il \textbf{fattore di forma atomico}, che descrive la capacità di scattering del singolo atomo $j$. Esso dipende dalla distribuzione spaziale degli elettroni dell'atomo ed è, in sostanza, la trasformata di Fourier della densità elettronica atomica.
+
+\subsubsection*{Estinzioni Sistematiche: Il caso BCC e FCC}
+Il fattore di struttura può essere zero per alcuni vettori $\underline{G}$ del reticolo reciproco, anche se la condizione di Laue sarebbe soddisfatta. Questo fenomeno, detto \textbf{estinzione sistematica}, fornisce informazioni cruciali sulla simmetria e sulla disposizione degli atomi.
+
+\paragraph{Reticolo BCC:} Possiamo descriverlo come un reticolo cubico semplice (SC) con una base di due atomi identici, uno in $\underline{d}_1 = (0,0,0)$ e uno in $\underline{d}_2 = \frac{a}{2}(1,1,1)$. Il fattore di struttura è $S(hkl) = f[1 + e^{i\pi(h+k+l)}]$.
+\begin{itemize}
+    \item Se la somma degli indici di Miller $h+k+l$ è \textbf{pari}, $S(hkl) = 2f$. Il picco è visibile.
+    \item Se $h+k+l$ è \textbf{dispari}, $S(hkl) = 0$. Il picco è \textbf{estinto}.
+\end{itemize}
+Ad esempio, nel reticolo reciproco di un BCC (che è un FCC), i picchi (100) e (300) sono assenti, mentre il picco (200) è presente.
+
+\paragraph{Reticolo FCC:} Lo descriviamo come un reticolo SC con una base di 4 atomi identici in $(0,0,0)$, $\frac{a}{2}(1,1,0)$, $\frac{a}{2}(1,0,1)$, $\frac{a}{2}(0,1,1)$. Il fattore di struttura è $S(hkl) = f[1 + e^{i\pi(h+k)} + e^{i\pi(h+l)} + e^{i\pi(k+l)}]$.
+\begin{itemize}
+    \item Se gli indici $(h,k,l)$ sono \textbf{tutti pari o tutti dispari} (es. (111), (200), (220)), $S(hkl) = 4f$. Il picco è visibile.
+    \item Se gli indici $(h,k,l)$ sono \textbf{misti} (alcuni pari e alcuni dispari, es. (100), (210)), $S(hkl) = 0$. Il picco è \textbf{estinto}.
+\end{itemize}
+L'analisi delle estinzioni sistematiche è quindi uno strumento fondamentale per distinguere, ad esempio, tra un reticolo SC, BCC e FCC.
+
+\subsection{Effetto della Temperatura e delle Imperfezioni}
+In un cristallo ideale e a temperatura zero, i picchi di diffrazione sarebbero infinitamente stretti (funzioni delta di Dirac). In un cristallo reale, ci sono sempre delle deviazioni dalla perfetta periodicità, dovute alle vibrazioni termiche degli atomi (fononi) o a difetti strutturali. Queste imperfezioni non distruggono i picchi di diffrazione (a meno che non siano così gravi da rendere il materiale amorfo), ma ne modificano due aspetti:
+\begin{enumerate}
+    \item \textbf{Intensità:} L'intensità dei picchi diminuisce all'aumentare della temperatura. Questo effetto è descritto dal fattore di Debye-Waller.
+    \item \textbf{Larghezza:} I picchi non sono più infinitamente stretti ma acquisiscono una larghezza finita. La larghezza dei picchi è inversamente proporzionale alla dimensione del dominio di coerenza cristallina, cioè alla regione di spazio su cui si estende la periodicità perfetta.
+\end{enumerate}

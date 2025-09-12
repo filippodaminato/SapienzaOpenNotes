@@ -1,0 +1,1514 @@
+ So we have time to look at the correlation function and step back, the correlation function is defined in this way.
+ So what we noticed is that in the context of NIFIL approximation, which is the approximation that we have been using for the last several lectures,
+ by the scratch and the operation functions are equal to zero, and while now, we need to link the approximation,
+ is an approximation that turns to approximate our model, which is a strongly interactive model, with the best possible non-interactive model.
+ Therefore, intrinsically, if the kind of approximation that we are doing is the operation functions are zero,
+ even though in the real system, in the real model, without this approximation, they are not.
+ So we wanted to find a way, nevertheless, within the context that we are working in, to compute these correlation functions.
+ And there is a way, likely, and this way exploits what is called the equation-dissipation theorem,
+ which is a theorem that relates the magnetic correlation function with the susceptibility of the system.
+ So in particular, the relation is the following:
+ where the magnetic correlation function is defined above and the susceptibility matrix is defined in the following way:
+ the susceptibility matrix is a response function which describes the linear response of our system when an acceptor field is applied.
+ This is the definition of the susceptibility matrix and we have defined it yesterday.
+ So as it turns out we can compute this susceptibility function in the new field approximation and ends in zero.
+ So this is a way, an indirect way to compute the correlation itself.
+ So what we do today is to compute this quantity which automatically via this beta function which gives the connection.
+ And it is convenient to work in a space to work with this susceptibility matrix.
+ And then the replicatorial space.
+ So the first thing that we said yesterday is that this cij and chiij,
+ these two functions of site i and j,
+ they are 2.1 functions because they depend on two points in space.
+ What are these two points?
+ The points where the site i of the lattice is located
+ and the spatial position of the site i and the spatial position of the site j.
+ We have to consider that the system that we are looking at is a lattice
+ and on each side of this regular lattice we have a space.
+ So in this system, here is the 2D example,
+ every spin which is indexed by an index i is located in a specific spatial position.
+ So this is spin i and it is located at position r_i.
+ So these functions here, they are functions of this one and this one that depends on 2 sides.
+ The location of the side of spin i and the location of the space of spin j.
+ However, in the absence of an external field, the system is perfectly translational invariant.
+ Therefore, as a consequence of translational invariants, this function which should in principle
+ depends on two coordinates. They just depend on the special difference between the positions of these two sides.
+ These are functions of the instance. Likewise, the same thing happens for PHA.
+ So what does it mean? It means that what happens here and here does not specifically depend on the size
+ so we choose i and j but on their distance. So if instead of taking these two I take these two
+ and I have periodic boundary conditions so I am far away from the boundaries
+ whether I take these two or these two it is the same thing. This is just because of symmetry.
+ There is nothing that breaks the constitutional invariance in our model in our system
+ so we would expect that anywhere we take these two points if they are set up at the same
+ total distance every physical behavior should be the same ok and likewise so this is CIJ connected
+ it is a function of both the connected function and the non-connected
+ the same thing happens for this set in the matrix which I remember it is a response function
+ this means that if I apply a field here and I measure how the average behavior of this pin changes here
+ it should be the same if I do the same thing as we are in this pin
+ Excuse me, but does it depend on the vector of the distance?
+ That depends on the model and that depends on whether you have rotation and variance as well
+ So in this case it takes a drop in so it just depends on the distance, not on the vector
+ But in general it depends on the model here
+ Again this should be a function of a pi j
+ and it is a function of the distance
+ This in turn implies that when I Fourier transform
+ also Fourier transform only depends on one way vector
+ so I will have the Fourier transform
+ I will not use the connected letter here
+ otherwise I have to be done
+ but we are looking at the connected correlation function
+ and again, we will only have one player component for the matrix
+ and in particular is
+ sorry
+ this is defined as the derivative of the Fourier transform of the magnetization
+ with respect to the Fourier transform
+ so the strategy is now to compute this
+ ok, once we compute this we multiply by beta and via the frequency of the expression here and we get this
+ and once we get this we counter Fourier transform, invert the Fourier transform
+ and we get the correlation function as a functional distance
+ ok, so let's start by computing this one again
+ what is the starting point? The starting point is the usual equation
+ m equal to the value of tangent of
+ theta h plus theta j
+ the main field equation
+ this is the main field equation
+ that we got
+ the solution of this equation is
+ the energy magnetization of our system
+ so that's
+ ok
+ sorry but now
+ this was for the global
+ the equation that we brought for the global
+ magnetization
+ ok this is the equation
+ that we derived in this case
+ in the presence of our homogenous unit
+ ok
+ but now since we want to compute
+ the susceptibility
+ the susceptibility matrix
+ we need to consider the generalization
+ of that equation in the case where
+ we apply lot of things, lot of things
+ it is straight forward
+ to derive this
+ it's just the same thing, the same procedure
+ that we follow to derive this one
+ and the result
+ is m i
+ equal
+ even more tangent of
+ h i
+ plus theta j
+ sum over j
+ neighbors of i
+ ok
+ I remind you that z
+ is the global number of neighbors
+ ok so you see that
+ in this case m i
+ is equal to
+ s i
+ when there is an homogeneous field
+ all the m i's are equal
+ ok so
+ in case that actually
+ because you see a local field breaks
+ the homogeneity of the system
+ if the field is homogenous
+ MSI is equivalent
+ ok therefore
+ if
+ HI
+ equal to H
+ for MI
+ then what we have
+ is that SI
+ is equal to M
+ for MSI
+ all those things are
+ but if we apply fields
+ that are not the same everywhere
+ the average value of the monetization
+ on a single side will be different
+ just to understand
+ that imagine that on one side
+ there is a very strong field
+ then on that side
+ the speed will always be up
+ if the speed is up
+ if on other side
+ there is a very strong field down
+ on that side on average
+ the speed will be down
+ so if we apply a disomogeneous field
+ the log magnetization
+ will not be the same anymore
+ they will be different
+ and we need to take this in contact
+ therefore this more general equation
+ not holds
+ so you see that in case of
+ homogeneous field this becomes h
+ the field is the same everywhere
+ all this mj
+ are equal to m
+ therefore this sum gives that
+ global number of numbers
+ and we recover the equation
+ ok so this is a slightly more general question
+ which holds in the case
+ of ethylogenity
+ very good
+ so now you understand why
+ we want to go in 3d space
+ we want to go in 3d space
+ because if we try to solve
+ this equation here
+ and to get m i
+ as a function of h and j
+ of all sets of skills
+ ok we cannot do that
+ we will not do that
+ because all these equations are coupled
+ we have a set of m equations
+ all coupled together
+ so we cannot invert it
+ therefore we go in Fourier
+ and as you will see
+ in Fourier the equation is invertible
+ and we can solve it
+ and that's something
+ that you want to do
+ every time you have a relationship
+ which is
+ not real in space
+ which is the case here
+ very good
+ so now we want to Fourier transform
+ before Fourier transform we also
+ explore another part
+ that we want to look at the behavior
+ of the susceptibility matrix
+ and the correlation function
+ where we are close to DC
+ let's say that we are
+ that we go to
+ DC from
+ the high temperature phase
+ so in the high temperature phase
+ the magnetization
+ is zero
+ and it is not zero to imply a field
+ but since then we need to take h = 0
+ we can consider the case of a very small field
+ ok?
+ so if we are
+ in the microscopic phase
+ and the field is small
+ we can expect that both these two terms
+ are small
+ this is very useful because we can expand
+ and we can expand
+ and this equation
+ from being non-linear
+ as it is in this moment
+ it becomes a linear equation in a minimization
+ so we do this expansion
+ so
+ t length and c
+ and the fields
+ are small
+ and we can expand
+ so what we get, we get i
+ beta h i
+ plus beta j
+ sum of the j
+ denominators of i
+ and j
+ so now we want to Fourier transform this
+ so let's apply
+ the discrete Fourier transform
+ the h much more than one
+ yes
+ yes sorry
+ small
+ so let's apply definitions
+ of this Fourier transform
+ so let me write them
+ here
+ and q
+ is equal to the sum
+ of r i
+ e to the minus i
+ q dot r i
+ and i
+ and then since
+ then at some point
+ we need to go back
+ so let's write also the other one
+ and i
+ is equal to 1 over m
+ sum over q
+ e to the i
+ q dot r i
+ and q
+ and q
+ so these are the Fourier transform
+ and inverse Fourier transform
+ of the problem
+ ok
+ where to put this 1 over l factor
+ is initial convention
+ as well as this one
+ ok
+ very good
+ so let's proceed
+ so we need to
+ Fourier transform
+ this
+ and this
+ sorry
+ but
+ how can we
+ how we can take
+ the first order in the real space
+ and then go in the free space
+ without having
+ any clue or idea
+ if this error keeps being small
+ in the free space
+ I mean we have to
+ is in the argument of the
+ yeah and these terms
+ are in M
+ and M is a function
+ of the position because the S
+ is a function of position in the real space
+ as we said the problem
+ so I imagine that M
+ will be eventually a function of R
+ or in this case of Q
+ in the Fourier space
+ but taking that M in small
+ function over in a real space
+ and going in the Fourier space
+ in which we have the
+ that's not a problem because it's the amplitude of M
+ to the thing with respect to R
+ it's not its position
+ so you are assuming that M
+ is a small
+ and this is the reason of the expansion
+ so it's the amplitude of the R
+ it's not
+ how the modes are distributed
+ which is what we are doing
+ with the Fourier transform
+ ok
+ ok so now
+ what we need to do
+ is we need to
+ get the Fourier transform
+ what we do is that
+ we apply the definition
+ and on both sides of this equation
+ we perform this operation
+ ok
+ we perform this operation here
+ and we perform this operation here
+ on both sides
+ so on the left hand side we immediately get
+ mq
+ this is the definition
+ so on the right hand side
+ this term
+ it will get just a similar thing
+ with h so it's hq
+ so we get
+ hq
+ then with the second term
+ we need to be a little bit more careful
+ so I will write explicitly
+ the operation that we are doing
+ so here we have
+ this
+ okay and then we need to write again
+ what we have here
+ okay
+ so we have eta j
+ and then we have the sum
+ of these are two different jets
+ if you want I use k, don't get confused
+ okay this is an index and this is the
+ forces frame
+ and here we should put mj
+ now instead of putting mj
+ let's put its expression in Fourier modes
+ so instead of putting mj
+ we use this but for mj not for mi
+ so what we need to put here is one of the m
+ sum power I need to use another way better
+ so I will use k
+ e to the ik dot mj
+ m dot ok
+ so we are using this we are using this
+ let's change here in j
+ and this in k
+ ok
+ since here we are j I substitute this
+ ok
+ very good
+ so now what I do is that I rearrange terms
+ the first thing that I notice is that as we did yesterday
+ I just write rj as ri plus rij
+ and then what I notice is that all the parts with an i can be pushed before the sum
+ so what I get is equal to theta plus sum over ri
+ and what I have here I have e to the minus i ri and I will have q minus k
+ this is this term here
+ which is a plus i k ri
+ this is a plus i ri
+ so I shift this term here
+ very good
+ and then I can put
+ let me put here
+ v k j over n
+ so I can have this function from
+ ok
+ ok
+ and then who I have
+ ok
+ what I have is that I have the sum of k
+ I just
+ once I put this term here
+ I need to shift over to the sum of k
+ so let me move the size here
+ back to sums
+ the sum of k
+ and the sum of i
+ ok
+ and then what I am left with
+ is this sum here
+ ok
+ here I have the sum
+ over
+ I can sorry
+ I can put the k here
+ ok
+ because this does not depend on
+ any special variable
+ and then I have this sum
+ sum over j
+ belonging to
+ i
+ e
+ to the i
+ k dot
+ r i j
+ ok I think I would like it
+ ok
+ ok
+ ok so now let's look at
+ this sum here
+ this is a sum of the neighbors of i
+ ok
+ so let's assume that i is here
+ and these are the interactive neighbors
+ so the possible J's
+ J=1 J=2
+ J=3 J=2
+ so you see that summing
+ over the
+ neighbors
+ is equivalent
+ of summing over these distances
+ in these 4 places
+ ok
+ so instead
+ of
+ so let's say that these distances
+ are
+ 1,2,3,4
+ meaning equal to
+ ok
+ so instead of summing
+ over J belonging to
+ an I
+ I can sum over the vectors
+ of the primary cell
+ of this lattice
+ ok
+ so with sum I can change this
+ where I sum over the distances
+ all the possible distances
+ in the first cell
+ around a human loving cell
+ ok
+ very good
+ so at this point
+ we see two pairs
+ the first thing is that
+ at this point
+ clearly his sum does not depend
+ on the side i
+ it is the same in every
+ side that I look at in my lattice
+ so this one here
+ does not depend on i
+ since there is nothing
+ that depends on i the only thing left
+ depending on i
+ is this sum here
+ but this sum
+ in the one apparent factor
+ is a delta function
+ is a chromatic delta
+ the definition of the chromatic delta
+ so this is telling me that q
+ is equal to delta
+ very good
+ that solves one thing
+ so we have theta
+ h of q
+ plus theta j
+ and at this point
+ I can put here and e
+ and what I am left with this
+ is some to write it
+ but this is
+ we can evaluate this explicitly
+ because let's
+ look at this figure
+ now let me compute
+ this quantity here
+ for example along the x axis
+ so along the x axis
+ I have two neighbors
+ ok and this would be
+ e i
+ and I would get
+ k
+ ok the model is
+ actually k i
+ sorry
+ if I'm on the x axis
+ this will have only
+ the coordinate on the x axis
+ so it will be
+ x
+ and we call this vector
+ the alpha
+ the unit vectors along
+ all the possible direction
+ in the lattice
+ so this will be
+ for the x axis
+ on the right
+ on the right table
+ this will be
+ i
+ kx
+ l
+ where l is the lattice spacing
+ ok
+ and this is for this point here
+ but then i also have this other point here
+ ok
+ so when i consider this other point here
+ i need to sum this other neighbor
+ and this will give me e
+ to the minus i
+ kxn
+ sorry q because q is equal
+ k is equal to q
+ ok
+ ok
+ so for the neighbors along the x axis I have this
+ ok so this is twice the cosinus of qxn
+ ok
+ then I repeat the same thing for the neighbors along the y axis
+ and according to this dimension I am looking at also the one in z axis
+ so this term here will give me one, will give me two and I will do two here
+ sum over alpha equal one to d, for d is the dimension of the regular lattice I am looking at
+ cosinus of alpha f
+ ok, do you agree?
+ very good
+ of course this computation holds on a regular lattice
+ if the lattice is not a regular lattice, it is a triangular lattice, an onicum lattice
+ something more complicated, you need to write down explicitly the computation in the lattice
+ we are doing the regular lattice which is the same as well
+ ok, so very good, so at this point we are very happy
+ why we are happy? because now we have an equation that we can invert
+ and why is that? this is Mq, so we can bring everything containing Mq on the left hand side
+ and we will get Mq which multiplies 1 minus 2 beta J sum over alpha cosinus of 1L
+ and this should be equal to beta H
+ very good and therefore finally we get Mq equals beta Hq divided 1 minus 2PJ cosinus sum over alpha cosinus of 2L
+ ok so you see this is similar to the expression that we got yesterday in the case of homogeneous field
+ but we generalized it to the case where the field depends on the space
+ great so at this point it is very easy to compute the susceptibility if we have space which is this thing here
+ and therefore we get automatically our key of Q
+ we can write directly the C of Q
+ the C of Q connected
+ which is equal to beta
+ we can write the P that will be the P^2 divided
+ 1 minus 2P^j sum over alpha
+ from 1 to D
+ the size of Q^1
+ I hope I got all the factors correctly but I think so
+ ok
+ very good
+ so now what we want to do
+ we want to fully transpose the pack
+ and to get the connective correlation function in real space
+ we want to get this
+ where here R represents the distance between two points on the numbers
+ sorry but it's like the key is equal to beta the correlation function
+ yes
+ key is equal to beta correlation function
+ so c is equal to 1 over b so this disappears
+ very good because I was not happy about this
+ ok which is dimensionally appropriate
+ very good
+ ok ok so the Fourier transform the important thing is that we are interested in understanding the behavior of the system at large distances ok and this simplifies a lot of our computation because the combination with Fourier transform of this is a little bit nasty but if we are interested at large distances we know that when we look
+ at the large distances it is the small weight vector that comes so we can assume that the weight vector the moles that are non-zero at large distances for large values of r we are looking at this function are only the ones with small q so if this is true so large distances we can only consider the moles which are small so let's put ourselves in this condition and in this condition we
+ can expand the cosines ok so in this case in this case what we have is that the denominator of that expression is 1 minus 2 beta j and then we have sum over alpha and this will be 1 plus q alpha squared
+ okay okay sorry but the connected related function is always a dimensionless or dimensional can we can we do a check dimensionally speaking on the connected
+ because we build everything in such a way that spins are non-dimensional
+ okay so in general it's true that my connected relation function could be dimensionless
+ okay very good so this is now easy to compute because this will be what?
+ this will be B is 1 minus 2 B is a J and here I need to sum from 1 to b so I can get the first sum
+ to be a D ok but 2D is the number of negatives so we can put the Z ok so this is the first term now we have the second term so it is enough ok and we have the second term and the second term will be plus Q squared the numbers of Q ok
+ that's good, ok
+ ok
+ ok, I think we are ok
+ beta in j
+ beta in j
+ and the sum over alpha for the Q alpha squared
+ yes
+ yeah
+ ok, beta in j, ok
+ and the sum where does it go?
+ the sum, because the sum
+ we're taking the modulus
+ the square is the modulus
+ ok
+ this is the modulus square
+ so 2 is equal to the modulus square
+ so in the end we can rewrite
+ maybe write that in a nicer way
+ so we just
+ so let me do the following thing
+ so I have a 1
+ so let me
+ let me put this factor here
+ outside
+ so I will put this outside
+ 1 over q squared
+ plus something
+ ok
+ this something here
+ should have the dimension
+ of an inverse length
+ because q has the dimension
+ of an inverse length
+ do you agree?
+ so let me call this quantity
+ c to the minus 2
+ ok
+ this side is a length
+ ok
+ and what is the definition of the side?
+ we just have it
+ we need to divide
+ just write this
+ like this
+ so this is the side
+ to the minus 2
+ ok
+ ok
+ so let's write here explicitly
+ what is the side
+ side is a length
+ and it's given by
+ square root
+ so it's L
+ square root of theta j
+ divided
+ square root of 1
+ minus theta j
+ z
+ ok
+ so you see it as the dimension of a length
+ this is the lattice spacing
+ it has the dimension of a length
+ everything here is non-dimensional
+ ok
+ right this will be important
+ this will be L
+ ok
+ it's a construct
+ a numerical factor
+ and then we have what
+ this is what
+ theta JZ
+ is nothing else than PC over T
+ ok
+ so here we will have
+ 1 minus
+ PC over T
+ to one half
+ ok
+ so we see
+ immediately
+ that the correlation function
+ depends on a length
+ we have a length scale appearing in our system
+ which is not a microscopic length scale
+ the microscopic length scale is the lattice space
+ ok
+ but here there is another parameter
+ that comes out
+ and it is the only length
+ on which the correlation function depends
+ ok
+ and here is this length side
+ and this is called the correlation length
+ ok
+ and we will see now why it is called correlation length
+ to see why it is called the correlation length
+ we need to transform back the correlation function
+ and look at the correlation function in real space
+ ok
+ so of course doing the Fourier transform in discrete space is very little bit annoying
+ so we will do that in continuous space
+ ok
+ so since we are looking at large distances
+ we assume that the small distance case over which the discreteness of the lattice emerges
+ so we perform a continuous Fourier transform
+ so what we need to do to find out the electromagnetic correlation function
+ in the real space is to perform a standard Fourier transform
+ which apart the normalization which depends on the body and so on
+ I don't care what is
+ so we need to do this operation
+ ok
+ ok
+ so to perform this operation we need to assume what is the dimension of the space
+ let's do it in 3D because you can see the space
+ ok but you can also do it in the
+ same conclusion in other dimensions
+ but let's go into 3D to do something specific
+ ok so this in 3D this will become
+ so there will be some factors here
+ I want them A I am not interested in the
+ factor I am interested in the functional
+ form of the original factor
+ and I will have the integral over the Q
+ and then what I have
+ so I have Q square plus
+ Psi to the minus 2
+ so let me write this explicitly
+ so this will be
+ two factors here
+ all the factors that plant them back in A
+ for the cost of factors
+ and I will have D
+ besides Theta
+ Theta is the angle between these two factors
+ here
+ I choose to orient the R actor as the Theta axis
+ so this is also Theta of my reference for the next system
+ and then I will have
+ and then I will have integral over Q
+ and Q squared
+ equal 3
+ and then I will have E to the I Q R Theta
+ and I will have total Q squared
+ I think I will have everything
+ so I start by solving the integral in this Theta
+ so this is an exponential
+ so once I perform the coefficient there
+ what I get
+ there is always
+ this will be a time
+ I always plug the constant factors
+ in the constant A
+ every time that I get the factors
+ I plug them in the constant
+ first I will have again
+ the Q Q squared
+ zero to infinity
+ zero to infinity
+ and then what I will get
+ when I solve this integral
+ it's an exponential
+ so clearly it's just another exponential
+ but I have
+ I Q R
+ here in the denominator
+ and then I will get
+ E to I Q R
+ minus E
+ to the minus I Q R
+ this is when I compute
+ the exponential value to extremes
+ and then I will get
+ Q square plus
+ sigma
+ so what happens here
+ what happens here
+ what happens here
+ what happens here
+ this
+ comes with this
+ and then
+ on the left click
+ it's something which is
+ a constant
+ divided I R
+ and then I will get
+ the integral
+ over Q
+ Q
+ and then I have
+ I Q R minus C
+ to the minus I Q R
+ and then I have
+ Q square
+ plus C to the minus
+ C to the minus C to the minus C.
+ Okay.
+ So this point I need to solve these integrals.
+ Okay.
+ So let's do one of the two.
+ The other one will be equal to the opposite side.
+ So let's focus on one of these three integrals.
+ We need to solve this integral here.
+ We have one over i r, some constants.
+ And then we have this integral over q q e i 2 r over q square.
+ So we can rewrite this in this way.
+ So to perform this integral we use complex analysis.
+ So we need to integrate them here.
+ And our complex function has 2 divergences.
+ One here in i^1 and one here in i^1.
+ So, what we do is that instead of the complex function,
+ we close it from, we create a closed path in such a way as to have a negative exponential.
+ So, we need to choose whether we close this path up or down.
+ And if we have a positive exponential, we need to close it up because along this semicircle,
+ this exponential is negative and decreases at large distances.
+ When treating the other exponential, which has a minus, we need to close down.
+ And the fact that in the second phase, we need to close down is the reason why when we perform the second integral,
+ this minus sign becomes plus and the two integrals are equivalent.
+ Ok, just put one. So let's compute this, when we transform our model this way,
+ we can use the residual theorem, which tells us that the result of this integral is 2 pi i,
+ the sum of the residue of the function inside of the integral.
+ So the i of the residue theorem comes with this i, and what we get is the constants,
+ I put the two binds in constants over r.
+ And then we need, we are choosing this matrix, so we call the rest of it,
+ we need to multiply by this factor, so this goes away and we need to value the rest of the function in this one.
+ So we would get, we would get E, i would be like my i is minus, r for the side, okay,
+ and then we have one u here which would be one by i's side, okay,
+ there is another side after here and another i,
+ and here we would get two of this, okay,
+ so we would get another i which cancel with this,
+ probably got something wrong with the sign,
+ the sign should be positive, okay,
+ and I would get a side with minus 1 here with a 2 which goes in the a,
+ this two cancels and that's it. So in the end, what I get is a constant,
+ the domains are on the side divided by R, okay.
+ I didn't keep track of the constants, the constants are, they are not important,
+ they depend on the parameters of the model but they are not important.
+ The only dependence on the distance is here, okay, and this is,
+ this is the absolute value of the distance, so to reply to the question that was made before,
+ we find naturally that the correlation function does not depend on the distance vector but only on the distance, okay?
+ And the other contribution is to say so they sum up and eventually the final result is a behavior vector.
+ So once we found this result then we comment on the final result, okay?
+ Let me comment on the final result, I will write it here so that we have everything in front of us.
+ So what we found is that the correlation function, the connected correlation function behaves in this way.
+ Okay, very good.
+ And therefore you understand why this one in here side is the correlation left.
+ Why is it called correlation? Because from these functional forces this is an exponential.
+ What you see is that correlation, in case it is zero, for distance is larger than big sun.
+ So this side measure the extension of the correlated domain of the punctuation.
+ Because this is the way to connect the correlation function.
+ Okay, so what does it mean?
+ Let's try to recap it later and understand what we are talking about.
+ So we have these systems.
+ In these systems we have screens everywhere in our cloud.
+ These screens are interacting.
+ They interact on which scale?
+ On a very short scale.
+ Only with names.
+ Okay.
+ So they interact only with names.
+ So it's natural to expect that very locally,
+ if one screens move up,
+ also we have a screen we try to do the same
+ because we have alignment interactions in the system
+ and interactions are local.
+ So it's natural to expect that locally,
+ on the range of the interactions
+ the spins will tend to do in time exactly.
+ But what happens at larger distances?
+ What happens at larger distances
+ is not a matter of interactions
+ because interactions are normal.
+ So what happens at larger distances
+ depends on the extension to which
+ far away spins are able to influence each other.
+ So if one spin tries to go up,
+ clearly it will accept the sound force of the neighbors so it will try to go up as well.
+ But what will happen with our neighbors? This is the question that we want to ask.
+ So it depends on how interactions are strong as compared to noise.
+ Because if the interactions are very strong as compared to noise,
+ this is a spin, it will keep up, if it's up, it will try to keep up its neighbors.
+ The neighbors will do the same with the neighbors, the neighbors will do the same with the neighbors and so on,
+ and this information will in short time reach all the other spins.
+ And this is the extension of the influence of one spin with respect to the others.
+ This is what the correlation function measures.
+ Ok, so how extended is the correlation function is a measure of how influential spins are with respect to each other
+ and depends clearly on the ratio of the strength of the interaction sequence.
+ So what do we expect?
+ We expect that if we are at a large temperature, ok, very large noise,
+ this range of influence will be very short because it's true that locally the spins will want to align with each other
+ but it's a very strong noise so this propagation of I want to align with you, you want to align with them and so on will not be effective.
+ And so the correlation with the K value, this will mean that the side should be very small.
+ Let's see if this is true. Let's rewrite this in this way.
+ This is 1 - Tc of T, then we write T here, T here, okay, so maybe we have the temperature here.
+ So you see that when T is large, this becomes of the order of the lattice space, okay.
+ When T is larger, T dominates over this, you have T above and below and the correlation length becomes of the order of the lattice space.
+ Very short, very short.
+ Okay?
+ Okay?
+ Beta J for the 1.
+ Okay?
+ I mean if T is large, beta is small, this is again something that makes the correlation length.
+ Okay?
+ But now let's see what happens if I start decreasing the noise, decreasing the temperature.
+ If I decrease the temperature, this tendency to align will be able to propagate farther and farther away from a given spin.
+ And so this correlation length will increase, will increase, will increase.
+ Okay?
+ And when we are close to the Tc, you see that the correlation length diverges.
+ So this means that at Tc, at the transition temperature, everybody fully influences all other individuals, all other spins in the system.
+ Okay?
+ And indeed, if you perform a numerical simulation of an easy model, which is something that I suggest you to do because it's very instructive.
+ If you perform a numerical simulation and you look at a snapshot of your numerical simulation, a snapshot of your numerical simulation,
+ typically if you look in books, what people do is that they paint black downspins and white darkspins.
+ So when you look at an image of a simulation of a certain temperature, you will see black and white dots.
+ So what do you see? If you are at a dark temperature, you will see like salt and nectar figures.
+ So you will see white points and dot points everywhere, homogeneously distributed.
+ Something like this.
+ Ok?
+ Then when you see everywhere, I don't know, I don't want to pass any time.
+ Then if you start decreasing the temperature, what you will start to see is regions that are more white and regions that are more black.
+ And these regions are correlative regions, the regions where spins do the same thing.
+ So this means that you run the simulation is not a natural.
+ You run the simulation and you just look at one instant.
+ So it is an instantaneous configuration.
+ So instantaneously you have spins doing the same thing here, spins doing the same thing.
+ Now if you keep decreasing the temperature, these regions will become larger and larger.
+ And when you reach DC, the size of this region will be proportional to the whole system size.
+ Indeed, for a finite system, you will not take the finite size equal to infinity for a finite system,
+ because the finite system maximum size is L.
+ For a critical system, a system of criticality, what you find is that size is of the other.
+ This is the finite size version of this problem.
+ Okay? Very good.
+ So this is why this correlation function is important, because it won't measure collective effects.
+ So if you have a correlation function, and you can measure your correlation length,
+ and you see that this correlation length is very big, as compared to the microscopic relevant scales of your system,
+ and it is of the order of the system size, you can say that your system is close to the other point.
+ And then the other consequence is what happens when psi goes to infinity?
+ When psi goes to infinity the exponent of this exponential is zero, so you get rid of the exponential and your correlation function becomes tau.
+ Now when you have a correlation function that is a power loop, so exactly at C, COR, is one cost counter, one cost counter.
+ A large distance, of course there is a regularization of this. This is a power loop. What is a power loop? A power loop is a functional form that has no scale.
+ There is no parameter with the dimension of a length in this functional form. There will be one here inside A, which will be related to the left side, but there is no other
+ landscape present in our function. So power non-behavior is what we usually find at critical points. And this is why this is usually called scale free behavior, there is no scale. Self similar behavior because the behavior of your self is always the same at the scale.
+ These are all terms that you will find in a lot of literature, so it's important that you understand where they come from.
+ They come from here.
+ I wanted to describe this model because this is a model with relatively small effort, you can really see and compute these things,
+ which are usually what people confidence in other systems. The way you hear about, you know, networks of neurons are scale-free.
+ What does it mean? It means this. It means that there is no typical scale over which neurons are correlated.
+ They are correlated over the whole brain. This is a controversial theory, so I'm not saying that it is correct.
+ When you hear about that, people means this.
+ At least now you have the tools to understand the terms of several important discussions in biology.
+ There is a whole big discussion about the fact that biological systems are foist to critical point.
+ People write a huge amount of papers to show that this system here is critical, this system here is critical.
+ So what they do, they try to compute correlation functions and to show that the system is bigger.
+ This is the reason for that.
+ Sorry, but when you say scale 3, it's the correlation length that is not defined in the case in which we have the power law for the correlation function.
+ What kind of scale are we talking about? The correlation length?
+ Okay, so imagine that we will see a few examples explicitly.
+ So I will show you for example what we need in lots of birds or in other animal groups.
+ But let's start with another example.
+ Let's assume you are looking at a network of real neurons.
+ So this is the next topic that we are going to look up in the course.
+ But you have all these neurons connected to each other.
+ And they are able to send signals, receive signals from the other.
+ Signals are electric pulses.
+ So the state of the network is determined by these pulses that are sent from one neuron to the other.
+ So you can take very minimal models of neurons but also description of neurons, let's say.
+ Not just one, description of neurons, by assigning that which neuron has a quantity that I would call SI.
+ And you can say that this is one or zero or one or minus one is the same.
+ You just need to have two values, so let's say that we have one and minus one, so this is exactly the same as this in the system.
+ One corresponds to the neuron is firing, it is active.
+ And minus one corresponds to the neuron is inactive.
+ So people have been measuring activity neurons with a lot of complications, experimental constraints and so on.
+ So they have measured the patterns of activity of the neuron.
+ So what you can do is that you can come to the correlation function exactly as we did for the raising of the neuron.
+ But we measure it experimentally.
+ So you can measure this function and you can measure the correlation value.
+ And you will find a number.
+ So you need to interpret this number.
+ So one thing that you can do is that you can say:
+ I look at a certain piece of brain,
+ at a certain fine size of neural network,
+ of size L1.
+ I compute the correlation function,
+ I compute the correlation length,
+ and I find the sine 1.
+ Then I take a larger size.
+ And 2 which is larger than every one.
+ Okay?
+ Then I will measure the correlation function,
+ I will measure the correlation length,
+ and I will find the sine 2.
+ And I do everything.
+ I take larger and larger size.
+ Sorry, I don't get it.
+ How can we measure in general the correlation length
+ if we are not close to the transition phase in our system?
+ You can measure it operationally,
+ you can measure that.
+ For a neural network, you plug electrodes on each neuron,
+ you cannot do that on each neuron,
+ you try to do this for how many possible neurons you are able to do that
+ and you start measuring the activity of each neuron for a long time,
+ then you do the time average of that probability there.
+ Instead of using the brackets, you don't know how to measure,
+ because this is not a model, this is a real system.
+ But if you remember, it is the idea of these brackets.
+ The idea is that of an equilibrium measure,
+ and the idea of an equilibrium measure
+ is that it represents the number of measures.
+ So if you do an experiment for long enough time,
+ and you average over time,
+ that's the equivalent of that.
+ So this is what you do in the experiment.
+ So you all have all these electrodes,
+ so you measure at each instant of time the activity of each neuron
+ and then you compute that.
+ You average over time and you will have the correlation matrix
+ for your activity for each pair of neurons.
+ And then the correlation length?
+ And then what you do is that you start taking pairs
+ that are at the same distance
+ and you average the cij of those pairs
+ and you get the function of the distance
+ and that is the scale
+ and you try to fit it
+ and you see whether it is like an exponential
+ and what is the scale
+ of the rigid pairs
+ typically you will find some pairs
+ it depends on how long is the experiment
+ and how many pairs you are averaging
+ but you will find something like this
+ and if you are very lucky
+ you just take a look at it in semilog
+ and you find a straight line
+ and that gives you directly the inside
+ and if you are not so lucky
+ you try just to estimate the typical decay
+ I don't know, when it goes above
+ this is C or R
+ you take a threshold
+ and you say okay
+ and this is another way of measuring the correlation length
+ here my correlation function decays below this value
+ and is a vacant way to estimate the correlation length
+ or there are more sophisticated ways
+ which involve integrals of this function
+ which give you an estimate of the correlation
+ there are different ways to do this from data
+ in fact I think that you could consider a length
+ not the number of neurons
+ this is a special length
+ in the brain it's difficult to measure the physical length
+ so we could in principle use the number of the neurons
+ sure the neurons is a special case
+ because let's imagine that it's another system
+ where computing the distances is easier
+ ok this is what you typically do
+ ok
+ but it's true you can also measure the correlation function in terms of number of neurons
+ it's another way of doing that
+ but since we are discussing spatial dependence
+ let's assume that it's a system where you can measure that
+ ok
+ very good
+ ok so what you will typically find
+ you will never find a correlation length of infinite
+ ok
+ even in models
+ you can find a length that is truly infinite
+ only in the thermodynamic living
+ ok
+ why?
+ because in a system of finite size
+ the maximum length achievable for that system
+ is the size of the system
+ ok
+ so when you perform
+ either a simulation or an analysis
+ in a finite size system
+ the maximum value of the size will not be infinity
+ so the critical point of the size will be L
+ or something very close to L
+ ok
+ so how do you understand if the system is critical
+ if you are looking at the fine size system
+ well you need to take larger and larger systems
+ and you need to concentrate size for each system size
+ and if the system is critical
+ you will find that size scales in L
+ ok so let's say that one measures XI in the system of interest
+ from an experiment and finds all these different values
+ ok
+ then what we need to do is to plot
+ size as a function of L
+ for each experiment
+ ok
+ and if one finds something like this
+ the system is scale free
+ there is no intrinsic special scale
+ the only scale is the system size
+ the two are proportional to each other
+ if the system is not critical
+ maybe for very small sizes
+ you will see an increase
+ you will see an increase
+ so this is what you need to do
+ for example you perform numerical simulations
+ of the easy model
+ and you don't know what are your parameters
+ if someone just give you a black box
+ you can run the simulation and look at what happens
+ you perform simulations of different sizes of that
+ if you find this
+ your system is not at a critical point
+ if you find this your system is at a critical point
+ ok so that's the way to see this from the data
+ point of view
+ ok
+ very good
+ so with this
+ I can
+ ah sorry
+ you see that here we get another exponent
+ which is how the relation length diverses
+ where they are from C
+ and in this case this exponent is 1/2
+ so easy mode we think the approximation is 1/2
+ in general this exponent depends on the universality class
+ and this is the last exponent I wanted to mention
+ because this is related to collective effects
+ so this is something important
+ so the last thing I wanted to mention
+ I wanted to mention just to mention
+ a few other interesting possibilities
+ related to what we have discussed for this model
+ so let me rewrite again the easy model
+ the endotronium
+ let's just look at the interaction part
+ so we have this
+ our neighbors
+ ok
+ so there are generalizations of this model
+ which are all interesting for what we will be looking at
+ in the next lectures
+ so generalizations one
+ let's say that
+ these spins here
+ are not discrete variables
+ but they are vectors
+ so in this case
+ this model in 3b
+ are called the Eisenberg model
+ in 2b is called the xy model
+ these are called going models
+ and the Hamiltonian
+ reads like this
+ some of the neighbors
+ walks
+ I don't understand
+ so in this case
+ you have to imagine the situation is the same
+ as we described before
+ but now the spin can take to any possible direction
+ because they have fixed norm
+ one as before
+ but they can point anywhere
+ so this is a more accurate
+ actually description of a pheromone
+ okay
+ so this is the formatorial model
+ but we still have a larger interaction
+ and we still have the nearest network
+ okay
+ so what is the different
+ this is a different universality class
+ from the same model
+ and you can immediately guess
+ that it is a different universality class
+ why?
+ usually the universality class is determined
+ by what?
+ by the kind of other parameter
+ ok
+ and in this case the other parameter is similar
+ even not the same
+ to the right pricing case
+ because it is a manualization
+ in one case the manualization can only be
+ up or down, in this case it can
+ it can assume it is a
+ factorial parameters in this case
+ is a rectum
+ so the properties of the ordered parameter may be important
+ to determine the universal class
+ but the thing that usually
+ is super important to determine the universal class
+ are the symmetry properties
+ so in the case of the ISIM model
+ what are the symmetry properties of the system?
+ are seemingly by inversion, speed.
+ It is a discrete symmetry.
+ In the case of the ASIM model
+ we still have a symmetry
+ but this is a rotational symmetry
+ so it is a continuous symmetry.
+ So we are going for a model where we have a symmetry
+ to a model where we have a continuous symmetry,
+ rotational symmetry.
+ And this makes a bit of difference
+ in terms of universal classes.
+ So without going into difference maybe we will tell something more competitive later on in the course,
+ but for the time being let's try to picture this.
+ So our intuition was different.
+ So that's an intuition.
+ So let me draw again the effective free energy that we derived from this amount.
+ Okay?
+ So this plays a role of a sort of mixture of free energy.
+ Okay?
+ And this is something that we, you remember the explanation of this quantity here is the probability of finding a certain value of the organization.
+ And what we found is that from here we go to see this function here has this form.
+ Okay?
+ And the minima of this function corresponds to the equilibrium state.
+ And here the typically below this C you have two equivalent equilibrium state with positive and negative
+ manifestation related to each other by the similar.
+ Okay?
+ So if you are in equilibrium state and you flip all the spins you get to these other equilibrium states.
+ So these equilibrium states are related one to each other by similar.
+ Okay? The symmetry of the Hamiltonian, which was discrete in this case.
+ So this means that your system at low temperature spontaneously practices the symmetry,
+ because at low temperature, if you prepare a segment, then your system will be found higher here or here.
+ But the different equilibrium states that you will find are themselves related by symmetry.
+ Ok? So the segment is recovered if you look at all the eroding phases of your organ.
+ So let's try to understand what happens in the continuous phase.
+ Also in the continuous phase you have transition at the temperature of the C.
+ So when you lower the light temperature your system is disordered, as you lower the temperature,
+ the correlation increases, at some point you will have a high transition
+ and in the low temperature phase your system will be ordered.
+ How will it be ordered?
+ So in the case of the easing case, either all spin up or you have spin down.
+ But in the case of the Eisenberg model, the spins can point in all directions.
+ So, if you look below DC, if you look at the Eisenberg model below DC, you should have order because this is the definition of the ordered phase.
+ Everyone should go and progress in the same direction, but this direction can be any direction in space.
+ So, in the Eisenberg phenomenon, this is the disordered case.
+ What will be the other case? All spins, for example, pointing approximately in this direction.
+ So, the global magnetization, the average overall spins will be here, but it is more of the equations,
+ because it can be in the footprints anyway, but more or less, all spins will point in that direction.
+ Why that direction? It is one of the possible directions.
+ Maybe you prepare another system with the same conditions, same temperature, same everything,
+ and when you look at your system and you cool down temperature, you look at the direction of the global ionization,
+ you will find a similar situation of when the global ionization is here and those things are going in there.
+ And you repeat your experiment with another sample, you cool the system down, it orders, but it will order in another direction.
+ All directions are possible, okay? And all these possible direct directions in which you can find macroscopically
+ new system of the temperature, they are related to each other by the symmetry of the Hamiltonian,
+ which is a continuous relationship. So all the states where the global magnetization can orient itself
+ are possible in the United States. So if we have to guess how this magnetization should look like,
+ first of all, our axis cannot be a one-dimensional axis because the magnetization can point everywhere.
+ So let's say that we are in 2D, our magnetization should be able to explore all the possible angles in the 2D plane.
+ So instead of having one thing here, we will have a plane.
+ And if you want to draw this effective energy, it will be a function of this vector.
+ It will not be a function of a scalar, but it will be a function of a vector.
+ So here we can plot this f-effective called m.
+ Now m is here, so this is an x and this is an y, this is a little bit complicated case, but just to make an argument.
+ And it will be something like this, but with a rotational signal.
+ So how can I look? If I look in one direction, it will be like this, where these are pivoting states.
+ But then, all these are possible states. So you need to take this double weld and sustain this place.
+ So you get something which is called the Mexican hat. It's like a hat, when you put it on a table upside down, you will have the bottom of the hat, which is the lowest energy.
+ The hat represents the free energy, the lowest manifold is represented by the bottom of the hat, and thus the region of the equilibrium is possible.
+ We have a system or that system either, for example, get the magnification in the direction, but we can all have this direction. They all have the same energy. They are all minimum. They are minimum.
+ Okay? So this picture gives you also an intuition of what else. Remember that this is the log of the probability.
+ So this was the probability of finding M, this quantity here, is equal to the minus theta by the negative of M.
+ Okay? So the probability M inside of the system.
+ So these values are the ones that have the largest probability. These are the equilibrium values.
+ Okay? As soon as you depart from this equilibrium value,
+ the free energy increases and the probability is suppressed.
+ If the exponential is suppressed with an N in front,
+ this means that the system is in the equilibrium.
+ Okay? The same happens here.
+ So if you try to climb walls of this Mexican hut,
+ fluctuations in that direction are very suppressed.
+ Of course, in a real system with the magnetization fluctuates,
+ even in an equilibrium state.
+ These fluctuations here are very difficult
+ because your energy immediately increases sharply to free energy.
+ On the other hand, what happens in this case?
+ In this case, if you want to go from here to here,
+ you need to jump a barrier.
+ there is no other way.
+ So your equilibrium states are very stable.
+ Flutuations are always very impressive.
+ Because you can only do this.
+ In this case, you see you have two kinds of fluctuations.
+ Flutuations here, which are the same as in that case,
+ which are fluctuations in the models.
+ These fluctuations are very hard.
+ so you have a few of them there and they are. If you are in the low temperature phase, fluctuations of the models of the magnetization in the real system are visible.
+ Ok? However, there are other fluctuations which are less hard and these are the fluctuations in the bottom. Ok?
+ So these fluctuations in the bottom are soft modes. Ok? They are soft modes and maybe you heard about goldstone modes because these goldstone modes are also important in high energy fluid theory.
+ It's exactly this. Every time you have a continuous symmetry and this symmetry is spontaneously broken, therefore you are in an open phase, you get these soft goldstone modes along the bottom of this web. Ok?
+ And what is the consequence of having these soft modes is that in general for the modes with continuous symmetry, fluctuations can be more important.
+ Indeed what you can show is that the easy model orders from d=2 accounts.
+ The d=2 case has an order in transition, the d=3 case has an order in transition.
+ You don't get the transition in d=1.
+ You need to use other arguments to show this not only in theory, but you can show that.
+ What happens for the continuous case?
+ Since the fluctuations are more important, the deeper case has no longer order, has quasi longer order.
+ So the model is more sensitive to fluctuations.
+ And another important consequence of this is that if you look at your system below the sea,
+ and you compute the same connected correlation that I mentioned before from the AC model,
+ in the whole low temperature phase, connected correlations are powerful for models with continuous symmetry,
+ not just at the sea, but also below the sea.
+ And the reason is that below the sea you have these soft modes which are easy.
+ So it's more easy to propagate the fluctuations in directions, not in models but in directions.
+ Okay, so this is what I wanted to tell you about this.
+ So this is to say, if you find a correlation function in an experiment which is power growth,
+ you would be happy to say, ah, I'm just going to give a point, but you need to be careful,
+ because if your system has a theory of symmetry, this might be lots of modes.
+ So we always need to look at all the possibilities that we know.
+ And we see examples of this.
+ We will show examples in the system where we find something like this.
+ Sorry, so just to recap and understand.
+ We will also get about a law in a continuous system in which we can evaluate the situation
+ of the phase in the minima of our free energy landscape.
+ Okay, yes.
+ So that's the effect which we have to be careful about.
+ Okay, so I wanted to tell you this later on, but since we don't have enough time
+ and we really start the works now, I'll show you this.
+ Okay, so I'll show you why we find this.
+ Okay, so today we complete any possible demonstration of this kind.
+ So let's say that we are looking at a guys in the model.
+ This is not a particular demonstration, but at least you will see what I've done.
+ So let's say that we are using a model with continuous energy, so we are in this case.
+ And let me try the model in this way, where I'm summing over all these things.
+ But this matrix that I take here, is equal to 1 for the nearest neighbors, and is equal to 0 for absolute.
+ So it's another way of rewriting the nearest neighbor interaction.
+ Okay.
+ This is different from 1 and the nearest neighbor on our matrix.
+ Okay.
+ So now let's assume that I am in the object phase.
+ I know already that there is a transition, so I place myself in the object phase.
+ And I place myself at t much smaller than t, so my system is very ordered.
+ If my system is very ordered, what I can do is that I can write my spin with a longitudinal component,
+ the component along the direction of the global magnetization,
+ so this means that I have a global magnetization which points in some direction.
+ I am very ordered, it will push us on Facebook.
+ So let me call the n the direction in which the global magnetization points.
+ Okay, so every spin will fluctuate around this average magnetization direction
+ and at each instant of time it will have a longitudinal component and a perpendicular component.
+ Okay, so then you have to picture your third magnet.
+ Let's say that our magnetization point is this.
+ This is the average magnetization, so the average of n 9.
+ And our space will be very oriented in this direction.
+ But if I look at each one of them, but even instant of time, it will not be perfectly aligned.
+ It will be very aligned, but not perfectly aligned.
+ So if I take for example this one, and this is the direction of the magnetization, and I am parallel to this one,
+ I will have a longitudinal component, the component along the direction of the magnetization, and a perpendicular component.
+ And the more older I am, the smaller I will be in this perpendicular component.
+ If I am perfectly aligned with zero temperature, this pi should be equal to zero.
+ So I am in a region, T much smaller than C, where this pi must be very small.
+ And why it is useful, because you see, this model here, it seems like a Gaussian, like a quadratic shape, but actually it is not, because these spins have fixed number.
+ So when I write the partition function on my model, which is the sum of the integration of this, where S is the global integration, this is not a Gaussian.
+ So, because I have the constraint on the load, okay, so actually in this case it is not discrete, so I am going to come over S, S is equal to the set of Psi, all vectors, okay, so this is actually an integral over S1, that is N, all these things in my system, and this is a Newtonian, which depends,
+ on all these things.
+ Okay?
+ So, if I write like this, this should be, this would be a motion, but then I have a strain, and the strain here is that the knot should be 1.
+ So, it's not a motion, because I have this.
+ Okay, so the trick is that when I have this, I am in the low-temperature phase,
+ I really don't regret anything in terms of ambient motion, and I can solve the problem.
+ Okay, so what happens, how can I show you this?
+ Okay, if we have a very low temperature, and this is very small, what happens?
+ It happens that this should be much smaller than 1.
+ Okay, and since the norm of my spin is 1, what I have is that Si^2 which is equal to Si^2 + Pi^2 should be equal to 1.
+ Okay, this is because these are norm 1 spins.
+ Therefore, Si^2 would be square root of 1 - Pi^2.
+ But if Pi is small, if Pi is small, what I have is that Si^2 is basically this.
+ I can expand with this.
+ Okay?
+ So you see two things.
+ First thing is that I can implement very easily this relationship.
+ Okay?
+ And this gives me automatically the longitudinal component with respect to the perpendicular one.
+ Okay?
+ So instead of integrating over the full spin,
+ I can integrate just on the pi's
+ because the longitudinal part is automatically uneven
+ because I have this relationship here.
+ It's enough that I substitute in my Hamiltonian and every time I find my side-longitudine I just substitute this.
+ Okay, so I automatically implement this constraint here.
+ Okay?
+ So let's see how this is done.
+ So let's rewrite h in such a way as to make only the pi appears and make the longitudinal component disappear.
+ Okay?
+ So let's do this.
+ So h is equal to minus j,
+ sum over i and j and i and j and now here I write down the x precedes a scalar problem.
+ So I will get s i longitudinal, s j longitudinal plus i i dot j.
+ Okay?
+ Okay.
+ Okay.
+ Okay.
+ So now let's write this explicitly because I can now substitute and have this function explicitly.
+ Then here I will add up other terms which I will work before.
+ So I am doing an expansion here, low temperature expansion.
+ Why is it a low temperature?
+ Because low temperature allows me to say that this pie is fixed.
+ Okay?
+ Okay.
+ So, let's do this.
+ So, this becomes -j, sum of nj, nj.
+ And this would be 1 minus pi i squared alz, 1 minus pi j squared alz, okay?
+ plus pi i over j.
+ So now we need to multiply this but only keep the terms up to pi squared powers.
+ Because I already discarded other larger powers so I need to keep only the pi squared terms.
+ So that is b minus j, so we get a 1 minus pi squared half, minus pi squared half, plus pi i.
+ This is a constant and I can forget about the cost.
+ Energy is always defined with respect to any ordinary cost.
+ Then this matrix here is symmetric.
+ Therefore you see that this term here and this term here, they are equivalent.
+ So this will give me the end.
+ Okay.
+ Which I can rewrite as two different ways.
+ Did I forget?
+ No. Okay.
+ So this I can rewrite, this I can rewrite, this I can rewrite.
+ Okay.
+ Where Lung-Lai J,
+ Lung-Lai J is what is called the extreme ablation,
+ and Nick is defining this way.
+ If you substitute it, you see that you get the same thing.
+ Because this term here gives you this term here, with a minus sign.
+ And this term here gives you this term now.
+ And this is called the distribution of laughter because if you perform a limiting continuous space, so remember that we have a lattice.
+ Let's say that this is L, and I and J have two sides with a lattice.
+ Okay, let's now assume that this L tends to zero, so we take the continuous limit.
+ We can show that in the continuous limit, this tends to minus L squared, the gradient square.
+ It's very small value, distance is much lighter than the real distance.
+ Okay? Very good.
+ So at this point we have this, in the option, so when the Newtonian is 4,
+ the Newtonian is plus some of the IMG,
+ and so now, our measure, the one that appears in the partition function and in the average is a measure of the phi,
+ so the longitudinal component is the length of the dependent component.
+ So our measure is a measure over the phi i's,
+ and the measure is one of the function,
+ and if we have minus theta,
+ sum by j, sum by j,
+ phi i, okay?
+ With a constraint,
+ and the constraint is that when sum over i,
+ okay?
+ Imagine that we have sum over i here and here.
+ When sum over i,
+ sum over phi should be zero,
+ because what I should get is the global communication.
+ Okay?
+ So we have delta, sum over phi.
+ Okay?
+ So let's say that now we want this measure to compute the correlation function.
+ So we want to compute our formative correlation function.
+ Let's say that we want to compute it in e Fourier.
+ So what we need to compute is the integral.
+ Overall our Fourier plus one of the pi's of pi of q, pi of minus q.
+ As you remember we showed that for a translational invariant system there is only one q that matters.
+ So I should have two way vector but it's just one because of translational invariants.
+ And then we need to put this Fourier transform of this.
+ So we want to express everything in Fourier modes.
+ Okay, so let's take the Fourier transform of this.
+ The Fourier transform of this will be something like this.
+ This is, I told you this is the discrete equivalent of a plushion.
+ So what will be it will be two squared.
+ Because the matrix of the matrix has two squared.
+ And then I will need to transform the five lines as well.
+ And so this will be five to one plus two squared.
+ Ok?
+ And then I will have the other picture.
+ If I want you to copy the C, R, I, J.
+ Ok?
+ Connect it.
+ Question two is you need to get the number of pi's.
+ Ok?
+ Delta sum over I, I, I.
+ And then I need to put here this.
+ Sorry.
+ Just one second and then I need to put here.
+ Ok?
+ So you, we are doing the analogue of this.
+ Taking the Fourier modes, taking the Fourier transform everywhere.
+ Ok?
+ We get this.
+ We get this, you can ask what is the, in Fourier, the analogue of this constraint.
+ In Fourier, the analogue of that constraint, I don't have the time to show you
+ because you have to trust me, is this.
+ Okay, so you need to integrate over, sorry,
+ Okay?
+ So basically you need to integrate over all the nodes, but with zero.
+ Okay?
+ So performing this integral is easy, because this is Gaussian, this point.
+ The only thing that you need to do is instead of integrating over all possible nodes here,
+ you need to integrate over all of them, but with zero one.
+ Okay?
+ Five zero.
+ This is excluded.
+ And so you have to, this is a Gaussian function, so this is easy to perform,
+ this will be proportional to one on the square.
+ Ok, we just performed the Gaussian function.
+ And so what you find is that the C of Q is 1 over Q square.
+ Ok, now it's time to finish our lecture but let's say that you want to have the behavior in real space.
+ You perform the integration inverse Fourier transform, you get the C of R and you get that this is R 1 by R.
+ Ok, in 3D.
+ In generic dimensions you would get by scaling the arguments D minus 2.
+ Ok, so you can try to, when you do the back Fourier transform you will find some integrals, ok.
+ It's not important to perform exactly integrals, you just need to escape the variable and get something that depends on R and some integral and some quantity that does not move in.
+ Once you have done this you have the behavior.
+ Ok, so this is, this is what you want.
+ Ok and why is this due to ghost hormones?
+ This is the last thing I want to say.
+ What are these pies here?
+ Ok, these pies were related.
+ I erased my drawing.
+ Let's say that we have the manifestation here and we have our spins everywhere.
+ And we look at this spin for example and this is the value of the spin.
+ So the pies are this, this vector spin.
+ The difference with respect to the global magnitude.
+ So let's assume that I increase all the pies in the same amount.
+ You can see from this picture that increasing all the pies in the same amount
+ is equivalent to rotating a little bit our global organization.
+ So the pies are related to the ceiling, okay?
+ A sheet in pies means a rotation of the global organization, okay?
+ That's very good and this is why these are related.
+ The fluctuations of the pies are the fluctuations around the global direction of the manifestation.
+ And therefore these are the gosome. These are the gosome modes and these gosome modes produce a problem.
+ Okay? And with this, this is not a fact.
+ Rigorous, but at least you have to understand why these soft modes originate the scape treatment, originate our body, which is not a critical point.

@@ -1,0 +1,1120 @@
+ - Sorry for your listening.
+ - Okay, so let me remind you
+ what the topic that we were discussing.
+ We were discussing maximum metric models
+ and how we can use this kind of
+ probabilistic inference approach
+ to try to build some model based on experimental data.
+ So what we found out last time is that
+ in general the maximum magnitude probability distribution
+ of certain microscopic degrees of freedom
+ can be expressed in a possible like fashion
+ with a measure which has this structure here.
+ Okay.
+ Okay, where O mu of s are certain observables that we measure from the data.
+ Lambda mu are a set of Lagrangian parameters.
+ Okay.
+ And these Lagrangian parameters are determined by the equations.
+ To find out what are these lambda mu,
+ what we need to do is to impose that the predicted value is observable with this probability
+ should be equal to the values that we got from experimental observables.
+ So, basically we can translate mathematically this expression
+ by saying that the predicted value compared with this probability
+ should be equal to the experimental value.
+ So, let's call the experimental value like this.
+ So, on the right hand side with this average I mean that we perform several observations
+ and we make the average value, the mean value of this observation
+ is our experimental estimate of the value, of the whole circle group.
+ Of course we defined at the strategy level, at the mathematical level we defined at the strategy
+ but clearly the model that we get depends on the observable that we choose.
+ So this is the main point.
+ Therefore we need to choose these observables appropriately
+ and we started addressing this issue last time and I told you
+ okay reasonably I mean what one should do is to start with simple observables
+ which are the ones that we can hope to estimate in the best possible way experimentally
+ and then check posteriorly if the model that we get has some predictive power
+ and if it has no power then or if it is not good enough
+ then start acting other kind of recyclables
+ so to make this procedure more practical
+ we started to look at the case that actually we were interested in the quantum neurons
+ so in this case the macroscopic configuration S is the set of all the activity variables aside
+ that specify whether a neuron I is firing or not
+ ok and we said ok let's try at first to try this approach in the case where as observable O mu of S
+ we consider what? we consider the single firing values ok and so that we can measure experimentally
+ the average activity of each single neuron ok and this is the experimental quantity that we feed the model with
+ ok and so how do we do this experimentally well as I told you the other time if we do our experiment with electrodes on our piece of network of neurons so we can measure the activity of individual electrodes ok in time and if we divide the time axis in small interval
+ such that inside each interval either the neuron fires or not so the interval should be small enough that you don't have double events inside it ok then what we do is just simply we look at the measurement we see for example if this is for neuron i equal to 1 and we count how many times the neuron was firing
+ along the total duration of our experiment and then the average value experimental value of this neuron 1 will be 1 over the total observation of our experiment multiplied by if i indicate with i don't know a the value of each interval so this will be sum over a of s1 of t a
+ ok from 1, 2 and total which is the total number of intervals so this is how we measure practically in the experiments the typical inactivity of one single neuron we do this for all neurons and we have a set of observables ok for each neuron i ok from 1 to m where m is the number of neurons in our network
+ ok so once we do that we can just take this formula ok and use this formula here so you see if this is our set of variables we don't have an index mu instead of mu we have an index i because it is the same with just a tag for all the observables that we look at and the global number of observables which I have called m
+ and in this case it is precisely equal to m because we are measuring the activity for each single unit in the internet.
+ And then if we now call the paradigranc matter meter lambda mu I just call them -hi change notation
+ this is just a mathematical variable so I can call it our like
+ then what I get is that my p of s in this case is nothing else than p sum of the i h i s i divided by z
+ where z depends of course by all the value of the parameter as I use it
+ ok so this is actually a problem that we already know how to treat
+ because this is like a model of spins in external magnetic fields
+ ok therefore we need precisely how to get explicit distribution
+ so as I told you before I need to find the value of the Lagrange multilayers
+ because if I write this formula like this it is incomplete in the sense that I need to specify lambda to have a model
+ ok so here I call the lambda H so I need to find out what the HIs are
+ so I just impose this emotion here, cost rate equation
+ therefore what I should impose is that SI, the regular on this measure here
+ is just equal to the 1 and to the x plane
+ ok and I should do this for I equal to 1
+ very good but this is a model of independent spins
+ and so I already know how to compute this body here
+ this is what in the physics of a magnetic system we have called MI
+ the local magnetization of spin I
+ and we already computed this formula
+ we know how to compute that
+ but I'm not reading the computation because we are reading that a few decades ago
+ this is just a metabolic tangent of theta HI
+ and so this is very nice because I can invert this
+ sorry, in this case this is equal to 1
+ just like this
+ this has a Gibbs Boltzmann shape with theta equal to 1
+ generally I should have a theta here
+ but I don't so it's like having theta here
+ very good
+ so I have this expression here
+ and this is very nice
+ because I immediately find that hi
+ but I know that this should be equal to this
+ ok
+ so this equation begins
+ si experimental
+ equal to the voltage tangent of hi
+ so I can invert
+ I take the inverse hyperbolic tangent
+ on the right and the left hand side of this equation
+ and what I find is hi
+ equal to the inverse hyperbolic tangent
+ of si experimental
+ ok so this I have measured that
+ so I know what this volume is
+ I just take the inverse hyperbolic tangent
+ and I get the value of my language parameter
+ so once I have done this
+ I have my distribution of probability
+ I have my model
+ so once I have my model
+ I am happy
+ we got a model
+ but I just want to be sure
+ that this model is something interesting
+ is something meaningful
+ so what can I do?
+ I can actually do two things
+ which are two ways to check
+ whether the model that we got
+ has enough predictive power
+ ok so if you remember
+ so let's say
+ what is the first thing that I have checked
+ the first thing that I have checked
+ is how much
+ the entity has decreased
+ so if you remember
+ the idea of this model
+ is to find out
+ the maximum entry model
+ consistent with the data
+ this means that we want
+ to have the model with the largest
+ possible entity with the
+ possible information
+ but the one
+ that we get to know
+ so
+ we have an expression for
+ S of P
+ for the entry
+ in terms
+ of our distribution
+ probability
+ ok
+ so we have this
+ equation here
+ and the first thing that I show you
+ the other time is that
+ if I assume
+ PBS equal
+ a constant
+ ok
+ this is the situation
+ that would correspond
+ to the maximum possible n
+ ok
+ so a constant would be maximum possible n
+ to me
+ we cannot illustrate
+ on the norm of the normalization
+ of this probability
+ we get a cost
+ ok so we know
+ that the cost of value
+ which means that everything occurs
+ basically completely random
+ ok has a certain value
+ which is the maximum possible value
+ of our value
+ ok so now
+ and this is without feeding
+ any information
+ to our method
+ ok
+ so now let's say
+ on this axis I put the information
+ the experimental information
+ that I can use in the model
+ so here now what we are doing
+ is that we are feeding the model
+ with an information of
+ one point quantities
+ the average value on each single
+ ok
+ so here we got
+ our model for
+ a one point information
+ ok
+ and since
+ we produced some
+ information
+ what we expect is that the activity
+ will increase a little bit
+ ok, because it is not that everything
+ every configuration is equally probable
+ we know that only the configurations
+ that we produce
+ some specific value of the single site
+ observables
+ should be sampled by this distribution
+ so we expect the activity to decrease
+ so the point is
+ how much will the energy decrease
+ ok
+ if the energy decreases a lot
+ this means that the experimental
+ information that we found the model
+ is actually a very relevant information
+ if it doesn't
+ not that it must
+ decrease by definition
+ ok but if it doesn't
+ decrease very much
+ then it means that yes maybe
+ we found the model some information
+ this information is poor
+ I mean it's
+ not big deal. So if you do this
+ in this case you see that
+ it decreases a little bit but it's not
+ very much, it's not a huge
+ it's not a substantial
+ degree of activity as compared to
+ the maximum possible energy of the
+ completely random sequence. Ok?
+ So one way to try to
+ understand whether you are doing well
+ or not is to just compute
+ the entropy with the distribution
+ that we got and see how it
+ compares to the maximum possible
+ entropy of the total random case.
+ Of course, we expect that
+ if on the other hand
+ this information was really
+ the important one, we would have expected
+ a very big jump here.
+ Ok? So this is one way.
+ The second way is to try to
+ make a prediction with this
+ probability distribution
+ and then check
+ whether the prediction is correct in the data.
+ Ok? So one possible
+ thing that we can do
+ is the following. Since
+ we gave
+ the model one point information
+ we can try
+ to see what the model
+ predicts with the next level
+ of observables, two points
+ of observables. Ok?
+ So what we can do
+ is to go
+ and check with the model
+ and what is the value
+ of the simplest possible two point information.
+ What is the simplest possible two point
+ two neurons in this case
+ in any present system here.
+ Two points information
+ are correlation functions.
+ So this is a two point average.
+ I am averaging, I am looking at the correlation
+ between two units.
+ Ok? So it is not a single unit
+ information, it is two unit information.
+ Ok?
+ So I can measure this
+ with the model. Ok?
+ And since this is a non-interactive model
+ because this probability factorizes on the single
+ eyes. Ok?
+ With the model the prediction is that this should
+ be equal like this
+ to this. Ok?
+ Therefore it should be equal at least by
+ the structure are equal to Si experimental,
+ Sj experimental.
+ We know that this must be true
+ because we will to measure precisely
+ the requirement is. Ok?
+ So this is the prediction
+ of our model. But this point
+ here we can measure it from the data.
+ So the next thing that
+ we can do is that we can compute
+ the Cij experimental.
+ Ok?
+ What does it mean? It means
+ that we now take one neuron
+ and then we take the neuron I
+ but we take also the neuron J's
+ ok? We take two of them
+ ok? So we will have another
+ line here
+ and here is I equal to 1
+ for example we can take
+ J equal to 2
+ but I mean IFJ can be any arbitrarily there
+ ok?
+ ok, we do the same thing
+ and now at each time
+ we measure both S1
+ and S2
+ ok, we multiply them
+ and then we sum over
+ all the bounds
+ of our time
+ so what we do
+ is that our
+ S1
+ S2 experimental
+ will just be one
+ total duration of the experiment
+ sum over A
+ from 1 to 2
+ the total number of intervals
+ ok
+ of S1 of Ta
+ S2 of Ta
+ ok
+ and we can do that for any pair
+ for any arbitrary ion J here
+ and these are the experimental correlation functions
+ ok so we can measure that
+ ok
+ and then we measure this
+ and we should just check
+ whether this is equal to this thing here
+ so we have many points
+ we can just draw something like here
+ here we put the experimental value
+ here we put the theoretical value
+ and if our prediction is good
+ this should be
+ point around
+ a line is not one
+ ok it should be equal one to the other
+ you do this
+ for a network of neurons
+ and you don't find out all this
+ ok
+ so this means that
+ a network of neurons
+ does not behave
+ as an aggregation
+ of independent neurons
+ the neurons are not independent
+ they influence each other
+ and therefore the correlation is not
+ simply given by the individual
+ inactivity there is something more
+ this means that
+ when a neuron is firing
+ there is a larger
+ probability that some other neuron
+ will fire at the same time
+ than the probability you would get
+ for independent neurons
+ so there is really an influence
+ the network is really
+ an untreated network where everyone
+ influences all the others
+ so this means
+ that as also
+ the other way of checking our model
+ suggested that
+ giving one unit information
+ is not enough
+ we need at least to give information
+ on pairs of neurons
+ ok
+ so the next step
+ would be to do the same
+ but instead of starting only
+ with the information of single neurons
+ to give the model
+ also the information on pairs of neurons
+ ok
+ so we redo everything again
+ we start again
+ in case our observables
+ that we feed the model
+ ok
+ the O mu that will come here
+ in this formal mathematical expression
+ will not just be the single neurons
+ but also pairs of neurons
+ ok
+ so just to recapitulate this
+ just let me cancel this
+ because you can just do that this is not enough
+ ok
+ so now as observables
+ we will still consider these ones
+ ok
+ giving
+ the model information
+ about the mean
+ firing activity of each neuron
+ but we also gave this
+ quantities here
+ the quantities related to pairs
+ so the correlation
+ between pairs and neurons
+ ok
+ so the other set of observables
+ will now be
+ the average value of
+ the experimental measured value
+ of the correlations
+ ok
+ very good
+ so the observable
+ in this case
+ is SISJ
+ in this case it is SISJ
+ this is the experimentally
+ average value
+ ok so
+ as we did before
+ we need then
+ Lagrange multipliers for these
+ observables and Lagrange multipliers
+ also for these new observables
+ we keep calling hi
+ the Lagrange multipliers
+ that we associate to this
+ minus hi to get the correct
+ sign in a
+ ferromagnetic like language
+ and in this case
+ we need to introduce some other
+ multipliers but now in this case
+ the number
+ of variables
+ with this index
+ I mean we have one index
+ for each single member
+ but here
+ we need a different Lagrange multipliers
+ because we need a Lagrange multiplier
+ for each pair of members
+ ok so in this case
+ we will call the moves
+ that correspond to this observable
+ we will call them -jaj
+ ok
+ so if we do this
+ and we apply the formula
+ here
+ we immediately get
+ our p of s
+ now is e
+ the sum over i
+ h i s i
+ plus the sum over i
+ and j
+ jaj s i
+ and now we have
+ the partition function of the normalization
+ of this distribution
+ which of course will depend
+ on all the sets
+ of hi
+ and all the sets
+ of the area
+ ok
+ ok, so this is our new distribution
+ and this new distribution
+ now has
+ the shape of an easy model
+ ok, easy black model
+ with external fields
+ hi and interactions
+ between
+ the spheres which correspond to the neurons
+ in this case
+ which are the jvj's
+ ok, well
+ so as before
+ what we need to do
+ to be able to use this as a really
+ a model, we need to find out
+ the reaction to the players
+ ok, but to find out
+ the reaction to the players in this case
+ is much less peculiar
+ and what is that?
+ the reason is that
+ in this case the equations are more complicated
+ we studied
+ the easing model
+ in the mean field approximation
+ but that was the easing model
+ where all the J and J's are equal
+ there is no reason to believe that all the J and J's are equal in this case
+ so the J and J will be in principle
+ it will be all different
+ and therefore
+ we cannot solve analytical easing model
+ so in principle
+ So in principle what we need to do is to compute, to be able to solve equations, which means that we need to compute this equation here, okay, this equation here that will be just sum over s e to sum over i, h i plus i plus sum over i and j, j and j plus i plus j, okay, divided by that.
+ We need to solve this equation here analytically, okay, and then impose that this is equal to this, then we invert and we get the result.
+ Likewise, we need to do the same thing with SI-SJ, we get the same thing, but here instead of having SI, we get SI-SJ and here we get SI-SJ.
+ But this thing cannot be proved analytically and this is why this problem is even at the level of, you know, applied this, it's not real.
+ So what people, people did this, for neurons they did this, but you needed to solve it numerically, okay?
+ So what does it mean? It means the following, if you want to have an idea of the numerical procedure, it means the following.
+ It means that you start with a guess for your HIs and your JIs. You start with a guess, okay?
+ Maybe you have already solved the problem without the pair information, so you have an idea of what this HI should be and you give this as an admission.
+ So you fix these parameters, that's initial condition, but once you have these parameters you perform a simulation using a model with a normal detector for example, you run your numerical simulation and when you have numerical simulation you get this and with this what you get you get some values of SI
+ and the size and you compare them with the real value that you got in the experiments which are numbers
+ okay and then you said okay these are different so there are numerical methods to steer a little bit of your parameter towards the values that you would like to get
+ okay so okay you say these are for example if you get some si that are too small you say okay and it is a little bit of the field over that point so it is a little bit of the field okay something like this but then there are sophisticated techniques we don't have the time to really look into the numerical techniques but the idea is that you start with the initial value you get some prediction
+ for the model then you look at the real values from the experiment and then you modify the HI's so you will have HI1 and JJ1 ok you repeat and you will get SI1 and SI SJ1 and again you compare with the experimental data and if they are too far you adapt
+ change again the parameters of your model and do this many times until when your numerically predicted value will be close enough to the real value ok there are ways to do this I mean as I told you it seems a very long project but there are ways to do this smartly in such a way it's not super long and you can really still do this so Biale and his collaborators did precisely
+ this ok they did precisely this they said ok they first tried a single side model they realized it was completely wrong and then they added peri formation ok they added peri formation and then they got this Lagrange parameters so they found out this way ok so they found a full distribution problem and then at this point they could do the checks
+ that we did before so they could say ok let's look so this is the value of group 1 point so now let's see where we add the 2 point information how does this exactly changes and what they saw is that you have a huge step here a huge step ok and then what they did was to look at the values of triglates
+ ok so it's the next level of observables, observables that we didn't feed the model with
+ ok method with but that you can compute with the data so they looked at triglates ok and they did something similar
+ to what I have shown you before with two point functions so they computed, I don't remember precisely
+ which quantity but it was a quantity related to triplets you can read the paper if you want and you will find out which quantity precisely the paper is available on my website so they looked at something which depended on the triplets so the predicted value versus the experimental value ok and they saw something that more or less it was ok ok it was not perfect ok
+ but it was reasonable so they said ok we are fine so this model once I also introduced some information about the two point correlation then I get some good predictive power from the model because the quantities the other quantities that are not included in the model are predicted reasonably well ok
+ then of course you can go on with this argument and I think they did a test in also introducing the three point correlations here but what you can find there is that if your model has really some relevant information related to pairs and not to higher order functions
+ what you need to get is that you have a big jump at some point and then every time that your information by the structure the entropy has some decrease but it decreases very very very little at each next level information
+ so clearly this feature is telling you that it is this point in here that makes the difference
+ ok so if you want to build a model and this model should be minimal in the sense that you need to include the minimal possible number of parameters
+ but if it has to be informative in this case you need to take it out
+ ok then if you want to add the other parameters clearly if you have to feed some data the more parameters you add the better you will feed the data
+ but this does not mean that you are really happy with the information ok and so one of the conclusion of the PLX analysis and collaborators was is that the third information is the one that you need to include in a model ok then all the rest of the higher order interactions they are also relevant
+ and this concludes the sentence the thing that I told you before that when we discuss the offline model we ask ourselves at the end that the offline model assumes pairwise interactions because is this correct why shouldn't I include higher order interactions this paper tells you you don't need them ok because the important information is pairwise ok
+ and saying that at the statistical level the important information is pairwise can be also said as interactions are made in pairwise ok
+ you cannot think that neurons do not interact ok you need they do not file independently they interact ok but assuming that they interact pairwise in pairs it's ok
+ ok so this is a little bit the main conclusion of that paper there were also other conclusions but this is the most important one I want to make for now ok so now with this we can conclude there have been a lot of other there is a huge activity on the analysis of neural network networks and why is that
+ is a very big debate and the big debate is related to the fact that using this kind of techniques people said okay but once we understand that this is the class of good models that describe the system where are these models I mean if you take let's look at a simple example let's look at the easing model the easing model well you can write the probability distribution of the easing model but then
+ according to the value of parameters that you consider your model can be the paramagnetic phase or it can be your phase ok so in the easing model if you remember you see the critical temperature depends on J ok JZ ok so the ratio if your T over C or J over T is below or above
+ a certain value you can either be or in the parametric phase or in your other phase or a critical point ok so this J here is actually equivalent to beta J ok because there is no beta ok so what you can ask is once that I apply my method and I find out the values of these J's ok explicitly where do this value place me
+ in the parameter in the phase space of this model ok and how the signs of this J and J what do the signs of this J and J tell me about the degree of frustration inside my model when we discussed about the completely disorder case the other day we said that when the J and J are just drawn randomly with a caution distribution for example ok then you have a very complicated landscape and there is a lot of frustration
+ in your system so once you apply this inference method you get the J and J you can ask by yourself what kind of model is this is a completely frustrating model or it is half and half and this is one kind of question and then you can ask once I understand the class of what I am dealing with will it be in the disorder phase will it be in the order phase where is my mineral method ok
+ and so already in this paper I think that there is some degree of frustration in the system but it is not as large as you would find in a full bb sort of spin glass
+ so some frustration but not extreme ok and then other following the analysis try to argue that neural networks tend to be close to a view
+ they looked at the many observables, they made some arguments about the values of the parameters and so on and they looked at it ok but the neural network is close to a view of the point
+ so this idea of criticality for neural networks has been proposed by some, contested a lot by others so there is a big debate on this ok and people still talk about that
+ there are the pro-critical scenario and the contrarians in the case there is a huge debate on this ok so for the time being let's conclude now this part on neural networks and let's go on to discuss another example of a strongly interactive system which are neural networks ok so this will be our second example and the third example
+ will be animal groups and biological aggregations so active models ok so let's go on to discuss protes what are protes? protes belong to a class of biological entities which are heteropolymers ok
+ so what is a polymer? a polymer is a sequence of molecular groups which are called mommers and a polymer is an heteropolymer where these groups can be different they are not the same ok so we have already encountered examples of heteropolymers so for example some of the most famous ones are the polymucleotides like DNA and RNA and probably you have already seen the polymucleotides
+ and we studied them in the soft matter course, I guess. In that case you have these nucleotides which are made with these bases which can be A, G, C for DNA and A, G, U, C for RNA and these are the different quantities that are stuck together one after the other to form the heterogeneous structure that we use.
+ Another example of heteropolymer we encountered when looking at photoreception and it is the macromolymer that we call CGMP, GTP that gets transformed in CGMP, these are other examples of heteropolymers.
+ Proteins are another class of important heteropolymers where the individual monomers that are stacked one with the other are amino acids, so what is the genetic structure of these amino acids.
+ Okay
+ So this residue here can have 20 possible values and these 20 possible values are molecular and some molecules
+ and what you put here defines the amino acid that we are dealing with, we have a biologist among us so she can if you want more questions just ask her
+ can you correct me if I am saying something wrong? very good so we have this and there are 20 types so we get 20 types of amino acids so then what happens is that we can put together in a chain several of these objects so let's say that we have another one here and just another one here
+ so this is let's say A1 and this can be A2 it will be different
+ so what happens is that this part here, in this part here the two amino acids combine together
+ releasing a H2O molecule, a water molecule and establishing the link between this carbon and the following nitrogen
+ and so this is called peptidic bond and so you put two amino acids one after the other
+ and you can continue and so you build a chain
+ so typically I think in humans, I think this number can change in other mammals
+ the length of the protein is of 200 bases
+ so in principle you can have 20 to the 200 possible chains
+ by changing the identity of these amino acids
+ in principle you can build 20 to the 200 possible sequences
+ a sequence is just this chain specified by the identity of each amino acid on each pole
+ so if you schematize this structure here
+ we have the seeded chains that are along 200 bases
+ and on each of this size which corresponds to amino acids we can have 20 possible types of amino acids
+ all over there are 2200 possible sequences that we can get
+ ok so if each possible sequence corresponded to a protein a functional protein we should observe 20 to 200 proteins ok
+ this is a huge number and we don't observe so much proteins ok
+ the functional proteins that we observe in life are much much less ok
+ so one point is to try to understand why given that in principle I can build this huge number of sequences I observe much less proteins
+ and to try to understand that we need to consider the fact that actually the sequence with sequence I mean the identities of the amino acids along the chain ok
+ is not the only relevant information for a protein ok because once you build this chain and this chain can be arranged in space in many different ways and the proteins that you observe in nature in working condition they are found in what is called the defaulting chain
+ so you don't, when a protein functions and it forms a biological function it is not like that
+ it is, it has a very specific, very specific folding structure
+ ok? and this folding structure has many interesting properties
+ it has secondary and tertiary structures inside itself
+ what we can see is that it has specific symmetries
+ there are what are called alpha sheets
+ it's very interesting
+ but my point is that it's not only the sequence that matters
+ but it is also the specific folding shape the proteins assumes
+ and the specific environmental conditions
+ which are the conditions where the protein has to perform the function
+ and we soon realize that there is a connection between these two aspects
+ and why is that?
+ because when this protein falls
+ imagine that you have this chain
+ and let's say that I now assign to each side along the chain
+ so let me call this I1, I2
+ I just number the sides along the chain
+ so you see the SI will go from 1 to 200
+ so the last one will be at 200
+ ok
+ and I assign a variable on each side
+ that specifies the amino acids that sits on that side
+ so just because I have not much fantasy
+ I will call it SI as variable
+ ok
+ so but in this case SI is a variable
+ that can have 20 possible values
+ because we have 20 amino acids that we can plug on each side of this chain
+ ok
+ so then let's say that I have this chain here
+ and then maybe I have a certain value
+ this one, this two, this one and here I have this one
+ ok
+ so let's try to fold this chain
+ so when I fold this chain
+ what happens?
+ sorry, along this chain
+ all these amino acids are very strongly bundled
+ one with the other
+ by these peptidine bonds that we discussed before
+ ok
+ what happens is, however, that when I fold this chain
+ when it is possible that amino acids that are even far away along the chain
+ they come close one to the other in real three dimensional spaces
+ so for example, let's say this one here, this here in the chain
+ gets close to this one here which is much farther because you need to go back
+ it is very far away in the chain, ok?
+ but it becomes close to it in 3D, ok?
+ so if these two sides, this one here and this one here
+ that are far away in the chain but get close to space
+ they have a good affinity, ok?
+ they can establish a nitrogen bond between one and the other, ok?
+ so if the value of this S
+ if the two amino acids that come close in this space
+ they are able, because of their molecular structure
+ to establish the hydrogen bond
+ you will have a link also here
+ which is of a different kind
+ of the links among the chain
+ but it will be a link
+ so you will establish the structure
+ ok
+ so clearly when you look at the folding
+ three dimensional structure to protein
+ this means that for that specific sequence
+ that structure is failed
+ because you are placing in the correct place
+ in a closed space the amino acids
+ okay
+ so now you have at least a very qualitative level
+ we can understand but we will investigate this issue
+ a little bit more later on
+ we can understand why of all the possible sequences
+ only a few of them correspond to real proteins
+ because maybe for completely random sequences
+ if I try to fold them into 3D space
+ I do not find a way to make it in 3D space
+ to make some good pairs of amino acids
+ that get close into space
+ ok?
+ so to be able to understand
+ why we have this strong reduction in entropy
+ from the space of possible sequences
+ to the space of real proteins
+ we need to take into account
+ this relationship between sequence and structure
+ ok?
+ so I have defined formally the sequence
+ now I would like to define formally the structure
+ ok?
+ so let's say that
+ I mean this is not a general definition
+ but for the purposes of what I want to discuss
+ it's a good enough definition
+ so the special structure
+ we define the special structure of a protein
+ and I will indicate it with sigma
+ ok?
+ the set of all the positions
+ occupy the real space
+ by each individual side
+ so if this is side 1, side 2 and so on
+ this will just be R1, R2 or R21
+ ok, so this is telling me where the sides are located in the space
+ ok, so you see the structure does not depend on the sequence
+ because it is just a positional variable
+ it has no information about what amino acids are on the side
+ and the sequence has no information on the structure
+ because it just specifies what are the amino acids appearing on the chain
+ independently or when they are in space
+ ok? very good
+ so once we understand this
+ what we would like to try to understand better is how S
+ ok? sequence
+ and sigma interfere
+ each one together
+ ok? then the other observation that I want to make
+ on which we will come back later on is the following
+ I told you before that we understand why
+ the sequence can be important to understand
+ why a chain falls or not and how it falls
+ just because of this argument that when we place
+ close to one another two amino acids
+ they might have an affinity to value each other
+ however there is another information that is important to take into account
+ and it is the fact that what we now know is that proteins are actually divided into families
+ what does it mean?
+ it means that the identities in a sequence are important but not completely
+ so let's say that you have a sequence and you know that this sequence is real, it exists
+ and it falls in a specific three-dimensional structure
+ then you can ask: are there other sequences that fall into exactly the same structure
+ and that perform exactly the same biological function?
+ and the answer is yes
+ so there are families of sequences that all fall in the same dimensional structure and all perform the same biological function
+ and these sequences are different from the other
+ you can have up to 40% of differences in the amino acids making up these sequences
+ so this means that there is something important in the sequence
+ because a lot of sequences fold so there should be something important
+ but there is also some flexibility in the sense that you can change some amino acids
+ fold in the same way and perform the same function
+ so what I would like a little bit to discuss with you is how we can try to rationalize this kind of problems
+ and how we can investigate but from a very schematic point of view
+ to study more independent proteins you need to do a lot more work
+ this would be just a sort of a flight above the problem
+ but just to try to understand how one can deal with this kind of questions
+ so I think that one way that...
+ let's say that at this point we want to start to do something
+ so the first thing that one can try to do
+ I will just give you a few words on this
+ we can try to say ok let's try to build a sort of very general and simple model of protein
+ what should we do, ok?
+ we want to build the energy of our protein
+ ok, so the energy of our protein will be a function of a specific protein with a specific sequence
+ ok, so let's say that we have the sequence and we want to build the energy of this sequence
+ so this energy will depend on the positions typically where our amino acids hide space
+ so let's try to figure out what are the terms that should go here
+ ok we have a trivial term and the trivial term is the one that links the amino acids around the chain
+ so we can model this with a very trivial elastic term with a very strong constant
+ so this would be an elastic term with this something like this
+ we can just put an elastic chunk in between the two amino acids conceptively on the chain
+ ok
+ well in this case it's very strong because this interaction along the chain is said that the specific bonds are very strong
+ ok so let's say that there is let's put an L here
+ because there will be a typical distance between the two ok
+ and this distance is L
+ so we have low for small vibrations ok
+ but if K is very large this vibration will be very small ok
+ so if these two amino acids are at this distance among the chain
+ maybe it is not vibrations but they are basically at the distance ok
+ and then we have a term that specifies the energy that we have when
+ if this chain is folded as a peculiar shape in space ok
+ if you have this ok
+ if you look at a certain configuration which is this
+ then if these two are close enough they might interact ok
+ and in principle this interaction can depend on the identities of the amino acids that are there ok
+ so we should put an interaction term of this kind
+ so this should be something like this sorry I just go here because I don't know whether they can see
+ so we will have just one half sum over i to j
+ and I should have an interaction potential which depends on this side and this j
+ ok and then I will have here a potential that depends on the mutual distance
+ which would be our i minus rj ok and this potential would typically be something that is zero if i and j are far away
+ so for example these two will not interact so there will be a distance dependence in this term here
+ and it is different from zero if they come close to the other less than certain interaction
+ and then when people build this kind of models they usually add here another term
+ let me write it and then I will explain what it is
+ and this is here written as a term in the energy but this is actually an entropic term
+ it is an effective energy term that comes from energy and it is called an excluded volume term
+ what does it mean? It means that when you have an extended chain there are many ways in which you can put it in space
+ if you start to fold it not all the possible configuration in space will be allowed
+ you will have a reduction of the possible configurations that your system occupies
+ this is a reduction in energy but we are putting it as an effective energy that is due to this excluded volume
+ because some volume in the space of possible positions is excluded because you are taking the protein in a fully state
+ okay so people just worked a lot on trying to explore these kind of models
+ and there are some interesting results like in past years I discussed some of them
+ but this year I just don't have enough time so I just want to go on this briefly
+ what I want to notice is the following
+ let's say that we want to explore at a very qualitative level what kind of energy landscape we would get
+ with this kind of terms okay so if this P is something that actually does not depend on the sequence
+ okay that what we would get we would get every time two amino acids become closer one to the other
+ they bump okay so you would have a many trivial for the structure if you want okay so this is not the
+ kind of landscape that you expect for a protein now let's assume that something completely opposite
+ let's assume that this term here is a random term okay if this is a random term then this energy
+ is like a spin class energy it's completely disordered system which is telling you that randomly this interaction
+ a random maybe this combined with this and this combined with this ok so you just choose these interactions randomly
+ if you choose them randomly you get something which is really similar to as being glass
+ you get a landscape with many different possible minimum ok so this means that your sequence can fold in many possible different ways
+ and this is not good because this means that if you change a little bit initial condition it will end up in a different full state
+ ok so this is not good ok
+ so what people think is the correct description for a landscape of a protein is something which they call the funnel
+ so it is a landscape, this is energy energy on the y axis and the sequence on the y axis
+ so there is a well specified minimum so that if you change something you always end up in this model
+ people think that this is something like that
+ ok and for a long time that has been a lot of work to try to characterize this structure of this formula
+ what I would like to do is actually something simpler
+ so I would like to introduce and investigate a very simple model that in my opinion gives a very nice idea of patterns
+ so the model is the following one
+ why in general it is very hard to understand the connection between sequences and structures
+ because the space of possible sequences is huge
+ likewise the space of possible spatial arrangement is also very big
+ so even if we think doing the binitio simulations
+ even if you want to understand the diversity across the space of sequences
+ you need to simulate 20 to the 100 possible sequences
+ this is a huge numerical one
+ even if you don't know how to solve analytically
+ with these numbers it is very difficult to really explore the phase space of these sequences
+ so at some point people thought ok
+ maybe if we reduce very much the dimensions of the space
+ we can try to really simulate exhaustively the phase space of our sequences
+ and maybe we can try to learn something
+ so these people did a very simple model
+ and this very simple model is done in this way
+ they reduced the number of possible amino acids
+ and they reduced the number and length of the protein
+ so let's say that now I am reducing
+ so I have chains
+ and the length of a chain
+ the length of a chain will be 27 instead of 200
+ and then the amino acids are only 2
+ ok, so on each side I can either have an hydrophobic amino acid or a polar amino acid
+ up to the deal amino acids can be polar or hydrophobic
+ so they just said ok just retaining this feature
+ so I have just 2 kinds of amino acids either hydrophobic or polar
+ ok very good
+ so what is the difference between the 2 WH and the hydrophobic ones
+ they do not want to be in contact with the solution
+ they prefer to be inside the protein
+ and to get in contact as little as possible through 2-1
+ so let's say that I know I have this
+ I am coming to the polar amino acids
+ I will not even specify the energy along the chain
+ I assume that it is very strong and that's it
+ so that they are fixed to be on the chain
+ they are not detached from the chain
+ what I need to specify if I want to give the energy of a sequence
+ of a specific sequence in space is the energy
+ let's say that I now draw as black the ionophonic
+ and as white will be two other ones
+ so what I need to do is to specify the energy
+ of the other gensons
+ I mean the bonds that are established
+ when two of these amino acids are close to one another
+ ok?
+ so we have three kinds of energies
+ EPP
+ EHH
+ and EPH
+ ok?
+ and I want to choose them such that
+ the favorite expressions
+ are the ones in which the black
+ once the heterophobic, once I'm inside
+ once I fold them
+ and you can see that you can achieve this
+ if you take EPP
+ larger than APHP
+ larger than EPHP
+ ok
+ and you can try to make some examples of these small shapes
+ but I mean at a little bit level
+ you can see that if you put the hydrophobic one close to the other
+ you gain energy
+ so if you put them all inside such that they touch each other
+ and you have a lot of bonds between black and black
+ this is the term that minimizes the energy
+ so we are simulating in a vacuum or in a solid
+ this is just the definition of how the energy are
+ when they are from one to the other
+ so now we need to specify where in the space where this chain can be
+ so in reality the chain can explore all space but we want to do a simple model here
+ because we want to simulate it and be able to say something
+ so what we assume is that this chain cannot occupy all possible sites in real space
+ but it can only occupy discrete sites
+ so what I do is that I just partition my space
+ if we are in 3D we need to look in 3D
+ because the 27 is chosen for the 3D case
+ so let's say that I am in 3D so I have my 3 dimensional space
+ and my problem instead of living in this 3 dimensional space
+ it can only sit on some sites
+ all these discrete sites here
+ we have all these sites
+ so let me draw this here
+ and so why is it the protein
+ where they show 27 as the length of the protein
+ because now let's say that we want to build
+ the maximally compact structures
+ ok so the mass unit of the structures
+ it's 27 so we need to put 27 points
+ the most close to one another in the best possible
+ so this means that we need to place them in a 3x3 cube
+ ok because if you look at the size on a 3x3 cube
+ they are exactly the same so this is a normal way to rowing so let me do this again
+ so you have this
+ 1, 2, 3, 1, 4
+ ok, here, here, here, here, and so on
+ ok, and here, and here, and here
+ so if I now take my 27 side chain
+ I can start trying to arrange it on the cube
+ this will be a maximally compact structure
+ so for example I can start putting side 1 here
+ so a chain is again a chain where I order
+ the sides with some number
+ after doing 7
+ this is the numbering along the chain
+ so I can put for example here
+ the beginning of the chain then I go here
+ this is with 3.2 then I go here
+ then I go here
+ I go here
+ then I go here
+ one in the middle
+ here I go here
+ I go here and I continue
+ and there are several possible ways
+ in which I can
+ I can completely fill this
+ 3 dimensional cube of 27 sides
+ ok
+ of course
+ this way
+ once I create
+ this maximally folded structure
+ this is not the only possible
+ way in which my protein can live
+ because for example
+ I can take my protein
+ and then it will go here
+ it will go here
+ it will go here and then get another structure
+ ok
+ this will not be a maximally quodic structure
+ this will be another structure
+ a semi-extended one
+ ok
+ so given a sequence
+ ok so given a specific sequence
+ which means
+ the specific identity
+ of my amino acids
+ ok
+ so I have S1, S2
+ and S27
+ ok
+ I can place
+ this sequence
+ here in many possible
+ spatial arrangements
+ ok, so this sequence can have
+ many different structures
+ I remind you that the structure is
+ in the position on each side
+ ok
+ and among these structures there will be
+ some which should be
+ maximally folded
+ that means that this chain all belongs
+ to this cube
+ ok
+ of course the energy
+ of my protein
+ will depend on
+ the sequence
+ and it will depend on the structure
+ because according to
+ which structure I consider
+ there will be different
+ amino acids that will be
+ one close to the other
+ this means that I have a distance one
+ okay
+ so different sequence
+ given the sequence
+ different structures will give me
+ different properties
+ okay
+ okay
+ and so the good thing of this model
+ is that since
+ the space is not so big
+ I can sample it exhaustively
+ okay
+ so this means
+ that I can try
+ all the special configurations
+ of all the sequences
+ and assign
+ at all the banks of S and sigma
+ the energy
+ I can look at this
+ and once I do this
+ I can start to ask questions
+ and the questions among the many
+ that I can do
+ the most relevant
+ for my discussion
+ would be to try to understand
+ what are the features
+ of the maximally folding
+ disruptors
+ ok
+ so among all the possible sigmas
+ now I will focus
+ on the sigmas that lie only
+ in the dream
+ ok the maximally folded
+ sigmas
+ and I will try to understand
+ what are their features
+ ok
+ and I can do that because
+ I have computed numerically
+ I stumbled the whole phase space
+ and I have computed numerically
+ all of my landscape
+ as a function of the sequence
+ and as a function of the structure
+ ok
+ well ok
+ so what I see
+ is the following here
+ what I see
+ is that
+ first point
+ there is a good percentage
+ of this folded structure
+ that are not the ground state
+ of any sequence
+ ok
+ I can really call this structure
+ but they are not
+ the minimal energy for any sequence
+ they are not energetically
+ for any sequence
+ ok
+ then
+ what I see
+ is that
+ there are
+ very very few
+ sequences
+ that have
+ as unique ground state
+ as a ground state
+ a unique sequence
+ a unique structure
+ let me do a drawing which is easy
+ to
+ let me
+ let me say that
+ I am considering one sequence
+ I call it as one
+ so for many sequences
+ what happens is that
+ if I now ask
+ what is the ground state
+ the minimum possible energy
+ of this sequence
+ it can correspond
+ at several different structures
+ ok, so the ground state
+ there are many equivalent ways
+ this means that there are many equivalent ways
+ in which I can arrange
+ and I have a high sequence space that have the same
+ minimum energy
+ ok
+ I have many possible sequences
+ ok
+ so there are many sequences
+ for which this occurs
+ ok
+ this is the typical sequence
+ if I just
+ draw randomly these amino acids
+ typically if I look at the ground state I find that the minimum energy can be realized by many arrangements in space.
+ And the other typical situations when I look from this, this I am looking at the problem from the side of the sequence.
+ Now let's look at the side of the structures.
+ The most part of the structures, the most part of the arrangement in space are such that there are very few sequences that fall in the structure.
+ This question here would be that there are maybe one or two, many few, very few.
+ Okay, so this is not what we would expect from a real protein and why it's not.
+ Because this would mean that the sequence can fall in many different folded states equivalently.
+ So it's, I mean, if the function is determined by the sequence and the structure,
+ this means that I change the structure and the structure because they have all the same energy.
+ So I thought equivalently probabilistically in N1.
+ So this is not good.
+ But also the situation is not good.
+ And why the situation is not good?
+ Because this structure here, there are very few sequences that are found in it.
+ So it's very difficult to realize a sequence that will be produced at three-dimensional structure.
+ So that would be really probabilistically a very unfavorable sequence.
+ So these are typical situations from the point of view of the sequence and from the point of view of the structure.
+ Luckily, however, there is another class of objects here, another class of sequences and structures.
+ And it's the following one. I have few structures, there are many of these kinds, many of these kinds.
+ There are few of them, so not many, a few of them, that are such that there are many many sequences that fall into that space.
+ So there are few structures that have a very large basin of attraction in terms of sequences.
+ Okay? So in this thing that I just described pictorially so far can be represented more quantitatively on a graph that I try to reproduce.
+ Okay. So let me move here. Okay. Let me call n sigma the number of sequences that have sigma's graph state. Okay? And I put it on the excesses.
+ And here I put the number of structures. Okay. So what I told you before is that there are a lot of structures that have very few sequences that fall in that structure.
+ There are many of these. Okay. So in loglock scale this means that there would be a very large number of structures with the very few sequences that fall in the cell. Okay. So that this graph decreases. Okay.
+ And at some point here when I arrive in the leading scale I would have something more than one. Okay. So I would have of an order one structures which have many sequences that fall in the structure. Okay.
+ So this equation here, this sequence is here and this one. Okay. And so the idea of this model is that these are the ones that we see in real life. Okay.
+ And this simple model already shows why there is this strong reduction in energy. Because when you want to combine the three dimensional structure with the sequence taking into account the energetic strength. Okay.
+ If you want to get sequences which have many sorry structures that have many sequences that form in the structure these are not many. Okay. So just trying to link what I am telling you now in the initial discussion that we have that we have on our products these would be the families. Okay.
+ So the family of proteins which all fall in the same three-dimensional structure all have the same function but we can be like different when we don't want to see this and so on. Okay.
+ And the next question that the people who give this work addressed was well let's try to look at how these specific structures are.
+ And these specific structures are structures that have some particularly symmetric features.
+ Remember that the structure is something in spaces.
+ Symmetric features things like sheets, like the ones that you really observe in real problems.
+ Less complicated of course because here we have only 27 bases so everything is simpler.
+ But you find that even in these different bases when you try to arrange the things in a cube some specific arrangements are more symmetric than others.
+ And these are the ones that belong to this class here.
+ This is one of the features that they found.
+ So these kinds of structures tend to have more symmetric problems.
+ The second thing that they observed was also that these structures here were also one that were more stable.
+ What does it mean more stable?
+ I told you that we were discussing here structures that were the ground states of these sequences.
+ So you can ask, okay this is the ground state of this sequence but where is the first exacting state?
+ Okay, so if I change something, how much does my energy change?
+ Because if the energy does not change much there is no difference completely for the structure medium one in which I unfold and it will be my content.
+ Okay, they are energetically almost equivalent.
+ So they looked at the gap between the ground state and the first exacting state and what they found is that this class here
+ was the one that had the largest gap.
+ So if I am in one of these folded structures or one of these sequences that have this structure as the ground state
+ if I change something the energy increases a lot.
+ So these are also energetically very stable.
+ On the culture in these cases the gap was much smaller.
+ And this really gives us an idea from an exhaustive sampling of the space
+ of what might be the reason for this huge energy
+ decrease from observed protein as compared to all possible proteins.
+ Okay?
+ So this is, I think it is okay for today.
+ What I would like to do next,

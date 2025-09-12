@@ -1,0 +1,1067 @@
+ Let me start with the computer questions.
+ So we are modeling the membrane as a capacitor and the membrane as a capacitor and the membrane
+ and the membrane of the neuron and the migration that we wrote is based on the volume.
+ This is the membrane and there are several kinds of ionic channels on the membrane.
+ So I is an index that specifies the kind of channel that we are considering.
+ And this is the global number of different kinds of channels that we have in memory.
+ And I is the total number of channels of that kind.
+ FI is the percentage of those channels which are open.
+ VI is the resting potential for that kind of channel.
+ Therefore, this means that it is the value that the membrane potential should have,
+ such that in that specific channel there is no parent.
+ V is the potential difference across the whole membrane,
+ which is determined by all kinds of channels.
+ And I-external is an external contribution to the current.
+ For example, one that comes from other kinds.
+ And what we did at the time, we also wrote an equation for this one in here,
+ which is a relaxation of an equation of this kind.
+ And we also derived, with a state model, the explicit expression of an IOP.
+ And I think I brought it in this form.
+ Check your notes, I don't remember my name in the end.
+ I wrote in something like this.
+ Divide it like that, something like this.
+ I don't remember which notation I used.
+ Yes.
+ And all the variance, this variance delta is given by the chart which is the chart that is moved from the inside to the inside of the membrane if the channel opens up.
+ Ok so last time we discussed this equation and this is a non-linear equation so it is difficult to solve but in general there is not much that we can do analytically.
+ However, what one now can do is to assume that we know the stationary state of this system and the stationary state I call it VNOC and what we did was to try to understand what happens if I return the stationary state.
+ This is what we looked at last time and what we discovered is that when we do this and we linearize this set of equations
+ what we really see is that there is a class of channels
+ which are channels for which satisfy some specific conditions that we studied in the last lectures
+ and the conditions are the following ones
+ condition 1 the FI equilibrium larger than 0
+ this is the first condition and the second condition is that the I is larger than 0
+ so all the channels that satisfy these conditions effectively contribute with a sort of negative resistance
+ to these circuits and therefore they facilitate the passage of the membrane
+ this means that this is a way to display that there are some channels which provide a sort of positive feedback
+ to the membrane such that if the potential increases with respect to the equilibrium value
+ then the increase of the potential triggers the opening of the channels of this type
+ and the opening of the channels pushes the potential to the larger value which triggers the opening of more channels and so on
+ so there is this feedback effect and this explains why there is a sudden opening of many channels
+ and why the current membrane potential change very quickly
+ and this is to explain the fact that the opening and closing of channels in this case is very quick
+ and this is why these are called the actual connections
+ so now what I want you to look at is to look at a simple case where we can look at a little bit in detail of this process
+ so we are looking at a simple case where we assume that there are only two kinds of channels
+ so one channel which is called a leak channel which is always open and makes the ions pass through
+ and this channel has vi so p is equal to 0
+ let's say vi for i is equal to 0
+ and then all the other channels they are all equal
+ and they have vi equal to a certain value
+ so in this case these equations simplify
+ and why is that?
+ because what we will get is that the first equation
+ maybe I am sending this
+ ok so let's call the continuity of this channel we call it Vmc
+ and the continuity of the other channels will be called Vmc
+ so we'll have
+ minus G Vmc
+ and then we will get
+ plus G
+ and F
+ Vr minus V
+ plus Vx
+ ok
+ and then the second question remains the same
+ we just have only one kind of
+ the first one is always open so we don't need to look at this
+ we have the other ones
+ we have here
+ a fraction of open channels
+ of the other kind
+ and then we have the fraction here
+ where after we have this form here
+ so here we can try to solve graphically
+ what is the stationary state of this equation
+ for the stationary state we suppose that
+ the derivatives are zero
+ so let's solve the first one
+ so we get g, we link
+ so this is the stationary state
+ this is equal to g
+ and s
+ er - e
+ ok
+ ok, let's go back
+ sorry this is v
+ this is v
+ this is v
+ this is v
+ attention
+ ok
+ e n is a zero
+ ok
+ in this case
+ right
+ so what we get is g v ok
+ so this implies
+ we can put together the terms with v
+ so we will have v
+ which implies g plus
+ g is equal to v plus g and f
+ v r
+ is equal
+ g and f v r
+ ok but actually this is not the best way I can do that because I want to solve it for f
+ so let me put this in a better way
+ let's solve it for f
+ so what we get for f is that f is equal to g
+ b divided by g n via minus v
+ ok
+ and from the second equation
+ we get f equal to f to b
+ which is equal to what?
+ 1 over
+ 1 plus e
+ which multiplies
+ minus
+ v minus v one half
+ like that
+ ok
+ very good
+ so if we try to solve this equation graphically
+ let's try to say this
+ this is something which goes like this
+ the first equation
+ and the second equation is something that goes like this
+ ok
+ so we have 3 solutions
+ two of them are stable points
+ and one of them is a stable which is this one
+ ok so in general
+ what this would mean is that if I start from
+ from the stable
+ one of the stable solutions
+ you can see immediately is by setting the
+ it's by setting us in this state
+ ok, so this is F
+ and this would be V
+ ok, so this is the state with all the channels that are closed
+ ok, we let only the channel open
+ and all the other channels are closed
+ but now this is the stationary solution with this external current set to zero
+ so now let's assume that there is an external signal
+ that increases a little bit this equilibrium value
+ and two things can happen
+ either this extra contribution is small
+ or this extra contribution is large enough
+ let's say that the first contribution is small
+ so that we move from the first stationary state
+ to a value that is a little bit larger
+ ok
+ sorry
+ where is the system where everything is closed
+ sorry the fraction
+ all the chambers are closed
+ but for the liquid one
+ the liquid one is always open
+ ok
+ so what we would do in this case
+ what we would do is to
+ so if we increase a little bit
+ what this would mean is that
+ if I start here
+ if I start here
+ if I start with the value of V which is larger than this stability value
+ this means that I am here
+ this is the value of V
+ and the value of F corresponding to this value of V
+ is this one, sorry
+ and the value of V corresponding to this value of F is this one
+ and the value
+ so I am sort of solving iteratively
+ this equation
+ so this curve here
+ is the F and V
+ ok so this is to say if
+ I start with a value of V which is larger than the stability value
+ ok
+ what happens is that
+ some channels will start opening
+ and what will be the fraction of channels
+ that we try to open up
+ is given by F equilibrium of V
+ ok so if my
+ external current brings me to a value of V
+ which is here
+ then if we want to understand what is the fraction
+ of open channels that would be here at equilibrium
+ we just need to look at the curve F equilibrium of V
+ which is this one
+ ok so some channels will start to open up
+ and the fraction of open channels will go up to here
+ then we say ok this is the new fraction of open channels
+ but if the fraction of open channels has changed
+ then also the potential will change
+ so how will the potential change?
+ to understand how the potential changes
+ I need to look at the other curve
+ the other curve is this one
+ which gives me f as a function of v
+ or v as a function of f if I'm learning
+ so if I now look at this value of f
+ I just need to look at the curve flip
+ so I have this value of f
+ what is the value of v
+ that the system will try to reach
+ with this value of f
+ well I read it by this curve
+ and it will be this value here
+ ok so this will be the new value of v
+ so with this new value of v
+ what will be the new value of
+ the new fraction of open charges
+ that my system will try to reach
+ well I need to look at the curve
+ of f as a function of d
+ and I will go here
+ sorry I didn't do the drawing well enough
+ but I should have started from a lower point
+ to show more positive
+ so let's say that I start here
+ ok so I start with this
+ ixt brings me here
+ so this is the value of the ixt
+ and it makes the potential of my membrane
+ suddenly change to this value
+ so the value of this will change
+ and this will be the value of f
+ what will be the corresponding value
+ the corresponding, sorry
+ this will be the value of this one
+ what will be the new value of v
+ the new value of f
+ and this will be the other one
+ sorry, maybe I'm using another different color
+ so it will be this one
+ ok, with this new value of v
+ what will be the new value of f
+ it will be this one
+ with this new value of f, what will be the new value of v
+ it will be this one and so on
+ this graphical procedure that if my system starts above this stability point
+ if this i external brings my v above that stability point
+ iteratively it will go to the other stable point
+ so even if my first equilibrium point was an equilibrium point
+ without the channels closed but one
+ when I have this cake that produces a large enough variation of p
+ the variation of p should be such that I go above this point
+ it should not be very big but I need to go above this point
+ then the system will end up in the next stationary state
+ so in this way you can see explicitly graphically
+ exactly the same thing that we saw during the last lecture
+ the fact that you have this opening and opening and opening
+ this feedback effect that prescribes
+ and once you start opening these channels they happen
+ all up in a hole
+ but we need to start from the intermediate point
+ above the stability point
+ so you need an increment of the potential above the stability point
+ otherwise you go back
+ otherwise you go back
+ you do the same drawing
+ the other way you go back
+ ok so why I was telling you this
+ to explain this feedback effect
+ so actually
+ this is very interesting
+ but it is not a precise description of neurons
+ and why is that
+ because if you want a precise description of neurons
+ of course as we discussed the other day
+ there are not just discrete channels
+ with this positive feedback
+ but there are also slow channels
+ this is the first difference
+ we saw that slow channels do not provide
+ this sort of negative resistivity
+ on the contrary
+ this is the first effect
+ but even more than that
+ what people discovered is that
+ the opening of channels is not so simple
+ it's like more complete models
+ of neurons they assume that there are gains
+ so you have to each channel you have associated
+ several kind of gates
+ they are called like that
+ and the channel opens up only when all the gates open up
+ so it's a further layer in the modeling of neurons
+ so what people do is that they introduce these gates
+ so that basically at the modeling level we will not go into this detailed expression
+ because I am not interested in the single neural dynamics
+ but it's just to tell you what you need to do if you want to define more appropriate models
+ so if you want to do that the way to do that is assume that the fraction of the chamber is expressed in terms of two quantities
+ mi to the alpha i and hi to the beta i
+ where mi are the so called fraction of activation gates
+ mi are the activation gates and hi are the deactivation gates
+ very good
+ and then basically we write the same equations
+ for this one we need to specify a dynamical equation for this
+ and a dynamical equation for this
+ so before we have simply a dynamical equation for dfi
+ in this case since there are several different gates
+ you need to specify dynamical equations for all the gates
+ this is one of the first things that you can do to make the model more realistic
+ and the other feature that you can do to make the model more realistic
+ is to assume that the intramembrane potential
+ so for the moment for the time A we just brought V
+ and with V we indicated the potential difference across the membrane
+ but this is a little bit unrealistic because as we said the other time
+ neurons have a specific shape they have the axon in front
+ and we have the dendrites in the back so they have a particular shape
+ so in general what we can assume is that if we have our neuron here
+ from the axon and the dendrites and we call this Z
+ the direction along the body of the set
+ the potential difference across the membrane varies
+ not only with time, the dependence of time is clearly included in this equation here
+ because we are talking in the limit with respect to time
+ but it can also depend on the position along the axis of the set itself
+ so if you include all these details in these equations
+ this becomes a word called the Hodgkin-Hack Slade equations
+ which are the very famous equations that have been starting to describe the behavior of the firing of single neurons
+ and once you include the space dependence you can produce with this type of equation
+ and the pulses that propagate through the body of the cells
+ so if some signal is here it generates a pulse and the pulse is transmitted around the body of the cells
+ and then is sent through synapses from the axon to alpha on the body
+ so here there are the dendrites, the signal is sent and it is transmitted towards the other end of the cell
+ ok, so this is if we want to describe the signal itself but this is not actually the main point of this course
+ the main point of this course is to try to understand what happens when we look at networks on the ones
+ so this is the next topic
+ the only point of this brief description is to show you that these processes of signal transmissions are very quick
+ and they are very, very quick
+ so now this is the dynamics of the single neuron
+ what we're going to do now is to look at when we have many, many neurons connected one here
+ the situation that we are going to schematize now is the situation where we have one neuron here, one neuron here, one neuron here, one neuron here
+ and these neurons are connected with each other
+ there are many connections, each neuron is connected with many other neurons
+ so there is a network
+ very good
+ and what we should sort of have understood from the simple analysis that we gave so far
+ is that the way a single neuron works is that
+ maybe in absence of any other main connection the neuron is in a silent state
+ membrane potential is in the stationary value in the stationary state
+ but then there are signals arriving from all the other neurons with which it is in contact
+ and maybe at some point the cumulative signal arriving from all these other neurons
+ is such that those stability point that we described in our simplified description before
+ the signal goes above that threshold and therefore the neuron fires itself
+ okay so the idea should be that firing of one neuron is stimulated when
+ there is a strong enough signal coming from the other neurons okay so if you want to model in a very simple way this process
+ we can for example assign to each neuron I a variable okay and this variable we can assume that it can
+ have those values okay and these values we can set them as we like one zero but for convenience
+ we will realize where this convenience comes from we will choose two possible values plus
+ one and minus one okay and these two values corresponds to two possible state one corresponds
+ to the state active okay so the neuron is active it is fighting okay and the sort of S which is even more
+ okay and minus one it means that the neuron is silent okay very well so the type of mechanism
+ that we have we have described so far is a mechanism where if the incoming signal from other neurons is strong enough then the neuron that we are considering will fire so basically this means that the value of SI will be the same okay if we have all this mathematical description of the cumulative signal it receives from all other neurons so then
+ let me write it in this way for the time being so this W is something which is different from zero only from the other neurons that keep a signal from the Y okay very good and then we have a threshold okay so if the electric signals that the neuron I receive from all the other neurons that are connected to it goes above the threshold it will fire itself okay
+ so in principle this should be a dynamic equation so at some time T okay there is this signal that I receive and at the next step T+1 if the signal is strong enough SI will fire itself okay but for the timing let's look at the dynamic variables and let's look at this equation here okay
+ there are many other neurons but maybe some of them will be connected to I some of them will not be connected to I or for example some of other neurons could be connected more strongly so the connection of course between the dendrites of one neuron and the axon of the other neuron so maybe there are many dendrites
+ that are connected to the axon from this J here so this connection is very strong and maybe also this neuron K is connected but the connection is a little bit less strong so not only the WIJ can be stronger from in zero from zero because maybe this L is not connected at all
+ it's not just that this can be different from zero or equal to zero but also that the strength can be different from different neurons according to how they are maybe the space which region of the frame we have found there are many many possible things like that
+ ok but at this level this is very generic we don't know what the WI are ok the point of this lecture will be precisely to try to understand how to build
+ models with meaningful shapes of these languages. Okay? Okay, so the first interesting observation I want to make just looking at this equation here is that it reminds you, I mean it should remind you of something. Okay? What does it remind you? The easy model. The easy model. Very good. It reminds you of the easy model. Why it reminds you of the easy model? Okay, because if you remember,
+ for the easy model, we found a mean field question, and the mean field question that we found in the more general case of local fields is this one.
+ Okay? So this is the structure of the mean field equation that we have been studying in the last lectures. Where I remind you, the easy model was a simple model where we have the spins on the lattice.
+ Okay, so if this is spin i, this matrix Nij, which is called the adjacency matrix or the interaction matrix, is different from zero only from the nearest neighbors, from the sides that interact with the spin i.
+ So if this was i, we took a nearest neighbor matrix, which means that all these spins interact with this one.
+ J is the strength of interaction and these are the values of the local magnetization.
+ And i is equal to the average value of this.
+ So this was the equation that we found.
+ Now let's imagine that this is an alphonic temperature.
+ Let's imagine that the push is a question to zero.
+ Okay, so this is an alphonic tangent and let's try to look at the homogeneous case.
+ The homogeneous case is when the fields are all equal.
+ Okay.
+ And this becomes z is the number, z is the number of equations.
+ Okay.
+ So this, let's now try to push it at zero.
+ This is an interwoly tangent.
+ Interwoly tangent is something like this.
+ Okay.
+ The right hand side of this equation is this one.
+ Where the zero is here.
+ This is h.
+ Sorry, this is 10.
+ This is minus h.
+ We studied over j.
+ We studied this in the last lecture.
+ And the slope of this equation,
+ this slope here,
+ is beta.
+ It is the temperature.
+ Ok?
+ So if it is given by the temperature.
+ If now we send a beta to t to zero,
+ beta to infinity,
+ this becomes sharper and sharper and sharper.
+ Ok?
+ And a b to equal to zero,
+ this becomes this.
+ This is minus H over J,
+ this becomes a step function.
+ Ok?
+ So basically the polytangent
+ becomes
+ the sine of the argument.
+ Ok?
+ So here this equation
+ becomes
+ an i
+ which can be either 1 or -1
+ t equals 0
+ equal to sin
+ of beta hi
+ plus beta j
+ sum over j
+ nij
+ Well now t equals 0
+ and either t plus 1 or minus 1
+ and we get this equation here
+ So what we see
+ is that the equation
+ for the firing of the neurons
+ is exactly the same
+ as an easing model
+ at very very low temperature
+ Therefore, even though
+ this history is big in
+ a dynamic regression
+ we can try to ask whether
+ there is a model that describes the stationary
+ state of this dynamics
+ So it describes the stationary
+ states of this network
+ neurons
+ and this analogy is telling us that a measure
+ that describes this epilibrium
+ stationary states
+ is precisely a measure
+ built like the easy model
+ ok, why I say
+ like the easy model
+ because in analogy
+ with the easy model
+ how should we write down the Newtonian
+ associated with this specific
+ easy model built
+ if you compare this equation
+ with this equation
+ instead of having
+ j and ij
+ ok, I should have
+ these w/j's
+ ok, so if the
+ Newtonian or the easy model
+ as we study was minus j
+ sum over i and j
+ nij
+ si as j
+ minus sum over i
+ just pushing this analogy for the network of neurons
+ so we should build
+ we should build a Hamiltonian
+ which is minus
+ sum over i and j
+ w and j
+ si as j
+ and then if you compare
+ the two expressions
+ we see that
+ the field corresponds
+ the threshold corresponds to a negative field
+ so we should do acumen
+ plus some other i
+ beta i
+ so we should look for a measure of this type
+ ok
+ but still we don't know what these w's are
+ ok
+ so we need to make some sort of an
+ argument to try to understand
+ how we need to
+ to choose
+ this j by j
+ ok
+ at least we know that we need to look
+ in this class of models
+ so before trying to understand how we
+ need to choose this j by j
+ we should ask what is that we want to model
+ I told you we want to model
+ the network of neurons
+ but what do we want to model precisely
+ what we want to model
+ what we want to model is
+ levels
+ so what is the idea
+ the idea is that
+ when this network of neurons works
+ it somehow
+ should be able
+ to store memories
+ ok
+ so when you go through reality
+ your brain
+ is confronted with several events
+ and to each of these events
+ there is a pattern of activity
+ of your brain
+ of the neurons
+ that constitute your brain
+ and this pattern of activity
+ should in some way
+ become stable
+ so that when
+ the event has passed
+ but you see something similar
+ the next time, you are able to retrieve
+ the pattern of activity
+ that you stored when
+ the event is done.
+ Ok? So what we want
+ to build is a model
+ that is able to predict
+ how the network
+ of neurons performs this operation
+ how is it possible
+ that specific patterns of activity
+ are stored in the network
+ and can be retrieved afterwards
+ ok? So this is what we want to do.
+ So the idea
+ the idea should be the following
+ that there should be factors in the activity
+ of your network, what is a pattern
+ in the activity of your network? A pattern in the activity
+ of your network is something
+ that tells you this neuron is firing, this neuron is firing
+ so if you see a cut
+ there will be certain neurons in your brain
+ that will fire and others that will move
+ that is the pattern that is associated
+ to that particular event that you are talking about
+ a memory is a specific pattern
+ that your brain should stop
+ ok
+ so since a pattern is a pattern of activity
+ this XAI is simply a specific value of the configuration of your neurons
+ ok
+ and then what you want
+ when in a different context
+ you are confronted with a similar event
+ your brain should go in the same state
+ so if this is a pattern of activity at a certain time
+ if something happens that is similar to what happened when this XIA occurs
+ this should go close to XIA
+ to the configuration of XIA
+ so if we want to imagine something
+ if you want to imagine something similar in the language
+ that we have been looking at
+ when considering physical models
+ you can think that
+ let's consider the easing model
+ ok, in the easing model
+ at low temperature
+ you have
+ two big states
+ which attract everything else
+ what are these two big states
+ these two big states are the equilibrium states
+ so are the states
+ if you compute the probability
+ that your configuration of spins
+ will have a certain value
+ this probability
+ will be picked close to
+ +m and minusm
+ ok so
+ if the easy model was a brain
+ or a network of neurons
+ if a low temperature
+ will have two basic states
+ such that
+ if you start with a configuration
+ here in your model
+ it will soon be equilibrated
+ in the equilibrium state
+ which is this value value
+ so the idea is something like this
+ there should be regions
+ in the energy that we are building
+ for this network of neurons
+ which are stable regions
+ such that whenever you are
+ close to that you will go to the
+ minimum
+ so the problem is that
+ we haven't already understood
+ how precisely we should build
+ these WIJ
+ in order that they have minima
+ in correspondence of the
+ memories that you want to store
+ so this is our main objective now
+ so the first thing since we did
+ the analogy with this in model
+ the first thing that we could say
+ is ok sorry
+ I just erased
+ the hypertonium
+ that we want to build
+ the hypertonium that we want to build
+ is this one
+ okay
+ so let's simplify our things
+ let's assume that the threshold is zero
+ threshold we can always
+ shift and at least our
+ our model and then we cover
+ a different value of the threshold but
+ to try to investigate the model
+ in a simple way let's assume that the threshold is zero
+ okay so if the threshold is zero
+ because we understood that we need to look for something like this
+ so the first possibility following this analogy is to take W=J
+ okay so all neurons it's a long range easy model
+ so you interact with all the neighbors
+ but the interactions are always ferromagnetic interactions
+ so if you do something like this, this would be the situation
+ like the one in this model that we have already started
+ in the last several lectures
+ so that would be okay in the sense that you have minima
+ in the free energy landscape associated to this model
+ but it would not be okay because this model would just
+ have two possible memories to store
+ and that's not satisfying, we don't want a networker
+ that is able to store just two memories, we want a network that
+ is able to store many memories, many buttons, so this is not
+ a good one, okay, so
+ a simple easing is not what we want, okay
+ we need to discuss this, the structure of
+ the Hamiltonian is an easing like structure but it's not
+ a phenomenon, otherwise we would just have the capability
+ of storing two c for two, just to manage. So then
+ the opposite, what would be the opposite situation? The opposite situation would be
+ to take this WIJ just random
+ I just draw random variables
+ ok, so when we draw random variables this model
+ here with random variables is what is called a spin pass
+ ok, so you certainly heard about spin glasses
+ because the basic of the normal class with this
+ so everybody now wants to spin glasses up
+ these are disordered easing life systems
+ ok, so what does it mean a disordered easing life system
+ well, the main difference as compared to the easing model
+ is that you can get frustration
+ to show you what is frustration
+ let me show you this very simple example
+ let's imagine that we have a triangular lattice
+ not a planar lattice
+ so we have a triangular lattice
+ and we also look at models of spins
+ so let's consider first the ferromagnetic case
+ the easing case that we have been using that so far
+ in the easing case all the interactions are positive
+ ok I should substitute here J for the ferromagnetic case
+ and what does it mean?
+ it means that you can satisfy all the interactions at once
+ because if you want to decrease the energy and find the optimum of the energy
+ it's enough that you put all the spins in the same direction
+ and you see that when you put all the spins in the same direction this product is positive and your Hamiltonian will get its lower power
+ so when you have ferromagnetic interactions it's easy to find the states that are the minimum of the Hamiltonian
+ this is precisely this state here all spin up all spin down
+ there are just two I believe in the minimum low temperature related by symmetry up down
+ and everybody is satisfied ok
+ but now let's assume that the interactions do not all have the same sign ok
+ so let's assume that for example this is a minus sign ok
+ and let's try to optimize the Hamiltonian in this case for just one packet
+ then you can extend the reasoning to the losses
+ just for just one packet if the interaction is minus what this would mean that there would be an error
+ here in this sum for which this W is minus
+ if this is the case if the interaction is minus the spits they want to be counter-aligned
+ this is a non-ferromagnetic interaction with the minus sum
+ so if I want to make these two guys happy I need to put them like this
+ but if I put them like this these two are happy but then these two are not happy
+ because they want to have the same direction but if I flip this and I put it up to satisfy this relation
+ I do not satisfy this one okay so this is called frustration I cannot make everybody happy
+ there is no way to solve this problem okay so what is the effect of this
+ the effect of this is that when you try to minimize the energy someone will not be happy
+ I will not be able to make all pairs of spin happy in my system okay so I cannot have two absolute
+ minima well defined like this one okay everybody out everybody now this will not be the absolute
+ minima any longer okay but what I will try to do I mean I will try to optimize the largest
+ possible number of relationship okay but the value of the energy that I will get will be
+ will be always larger than the value of energy that I get this is the free energy and this is F0 the minimum value of the energy and will obviously be above because there will be some pairs of interactions that will not be satisfied this is the first consequence so I will have a sub-optimality as compared to the phenomenon in case the second consequence is that very often there are many different ways that I can satisfy less the largest consequence
+ For example, look at this case. In this case, I can choose this configuration here, which means that I satisfy this 2, but I do not satisfy this, and I satisfy this.
+ So let's say that J is equal to 1. In this case, what is the energy? This is satisfied, this is minus 1, this is satisfied, this is minus 1, this is not satisfied, this is plus 1.
+ So my energy in this case is minus 1, okay? But now let's look at another configuration, the other configuration is this, the interactions are all the same, now I put this, this like this, this like this, this like this, this like this, so now this is satisfied, this is satisfied and this is not satisfied, it is the energy, I have a plus 1 here, minus 1, minus 1 and my energy is minus 1.
+ So, I have many sub-optimal minima, so this is a very quick way of explaining you what are the consequences of having a spin glass instead of using modern, so if you do this properly, you will find that your effective free energy will not be something with the minima, but it will be a landscape with many, many, many minima, and many of them will have the same energy.
+ This is when you talk about complex systems and complex landscape, we refer precisely to something like this.
+ Systems where you have many possible ways to satisfy suboptimally your energy constraints, okay?
+ So this could in principle mean something good for the problem that they want to address, because here we have many minima.
+ That we are, we would be able to store many memories, you know, making this association between minima and stored patterns, that would be good, I mean, having this normal landscape.
+ However, screen glasses have a problem. What is the problem of screen glasses?
+ The problem of screen glasses is that because of this extreme distributed frustration, if you change one of these interactions here, for example, if you turn this minus and it becomes a plus,
+ if you change it, the whole structure of this landscape changes, the location of the minimal changes, not the statistical properties, so if you count how many minimal there are, if you count what are the distances and so on, they remain the same, but the precise location of the minimal changes, so spin classes are very sensitive to changes in the interactions, and this is not good for a neural network, because if a neuron
+ for some reason ceases functioning correctly and therefore the interactions due to the neurons ceases to function correctly, this would mean that the structure of the stored buttons should be changed, and this is not something that we want, we want a network of neurons to be robust because we want our memory to be stored in a robust way, so that if something
+ somewhere in our network is corrupted, the left one keeps working in a reasonable way, okay, so we see that there are two problems in these two extreme scenarios, in one case there is in modern, there are too few minima, in one case there are many minima of the structure of the landscape is very fragile, so that's not good for other reasons, so we need to find something that is in between these situations and this is what,
+ again a number prize last year, the Hopfield address still in this model that is called the Hopfield model, so let's start to see what is this Hopfield model, so let's introduce this Hopfield model and let's do this step by step,
+ okay so let's start first by the feral magnetic phase, so he said that this is not good because we have just two memories stored, okay, the number is a problem but there is also
+ another problem, that these two memories that are stored are very specific, this memory here if we go a period of temperature is basically a pattern which has all ones and the opposite one is a pattern that has all minus one, so basically in this case we are storing the pattern and let's just look at one and let's consider one state personally, okay, so we
+ are basically storing this pattern here, one pattern, and one related, okay, so one independent pattern, okay, and very specific, everybody's one, so the first thing that we have to do is to go from this case, easy case, to a case where we can store maybe even one, but generic pattern, okay, we don't want to store the pattern, we want to store a generic pattern, so let's say
+ that the pattern we want to store is some pattern side, but it is not necessarily all ones, it can be whatever, okay, so it can be side one equal to one, side two equal to minus one, as a pattern of activity of my headphones, as a specific pattern of activity, so how should I build my Hamiltonian and Hamiltonian that is able to store this pattern, okay,
+ so the way that you can do that is to build this Hamiltonian in this way, you just choose your weights that you are in J, your interaction with J in this way,
+ let's put that up, the constant multiplied by the vector side, and now we will see that this specific Hamiltonian actually is able to store the vector side, and this is very easy to verify, and why is that, because if we now,
+ we have some steel, okay, this is the Hamiltonian, we have to do that, we have some steel, this, okay,
+ and first of all, the easiest thing that you can do to see that this is basically equivalent to the model there,
+ is just to define S prime i equal to psi i to psi, okay,
+ and this new variable since psi i can only be plus one and minus one,
+ also this S prime can only be for one or minus one, okay.
+ So if we do this substitution in terms of this new variable, okay,
+ this is just an Ising model with strength W, instead of having J we have W.
+ This is a long-tracked Ising model, everybody interacts with everybody, which is a particular case when the influence is exact, so that's good.
+ And the interaction strength is done, so we know that a low temperature, this is an Ising model, it will have the minimum where everybody is plus one and everybody is minus one, okay.
+ So, the minimum of this model, of this Hamiltonian, will be for S prime I, for example, all equal to one, okay.
+ And therefore this means what, that Si, our original value, should be SiI divided by, sorry, should be S1 divided SiI.
+ Since SiI can be either 1 or 5, this is just SiI, okay?
+ So the minima of this Hamiltonian are precisely in the pattern where we want it to be, okay?
+ So we constructed the Hamiltonian which has the minima in the patterns that we want to memorize, good.
+ Another way to see exactly the same thing is to notice that this can be written as the scalar product,
+ of a super big vector psi, multiplied by a super big vector S squared.
+ Ok?
+ Where this super big vector are psi1, psi n, n is the number of neurons in the network, and the S is S1, S n.
+ So clearly the way that I can minimize the Hamiltonian is to take this super vector S and set it equal to psi, and I minimize the Hamiltonian.
+ So S should be equal to psi, and this is a different way to see that I minimize my Hamiltonian when I choose my configuration equal to the pattern that I want to store.
+ That's ok. So we made a little step. So we started from the easy model. The easy model has one minimum in all ones. So we made a little step and we found a Hamiltonian that has one minimum in a generic pattern inside. Ok? So that's an improvement.
+ But now we would like to create more minima. Ok? So let's try to create a minima. Ok? If I want to create a minima it means that I have two memories to store. Ok?
+ So the trick is the following. I just take my WIJ. Let's say that I want to store the pattern say one. Ok?
+ XI mu equal 1. XI mu equal 1. Which is XI mu pi of mu mu equal 1. This is the first factor. And the second factor, XI mu equal 2. Mu is an index, a factor index. So how many memories are going to store? This is the first memory, mu equal 1. This is the second memory, mu equal 2.
+ Which corresponds to another pattern of activity for all my memories. So I have two patterns to memorize. And the way I do this is that I take this wj equal to psi 1i psi 1j.
+ With the values from this first factor plus psi i2 psi j.
+ Ok. Very good. So I plug the value in my Hamiltonian. So my Hamiltonian becomes minus sum over ij.
+ And then I will have psi i1 psi j1 si sj plus psi 2i psi 2j plus si sj. Ok. And this is minus psi 1.s^2.
+ So let's say that I now want to minimize this emittone. How can I do? Ok. Well now the things remain easy but they remain easy for one reason. It depends.
+ If you want to understand how to minimize this emittone you need to see in this super big space where these two vectors psi1 and psi2 are. Ok. Well the things that comes to help us to understand this is that when the dimensionality of your space is very large and you pick two vectors in this space they are typically orthogonal.
+ ok? so if you take the n, remember that all these vectors they live in an n dimensional space where n is the number of neurons and is very large ok? so you need to, all these vectors they have norm 1 basically if you normalize them ok? so they are on a sphere, they are fixed norm they are in a sphere so you need to see where these vectors are on a sphere in n dimensions which is very large.
+ So typically, and you can show this, if you draw two vectors of random on a sphere with very large dimensions, these two vectors will be orthogonal, they will be very far away from the other.
+ So if you imagine that this is the n-dimensional sphere, this will be inside one and this will be inside, typically, they will be far away.
+ So if you want to minimize this sum, there are two possibilities, either you pick your configuration as close to one of them or you pick it close to the other one.
+ Okay? In this way you will be able at least to, one of these terms will be zero and the other one will be one. Let's see how it means this.
+ So this is good because this means that we built a Hamiltonian with two minima well separated because they are in this very big space and your system will either go in one of them or will go in another one of them. So we have two well defined and separated memories.
+ Ok? And if I see something in this region of the space space I will go and retrieve the memory. Ok? So if there is an external event that would make my network illustrate that region of possible fine patterns, I will retrieve the correct memory.
+ And if something else triggers the activity of my brain, I will retrieve the other memory. Good. I have a network that functions well. The two memories are stored in different regions and I can retrieve them independently with alternatives. Ok? Ok, but still, two memories, I mean we work with much more memories so this means that we need to generalize this model in such a way that it is able to store more memories. Ok? So,
+ the generalization we have already guessed that, the generalization to many more memories is the following. Let's say that you want to, this is the simple that I used, K. Let's say that you want to store K memories. Ok? These K memories are codified by these factors,
+ with Mu going from 1 to K. So these are the patterns that I want to remember.
+ And then what I should do is to write down my WIJ as the sum over all the memories that I want to store.
+ Okay, XI I Mu, XI J Mu, okay, very good.
+ And so my Euriftonia, which is the end of Euriftonia, not the old film model, is built in this way.
+ Okay, with n minus w, some where mu, some where i and j, c i mu, c j mu, s i and j.
+ Okay, and this is finally my Hamiltonian.
+ Very good.
+ Okay, so in the definition there is a factor of 1/2 everywhere, but this is just a factor.
+ Okay, but then you might ask, thinking of the argument that I made before,
+ when we increase the number of patterns of this n-dimensional sphere, the patterns will start to fill the space.
+ Okay, so if I add patterns, and I add patterns, and I add patterns,
+ I need to ask myself if these patterns still are well separated such that they correspond to robust well separated memories.
+ You see we need to minimize this energy.
+ So if the patterns start to be dense in the space it's not clear that I minimize the energy going precisely in one pattern or in the other.
+ It might be that when there are many many patterns the way to optimize the energy is to be a little bit in between two patterns.
+ Ok, but that is good correspond to a very poor thought even because instead of retrieving one specific memory I would retrieve part of one memory and part of another memory.
+ Ok, so the important point is that the number of patterns that I can store safely in this network cannot be infinite.
+ Ok, above a certain threshold, my network will not be able to remove correctly the memory of the network precisely because the Hamiltonian will not have minima in the patterns that I want to store.
+ Ok, and so now we would like to give an argument not to solve the model because to solve the model it would require too much time.
+ But we would like to give some argument to establish at least an order of magnitude for this gate to try to understand where it is that KU-Docs is too large for the network to work.
+ Ok, so we will make a stability argument basically and the stability argument goes like this.
+ Ok, so we have the Zebiftonian here and the Zebiftonian here we can rewrite it, let me rewrite it at the formal level.
+ Let me rewrite it like this.
+ Let me rewrite it like this.
+ Let me rewrite it like this.
+ Let me rewrite it like this.
+ Let me rewrite it like this.
+ Let me rewrite it like this.
+ Let me rewrite it like this.
+ Let me rewrite it like this.
+ This is just a re-bracking.
+ So I see that I can rewrite this as this term here and this term here.
+ This is spin I and all that is in front of SI I call it H effective of I.
+ Because this is a sort of effective field acting of spin I and this effective field is used with interactions which are these patterns that I want to retrieve and the levels.
+ Now the idea is the following. Let's assume that I place my network in a specific path.
+ This is a stability path. So let's say that I take my network and I place it in a specific path which is C.
+ Yes? Where is the sum of mu? There is the sum of mu, you are right. There is the sum of mu here. Okay? Very good.
+ Okay, so we need to remember that... Yes.
+ Very good. Okay. So we place our system in this network and then I want to see what is the effect of this field. Okay?
+ So two things can happen. If the field in this specific configuration is in the same direction of the configuration in which I place myself,
+ then the field will stabilize the configuration. If the effective field is in another direction, it will destabilize my configuration in which I place myself.
+ This is a system with discrete states, so we need to look at the stability in this field. We cannot look at derivatives because the system is discrete.
+ So I place myself with this configuration and I see whether the effective field due to neighbors, each spin remains in the value prescribed by that configuration or wants to go away.
+ So we need to look at this effective field and to check whether the effective field is in the direction of the configuration itself.
+ This is the configuration I am sitting here. So let's look at this field, this effective field outside I.
+ We have X expression so we are going to evaluate this. So the expression is sum over J, sum over mu.
+ And then I have a constant but the constant is not important.
+ And I just want to see whether this is parallel to psi or not.
+ And then I will have C i mu, C j mu, and S j it will be just psi i, psi j mu.
+ Okay? So I am choosing S i equal to psi mu i.
+ Okay? Very good.
+ Okay, so now I need to look at these terms here, okay?
+ First of all, the thing that I need to notice is that I need to look only at the terms with j mu from i.
+ It was actually since the start, a neuron does not interact with itself so I should only consider i different from j.
+ So here I have i different from j, so this j different from i, that's okay.
+ So we have two terms here, two contributions to this sum and the contributions of this sum are the following.
+ I first consider the term where move is equal to move.
+ That's how we get w halves, sum of j different i and then I will have sine i move, sine j, sine j move.
+ This is the first term, okay?
+ And then I will have the second term, sine j different from i and then I will have again, sine of the mu different from nu, because now I'm taking the mu different from nu.
+ sine mu i, sine mu j, sine mu j, okay?
+ okay, so this, let's look at this term here, this is the same term, so this is sine j mu squared, okay?
+ but the size can only be plus one or minus one, so the product is just one, so the first term, this first term here is just double halves and then I will get j different from i sum to j different from i
+ and then I will get this property is one and then I will have psi i okay so this is the first term and the second term I just rewrite it
+ okay this is just nothing depends on j here so this is just a number it's n minus one okay so you see that this first
+ distribution of the field is in the direction of the configuration of the pattern I chose so this field is in the same direction of the pattern I placed myself in so this is a stabilizing term
+ it's a field in the same direction in which I got so it's a field that stabilizes where I am okay
+ so this is a stabilizing term
+ let's look at this second term
+ this second term has all these psi variables
+ but these are basically random variables
+ we are looking at many different patterns
+ they will be distributed everywhere in my multidimensional space
+ so they are like random vectors ok
+ so how many random vectors so this is a product of random vectors
+ it is a random vector itself ok so this is a random variable
+ i mu j i is fixed i is fixed i is fixed i is fixed
+ so i am not varying i i fixed i i am looking at specific neuron
+ so i is fixed what varies here are mu and j
+ also mu is fixed so what values are mu and j
+ so these are how many random variables
+ j can have n minus 1 values
+ mu can have k minus 1 variable
+ so these are n minus 1 k minus 1 random variable
+ ok? so this is the sum of n minus 1 k minus 1 random variables
+ ok? so this would be a random number
+ so this term is a term that takes me away from the configuration I place myself in
+ from the patterns I place myself in
+ ok? so this is a stabilizing term
+ and this is a term that tries to push me away from the state in which I place myself
+ so if I want my pattern to be a stable pattern
+ this term should be larger than this one
+ otherwise the effect of the neighbors will make me move away
+ ok? even if I place myself in a pattern
+ the fluctuating activity of the other neurons
+ will push my neuron away from it's supposed to be the configuration
+ which is clearly not any problem ok?
+ so to have a stable pattern to have that this pattern are equilibrous
+ are equilibrous configurations I need this to be bigger than this
+ this is an acronym, if you want to do the equilibrous computation it's not
+ but this is a stability algorithm
+ very well so we need to estimate this term to try to understand
+ whether this term is larger than the other one ok?
+ to copy the thing precisely it's difficult but to estimate its value is not difficult
+ because we can use the central limit theory ok?
+ so what does the central limit theory tells me?
+ that if I have a random variable which is the sum of n random variables ok?
+ and the distribution of this each one of them is infinite mean and infinite average ok?
+ because we are not thinking about random variables which are distributed in habitats and so on
+ there are standard random variables with well defined good distributions ok?
+ then I know that the average value of x is just m time if this is m time
+ m time the average value of each one of them ok?
+ And we have that the variance of the sum is just m times the variance of the single variable then summing up ok?
+ Very good, so now instead of having xn our xn our work are the a to j ok?
+ These ci, what kind of variables they are?
+ They are in this space where each component can be plus one or minus one
+ there will be random variables between them and they will have a certain variance
+ but the important point is that this variance will define it a little bit simply
+ so if they just apply the random central limit theorem
+ the variance of that sum
+ we call x
+ the sum over j and mu
+ j different from i
+ and mu different from mu
+ of this a mu j
+ the average value of x will be zero
+ and the variance of this sum will go like the number of variables which is n-1 k-1
+ ok
+ more importantly the amplitude of this random variable
+ we go like the square root of n-1 k-1
+ ok
+ just like n-2
+ ok
+ then there will be a factor which depends on the specific distribution of this amj
+ but it is not important, the important point is that there is this factor in the problem
+ ok
+ so this is to say that if we want to estimate how strong this term is
+ this term is of the order of the square root of k minus 1 and minus 1
+ there will be a factor that is not important
+ ok
+ so this is important because it allows us to make some arguments
+ because this term is of order 10
+ this n minus 1 is equal to n if n is big
+ and this term is of order square root of n
+ so this term dominates over this
+ if k is of order 1
+ so in general if I want to retrieve
+ to store a number of factors k
+ which is much smaller than the dimension of my network
+ k is much smaller than n
+ I can do that
+ I don't have the stabilizing effect
+ the stabilizing effect is much stronger
+ and I can store my packets correctly
+ however problems start to arise
+ when k becomes of order 1
+ when I want to store a number of packets
+ which is of the same order of the dimension of my network
+ of the number of neurons building up my network
+ when k starts becoming of order n
+ then these terms become of order n-1
+ therefore of the same order of the first term
+ and so we get a noisy contribution
+ which is of the same order of the stabilizing order
+ therefore the network does not work
+ and in fact these are not the minima of the network that I'm building
+ ok so this is the stability argument
+ tells us that when k becomes of the order of n
+ troubles starts and rises
+ and indeed what you can do
+ is that you can solve the model
+ either with theoretical computations
+ or with theoretical simulations
+ and what you can do is the following
+ you can compute things
+ so let's call the alpha
+ the ratio of k over n
+ so if alpha is close to 0
+ no problems, this means that k is much lower than n
+ but when these numbers start to become more than 1
+ problems by problems
+ so for example let's say that I now compute
+ the percentage of errors
+ namely I perform a simulation of my own field model
+ and then I equilibrate it at a very low temperature
+ and I want to check
+ where are the minima
+ the minima are equivalent to the pattern
+ ok
+ and the percentage of error means
+ how many times
+ my equilibrium configuration is different
+ and what you see is that
+ this is alpha
+ this is very close to zero
+ and then at some point
+ it starts increasing
+ and a particular value
+ which is 0, 1, 3, 8
+ this jumps
+ ok
+ so there is a value of alpha
+ which is 0
+ the order of 0, 3, 14
+ ok
+ where the network starts
+ not working anymore
+ ok
+ likewise
+ an equivalent quantity
+ that one can look at is
+ what is called ns
+ which is
+ the maximum
+ where all the buttons move
+ of
+ 1/n
+ sin
+ dot
+ sigma
+ s
+ rb
+ so I perform my simulation
+ I let my system
+ become stable
+ so this means that
+ the configuration of my system
+ will be close to an equilibrium
+ minimum
+ and I measure
+ whether
+ the equilibrium
+ is close to one
+ of the possible patterns
+ ok, so this quantity here
+ let's assume that the picture
+ will be the sphere
+ ok, so I will have
+ all my sides, psi 1
+ psi 2
+ psi 3
+ ok, my
+ configuration S is a vector
+ in this sphere
+ my configuration will fluctuate in a minimum
+ so if the minimum is close
+ it will fluctuate here
+ so if my equilibrium configuration
+ typically equilibrium configuration is here
+ you see that
+ with these patterns
+ the scalar product will be 0
+ there will be one pattern
+ for which the scalar product will be very close to 1
+ and so this will be very close to 1
+ ok
+ so in an at equilibrium
+ this means that at equilibrium
+ my model will be very close to 1 of the patterns
+ ok so this quantity should be 1
+ and this quantity has the opposite behaviour
+ than this
+ this is something that is very close to 1
+ and then
+ alpha c be close to 0
+ meaning that I am really far away
+ from any patterns
+ in the equilibrium situation
+ ok
+ and so this is telling us that
+ the network does not work
+ well enough
+ when I try to
+ store main patterns
+ ok
+ so
+ the Hoffen model has been
+ stunned a lot
+ and you can ask this is a very simple
+ model
+ it's really very simple
+ but how
+ is it justified?
+ I mean
+ I made some arguments
+ the analogy with these models
+ but I mean
+ can we really say that this is something realistic
+ or is it too abstract?
+ So there are two main hypothesis
+ in this
+ underlying this model
+ one hypothesis
+ is that
+ the interactions
+ are built
+ by patterns themselves
+ ok
+ and the second hypothesis
+ is the interaction between neurons
+ and pairwise
+ pairwise
+ this means the pairs
+ of neurons interact
+ neuronal or neural brain
+ are they justified?
+ these two assumptions
+ next time
+ we will try to see whether they are justified
+ or not
+ and we will try to do that
+ by looking at data
+ ok
+ so since i have

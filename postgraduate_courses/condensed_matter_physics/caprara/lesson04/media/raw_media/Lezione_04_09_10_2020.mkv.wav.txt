@@ -1,0 +1,787 @@
+ Thank you.
+ Thank you.
+ Thank you.
+ Thank you.
+ Thank you.
+ Thank you.
+ Thank you.
+ Thank you.
+ Thank you.
+ Thank you.
+ Thank you.
+ Thank you.
+ Thank you.
+ Thank you.
+ Thank you.
+ Thank you.
+ Thank you.
+ Thank you.
+ Thank you.
+ Thank you.
+ Thank you.
+ Thank you.
+ Thank you.
+ Thank you.
+ Thank you.
+ Thank you.
+ I'm really excited about this video.
+ Guys, if you believe what Intel tells you, you'd think that this Core i9-9900...
+ Today, for you ladies and gentlemen, I have the privilege, nay, the honor of being the first outside of NVIDIA to experience 8K gaming on this LG ZX series 88-inch OLED gaming...
+ ...persino Google lo sa, che registrare una riunione senza il previo consenso può essere illegale, quindi perseguibile.
+ Però invece, problemi del professore. Cavoli suoi. No, neanch'io. In teoria neanch'io, perché se registro, come sto facendo adesso, risulta chiaramente...
+ Potrebbe Google chiedere comunque una conferma al...
+ Sì, ma di fatto questo... Allora, perché io sto registrando? Non perché a me mi piaccia registrarmi.
+ Mi sopporto già un numero sufficiente di ore al giorno, perché ci sono studenti che hanno difficoltà a seguire,
+ in particolare gli studenti italiani hanno fissionari, rendono incompatibili.
+ Lo dico però io la devo rendere pubblica a queste in qualche modo, che ancora non ho capito come.
+ E quando io rendo pubblico a queste, non è che sto solo riprendendo me stesso, allora va bene, facendo.
+ Sono abituato, gli studenti mi registrano sempre, o con il telesolminico, registratori, eccetera.
+ Ma rendo pubblico questo, dove c'è scritto anche chi c'era, che domande ha fatto.
+ Per esempio, supponiamo che uno non volesse far sapere alla fidanzata che era venuta all'università,
+ gli aveva detto, no, sono male, e invece voglio venire a studiare fisica.
+ La fidanzata ha detto, no, non ci possiamo vedere perché sto male.
+ Poi la fidanzata dice, uomo, stavi a fisica invece di stare con me.
+ Allora, succedono dei guai, no, è un problema serio relativo alla privacy.
+ E questo io non lo posso evitare, né mi sento in diritto di ignorare questo problema.
+ E quindi io non so ancora come renderò disponibile queste lezioni che sto giustando.
+ Lo scoprirò vivendo.
+ Sì, ma chi? Per esempio tutti quelli che erano presenti oggi, allora è inutile, l'hanno già vista.
+ Ci sono persone che non sono presenti oggi, ma che io non l'ho capito, però certo cercherò di capirlo perché a questo punto...
+ ...due erano tantissime questioni di questo tema che abbiamo fatto in la prima lezione, quindi ho deciso di scrivere notes.
+ Quindi in writing sono quasi complete, non quasi, ma quasi complete, perché ci sono due problemi.
+ Uno è il problema che non ho ricordato la prima parte della lezione, e l'altro problema è che, ovviamente,
+ sono un pre-requisito di questo corso, e sono stati in un Syllabus, che lo puoi trovare sul mio sito.
+ Quindi, io sono aware che non all of you compiliano con le point che dovrebbero essere compliati in un Syllabus.
+ Quindi, io assumo che ti conosco termodinamica, statistica mecanica, e so on e so fort,
+ at the level di Bachelore.
+ But then I understand from the questions that I receive that, okay, this is not so given for granted, let's say.
+ It's at least some of the notions are shaky, not really firm.
+ So, just to catch up, in the previous lecture we have been
+ formulating the problem of x-ray scattering from a crystal in Bragg's formulation.
+ Bragg's formulation assumes that there exist lattice planes and two, they are perfect mirrors.
+ Under these two assumptions, which are uncontrolled, I can ask a question about the condition
+ for constructive interference between two rays that are reflected by two neighboring planes,
+ so according to the notation which is customary in X-ray scattering that I call with theta,
+ the angle that the ray forms with respect to the plane, not with respect to the normal,
+ which is the customary notation in optics.
+ Here I call theta this angle here, then I have another parallel ray, this angle is again theta, this is again theta.
+ I have my source, and I have my detector.
+ The question is when will I observe a constructive interference in the detector, and the answer is whenever the difference in the optical path of two rays is a multiple of the wavelength.
+ And this gives rise to Bragg condition. If I call d the distance between two planes, I have the condition 2d sin of the angle theta is equal to a multiple of the wavelength.
+ And this is known as Bragg condition.
+ Now, before we go to the question how to implement in an experiment this condition, I want first to discuss formulae formulation and then compare the two formulations.
+ Excuse me professor, I have a question for the last lecture. We described the structure factor in a mathematical way with an integration but for me it's not yet clear what does it describe physically in our crystal or lattice.
+ yes so i cannot answer this question now because this will interrupt my lecture it's out of topic now so i will come back as soon as this become not so much of topic or if you wait till the end of the lecture then i can reply to this this is completely off topic with respect to what we are doing now so i will reply whenever this is possible without interrupting me so now i want to address this
+ for our formulation of the problem of x-ray scattering so in for our formulation there is my crystal
+ a source and a detector and that's it
+ so my source is sending x-rays and my detector is receiving x-rays
+ from my crystal
+ in von laura's function the scatterers are not lattice plates but individual atoms
+ so light is scattered by individual atoms let's take two such atoms
+ one is here and the other is there
+ the only assumption is that the scattering is elastic
+ which is a very good assumption in the case of hard x-ray
+ of course if i send the light onto atoms i can have several processes
+ like i can excite the atom or i can even take away electrons from the atoms
+ but when dealing with the hard x-ray what happens is that the x-ray
+ is mostly scattered elastically by the atom so this is a physical assumption
+ nothing like there exists in lattice place is a physical assumption which is very reasonable
+ in the case of hard x-ray scattering and of course now i have two angles in my problem
+ and those two angles are fixed by the position of the source and the position of the detectors which
+ i can choose i decide where i put my source and where i put my detector and then i can move
+ either source and or the detector then i have
+ a vector d that locates one atom with respect to the other
+ and i have two angles in the problem one is the angle theta and the other is the angle theta prime
+ that are formed by the incoming and the upcoming x-ray with respect to the vector that locates
+ one atom with respect to the other
+ this has
+ wave vector k this is that wave vector k prime and since the scattering is elastic the only condition
+ is that the magnitude of k is equal to the magnitude of k prime which means that the wavelength
+ of the two x-rays is the same there is no change in wavelength like we have in compton
+ scattering this is not compton scattering you see elastic schedule so let's call with
+ n and n prime the unit vector with respect to the incoming and outgoing
+ x-ray then again if we ask ourselves what is the condition under which
+ i see a constructive interference in my detector then such a condition is the condition that
+ the difference in the optical path is again a multiple number of wavelength
+ so we have to calculate the difference in the optical path
+ so i project one ray onto the other and the difference in the optical path is the sum of
+ this segment and this segment the two segments are not the same length but nonetheless this is
+ the difference in the optical path so i can write d cos theta plus d cos theta prime
+ people and lambda this is von lauer condition
+ now we realize that these two objects can be written in the form of a scalar product
+ because i rewrite the vector d here and this magnified just for
+ purposes of clarity and then if i take
+ n the unit vector in the direction of k the angle theta is just the angle between d and t
+ and n so we can write this as d dot n
+ in this case if i now draw n prime which is in this direction
+ n prime this angle is the complementary angle
+ that n prime forms with d so this is minus d dot n prime
+ and this product must be a multiple and this sum must be a multiple an integer multiple of the wavelength
+ now i multiply both sides of this equality by 2 pi over lambda
+ 2 pi over lambda time n is the wave vector k
+ 2 pi over lambda times and prime is the wave vector k prime and this is 2 pi over lambda times
+ n lambda is 2 pi n an integer multiple of 2 pi now i look at this equality and i realize that d
+ is a vector that joins two atoms in my lattice and this condition must be true for all atoms in my
+ lattice because if this interference is constructive but the interference with all other atoms is
+ destructive then this spot will be very faint i need to have constructive interference from all
+ atoms at least all atoms that are in the spot of my x-ray where my x-ray hits the crystal so this
+ equality must hold true whenever d is a brevet lattice vector a brevet lattice vector is a vector
+ that locates all the atoms with respect to one atom that we choose as the origin so we read this
+ equality i write it here as r dot k minus k prime equal to two pi and an integer multiple of two pi
+ but now i look at this equality
+ and this is exactly the quality that defines the reciprocal lattice
+ r times a vector equal to pi n so for our condition for
+ constructive interference translate into the following k minus k prime is the capital k
+ belonging to the reciprocal lattice
+ so surprise whenever i do an x-ray scattering experiment on a crystal and i change the position of my detector
+ i will observe either nothing or a bright spot and the bright spot will be found whenever the
+ difference between k and a prime is a reciprocal lattice vector of my lattice so as i stated from
+ the beginning with this ray scattering actually we are seeing the reciprocal lattice of my crystal
+ not directly the crystal but it's reciprocal but since we know that there is a one-to-one
+ correspondence between the reciprocal lattice and the original lattice once we reconstruct the
+ reciprocal lattice we have direct access to the structure of the brevet lattice that originated this
+ x-ray scheduling
+ so now we have two formulations of the same problem
+ one is bragg formulation
+ and he was awarded the nobel prize so this equation works
+ and from lauer formulation and he also was awarded the nobel prize so pratt and from lauer formulation
+ both work then it may be that the two formulations are equivalent they are and now i'm going to show
+ that they are equivalent so we have two different formulations
+ of the same problem one assumes the existence of lattice planes to start with
+ and assume that lattice planes behave as perfect mirrors
+ so it's less transparent the other formulation
+ only makes very very transparent physically transparent assumptions like
+ the scattering is elastic and the scatterers are the nodes of my lattice
+ and the scattered wave goes in all directions the scattering is
+ completely isotropic what selects the k' direction
+ is that i put my detector somewhere so the scattered wave is a spherical wave
+ but i am looking in a given direction which is fixed by the
+ position of my detector and then i can move the detector so i
+ can change k prime for instance given k i can change k prime
+ and so now i fix k i change k prime i change the k prime and i see nothing
+ nothing nothing right spot when do i see a bright spot whenever
+ k minus k prime is equal to a reciprocal lattice value
+ this will make and i will try to convince you that this is the case
+ a discrete set of spots which is the fingerprint of the given
+ lattice it is the fingerprint of the of the of the reciprocal lattice but in the end once we have
+ the fingerprint of the reciprocal lattice by the direct correspondence between reciprocal and
+ direct lattice we have also access to the structure of the brevet lattice so now i will try to convince
+ you that there is a complete equivalence of the two formulations now this equivalence rests on a
+ theorem that we have already proved we have proved that given a reciprocal lattice vector
+ there always exists a family of lattice planes perpendicular to that reciprocal lattice and that
+ the shortest of all reciprocal lattice vector is just two pi over d where d is the distance between the planes
+ so now we see the ingredients of Bragg's formulation in von Laue formulation and we have only to put
+ everything in order so that this equivalence become transparent and evident
+ so i write it here what we will use
+ given K belonging to the reciprocal lattice
+ there exists a family
+ of lattice planes
+ perpendicular to K
+ and K is an integer multiple of the shortest of all K
+ and the shortest with n equal one as length two pi over d where d is the distance all the others
+ can be larger and so their magnitude is two times three times an integer number of times why an integer
+ because the reciprocal lattice is a prevail lattice and so vectors can only be integer multiples of
+ the fundamental vector so whenever i have a fundamental vector in one direction all the
+ vectors that i can have are multiples of this fundamental so this ingredient is crucial in
+ transforming from lower condition into bra condition let's see how so from this equation i can write
+ k prime equal to k minus capital k
+ then i can take the modulus of both sides and use the fact that the modulus of k is equal to
+ the modulus of k prime so we have the modulus of k prime is equal to the modulus of k
+ and this the simplest way to calculate the modulus of this vector is to take the scalar
+ product with itself so i have k dot k which is k squared then i have two times the double product
+ and then i have the magnitude of capital k
+ for a triangle this is carnot's theorem for the length of the side of the triangle given the length
+ of the other two sides and the angle between them now as you see here i have used the elasticity of my
+ scattering so these two are the same and i can find that k dot capital k is equal to one half of k squared
+ now let me write capital k as the magnitude of capital k times a unit vector in the direction of capital k
+ and then
+ you immediately see that the projection of k along the direction of capital k
+ is just one half of the length of capital k
+ so this is my capital k
+ this is k and this is
+ the projection of k
+ onto
+ my
+ revelation a reciprocal vector k is just one ounce of the total length of k
+ so this triangle is isosceles so that this side is the same length of this side
+ actually this weight vector
+ is immediately related to
+ k prime because we have that
+ k plus k prime is equal to k so this is this is k prime this is minus k prime
+ k plus minus k prime equal capital k then if now i make this a prime
+ this is a lattice plane perpendicular to my greater lattice vector and the lattice plane
+ behaves as a perfect mirror for my x-ray scattering so this is exactly bragg's assumption
+ this is the angle theta this angle is theta the theta in bragg's formulation
+ and so now we can write
+ that magnitude of k
+ sine of theta is equal to one half of the magnitude of capital k
+ this is bragg's theta the angle that my x-ray forms with the lattice plane
+ and if i take the magnitude of k times the sine of theta i find exactly one half of the magnitude
+ of capital k and now i put the number what is the magnitude of k two pi over lambda
+ what is the magnitude of capital k an integer number n times two pi over d
+ and then i simplify two pi i multiply both members and i get two d sine of theta
+ equal n lambda which is exactly
+ Bragg's condition derived from Von Laue's condition
+ now we understand also the meaning of n
+ whenever we see a scattering of capital k we have one of the two possibilities even this capital k is
+ the shortest and so we are seeing the first reflection from that family of lattice plates
+ then we can have k that is a multiple of this and then we are seeing reflections by
+ a k vector that is two times three times so the wavelength of this is one half one third one
+ fourth of with respect to the distance of my lattice planes and so all those waves have the same
+ periodicity and one is the fundamental which is the shortest level so increasing n in Bragg's formulation
+ means increasing the magnitude of k in formula formulation so i am taking vectors k and k prime
+ that differ by increasingly larger vectors when n increases k minus k prime increases and so i am taking
+ larger and larger vectors whenever the difference is a reciprocal at this vector i see a bright spot
+ in my detection i stop for a while and ask for questions about this subject
+ so okay
+ so
+ from lauer's formulation is clearer in my opinion it has assumption underlying the underlying
+ assumptions are very reasonable in the end it is completely equivalent to brad's formulation
+ so to determine the x-ray diffraction pattern from a crystal we can use both they give the same result
+ if we adopt the standpoint of from lauer's construction from lauer formulation this will
+ give us an idea of how to implement experimentally x-ray scaling to study the property of a given
+ crystal and so i will discuss this setup which is based on the aval deconstruction
+ so imagine to have your reciprocal lattice
+ what i'm drawing here is not the crystal lattice it's the reciprocal lattice okay
+ now take at your choice one side as the origin of your reference frame in reciprocal space
+ so i choose this atom this sorry this point we are in reciprocal space this point has the origin in
+ my reciprocal space then the recipe goes like this from this point take the vector k from the origin
+ i go with my vector k k is fixed by the position of my source so if my source is here
+ then we produce x-ray in this direction and if i fix the wavelength of my
+ radiation then i will fix both the direction and the magnitude of k
+ then
+ this point c identifies the center of a sphere
+ which is called the hevald sphere i take c and i make a sphere of radius k
+ this sphere
+ may meet some point of reciprocal space
+ different from the origin
+ what does this mean this is k this is another vector that i call k prime
+ and their difference since this is the origin and this is a reciprocal lattice
+ point different from the origin is a reciprocal lattice vector k so
+ my situations is that this is this is minus k prime sorry this is minus k prime
+ k prime is in the other direction this is minus k prime so this construction tells me
+ that whenever my evil spheres touches a reciprocal lattice point the corresponding
+ k prime is a possible scattered x-ray that gives me a bright spot because it obeys
+ the phone lower condition so i say it again i choose an origin whatever because all points are
+ equivalent i fix my k and this define in a unique way the center c then i make a sphere of radius
+ k if this sphere touches another reciprocal lattice point of more than one all those reciprocal
+ lattice points are such that by definition of a sphere the length of this wave vector is the same
+ as this so i am obeying the elasticity and the sum of these two vector is a reciprocal lattice vector
+ and so i am satisfying for lara condition and so in this direction now i write the direction in the
+ direction k prime if i put my detector here i will observe a bright spot in my sphere if i put my
+ detector here i will not see a bright spot if i put my detector here i will see a bright spot
+ okay
+ now this construction is very simple because it allows to predict given a structure
+ what will be observed of course usually in experiment we don't know the structure
+ and we want to deduce the structure from the location of the bright spot so we have to implement
+ this idea in different ways because you see if i fix k then of course i have access only to very few
+ lattice points if any that obey the condition that other point in reciprocal lattice are on the evil
+ sphere so if i am lucky i will find some bright spot if i am unlucky i will find nothing and this is not
+ a map of my crystal it's just if i am lacking few bright spots i want more if i want more i can do
+ several things one thing is that i can vary the wavelength of k suppose for instance that i
+ vary the wavelength of k between two values it means that i am now increasing my wave vector k
+ which means that i am reducing the wavelength and if i do this gradually as you see my
+ ever sphere will touch many points that will be spun by my construction so i will meet also point
+ when i increase my length my radius of the ever sphere will change in a continuous way and so my
+ ever sphere will span a region in reciprocal space and whenever by spanning it meets some reciprocal
+ lattice point i will find a bright spot so it's a way of spanning at least a portion of my reciprocal space
+ if i change my wave vector from
+ k1 to k2 my wavelength goes from lambda 2 to lambda 1 and so by changing the wavelength of my x-ray
+ i can span a portion of my reciprocal space
+ this is one possibility the other possibility is that i fix i erase so that i can redraw
+ another possibility is that i fix my advanced sphere
+ so for instance if this is k
+ i have a sphere is
+ this
+ very unlucky i didn't get any single point
+ okay because i have taken this but now i rotate my crystal
+ rotating the crystal in real space counter rotates the crystal in reciprocal space
+ so that now if this is the origin all point in reciprocal space will describe circumferences
+ and sooner or later they will meet the island sphere whenever by rotating my crystal one point
+ meets the other sphere i see a bright spot because now the evil condition is met so by
+ rotating my crystal i actually rotate also my reciprocal lattice and so points that
+ they were not touched by yellow sphere may sooner or later intersect the
+ intersect the yellow sphere and this is called the rotating crystal method
+ of course one can use combination of both methods i can rotate a crystal and change the wavelength
+ so linear combinations of the two methods in principle i can both change the wavelength
+ and rotate the crystal so as to span a good portion of reciprocal space i will try to convince
+ you that i must not exhaust all reciprocal space it's infinite fortunately enough
+ once i have a few points in reciprocal space i can immediately figure out what is the corresponding
+ brevet lattice because of course i can take advantage of periodicity i know that reciprocal
+ space must be periodic so if i find the first points in reciprocal space then i can map the
+ entire space by periodicity and so it is not necessary to find all the points in reciprocal
+ space to figure out the structure few spots
+ few bright spots in my x-ray scattering pattern are enough to deduce the property of the crystal
+ the first method was the one that was invented by lauer himself so this is called lauer method
+ the method of changing the wavelength which means changing the radius of evil sphere
+ sorry professor yes can you repeat the method of rotating crystal so now i fix the origin
+ this is arbitrary and i put my wave vector of the incoming light k
+ this defines the evil sphere which is a sphere centered in the end point of k
+ and of radius the magnitude of k this is evil sphere if i am very unlucky like in the case i
+ depicted i am missing all points in reciprocal lattice so if this is my setup and then i move my
+ detector all around i will see no bright spot there is no reciprocal lattice point that is reached
+ by this condition k minus q prime equal capital k with k prime in absolute value equal to k
+ but now i say okay if i rotate my crystal in real space i am rotating my crystal in reciprocal
+ actually i'm counter-rotating but this is not very important because the scalar product
+ r dot k is invariant so if i am rotating r i'm counter-rotating k so as to maintain the
+ scalar product invariant this is not important what i'm doing is that i am rotating my reciprocal
+ lattice vector so let's take one receiver of a lattice point and this rotates along a circumference
+ so which is centered at the origin and with radius this and sooner or later i will intercept
+ a sphere as soon as i do intersect according to for laurie condition i will observe in a specific
+ direction a bright spot usually one puts okay this was at those time i had a photographic film all
+ around my sample or almost all around my sample so that whenever there was a condition that was
+ satisfied my film was impressed by the x-ray and so then i developed the film and located the bright
+ spots on my film of course the film was sensitive to x-ray not visible but okay so when i rotate my
+ crystal sooner or later the points even if they are not touched by the yellow sphere once i draw it
+ they can reach the yellow sphere under rotation in that case as soon as they touch the yellow sphere
+ i will observe a bright spot in my x-ray diffraction pattern
+ thank you you're welcome
+ the last method that i want to discuss
+ is a method due to the buy and share
+ this method
+ seems hopeless at the first glance
+ but then and i try to convince you about this
+ it actually works very efficiently
+ because even if we lose information about the direction of capital k
+ this will be the case
+ nonetheless
+ even if we only know the length of the first
+ reciprocal space wave vector only their length not their direction
+ i will show you that this is already a good fingerprint to tell which is the lattice i was
+ starting with it's not even necessary to know the direction of capital k just few lengths will
+ completely characterize the lattice so first i'll tell you this was a spoiler but first i'll tell you
+ the idea so there are crystals that are naturally found in a polycrystalline form they naturally grow
+ in such a way that they are divided into domains each domain is a crystallite a small crystal
+ but the domains are arranged at random in space so that if i have a cubic here
+ i have a rotated cubic here and this cubic here rotated in all possible direction spaces
+ so
+ of course my x-ray spot is large enough so that when i shine my x-ray on my crystal
+ my x-rays sees all the different crystallites
+ but i can do i can put myself in such a condition
+ even if i have a crystal to start with because i can grind my crystal
+ and transform my crystal into a powder so this is also called the powder method
+ so i start with a nice crystal and then i grind it and i put
+ my powder
+ in a vessel and so now my powder each grain of powder is still huge with respect to the typical
+ cycle of an atom so each ground each grain of power is itself like a crystallite here so where now i
+ have again all my crystals oriented in different ways and i shine my system with an x-ray my x-ray sees
+ the average of this so what is the advantage is that i am rotating my crystal automatically so my x-ray
+ sees the average of my x-ray factor with respect to all possible rotations of my crystal because i am
+ effectively rotating my crystallites so it's like implementing the rotating crystal method
+ without rotating the crystals because the crystal is kind of rotated by the fact that there are
+ crystallites in all possible orientations in this case there is a construction that tells me when
+ i can expect constructive interference now of course since i am mediating with respect to the
+ directions i have no access to the direction of my reciprocal space wave vector because a bright spot
+ will be a bright spot that may be may receive contributions from different k vectors provided
+ they are the same length because i am rotating my crystal so i lose information about the direction
+ of my reciprocal space weight vector but nonetheless as i'll show you in some exercises this is still
+ enough to fully reconstruct the structure of my so what is the construction that i make with this
+ so the question is what is the difference between the figure on the left and the figure on the right
+ in the figure on the left i went to the to a shop and i bought a crystal that is
+ in a polycrystalline form from the start it's the crystal falls in in this way in nature so it's a
+ polycrystalline material there i had a very nice crystal like a coarse crystal and then i ground it
+ and i obtain a powder and then i put my powder into a vessel usually this is compressed into polyester
+ i make with those the powders of my crystal one way or another i obtain the same effect
+ here every crystallite is a crystal and by putting a crystallite one
+ beside another i have all possible orientations of my crystal there since each grain of powder is
+ near other grains of father and they are oriented at random again i am putting my crystal in all
+ possible orientations so they are two different ways to average over the orientation of my crystal
+ which means that at once i'm seeing all the possible rotations of my crystal
+ so it's like implementing in one shot the rotating crystal method because now i if i rotate this
+ nothing will change because this is now fully isotropic so however i rotate this crystal
+ or this powder i get always the same nothing will change because now i will get at once
+ with one shot what i would get from a single crystal by rotating it
+ so
+ let's now construct
+ evans here
+ this is my origin
+ oh so
+ i have the center c my k here
+ and a possible candidate for k prime say here
+ now i have another sphere
+ this is capital k and so i have another sphere of radius capital k
+ okay so i have two spheres one is evil
+ and the other sphere was right with this capital k
+ by rotating my crystal all the k was
+ magnitude this capital k intersect evil
+ sphere is this statement clear i am
+ rotating my crystal all at once because
+ i have crystals in all possible
+ orientation
+ so all the capital k with the same
+ magnitude intersect here or there my
+ evil sphere all of them sooner or later
+ because i'm rotating so sooner or later
+ there will be the right orientation and
+ i'm hitting if i am not rotating the
+ crystal it may be that my capital k is
+ here
+ and then it doesn't meet the evil sphere
+ but if i rotate it will touch evil sphere
+ and at this point i will see a spot so
+ all the vectors that are this magnitude
+ will hit this evil sphere sooner or later
+ and so they do it all at once because i
+ am averaging with respect to my direction
+ then if i call
+ this the scattering angle phi i have a
+ condition
+ which is the condition that this is a
+ chord of a circumference
+ of radius k equal to k prime and so my
+ condition is that k in absolute value
+ capital k in absolute value is equal to
+ 2 small k the sine of phi over 2.
+ this is called the Debye Scherer
+ condition
+ this is
+ a weaker form of the Bragg condition
+ or if you wish
+ on the Von Laue condition
+ because we are not constraining
+ the direction of capital K
+ we have lost information
+ we do not know the direction of this
+ capital K that is fitting
+ because it was some direction and then
+ by rotating it reached my sphere
+ but i cannot measure the angle of
+ rotation
+ because when i rotate the crystal i can
+ measure the angle of rotation
+ so i know
+ where was my starting vector
+ before rotating but now the rotation
+ is just the result of the random
+ arrangement of all of my crystallites of
+ all
+ or all my total grains so i have no
+ information whatsoever about the
+ direction of this game
+ but i know that k must be sooner or
+ later a chord of a circumference with
+ radius k and so if i call phi the
+ scattering angle
+ which is the angle formed between k and k
+ prime this is k and this is k prime so
+ it's
+ experimentally measurable because i
+ measure the angle formed by k and then
+ my detector tells me what is the angle
+ between k and k prime so i can measure
+ five
+ i know the wavelength whenever i see a
+ bright spot that can give an angle five so
+ i change five which means i move my
+ detector
+ for some five i fix my wavelength for
+ instance so case fix this is just the
+ magnitude of the player so wavelength is
+ fixed i can only change five i start
+ nothing nothing nothing at a certain
+ point i see a bright spot i put the
+ value of the angle here and i calculate
+ the length of k then i change five and
+ other other bright spot other length of k
+ and so i have a table
+ like this here i put the value of five
+ for instance 10 degrees 12 degrees 15 degrees and so on
+ here i can calculate the magnitude of k and i have a list of magnitude of k
+ with increasing phi the magnitude of k increases
+ so this is very nice because i have the list
+ of the possible case in increasing order very nice
+ if i increases then k increases so i have say in some units
+ four six nine and so on and then i have
+ the vector lengths and i must tell what crystal structure can arrange
+ those vector lengths in a periodic array
+ for instance if my lattice is a cubic
+ the shortest length i can find is the side of the cube
+ of course all these vectors which are different vectors
+ will give rise to the same angle phi in the by share i cannot distinguish
+ between a k vector that goes along x a k vector
+ that goes along y and the connector that goes along z
+ they are different vectors but in the Weisscherler
+ they all give rise to the same spot the position of the spot is only
+ determined by the position of the scattering angle
+ which is the angle formed between the x-ray source
+ and the detector position i can change the detector position
+ and so i can change my angle phi experimentally
+ and i measure the values of phi at which i find the right spot
+ then by the formula i calculate those lengths
+ the shortest of all if my crystal is cubic
+ will be this one and then what will be the next
+ possible length in a cubic crystal
+ you see that there is no other length in between in a cubic crystal
+ the next peak if this is one in some units what is the next peak in a cubic crystal
+ square root of two
+ and then square root of three and then and so if i have some of them not a large number of them
+ some of them then i realize that i can arrange them in a periodic structure only in one way
+ so it's a very powerful because even if i lost information about the direction this is equivalent
+ to this is equivalent to this all the diagonals are all equivalent so no information about the
+ directions but just from the length i can figure out how to arrange those lengths in a periodic
+ structure and then i after after a short list like five or six of them i can already reconstruct
+ the entire lattice reciprocal and then by mapping i can reconstruct also the brave lattice so this is
+ a very powerful method indeed to investigate the crystal structure it seems crazy like i have a nice
+ crystal and i grind it but in the end it's very powerful indeed because it gives me at once the
+ advantage of the rotating crystal method without rotating the crystal
+ questions
+ so before going to the final topic of this lecture and then i'll make examples because only with
+ examples we can really understand what is going on i will only slightly touch the question that was
+ asked before the question about the relation between the structure factor and say for instance x-ray
+ scattering pattern so as i was saying before the lecture started there is a syllabus on my website
+ and in the syllabus you find what you are supposed to know to take this course and you are supposed
+ to know scattering theory in quantum mechanics if i were to make a course about scattering theory
+ in quantum mechanics which is a very very nice topic i would not have time to do condensed matter
+ physics and i am requested to do condensed matter physics in this course but i understand that some
+ of you are not so familiar or have forgotten part of what they knew about scattering in quantum mechanics
+ so i'm writing some notes that i will post on my website where i make clear the relation between
+ the scattering amplitude of x-ray and the structure factor so of course then if you really want to
+ discuss this with me then there is a question after the lecture or consulting time and and i am fine with
+ that if you really want to discuss that with me you are welcome of course i'm just saying that i
+ will write notes to make a clear relation between the x-ray scattering amplitude
+ and the quantity that i have called s of k the structure factor okay this is just two lines of
+ perturbation theory in quantum mechanics is it's not so complicated but okay so i assume that you
+ know this but i understand that not all of you remember so i'm right i'm i'm writing notes about
+ this what i want to say is this so please understand what i am going to say this theory is perfectly fine
+ if i apply this theory which is general for instance it applies to liquids if you do a
+ scattering x-ray scattering from a liquid you can measure s of k and then by Fourier transform you
+ can measure g of r as i told you in the previous lecture and if you look at the g of r of the liquid
+ as a function of r you can see the position of the atoms and then it goes to one asymptotic so you can
+ say that if i put one atom at the origin here i will find the the first atom in the average here the
+ second so i will have shells in a crystal only few positions are allowed so my pattern is like
+ delta this is the fourier transform of this which is non-zero only whenever this is a reciprocal
+ lattice vector so the s of k of a crystal is only non-zero if k is a reciprocal lattice vector
+ this is just for our condition
+ so we can discuss x-ray scattering from a crystal without the formula of the structures factor
+ because we have taken the shortcut of von laue or bragg formulation but of course they are
+ completely equivalent again there is a complete equivalence between the theory of scattering which
+ is general in quantum mechanics i have a system i scatter an x-ray and i want to know what is the
+ scattering amplitude the scattering amplitude is a straight forward calculation in quantum mechanics
+ okay then we can discuss i remember i don't remember how to do that but it's a straightforward
+ calculation in quantum mechanics now the question is instead of going through all of this for a
+ crystal we can take the shortcut of von lauer formulation this gives us the same information
+ as this and the connection is that if i calculate this for a crystal solid this is only non-zero
+ when k is a reciprocal lattice vector which means that this structure is periodic
+ okay
+ let me go to the final topic
+ so so far we have discussed been discussing about brevet lattices
+ however i anticipated that the most generic periodic structure
+ can be described as a brevet lattice with a basis
+ and this is true for two reasons
+ first reason there are periodic patterns like the honeycomb or the diamond
+ that are not brevet lattices i see the honeycomb
+ i see that it's a regular array but this regular array is such that the points are not all equivalent
+ so i can make two sets of points within each set all the points are equivalent
+ so i can describe the honeycomb as the compenetration of two brevet lattices
+ one displaced with respect to the other this is the concept of a basis
+ the other possibility that is met in nature is the same i have a brevet lattice say for instance a
+ square lattice but my coins are not occupied by an atom but by a molecule for instance if i am
+ studying ice crystal i have oxygen and two hydrogens here then i have oxygen and two hydrogen here
+ oxygen and two hydrogen here and so on and so forth okay so now i'm facing a situation where my
+ lattice is a breve lattice it's not the only cone then of course i can have both situations but
+ i have a breve lattice but my constituents are not simple atoms they are molecules if the molecule
+ is a crystal then every crystal site is equivalent so this is equivalent to this is equivalent to this
+ is equivalent to this i have chosen my origin arbitrary as always and i put my origin on the
+ oxygen atoms so the oxygen atoms are located on my breve lattice the hydrogens are not located
+ on my brevet lattice but it's very simple to locate if i choose this as the origin then i can define
+ the vector d2 that locates my hydrogen with respect to the oxygen if i want to locate this
+ hydrogen i first move by a brevet lattice vector from an origin to another point and then move by d2
+ the two is a constant vector if i want to locate i must change r but not d2 d2 is always the same
+ and this other is located by v3
+ putting the oxygen at the origin i put d1 equal zero this is a choice that can always be done so you can
+ always put one of the atoms at the origin then all the other atoms are located by such a recipe r
+ plus d of l for l equal one two three so this is a very regular structure and now you see
+ that there is an underlying brevet lattice all the points are reached by a brevet lattice plus a
+ constant vector this constant vector is called the basis for each species
+ this means that if i take now all the equivalent points for instance now i give a different color
+ to these hydrogens these hydrogens themselves form a brevet lattice which is the same
+ brevet lattice as before just shifted by d3 and all the others form a brevet lattice
+ which is the same lattice as before shifted by d2
+ so this recipe tells me that there is one single brevet lattice r and all the atoms
+ are located with respect to the single brevet lattice by a constant shift so this is a very
+ regular structure and i can separate the brevet lattice which is unique one single brevet lattice
+ and the basis now since the basis is not periodic there is not such a thing as the reciprocal
+ lattice of the basis the only periodic structure is in r r is periodic so the concept of the reciprocal
+ lattice of r is well defined the reciprocal lattice of d is a concept that does not exist
+ i repeat this because for some reasons that i cannot fully understand in your mind you are still
+ convinced that i am like tricking and that there exists the concept of reciprocal lattice of the
+ basis no there is no basis is a finite set of vectors it's three vectors four vectors seven
+ vectors the funny set is not an infinite set so there cannot be a reciprocal lattice of the basis
+ it's not periodic it's a finite set whereas the breve lattice is periodic and infinite
+ and so there exists a reciprocal lattice which is itself periodic and infinite
+ so now you ask me i am waiting for a question you told us that when you study a crystal
+ by x-ray scattering you can tell the structure of the lattice by x-ray scattering
+ then what happens if my lattice has a basis can i tell the difference between two different lattices
+ which have the same level of this but a different basis if i do x-ray scattering
+ and the answer is yes of course yes of course
+ so the end of this lecture is what is the contribution of the basis to x-ray sketching
+ so again if i calculate the scattering amplitude
+ by a crystal which is a breve lattice i find that this scattering amplitude is only non-zero if
+ k is a reciprocal lattice vector okay and this is just bragg or for for let's say for lower formulation
+ okay also bragg but bragg had no idea about reciprocal lattice he didn't know so he was
+ lucky that mirror planes that lattice planes exist because they are orthogonal to reciprocal now
+ if i have my
+ and then just to be very general i am not putting my origin on the atoms all the atoms are locating by
+ a d1 d2 d3 basis vector okay which gives the location of all my atoms with respect to the basis to the
+ reciprocal uh to the point of this then my scattering amplitude gets now a contribution
+ i use the same symbol s of k because in the end is a relative of the structure
+ factor it's called in x-ray scattering structure factors actually which is in this form
+ which means that when i make practice construction i state that my ways
+ to make a positive interference constructing interference must obey the von lauer condition k
+ minus k prime is equal to capital k this capital k but now i must take into account
+ also the fact that for instance when i consider the scattering of this atom
+ with the equivalent atom
+ the condition is of course the same because all the equivalent atoms are on the same ray
+ ray lattice a simple shift but i have also the interference between this and this
+ and this with respect to this is located by an extra is like r plus a basis so i have an extra
+ factor in the amplitude of the scattered way wave which is of this form now this is true if all the
+ atoms are identical which is the first case i will discuss for instance all the atoms are
+ carbon atoms or whatever all the same and then these waves interfere according to this structure
+ factor n is the number of atoms in the basis for the moment i am discussing the case of equivalent
+ atoms and then i will generalize now there are two possibilities
+ either this number is non-zero
+ and then since this is the scattering amplitude dance this is the extra contribution
+ to the scattering amplitude
+ due to the basis
+ if there is no basis this is a one so if there is a basis this number is not one
+ so there are two possibilities this is a complex number but this is not important
+ because the scattering probability is the modulus square of the scattering amplitude
+ this is the quantum mechanical scattering amplitude whereas the real structure factor
+ is the square of this number but it's called structure factor the names are less than the object that
+ one would like to study in physics
+ but there is the possibility that this wave interfere in a destructive way
+ if this is the case if this number is zero the corresponding peak disappears from
+ the x-ray scattering so suppose i have a diamond as i told you the diamond can be described as an fcc
+ phase centered cubic with a basis all the atoms are equivalent because they are all carbon atoms
+ if i make x-ray scattering from a diamond i don't see the scattering pattern of an fcc lattice
+ it would be a pcc basically space but i see a b a bcc with some missing points
+ why those points are missing because we will make this calculation this object
+ on some for some value of k gives a zero on the structure of my diamond in that case
+ then i will be able to tell that the structure is a diamond because i will find a structure that
+ would be fcc but with some missing points and then by studying the location of the missing points
+ i can deduce the underlying structure of the basis
+ in the next lecture we will start with exercises on this
+ okay so that we put in practice whatever i've been saying now
+ now imagine that the atoms are not equivalent
+ in this case my structure factor
+ which in this context is understood as a contribution to the scattering amplitude
+ is a modification of this because now the scattered waves have a different path because they come from
+ different atoms so there is a difference in their path that is due to the fact that they are located
+ on different atoms but also there is another contribution the x-rays are scattered with a
+ different amplitude by the different atoms if all the atoms are the same of course there is a
+ scattering amplitude here but it is just a constant because it's the same for all atoms so i can put
+ that in evidence but if the atoms are all different the waves scattered by the different atoms will
+ be scattered with a different scattering amplitude and so there is a pre-factor
+ and this pre-factor is called the atomic form factor
+ now there are theories for the form factors of atoms in x-ray scattering but this cannot be
+ the subject of our course this is well beyond the scope of the course what the the only point i want
+ to make is that if the atoms are all different then all the partial scattered waves are scattered
+ with different temperatures and then it is very unlikely that these numbers cancel very unlikely
+ because now i am summing sines and cosines but with different pre-factors so
+ the chance that they do cancel is zero they can only cancel in exercise when i choose this number
+ exactly in such a way as they can think cancel but in real in nature they they will never cancel
+ exactly so what i will see is all the peaks of my bravais lattice but with some modulation some will be
+ brighter where this sum is larger and some will be fainter where this sum is smaller so i will see
+ exactly the same pattern of the original brevet lattice but while in a brevet lattice all the peaks
+ would be more or less the same intensity not really but quite if i have a basis the brightness
+ of the different peaks will be very different will be modulated and then again again if i look
+ at this modulation i can figure out what kind of and if i have some hints about the chemical
+ composition of course of my solid then i can again figure out the structure of my solid by
+ this modulation of the intensity of the peaks in general a simple-minded theory states that
+ this atomic form factor is proportional to the Fourier transform of the electronic density distribution
+ so this f okay is proportional to the Fourier transform of the electronic density of the atom
+ so i take the my atom in the position dj for instance carbon or hydrogen or whatever this atom is
+ characterized by a certain electronic cloud the distribution of electrons around this atom
+ and then i take this density distribution i Fourier transform this density distribution
+ and i obtain a number which is a reasonable estimate for this atomic form factor
+ since this object decreases in real space usually exponentially then the Fourier transform also
+ decreases in the reciprocal space so that those numbers will be a decreasing function of their
+ of the magnitude of their argument which means that this means that if i study this object as a function of k
+ the intensity of my x-ray and this is true also for x-ray scattering from a brevet lattice because
+ there again there are atoms all identical that happens so this atomic formula factors are a
+ constant that i can put in front but of course are there so if i make a scattering as i told you in
+ bright formula increasing n means increasing the magnitude of k because in von lauer formulation
+ this n is this n
+ to pi over d times n and then some unit vector in the direction so with increasing n i increase
+ the magnitude of k when i increase the magnitude of k this number decrease so that even in an ideal
+ scattering experiment i would not observe an infinite number of peaks because with increasing k
+ so with increasing of the multiplicity of my scattering the peaks will decay become
+ fainter and fainter because of the action of these prefactor so it's it is not even ideally possible to
+ observe an infinite number of bits in reciprocal space because the bits with larger k will be
+ fainter because of the presence of the atomic form factors we will see that there are three possibilities
+ first possibility my system is a real brevet lattice and then the scattering pattern is given
+ only by von lauer's condition second possibility my system is either a brevet lattice with the basics
+ but with equivalent atoms or a fake brevet lattice with the basis
+ by fake a brevet lattice with the basis i mean this i can describe the base-centered cubic or the face
+ centered cubic which are brevet lattice by pretending that they are simple cubic lattice with
+ the basis of course in this case the basis is fake in the case of diamond it is a real basis i
+ can never describe a diamond as a brevet lattice diamond can only only be described as a brevet lattice
+ with a basis a face centered cubic is a brevet lattice but it can be described as a cubic lattice
+ with a basis and then i have two description in one description i am describing is it as a
+ body centered cubic for instance and then the reciprocal lattice is a face centered cubic
+ in the other case i am describing it as a cubic with a basis so i expect to see
+ the scattering pattern of a cubic with a basis but the pattern of a cubic is a cubic so how can
+ i turn a cubic into a body centered cubic by eliminating some peaks from the cubic what will
+ be the peaks that i will eliminate those that will give me destructive interference and we will see
+ this that the two descriptions are absolutely equivalent and then there is the final possibility
+ that i have a real basis with real non-equivalent atoms in that case it's a real basis because if the
+ atoms are not equivalent i cannot describe them as equivalent they are not equivalent so there is
+ no possibility of describing this a breve lattice with a real basis and in this case as i told you
+ it's very unlikely that these numbers interfere in a completely destructive manner and so in general
+ i will only observe the modulation of my x-ray fraction so in the exercise we will try to
+ distinguish between these different ways or of describing our lattices and how these different
+ ways impact the exercises so in the next lecture we will start with two exercises one to consider
+ the bcc as a simple cubic plus a basis and see how the two descriptions are actually equivalent
+ and then we will make an exercise about the diamond structure and there again this imposes
+ some selection rules with respect to the purely fcc cubic blocks okay i think we can stop here
+ so this is a very important question i want to make this point clear question is
+ when i depicted the the structure of ice it was idealized because ice does not crystallize in
+ the cubic system okay but imagining that i have some molecules and i put those molecules on my
+ lattice so in principle in principle the molecules on the different sides can be oriented differently
+ but this is an entropic contribution increases the entropy of the system and usually when i lower the
+ temperature the entropic contribution is dominated by the energy contribution in principle at finite
+ temperature i should minimize the free energy which means that i should minimize energy minus
+ temperature time the atom so this means that if i increase the temperature i will eventually
+ find crystal phases where there is a contribution from the entropic term which means that i can find
+ some molecules oriented in a different orientation but this structure is not periodic
+ so i expect that if i lower the temperature of the system in condition that allow for the molecules to
+ reorient sooner or later at sufficiently low temperature all the molecules will be oriented
+ in the same way of course the structure of the crystal may be complicated there may be structure
+ in which i orient this molecule in some way than the other in the opposite and then the other so
+ the periodicity may be but then this means only that my previous lattice is not this but this but my
+ system when it's translationally invariant it means that all the sites of my crystals are equivalent
+ or if there is a basis they are equivalent up to a basis which allows for my atoms or molecules in the
+ unit cell in the primitive cell to be located at different positions of my
+ primitive cell but that is the only thing that you can do if your crystal is to be
+ periodic. Your situation is a situation that is not compatible with periodicity so
+ usually it's unlikely to occur at low temperatures because this would have a
+ high entropic cost and would disturb the interaction energy of the system so it
+ costs energetically and you can only realize that situation if you accept to
+ increase your entropy but this term is negligible when the temperature is low
+ and so at low temperature you always want to minimize the energy you don't
+ care about the entropy of low temperature you only care about entropy
+ when the temperature is large enough but usually this is just a condition of
+ pre-melting when the molecule can start to move almost freely then the crystal is
+ ready to melt so you are very close to the melting condition but this is a very
+ interesting question because i can imagine to freeze my crystal so rapidly
+ that the molecules have not the time to rearrange them or in that case i have some kind of amorphous
+ solid not translational invariant solid it's more similar to an amorphous crystal than to
+ a crystal to an amorphous solid than to crystal but this is so it's possible in principle
+ of course but then cannot be described by a crystal theory we are assuming that our solids are
+ translational invariant crystals which is mostly the case
+ but for instance suppose that i have a mild violation of my periodicity mild violation not too strong okay
+ then of course my geovar will be very close to the geovar of a crystal but the pits will
+ be large say that here in reciprocal space s will be non-zero not only for reciprocal lattice vectors
+ but also for vectors that are not too different from reciprocal lattice vectors so my peaks will
+ have a width in reciprocal space will be not delta like peaks which means that now of course since there
+ are disturbances of my periodicity my structure is not rigidly periodic and so also weight vectors
+ that are not exactly those allowed by periodicity appear in my x-ray scattering in that case of course
+ i should go back to the theory of the structure factor and calculate my structure factor not this
+ a structure factor for x-ray scattering that i was discussing in the previous lecture and find that this
+ is non-zero also when k is different from reciprocal lattice vector so in an ideal crystal i have only k1
+ k2 k3 and so on all the reciprocal lattice vectors for my crystal and in between i have nothing
+ in a real crystal if i make the scattering of course because of those disturbances that are
+ always there some mismatching the arrangement is always there at fine temperature if this is not
+ too severe to destroy completely the periodicity of medicine i will just enlarge those speeds
+ so these are no longer resolution limited but are limited by the real wind of the people
+ there is another lesson here for sure yes yes

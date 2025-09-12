@@ -1,0 +1,150 @@
+ This morning I made a vaccine and it was a pretty nasty question.
+ That's a good question.
+ How do you know?
+ I don't remember what I've done.
+ I've done it quite a bit.
+ It's the first time I've done it.
+ It's a vaccine, it's a case.
+ Yes.
+ No, no, but I'm going there without knowing the name of the vaccine.
+ I'm going there.
+ Your mother monitored it.
+ Yes.
+ Yes.
+ Yes.
+ Yes.
+ Yes, yes.
+ Yes.
+ Yes.
+ Yes.
+ Yes.
+ Yes.
+ Okay, so I remind you what we discussed the other day.
+ We discussed the functioning of photoreceptors under strong-line conditions.
+ The main conclusion of our analysis of the discussion was that, I mean, when it's actually in this experiment where, if you remember, we just displayed the sigma-to-monest ratio which was defined as the transfer function, the responsiveness of the receptor to the contrast.
+ First, divided by the noise level which we completed using the correlation in absence of contrast, and according to the theoretical prediction, this quantity here, if we consider the photoreceptors as perfect contrast, should be equal to R-bar, where R-bar is the average intensity of the external light.
+ And they make experiments with different parts of the average intensity of the external light,
+ so they measure the signal noise ratio, and they just do so much work.
+ And they found out this, who got the points, right?
+ The measure is a maximum of R, and they found here, up to regions of the region of the region of 10 to 5 seconds to minus 1.
+ And then, this is a function of omega.
+ The signal noise ratio is 100 mm, so they plotted this and found at a given value of the bar, something like this.
+ And then they performed this measurement at many different values of our bar and they plotted the value of the plateau.
+ Ok, so r.o, we can call it as a function of our bar.
+ Ok, and if the prediction of the theoretical calculation is correct, these two numbers should be equal, so if we just wrote the x equal one line, the point should lie on this line.
+ And what they found out is that precisely after this right here, this is correct and then there is a pending of the third.
+ Okay, so this is what they found, okay, very good.
+ And what does it mean, how can you interpret this experimental result?
+ You can interpret this experimental result by saying that up to this rate here, so for life intensity up to this maximum life intensity, the photoreceptors work very efficiently, they work as if they were perfect.
+ Everything that arouses it is correctly done. And then, if we want to translate this rate here in more quantitative terms, we need to consider that the rate, meaning of a rate is the number of events per unit time.
+ Okay, so if we consider that the integration time of the photoreceptor to process the information given by one photon.
+ Okay, so let's say that the photoreceptor absorbs one photon.
+ Okay, what is the integration time that is needed for this absorption to start causing a difference in the intraembrane potential.
+ This is what is called the integration time.
+ Okay, so the integration time usually for photoreceptors is of the order of 10 milliseconds.
+ Okay, 10 milliseconds means 10 to the minus 2 seconds.
+ Okay, very good.
+ So this is a time scale.
+ So if we multiply our bar by this time scale.
+ Okay, we have a number of photons.
+ Okay, and if you just do the multiplication this gives precisely 10 to the 3.
+ Okay, so this means that photoreceptor counts very efficiently up to 1000 photons.
+ Okay, so they count very well at low gravity density above a certain threshold because, let's say, which is of the order of 6 photons.
+ And why is that? Because we understood that there is noise which impacts the correctness of processing of known numbers of photons.
+ Ok? So the photoreceptor works well at low light intensity just above the number of 6 photons and then it counts well up to 1000 photons.
+ So it really has a very large range of efficiency.
+ Ok? So now that we understood this, so far we have been looking at experiments that helped us to understand how the photoreceptor works.
+ How it deals with sources of noise and how it is able to count when there are few problems and where there are many problems.
+ Now that we have seen that the process works well, what we would like to do is to try to understand how this process is implemented on the biological level.
+ So far we have done experiments and we have looked at aggregated quantity, the current to the membrane or the potential difference to the membrane, something that we can measure.
+ So now we would like to understand what is the biological, biochemical pathway that allows to produce what we have seen in experiments.
+ Ok, so we are going to see this now and to see this we will go back to the scheme that I made at the beginning of this section and we will look more in details at each steps of this scheme.
+ Okay, so we said that the photoreceptor, the rods, they have this structure and the important part for what I want to discuss is this rod part and we said on this rod part there are some discs one on top of the other.
+ So in this disc there are these proteins which are called the rodopsins and inside each one of these rodopsins there is a complex which is called the oxy and inside the oxy there is a molecule which is called the retinol.
+ And how all the things occur, well when a hormone arrives this retinol which is usually in the C11 structure, the plant structure, I do not remember the chemical structure of this molecule.
+ It will be made by something, I do not remember, you can look in the books, it is fine.
+ But the important point is that the stable, the ground state of this retinol is flat.
+ But when the photo arrives, the retinol performs a change in structure.
+ So it goes from here, it goes from this C11 structure, it changes the structure and it becomes C trance.
+ And the C trance is no longer planar, it has a different structure.
+ And why is it important for our corpuses?
+ Because once the retinol has changed the structure, so in this new C trance structure, it is able to activate certain enzymes.
+ Enzyme excitation.
+ we will see which enzymes are, these enzymes don't get regulated or some enzymes, that's not important for globally.
+ They are called EP, ok?
+ Then the enzymes, we have enzymes, enzymes are proteins that facilitate some reactions, ok?
+ So, once these enzymes or EP, they can work in a way or another, once these enzymes are activated, they regulate the synthesis of a certain nucleotide, city nucleotide, which is called CGLT.
+ Ok, this will take a look and I can start having the testing.
+ Ok, so it regulates a reaction which brings this nucleotide from the form CTP to the form CGMP.
+ Ok, so CTP is called guanosine triphosphate.
+ Ok, and CGMP is called cyclic GMP.
+ Ok, so it is a cyclic nucleotide with C in front, it is a vector leading, it is not C, it is a cyclic version of the previous one.
+ And why is this important? Because it is C, G and P, it is what regulates the opening of ionic channels.
+ And what are ionic channels? We already saw ionic channels, we saw that on the membrane of cells.
+ There are some proteins that can be closed or open and allow the cell membrane to be permeable for certain ions.
+ So once the number of these channels which are open or closed clearly determines the current in the membrane.
+ The more channels are open the larger is the current in the same membrane.
+ Likewise the larger will be the potential difference across the membrane.
+ So this CGFP tells us on average how many channels are open or not.
+ So this is what we have seen in experiments.
+ In experiments we have seen that when we turn on the torch,
+ one or more photons are aligned on the photoreceptors.
+ They are absorbed and then this pathway starts.
+ The retinal changes structure.
+ There will be more enzyme voltage activated.
+ The reaction that changes CTP and CGMP will change,
+ will be regulated in a different way and as a result the concentration of CGMP will change
+ and the concentration of CGMP will affect how many channels on average are open in the membrane
+ and this will in turn affect what is the current of the membrane.
+ So this is what happens.
+ So we would like now to look at all these stages.
+ So since the first stage is one, what happens on the vector,
+ we will start by looking at a transition in it.
+ As you can see, we will not be able to make a model of what happens,
+ but we will sort of make negative models.
+ We will understand what we can say, but we will also put some numbers in this process.
+ Ok? So let's start by looking at it.
+ So let's start to look at this retinol. So let's try to look at a problem with a strategy that we have retinol. Ok? So then we will explore the limits of this study. Ok? So what is the strategy?
+ So what is the strategy that we have to know? You studied in your undergraduate course the long open-ended approximation. Ok? So what does the long open-ended approximation say?
+ It says that change in electronic states can be investigated by imagining that the new day has to work. Ok? So let's try to make a drawing inspired by the long open-ended
+ scenario, so let's look at this x-axis, some structural coordinate that will indicate the q. So q indicates the positions of open-ended.
+ So it's a set of coordinates, each one related to the nucleus in the electron, okay?
+ And then let's look at the energy of the electronic levels, okay, so this is the symbol that I used.
+ Let's start to draw the ground state of the electronics, this is the energy of the electronic state.
+ Okay, so let's try to draw the ground state.
+ Let me do the drawing and then I'll explain it.
+ Okay, so this is a structural coordinate, so let's imagine that this is the structure, this is the specific position, okay, star.
+ Of the most stable nucleic arrangement for our retinome. So that would be the C11 structure that we mentioned about.
+ Okay, but then of course it is possible that the nucleic, even if this is a stable structure, the nucleic will be fluctuated, the positions of the nucleic are not fixed.
+ We need to remember that this is a system that lives in an environment of heat at a low temperature, so the position of the nucleic will necessarily move and move it around the original position.
+ Ok, so the energy of the ground state of the electronic lattice will be this one in the positions where they are inside the cylinder, but then it can change as a change in the position of the molecule.
+ And this curve here represents precisely the energy of the ground state as a function of the position of the molecule.
+ Ok?
+ So, not let's say that we want to draw on the same energy level but for the first excited state.
+ Ok?
+ The first excited state that we need to draw.
+ So, and why I drew this kind of shape?
+ I drew this kind of shape because I know that there could be an incision towards another state of state.
+ So, I know that here, somewhere, there should be the structure of significance.
+ So, I know that there exist another stable structure for this molecule,
+ where the nuclei are putting a different position.
+ And there will be a barrier, and we already talked about this barrier,
+ when you remember that we discussed the dark noise,
+ we said, okay, it's possible to adjust by rare few questions,
+ my molecule, my thermal activation, goes from here to here.
+ Okay, so in that case we were discussing a change of the structure of the retinol
+ due to the energy that randomly is given to the molecule itself by the thermal noise.
+ Okay, so at some point there is enough energy to make the energy
+ to make the structure change and jump from here.
+ Okay, but now we want to discuss a different thing.
+ We want to discuss what happens when a photon is absorbed.
+ Okay, so typically when a photon is absorbed,
+ what happens is that you change the electron pattern.
+ Okay, so we need to also draw in this picture because it's exciting.
+ So let's write this.
+ And let's assume that this is something like this,
+ where you still have a minimum.
+ Okay.
+ Maybe in a slightly different position as the front side.
+ Okay.
+ Very good.

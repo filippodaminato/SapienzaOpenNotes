@@ -1,0 +1,804 @@
+ Perfetto, allora riprendiamo da dove eramo arrivati la volta scorsa. Vi ricordo qual era il problema
+ che volevamo affrontare, cioè noi stiamo affrontando il problema di come l'informazione
+ sull'arrivo di un segnale luminoso viene trasferita dal primo strato di cellule
+ neuronali che recebiscono il segnale vale a dire i fotorecettori al resto della catena
+ quindi abbiamo i nostri fotorecettori che si trovano sullo stato esterno
+ questi fotorecettori mandano ognuno di essi manda un segnale elettrico a delle cellule
+ sono le cellule bipolari, quindi questi sono i RODS, queste sono le bipolar cells
+ il problema che ci siamo posti la scorsa lezione è di capire, di farci un'idea anche a livello molto astratto
+ di quello che dovrebbe succedere in questo passaggio
+ cioè quando il segnale elettrico attraverso le sinapsi passa da una cellula all'altra
+ affinché il rapporto segnale-rumore renda questa trasmissione di questa informazione efficiente
+ quindi quello che abbiamo visto la volta scorsa è che ipotizzando
+ avevamo chiamato se vi ricordate x con i la corrente che proviene dal recettore iesimo
+ e avevamo visto che se quello che succede in questa zona sinaptica
+ è semplicemente un'integrazione come somma lineare di tutti questi segnali
+ x con i, quindi se quello che succede è che il segnale che arriva a una singola cellula bipolare
+ non è altro che la somma dei segnali che provengono da ogni singolo recettore
+ se io faccio quindi una combinazione lineare dei segnali individuali
+ questa quantità è soggetta ad un rumore statistico che è molto grande
+ perché applicando il teorema del limite centrale
+ il valore medio di una somma di variabili random è la somma delle medie
+ e la varianza è la somma delle varianze
+ abbiamo messo dentro dei numeri e abbiamo capito che già con 500 recettori
+ la varianza, l'errore statistico diventa abbastanza grande rispetto al segnale
+ quindi non è un mezzo di comunicazione efficiente
+ quindi quello che abbiamo provato, l'ipotesi, questa era quella che chiamavamo ipotesi A
+ quindi l'ipotesi A era la somma dei segnali
+ l'ipotesi B è che quello che in realtà succede in questa zona intermedia
+ è che non avviene una mera somma delle X con I
+ ma c'è un qualche tipo di filtraggio di questo segnale
+ che è realizzato attraverso dei processi biochimici molto complicati
+ che abbiamo deciso di non studiare nel dettaglio
+ quello che vogliamo capire è qual è in qualche modo l'effetto di questi processi biochimici
+ in termini di trasmissione del segnale
+ quindi quello che ipotizzeremo adesso
+ è che in realtà il segnale che arriva alla cellula bipolare
+ è una qualche funzione
+ delle varie X con I dei singoli recettori
+ connessi ad una singola cellula bipolare
+ quindi chiamiamo N-ext
+ di X con I
+ una funzione
+ quindi un filtro
+ delle varie X con I
+ quindi che cosa significa?
+ significa che
+ io ho qua le varie X con I che arrivano
+ e c'è un'operazione che avviene
+ su tutte queste X con I
+ che io sto chiamando
+ N-ext di X con I
+ perché ci ho messo N-ext?
+ perché con N-ext io intendo
+ numero stimato
+ estimated number
+ quindi diciamo
+ questo è il numero stimato
+ di fotoni
+ che
+ arriva alla cellula bipolare
+ come frutto di un'operazione
+ fatta sui segnali elettrici
+ provenienti dai singoli recettori
+ quindi questo è il filtro
+ è una funzione
+ avrei potuto chiamarlo anche
+ F delle X con I
+ è una funzione delle X con I
+ adesso io quello che voglio cercare di capire
+ è come deve essere fatta
+ una funzione di questo tipo
+ per trasmettere
+ affinché alla cellula bipolare
+ arrivi effettivamente un segnale fedele
+ che cosa vuol dire un segnale fedele?
+ vuol dire
+ una stima
+ affidabile
+ del vero segnale
+ cioè del numero vero di futoni incidenti
+ ok?
+ allora per fare questo
+ procederò in una maniera abbastanza simile
+ a quello che avevamo fatto
+ quando avevamo fatto le considerazioni
+ se voi vi ricordate
+ sul singolo recettore
+ cioè nel singolo recettore
+ noi che cos'è che avevamo detto
+ qual è tutto il problema
+ il problema è che in generale
+ questo era quello che avevamo detto
+ sul singolo recettore
+ c'è un certo numero di fotoni
+ che arrivano su ogni singolo recettore
+ quindi n con i è il numero di fotoni
+ che arrivano sul singolo recettore
+ e quello che noi avevamo visto
+ è che però
+ diciamo
+ come conseguenza di questo numero di fotoni
+ di questo numero di fotoni
+ io misurerò una certa corrente
+ attraverso la membrana cellulare
+ di questo singolo recettore
+ che con la notazione di adesso
+ stiamo chiamando x con i
+ va bene
+ però questa x con i
+ diciamo ci sono diversi valori di x con i
+ che possono corrispondere
+ cioè un singolo valore di x con i
+ potrebbe corrispondere
+ a diversi valori di n con i
+ ok quindi
+ diciamo
+ è vero che dato un n con i
+ io ho uno specifico valore di x con i
+ però se io conosco soltanto x con i
+ quindi se io conosco questa quantità
+ in realtà questa quantità è compatibile
+ con più valori di n con i
+ e questo a livello del singolo recettore
+ da che cosa era descritto?
+ era descritto dal fatto che se io andavo a misurare
+ la probabilità di trovare una certa corrente
+ ok noi la chiamavamo i
+ quando parlavamo del singolo recettore
+ adesso la stiamo chiamando x con i
+ quindi se io vado a guardare
+ per un singolo recettore
+ la probabilità di osservare una certa corrente
+ questa probabilità come vi ricordate
+ era una funzione che aveva vari picchi
+ e questi picchi avevamo capito che erano il contributo
+ dovuto a n0 fotoni
+ un fotone
+ due fotoni eccetera eccetera
+ però quello che avevamo visto
+ era che appunto in corrispondenza
+ di certe regioni
+ ci potevano essere delle ambiguità
+ non era evidente
+ dato un valore di X con I
+ capire qual era il numero di fotoni
+ che lo aveva generato
+ quindi questo era il problema
+ che anche a livello del singolo recettore
+ si poneva
+ cioè se io osservavo una X con I
+ in questa regione
+ ebbè questa X con I
+ aveva una probabilità finita
+ sia di essere stata generata
+ dalla curva
+ cioè dal caso
+ zero fotoni
+ sia una probabilità
+ diversa da zero
+ di essere generata
+ da un fotone invece
+ quindi diciamo
+ il problema
+ osservando la X con I
+ non so dire con certezza
+ se corrisponde a zero fotoni
+ a un fotone
+ quindi già a livello del singolo recettore
+ non c'erano posti questo problema
+ proprio perché
+ i processi che stiamo osservando non sono deterministici
+ ma hanno del rumore quindi questo rumore
+ rigenera appunto queste problematiche
+ ok quindi lo stesso problema
+ che noi avevamo
+ considerato a livello del singolo fotone
+ adesso lo consideriamo in generale
+ cioè a livello del
+ segnale aggregato cioè se questo problema
+ c'è a livello del singolo fotone
+ a maggior ragione ci sarà
+ quando io somo i segnali di tutti i fotoni
+ quindi anche lì
+ se io
+ quello che io osservo
+ diciamo quello che
+ quello che arriva
+ il segnale che arriva
+ che proviene dai vari recettori
+ e va verso la cellula bipolare
+ non è altro che l'insieme
+ delle correnti provenienti
+ dalle varie cellule
+ dai vari fotorecettori
+ e diciamo
+ questa informazione
+ che cos'è che deve fare?
+ deve corrispondere a un'informazione
+ sul numero totale di fotoni
+ che sono arrivati sul mio sistema
+ quindi adesso quello che dobbiamo cercare di capire
+ è come posso fare in maniera ottimale
+ date certe x con i
+ ad avere l'informazione più pulita possibile
+ più fedele possibile
+ su il vero segnale che sta all'origine
+ cioè il numero totale di fotoni incidenti
+ ok?
+ quindi quello che adesso noi ci chiediamo
+ il problema che noi ci poniamo è il seguente
+ qual è il filtro
+ cioè l'operazione che è una funzione delle X con I
+ qual è il filtro migliore possibile
+ l'operazione migliore possibile
+ che può essere fatta sulle correnti X con I
+ dei singoli recettori
+ in modo da fare arrivare alla cellula bipolare
+ l'informazione più fedele, più affidabile possibile
+ sul segnale vero, cioè sul numero totale di fotoni
+ che hanno veramente inciso sulla retina del soggetto
+ che stiamo analizzando
+ dove l'N totale da che cosa sarà dato?
+ sarà dato dalla somma su I del numero di fotoni
+ che incidono su ogni singolo recettore
+ benissimo, quindi per cercare di affrontare questo problema
+ almeno in linea teorica
+ quello che faremo è di, come abbiamo fatto anche a livello del singolo recettore
+ di cercare di minimizzare l'errore
+ cioè noi introduciamo una funzione
+ che chiamerò errore
+ e questo errore da che cosa lo definisco?
+ lo definisco la differenza tra il numero stimato di fotoni
+ che quindi non è altro che questo nxt
+ che è una funzione delle varie correnti
+ e il numero vero
+ quindi il numero vero è n totale
+ quindi io farò n totale
+ scusate già non c'ho messo una parentesi
+ c'è bisogno che ne metto due
+ n totale meno il numero stimato di fotoni
+ che dipenderà da tutte le correnti
+ che arrivano dai singoli recettori
+ ovviamente questa quantità potrebbe essere positiva o negativa
+ ma noi vogliamo l'entità dell'errore
+ quindi la faccio al quadrato
+ per avere un numero che è positivo
+ benissimo
+ allora ovviamente questa quantità qui
+ quello che io voglio calcolare
+ è il valore medio di questo errore
+ quindi adesso prenderò un'operazione di media
+ dove questo simbolo qui
+ è un'operazione di media
+ e su che cos'è?
+ è un'operazione di media su che cosa?
+ su tutte le sorgenti di rumore
+ che abbiamo studiato in passato
+ che influenzano il processo che io ho studiato
+ in particolare abbiamo visto che
+ queste fluttuazioni statistiche
+ possono essere descritte da una distribuzione di probabilità
+ che possiamo in linea di generale chiamare
+ la probabilità nel contesto specifico
+ che stiamo andando a guardare
+ la probabilità che ci siano n fotoni incidenti
+ e delle correnti x con i
+ che passano attraverso le membrane che
+ provengono da ognuno dei fotorecettori
+ ok perfetto dove intervengono vi ricordate
+ quello che interviene è che le sorgenti
+ statistiche di rumore sono dovute al
+ fatto che data un'intensità media della
+ sorgente di luce in realtà questo numero
+ n può fluttuare in maniera possoniana a
+ causa delle fluttuazioni quantistiche e
+ poi una volta fissato n quello che
+ succede è che le correnti possono
+ fluttuare perché vi sono anche altre
+ sorgenti di rumore statistico al numero
+ n fissato di fotoni veramente
+ incidenti sul recettore quindi questa
+ è la distribuzione di probabilità che a
+ livello di singolo recettore abbiamo già
+ studiato in passato ok quindi questa media
+ è fatta su questa distribuzione di
+ probabilità quindi a questo punto quindi
+ questo è questo è quello che io ho
+ chiamato n totale fatemelo chiamare n così
+ semplifichiamo la notazione quindi n è il
+ numero totale di fotoni incidenti quindi la
+ somma di tutti i fotoni incidenti su tutti i
+ fotoreceptori ok quindi a questo punto il nostro
+ filtro ottimale è definito dal fatto che questo
+ errore deve essere il minimo possibile quindi quello
+ che io voglio fare adesso è di fare un'operazione di
+ calcolo variazionale e imporre che la variazione del
+ dell'errore di questo epsilon grande maiuscolo che appena definito sia minima rispetto alla
+ variabile che io voglio trovare la variabile che voglio trovare in questo caso è proprio il filtro
+ cioè è una funzione ok quindi devo fare una derivata funzionale rispetto alla funzione n
+ next di tutte le x quindi è una funzione di tutte le x ok e questa la devo mettere adesso quello che
+ voglio fare è fare un'operazione di questo tipo questa è un'operazione di derivata funzionale che
+ probabilmente avete già studiato nel corso dei metodi diciamo come faccio per ricordarmi come
+ è fatta la derivata funzionale per farla in maniera rapida facciamo un ripassino facciamo
+ un metodo non rigoroso ovviamente per lo pratico per ricordarsi un po come bisogna procedere immaginiamo
+ di avere un funzionale che è funzione di una funzione f di x ok per esempio immaginiamo che
+ abbia una forma di questo tipo integra allora scusate facciamo un passo indietro in questo
+ caso la funzione con cui ho a che fare è nxt di tutte le x con i ok quindi la funzione che io
+ sto andando ad osservare è funzione di che cosa se ho n grande recettori questa funzione qui è
+ funzione di n grande variabili ok quindi è una nx di che cosa di x con 1 x con 2 x con n dove questi
+ sono le correnti del fotorecettore 1 corrente fotorecettore 2 la corrente fotorecettore n in
+ maniera compatta questa cosa la possiamo indicare anche come nx di se volete x però se vi confonde
+ dove x è un vettore le componenti sono le correnti di tutti i vari fotorecettori comunque il concetto
+ è che nx è una funzione di molte variabili ok adesso l'esempio che io vi faccio per ricordarci
+ che cos'è la derivata funzionale lo faccio nel caso di dipendenza da una variabile in modo da fare
+ un esempio più semplice però poi generalizzare alle n variabili è banale quindi immaginiamo di
+ avere g un funzionale che funzione di una certa f di x dove f di x è una funzione di una variabile
+ in questo caso nel nostro caso sarà di n grandi variabili quindi questo lo scrivo come un integrale
+ faccio un esempio di a di x primo a di x primo per una certa b di f di x primo ok quindi immaginiamo
+ di avere un'espressione di questo tipo ok e adesso quello che io voglio fare fare la derivata di g
+ rispetto ad f di x è qualcosa di simile a quello che dobbiamo fare noi mutatis mutandis ovviamente
+ considerando che nel nostro caso abbiamo una funzione di più variabile e non di una sola variabile
+ allora la maniera per ricordarsi come si fa questa cosa è di scriversi di questo questo integrale come
+ come diciamo come un limite nel continuo di una forma discretizzata ok quindi immaginiamo di avere
+ l'asse delle x nel su nel range di integrazione che stiamo considerando e di discretizzare la
+ variabile x ok quindi dividiamo in tanti piccoli intervallini discreti la variabile x e ad ogni
+ intervallino associamo per esempio il punto in mezzo la variabile x con a ok quindi ogni
+ intervallino lo caratterizziamo con un indice a piccolo va bene quindi cosa diventerà questo
+ integrale questo integrale in questa forma discretizzata lo potremo scrivere come la
+ somma su a dei singoli intervallini valutata nel punto in mezzo per la b che dipende da tutta la
+ funzione quindi dipenderà dalla f valutata ok perfetto quindi a questo punto se io voglio
+ fare la derivata di g rispetto a la f in un certo intervallino questa notazione discreta non è devo
+ fare la derivata rispetto alla f in uno specifico intervallino quindi se questo è l'intervallino che
+ corrisponde alla varia al valore x della mia variabile di integrazione lo chiamerò a barra
+ quindi la mia derivata funzionale rispetto ad f di x mi verrà una derivata rispetto a
+ ad f barra e quindi vedo da questa espressione che questa derivata non è altro che a di x con a per b di f con a
+ ok
+ perfetto quindi diciamo facendo il limite del continuo questo che cosa mi dice che nel mio esempio la derivata di g rispetto ad f di x
+ verrebbe a di x per la derivata di b, scusate qua è la derivata di b rispetto ad f di x, quindi adesso applichiamo questo trucchettino al nostro esempio, quindi il nostro esempio dobbiamo prendere la e e scriverla adesso in forma esplicita, da che cosa era data la e?
+ La e era data dal valore medio, avevamo detto, di n-nxt di x, dove questo è il vettore fatto da tutte le varie x con i, quindi abbiamo detto che la media non è altro che la media fatta sulla distribuzione di n e delle x con i,
+ quindi quando devo fare la media, siccome questa è una distribuzione di probabilità su una variabile discreta e su varie variabili continue,
+ che cosa devo fare? Fare l'operazione di media vuol dire che devo sommare su tutte le variabili discrete,
+ variabili datore discrete e integrare su quelle continue, quindi questa operazione di media non è altro che la somma su tutti i possibili valori di n,
+ l'integrale su tutte le variabili di x con i, della p di n di tutte le variabili di x con i, e poi qua c'è però n-nxt, che è funzione di tutte le variabili di x con i, al quadrato.
+ Quindi queste due espressioni sono esattamente le stesse.
+ Adesso applico la regola della derivazione funzionale che ho appena ricordato
+ e quindi che cos'è che trovo?
+ Che la derivata di epsilon diviso nxt nelle varie x con i sarà uguale, non devo fare altro,
+ diciamo nel nostro esempio la p corrisponde alla a e poi quello che devo fare, a questo
+ punto la b non è altro invece che n meno nxt al quadrato, quindi devo fare la derivata
+ di b rispetto alla f di x dove la f di x coincide proprio con nxt, quindi devo derivare questa
+ funzione di nxt rispetto ad nxt, quindi quello che trovo non è altro che 2n-nxt di x con
+ e per la p di n e di tutte le x. Quindi nella notazione che avevamo dato prima questa era
+ l'equivalente dell'a di x, questa è l'equivalente del delta b rispetto all'f di x nell'esempio che
+ ho fatto prima e l'f di x non è altro che nx di tutte le x, riportandoci all'esempio che avevamo fatto
+ prima più semplice. Quindi adesso quello che devo fare, una volta che ho fatto questa derivata
+ funzionale, è di mettere questa derivata funzionale a zero, cioè di trovare la funzione nx di x che
+ minimizza l'errore. Quindi se adesso questa quantità impongo che sia uguale a zero, trovo
+ un'espressione per nxt di x con i. Qual è questa espressione? Questa espressione è la seguente,
+ lo vediamo direttamente da quello che ho scritto. Avrò nxt delle varie x con i, deve essere
+ uguale alla somma n che va da 0 all'infinito della p di n delle x con i, ok, per n, diviso
+ la somma su n proviene da, scusate, proviene da questo pezzo qui, ok, la somma su n della
+ P di n, x con i, ok, quindi questa è l'espressione che troviamo, ugualiando a zero, ok, e poi posso
+ ulteriormente semplificare questa espressione ricordandomi che, notando che la somma su n di P di
+ x con i, non è altro per, diciamo, le varie regole della teoria della probabilità, la P del x con i.
+ Questo per quale motivo? Perché se io ho distribuzione di probabilità di più variabili, facciamo due, A e B,
+ che cosa succede? Se faccio un'operazione di marginalizzazione, cioè integro, sommo su tutti i possibili valori di A della P di A B,
+ quello che mi rimane è la P di B. Questo si chiama marginalizzare una distribuzione di probabilità rispetto ad alcune variabili.
+ Ed è proprio quello che ho fatto qui. Qui ho una distribuzione di probabilità che dipende da molte variabili,
+ una di queste variabili è n, le altre variabili sono le correnti. Se io sommo su tutti i possibili valori di n,
+ sto marginalizzando rispetto alla variabile stocastica n e quello che mi rimane è la distribuzione di probabilità
+ di tutte le variabili che sono quelle rispetto a cui non ho sommato o integrato. Quindi è proprio la p di x in questo caso.
+ Non vi dovete confondere, noi stiamo guardando una funzione, questa p, che dipende da più variabili stocastiche. Una di queste variabili stocastiche è una variabile discreta, vale a dire n. Quindi rispetto ad n questa è una vera e propria distribuzione di probabilità.
+ Va bene. Ma le altre variabili sono variabili continue, quindi rispetto alle variabili continue questa è una densità di probabilità. Cioè io devo moltiplicare questa P di x per un intervallo di x per ottenere una probabilità vera e propria.
+ Va bene, ma ricordandoci questo, poi per il resto valgono tutte le regole delle probabilità che voi avete studiato nel corso di meccanica statistica. Quindi perfetto, quindi alla fine allora la mia formula si semplifica, andiamola a scrivere nella sua espressione finale.
+ Quindi avremo che la n, il filtro ottimale che io mi aspetto che abbia un ruolo qui, che è questa quantità che io sto cercando, lo posso scrivere come somma per n che va da 0 a infinito della p di n e delle x con i per n diviso la p del x con i.
+ Adesso però voglio cercare di andare avanti perché qua ho trovato un'espressione però cosa ci devo mettere dentro? Perfetto allora a questo punto che cosa facciamo? Cerchiamo un attimino di capire come possiamo rimaneggiare questa espressione in modo da andare avanti con il calcolo.
+ Adesso facciamo facciamo facciamo un concentriamoci su concentriamoci su allora innanzitutto possiamo fare subito un passaggio semplice semplice questo qui io mi ricordo che quando sempre regola delle probabilità.
+ Se ho la distribuzione di probabilità di due variabili a e b e questa la divido per la p di b questa non è altro che la p di per definizione la p di a condizionato a b questa definizione di probabilità condizionata allora vediamo che nella formula che io ho scritto
+ fatemela chiamare la formula 1 ok quello che ho è proprio un'espressione di questo tipo dove al posto di a io ci metterò n quindi se adesso al posto di a ci metto n e al posto di b metto tutto il set di variabili x con i non ho altro che un'espressione di questo tipo quindi posso riscrivermi la formula 1 in una in una maniera ancora più semplice
+ adesso scriverò qui quindi avrò che nxt delle x con i io la posso scrivere come la somma per n che va da 0 all'infinito della p di n condizionato alle x con i per n
+ perfetto, ok, quindi siamo arrivati ad una espressione ancora più semplice, benissimo, allora a questo punto andiamo ancora avanti e concentriamoci su questa quantità qua, ok, e vediamo se possiamo scriverla in una maniera ancora più semplice
+ allora questa quantità qui, io mi ricordo n, che cosa corrisponde? La variabile n, la variabile n non è altro che la somma e il numero totale di fotoni incidenti
+ ok, ma il numero totale di fotoni incidenti non è altro che la somma dei fotoni che incidono sui vari fotorecettori
+ quindi io questa p di n condizionato ad x con i la posso scrivere anche però ovviamente diciamo è compatibile con diversi valori del numero di fotoni che arrivano sui singoli recettori
+ l'importante è che la somma dei fotoni di singoli recettori sia uguale ad n quindi questa io la potrò scrivere come la somma sui valori n con i di fotoni che arrivano su ogni singolo recettore
+ della p del set di n con i questo rimane uguale e poi però devo imporre che la somma di tutti questi n con i sia proprio uguale ad n
+ ci devo mettere una delta e però lo scritto scusate fatemelo riscrivere partendo più quindi questa però che la p di n
+ x con i io la posso scrivere come la somma su tutti gli n con i dove con n con i intendo numero di fotoni
+ che vanno sul recettore iesimo della p di tutti gli anni con i ok
+ dati gli x con i e però devo imporre che la somma sui di n con i sia uguale ad n ok
+ questa è una delta discreta fatemela scrivere con la notazione continua perché è più facile da scrivere
+ benissimo quindi adesso prendo questa espressione e la rinfilo dentro e next
+ quindi nxt di x con i sarà dato della somma su n per la somma sugli n con i della p degli n con i dati gli x con i
+ per la delta della somma su i di n con i meno n per n
+ ok benissimo adesso che cosa faccio adesso scambio scambio allora innanzitutto che cosa faccio
+ siccome c'è questa delta qui vedo che n lo posso scrivere come la somma sui degli n con i quindi
+ adesso al posto di n faccio sempre la data somma sui di n con i meno n al posto di n metto somma
+ sui di n con intanto c'è la delta quindi queste due quantità sono sono uguali adesso quello che
+ faccio quindi qua ci sono ricordiamoci ora quello che faccio è di prendere questa sommatoria che
+ prima era esterna adesso qual è l'unica quantità che contiene l'unica quantità che contiene n non
+ è altro che la delta e quindi prendo questa sommatoria e la vado ad applicare all'unica
+ quantità che dipende da n va bene ma diciamo per definizione somma su n di delta di somme sui
+ di n con i meno n questo mi fa 1 ok quindi quello che mi rimane alla fine è che questo sarà uguale
+ alla somma sui vari anni con i delle p degli n con i di tutti gli x con i della somma sui di n
+ con i ok perfetto quindi questa è una sommatoria su tutti i possibili n con i quindi questa diciamo
+ se la volessi scrivere esplicitamente questo sarebbe somma di n 1 che va da zero all'infinito
+ somma di n 2 che va da zero all'infinito somma di n con n che va da zero all'infinito ok e poi avrò
+ la p degli n con i x con i ok ovvio santo per la somma sui di n con i per i che va da 1 a n dove n il
+ numero di fotorecettori perfetto allora adesso che cos'è che notiamo quello che notiamo è che questa
+ distribuzione di probabilità ormai il vincolo sulle n con i l'ho tolto perché perché sommando i possibili
+ valori di n diciamo a causa di questa delta mi sono liberata dal vincolo che avevo sulle sulle
+ n con i quindi queste queste n con i questa variabile n con i che adesso compaiono in questa distribuzione
+ di probabilità sono sono indipendenti adesso quello che facciamo è una assunzione di indipendenza
+ cioè immaginiamo che il numero di fotoni che arrivino sul singolo recettore sia indipendente
+ da da quelli da quelli che arrivano sugli altri recettori quindi ci scriveremo questa p degli n con
+ i date le x con i ok come un prodotto su tutti i recettori della p di n con i dato x quindi
+ questa è la probabilità del recettore iesimo e fattorizziamo questa distribuzione di probabilità
+ perfetto quindi se metto dentro questa formula nell'espressione che aveva appena ottenuto
+ che cos'è che otterriamo la riscrivo otterrò la somma su tutti i possibili
+ quindi avremo somma di n1, somma di n2, somma di n con n
+ e poi avremo il prodotto qui
+ dei singoli p con i di n e i dato x con i
+ e poi avremo la somma su i che va da 1 ad n
+ di tutti gli n con i ok perfetto ma allora questa cosa si semplifica moltissimo perché si semplifica
+ moltissimo perché adesso vedete facciamo un esempio questa somma come cosa sarà questa
+ somma sarà un n 1 più n 2 più n con n ok e poi ovviamente prima tutto il resto non fate riscrivere
+ Quindi quando vado a fare, anzi riscriviamo la somma n con 1, n con n, e scrivo esplicitamente anche questo prodotto, avrò P1 di n1 dato x con 1, P con n di x con n di nn dato x con n.
+ Allora, adesso vediamo che cosa succede per ogni singolo membro di questa sommatoria.
+ Facciamo il primo termine, ok? Quindi nel primo termine che cosa succede? Nel primo termine
+ succede che io devo sommare su tutte queste probabilità, però diciamo di tutte queste
+ probabilità c'è lo stesso indice della variabile che sto considerando, in questo caso 1, quindi
+ la P con 1, ok? E tutte le altre probabilità sono sommate, sono semplicemente sommate sulla
+ loro variabile stocastica, cioè scriviamo esplicitamente il primo pezzo, il primo pezzo
+ sarà, cioè il pezzo in cui interviene N1, sarà somma su N1 della P1 N1 dato X1 di N1,
+ ok, per la somma di N2 della P2, per la somma su N3 della P3, eccetera, eccetera, eccetera.
+ Ma queste sono somme, tutte queste somme fanno 1 perché per la proprietà di normalizzazione della probabilità,
+ la variabile da cui dipende questa distribuzione di probabilità è N,
+ quindi ognuno di questi termini è una somma su N2 di una P di N2 condizionata a X2,
+ quindi io sto sommando su tutti i possibili valori della variabile stocastica rispetto alla quale sto valutando la probabilità,
+ quindi questo fa 1, così tutti questi altri pezzi fanno 1.
+ E quindi mi rimane, il termine che mi rimane è questo qui, posso fare lo stesso ragionamento per tutti gli altri N,
+ quindi alla fine quello che troverò è che quello che trovo, il mio nxt, che era la quantità che stava dentro,
+ quindi l'nxt di tutte le x con i, non è altro che la somma per i che va da 1 n, della somma per n con i che va da 0 all'infinito,
+ della p relativa al recettore iesimo di n con i dato x con i per n con i. Quindi vedete che mi sono ridotta a una formula in cui adesso all'interno di questa formula compaiono soltanto le quantità relative ad ogni singolo recettore.
+ Adesso questa qui è più facile da gestire e con questa potrò lavorare. Perché è più facile da gestire? Perché io adesso questa quantità qui la so calcolare.
+ Questa quantità qui la so calcolare ed è quello che cercheremo di fare adesso.
+ Per calcolare questa quantità qui io devo fare qualche altro piccolo passaggio ricordandomi sempre delle proprietà di teoria della probabilità.
+ In particolare quello che vado a ricordarmi adesso è una probabilità, una relazione importante che si chiama formula di bias che avete studiato con meccanica statistica e che cosa ci dice?
+ La formula di bias ci dice che P di A condizionato a B, P di B, è uguale a P di B condizionato ad A, P di A, una formula semplice che adesso noi applicheremo nel nostro caso identificando A con N e B con X.
+ Quindi quello che abbiamo, quello che ci interessa, è che la P di N con I condizionato a X con I per la P di X con I è uguale alla P di X con I dato N con I per la P di N con I.
+ Ok? Perfetto. Quindi a questo punto a me serve questa quantità che è indicata con la freccia, quindi mi serve la P di N con I.
+ dato x con i e questa me la scriverò come la P di x con i dato n con i per la P di n con i diviso la P di x con i.
+ Ok? Perfetto. E adesso, perché l'ho scritta in questa maniera? Perché io adesso la P di, so già che cos'è,
+ cioè la P di x con i dato n con i, è quello che noi abbiamo già visto, è quello che noi abbiamo già studiato
+ a livello del singolo recettore. Quindi sappiamo, perché qua stiamo parlando di distribuzione di probabilità
+ a questo punto di singolo recettore, e adesso questa quantità che abbiamo a che fare, che stiamo trattando,
+ non è altro che una quantità che avevamo già visto in passato, cioè la probabilità di osservare una
+ certa corrente nel singolo recettore se ci sono n fotoni incidenti. E questa abbiamo visto che la
+ potevamo modellizzare con una gaussiana e quindi questa quantità è una gaussiana, quindi va come
+ e elevato a meno x con i meno n con i, dove i è la variazione di corrente che ho in corrispondenza
+ dell'arrivo di un singolo fotone, quadro, diviso la varianza che possiamo assumere essere n volte quella del caso 0, di 0 fotoni, diviso ovviamente la normalizzazione.
+ Perfetto, quindi di questa probabilità noi sappiamo già un'espressione ragionevole, perché sappiamo che questa è un'espressione ragionevole?
+ Perché abbiamo visto che utilizzando questa espressione riproduciamo bene questa curva sperimentale che vi ho disegnato anche prima.
+ Questa distribuzione P di x con i, la linea nera è quella osservata e noi la riproduciamo in maniera ragionevole immaginando, se voi vi ricordate, ipotizzando come modello un modello che è quello che io ho appena detto.
+ Quindi questo modellino per la P degli X con i dato n con i è un modellino che ha riscontro sperimentale e quindi siamo abbastanza confidenti che sia ragione.
+ Quindi perfetto, a questo punto abbiamo questa espressione qui, facciamo adesso un'altra ipotesi, immaginiamo di essere a bassa intensità di corrente,
+ per cui che cosa significa essere a bassa intensità di corrente? Essere a bassa intensità di corrente significa che quello che succede sostanzialmente è che il singolo fotorecettore o non assorbe fotoni o assorbe un fotone, gli altri eventi, cioè l'assorbimento di più fotoni è molto raro, quindi per semplificarci la vita in queste condizioni di bassa intensità quello che possiamo fare è assumere che le uniche probabilità diverse da zero
+ siano quelle che corrispondono a un fotone e zero fotoni ok perfetto
+ benissimo quindi prendiamo questa ipotesi ok quindi ipotizzeremo soltanto zero e un fotone
+ quindi scriviamoci adesso queste formule quindi quello che abbiamo e dobbiamo riprendere scusate riprendiamo questa formula che avevamo prima
+ quindi p di n i dato x con i uguale p di x con i dato n con i p di n con i diviso p di x con i ok è quello che noi assumiamo
+ è che n con i possa essere uguale soltanto a 1 o a 0 ok perfetto quindi che cos'è che abbiamo
+ quello che abbiamo è che a questo punto io posso scrivere che la p di x con i che è uguale alla somma di tutti gli n con i possibili
+ di p di x con i dato n con i per p di n con i
+ questa quantità qui, perché scusate ho scritto questa formula, fatemi fare un passaggio in più
+ se no, questa formula deriva da, questa è la somma su tutti i possibili n con i di x con i e n con i
+ quindi questa la posso scrivere come la somma su tutti i possibili n con i di p di x con i su n i per la p di n con i
+ ok, ma adesso se i possibili valori di n con i, abbiamo detto, sono 0, 1
+ ok, questa si semplifica e la posso scrivere come p di x con i dati 0 fotoni per la probabilità
+ di 0 fotoni più la probabilità di x con i dato un fotone per la probabilità di avere
+ un fotone, ok? Perfetto. Quindi a questo punto, questo perché in questa espressione
+ come vedete al denominatore mi compare la p di x con i, così in questa maniera ho trovato una maniera
+ di esplicitare il denominatore, ok? Perfetto, quindi a questo punto posso scrivere, posso scrivermi le p che mi
+ servono, allora a questo punto le p che io mi devo calcolare in realtà sono solo due, perché questa
+ variabile abbiamo detto può assumere soltanto due valori, quindi quello che adesso cercherò di calcolarmi
+ sono questi due valori, quindi cominceremo con la P di osservare un fotone in corrispondenza
+ delle varie di x, scusate perché abbiamo fattorizzato, la probabilità che se io osservo una corrente
+ x2i nell'iesimo progettore era effettivamente giunto un fotone, quindi questa da che cosa è data?
+ è data dalla probabilità abbiamo detto di x con i dato 1 per p di 1 diviso la p di x con i che è quella che abbiamo appena calcolato
+ ma questa quantità è quella che io conosco perché questa non è altro che è elevato a meno x con i meno qua ci andrebbe n i ma in questo caso n i uguale ad 1 quindi i quadro diviso 2 sigma 0 quadro sigma quadro mi ricordo me l'avevo chiamata sigma quadro
+ perfetto diviso la normalizzazione p di x con i me la sono calcolata e quindi posso scrivere
+ l'equazione completa quindi che cosa che avrò che la p di 1 x con i sarà uguale a e elevato a meno x con i
+ meno i quadro diviso 2 sigma quadro ok diviso radice di 2y sigma quadro per p di 1 diviso l'espressione che abbiamo scritto prima cioè p di x con i0 p di
+ x con i0 p di 0 ok più di x con i1 p di 1 ok perfetto benissimo ma adesso io anche queste espressioni le
+ conosco perché hanno la stessa espressione gaussiana che abbiamo scritto qui ok quindi
+ posso completare questa espressione quindi questo sarà è elevato meno x con i meno i quadro diviso
+ 2 sigma quadro diviso la radice a qui avrò la p di 1 qui avrò questa non è altro che p di 0 per è elevato
+ meno x con i quadro diviso 2 sigma quadro perché ricordatevi che le p di x con i hanno tutte
+ queste espressioni qua dove qui davanti c'è l'n quindi se n uguale a 0 questo pezzo non c'è
+ se n uguale ad 1 questo pezzo è semplicemente unico e poi avrò più la p di 1 di e elevato a meno x con i meno i al quadrato
+ diviso 2 sigma quadro diviso la radice ok questa è la p di 1 x con i quindi posso andare avanti
+ adesso divido sopra e sotto per questo per questo per questo fattore che ossiano e divido anche per
+ quindi che cosa mi viene che p di 1 dato x con i divido per tutto questo quindi quando divido
+ questo pezzo qui mi fa un 1 1 diviso 1 più e qua avrò un p di 0 diviso p di 1 ok e qui avrò è elevato
+ meno x con i quadro diviso 2 sigma quadro ok e poi c'è però questo esponenziale però col segno più
+ perché è andato sotto quindi più x con i meno i quadro diviso 2 sigma quadro è ovviamente qua
+ la normalizzazione ma la normalizzazione c'era sopra e sotto quindi andata via adesso se faccio
+ esplicitamente questo doppio prodotto qui vedete che i termini quadrati quindi nelle gaussiane ok
+ se metto se esplicito questo questo quadrato vedete che i termini il termine quadratico va
+ via mi rimane soltanto il termine lineare e quindi alla fine trovo che la p di 1 x con i
+ da che cosa è data è data da 1 diviso 1 più p di 0 su p di 1 di che cosa è elevato a i1 diviso
+ ok perfetto e allora questa la popper x questa la posso scrivere come in una maniera più compatta
+ come un 1 diviso 1 più e elevato a teta meno beta x di questa è la p di 1x dove teta dove
+ e alla teta non è altro che p di 0 diviso p di 1 quindi teta è uguale al logaritmo di p di 0 su
+ p di 1 e beta non è altro che guardare l'espressione prima i su sigma 4 ok quindi alla
+ fine sono ci vorrebbe un meno davanti all'esponente quindi questo beta dovrebbe essere invertito
+ no perché l'ho messo qua il meno sopra dico nel doppio prodotto vede nel doppio prodotto
+ qua se fa il doppio prodotto il doppio prodotto a meno i diviso sigma quadro x con i ok quindi
+ c'è un meno davanti ma io il meno l'ho lasciato perché nel passaggio di dopo non c'era quindi
+ pensavo che l'avessi sostituito quindi l'ho lasciato effettivamente fuori ok benissimo quindi a questo
+ punto ho scritto tutto ho scritto la mia espressione quindi com'è fatta questa funzione questa è una
+ funzione diciamo abbastanza molto non lineare di x della x con i questa è una x con i se vuole
+ ve la graficate ok vi graficate la p di 1x con i quindi la probabilità è se sul singolo
+ fotorecettore io misuro la corrente x con i allora è arrivato un fotone ok questa è
+ una funzione che se la vado a guardare in funzione di x con i è così ok quindi è diciamo una
+ funzione che questo punto in cui c'è il flesso corrisponde proprio a teta subeta quindi che
+ cosa significa è questa scusate se vogliamo farla con la scala giusta
+ allora quindi questa questo è 1 ok questo è il valore del flesso perfetto quindi che cos'è che avete
+ questa funzione non lineare è sostanzialmente una funzione diciamo è una versione dolce di una
+ soglia perché perché se x con i è maggiore di teta su beta allora la probabilità è molto vicina ad 1
+ se x con i è minore di teta su beta allora p è vicino a 0 quindi poi più più ripide questa curva
+ maggiore sarà questo effetto non lineare però con una funzione abbastanza non lineare perfetto
+ quindi a questo punto abbiamo capito che il contributo del singolo recettore
+ perché questo è un APD al mio filtro complessivo è non lineare
+ adesso però devo ricordarmi qual è la mia formula del filtro totale
+ perché questo è soltanto un pezzettino quindi devo andare indietro alla formula dove c'era il mio filtro totale
+ che è questa qui, formula 3
+ quindi a questo punto che cosa devo fare?
+ devo, no scusate non è questa che volevo guardare
+ questa l'abbiamo calcolata già, abbiamo calcolato la p di 1 dato x con i
+ voglio andare a questa, perfetto
+ allora questa era la 3
+ ok, sulla 4 abbiamo già lavorato, voglio tornare indietro a quella
+ a quella del filtro complessivo, che quindi mi riscriverò
+ però notiamo una cosa, che noi ci siamo messi in una condizione di bassa intensità
+ e quindi che cos'è che abbiamo detto?
+ abbiamo detto che i valori di n con i possibili in questa formula erano soltanto 0 e 1
+ perché abbiamo assunto che gli altri siano talmente improbabili che possono considerarli
+ quindi che cosa significa?
+ significa che in questa sommatoria qui io devo andare a guardare soltanto il contributo con 0 e il contributo con 1
+ quindi se mi metto in questa condizione di bassa intensità e utilizzo le formule che ho guardato finora
+ che cos'è che trovo? me la riscrivo
+ quindi questa P di 1 l'ho già trovata quindi il mio filtro complessivo in condizioni di bassa intensità
+ da che cosa è dato? è dato dalle somme su I abbiamo detto somme su tutti i recettori
+ della P di n con i dato x con i per n con i per le somme su n con i, questa è la formula 2
+ però abbiamo detto che soltanto n0 ed n1 devono essere messi in questa formula
+ quindi questo mi viene la somma su i di che cosa?
+ adesso per il singolo recettore devo prendere il contributo in 0
+ e il contributo in 1
+ quindi il contributo n con i uguale a 0
+ x con i
+ per n con i uguale a 0
+ quindi qua c'è 0
+ quindi questo contributo non ce l'ho
+ più la p con i di n con i uguale ad 1
+ dato x con i
+ per 1
+ perché n con i uguale ad 1 mi fa 1
+ quindi non è altro che la somma su i
+ della p iesima di 1
+ dato x con i
+ e queste sono quelle che noi abbiamo appena calcolato
+ quindi viene la somma su i
+ di che cosa?
+ di 1 diviso 1 più e elevato a teta meno beta x con i
+ quindi alla fine quello che ho trovato per il mio filtro è che il filtro ottimale
+ cioè la cosa migliore che io posso fare per minimizzare l'errore
+ quindi questo nxt degli x con i a bassa intensità
+ non è altro che la somma delle funzioni molto non lineari
+ delle correnti dei singoli recettori
+ ok quindi questo è il risultato finale di tutta questa analisi
+ quindi che cosa significa se io voglio vederla in termini pratici
+ in termini pratici che cosa significa?
+ che se rifacciamo il disegnino che avevamo fatto prima
+ ok ognuno di questi manda un segnale
+ ok e qua c'è la cellula bivolare
+ quello che succede
+ quello che dovrebbe succedere per avere un filtro di tipo statico
+ chiamiamolo così tra virgolette
+ a livello sinaptico
+ è che ogni singola x con i
+ in realtà non viene sommata
+ ma prima sulla singola x con i
+ viene applicato questa operazione non lineare
+ e poi una volta che viene applicata questa operazione lineare
+ i vari segnali vengono sommati
+ quindi in altri termini
+ che cosa succede?
+ il significato è questo
+ andiamo a guardare la x con i
+ che proviene da un singolo recettore
+ se questa x con i
+ è maggiore di teta su beta
+ essa viene contata
+ praticamente uno
+ ok?
+ se invece è minore di teta su beta
+ viene contata praticamente zero
+ quindi che cosa significa?
+ significa che io sto sommando
+ i segnali che provengono da tutti i fotorecettori
+ ma li modulo con una funzione non lineare
+ quindi se il segnale del singolo fotorecettore
+ è più alto di questo valore di soglia
+ allora io lo conto
+ se è più basso di questo valore di soglia
+ lo conto pochissimo
+ in questa maniera riesco a evitare
+ che vengano fatti degli errori
+ nella valutazione del segnale che arriva
+ perché è un segnale ambiguo
+ che non supera la soglia
+ viene contato poco
+ in questa maniera l'effetto
+ quello che abbiamo visto la volta scorsa
+ cioè il fatto che se io
+ semplicemente sommo tutti i segnali
+ ho un errore statistico enorme
+ invece con questa operazione di filtraggio non lineare
+ viene notevolmente ridotta
+ perché i segnali che sono troppo ambigui
+ io non li conto
+ perché questo è il significato di fare un'operazione di questo tipo
+ ok, allora
+ questo è una delle cose
+ che possono succedere
+ ovviamente questo è un modello molto astratto
+ cioè quello che veramente succede a livello di processi biochimici
+ nel passaggio sinaptico è molto più complicato
+ però questo modello ormeno
+ dà un'idea di come dovrebbero andare
+ le cose per farle funzionare
+ in maniera
+ efficiente
+ quello che è possibile è anche
+ che ci siano dei
+ innanzitutto, prima di
+ farvi questo ultimo
+ commento conclusivo
+ fatemi dire un'altra cosa
+ cioè, diciamo, questo modello
+ sembra calato dal cielo
+ nel senso che io vi ho detto
+ proviamo ad immaginare
+ come deve essere
+ un filtro che funziona bene
+ un'operazione di filtraggio che funziona bene
+ ma ci sono evidenze che ci sia una cosa
+ di questo tipo
+ allora, ci sono, in realtà
+ sono stati fatti gli esperimenti
+ che indicano qualcosa del tipo
+ di quello che abbiamo appena discusso
+ in realtà debba accadere
+ questi sono degli esperimenti
+ che sono stati fatti all'inizio degli anni 2000
+ e che cosa ha fatto?
+ la gente ha fatto ovviamente
+ sempre esperimenti a bassa intensità
+ perché ricordatevi che questa espressione semplice
+ che abbiamo ottenuto vale a bassa intensità
+ perché abbiamo potuto semplificare notevolmente
+ l'espressione della P di X con i dato n con i
+ e assumere soltanto il pezzo con n uguale a 1 e l uguale a 0
+ quindi esperimenti fatti a bassa intensità
+ sempre con la solita strategia
+ cioè dei flash consecutivi
+ e che cos'è che hanno fatto?
+ hanno misurato la corrente che passava attraverso la membrana della cellula bipolare
+ quindi fatemi fare questa, questa la chiamerò I della cellula bipolare
+ la corrente che passa attraverso la cellula bipolare
+ e mettiamo questo è l'asse temporale
+ qui mettiamo il tempo T uguale a zero
+ il tempo T uguale a zero è il tempo in cui viene acceso il flash di luce
+ quindi questo è il tempo del flash a bassa intensità
+ e quello che notavano è che una volta che viene acceso il flash
+ l'intensità così come anche nei fotorecettori
+ l'intensità ha un drop, cioè cala, ha un abbassamento
+ perfetto, c'è un minimo della risposta con una certa variazione di corrente
+ quindi chiamiamo la variazione del valore della corrente
+ in corrispondenza del minimo raggiunto
+ questa la chiamiamo R, cioè la risposta della cellula bipolare al segnale
+ e questo esperimento è stato ripetuto a vari valori dell'intensità
+ quindi immaginiamo che questa era fatta con una certa intensità
+ poi adesso ho già riempito tutto il grafico
+ quindi immaginiamo che quella nera era il valore fatto all'intensità massima
+ e viene fatto a tanti valori di intensità
+ quindi qui il codice dei colori è arancione
+ a un'intensità luminosa più piccola, rosso un po' più grande
+ nera ancora un po' più grande
+ quindi hanno fatto esperimenti a vari valori di intensità luminosa esterna
+ crescente sempre con la strategia del flash
+ e poi quello che hanno fatto è stato di per ognuna di queste curve andare a guardare il valore nel picco
+ in questo caso è fatto al contrario, quindi nel minimo
+ e hanno calcolato che cosa?
+ poi sono andati a guardare, sono andati a graficare il logaritmo di r diviso diciamo il valore massimo
+ il valore massimo in questo caso è il valore ottenuto all'intensità massima dell'esperimento
+ quindi nell'esempietto che ho fatto io questo ma è semplicemente per normalizzare questa quantità
+ rispetto al logaritmo dell'intensità luminosa quindi questa I è l'intensità del segnale numero luminoso esterno
+ I diviso Imax
+ ok? Benissimo
+ allora perché hanno fatto una cosa di questo genere?
+ dove questa è l'intensità luminosa
+ per, quindi fatemi dire con esattezza che cos'è questo I
+ questo I è l'intensità luminosa
+ per singolo recettore
+ intensità classica luminosa per singolo recettore
+ quindi sappiamo che l'intensità luminosa
+ è proporzionale al numero medio di fotoni
+ che arrivano su un singolo recettore
+ quindi questa quantità che stiamo mettendo
+ sull'asse delle X
+ è proporzionale al numero medio di fotoni
+ che incidono su ogni singolo recettore
+ invece la R
+ quindi questa risposta che noi stiamo andando a graficare
+ in funzione di questo I
+ che cos'è?
+ è proporzionale a come reagisce la cellula bipolare
+ quindi sull'asse delle X abbiamo una quantità che è relativa al singolo fotorecettore
+ e invece sull'asse delle ordinate abbiamo una quantità che invece è relativa al comportamento della cellula bipolare
+ cioè è una funzione già dell'operazione che è stata fatta nel passaggio tra fotorecettori e cellula bipolare
+ quindi sostanzialmente questo R qui, questa quantità qui dovrebbe essere un'indicazione del segnale già filtrato
+ che arriva alla cellula bipolare, quindi di quello che c'è dopo il filtro, dopo questo passaggio sinattico
+ e invece questo i è una quantità che è relativa a ciò che succede a livello del singolo fotorecettore
+ quindi prima dell'operazione di filtraggio che avviene nel passaggio sinattico
+ e diciamo quindi plottandosi questi dati uno in funzione dell'altro
+ uno dovrebbe avere una stima di com'è la relazione, di com'è questa relazione
+ cioè la relazione che mi lega la risposta della cellula bipolare
+ quindi quello che alla fine arriva alla cellula bipolare
+ e invece quello che c'è a livello del singolo recettore
+ allora la gente è andata a prendersi questi dati
+ per vedere quanto fosse lineare questa relazione
+ o quanto non fosse lineare
+ quindi nel modellino che noi abbiamo riscritto
+ quello che noi prevediamo è che questa relazione
+ debba essere molto non lineare
+ e infatti quello che uno trova è che se ci va a mettere i dati
+ qui
+ questi dati hanno una forma
+ diciamo fatta così
+ quindi la relazione che viene trovata è una relazione non lineare
+ a diciamo confermare che appunto c'è un qualche tipo di meccanismo di filtraggio non lineare
+ che avviene tra i singoli fotorecettori e la cellula bipolare stessa
+ ok quindi questa è in qualche modo un'indicazione sperimentale
+ che questo modello, questo argomento che noi abbiamo fatto
+ non è un argomento totalmente astratto ma ha dei riscontri sperimentali
+ ora un'altra possibilità è che ci sia un qualche tipo di filtraggio dinamico però
+ questo non è che abbiamo tanto tempo non lo non lo guardiamo ok vi dico
+ semplicemente quale qual è l'idea in questo momento c'è tutto quello che
+ abbiamo visto adesso l'ipotesi che abbiamo fatto adesso è che ci sia un
+ qualche tipo di processo che non dipende dalla dinamica cioè noi abbiamo
+ immaginato di poter descrivere in maniera statistica quello che succede tra tra i
+ fotorecettori e la cellula bipolare ma la variabile tempo ci abbiamo utilizzato
+ delle distribuzioni di probabilità che non dipendono dal tempo quindi abbiamo
+ immaginato di essere una situazione stazionale quello che è possibile è che
+ invece ci sia anche un'operazione di filtraggio dinamico cioè che man mano che il segnale passa
+ dalla cellula bipolare verso verso la scusate dal fotorecettore verso la cellula bipolare nel
+ tempo il segnale che passa venga in qualche modo elaborato che cosa significa significa che devo
+ immaginare di avere un'operazione di questo tipo cioè un'operazione in cui io ho un
+ un legame tra input e output che varia nel tempo cioè immaginiamo di avere questo sia l'input nel
+ mio sistema e che questo sia l'output ok e che ci sia una risposta un kernel lineare di risposta
+ un po come avevamo visto anche nel caso della camo recezione quando hanno cercato di fare un
+ modellino un po più un po più preciso di come vari di come poteva variare il tumbling rate con nel
+ tempo insomma quindi in questo caso se volessi fare una modellizzazione di questo tipo l'input che cosa
+ sarebbe l'input sarebbero il numero di fotoni incidenti ok il tempo t quindi questa x dovrebbe
+ essere il numero di fotoni incidenti al tempo in questo caso t - tau l'output che cosa dovrebbe
+ essere dovrebbe essere la corrente questo per il singolo recettore la corrente che passa attraverso
+ il singolo recettore ok quindi questo dovrebbe essere la struttura del problema che voglio andare
+ a guardare è quello che devo capire se ho in testa un contesto una descrizione dinamica di questo tipo
+ quello che è quello che io devo andare a pensare è che invece quello che io faccio è di osservare
+ questa y non c'è di osservare l'output e di volere capire come l'input cioè voglio voglio riuscire a
+ capire come fare a tornare indietro quindi in realtà quello che succede che io osservo la
+ y non ci osservo le x di t e voglio trovare una stima del dell'input quindi quello che devo quello
+ che devo farmi è invertire questa relazione invertire questa relazione quindi utilizzando
+ la stessa notazione di prima delle variabili che compaiono qui trovare una relazione inversa ok dove
+ ho l'input al posto dell'output sostanzialmente ok e perfetto io voglio darmi una stima della quella
+ che qui è la x cioè l'input conoscendo conoscendo l'auto che voglio trovare qual è il filtro dinamico
+ f di t - t' ottimale che mi riesce a riprodurre al meglio il vero input quindi uno può cercare di
+ fare un ragionamento di questo tipo dinamico e trovarsi questo filtro dinamico ottimale per
+ adesso mai questa cosa non la facciamo volevo semplicemente giusto dirvi che vi è anche questa
+ questa possibilità cioè che il segnale venga integrato dinamicamente nel tempo con un apposito
+ filtro che diciamo in qualche modo cerca di pulirlo tra virgolette ok va bene io direi che con questo
+ con questo abbiamo finito la parte sulla fotorecezione siccome ormai rimane poco tempo facciamo finiamo
+ un po prima la lezione di oggi è la prossima per la prossima volta quindi venerdì cominciamo con con
+ la parte dei processi interagenti ok ci sono domande potrebbe tornare qua quando ho definito
+ terra per favore certo eccoci qua prima ecco sì ecco e allora ok no perfetto niente mi ero perso una
+ cosa io scusi me l'ho perso la definizione di beta e poi teta invece per caso contiene anche
+ un fattore perché ci dovrebbe essere anche un e alla i quadro su 2 sigma quadro per caso contiene
+ anche quello forse allora andiamo indietro ma si ha ragione c'è il pezzo che viene da qua c'è dal
+ sì sì ha ragione ci mette anche quello dentro ragione un pezzo costante quindi ha perfettamente
+ ragione ci va anche quello quindi mettiamolo ok quindi è elevato a i quadro diviso 2 signora ok ok
+ grazie mille benissimo scusi le volevo chiedere invece quando qui proprio abbiamo scritto la p
+ di xi dato 1

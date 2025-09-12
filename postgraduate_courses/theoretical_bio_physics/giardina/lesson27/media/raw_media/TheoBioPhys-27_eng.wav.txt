@@ -1,0 +1,1726 @@
+ Okay you might remember that we started addressing the problem of active particles
+ and in particular we discussed the case of a model of active particles
+ which is of active particles and I remind you the equation isometric particles
+ we looked at some specific cases
+ we said that they are being a little bit better but the kind of equation that we were looking at
+ whereas the equation is here
+ I want to remind you here
+ you mentioned these are not forces but the force is divided by the mass
+ and the same symbol just to make things simpler
+ and I call this term here
+ the active force
+ but actually if this active is simply minus gamma b
+ this equation reduces to the standard case of a passive particle in presence of an external force field
+ so this is the passive case
+ but in general this active can be seen
+ as the derivative in respect to the velocity degrees of freedom of a certain active potential
+ of velocities themselves, of the velocity itself
+ and this is what regulates the speed of the particle
+ so this is the model basically
+ the mechanism that allows you to fix the speed of the particle
+ and we look at different cases so for example if this theory is a very sharp potential around a certain value
+ this means that your speed should be equal to be not plus some fluctuations
+ in the limit in which we also would actually use this as a function of the speed
+ but we look at it as a function of the full velocity vector
+ Ok, this would be the lambda for potential that we look at
+ that we would be at time and this is the circle of the modulus in outcome
+ and this is the potential that frustrates the speed of your particle to be closer to the value of time
+ and this is an example of potential which is also other different kinds of potential
+ and according to the potential that we choose you regulate the speed
+ the important point is that the speed is not fixed by this linear relationship
+ so it does not obey to the maximum cost of distribution
+ because it is regulated by this speed controller
+ and we say that the limit in which this strange potential becomes infinitely sharp
+ the speed becomes fixed by certain values
+ this is a particle that we need to do
+ so this is one kind of model that has to be used
+ there is another kind of model
+ this means when you have something like this
+ this means that the particles are removing space
+ they will have some trajectories
+ they will explore space
+ according to the force that they feel
+ this term here
+ to the noise which is regulated by
+ the environmental button
+ so this particle
+ will perform some trajectories in space
+ maybe staying longer
+ in the spatial regions
+ where this potential is stronger
+ and performing
+ where there is no potential
+ and so on
+ like what we saw
+ in the case of some particles
+ but it will do that
+ clipping a speed across the field
+ so basically
+ the real degree of freedom
+ when the speed is that stronger or strength
+ the real degree of freedom
+ is at the axis
+ okay
+ but the speed is regulated in this way
+ so why for the thermal particles
+ for the passing particles
+ what regulates the speed
+ is basically the temperature
+ the environmental part
+ okay
+ because there is a dimension
+ here it is the potential
+ to the heteros cross
+ there will be also an effect of the environmental part
+ but at least on top of that
+ so we have two
+ a way
+ one strong way to regulate the speed
+ which was on top of the
+ environmental effects
+ in these cases
+ I mean when you talk about active particles
+ noise
+ is not necessarily
+ an alternative
+ it can be
+ I don't know
+ we treat it in the same way
+ a different class of models
+ that have been used
+ to model active particles
+ this is what is called
+ the active OSTM model
+ OSTM model
+ just to remind you
+ the standard OSTM model
+ we study this model
+ and we study this model
+ we study it
+ in the general case
+ with the underdumped term
+ but let me look at it
+ in the overdumped image
+ like this
+ ok
+ so we have
+ a elastic force
+ and a noise
+ ok but we can also generalize this to standard underdumped underdumped underdumped
+ underdumped underdumped underdumped underdumped underdumped and put here a generic force
+ and that is
+ ok so we studied this particular case
+ but we know how to treat this kind of system
+ so we can check any of these types of systems
+ so for example if I blocked the mean square
+ I stuck in the origin
+ and I blocked the mean square displacement
+ which is like square in this case
+ which is the origin of the time
+ so in the case that we studied
+ which also under the second-order derivative
+ here we studied in three case
+ we have the first inertia regime like this
+ then this is the regime
+ and then the saturation
+ and the saturation was 2/1 in proportional to KB
+ so in this case this is the overdone case
+ so we don't have this regime here
+ we have the diffusive regime
+ so we have the diffusive regime where
+ delta x^2 goes by the diffusion coefficient into 9 by T
+ so in this case this is just this group here
+ and then we have a saturation to the value determined by the potential itself
+ in this case if we assume a linear force
+ that would be something proportional to temperature divided by the strength of the force
+ ok something like this
+ ok very nice
+ so but what you see is that what determines longer time behavior of the system
+ is basically the temperature so the biometric math
+ and the strength of the external forces which would be these two terms here
+ okay so now let's say that we want to make this bubble active
+ so what people thought they said okay
+ we will use a very similar kind of regression
+ we will use here forces and we will put here noise
+ okay I will call it in a different way now we will understand why
+ but this noise is different from this one
+ okay so if you remember this noise here in the passive case was a gaussian like a noise
+ so it was a noise where the properties were the following ones
+ I will repeat them again I will remind you this the other time but I will repeat this again
+ so the variance, the correlator of the noise is a delta function in time
+ ok, so only the noise at the same time are correlated, noise from different times are not correlated
+ ok, so this means that my particles move, there is a hint of noise
+ then it moves, there is another hint of noise completely correlated to the hint of noise that was given before
+ ok, so noise is uncorrelated from time to time
+ and then this was proportional to KQT of Z dimension
+ ok, so this is the diffusion coefficient
+ ok, and this is the diffusion coefficient equation
+ very good, ok
+ this is proportional to the diffusion coefficient
+ ok, so now what changes
+ what changes in this case
+ so if we set
+ if we normalize everything
+ and we set the friction equal to 1
+ this is exactly the diffusion coefficient
+ ok, so this is a question
+ the principle there should be a Z
+ we set the Z equal to 1
+ 1, 2, I mean it's been normalized by the friction
+ so this is the example
+ so now what people did here
+ was to assume a noise
+ it's nothing different properties
+ so what are the properties of the noise in this case
+ d, d
+ and instead of having a delta function
+ ok
+ we have something like this
+ so this means
+ that noise
+ are correlated
+ however
+ a time scale
+ what does it mean
+ imagine that I am a particle
+ I am moving at a certain instant of time
+ and at a certain instant of time
+ I receive a peak
+ a peak for example that pushes me in that direction
+ ok
+ then the next time step
+ I receive another peak
+ but the other peak that I am receiving
+ is not completely correlated from the previous one
+ but it is correlated
+ we have this function
+ so if the two times are very close
+ so one time and the next one
+ this will be very close
+ very short
+ so this will be very close in one
+ so the next there is one king
+ and the next king will be very simple
+ ok
+ and the next king will be very simple
+ but they will be very strong
+ and this correlation
+ will decay after some time
+ so this means that
+ for a time to go
+ the noise will make me move
+ in the same direction
+ so there is persistence
+ and this one here
+ is called the persistent time
+ ok
+ so the longer is the persistent time
+ the longer is the
+ similarity to the movement
+ of the particle across time
+ ok
+ and this
+ so therefore
+ you see that the noise itself
+ has two parameters
+ one parameter is B
+ which was the same that appeared
+ in the last case
+ but there is an additional parameter
+ that is this relationship
+ ok
+ and this new parameter
+ is a regulating parameter
+ from the speed
+ ok
+ so I can regulate the speed of the particle
+ we need to
+ and let's see why
+ let's assume the simple scales
+ where I don't have the standard forces
+ ok
+ if I don't have the standard forces
+ what do I have
+ it's an equation of this time
+ ok
+ ok
+ but this is me
+ ok
+ this means that
+ if I now want to compute
+ the value of e^2
+ which is
+ a way of measuring this
+ mean of the particle
+ ok
+ what is it at a certain time
+ this is what
+ this is v of t
+ dot t
+ ok
+ but this is
+ anything else here
+ this is just z
+ of t
+ z
+ ok
+ ok so this is just this function here
+ with the priming of
+ the ring
+ so it is
+ q d d of
+ ok
+ so you see that the typical value
+ of the speed square
+ is proportional to one of the top
+ ok
+ so i can regulate the value of the speed
+ by turning
+ it's not here
+ very good
+ and what you also see
+ is that if you take
+ the limit
+ to go into zero
+ the limit of this function
+ to go into zero is a better function
+ mathematically
+ so you need for to go
+ for this persistent time
+ going to zero you recover
+ the previous
+ passive case
+ the standard passive case
+ so now
+ in the base of one single part
+ of these models
+ even in the active case
+ can be solved analytically
+ and the technique
+ is the same
+ that we saw
+ for the standard
+ constant blendback model
+ in the case of linear forces
+ namely you find the propagator
+ you find the propagator
+ in the space
+ you find the dispersion law
+ and then you go back in the space
+ and then you go back in the solution
+ It's slightly more complicated
+ because if you remember
+ when we use the propagator
+ methods of the solution is something like this
+ x of t
+ equal
+ let's assume the initial position is 0
+ so we don't have the contribution of the initial
+ position but it's something like this
+ integral of t prime
+ g of t
+ minus t prime
+ let's say in general x t prime
+ and here we will be the nons
+ ok
+ so in the positive case
+ we will have outside the prime in this case
+ we have a z prime
+ and so the solution is something like this
+ ok
+ in 1d
+ in the dimension we will just generalize
+ the vectors here
+ and when we want to compute
+ average of z observables
+ what we need to do
+ for example if we want to compute a relation function
+ we need to take x of t
+ x of the prime
+ the average
+ so we will have 2 in the nodes of this kind
+ which are decide the average of the nodes
+ ok? but we know explicitly
+ what this average is
+ so we plug this inside and we go on
+ the difference is that
+ in the old case
+ if I have something like
+ z of the prime
+ z of the second
+ average
+ this is a delta function
+ therefore the internal simplifies
+ in this case it is an exponential
+ so they are slightly more complicated
+ but we know how to implement exponentials
+ so we can go to these issues
+ but we will not go in the details
+ the main point for me was to show you
+ that this is another way to regulate
+ the skin via this persistent function
+ ok
+ so what I would like to do now
+ however after giving you a little bit an idea
+ of how we can model activity at the level of a single particle
+ is to proceed to the most interesting case
+ which is what we will do
+ is now to consider models of this kind
+ let's say
+ we will be sticking to this formula
+ is the year or less
+ one of the articles in Udabe
+ and the difference with what we are going to do now
+ is that we will consider something like this
+ but now we will have many particles
+ not just one
+ so we will need to put here on I
+ where I is the index of a particle
+ so everything will have an I here
+ ok
+ and so far this is just
+ but we will also assume
+ that they have an interaction between the particles
+ ok
+ so there will be
+ in principle these terms here
+ for this one and this one
+ which in this case they just contain
+ potentials from single particles
+ they can contain
+ interactions between different particles
+ ok, so for example let's say that
+ this F_i external of x
+ ok, this would be, I don't know
+ an external force of x_i
+ which acts on all the particles in the same way
+ a confining potential
+ which confines all the particles around 0
+ for example, this would be
+ this kind of potential
+ but then we can have maybe
+ some potential function
+ which depends on the distance
+ between two particles
+ for example, an attraction potential
+ or a repulsion potential
+ that makes particles
+ for example, not going one too close
+ to the other or that
+ there is a attraction that attracts
+ two particles one with respect to the other
+ and we can see that
+ for example
+ likewise
+ when we look at this term here
+ this
+ I will not call it
+ effective at this stage
+ we can have
+ forces that depend on the velocity
+ and the forces that depend on
+ the velocity
+ in principle they can depend not just
+ on the eye but on all the velocities
+ ok
+ so let's say
+ this can be an active part
+ which sets the speed
+ of each individual particle
+ so this can be a period
+ with respect of the eye or certain control
+ for the speed
+ which only depends
+ on the same particle so each particle
+ must have a speed
+ a well defined speed regulated
+ by the speed control
+ but then there can be some interruptions
+ so there can be some other terms
+ where there is
+ a potential potential
+ that we call it
+ f e
+ which depends
+ on pi
+ and on b j
+ ok
+ this is
+ the general here
+ so typically
+ these potentials
+ that depends on the position and coordinates
+ are potential potentials
+ while
+ in this case this is a force
+ while these forces here
+ these are forces that
+ act on the directions
+ and we will see an example
+ of this
+ ok
+ so let's start to consider
+ some of these cases
+ so in this case we are
+ we are considering sets of interacting
+ active particles
+ so let's consider one simple case
+ so many of these models
+ they simplify very much
+ they tend to be minimal
+ especially in many of the level
+ so let's say that we want to simplify
+ as much as possible
+ so let's say that we take
+ this speed control potential
+ very sharp so that the speed is fixed
+ ok?
+ so what we have for all the particles
+ the speed is fixed to preserve the binding
+ ok?
+ for this then we will
+ see how we can implement
+ this most right
+ in an effective way
+ so then once we fix this position here
+ we need to specify
+ here this part of the system is here
+ so basically there remain two terms
+ to understand what they are
+ this one basically
+ and the external forces
+ we don't want to consider external forces
+ so now let's start briefly discuss
+ I will not go into details
+ just want to mention this
+ let's discuss the case
+ where we don't have interactions
+ in the velocities
+ so there is no external
+ but we have positional interactions
+ ok
+ and for example
+ let's consider the simplest possible case
+ where we have
+ these particles, this particle movie space
+ which fix the speed
+ ok and random noise
+ which acts in the directions
+ ok
+ and let's consider the simplest possibility
+ which is
+ the fact that there is a short range of action
+ nothing else
+ so we have this particle
+ this particle, we don't even assume
+ we have the corner marches
+ so if we have these particles
+ and they allow to close
+ let's assume that these particles
+ arrive close one to the other
+ they can move back
+ so there is a certain distance
+ by saying that
+ if we consider the center of the particle
+ that below a certain distance
+ there is an infinite potential
+ potential so they cannot go at distances closer than the ball. So there is a short range range function and nothing else. Just a short range function. So if you just consider this very simple model, let's consider the passing case. So the case where you don't have this constraint on the speed, you just have a left back, you have this back, it was moving, but they cannot penetrate the
+ temperature.
+ What happens?
+ Nothing happens.
+ And according to temperature, maybe the particles would be more agitated or less agitated, but
+ there is no phase transition, there is nothing.
+ Okay?
+ Just to show the repulsion.
+ Okay.
+ A very low temperature, there is a compactification, but apart from this, you don't see any other
+ particles.
+ However, if you assume that the particles are active, people simulated this and what they
+ saw is that for certain values of the parameters, this repulsion and obviously, we have the parameters
+ of the regular model.
+ The episode is very, very strange phenomenon that particles are started for clusters.
+ Fair?
+ And so you've got maybe some regions where the particles are sorted and some plastic particles.
+ Ok? So this is a phase of separation between a sort of dissolved phase, which are particles you would want to run,
+ and this compactified process.
+ And this is what is called motility induced phase separation, because you don't find this if your particles are passing.
+ So this is something that appears only when the system is out of equilibrium due to that thing.
+ Ok? And there is a lot of research on motility induced phase separation, because there are actually several experimental realizations of these active particles interacting via the process.
+ So this is interesting because you see that at the level of the macroscopic behavior of the system,
+ the phenomenology changes when we adapt.
+ So the other case that I am interested in, because this is closer to the system with my good study, is the other one.
+ So this is the case where we don't put this term here, there will be this term. If you think of birds that will be space or fish or insects or whatever, they cannot compare it.
+ So probably we really can resolve this term, but this is not the most interesting part.
+ So for the sake of the model and to simplify things, let's assume that there is no interaction in the position of variables.
+ We will disregard this term, this point, but we will consider a case of what we have this term here.
+ So we have an interaction with respect to velocities.
+ So now I will introduce one simple model where we have this kind of term here.
+ Then I will elaborate a little bit on analogies of this model and what you already know and then I will describe the phenomenon.
+ Okay. So let me introduce first of all the idea of the model. Then I will write it in the same way in which it was really introduced but let me first write down a little idea.
+ So the idea of this model is that we can close the motion there. And here we want to put some term here which simulates alarm.
+ So the idea is that you want to model collective motion. And the idea underlying this model is the fact that when you think of an ensemble of individuals that move together, the mechanism which is underlying this collective movement is an imitation mechanism.
+ So for example when you think of birds, the natural intuition about why they move in this way is that they emanate each other.
+ So if I am a bird and I need to decide in which direction I need to move, I look at my neighbors, I look where they are moving and I follow them.
+ So this is what is called a level in biology and what is called alignment in physics, so it is a mechanism of imitation. Clearly since these guys they move in space and they want to move together, imitation translates into an erection of imitation, which is what we call alignment in physics.
+ So what if you want to model this loop of alignment, which is the kind of force that simulates the loop of alignment.
+ So this would be something like this, something like this, and then there would be some noise and then there would be the whole strength.
+ We would need a way to formalize examples. So why this is a finite term, why this is an alignment term?
+ Because you see this is how your velocity, how your velocity which is here is a line direction because the modulus is big and how your direction will change.
+ So the change in velocity and this is telling you that this change is in the direction where you enable some time.
+ Ok, so this NJ is an interaction matrix like the water matrix that we use in the model and the Z model.
+ Ok, so this is different from zero for in digital and static interaction.
+ So this is alignment. This is noise. And this is activity.
+ Ok, so this is not rigorous expression. I will try to write that rigorously.
+ I need to write it better. But this is a little bit API to contextualize this kind of policy more generally.
+ So now that this is an alignment term and that this is very similar to something that you already saw in physics.
+ We can relax this in this way. So let me make a fantastic jump to what we saw before.
+ So what we saw before.
+ So we saw it in equilibrium, easy in line models.
+ The Hamiltonian of an easy model is something like this.
+ S are the spins and are discrete variables.
+ And this is different from zeroes that we are laboring the sides in our arms.
+ This is the model that we have already studied in Rayleigh Dale.
+ But we have also studied a generalization of this model where the spins are continuous variables.
+ They are not discrete.
+ This is called the Heisenberg model or OI model.
+ The generalization is something like this.
+ In this case, for the Heisenberg model,
+ these SIs of the lattice are vectors that can point anywhere.
+ They cannot just be up and down.
+ And the model is fixed.
+ So you already can see that there is an analogy
+ with the velocities that we have there
+ and the speeds that we have here.
+ They are directional variables.
+ Up to now this is the only analogy
+ and then they have a cost-strain models.
+ In that case it is not, in this case it is one.
+ But I mean this is just a normalization of the speed.
+ So it is nothing quite at this level.
+ Okay?
+ So we study the properties of this model here
+ from the perspective of equilibrium statistical physics.
+ Okay?
+ So we come with it the correlation quantity,
+ the correlation between spins,
+ correlation, response, response,
+ everything that we saw a few months ago.
+ And now let's say that what I would like to do
+ is to study the dynamics of this system.
+ Okay. So I would like to see how this variable of size change in time.
+ Okay. Not just the distribution of probability and the heat.
+ This is what we already studied. Okay.
+ Studied the properties of the system from the statistically
+ a really good point. So now I want to look at the dynamics.
+ How can I build a dynamic when I have a Hamiltonian?
+ There are different kinds of dynamics that can be associated
+ to the same Hamiltonian. Okay. But the safest
+ possible dynamics that I can build once I have a Hamiltonian
+ is a Langevin kind of dynamics which we also already studied.
+ Okay. So what is the Langevin dynamics?
+ This is the Langevin dynamics.
+ I just wrote this two minutes ago.
+ The x of a 50 equal force plus max.
+ This is a Langevin dynamics.
+ Overdumped Langevin dynamics.
+ Okay.
+ So we can do the same here.
+ With the difference that now the degrees
+ of freedom of our system are the speeds
+ that are not just some axis, they are speeds.
+ Okay.
+ And the force should be related to this interruption.
+ Okay.
+ So usually what we have is that the force is the derivative.
+ In this case the force would be derivative with respect to the value that we are looking at.
+ Of a certain potential of that value.
+ So we do the same thing here.
+ But instead of having X, we have S.
+ And instead of having a force that depends on the position,
+ we have a force that depends on the speed.
+ Okay.
+ So let's do this.
+ So now I'll write down the equation for my screen.
+ I need to work on the force as minus the derivative of the Newtonian with respect to Si.
+ So now Fi would be the derivative of my Newtonian with respect to Si with a minus in front.
+ And if I just look there, this would be J, sum over J and my J is J.
+ Ok?
+ There will be a factor too, ok?
+ So probably if I put that here, I will get this one.
+ Ok?
+ Very good.
+ Because of the sport, this will be a form, like a version of the sport that is done.
+ Ok, play, and play, and play.
+ Plus, no.
+ Ok?
+ And, of course, here there is nothing that tells me that the spins should have normal wagna, so I should put something for the constraint on the modulus.
+ Again, also in isolation.
+ Ok?
+ Very good.
+ So, you see, this term here is the force that is derived from this Hamiltonian.
+ Ok?
+ This Hamiltonian is an alignment of Hamiltonian.
+ It makes spins align with each other.
+ This is an alignment force.
+ So, this is a force that tends to align the spin one with each other.
+ Ok?
+ So, now if you look at this, and if you look at this, ok?
+ You realize that this is the same thing.
+ So, all this, ok? And then we will see why I can say.
+ So you see that this term here, this is, here here we are dealing with direction of these things.
+ Like something has the spins, and they go to a light in each other.
+ The only difference is that in this case, these spins are fixed on atoms.
+ They are really the magnetic, the internal magnetic moments of atoms on a lattice.
+ So they are fixed there, ok?
+ They are fixed.
+ Here the directional particles are non-spin, so they have five directions of individuals.
+ And these individuals move the space.
+ Because we don't just have this equation, we also have this one.
+ Here we don't have the language.
+ Here the sides of the lattice remain fixed.
+ So the first equation is just length psi over the d equals 1, ok?
+ Very good.
+ So what does it mean?
+ It means that even though this equation looks similar,
+ there is a crucial difference and the crucial difference is that here
+ this quantity is fixed once more.
+ On a lattice, neighboring spins are always the same.
+ They don't change it now, ok?
+ On the contrary, here, this interaction matrix is a function of time.
+ Ok?
+ And why is that?
+ Because if I interact with my neighbors, at my neighbors move,
+ who is a neighbor of mine at a certain time,
+ might be very far away from me and therefore not interacting with me at a later time.
+ So this NIJ interaction countries is itself a dynamical variable.
+ And this is one problem. Not only is it a dynamical variable,
+ but it is a dynamical variable that usually depends on the positions themselves.
+ And why is that? Because for example, typical models they just say,
+ let's say that I look at the front of birds, this is not a good example because it is not like that,
+ let's say I look at a swarm of insects, this is more appropriate,
+ I look at a swarm of insects, insects interact via acoustic stimuli with each other,
+ so if they are close enough they can perceive the sound emitted by the other individual,
+ but if they are too far away the intensity is too low they can not perceive it.
+ So this is a kind of interaction biological one so that if they are close enough they interact,
+ if they are not close enough they don't interact.
+ So as it is in physics everywhere, usually interactions in physics depends on the distance.
+ So this is a good example, so we can just to make this kind of interaction very simple,
+ we can say that n9j is different from 0 if the two individuals are close enough,
+ so if xi - xj is smaller than a certain interaction,
+ and if it is 0, otherwise.
+ So this is very simple, minimalistic, but very useful kind of interaction in this kind of system.
+ So if the f was enough to interrupt, otherwise they don't.
+ So you see, in this case, n is a function of the mutual distance of i and j,
+ and therefore, this equation here is coupled with the other one.
+ These are two coupled equations.
+ The system is alien.
+ But my point was that you see very well from this comparison
+ that for what concerns the directional degrees of freedom
+ there is a strong analogy with ferromagnetic system
+ with elaborate moments in physics
+ and the difference is in the time dependence of the interruption of this.
+ So this is the real difference that discriminates these two cases.
+ If the interruption matrix here for some reason remains the same
+ then the two systems behave in the same way.
+ Very good. So this is the system that I want to implement upon.
+ And then what else?
+ What else, what else? I think there is everything here.
+ So now let's try to understand that a little bit better
+ how we can organize the memorial space over here.
+ Ok, so let me first describe to you how the model was first introduced.
+ Ok, so the first guy who introduced this model is Tamas Hitcheck in that drive
+ and this is usually called the Hitcheck model.
+ So, he produced the model in the split location, so here we are writing down equations that are delivered in respect to time,
+ but after he produced the model in the split steps.
+ Also because the paper was mainly in America, so they would have an algorithm for the dynamics
+ and once you want to implement a dynamic equation you always need to be seen that.
+ So you can see that the system of N particles and the data from these particles were the following ones.
+ So I will write this.
+ Let me write the first model was in two dimensions but in two dimensions things get united so I will do it later on.
+ So we will mention first the notation in generic dimension, degree dimension, generic dimension.
+ So let's say the model was this one, I need to compute the velocity of the eagle eye at times two plus one.
+ How deep as the one is the one.
+ I think he wrong plus one but you can also be discreet in the part up there.
+ I will have an alignment term.
+ So this alignment term will be something that needs to point towards the neighbors.
+ So in the notation that I use it will be something like this.
+ This is just the mean velocity of the neighbors.
+ But then I want my individual to keep the same speed.
+ So first I come to this velocity of the neighbors and then I want to normalize it.
+ So let's say that if I use this operator, just defining this way, just takes a vector and normalizes it.
+ It's the same direction but it has a normal one. So what I will do is an equal space here.
+ So this is EI, T is E.
+ So we take the normalization of this vector.
+ Once we take this normalization, this is just a unit vector that points in the direction of the naples.
+ But it does not want.
+ And then I multiply it by the norm.
+ So that my velocity has the norm.
+ But now I also want to reproduce this noise effect.
+ So this is the noise effect.
+ So clearly if I add here the noise, I don't want that because the noise will change the norm again.
+ So let's see how this is visually.
+ So this is the part of the eye.
+ And then here there are the navels, the closest navels.
+ And these closest navels will have some velocities.
+ So now what I do is that I take the average of these velocities.
+ And the average of these velocities let me drag it again here.
+ So this is again the eye.
+ And I take the average of all these velocities here.
+ And this will be a vector for example like this.
+ And so this equation is telling me that at the new time step my third eye will go in here, in this direction here.
+ But then I want to add noise without checking this thing. So how can I do that?
+ Once I've done this over here, which is what I have here, I just want to add some angular instruments around this direction.
+ Ok? So once I place myself in the direction of the neighbors by giving the norm, I just want to add another.
+ Without disturbing the speed, without changing the speed.
+ So this is something that I think in their papers, it's another operator that they called Armita.
+ And Armita, this operator Armita, of a certain vector, is an operator that takes the vector x and adds a solid angle of variance eta around x.
+ Ok? So this is exactly what I wrote here on the vector.
+ Ok? So, once you do this, you are free.
+ Ok? Ok, so this is a way where you can implement this kind of equation.
+ Of course, once you have this over at the theta, you can also avoid this inside.
+ And you can also avoid this because these are constants and the direction is always the same.
+ Ok? So sometimes you find it like that without the j, without the generalization of the number.
+ It's the same. Ok?
+ And this is one way where, if you look at the papers written by two-secondary collaborators from the very international team,
+ you find this equation written at the level of a discrete electronics.
+ So this is a time 2 plus the t and this is a time 2. Ok?
+ So you first look at the level of flight and then you operate in your flight direction.
+ Ok, and then what about the positions?
+ Then once you change your velocity according to this rule, ok?
+ You also have the position by the size of t plus the t, ok?
+ it will be equal to the size of t plus the i, t plus the t because you are going to change it, ok?
+ This is called up forward at length because here you are looking at the velocity and attempting to do the t plus the t and move it.
+ Ok, so this is how it was performed in this paper.
+ Ok, very good.
+ So now let me, before I am moving a little bit more in detail on this connection to this population here.
+ And this population here, continuous variables, ok.
+ Let me tell you actually on this denotation that they used in the very first paper, which was in 2D.
+ Because in 2D everything is easier, but this is general.
+ So these kind of equations here, like written in this way, you can write them in any dimension if you want, ok.
+ For the D=2 case, there are some significations.
+ And why is that?
+ Because in D=2, ok, in D=2 let's assume that you look at bird I, ok.
+ Let's consider the axial direction as reference direction.
+ So the velocity and let's say that this is the velocity of bird I, ok.
+ So you see that the velocity of bird I is completely specified by one hour, ok.
+ The polar hour is here, this one, ok.
+ So in this case if I have a fixed speed, V I can be written in this way.
+ okay so this is to say that the i x is equal to the 0 of the size
+ the i and the i y is equal to the 0 of the size
+ and i can learn these equations because if i now write
+ by the i y divided by the i x, this is just the tangent of the i
+ therefore the i is the upper tangent of this ratio
+ very basic things, ok?
+ the i is the upper tangent of the i y divided by the i x
+ ok?
+ very good
+ so now let's try to compute this item here
+ the average velocity of the neighbors, ok?
+ so let's assume that i want to compute the average velocity of the neighbors
+ ok?
+ what is this?
+ the average velocity of the neighbors
+ this will be 1 over i
+ ok?
+ without normalization
+ so this will be
+ the sum
+ over j
+ and ij
+ ok?
+ this specifies
+ who are the neighbors
+ and then i input j
+ so this will be what?
+ this will be z not
+ sum
+ over j
+ and ij
+ let's write it as a vector
+ ij
+ sums
+ j
+ ij
+ sums
+ ok
+ ok
+ very good
+ so let me call now
+ zeta
+ this will be a vector
+ this will be a vector
+ this will be a vector
+ this will be a vector
+ this will be a vector
+ very good
+ so let me call now
+ zeta
+ this will be a vector
+ this will be a vector
+ this will be a vector
+ ok
+ so let me call the
+ the answer of this vector
+ I call it
+ psi
+ ok
+ so this is the vector
+ will be some
+ modulos
+ ok
+ could be
+ yes, some modulos
+ enable modulos
+ and then it could be
+ cosine
+ side
+ sine
+ side
+ ok
+ ok
+ ok
+ so now we want to find the side
+ because the side defines the direction
+ where the labels are flying
+ ok
+ so we know that
+ side
+ will be
+ the upper tangent
+ of what
+ of the labels
+ y
+ divide it
+ v labels
+ x
+ exactly the same formula
+ but
+ in this location here
+ I know what is the y component
+ and the x component
+ and what is the y component
+ so this will be
+ the upper tangent
+ of what
+ sum over j
+ and a j
+ cosine of phi j
+ divided sum over j
+ and a j
+ sin of phi j
+ and this is the direction of the neighbors
+ ok
+ so now in the case of two dimensional system
+ if I want to understand
+ where my individual
+ will move at the next time state
+ I can express this
+ directly in terms of angles
+ so what I would say
+ is that the angle
+ of my individual eye
+ at time t plus the t
+ will be what
+ will be the angle of the neighbors
+ this side of the
+ other tangent
+ of the sum over j
+ and ij
+ cosinus of phi j
+ at time t divided sum
+ over j and ij
+ sinus of phi j
+ at time t
+ ok
+ and then at this point
+ I can really add
+ a noise
+ because this is a noise
+ on the angle this is not a noise on the vector
+ so it does not change the speed
+ ok
+ this is a random noise
+ on the angle
+ now I can just study that
+ it will not change the speed
+ because this is an equation for the angle
+ and then of course
+ v_i
+ at times t plus t
+ will be equal to 1
+ v_0
+ and then of course
+ sin v_i
+ t plus t
+ sin v_i
+ t plus t
+ sin v_i
+ t plus t
+ sin v_i
+ t plus t
+ sin v_i
+ t plus t
+ so this is the trivial definition
+ of the velocity of the angle
+ and the speed is contained
+ and the equation for the positions
+ is always the same
+ xi
+ of t plus t
+ is equal to xi
+ of t
+ plus vi
+ of t plus t
+ of t
+ ok
+ so in the two details
+ when you write explicitly everything
+ as an update equation
+ on the angle so it is explicit
+ the fact that the angle is the only
+ piece of freedom
+ the speed is fixed
+ very good
+ ok
+ so now
+ let's
+ discuss what each set
+ found
+ and then let's
+ reconnect
+ what should I do
+ before
+ now what I would like to show you
+ is that
+ is how we
+ will go from
+ a discrete updated question
+ to a continuous updated question
+ ok
+ and how we can
+ implement in a different way
+ the cost-friendly
+ ok
+ so let's say
+ that
+ keeping the idea
+ that I am using model
+ I write something like this
+ ok
+ but I want to write down
+ that there is
+ noise
+ we need to implement
+ the correct way noise
+ and constrain
+ and I will just show you some ways
+ in which you can do this
+ we have the tech operator
+ we have operator
+ the angles
+ but I will deal with this later on
+ for the time being let me deal with this
+ so the first problem
+ I want to address
+ is that this is a dispute equation
+ and I want you to understand
+ whether I can do a continuous
+ behavior in time
+ so
+ when Richsec
+ brought his model
+ actually
+ when
+ he summed
+ the neighbors
+ he included the party itself
+ ok, so actually
+ this MIJ
+ is different from 0 also
+ high of J
+ in his original version
+ if we want to reproduce
+ the Dolphinus limit
+ then we need to assume something
+ that's very different
+ Richsec always has studied
+ so this was not a problem
+ but if we want
+ for the sake of
+ analytical arguments
+ what do we need to do?
+ Well first of all
+ we need to separate
+ this contribution
+ the same term
+ and the other terms
+ so we should need to write this down
+ like this
+ pi
+ equal
+ we have the term
+ j
+ so we have pi
+ maybe some coefficient in front
+ in the rich set correlation
+ the coefficient was the same
+ for all members of the sum
+ but this is not good
+ to get to continue
+ what does it mean by coefficient
+ and ii
+ it means
+ it means that
+ you
+ ok
+ i assume it was
+ different i from j
+ yes but in this case
+ he included also
+ the neighbor i
+ it is
+ a sum over the neighbors
+ and on itself
+ ok it is a sum
+ so if this is i
+ ok
+ and here are all the neighbors
+ the neighbors close and are going to set an interactive
+ angle where he computes
+ the average direction of the next
+ side step the individual
+ other geographers
+ including in itself
+ ok not within
+ itself
+ this side includes
+ the I itself but this is
+ the I and I T of the previous time
+ ok
+ but this does not
+ allow to
+ continuously with
+ properly so we need to separate
+ the one
+ itself and the one of the other ones
+ and it is natural to assume
+ that they will weigh in a different way
+ ok
+ so we will if we want to take a continuous
+ limit we need to
+ take
+ this individual
+ with a weight one
+ ok
+ and actually
+ we need to take into account
+ the other ones
+ with a
+ with a weight that depends
+ on the integration
+ for each set this was one
+ actually so here
+ each set the question was this
+ ok
+ we don't have any
+ but now we want to take the limit
+ from the people to zero
+ so we really need to
+ assume that that date
+ that interval coming out
+ infinitesity is small
+ so we really need to protect it here
+ and we will change the weight
+ of the individual itself
+ with the neighbors
+ in such a way that this is
+ one of the one
+ and the other ones
+ have a weight that depends
+ on the T-cell
+ ok
+ this is a weight in biology
+ this is a weight like saying
+ I always know precisely
+ well how
+ I am flying
+ but the ability with which I can evaluate
+ how the others are flying
+ depends on the time of my communication
+ ok
+ so this is key stating here
+ mathematically
+ this is what you just need to do
+ to make the continuous
+ ok
+ so we have J
+ which is different from I
+ you can just say that N and J
+ has 0 and 1
+ weights of sense I think
+ and all the rest
+ all that is here should skate
+ with the J
+ ok, in some way
+ not just linearly
+ you know that noise
+ scales as to 1/2
+ but all the terms should depend
+ on the J
+ why I make this
+ because if I have this
+ I can just bring this to this side
+ okay
+ so we have the I
+ this plus the T
+ minus the I
+ of T
+ I can divide by the T
+ and get something that has
+ the correct limit for the T
+ and here I can get J
+ sum the J
+ M and J and V J
+ plus the other
+ that we are going to determine now
+ ok
+ so if you do like this
+ you have to find the
+ continue limiting time
+ in the original version
+ I mean
+ but it wasn't formulated
+ for this big time
+ this is not
+ a problem of the model
+ the model was formulated
+ but if one wants
+ to
+ imagine a
+ there is no limit that
+ like this
+ and the difference between
+ this formulation and this formulation
+ for 5D
+ there is no difference
+ so the model is actually the same behavior
+ and still have to tell you what it is
+ ok?
+ but this is just what you need to do
+ if you want to
+ give the continuous version
+ so now let me
+ let me start to address
+ the problem
+ of how in a continuous version
+ like this in time
+ how can I do
+ to implement the constraint
+ ok
+ so typically
+ when you have
+ in your question say you want to
+ constrain the
+ constraint so you have a question this time
+ right
+ you have a certain force
+ this force is the alignment force
+ I think very generally with this
+ and then we will add
+ some noise
+ ok
+ and we know that these two terms
+ in principle change
+ the normal v_i
+ so if initially v_i
+ has gone with zero
+ if I just bluntly
+ put a force
+ in a random force
+ an alignment force in a random force
+ these two forces will change
+ to the normal of the velocity
+ so if I just take this
+ this term will make
+ it is what it is
+ it depends on the velocity of the
+ network but it will change
+ it will change
+ the normal of the velocity
+ so if this is the i
+ let's look at the motion there
+ I now come with this term here
+ the chemical velocity
+ of the networks
+ is something like this
+ ok
+ this is a time t
+ time t
+ that is telling me that
+ the v variation in a time t
+ should be this vector
+ ok
+ sorry
+ the v should be this
+ so if this is this
+ this is the velocity of the networks
+ that got some here
+ ok
+ maybe larger
+ so let's say that this is
+ v of t this is the velocity
+ of the networks
+ ok
+ then v i
+ ok should be equal to
+ j by t
+ sorry yes
+ in networks
+ ok so this is the reservation here
+ reservation here
+ okay
+ sum of a j
+ if i make j
+ j
+ this is the j
+ in networks
+ in networks
+ without an organization
+ it is multiplicity
+ multiply by the t
+ if i multiply this by the t
+ this becomes small
+ the t is small
+ so this would become some small factor
+ so we are making something like this
+ and what is the
+ the t i need to take
+ the i and
+ how does this go here
+ ok
+ this will be the new
+ the i
+ which as you see
+ is closer to velocity
+ so this is getting
+ it's trying to align
+ ok
+ but you see
+ that in general
+ this operation changes the norm
+ ok
+ as we expected
+ this operation changes the norm
+ so this term here alone
+ it changes the norm
+ again the noise will again change the norm
+ so this does not concern the norm
+ so we need something to concern the norm
+ ok
+ so typically when one wants to under constraint
+ and we have already seen this
+ the way to do that
+ we will use Lagrangian multipliers
+ ok
+ so let's say
+ that we want
+ to add Lagrangian multipliers
+ and we will add a term
+ here
+ which will be lambda plus
+ multiplied by V
+ it is Lagrangian multiplier
+ ok
+ and why this is Lagrangian multiplier
+ because remember that
+ on the right hand side
+ everything has a dimensional force
+ ok
+ what is the constraint
+ that we want to put to the constraint
+ is that V I square
+ should be equal to V zero square
+ since the normal system
+ ok
+ and
+ so if in the Hamiltonian
+ we add an Lagrangian multiplier
+ for V zero square
+ we would get
+ something like V i square
+ minus V zero square
+ this would be in the Hamiltonian
+ when you derive
+ something for you
+ which has a dimension of a force
+ you get the element like this
+ ok
+ ok
+ now
+ even without this argument
+ let me show you why
+ this makes our job
+ so we have this new term here
+ and this lambda is something
+ that is there
+ because it needs to force
+ the node
+ ok
+ so you can also see that
+ this is a speed control potential
+ ok
+ remember when we had speed control potential
+ and you choose lambda
+ in such a way
+ that at each time step
+ your velocity is equal to V
+ ok
+ this is a little bit the idea of this term
+ but now let's see how it works
+ ok
+ to see how it works
+ we just take this equation
+ and we impose
+ that the norm is fixed
+ ok
+ so if the norm is fixed
+ what does it mean
+ it means that V I squared
+ should be constant
+ ok
+ so lets derive this
+ ok
+ this means that V I
+ the V I squared
+ D
+ should be equal to 0
+ ok
+ but I know
+ that V I squared
+ can be written also as
+ V I dot V I
+ dot V I
+ ok
+ so if I write this
+ and I post that it should be equal to 0
+ what I get is that V I
+ dot the V I
+ over the P
+ should be equal to 0
+ ok
+ ok
+ ok
+ so if I take this election
+ and I take this color product
+ of both sides
+ ok
+ I should get this
+ ok
+ ok
+ so let's do this
+ so here
+ I will have 0
+ well
+ this is the box where we will have 5
+ fi
+ fi dot bi
+ plus ci
+ dot bi
+ plus lambda
+ and here is
+ bi squared so I know this is a constant
+ this means it is squared
+ ok so I get this
+ I get this
+ question
+ and
+ and so I derive
+ the value lambda
+ ok this tells me
+ that lambda
+ is equal to what?
+ lambda is equal to minus
+ f i dot v i
+ divided into 0 square
+ minus
+ ci dot v i
+ divided into 0 square
+ ok
+ so now
+ that i know
+ what is lambda
+ i can run it back here
+ and write down my equation
+ where i have
+ anything i need
+ ok
+ so let's do this
+ so what i left
+ the v i
+ or v
+ will be equal to the fourth
+ ok
+ and then i have
+ this term here i have the i here
+ so lambda let's write down
+ the term that i need
+ is lambda multiplied by i
+ ok so i need to plug this in
+ so the first term is this one
+ so let me put it here
+ this is this term here
+ i have distributed this
+ zero square here and here
+ and you will still understand why
+ last term i have the same structure here
+ c_i minus c_i / d_i of the node d_i of the node
+ ok so what are these two terms here?
+ these two terms here are the step to be the perpendicular component of the force from the noise
+ that would be the perpendicular component
+ let's say that I have a generic vector w
+ ok and this is w
+ and I want to decompose w
+ along a certain direction
+ so let's say that I take this direction here
+ and this direction according n
+ ok
+ so with respect to this direction n
+ w will have a logistical component
+ which is this one
+ so this will be w parallel
+ and a vector-negolar component
+ which is this one
+ w vector-negolar
+ ok
+ and this n is just along one vector
+ ok
+ so what is the longitudinal component
+ the longitudinal component
+ along the vector n
+ is just W dot n
+ multiplied by n
+ do you agree?
+ just projecting in the direction n
+ ok
+ and what is the perpendicular component?
+ the perpendicular component is just the full vector
+ minus the mobility in a component
+ ok
+ therefore it would be W minus
+ plus W of M something like that. So this structure here means that I am looking at the perpendicular component to the direction M. Ok? So this is FI perpendicular, the perpendicular component of the force with respect to the velocity of the curve, to the right direction of the curve.
+ And you see this binot here remains this vector, a normal vector, so this is exactly this rotation here, okay.
+ And again this is CI perpendicular and this is the component of the noise perpendicular to the direction of the velocity.
+ And this is, I mean physically it is very simple, you have this particle, you want to be a force on this particle, but you cannot change the norm.
+ So all the longitudinal component of the force does not anything at all, because the norm is constrained, so only the perpendicular component can change the angle.
+ And this is what you are writing. So this is a different way of writing, why I am telling you this, because if you want to do analytical computations, you want to write down continuous equations, it is more convenient to write calculations in this way.
+ Of course, if you need to do a simulation, the big set way is, okay, so these are different ways of looking at the same kind of problem but implementing the normals like in the way that is more convenient than what you have.
+ So now that we have finished this part here and we have seen the formal level bridge set model in many possible ways. Let me tell you what did bridge set find.
+ Okay, so let's go back to the original bridge set model to the formulation, one formulation in the script that I have already explained to you.
+ Okay, so let me write the general one that is valid in all directions, in all dimensions, sorry, which was this one.
+ It was V0, par eta, eta of sum over J, mi J, dj.
+ Okay?
+ So what are the parameters in this model? Let's try to figure out what are the parameters.
+ And then we have side plus one, equal side of t, plus bi of t.
+ Okay? Because he kept the individual.
+ So what are the parameters?
+ Well, you have the parameter that tells us where two individuals are interacting.
+ And exactly the same.
+ Okay, the simple interaction model that I told you before.
+ So he said there is a certain interaction radius.
+ I don't remember whether he called it RC or not.
+ I don't remember.
+ So let's say this is .
+ Okay?
+ So if J, if individual J is within this distance of my data,
+ otherwise they will.
+ Okay?
+ It's a simple metric rule of interaction.
+ We know certain distance beyond that.
+ So there is these parameters.
+ And then there is, of course, the amount in zero.
+ The velocity speed at which they move.
+ And then there is another parameter which is either.
+ But then there is another interesting parameter
+ which is not evident from the model.
+ And what is that?
+ Imagine that you look at hidden simulations.
+ So imagine that you do simulations.
+ You have all your particles.
+ These particles move.
+ And they are in a box of size L.
+ So clearly, etna is the number of particles in your model.
+ But this is not an intensive parameter.
+ However, if we look at the number of particles divided by the volume.
+ This is the density.
+ And this is an important problem.
+ So the density of the particles will be bigger.
+ And now I will try to make you understand why.
+ Ok?
+ So let's say that you have a certain density in your system.
+ What does the density fix?
+ The density fix is how many angles you will find inside this region.
+ So if you have a large density you will find many angles inside this region.
+ So this sum will run among more angles.
+ If you have a lower density, maybe here there will be just a little more.
+ Ok? So that's the actual degree of interaction in your system.
+ Because it's true that, I mean, here this is a normalization factor.
+ So everything that goes in here, if I put a J, this goes away because here we are normalizing.
+ Right? So any constant does not change. But, when you need to understand that
+ when you sum by a certain number of variables, the more variables that you have,
+ the more you arrange out the noise. It's the second limit here.
+ So when you have more neighbors inside your interruption range,
+ the other jingle out of the neighbors will take away noise and you will align them.
+ So this makes a real difference, it's not just that since you have a filter here it does not matter.
+ So you can also understand from this example that in this model clearly R0 and R0 are not independent parameters.
+ Because if I take the same density but a much smaller value of R0, such that for example I only have this one, then clearly these two situations are as you will say.
+ Ok, so R0 density, typically they are connected to each other, they are not independent and indeed what people do is that they fix R0 equal to 1 and they don't change it, but they change the density.
+ Ok, very good.
+ So it turns out that the two important parameters here are these two.
+ The noise, the amount of noise that you have in the system, this eta, remember, in this operator, this eta is the variance of the angle with which eta turns the estimate of the nearest direction.
+ Ok?
+ So eta is the variance of the noise.
+ They call it eta.
+ It's the angle of the temperature, but they call it eta.
+ Ok?
+ So these are the two relevant parameters.
+ First, increasing the raw, you increase the strength of interaction.
+ Ok?
+ Increasing eta, you increase the noise.
+ And if you think back at the easing model, if you remember,
+ what was important to determine whether you are in the open phase,
+ is the ratio between the temperature and the interruption strength.
+ So again, it's always these two parameters that regulate whether you are ordered or resolved.
+ And also here, they are defined in a different way but the meaning is always the same.
+ This is something that tunes the strength of interaction and this is something that tunes the noise.
+ So it's always the same two parameters that we use.
+ So let's say, okay, we say so, let's try for example to simulate this model of large noise.
+ Okay? What do you see? When you see that these particles, they move in rather direction.
+ The system is disordered. Okay? So let's say that now you start with the basic noise.
+ You know that there is an alignment interaction, so these individuals tend to align to each other among networks.
+ So, the idea is again the same, that in the easy ideas in the models, with at some point this tendency to put on an alignment will win over the dynamic noise.
+ Okay, and he found out that there is a transition, so he defined a quantity that was called the polarization, which is the analog of polarization.
+ Okay, and how it is defined? Well, let's just define, let's say, a vectorial of the polarization, you see the one over N, some over I, the I already know.
+ Okay, so this is a point we did, if everyone flies exactly in the same direction, it's one. Otherwise, if everyone flies in random directions, it's zero.
+ So exactly as we call it the magnetization is something that defines the presence of a direction.
+ And then you take the models and you have the scalar polarization.
+ Okay, so let's look at what happens as a function of the attack to the scalar polarization.
+ Okay, and so he makes a simulation of a certain size L and he finds something like this.
+ Okay, so there is a critical value and around this critical value you get told.
+ And he said okay, this is a certain value L and one, let's try two and three increasing sizes of L and this becomes sharper and sharper and sharper.
+ Okay, so as you increase the size the transition becomes better and better.
+ Okay, well and you can also compute the fluctuations of this quantity.
+ Okay, this quantity here, this is a quantity that if you have a phase transition it should diverge.
+ Okay, and again it computed as a function beta at a certain value of 1 and we found something like this
+ and another size, another size, increasing the size becomes more and more picked around a certain value.
+ And you can look at more sophisticated quantifiers of the presence of a transition in the thermodynamic limit.
+ We already discussed that phase transition are defined only in thermodynamic limit.
+ So numerically if you want to see if there is a transition you always need to compute things of different sizes
+ and look how these things behave in the sides.
+ There is another quantity which is what is called the bilter parameter which should behave in a certain way
+ if there is a transition that displays the correct behavior.
+ So ok there is a transition to collective motion.
+ So what is when we published this paper there was a huge surprise and a huge discussion in the community of physicists.
+ Why is that? We see all the time groups moving together there is collective motion.
+ So what was surprising about this discovery?
+ Well, the surprise was that he found everything that I am discussing here with you in D = 2.
+ So in D = 2 and the surprise is that the equilibrium analog of this model which is the Isabel model in D = 2
+ that I discussed before which is called the XY model.
+ The XY model does not have an original model. It does what is called a quasi-model.
+ So the transition does not exist immediately.
+ So if you look at final sizes it seems to you that there is a zero column magnetization in the XY model
+ but as you increase the size this polarization goes to zero.
+ So it's a finite size effect.
+ So the surprise was that in D=2 if you are in equilibrium you don't have a transition in the thermodynamic limit
+ while if you add the concept partial you get the transition.
+ So this is from the point of the study of physics.
+ This is the way we say the activity and the presence of this additional ingredient
+ which changes the large scale characteristics.
+ Of course in D=3 it is less surprising
+ because the Eisenberg model has a thermodynamic transition
+ it also means that the model has this transition and it is less surprising.
+ In D=2 it was surprising.
+ So this is just to say that activity and self-proportional
+ and self-proport can really change a lot
+ behavior of self-proport.
+ And why is that?
+ What is that changes?
+ Why is not a really human
+ effect that worked out?
+ Okay?
+ We can see in different ways.
+ The first way to give way is that
+ the function is equal to equal 3
+ on a lattice
+ is the number of nodes.
+ So in equal 3
+ you have enough nodes to make
+ your alignment stronger
+ and in equal 3 you have less.
+ This is one way of saying this.
+ Another way of saying this is that
+ and we have shown this
+ is that
+ and what is that makes the difference here?
+ What makes the difference here
+ is that imagine that you look at this model
+ and at a certain distance of time
+ you have some of these nails
+ ok
+ but then let's now integrate
+ over a certain amount of time
+ over a certain amount of time
+ since there will be space
+ maybe some new ones
+ which were here
+ will enter here
+ and maybe some of these
+ will go away
+ but if instead of looking at
+ what is half of time
+ you look at a little bit a larger time window
+ effectively your individual
+ will have interacted with more
+ individuals than if it were
+ of the space
+ just because due to movement
+ another way of saying this
+ and we will go back for this next time
+ because I know it's too late
+ another way of saying this is that
+ you have two different ways
+ of transmitting information
+ to other individuals
+ one way is the way
+ that you have to allow this
+ I align with you, you align with him
+ Kim aligns with her
+ and so on
+ so we remain fixed in space
+ but we pass the message
+ and the message passes
+ because we interact
+ I interact with you, you interact with her
+ she interacts with the other guy
+ so there is this passage
+ but in this case here
+ there is this mechanism of course
+ but there is another mechanism
+ the other mechanism is
+ I travel to you
+ you are not my neighbors
+ but I travel to you and I give you a direct message
+ and this
+ therefore
+ movement
+ reinforces
+ propagation of information
+ and in this way
+ stabilizes the mechanism
+ and
+ next time we will see what changes
+ at the level, at the former level
+ of the quantities
+ that we want
+ so we begin on Tuesday
+ and then
+ for level level 2

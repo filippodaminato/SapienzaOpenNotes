@@ -1,0 +1,734 @@
+ All right.
+ Proviamo, vediamo quanto viene più pesante il file.
+ Per l'altro, nella registrazione che uno fa, in realtà siete presenti anche voi, volenti
+ sono lenti, quindi questo pone anche problemi. Naturalmente la Sapienza ci mandava anche
+ in ordine sparso e senza delle istruzioni serie. Dice no, l'ho registrato e vi rendete
+ pubblica le registrazioni. Quando anche me ne fregasse della mia file, so che allezioni
+ di studenti mi registrano, anche se dico cavolate, so che sono registrato, però ci andate voi,
+ ci vanno le vostre immagini, le domande che fate.
+ Il registro.
+ Professore, mi scusi se la disturbo ancora, comunque se l'ha cambiata non si vede, quindi non lo so.
+ Io ho messo la massima risoluzione, vediamo un attimo.
+ È perché di invio o di ricezione?
+ Ah ok, no, è un problema di mia connessione perché gli altri stanno scrivendo in chat che vedono meglio.
+ Io l'ho fatta di invio, di ricezione non mi frega di ricevere ad altre...
+ Sì, sì, certo, certo.
+ Vi vedrò un po' sgranati, pazienza.
+ Cambiamo un invio, vediamo in chat che dicono, sì, a noi è cambiata, noi vediamo bene.
+ E sì, il problema chiaramente è quanta banda c'avete voi, nel senso che mi sa che, non so se lo fa anche Meet,
+ ma alcuni programmi ricambiano a seconda della banda disponibile.
+ Sì, evidentemente è un mio problema, la ringrazio.
+ Cercherò di scrivere grande.
+ Sì, evidentemente è un problema.
+ No, no.
+ We'll start in five minutes.
+ Cominceremo tra cinque minuti.
+ Yes, lecture is in English.
+ I was uttering some Italian words, but to no purpose.
+ But there is a communication that is only meant to Italian students, so I'll do that in Italian
+ because this is really only meant for Italian students, it's something that I must tell
+ them, and so this will go in Italian and then I will switch to English when I start lecturing.
+ I'll see you on the other channel, because all students are from this channel for definition.
+ I'm getting email, I'm from the other channel, so I can't, so I can tell you what you can and
+ what you can do with the other channel.
+ If you're from the other channel, if you're at home, you can see this, see the other, see
+ them together, with an eye and with an eye, they are your own.
+ In the classroom here, they said that I have only the people of my channel.
+ So this is the first indication that I have, and I don't feel the responsibility to agir otherwise.
+ Second, for the exam, I follow with her, I can do the exam with her.
+ All right, this guarantee doesn't exist in any part on the face of the earth.
+ Suppose that I have a lot of covid and I can do it with those who have followed you or with someone else that does it?
+ This is the biggest reason for the students of the other channel.
+ I'm trying to make this discussion every year.
+ If I go to a channel to an other channel, if I go to a channel, I'm going to go to an appellate
+ where I have 80 prenotations and my colleague has 15, it's evident that there is something
+ that doesn't go and I can't handle it.
+ Then it's not a cattiveria, because I assume my responsibilities, if I were 25 and 15,
+ I'd say, well, 10 in more, I have 5 hours in more, but I have patience, it's not a problem.
+ But when the proportion is in order to get the appellate, it's clear that I can ask my colleague
+ that is regularly in the end of my commission of the exam.
+ And so, in fact, for no one is guaranteed that I am I to interrogate,
+ but for no one, even for those of the channel, idealmente.
+ After that, it's clear that I have my responsibilities, I have to assume them.
+ But I have to get an appellate, that's my goal.
+ If I have 80 people, what do you think? I can do 40 hours in the oral?
+ No, I don't know if you are convinced.
+ Evidentemente no.
+ Quindi, come dire, agli studenti dell'altro canale che si prenotano sul mio verbale d'esame,
+ va detto che possono essere dirottati, se ciò è necessario ai fini della gestibilità dell'appello,
+ sul canale di appartenenza.
+ E ciò è successo anche negli anni passati.
+ Ci ho detto, io non ho più niente da dire su questo argomento
+ e quindi possiamo cominciare.
+ We can start with the lecture.
+ Mi chiede il consenso di quelli che sto per registrare.
+ Quindi chi non vuole essere registrato,
+ voi non apparite nel video,
+ però se parlate apparite nell'audio.
+ Io per il momento non sto rendendo pubblici,
+ ma l'idea è che queste lezioni,
+ prima o poi almeno a un pubblico limitato,
+ per esempio i vostri colleghi,
+ magari troverò un modo per renderla accessibile
+ solo per tutti gli allinei di istituzionale.
+ So, before we start with today's lecture,
+ my first question is if you have a question
+ about the last lecture.
+ I will put this.
+ I will put it here.
+ In the last lecture I introduced the very concept of a Brevet lattice.
+ A Brevet lattice is a geometric concept.
+ It is a regular array of points.
+ Points that, given a reference frame,
+ can be reached by a linear combination of three non-conlinear vectors
+ with integer coefficients.
+ By very definition, all Brevet lattices enjoy inversion symmetry.
+ Then, depending on the Brevet lattice,
+ there are also other symmetries that are enjoyed by the lattice.
+ We are called a primitive cell.
+ The parallelepiped that is built on the three vectors A1, A2 and A3.
+ So this is a primitive cell.
+ And by definition, we can tie the space with primitive cells without superposition or without leaving empty spaces.
+ Those are the building blocks of my regular array.
+ And by definition, every primitive cell contains exactly one lattice point.
+ The volume of the primitive cell being:
+ the absolute value of the trigal product of A1 scalar A2 vector A3.
+ First I make this, this is a vector,
+ and then I take the scalar product of this vector times this vector.
+ By definition, this is the volume of this parallel equipment.
+ Now, I have shown you shapes of primitive cells of various properties.
+ We have seen that in three dimensions, there are seven different crystal systems,
+ and a total of 14 different Brevet lattices.
+ Now, it was evident that in some cases, the primitive cell represents directly
+ all the symmetries of the corresponding lattice.
+ In some other cases, this symmetry is hidden, is not immediately evident.
+ So, the question was: can we make this symmetry immediately visible?
+ One answer is yes, if we adopt a convention.
+ Take for instance the case of the hexagonal lattice.
+ The hexagonal lattice has a primitive cell that has as the basis a parallelogram that is made of two equilateral triangles and the height is arbitrary.
+ So this object is not immediately related to a hexagon but if we put three of these objects, one next to the other, we can make this hexagon now evident.
+ And so we have now made evident the hexagonal shape and the hexagonal symmetry of this lattice.
+ Now this cell is conventional in the sense that it highlights the symmetries of the lattice
+ but it does not contain one single lattice point.
+ So my question now is how many lattice points are there in this cell?
+ I think three.
+ So we have the points and the vertices. There are six and six, twelve, but each of them is shared by other cells. How many?
+ So those at the corners are twelve, but they are shared by how many cells? Who can tell them?
+ At this, at each corner I can have three cells, and then I have three in the upper layer and three in the lower, so it's a total of six.
+ And then we have the two points in the center of the faces, and those two points are shared by only two cells each.
+ While this answer was trivial, how many unit cells are there in a conventional cell?
+ One, two, three. Each unit cell contains one lattice point, so the conventional unit cell must contain three lattice points.
+ Okay? It is not immediate, but if you get used to this, in a while it becomes much simpler.
+ So, counting the number of lattice points in a cell is important for several applications.
+ So I encourage you to take this as an exercise and try it out.
+ The other example I made was the example of the face-centered cubic.
+ In that case we can take as a conventional cell the cube and in this cube we have one point at each vertex.
+ And each point is shared by eight cells.
+ And then we have one point at the center of each face.
+ Each point is shared by two cubes, and so we have six points times one over two, and this is four lattice points.
+ In an exercise we will show indeed that the volume of the primitive cell of the phase-centered cubic is one-fourth of the volume of the entire cubic.
+ This must be because this conventional cell contains four points, okay? Once you convince yourself that this is always like that, so the milestones are: any primitive cell contains one lattice point, that's for granted.
+ Any conventional cell may contain an integer number of lattice points, of course, more than one, but of course, in that case, the volume of the conventional cell must be larger than the volume of the primitive cell a number of times that exactly equals the number of lattice points that are present in a conventional cell because, again,
+ each primitive cell must be occupied by one single lattice point.
+ Now, the last lecture was concluded with a question:
+ "Is it possible to have a primitive cell that is also conventional?"
+ In the sense that it highlights the symmetries of the lattice.
+ And the answer to that question is: yes, this is always possible and the corresponding cell is primitive in the sense that it is only occupied by one lattice point,
+ but at the same time is conventional in the sense that it highlights the symmetries of the lattice.
+ And this can be obtained by a construction due to Wigner and Sides,
+ and this is called the Wigner-Sides primitive cell.
+ I will show you how this cell is obtained for a two-dimensional hexagonal lattice
+ so that the drawing is not too complicated, but the same idea applies to all kinds of lattices.
+ So imagine I have to start with hexagonal lattice.
+ So this is my hexagonal lattice, I am highlighting in yellow the primitive cell.
+ So a primitive cell is, for instance, this object here.
+ This cell contains exactly one lattice part.
+ This is evident because the sum of the inner angle of the parallelogram is always 360 degrees.
+ Now, this cell does not highlight the symmetry properties of the lattice.
+ So one possible choice is to take as a conventional cell this hexagonal cell.
+ However, this hexagonal cell now highlights the symmetries of the lattice
+ but contains more than Walden lattice points.
+ How many lattice points are there?
+ This is one, and then there are six at the sixth corner,
+ but each of them is shared by three hexagons.
+ Again, this result is trivial because there are three primitive cells in a conventional unit cell.
+ And so it must be three the number.
+ Now, how can I obtain a cell that is at the same time primitive, which means it contains only one lattice point, but is hexagonal, in the sense that it shows the symmetries of the lattice.
+ Now Wigner and Seitz argue in this way: I take one lattice point as the center of my cell. Now I am sure that there will be only one lattice point, because I put this point at the center of my cell.
+ Then I join my point with the neighboring point in the lattice. Then I go out the way and take the perpendicular.
+ And now in yellow I highlight this object.
+ This is an hexagon. It contains only one lattice point. All the others are outside.
+ And with this you can tile the entire plane. So this is a primitive cell.
+ This primitive cell has exactly the same volume as these primitive cells,
+ because all primitive cells must have the same volume.
+ So I encourage you to show that the volume, the area in this case is an area,
+ because it's dimensional, and the area of this parallelogram, which is two equilateral triangles,
+ is exactly the area of this hexagon.
+ It's very simple, but it can be a warm-up exercise for you,
+ to convince yourself that all primitive cells must have the same volume, which is...
+ Are there questions?
+ Oh, sorry.
+ You can ask.
+ The question is, are the integers? I have said integers and I have written reals. They are integers, of course.
+ Okay.
+ So, as I said, there are lattices that are not Prevay lattices.
+ And one such example is the honeycomb.
+ The honeycomb looks pretty much like the hexagonal, but the central points are misused,
+ really like the cells of the honeycomb.
+ Now, this lattice is not a breve lattice, we have argued this during the last lecture,
+ because this point is not equivalent to this point,
+ whereas in a breve lattice, by definition, all the points are equivalent.
+ But this structure can be described as the compenetration of two lattices,
+ each lattice being a breve lattice.
+ So we can realize that every pink point is surrounded by yellow points and vice versa.
+ So now we can form the hexagonal lattice of the pink point, the hexagonal lattice of the yellow point,
+ and the two hexagonal lattices are displaced, one with respect to another, of a given vector,
+ say for instance, this vector here, D. So you immediately realize that if the vectors of the pink lattice
+ are described by Bredet lattice vectors are the sides of the yellow lattice are described by the same R plus a constant vector D.
+ This is true for all points because to the right of each pinpoint there is a yellow point, so the vector is always D.
+ So I can locate all the vectors of one lattice with the Bredet lattice vector of the other plus a constant vector.
+ This is called a basis.
+ In this case there are only two atoms in the basis, you can have as many as you want.
+ So if you have a lattice with a basis, each element of the basis forms one Bredet lattice.
+ All those Bredet lattice are the same Bredet lattice displaced by a constant vector.
+ This constant vector is called a basis vector.
+ And this is the most general description that you can give for a regular array of lattice form.
+ So a regular array of lattice point either is a Brevet lattice or is a Brevet lattice plus a basis.
+ There are no other possibilities.
+ Now, when we come to a real system like this, this is something that we have in our fictions, this is salt, sodium chloride.
+ So you can imagine that the red atoms are sodium and the grey atoms are chloride, ok?
+ Salt crystallized in this, with this crystal symmetry.
+ Now I ask you what kind of symmetry is this?
+ We have seen all the crystal symmetries in three dimensions.
+ First of all, well, this looks pretty much like a cube, so it must be cubic.
+ Sodium chloride is a cubic crystal.
+ What kind of cubic crystal is it?
+ Now, to understand this we can concentrate on the red points or on the gray.
+ The two are displaced because this is a crystal with a basis.
+ Once I locate the red points, the gray points are obtained by the red points plus a constant vector,
+ the shift and the relative position of the gray points with respect to the red points.
+ So now try to focus only on the red points.
+ What kind of crystal is the crystal that is made by the red points only?
+ Look here, corner, corner, corner, corner, and one point in the center of the square face.
+ There is a square face with four points in the corner and one point in the center.
+ And the same is true here, corner, corner, corner, corner, center, and here corner, corner, corner, center.
+ So this is a face-centered cubic.
+ Face-centered cubic is usually indicated in the literature with the letter FCC, face-centered cubic.
+ It is not different.
+ So, sodium chloride crystallized in the face-centered cubic symmetry.
+ It has all the symmetries of a cube.
+ And once I locate the sodium atoms on one FCC lattice, the other FCC lattice, which is formed
+ by the chlorine atoms, is exactly equivalent, looks exactly the same, but is displaced with
+ respect to the lattice formed by the sodium atom by a constant basis vector.
+ So we can describe sodium chloride as FC secret of class basis.
+ This is caesium chloride.
+ Now, again, red is caesium and grey is chlorine.
+ Now, it's even simpler.
+ What is the primitive cell for the red?
+ Simple cubic.
+ And I obtain the grey point by shifting the simple cubic of the red points by a constant
+ vector.
+ If you take this eight grey point, they form exactly the same brevet lattice as the red
+ points, simply displaced by a constant vector.
+ In the diagonal alpha way, so that one chlorine atom is exactly at the center of the cube formed
+ by 8 seasoned atoms. You see, the atom is exactly in the middle of the cube, exactly at the center of the cube.
+ If now I take a die and I make all the points red, what kind of lattice would I get then?
+ If all the points were red, all the same.
+ In this case it's a body-centered cube because now they all become equivalent.
+ So this is a new brevelitis because now this is exactly equivalent to this.
+ Now they are not equivalent because this is caesium and this is chlorine.
+ So they are not equivalent.
+ But if they are all caesium or all chlorine they become equivalent and this would be a body-centered cube.
+ BCC, body-centered, because I have one point exactly at the center of the body of my cube.
+ What kind of lattice would be this if all the points were equivalent?
+ Simple cube. If now I take the gray and the red of the same, I obtain a cubic lattice.
+ This is very, very complicated. This is zinc blend. It's zinc sulfur.
+ This is a real mess. Now you can take the yellow for sulfur and the gray for zinc.
+ This is quite reasonable. Now this is a very, very messy object.
+ Because the yellow point alone form a face-centered cubic.
+ And the same is true for the gray point because they are equivalent.
+ They are simply displayed one with respect to another.
+ So I have two phase centred cubic displaced again by a constant vector.
+ So this is again FCC plus basis like this.
+ But you look, they are different because the basis is different.
+ In this case the basis is a vector in this direction, I go from this point to that.
+ In this case the basis is the vector that moves along the diagonal of the cube.
+ So the same structure, Fcc, if I only change the basis can give rise to very different crystals.
+ Now, imagine that I turn all the points to the same color, here.
+ This is something that exists in nature if all the atoms are carbon atoms.
+ This is a form of carbon that crystallizes at very high pressure.
+ At ambient pressure carbon gives graphite, your pencil is made of carbon.
+ But this is high pressure carbon and this is diamond.
+ This is the structure of diamond and diamond cannot be described as a simple Brevet lattice.
+ Even if you turn all the points to the same color, this is a regular array that cannot be described as a simple Brevet lattice.
+ This can, if we turn all the points to the same color, this is a simple cubic.
+ If we turn all the points to the same color, this becomes a body centered cubic.
+ If you turn all the points to the same color in this lattice, you are still left with FCC plus basis.
+ So this, the diamond, cannot be described as a simple gravel lattice exactly like the hexagonal lattice,
+ which by the way is the lattice of graphite, but is obtained as the compenetration of two FCC lattices,
+ one of atoms of one kind.
+ They are all carbons, but you can imagine having yellow carbons and grey carbons.
+ Each of them is forming an FCC
+ and the diamond lattice is described by such a structure as this.
+ So life can be even really complicated with lattices.
+ But this is just to give you an idea of the structure that may arise.
+ Now, the real physical structure of crystals is described ideally by this.
+ Of course, we need to investigate the structure of crystals.
+ And as we shall see in a few lectures, this can be done by, say, X-ray scanning.
+ If you choose the wavelength of your X-ray to be comparable to the spacing between atoms, which is in the order of 10^-10 meters,
+ this is the typical distance between atoms in a crystal, then you can take a picture of the crystal in some sense.
+ As we shall realize, actually, what you get by X-ray is a picture of this crystalline reciprocal space,
+ and then of course you have to make a correspondence between the structure of the crystalline reciprocal space
+ and the structure of the crystalline real space.
+ So we have to introduce the concept of reciprocal lattice.
+ For a while this will appear as a useless complication, so why don't we stay with the pre-ray lattice and we need to go to reciprocal lattice,
+ but then we realize that this concept of reciprocal lattice is crucial in condensed matter.
+ So what is erosine propellerance?
+ Imagine that I take a plane wave.
+ A plane wave is described by an equation like Eik dot r in the exponential notation.
+ This is a plane wave.
+ In general, this plane wave is a wave with some periodicity, the wavelength of this wave.
+ In general, if I take a random K vector, this plane wave will not have the same periodicity of this lattice.
+ For particular choices of the vector K, this plane wave has the same periodicity of a given brevenitis.
+ For particular choices of K, for particular choices.
+ So, now we will try to argue what kind of K should I choose so that my plane wave has the same periodicity as any given brevenis.
+ The result is surprising, there are infinite K vectors that obey that property and these K vectors form a lattice in reciprocal space and this lattice is a brevey lattice in reciprocal space.
+ This brevey lattice in reciprocal space is called the reciprocal lattice.
+ So any given brevey lattice has a corresponding brevey lattice in reciprocal space and this is called the reciprocal lattice.
+ So now I will first of all proof my statement and then discuss some of the relevant properties of the reciprocal lattice.
+ So what does it mean that this plane wave has the same periodicity of my lattice?
+ This means that for all r belonging to my brevet lattice, the plane wave shifted by a lattice vector capital R is exactly equal to the plane wave which is unshifted by r.
+ If this is true for all r belonging to a given brevet lattice then I say that my plane wave is periodical with the same periodicity as the starting brevet lattice.
+ Then, by the property of the exponential, this exponential can be written as a product of two exponentials.
+ Exponentials are never identical in zero, so we can simplify both sides of this equality by dividing with respect into the I_k dot r.
+ And we get the mathematical condition that must be obeyed by a given weight vector k.
+ This must hold for all r belonging to a given Brevet lattice.
+ So for all r, hold that for here.
+ Are there questions?
+ Okay.
+ Now, I need some space.
+ Space.
+ Now, in some sense,
+ it is said again that this k belongs to a lattice
+ because it would be very easy to prove that they form a system
+ which is closed under the operation of summing two vectors
+ or multiplying vectors by integer numbers.
+ But I will follow another way to prove my statement
+ by means of what is called a constructive demonstration.
+ So I will construct this object and show that this is a lattice, a breve lattice.
+ Okay? And then this will be even more evident.
+ So, I want to start by three vectors, V1, V2 and V3.
+ And then I will show that my k can be written as a linear combination of these three vectors,
+ with M1, M2 and M3 belonging to Z.
+ And then this will conclude my demonstration, okay?
+ So this is my goal.
+ My goal now is there exist three vectors, V1, V2 and V3,
+ such that all k's obeying this equation are in this form.
+ And then I look and I say, okay, this is a Bravais lattice by definition.
+ A Bravais lattice whose fundamental vectors are V1, V2 and V3.
+ How do I take this V1, V2 and V3?
+ I take V1, S2pi, this will turn out to be very important.
+ A2 vector product A3 divided by A1 scalar product A2 cross product A3.
+ Notice that in the denominator I have the volume of the primitive cell.
+ This is rather important, we shall see that in a while.
+ For the moment I have just noticed this, that this object here, up to a sine, is the volume of the primitive cell.
+ Then I take B2.
+ SA3 cross A1 divided by the same object.
+ And B3 again.
+ So, first of all, physical dimensions.
+ R is a vector in real space, so it's a length.
+ K is a wave vector, so inverse length.
+ Length times length is length square, length times length times length is length cube, square divided by cube is the reciprocal of a length.
+ So these three vectors B have the same dimensions as my K, inverse of a length in physical dimension.
+ Then, first property I want to show. If I take the scalar product of d i times a j, this vector product is 2 pi if i equals j and zero otherwise, which is the connector delta symbol.
+ This property is important to prove this, so let's spend a few words on this problem.
+ For instance, if I take the scalar product of a1 with b1, a1 times b1 scalar product is a1 times this, the numerator is exactly equal to the denominator, times 2 pi, and so we have 2 pi.
+ If I take a1 scalar b2, since this vector is perpendicular to a1, it's zero. If I take a1 times b3, since this vector is perpendicular to a1, I find zero.
+ And the same is true if I take a2, zero, pi, zero. And if I take a3, zero, zero, pi. This is true because of the property of the cyclic
+ permutation of the mixed problem. If I take a1, scalar a2, cross a3, is the same as a2, scalar a3, cross a1. If I make a cyclic permutation, I get always the same. This is the property of the mixed problem, scalar and vector problems.
+ B1, B2, B2, B2, B2, B2, B2, B2, B3. This is just a guess. This way of demonstrating my geo-lemm is not immediate because one question is asked.
+ So one question is, how did you guess? But once you take this for a while, then the rest of the proof is very, very straightforward.
+ There are several ways of proving the same theorem. The other way is to use formal definitions.
+ This is very algebraic, only formal. It's very algebraic, but in my opinion, the physics is hidden somewhere.
+ Here, the physics is much more evident because I am making a basis for my prevail lattice.
+ In formal proofs, you never need to show what the basis for your reciprocal lattice is.
+ It's very formal, but in my opinion, less physical.
+ But of course, if you really want, I think that in the Ashcroft Mermin,
+ at least a hint of the way to prove this theorem in a very algebraic manner is there.
+ So you can go to the Ashcroft Mermin and find this other more formal way to prove the theorem.
+ For the moment believe that if I take this, then this is immediate, straight forward.
+ And then I show that if this is straight forward, then this is straight forward with this.
+ So very simple.
+ So, suppose that I now want to calculate this with k in this form and r in that form.
+ I have to calculate the scalar product.
+ so whenever I add A1, B1 is 2pi, A1 times B2 is 0, A1 times B3 is 0, A2 times B1 is 0, A2 times B2 is 2pi, A2 times B3 is 0 and so on.
+ So here I have two pi, and then n1, n1, plus n2, n2, plus n3, n3.
+ n1 times n1, integer times an integer, times an integer is an integer.
+ The sum of integers is an integer.
+ I saw here in the exponent I have an integer multiple of 2pi.
+ e to the i integer multiple of 2pi is equal to 1.
+ So, all the k vectors forming this Brevet lattice in reciprocal space
+ obeys the properties that guarantee that my plane wave
+ has the same periodicity as the starting Brevet lattice.
+ Now I am expecting a question.
+ Come on, a question.
+ In Italian and then the traduco.
+ Yes, yes, yes.
+ As a matter of fact, the answer is this form is possible because V1, V2 and V3 form a basis in reciprocal space.
+ And actually you can prove that if A1, V2 and V3 are linearly independent, then also V1, V2 and V3 are linearly independent.
+ because V1 has a component perpendicular to the plane formed by A2 and A3, V2 has a component perpendicular to the plane formed by A3 and A1 and V3 has a component perpendicular to the plane formed by A1 and A2, so they cannot all be on the same plane, they form a basis, they are linearly independent.
+ Now, the question: I have shown that all vectors like this, obey this.
+ And then? Are these all the solutions?
+ I must exhibit all the solutions. Those are all solutions.
+ Are those all the solutions?
+ Yes? No? Perhaps?
+ I say it again. I have taken V1, V2 and V3, V4.
+ Kind of magic.
+ I've shown that this property is straightforwardly consequent from the very definition of V1, V23.
+ And that with this property I can prove this.
+ So I have proven that if this is true, then this is true.
+ Now I must prove the converse.
+ And if this is true, the only solution for k is this solution.
+ There are no other solutions, because otherwise the solutions do not form a lattice.
+ There are some solutions that form a lattice and some other solutions that do not form a lattice.
+ So imagine, for instance, that I take a linear combination, say, with the x1, which is non-integer.
+ I take now a vector that is not on a breve lattice, because I take m2 and m3 integers,
+ but x1 is not an integer.
+ Then the expression can't be 1, because now I have here x1, and this
+ expression cannot be 1 for all r in the end. It can be 1 for some.
+ For instance, if x1 is 1 over 2, and I take m1 equal 2, then this is an integer.
+ But I can take m1 equal 1 or 3 or 5, and with m1 equal 1 or 3 or 5,
+ this product is not an integer.
+ Since it must be an integer for all r in the Braggartis,
+ then this cannot be.
+ So the only solutions are the solution with integer coefficients, m1, m2, and m3.
+ And this completes now the proof.
+ Also, I have written N1 is N1.
+ Yes, 1 was in the place of N1, not N1.
+ N1 is 1.
+ Sorry.
+ So, this is a very, very impressive, in my opinion, result.
+ All Brevet lattice have a Gauss sibling which is a reciprocal lattice.
+ The two lattices live in two different spaces, one in real space and the other in reciprocal space,
+ but they are connected one to one in correspondence.
+ And this is the object of the next theorem, which is rather easy to prove.
+ The reciprocal lattice of the reciprocal lattice is the original private lattice.
+ The proof is immediate, because now I want to find all, let me use for the moment a different symbol, some curly R, such that
+ for all K belonging to the reciprocal lattice. I want to find the reciprocal of the reciprocal lattice, the set of all curly R, such that
+ this plane wave in reciprocal space has the same periodicity of my reciprocal space. This is the reciprocal of the reciprocal lattice.
+ Now, it's evident that all the r in that form obey this equation, because the case of the case such that this equation is true.
+ So, the only question is: is it possible to have a curly r that is not in that form?
+ And then the truth is the same as before.
+ Suppose that I take an integer coefficient here for my curly r.
+ I go here, use this property again, and this cannot be one for all keys.
+ The other keys belonging to the reciprocal lattice.
+ So, there cannot be solutions for curly r that do not belong to the original lattice.
+ All the solutions for curly r coincide with my original breve lattice,
+ which means that the reciprocal of a given breve lattice is the original breve lattice.
+ So there is a one-to-one correspondence and this is very important that the correspondence is one-to-one.
+ I have a question.
+ Yes, please do ask.
+ The way we define B1, B2, B3.
+ Yes.
+ Is this a special situation or is this the Bravier, no, the reciprocal lattice vectors for all the lattices?
+ So, I'll try to restate your question in a way that everybody might understand it.
+ So, the question is, okay, you have proven your theorem starting with a peculiar choice.
+ This is enough for the proof because I exhibited a vector that is a linear combination of this V1, V2, V3 that I guessed.
+ with integer coefficients.
+ So this is a breve lattice by definition.
+ Now the question is, this V1, V2 and V3 are written there forever to stay or not?
+ The question is that once you prove that this is a reciprocal lattice, then, as I told you, the choice of the primitive vector in a reciprocal lattice is not unique.
+ You can describe this reciprocal lattice by a different set of vectors, d1 prime, d2 prime, and d3 prime.
+ And this choice actually is very arbitrary. You have infinite solutions for d1 prime, d2 prime, and d3 prime that form the same reciprocal lattice.
+ So this way of demonstrating my theorem is I would say more intuitive because it's not deeply algebraic but of course at the expenses of having apparently a given form for my basis vectors for my fundamental vectors of my reciprocal lattice.
+ But then we know that the choice of the fundamental vector of any breve lattice is not unique and so in fact you can make a different choice.
+ So this is not the only choice you can make but with this choice the proof of the theorem is straightforward.
+ But I think this choice doesn't always applies for all reciprocal lattices.
+ It does.
+ Because in this way how we define b1, b2, b3, they are e2 and e3, we suppose that they are orthogonal to a1, for example.
+ No, no, no, no, I never used that a2 and a3 are orthogonal to a1, I never used this.
+ Because if we looked at the equation at the right, bE multiplied by, yes, and the way we get b1 is cross product of a2 and a3.
+ So to get that we are orthogonal.
+ I don't get your point, so I think it's better if we go and then you wait for me till the end of the lecture, because this is really, I am not assuming that a b1 is parallel to a1.
+ I have never written this, never. I have written that the component of b1 along a1 is 2pi, which is different.
+ I have never said that b1 is parallel to a1. No way, I have never used this.
+ Okay, thank you.
+ I only use that there is a component of b1 along a1, and that this component is exactly 2pi if I take b1 as this vector.
+ But I'm not saying that b1 is parallel. This is completely different.
+ Okay, and this is important in some cases. So, now I want to make some examples before we go further.
+ So, what is the reciprocal lattice of a simple cubic?
+ So, simple cubic is a lattice where a1, a2 and a3 form angles of 90 degrees and are all of equal length.
+ In this case, we can take as a reference frame, of course this is arbitrary, but we can take a1 along the x-axis,
+ a2 along the y-axis and a3 along the z-axis. This is a very reasonable choice, it's not the only choice, but it's a very reasonable choice to simplify the calculation.
+ Then we can write a1. Do you prefer the notation of vectors in terms of their components or in terms of the unit vectors?
+ If you are more familiar with one notation, I can write this vector in this form.
+ Or, which is the same, a unit vector i plus zero unit vector j plus zero unit vector k.
+ This is the same way of writing the same method.
+ So do you prefer this notation or this notation?
+ I can use both, but...
+ Oh, and different.
+ Okay, different.
+ So, I will use this.
+ Okay, here I write both and then I use only the latter.
+ A2 is zero a zero, which is a j,
+ and a3 is zero zero a, which is a unit vector k,
+ where i is the unit vector of the x-axis,
+ j is the unit vectors of the y-axis,
+ and k is the unit vector of the z-axis.
+ Then let us first calculate the volume
+ of my unit cell,
+ which by the way is the denominator
+ in the expressions for b1, b2 and b3,
+ so we need this calculation anyway.
+ So, a2 cross a3
+ is a times a, a2
+ j cross k.
+ What is j cross k?
+ i.
+ a times a2 is a3
+ and then I have i.i
+ i.i is 1
+ and the volume
+ of the cube is a3
+ very amazing
+ ok, this is the volume of my cube
+ then let's calculate b1
+ b2 and b3
+ b1
+ is 2pi
+ divided by the volume
+ a3
+ and then I have
+ a2
+ cross a3
+ a2 cross a3
+ a2 cross a3 is j cross k
+ which is pi
+ so this is 2pi
+ a2
+ divided by a3
+ is a
+ in the denominator
+ i
+ b2
+ i have to calculate
+ a3 cross a1
+ k cross i
+ is j
+ this is why it's important to have a cyclic permutation
+ and so i have 2 pi
+ over a j
+ and finally
+ a1 cross a2
+ is i cross j
+ which is k
+ and so b3
+ is 2 pi
+ over a times k
+ what lattice is this
+ those are the fundamental vectors of the lattice
+ what lattice is this
+ it's cubic
+ because all the b's
+ are orthogonal
+ and the same length
+ so
+ if the brevet lattice is cubic
+ of side
+ a
+ the reciprocal lattice
+ is cubic
+ of side
+ 2pi
+ over a
+ what is the volume of the unit cell
+ in reciprocal lattice
+ is 2pi over a cube
+ and this 2pi
+ divided by
+ the volume
+ of the primitive cell in real space
+ this theorem
+ is always
+ true, now we have proven
+ this only for the cubic
+ but in a while I will prove you
+ for a general lapse
+ so this is always true
+ if the volume
+ of the primitive cell is
+ v
+ the volume
+ of the primitive cell
+ in the reciprocal lattice is 2piq
+ divided by v and this is
+ general theorem
+ no
+ the question is this result
+ does not depend on the peculiar choice
+ I made for me
+ it doesn't, I can prove this
+ irrespective of v1, v2 and v3
+ of course this is a very
+ natural choice
+ so I would always recommend
+ to make this choice
+ but if you were to make another choice
+ for your v1, v2 and v3
+ provided they are primitive vectors
+ of the reciprocal lattice
+ you can change the form of the primitive
+ cell but you can never change the volume
+ of the primitive cell
+ the form you can change because you can skew it
+ but you can never change the volume
+ because each unit cell, each primitive cell
+ in reciprocal space
+ must accommodate one point
+ in reciprocal space
+ okay
+ now suppose I take a face centered cubic
+ suppose my brevet lattice is FCC
+ the reciprocal lattice is what?
+ hexagonal
+ PCC
+ well if it is the same symmetry so it's cubic but not the same kind of cube so it will not be FCC
+ okay let's calculate
+ it will be DCC
+ and vice versa
+ because the reciprocal of the reciprocal is the initial
+ so if the FCC is the reciprocal of the BCC
+ then the BCC is the reciprocal
+ of the FCC
+ this is very, so let's prove
+ that this is BCC
+ so let me start with my cube
+ this is face centered
+ and we must now take
+ the primitive vectors of my FCC
+ so if I take
+ the origin at one vertex
+ let me call A
+ the side of the conventional unit cell
+ this is the conventional unit cell
+ if I take this corner as the origin
+ then I have three points
+ I made them in pink
+ one on the side of the unit cell
+ and I have three points
+ I made them in pink
+ one on the center of this phase
+ one in the center of this phase
+ and one in the center of this phase
+ and I can choose these three vectors
+ a1
+ a2
+ and a3
+ as my primitive vector of my FCC lattice
+ so first of all I write a1 a2 and a3
+ okay let's make another choice which is here
+ so let's focus for instance on a1
+ i put a1 on the y-z plane
+ so i am calling this a1, it's simpler
+ and a1 has a component of half the length of my side on the y axis
+ and half the length of my side on the z axis
+ so it's a/2 y component and a/2 z component
+ this is a possible choice, not the unique choice
+ but it's definitely a good choice
+ first of all I want to calculate the volume of the unit cell
+ this is a nice exercise because I want to show that the volume of the unit cell is exactly what it must be
+ because now we know that in the conventional unit cell there are how many lattice points?
+ there are 3 plus 1 for it in the phase century
+ 1 for the corners and 3 for the 6 phases
+ so the volume of my unit cell, primitive cell, must be 1/4 of the volume of the cube
+ let's prove these results
+ first a2 cross a3
+ a over 2 times a over 2 is a square over 4
+ and then I have k cross i
+ k cross i is j
+ k cross j
+ thank you
+ i cross i
+ k cross j
+ and then I have to make a1
+ scalar this product
+ a1 is a over 2
+ so I have a cube over 8
+ And then I have J star J, J dot J, one, J dot I, zero, J dot K, zero, K dot J, zero, K dot I, zero, K dot K, one.
+ One plus one is two, eight divided by two is four, AQ over four, four times smaller than the volume of my conventional unit set.
+ This must be, so there is no surprise in this result, but I think it's useful if you get used to this by calculating and realizing.
+ Once you are confident with this, you do not need to calculate, but please first be confident that this is always the case.
+ This is the correct result, it must be, okay?
+ So we know now what we have in the denominator, for B1, B2 and B3, I write here the result.
+ Then let's calculate B1, B2 and B3.
+ B1 is 2 pi times 4 divided by A2 and then A2 cross A3.
+ A2 cross A3, A over 2 times A over 2 is A squared over 4.
+ And then I have K cross I, K cross J, I cross I zero, I cross J K.
+ B2, A3 cross A1, I cross J, I cross K.
+ J cross J, J cross K, I.
+ You know now the pattern.
+ This is B1, I comes with a minus sign, J and K come with a plus sign.
+ This is the second component, J comes with a minus sign, K and Y come with a plus sign.
+ Now guess the third component before calculating.
+ First guess and then we calculate.
+ Okay, let's try.
+ We calculate the one and two.
+ So, J times K is I.
+ J times I is minus K.
+ K times K is zero.
+ K times I is plus J.
+ Okay, this is the factor.
+ Now, I made the simplification.
+ These four drops and this is the first power.
+ And so this is the final result.
+ What kind of lattice is this?
+ Now you know the primitive vector, you must figure out the lattice.
+ It's cute because...
+ It's cute.
+ Yeah.
+ So, since it's cubic there are three possible choices.
+ We know that in the cubic symmetry there are three different boundaries.
+ One is the simple and this is not a simple.
+ One is the FCC we started with and this does not look to be FCC.
+ So let's see if this can be a BCC.
+ Let's imagine to have a cube of side B in some space.
+ I want this to be the reciprocal.
+ Now I have this as the origin and then I have one point exactly at the crossing point of the diagrams.
+ So I can choose this one as a possible lattice vector
+ and then I can choose the other to be in different cubes, okay?
+ So let's first see the length.
+ This has a projection B/2 along X along Y and along Z.
+ So this must be B/2, the size of my cell divided by 2 along X along Y along Z.
+ Then of course instead of taking this, which has positive X, positive Y and positive Z,
+ we can take one that has positive X, positive Y and negative Z direction
+ and we call this B3.
+ And then we take other two, and the best choice, just to remember, other choices are possible, but if you want to keep track, it's very easy to choose that when I'm taking the third, k comes with a minus and the other comes with a plus.
+ And then this is positive x and y and negative z, this is positive z and x and negative y, and this is positive y and z and negative x, they form a tripod, and this tripod is the tripod of my BCC lattice.
+ Since this is B over 2, my volume of the original cell
+ is a conventional unit cell with side 4pi over A.
+ So if I start with a conventional FCC cell of side A, I get a conventional BCC cell of side 4pi over A.
+ I leave to you as an exercise that if I calculate the volume of this primitive cell, you get 2pi cubed divided by the volume of the primitive cell.
+ This is a very simple exercise because now you have to calculate B1 times B2 cross B3.
+ It would be B1, B2 and B3 this and then you can prove that this volume is as always 2 pi cubed divided by the volume in real space which is nothing but it was written some day here.
+ I leave you also as an exercise but please try to do this and then we can discuss the result of making the other way around.
+ So you start from a BCC in real space, which is now this with A over two.
+ So you can take, I will give you only the starting point.
+ If now you start to do the BCC.
+ Receive program with me of course FCC but try to do, just warm up.
+ And for the BCC you can choose A1 equal A side of the conventional unit, the big one, times J minus I plus K.
+ A2 equal A over 2, K minus J plus I and A3 equal A over 2, I minus K plus J.
+ If you start with this tree and you calculate now B1, B2 and B3, you will find out that B1 and B2 and B3 are the primitive vectors of an FCC.
+ Offside for priority, whose previous conventional set is again offside for priority.
+ One last word and then I set you free, a very crucial concept is
+ the Wigner-sized cell in reciprocal lattice.
+ As we shall see this object has a very crucial role in condensed matter theory, so it is given a name.
+ Without this object, the first Brillouin zone.
+ So I say it again. In general, in reciprocal space, we face the same problem as in real space.
+ Sometimes the primitive cell has all the symmetries of the lattice, sometimes it doesn't.
+ In the case where it doesn't, we can adopt two choices.
+ Either we take a conventional cell, and then the conventional cell shows all the symmetries of the lattice,
+ or we take a Ligner-sized cell, which is at the same time primitive and proportional.
+ So this Ligner-sized cell in reciprocal space is given at me and it's called First Reliant Zone.
+ First Reliant Zone.
+ First Reliant Zone.
+ First Reliant Zone.

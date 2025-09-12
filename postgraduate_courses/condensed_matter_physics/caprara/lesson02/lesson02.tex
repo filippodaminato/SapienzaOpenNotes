@@ -1,0 +1,99 @@
+\section{Lezione 2: Reticoli, Celle e Reticolo Reciproco}
+\label{appendix:lesson02}
+
+\subsection{Richiamo della Lezione Precedente}
+
+Nella lezione precedente abbiamo introdotto il concetto di \textbf{reticolo di Bravais}, un'astrazione geometrica che descrive la periodicità di un cristallo. Un reticolo di Bravais è un insieme infinito di punti discreti, tale per cui l'ambiente circostante a ciascun punto è identico a quello di qualsiasi altro punto. Matematicamente, dato un set di tre vettori non complanari $\underline{a}_1, \underline{a}_2, \underline{a}_3$, detti \textbf{vettori primitivi}, ogni punto del reticolo può essere raggiunto da una combinazione lineare a coefficienti interi di questi vettori.
+
+\begin{equation}
+    \underline{R} = n_1\underline{a}_1 + n_2\underline{a}_2 + n_3\underline{a}_3, \quad \text{con } n_1, n_2, n_3 \in \mathbb{Z}
+\end{equation}
+
+Una proprietà fondamentale di ogni reticolo di Bravais è che gode di \textbf{simmetria di inversione}.
+
+Abbiamo anche definito la \textbf{cella primitiva}, che è il volume di spazio (un parallelepipedo) costruito sui vettori primitivi. Ripetendo questa cella nello spazio tramite le traslazioni reticolari, si può tassellare l'intero spazio senza lasciare vuoti né creare sovrapposizioni. Per costruzione, ogni cella primitiva contiene esattamente \textbf{un punto} del reticolo. Il volume della cella primitiva è indipendente dalla scelta (non unica) dei vettori primitivi ed è dato da:
+
+\begin{equation}
+    v = |\underline{a}_1 \cdot (\underline{a}_2 \times \underline{a}_3)|
+\end{equation}
+
+In tre dimensioni, esistono 7 sistemi cristallini, che danno origine a un totale di 14 reticoli di Bravais.
+
+\subsection{Cella Convenzionale}
+
+In alcuni casi, la cella primitiva, pur essendo la scelta più fondamentale, non rende immediatamente evidenti tutte le simmetrie del reticolo. Per questo motivo, spesso si preferisce utilizzare una \textbf{cella convenzionale}. Questa è una cella, non necessariamente primitiva, scelta in modo da manifestare in modo chiaro la simmetria del reticolo.
+
+Un esempio è il \textbf{reticolo esagonale} in 3D. La sua cella primitiva è un prisma a base rombica (un parallelogramma con angoli di 60° e 120°). Questa forma non ha un'evidente simmetria esagonale. Tuttavia, se uniamo tre di queste celle primitive, otteniamo un prisma a base esagonale regolare, che mostra chiaramente la simmetria del reticolo. Questa è la cella convenzionale esagonale. Poiché è composta da 3 celle primitive, contiene 3 punti di reticolo. Possiamo verificarlo contando i punti appartenenti alla cella: ci sono 12 vertici (6 sopra e 6 sotto), ciascuno condiviso da 6 celle adiacenti, e 2 punti al centro delle basi esagonali, ciascuno condiviso da 2 celle.
+
+\begin{equation}
+    N_{\text{punti}} = \left(12 \times \frac{1}{6}\right)_{\text{vertici}} + \left(2 \times \frac{1}{2}\right)_{\text{centri facce}} = 2 + 1 = 3
+\end{equation}
+
+Un altro esempio fondamentale è il reticolo \textbf{cubico a facce centrate (FCC)}. La sua cella convenzionale è il cubo. Contiene 8 punti ai vertici (condivisi da 8 celle) e 6 punti al centro delle facce (condivisi da 2 celle), per un totale di 4 punti reticolari.
+
+\begin{equation}
+    N_{\text{punti}} = \left(8 \times \frac{1}{8}\right)_{\text{vertici}} + \left(6 \times \frac{1}{2}\right)_{\text{centri facce}} = 1 + 3 = 4
+\end{equation}
+
+\subsection{Cella Primitiva di Wigner-Seitz}
+
+Esiste una costruzione che permette di ottenere una cella che è sia primitiva (contiene un solo punto reticolare) sia convenzionale (mostra la piena simmetria del reticolo). Questa è la \textbf{cella di Wigner-Seitz}. La procedura per costruirla è la seguente:
+\begin{enumerate}
+    \item Si sceglie un punto del reticolo come origine.
+    \item Si tracciano i segmenti che congiungono questo punto con tutti gli altri punti del reticolo (in pratica, bastano i primi e talvolta i secondi vicini).
+    \item Si costruiscono i piani perpendicolari a tali segmenti, passanti per il loro punto medio.
+\end{enumerate}
+La regione di spazio più piccola racchiusa da questi piani è la cella di Wigner-Seitz. Per un reticolo esagonale, la cella di Wigner-Seitz è un prisma a base esagonale; per un reticolo BCC è un ottaedro troncato.
+
+\subsection{Reticoli con Base}
+
+Finora abbiamo parlato di reticoli, che sono enti puramente geometrici. Un cristallo reale si ottiene associando a ogni punto del reticolo un gruppo di atomi (o ioni, o molecole), detto \textbf{base}.
+
+\begin{equation}
+    \text{Cristallo} = \text{Reticolo di Bravais} + \text{Base}
+\end{equation}
+
+La posizione di un atomo nel cristallo è data dalla somma di un vettore del reticolo $\underline{R}$ e un vettore di posizione $\underline{d}_i$ che descrive la posizione dell'atomo $i$-esimo all'interno della base, rispetto al punto reticolare.
+
+Un esempio di struttura che \textbf{non} è un reticolo di Bravais è il \textbf{reticolo a nido d'ape (honeycomb)}, la struttura del grafene. Se ci posizioniamo su un atomo e guardiamo l'ambiente circostante, questo non è identico all'ambiente che vedremmo da un suo primo vicino (le direzioni dei legami sono ruotate di 60°). Pertanto, non tutti i punti sono equivalenti e non può essere un reticolo di Bravais. Tuttavia, possiamo descriverlo come un \textbf{reticolo esagonale con una base di due atomi}.
+
+Un altro esempio è il \textbf{Cloruro di Sodio (NaCl)}. La sua struttura può essere descritta come un reticolo \textbf{cubico a facce centrate (FCC)} con una base di due ioni: uno ione Na$^+$ in posizione $(0,0,0)$ e uno ione Cl$^-$ in posizione $(\frac{a}{2}, \frac{a}{2}, \frac{a}{2})$ rispetto al punto reticolare, dove $a$ è il lato della cella cubica convenzionale.
+
+\subsection{Il Reticolo Reciproco}
+
+Il concetto di \textbf{reticolo reciproco} è uno strumento matematico potentissimo, indispensabile per descrivere fenomeni come la diffrazione dei raggi X e le proprietà elettroniche dei solidi. Dato un reticolo di Bravais nello spazio reale (o "diretto"), descritto dai vettori primitivi $\underline{a}_1, \underline{a}_2, \underline{a}_3$, si definisce un corrispondente reticolo nello spazio reciproco (o "spazio k"), i cui vettori primitivi $\underline{b}_1, \underline{b}_2, \underline{b}_3$ sono dati da:
+
+\begin{align}
+    \underline{b}_1 &= 2\pi \frac{\underline{a}_2 \times \underline{a}_3}{\underline{a}_1 \cdot (\underline{a}_2 \times \underline{a}_3)} \\
+    \underline{b}_2 &= 2\pi \frac{\underline{a}_3 \times \underline{a}_1}{\underline{a}_1 \cdot (\underline{a}_2 \times \underline{a}_3)} \\
+    \underline{b}_3 &= 2\pi \frac{\underline{a}_1 \times \underline{a}_2}{\underline{a}_1 \cdot (\underline{a}_2 \times \underline{a}_3)}
+\end{align}
+
+Dalla definizione, si nota che $\underline{b}_i$ è ortogonale ad $\underline{a}_j$ se $i \neq j$. Più precisamente, vale la relazione:
+\begin{equation}
+    \underline{a}_i \cdot \underline{b}_j = 2\pi \delta_{ij}
+\end{equation}
+dove $\delta_{ij}$ è la delta di Kronecker.
+
+Un generico vettore del reticolo reciproco, $\underline{G}$, è una combinazione lineare a coefficienti interi dei vettori primitivi reciproci:
+\begin{equation}
+    \underline{G} = h\underline{b}_1 + k\underline{b}_2 + l\underline{b}_3, \quad \text{con } h, k, l \in \mathbb{Z}
+\end{equation}
+
+Una proprietà fondamentale che lega i due reticoli è che una funzione $f(\underline{r})$ che ha la stessa periodicità del reticolo diretto (cioè $f(\underline{r}+\underline{R}) = f(\underline{r})$) può essere espansa in serie di Fourier usando come frequenze spaziali i vettori del reticolo reciproco:
+\begin{equation}
+    f(\underline{r}) = \sum_{\underline{G}} f_{\underline{G}} e^{i\underline{G}\cdot\underline{r}}
+\end{equation}
+Questa proprietà discende dal fatto che $e^{i\underline{G}\cdot(\underline{r}+\underline{R})} = e^{i\underline{G}\cdot\underline{r}}e^{i\underline{G}\cdot\underline{R}}$. Perché la funzione sia periodica, $e^{i\underline{G}\cdot\underline{R}}$ deve essere uguale a 1 per ogni $\underline{R}$ e $\underline{G}$. Questo implica che $\underline{G}\cdot\underline{R}$ debba essere un multiplo intero di $2\pi$.
+
+\subsubsection*{Esempi di Reticoli Reciproci}
+\begin{itemize}
+    \item Il reticolo reciproco di un reticolo \textbf{cubico semplice (SC)} di lato $a$ è un altro reticolo cubico semplice di lato $2\pi/a$.
+    \item Il reticolo reciproco di un reticolo \textbf{cubico a corpo centrato (BCC)} è un reticolo \textbf{cubico a facce centrate (FCC)}.
+    \item Il reticolo reciproco di un reticolo \textbf{cubico a facce centrate (FCC)} è un reticolo \textbf{cubico a corpo centrato (BCC)}.
+\end{itemize}
+
+\subsection{Prima Zona di Brillouin}
+
+Così come nello spazio reale, anche nello spazio reciproco possiamo definire celle primitive e convenzionali. La cella primitiva di Wigner-Seitz costruita nel reticolo reciproco prende il nome speciale di \textbf{Prima Zona di Brillouin}.
+Questa zona ha un'importanza fisica capitale: contiene tutti i vettori d'onda $\underline{k}$ unici necessari per descrivere le onde (come gli elettroni o le vibrazioni reticolari) all'interno di un cristallo. Ogni $\underline{k}$ al di fuori della prima zona di Brillouin è equivalente a un $\underline{k}$ al suo interno, a meno di una traslazione di un vettore del reticolo reciproco $\underline{G}$.

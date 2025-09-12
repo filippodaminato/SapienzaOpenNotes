@@ -1,0 +1,1204 @@
+ I remind you what is set up, so inside we have a receptor, so that we can measure the current
+ in the membrane, the receptor's membrane, the receptor's membrane, as a function of time,
+ and the kind of experiments that were performed were experiments where a torch was turned
+ on and off with a regular light density and the factor of the electric current, the membrane, was recorded.
+ So, in general, okay, this is IoT, in absence of any light, okay, the current fluctuates, and we said that this is the overall value, the average value of the current,
+ which is 0 to 20 p compared, and this fluctuation of the order of 0 to 1 p compared, okay, and then what happens is that when the torch is turned on, let's say that it's turned on here, what happens is that the current increases, okay, but in papers related to this experiment, the clock gave minus the variation of the current, so it's like a positive bump, it would be in reality at a
+ negative bump, ok, something like this, and they repeated this on and off of the torsion several times, ok, and maybe sometimes there was no signal, the most part of the time there were peaks of the order of one peak on pair, ok, and sometimes there were two peaks of the order of two peak on pair and so on, so the interpretation of this pattern
+ here is that in some cases the photoreceptor absorbs one photon, and this is the minimum job that determines when one photon is absorbed, sometimes it absorbs two photons and so we have a larger bundle, sometimes it absorbs zero photons and so nothing happens, ok, actually we see that it's slightly more complicated than that, but let's say that this is the intuition
+ we will have by looking at the speech. Then this is the current as a function of time, ok, but what we can do, we can also take a different approach and let's forget about the time, just look at all the possible values of the currents that have been realized during this experiment and plot the histogram of these values of the current, ok, so in this way we will come to the distribution probability to get
+ a certain value of the time, ok, and if we do this we find something like this, so these points are these data points, ok, this is more or less what happens, so we have this curve, so this is the distribution probability of the current, ok, we have this curve and this curve has sort of three bumps, a very low latency, but if we still decrease the
+ density of the light maybe this third one is not even visible, if we increase the density maybe we see some other bumps, so actually the precise shape depends on the light intensity, ok, and we rationalize this behavior with a very simple model and we say ok, we know that the absorption process is a quantum process, so there is a priori probability to absorb or not absorb a certain
+ number of photons, and this is a possible distribution, it is like this, where M is the mean number of the photon given at the intensity of the light, so this is proportional to the intensity of the torch.
+ Then we also know that even in absence of this external signal there are fluctuations, so for example let's look at this time series in absence of any external stimulus, in that case the distribution of this signal will be a portion, this is the simplest thing that we can assume, it is also consistent with the data, so we said,
+ in the case where there are zero photons, the distribution of probability is a Gaussian of the current, and this Gaussian will be peaked around the stationary value when we compare, ok, with a certain variance, and this variance will be 0,1, as we already discussed, and then there will be the normalization, ok, then we also assume
+ that a similar functional form is also good when looking at the distribution probability of the current when there is just one photon absorbed. So we assumed that the distribution of the current when one photon is absorbed is again a portion, of course it will be
+ centered on a different value. Because if you just look at this pattern here where you have one pump, on average the current will be around 20+1 compared. So there would be a different mean value and a different function that we wrote as the variance that we had before plus some increment.
+ Very good and then we assumed the same functional form also for larger values of n okay where each time that we add one photon the increment of the mean carbon increases by one because we just saw from the experiments that all these bumps occur on a multiple scale of one thing okay and then we said okay let's assume this if we assume this what would be the resulting POI
+ well the resulting POI will just be by using the probability formula it will just be the probability of getting a guy in presence of a certain number of photos by probability that that number of photos after it occurs okay and if we plug inside this POI this expression here
+ and the gaussians for this mass here what we will get the prediction will be a term which is like this okay so this very simple scenario is perfectly consistent with the data okay so that's very nice okay and why is it like that you need to understand that formula here you need to remember
+ each of these volumes here is a Gaussian okay and they are they are centered on different values of i so therefore for example let's plot to the Gaussian corresponding to zero volumes okay so this is this value here is e-station okay this is i-stationary plus i1 and so on okay so this
+ this first Gaussian is a Gaussian that's centered on the variant e-station so it would be something like
+ this okay with a certain variance okay then we would have another Gaussian okay and the other
+ Gaussian would be one centered on i1 so let's say that here we have i1 we would have another Gaussian
+ this other Gaussian would probably be a little bit broader okay because the variance probably is a little bit broader
+ but i mean if you just draw Gaussian it would be something like this maybe a little bit broader okay
+ but it's not like that why it's not like that because each Gaussian is weighted with this weight
+ okay so what is this weight let's try to see p of n equal to zero which is the weight of this Gaussian here
+ okay that would be what that would be e to the minus m that's okay so this is the weight of the first Gaussian
+ okay then let's look at the weight of the second Gaussian p of n with n equal to 1 that would be e to the minus m
+ m that's it okay so let's say that we are at very low light intensity remember that m is the mean
+ value of absolute photon if we are very low light intensity this number is smaller than one okay so
+ let's say that is that it is i don't know this is the smaller the lower is the intensity let's say
+ that it is 10 to the minus one okay so this means that this second portion is weighted less than the first one
+ so i should not write it like this i should weight multi-character by 10 to the minus one so this portion
+ would be something like this okay because it is weighted without a lower weight and the same
+ amount for m equal to the more okay because in this case some way plus e to the minus m
+ m squared divided by two just look at that so it is the order 10 to the minus two actually
+ 10 to the minus three because that would be one so this would be even though it is centered
+ on two i1 sorry i2 which is i stationary plus two this is i stationary plus one people pair this is
+ the stationary plus plus two people okay so it's twice the distance from i stationary
+ but it is even lower so it could be something like this okay so if we now draw the angle of
+ all these curves we get this okay just precisely to the group okay
+ thank you um so what does the how can we interpret this so um okay you need to think
+ that the information that the receptor
+ passes by to the other layers of cells is the current okay so somehow the value of the current
+ should contain some information of the signal okay because this is the information that then it's
+ passed on and that writes so when at the end of the last lecture i said okay
+ then if this is the information that is passed by this current should be somehow
+ should contain in effect for the way the information about the outside signal okay
+ in particular the way that this current is transmitted and
+ it's elaborated by the other layers of cells should be such that i may want to discriminate whether there is
+ something outside of the cell there is light or there is no light and we commented about the fact that
+ the certain values of the current come up clearly for example if the current is here okay if i take
+ this value of the current clearly this value of the current can only correspond to zero photon
+ okay so there is no light inside so it's an anonymous value of the current so this value of the current
+ really has some precise information even though the signal is noisy because there are fluctuations
+ everywhere I'm happy with this value of the current because I mean I can say this value of the current
+ has a very clear meaning it means there's no light outside okay and again if I find the value of the
+ current here okay that's the same thing okay I can associate this value of the current to the presence of
+ life okay maybe if I have to decide it's one photo or two photos I mean I can think a little bit about that but clearly it's not zero photo because you see the distribution probability around the zero photo case is very fast from the value of the current that I consider okay however there are values of the current that are ambiguous okay so let's say for example that I take a value of the current which is here okay this
+ the value of the current could correspond to the zero case the n equal zero case but it could also correspond to the n equal one case okay because this value lies in the support of the distribution probability of finding a certain value of the current in the zero case and in the one case these two portions okay so we can ask what does our photoreceptor do in this case we will
+ see that from a more biological point of view we will see that later on okay but for the time being I asked you at the end of the last lecture what would you do okay if I give you this value of the current and I ask you there is light and there is light or there is no light what would you answer and the most of you said here I would answer no light if I take a value here I would answer there is light okay so now I would
+ like to show you that the answer that today is actually the most reasonable answer so you perform this computation immediately just by looking at the drawing but we can mathematically find out that this answer this reply is precisely one that minimizes the error of the probability of committing an error of a mistake okay and then let's see how we can do that so a strategy
+ one can adopt okay is the following we can say okay let's say that i simply decided that there is a threshold okay and i call this threshold theta that's the simple strategy of one can adopt
+ okay so there is a threshold theta and this threshold is such that if i is larger than theta i say that there is light okay therefore n is larger than one okay and if i is smaller than theta i say there is no light okay so n q okay very good
+ so what is it that i commit a mistake first of all given this strategy let's start when do i perform a mistake when i say that i say that n is equal to the larger than one n in reality
+ okay n is equal to zero okay so this will mean a mistake okay likewise i say n equal to zero okay and in reality n is larger than one or equal to one
+ so let's make things even simpler let's say that the low light intensity is so low of the light that i either have zero or one okay from n equal to two and above they are very red so i discover so here i can just equal this so now i want to compute the probability of making the mistake okay
+ so i have two ways of making a mistake let's look at the first one i need to compute the probability that i say n=1 given that the true is that n=0 okay and the second case corresponds to the probability that i say
+ n=0 and actually there is one more okay so how then i have to sum these two probabilities okay but first before summing that two probabilities because they are two different ways of performing that unstable okay let's express mathematically these two probabilities okay these two probabilities well if i use a threshold as a
+ criterion to say yes or no this probability would be the integral from theta to infinity in the i of the probability to get a current i when n is equal to t okay because i say remember that the threshold is such that i say
+ that there is there is light every time i is larger than tau so for every current larger than tau my criterion tells me that there should be some photon on the side okay so i have to sum over all these possibilities so there are all the possible values of i larger than the threshold i chose okay likewise the second case it will be the probability from theta to minus infinity
+ to the i of t of i and equal to 1. I express these two probabilities in this formal way then the probability of making a step and making an error would be the sum of the two okay so it would be let's say the first one the integral let's write it formally first the probability of saying
+ n equal to one condition to the fact that n equal to zero but then I have to do it like this and probability that actually n is equal to zero okay and then I need to sum the second the contribution okay
+ which is the probability to say n equal to zero and one, three of them okay this is the probability of the probability data now this probability actually depends on the threshold that we chose okay and why is that because these two conditional probabilities depend on theta
+ so these two functions this one and this one are functions of theta so let me put a small theta here to remember that these are functions of theta
+ okay therefore also global probability is a function of theta okay very good therefore what can I say that the best strategy that I can use is the one that minimizes the error
+ the probability of performing error therefore I wrote my probability of performing error it depends on this value of theta I just find the minimum of this probability so what do I do? I take the derivative of P with respect to theta and I set it P equal to 0.
+ And in this way I will find the value of theta for which this condition is satisfied allows me to find the optimal choice for my pressure theta.
+ Ok? Yes.
+ In that expression we are fissing a soya and saying that the integral is the area of the caussian.
+ I'm saying this, I mean I have a pressure and I say that every time that the signal is larger than the set, the distraction, I have light. Otherwise I don't have light.
+ Clearly, if I set the seat at discretion 2 on the left, I perform a mistake because I would say that there is light in many cases where there are actually zero points.
+ Likewise, if I set the seat at discretion 2 on the right, I would perform a mistake, an error,
+ because there's a lot of values, there are a lot of values of the current which basically correspond to non-zero.
+ So I need to choose the optimal value of expression.
+ So let's try to see what is this optimal value of expression.
+ Let's perform the double expression.
+ So let's try to see what is this optimal value of expression.
+ Let's do this.
+ To be of theta, say M equals one.
+ Position zero.
+ We have N equals zero, but the same in the opposite expression.
+ We have N equals zero, and we have N equals one.
+ Okay, and this should be equal to zero.
+ Okay, so now, the only thing is that we have theta is this.
+ So let's take the derivative of this first expression.
+ Let's go and see what is this first expression.
+ This first expression is this one, okay.
+ So I take the derivative, and if I take the derivative, what do I find?
+ I find the minus pi of theta and equal to zero, okay.
+ So this would be minus p of theta and equal to zero, p of m, okay.
+ And for the other probability, okay, that's the other way around, so I will find the plus.
+ p of theta m equal to 1, p of m equal to 3, okay.
+ And this should be what it is, okay.
+ And so what do I get, theta star, the condition that determines theta star is that p of theta m equal to 1,
+ m equal to 0, p of m equal to 0 should be equal to p of theta m equal to 1, p of m equal to 1.
+ And what is the value of the current that satisfies this condition?
+ It's precisely this one.
+ Because it is the crossing point of the two weighted notions, so it is precisely this.
+ So the threshold would be here.
+ Precisely as you said it the other day.
+ So immediately your answer to the question was precisely to estimate the point where the probability of performing an error was the lowest one.
+ Of course this is not the reasoning that the photoreceptor does.
+ But it is just a way to tell you that there is a problem of ambiguity of associating the current with the outside reality.
+ And that somehow the whole mechanisms of photoreception should be done.
+ Okay, so now let's go back to this experimental figure and to the results of our experiments on a single photoreceptor.
+ And let's combine them with what we know from the experiments of FMPN that were performed on O2MAS.
+ Okay, if you remember, when we discussed these first experiments, we said that if you look at experiments performed on real persons,
+ one would conclude that the probability to see is just the sum, okay, of the from n equal to k infinity, okay, of the probability of having n for other persons.
+ Okay, this is, and this is awesome, okay.
+ Okay, f is the mean number of photons absorbed by the whole retina, okay.
+ Very, so this was the functional form that people realized was a good one in data experiments,
+ and the values of these parameters that fit in the data corresponded to k equal to 6, okay.
+ So if one would interpret this, one would say, okay I need at least 6 photons to trigger the perception of an external light, okay.
+ So these were experiments performed on the single photoreceptors, okay.
+ So now let's try to combine these experiments with the ones performed on the single photoreceptors, okay.
+ So on the single photoreceptors, if you want to describe the probability to see, so this was probability to see given a section like M and M was proportional to this contribution here, this alpha here depends on the probability of absorption,
+ it was not of photos are absorbed so this depends on the area of the target which in this case is directly.
+ Very good, so this point let's try to see how we can write this probability to see in terms of the behaviour of the individual photoexemplators.
+ So this probability to see in terms of the behaviour of the single photoexemplators would be the probability that the number of photons absorbed by photoexemplator 1 plus the number of photons absorbed by receptor 2 plus the number of photons absorbed by receptor N, if I assume that there are N photoexemplators on the retina,
+ this should be larger or equal to 1, okay?
+ If at least one photoreceptor absorbs a photon, then I should be able to see, in principle, okay?
+ So basically what I'm doing here, I'm computing the probability, okay?
+ Actually it's a cumulative probability but, I mean, the quantity that I'm dealing with is the probability with an observable, which is the total number of absorbed proton, which is the sum from i to n, the number of receptors of and i, okay?
+ So I'm talking about the distribution probability of an aggregated variable, the sum of the variables relative to the individual photoreceptors, okay?
+ And what I know is that photoreceptors are independent one of the other, they absorb the photons independently, one from each other.
+ And I also know that each one of them follows across this one.
+ P over I is possible, as we set many times.
+ Okay, so this is equal to the E minus M, M and I divided by M.
+ I'm assuming here that all the photoreceptors are precisely equal one to the other.
+ Okay, so the mean value and I is equal to M for all photoreceptors.
+ Okay, so each and I is a Poisson variable.
+ All these Poisson random variables, they are independent because photoreceptors are independent.
+ Okay, so I can look back at what I know from the theory of probability, the theory of random variables,
+ and I remember the distribution of probability of this sum value of Poisson variables is itself a Poisson variable.
+ and it is a Poisson variable where the mean is just the sum of the means of the individual Poisson distributions.
+ So as we get that also in the top is a Poisson variable,
+ so also the distribution of probability of the top is the sum,
+ and it would be equal to e to the minus the average value of the dot,
+ which is nothing else than the sum of m,
+ so it would be nm,
+ because all are equal.
+ This m is nothing else than big m.
+ Why is that?
+ Because this commercial costum depends on the area of the target,
+ and the area of the retina we can assume that it is basically the sum
+ of the areas of the total sector, so this is also m and here I will get m to the end total
+ divided by m total factoring, ok?
+ very good, so if I follow strictly this argument
+ if I follow this argument, then it will be to see
+ it is not a guess that the probability
+ that this end top is larger than equal to 1, ok?
+ so it is the sum from end top equal to 1 to infinity
+ n to the minus m, n to the end top, divided n to infinity
+ ok, so that would be the resulting outcome of my computation
+ ok, so if this was correct, ok, then you see I will find automatically that k should be equal to 1
+ so there is an inconsistency ok, because experiments on full organisms say that minimum number of required photons should be k
+ and here if I just assume that each photoreceptor is a perfect counter and that photoreceptors are independent
+ automatically what I will get is that menthol should be equal to 1, so k should be equal to 1
+ so there should be some place in this reasoning where I made some wrong assumptions
+ and where is this wrong assumption?
+ the wrong assumption is that each photoreceptor is a perfect count
+ and why is that? because there is noise
+ and precisely because of what we said the other day and we repeat it today
+ it's not that each photoreceptor counts precisely every time a photon arrives
+ to count a photon it should somehow have some threshold value
+ because otherwise noise would induce a lot of false answers
+ so this means that each photoreceptor, if there is for example 0 photon or 1 photon
+ each photoreceptor should somehow rewaste this possibility
+ by assuming exactly as you did before that there is a threshold
+ so if we assume that something like this occurs
+ remember this means that every time we sum
+ we consider the probability to finding
+ that if we look at the probability that each
+ an individual photoreceptor counts mi photons
+ this is not just e to the minus m
+ m to the i divided by i factorial
+ this would be the correct answer if the only fluctuations present were the fluctuations due to the quantum process of observation
+ but since there is all the noise due to the fluctuations that we already saw before
+ 0-1p compared around the stationary values with all the other fluctuations around the other values
+ one needs to take into account those fluctuations
+ so the photoreceptor cannot say that this probability found this value
+ it has to remodulate here by saying ok I really count the larvini and eye photons
+ only if the current is larger than my threshold
+ so there should be here a modulating factor that tells that my eye should be larger than the threshold for that value of the current
+ okay? precisely as you did when you gave me the answer yesterday, the same kind of reason
+ okay? so if this is the eye photoreceptor, this is the eye photoreceptor
+ the eye photoreceptor at a certain point measures a change in current so that it has a certain current eye
+ it will say that it has counted a photon only if the current is upon a certain pressure. Ok?
+ So there will be this remodulating factor. And how is this remodulating factor?
+ This remodulating factor, how will it be? Well, let's say that I look at a larger
+ value of n, okay? Let's say that the photoreceptor just acts like it. It's very smart and it says
+ that the threshold is here. It does this automatic threshold, okay? Then let's say, let's see
+ what would this remodulating factor be for, for example, n i equal to 3, 3 photons, okay?
+ remember that this is the distribution of 3 photons
+ so you see, all these values of the carbon
+ this means that when there are 3 photons
+ the photoreceptor will have values of the carbon which are in this frame
+ okay? because this is the experimental distribution
+ this corresponds to 0 for 1 to the receptor, 1 to 3, sorry
+ let's say that we look at 2 photons, okay? so if
+ there are 2 photons, the current will be here
+ so you see this threshold is well below
+ the whole distribution, so this factor will be 1
+ will be 1, okay? so your photoreceptor will perfectly
+ count from 2 photons on, okay?
+ what happens for n equal to 1? for n equal to 1
+ well, it is not 1, this factor here
+ but it is a very large factor because all these values
+ of the current will correspond to a true
+ this line, okay? so this will be
+ for n equal to 1
+ this factor will be not 1 but it will be large, okay?
+ when n is equal to 0
+ this factor here, this factor here will be even smaller
+ okay? So the idea is that this weight here
+ is the larger the smaller than, small n
+ okay? So when you sum up all these
+ contributions, the large contributions
+ they are summed up as in the perfect counter case
+ but the small contributions will be summed less. So it's like
+ having less certainty of the lower values
+ and this can effectively result in
+ a larger value of k. Because this is just telling you
+ to be sure to see you need a larger value of photons.
+ Why? Because the smaller values are too noisy
+ so you come back very early.
+ So this is the argument that we can make
+ to understand why these comments on the role of noise
+ on single photoreceptors translate in the fact
+ that Hecht and Piren got this formula
+ but with a valid case which is not equal to one.
+ It's not a demonstration because to have a demonstration
+ what would we need?
+ We would need to find the distribution of this quantity
+ Assuming independence but assuming that each i is not distributed perfectly as a constant variable
+ but by a constant variable moderated by this factor here
+ So the computation would be slightly more complicated
+ because we cannot immediately say that it's a sum of constant variables
+ that began and taught the sum of constant variables
+ these are all constant variables because they have this unique factor
+ and the effect of this almost is that when you compute the distribution of a thought
+ it's something similar to the sum of constant variables but with K larger than one
+ so this is a hand-waving explanation of why you find here a threshold which is not one
+ but this is not completely true and why it is not completely true because people did this computation that I am telling you about
+ and they found okay that this would correspond to something like this but this gave people between 2 and 3
+ okay so there would be a rounding up due to this noise present in the single photoreceptor
+ okay but it would not be enough to explain why this gain is equal to 6
+ okay so there should be some other phenomenon
+ which is not already what we have described
+ what is it that we have described
+ we have described the fluctuations in the dark
+ okay so we have described the fact that everything here has fluctuations
+ okay the presence of these fluctuations
+ remember that these fluctuations are the fact
+ that tells you that here there are oceans and not delta functions
+ okay so the effect of having this term here is due to the fact that there are oceans
+ and the fact that there are oceans is due to these fluctuations here
+ okay we will see later on now that these are fluctuations of thermology
+ okay in the end but we will see that in details later
+ so we took into account anyway the presence of these fluctuations
+ but there should be something else so what is this something else?
+ so this something else is what is called the dark noise
+ okay
+ and this again is related to something that we
+ at a formal level we are at the soul
+ in the theoretical part of the force
+ and what is it? ok it's related to the fact
+ it's related to the fact
+ put this fact here
+ first of all it's related to something that actually I didn't mention
+ and the fact that I didn't mention
+ that they in any way saw in the experiment is the following
+ okay let's say that here the torch is set on and then on/off very quickly
+ here is set on/off very quickly
+ so I told you sometimes it's set on/off but nothing happens
+ okay zero-fault nobs over there
+ this is something that we already described
+ but sometimes what also occurred is that in absence of any signal
+ in absence of turning on the torch
+ i don't think
+ ok
+ so there was no light outside
+ but still i don't think of one people there
+ ok
+ so this is what is called dark noise
+ namely the fact that your photoreceptor can behave
+ as if there was a photon outside
+ but there were no photos
+ ok
+ and this is due to what
+ so i told you before
+ so this is what is called the dark noise
+ i told you at the beginning of my explanation of photoreception
+ that photoreception is eventually due to this process
+ there is a molecule which is called the retinol
+ and we will go back to the retinol and look at it a little bit better later on
+ but the point is that this retinol has a certain co-formation
+ that is called C11
+ it depends on how the nuclei are disposed in space
+ it's on a plane, it's a molecule that lies on a plane
+ without the main nuclei in a nice regular arrangement
+ and then it gets the photon, so the photon is alive
+ so here is the photon
+ and the reticle absorbs this photon
+ and it changes the structure
+ and becomes what is called C-trans
+ ok
+ but this is a change of structure so it avoids energy
+ ok
+ and this is why a photon is required to perform this change
+ however the photon from outside is not the only source of energy that the retinol gets
+ and why is that?
+ because the retinol is inside a protein which is the rhodopsin which is inside the cells
+ and the cell lives in an environment at a certain temperature
+ okay so all around the cell and not inside the cells there are for example water molecules
+ there are other small molecules at temperature activities molecules they have their kinetic energy
+ there is a random excitation due to the fact that as for our gramian particle there are continuous leakings
+ ok and so the retinome is subjected to the thermal noise due to the fact that the system leaks at a finite temperature
+ ok ok so you can imagine very schematically that the energy of your retinome
+ this is the energy of your retinome ok let's say that I just plug here a coordinate x
+ which is a collective coordinate of the position of the nuclei
+ of course this is a multidimensional quantity
+ but let me write it as an x for simplicity
+ so what is the situation?
+ the situation is that there is a stable state c11 ok
+ and there is another state which is the c trans ok
+ clearly this is the stable state, this is not the stable state otherwise the system would be there
+ so there should be a value between them ok
+ this is basically not, it's just a drawing but just to understand what happens
+ so there is this state which is the energetically favored one, this other one ok
+ which is a metastable state ok
+ and either your system gets some energy from outside which is the photon
+ and is able to transit to this other state here ok
+ but there is another possibility and the other possibility we studied now
+ and it is precisely a radius loop ok
+ so we saw an example where we studied a particle inside a double weld potential ok
+ and we said we would put that dilution type of particle here
+ but then after some time it would be able just due to thermal fluctuation to jump from the other side
+ ok
+ this every system that is subjected to this double weld potential and to noise
+ has a probability if it is placed here at t equal to 0
+ to jump to the other area
+ what is the problem? the problem is that usually this barrier is so large that your system basically never does
+ ok? so in this case this dark noise is precisely something of this kind
+ so let's say that here it is our retinal molecule
+ ok? and then if we wait long enough it will jump on the other state
+ if it performs this jump for the photoreceptor
+ it's like having a sort of photon
+ the photoreceptor does not know what caused the change in the retinal
+ ok? so if it sees a change in the retinal
+ the consequences of this change will be the same
+ ok? so the current will change
+ the membrane will change if the retinal performs this transition
+ even though it is not caused by photon
+ so we need to evaluate what is the probability from this problem
+ ok? so people estimated that
+ so we know that this transition
+ the time for this transition we estimated
+ we did the calculation ok? and we found that this is
+ this is this is exponentially larger
+ in beta and in the barrier so if the temperature is low
+ and the barrier is large this can be a very very large number
+ so we need to wait a huge amount of time
+ so but now what is large and what is big depends on the system that we are looking at
+ so we need to estimate this and we need to see what is this scale
+ as compared to the scale of our system ok?
+ so people estimated this quantity here
+ doing experiments directly on the retinol
+ they just looked at the retinol and just try to understand
+ what was this number and actually what they concluded is the rate
+ the rate of this transition which is just the inverse of the average time
+ by definition ok? and they saw that this is
+ of the order of one over one thousand
+ years ok? or which is the same as saying
+ that this is one thousand years ok?
+ so this is my big number
+ so if you take a retina
+ you will need to wait one thousand years
+ to get this transition
+ so one would think
+ ok, it's impossible
+ I should never see this nerve noise
+ so why is it that I see it?
+ you see, because this is for one molecule
+ but if there are many of such molecules
+ then this rate
+ or this time can be more reasonable
+ ok? so let's see
+ let's see
+ let's do this combination
+ so inside one rhodopsin
+ remember that the rhodopsin
+ the rods
+ the photoreceptor rods
+ are made like this
+ and this is the rod part
+ of the rod photoreceptor
+ and there are some discs
+ in this long part
+ and on this disc there are these proteins
+ ok, which are
+ the rhodopsins
+ and inside
+ each of these proteins
+ there are the regular rod proteins
+ ok
+ and inside
+ one single photoreceptor
+ there are
+ ten to the nine
+ prodopsins
+ let's say that there is one retinal inside
+ the chiropsin so there are ten to the nine
+ retinal molecules
+ ok
+ so
+ if we now want to understand
+ the number of events
+ this kind, the number of transition
+ events that there are
+ per second in one
+ receptor, come on in one retinal
+ in one receptor, what we need to do
+ we need to take the rate
+ which is the number of events per single molecule
+ per single molecule and multiply by the number of molecules
+ ok, so we need to multiply this by 10 to the 9
+ ok, so this is the global number of events per second
+ that I would get in the whole photorescence
+ so let's write down this
+ the rank is 1 over 1000 years
+ so let's write it in seconds
+ ok, 1000 is 10 to the 3
+ now I need to write down the number in seconds in 1 year
+ and we're going to do a compilation
+ it is 3
+ 10 to the 7 approximately
+ ok, and then I need to multiply by 10 to the 9
+ ok
+ and this number here
+ which is one third basically
+ so it's on the order of 0 to 3
+ ok
+ so this is the number of events per second
+ so it's the probability of getting an event
+ and it's not so small
+ it's one third
+ ok
+ so the rate
+ the rate of getting
+ a transition event
+ per one photo sector
+ due to a fake transition
+ ok is one term
+ so it's pretty large actually
+ ok
+ it's pretty large
+ so actually if
+ everything
+ would be like this
+ we should actually see many more
+ of these dark noise events
+ and the photo receptor
+ would be very efficient
+ ok what saves us
+ we will talk about this later on
+ what saves us is that
+ This
+ is a proportionality constant
+ but here there is a
+ microscopic time scale
+ exponential as no dimension
+ there should be something outside this
+ with the dimension of a time
+ which is a microscopic time scale
+ and this is also very small
+ very large for the time
+ so it's in versus very small
+ so actually the number
+ of dark noise events
+ is much smaller than that one
+ it is not so small
+ that we cannot see
+ that's why in fact we see
+ sometimes we see
+ that there is a bundle
+ even in absence of light
+ this is what is called the darkness
+ excuse me
+ 3 to the
+ 10 to the 6
+ where the numbers
+ 10 to the 9
+ is the number of
+ molecules
+ inside a single receptor
+ yes
+ this is the number of years
+ and this is the second in one year
+ ah ok
+ ok
+ so this is
+ this is the number
+ of retinome
+ and therefore
+ retinome moleglutes
+ this is
+ second in one year
+ ok
+ and this is the number
+ of years
+ very good
+ and so this is
+ this is
+ I told you this
+ to tell you another experimental part
+ that was seen in the experiment
+ that I haven't mentioned before
+ and those who understand
+ why actually since there is this
+ additional noise term
+ because this is a noise term
+ ok since there is
+ this additional noise that's
+ why actually if I want to be sure
+ if I want to be sure
+ to have seen I need
+ to take k in another
+ otherwise I would make a lot of mistakes
+ ok
+ because when another photon
+ is very small
+ when it is one
+ the set can have one effect
+ even though
+ there is no photon outside
+ so when
+ small numbers
+ can be very easily
+ confused with noise
+ ok
+ so I need to see at least a few more
+ to be sure that there is really something else
+ ok
+ at least
+ if your system works well
+ you should set the threshold a little bit larger
+ because otherwise you would make a lot of mistakes
+ ok
+ ok
+ and actually what happens is that
+ they did experiments
+ in TOTS
+ because in TOTS
+ this
+ this factor here is smaller
+ and
+ this factor here is smaller
+ so dark noise is larger
+ and indeed
+ what they found was that
+ TOTS make
+ much more mistakes
+ so what they did in the experiment was that
+ they put a TOD
+ inside the marina
+ and
+ just in front of the TOD
+ there was a small dish with food
+ ok
+ but I mean the TOD
+ could not see the food
+ unless there was light
+ ok so they performed the same
+ experiments that they did on the photoreceptor
+ turning on and off a torch
+ on the
+ on the dish with the food
+ ok
+ and every time
+ the light was on
+ just grabbed
+ its tongyu
+ ok
+ but what they could see
+ was that the toad actually
+ just tried to catch something
+ a lot of times
+ they just looked at the tongyu
+ ok
+ they counted how many times
+ and when they just
+ put out the tongyu
+ and they did it a lot more times
+ as compared to when the torch was turned on
+ ok
+ so this was a weight and then they performed measurements
+ right so they really verified that there is this effect
+ that the noise would be expected
+ ok
+ so now we have investigated the behavior of the photoreceptors
+ in the presence of very low light intensity
+ ok
+ and what we saw was that there is noise but somehow
+ the photoreceptor
+ somehow we will go back to this later on
+ somehow they are able to cope with this noise
+ and perform well in the light intensity in this space
+ now what I would like to do is to discuss the opposite case
+ ok
+ to discuss the case of very large intensity
+ we will try to ask the same thing
+ the same kind of question
+ if and how
+ our photoreceptor works efficiently
+ even in a regime of large intensity
+ ok
+ so people performed experiments
+ even on this case
+ and for these experiments instead of measuring
+ the current through the membrane
+ of the photoreceptor
+ they measured the potential difference
+ across the membrane
+ it's the same thing
+ since the experiments
+ and I will talk about experiments
+ at the end of my argument
+ since the experiments
+ with intramembrane potential
+ now let's talk about
+ the intramembrane potential
+ so let's say that we performed the same kind of experiments
+ indicating before
+ very low light intensity
+ we measure the intramembrane potential instead of the target
+ we will find a very similar factor
+ so if we measure this
+ v of t
+ as a function of t
+ turning our torch on and off
+ we will find as in that case
+ a fluctuating signal
+ and then when
+ I turn on the light
+ this will have a certain bump
+ and then go back
+ to the stationary value
+ where I mean
+ the torch is turned on for milliseconds
+ so a very short time
+ ok?
+ and then you have this bump
+ and then it goes back
+ to the stationary value
+ and then if you repeat
+ it's a very similar pattern
+ to the one in the car
+ very good
+ and both for the
+ attention at the carmen
+ this time scale
+ is of the order of seconds
+ one second let's say
+ this is just
+ we will go up to this time scale
+ so the torch is turned on
+ for a very short
+ much smaller time
+ then we have this increase
+ and then it goes back to the station as well
+ okay
+ very good
+ so this is where I am going to live intensity
+ so now here I have the light on
+ then it is off
+ and maybe after a while I turn it on again
+ and then I will get another bump here
+ maybe always one of this height
+ and then maybe another time
+ here there is another signal
+ it will be a little bit larger and so on
+ okay
+ this is a low light intensity
+ okay so let's say that we have this
+ minimal time
+ okay
+ and then I can have larger pumps
+ if two photons are absorbed at the same time
+ okay
+ so let me for simplicity
+ let's assume that I can represent this increase in the potential with a function
+ this will be a certain T minus Ti
+ it's a function that is centered on this Ti period
+ it's a particular function
+ okay
+ very good
+ or we can just call Ti the time at which the absorption starts
+ that's not important
+ the important thing is that we can associate a certain function to what happens with one function
+ okay
+ so now let's assume that we look at a different situation
+ we look at a situation where intensity is very large
+ large like intensity
+ what does this imply?
+ it implies that if you look at a small interval of time
+ if intensity is very large and if it is continuous for example
+ I don't have a torch which is on and off
+ I have continuous light
+ in an event time interval I can have absorption of 1, 2, 3 photos
+ which are absorbed at a slightly different distance of time
+ ok?
+ so let's say that in this case
+ if this is the time axis
+ maybe I have a photo that is absorbed here
+ a photo here, over here
+ all in the same interval
+ so that I have to combine many of these
+ elementary events
+ one with the other
+ because they were so very close
+ so here maybe I would have
+ many photons arriving
+ and here maybe much more and so on
+ so in general the pattern
+ of the increment rate of measure
+ will be a trivial pattern
+ due to the fact that many of these events
+ occur one before the other
+ at very close times
+ so now I would like to start this situation here
+ and I would like to understand
+ when my system performs in this situation
+ so to set up the problem
+ I need a little bit to change the kind of question
+ that I ask myself because at low light intensity
+ performing well means understanding
+ whether there is light or there is no light
+ discriminating between
+ something is happening outside that is dark
+ this is the problem at low light intensity
+ at large intensity
+ the problem is a bit different
+ because clearly there is light
+ the question is not to understand whether there is light or not
+ the problem is to understand
+ if I have a light pattern
+ with a varied intensity
+ whether my system is able to adequately react
+ to a changing light signal
+ ok
+ so now I will assume that the external light intensity
+ is a signal that changes in time
+ ok
+ which means that the rate of absorption of my photons
+ is a quantity that changes in time
+ ok
+ so I will
+ I will generically write this signal
+ as a constant value that sets more or less
+ the average intensity of the signal
+ ok
+ plus a factor that truly depends on that
+ so this COT is what modulates
+ the outside light
+ ok
+ so let's see
+ you can think that you are moving
+ in an external environment
+ and as you move
+ it's right that you perceive changes in time
+ because different things
+ happen in front of you
+ so this COT
+ is what modulates what is happening in front of you
+ ok
+ and your photoreceptor
+ your photoreception
+ works efficiently
+ if you are able to efficiently track
+ the changes in COVID
+ in this COT
+ so this will be now
+ our problem to see
+ what's the response of the photoreceptor
+ to a changing signal
+ of light intensity
+ ok
+ so
+ at the mathematical level
+ this would be
+ this would mean
+ to understand how vehicle changes
+ in presence of a volume
+ 0
+ ok
+ and so to understand
+ if our system works efficiently
+ what we do is first to compute
+ the average value of V of D
+ given
+ this external signal
+ ok
+ and what we will also
+ compute
+ are the statistical
+ situation of V
+ in absence of the signal
+ ok
+ in absence of
+ the signal
+ so and why we are doing that?
+ because this is noise
+ ok
+ so your perception
+ if you are in
+ an homogeneous environment
+ homogeneous light outside you
+ ok
+ your perception will not be a deterministic
+ perception of the outside signal
+ there will be fluctuations
+ ok
+ if what's outside you changes in time
+ you will perceive a change
+ but if this change
+ that you perceive is of the same
+ order of fluctuations
+ your perception is very bad
+ ok
+ it's the same thing that we already encountered
+ with camera reception
+ you perceive efficiently
+ changing in the outside world
+ in the outside environment
+ only if the real changes
+ of the signal are larger
+ than the noise to which
+ you are subject
+ in absence of changes
+ ok, so we will try to do
+ exactly the same thing that we need
+ for chemoreception
+ compute the average value
+ of the perception
+ namely the inter-membrane convention
+ in presence of a varying
+ signal
+ where C of T
+ is different
+ from zero
+ okay, and then we go
+ to this one here
+ when C the contrast is equal to zero
+ and this is noise
+ so this is the real signal
+ and then we will make the ratio between the two
+ to understand whether the signal to noise ratio is good
+ and whether our system performs efficiently or not
+ so this is the aim, our next objective
+ ok, very good
+ but then we first need to compute these two quantities
+ and in these two quantities I took some averages
+ but you can ask, averages or what?
+ ok, then what are the averages?
+ let's say that we have an outside light signal
+ your photoreceptor absorbs the photons
+ but since the absorption process is stochastic
+ because it is a quantum phenomenon
+ the photon can be absorbed in different distance of time
+ and the global number of photons can vary
+ ok, so let's imagine that we look at our photoreceptor
+ and the behavior of our photoreceptor, this is Ducky
+ ok, and let's say that we look at a certain time window
+ ok, then what happens?
+ there are a certain global number of photons that are absorbed during this time
+ for example I can have a photon absorbed here
+ a photon absorb here, a photon absorb here, a photon absorb here, a photon absorb here, another here, another here. Okay? But where are these absorption types? It's a wrong variable. Okay? So let's say that this is t1, this is t2, this is t3, this is t4, this is t5 and so on. These are the absorption types. So we call it pi, the absorption types.
+ And of course I can have a different number of photons that are absorbed in this type, so we call n the number of absorbed photons.
+ These are two random variables. So the distribution, the average performing here is precisely and the distribution is random variable.
+ So to perform this average we need to understand what is this distribution problem.
+ So let's try to start the computation now, maybe we will blend it.
+ Okay so therefore this distribution here, this is an average, but for the distribution of what?
+ The probability to get the absorption of times d1 pn, given that there are L absorbed photon overall, okay?
+ And then once I establish this over a dv, once I complete averages with this probability, I have to sum over all possible values of n.
+ Okay, so now I know what is the distribution probability over each end of the average, now I need to specify what is the quantity that I average.
+ Okay, so the quantity that I average is B of t. Okay, what is B of t?
+ B of t is the intramembrane potential when I have an alongside c.
+ So it could be the V that I have, let me call it 0.
+ The one that I have in absence of any external signal, any external light.
+ Because as we said very many times, all the carbon and the potential fluctuates even in absence of light.
+ Okay.
+ And then, as I told you before, when there is light and large intensity,
+ I will have some pattern which is due to the fact that there are many of the elementary events that sum up.
+ Okay.
+ So I will need some.
+ Okay.
+ Let's say if you...
+ I need to sum over all terms of the photon,
+ the change due to each individual photon.
+ Okay.
+ So this is my V of T.
+ Okay.
+ So I know what is my V of T.
+ And I know that this V of T depends on these random variables.
+ Okay.
+ So I need to take the average of these random variables.
+ So this is what I will do now.
+ Okay.
+ Very good.
+ So before doing this computation, I want to write down explicitly what is this.
+ Okay.
+ Okay, so what I want to say explicitly what is PDT1M, given the level.
+ Okay, what is the probability of getting this absorption of these models precisely at those times?
+ So to do that, it is convenient to divide my time axis in small intervals.
+ Ok?
+ So I just discretize.
+ Ok. You know what to do.
+ Ok.
+ So I discretize and I will do the drawing again.
+ This is my time.
+ I discretize this small equal intervals.
+ And then what do I say, I just call them, I number the intervals.
+ Ok, so the intervals are k equal 1, 2, 3, 4.
+ And then, each one of them, let's say that I take each interval, large tau.
+ Ok?
+ The tau, sorry.
+ The tau is the length of each interval and I call it tau i, the middle point of each interval.
+ So this is tau 1 and this will be 1, 2, 3.
+ This will be tau 4 and so on.
+ I just enumerate all these discrete events.
+ Okay?
+ And then at some point I will have the absorption events.
+ So let's say that here I have an absorption event.
+ So this is T1, the first absorption event.
+ Okay?
+ And maybe here I have another absorption event.
+ This is T2.
+ So I am indicating the time variable in tau and the events with the T.
+ The absorption events in T.
+ Maybe I have another one here.
+ This is T3 and so on.
+ Okay?
+ So now, I want to understand what is this probability.
+ So to have one absorption event in T1 and one in T2 and one in T3, what do I need to have?
+ I need to have no events occurred here, here, here, here, here.
+ Okay, then one event occurred here and no events here, here, here, here and so on.
+ Okay?
+ So since the absorption of one photon is a possible variable, okay?
+ I know that the probability of having N equal to zero is equal to what?
+ It will be equal to E and general P of N is the usual Poisson distribution.
+ So it will be E to the minus, let me call it an average, then we will see what is this.
+ This is an average, an average in the N divided by F of N, okay?
+ So now we need to specify what is this, an average.
+ An average is the mean number of absorbed photons for the time interval that I'm moving, okay?
+ Because in principle, the average number of absorbed photons depends on the length of the interval.
+ The larger is the interval, the more the meters of photons, okay?
+ So remember that in general this by definition is equal to the rate by the length of the interval I'm looking at.
+ So let's say that I look at each one of these small intervals here.
+ So this n would be the rate multiplied by the photon. Do you agree?
+ However here there is a slightly more complication because we said that the rate changes with time.
+ So the rate is not always the same in this time that I am considering.
+ It changes from time to time. So this will be something that depends on time and this will be R of time.
+ So the probability of absorbing zero photon or one photon or whatever in each one of these intervals will change with time.
+ It's not always the same, okay?
+ So now that I know how I have to express this, I know how to re-write more explicitly this Poisson distribution.
+ This Poisson distribution will be equal to what?
+ Will be equal to E to the minus R of tau, so this is the probability of getting N absorbed photon in the internal tau, okay?
+ It will be equal to E to the minus R of tau del tau, okay, multiplied by R of tau del tau in the end, divided by F of tau.
+ Okay?
+ So now let's say that I chose my interval de tau so small that the probability of getting more than one photon inside that interval is basically zero.
+ Okay?
+ So the only two probabilities different from zero are the P of n equal to zero and the P of n equal to one.
+ Okay?
+ It's very unlikely that two photons are absorbed in the same time interval.
+ Since I can choose the tau how I like, I can always reproduce this condition.
+ Okay?
+ So now once I stated these two parts, I can now compute the probability of this quantity here,
+ because what do I need to happen is that zero photons are absorbed here, zero photons are absorbed here and so on,
+ and then one photon is absorbed here.
+ So let's try to stop writing this down.
+ So what I need to do is that I should have e to the minus r of tau1 de tau.
+ Here I need to have n equal zero.
+ n equal zero means that this is one and this is one.
+ Okay?
+ And then I need to write down the same thing for the second interval and so on up to this interval here.
+ Okay?
+ e to the minus r, this would be t1 minus theta, theta.
+ Okay?
+ Because this, this, this to here is t1 minus theta, the step before.
+ Okay?
+ And then here I need to compare the probability of absorbing one problem.
+ So I need the p of n equal to 1.
+ Ok?
+ So I need the p of n equal to 1.
+ This means that I have the exponential.
+ I have this and the n factorial is 1.
+ Ok?
+ So I should write p to the minus r of t1 deto.
+ Ok?
+ But then I need to add r of t1 deto.
+ Ok?
+ So if you remember that this deto was correlated was the one of t1 let me do the t1.
+ Ok?
+ So I just use this.
+ Ok?
+ Just to remember that the small increment relates to that time there.
+ Ok?
+ And then I need to continue.
+ Ok?
+ So I need to count all these intervals here.
+ Ok?
+ So E to the minus R T1 plus D2 and then all the intervals up to the one E4, E to the minus R T2 minus D2 and then I have E D2 and then I have E to the minus R of T2 D2 and then I have R of T2 then T2.
+ OK? And I keep going. And what is this that I have already completed? This is the probability of finding all the photons in the right intervals. OK? So this would be P T1 Tn, given N, that T1, that Tn.
+ OK? I can keep going on and I arrive up to the last increment. OK? Do we agree with this? Is this clear? OK. And why did I put the increments here? Because T are continuous variables, therefore this is a probability density and this is a probability.
+ OK. This is not probability, it is a probability density. This is probability. OK. OK. So I can just wrap up on this expression here because you see that the exponential appears for all the intervals. OK.
+ The exponential, every small interval here has the exponential function. Both of the intervals where there is no absorption and the intervals where there is absorption. OK. So I can put them all together because this is a product of exponentials. Therefore the product is just the exponential of the Sun. OK.
+ So this would be what? It would be e to the minus the sum overall of the intervals. OK. Of what? Of r of 2k the total. OK. And then only for the intervals where absorption occurs I will have this other factor too.
+ So we have r of t1, r of tn, the t1, the t1, the t1. OK?
+ So I computed my rowing here.
+ OK.
+ Excuse me, sir, the t is equal to the t1, I lost the passage.
+ For this, the tau k, I mean, it's equal to the t.
+ It's not important, it's just a sound bar, whatever you call it, however.
+ OK.
+ Of course, in the limit where I take these small intervals here infinitesimal,
+ this sound becomes an integral.
+ OK?
+ I can send the Toe to zero and the Sun becomes an integral.
+ So, in the end, my P of T1, Tn, given n.
+ OK?
+ This will be given by P to the minus the integral of the time window which I am looking at.
+ The Toe out of Toe.
+ And here we have R of T1, R of T.
+ Very good.
+ So now let's compute this R of T.
+ Now we have to distribute the probability, we can compute the R of T.
+ So our D of T will be given by the integral of the T1 of the N of what?
+ The integral of T of T1 of N of my function VT.
+ VT is just V0 plus sum over I.
+ V0 to be non-VT and VT.
+ So maybe I have the zero.
+ Otherwise I have the same syllable.
+ Okay.
+ And this is in the case where N photons are absorbed.
+ But then I have to sum over all the possible number of absorbed photons.
+ So I need to sum from N equal zero infinity.
+ But then I need to consider that photons are indistinguishable.
+ So I need to put a one more n factorial here due to the indistinguishability of photons.
+ So now I know everything, I know this p and I can do this computation.
+ So let's plug inside what I already know.
+ Okay, so this will be sum of zero infinities.
+ Then I want one over n factorial.
+ And then what would I get?
+ Integral 31n, okay?
+ And then I will get 30 to the minus integral in the top, I of top, okay?
+ I of T1 here, I of Tm, okay?
+ And then I would get the kingdom plus some I, and then I would get the kingdom plus some I.
+ Okay, so now I can actually, if there are zero photons absorbed, okay?
+ Clearly these are all zero, okay?
+ There is just the exponential factor here.
+ Okay, let's do this, let's do this test.
+ Let's first compute this quantity here, when there are at least one photo.
+ So this n is at least one, okay?
+ We want to take this, that the term n equals zero plus the term n equals zero.
+ Okay?
+ Okay.
+ Very good.
+ Okay.
+ So let's try to perform first the case where there is this one.
+ So for generic n, larger than c.
+ Let's go to this one video.
+ Okay.
+ So we first have the P tilde contribution.
+ Okay.
+ Let me wait.
+ Is this correct?
+ Yes.
+ So, okay.
+ We will get P tilde.
+ Okay.
+ And then we will get integral of the t i r of t i to the n.
+ Okay.
+ I am looking at this part here.
+ So you see, for each r I have an integral.
+ Okay.
+ So the integral are always, they are all the same.
+ It was an integral over the positive values of t.
+ And so I have just the same integral to the n.
+ And then I get to the exponential value.
+ Sorry, with this last one passage, aren't we saying that every time the c of t in the rate of time dependency would be the same in every...
+ No, no, no, because it's the integral that's the same. This is an integral. You are integrating over all times.
+ Yeah, no, in the previous vector, in the integral with the i and the r. Yes. Yes, this also you are integrating over all the...
+ But taking all of them and say that it's all the same object. No, here you have integral that t1 r of t1, let's say from 0 to t.
+ And then you have integral from 0 to t2, the t2 r of t2.
+ These two integrals are equal because you are integrating. Once you integrate t1 and t2 become two integration variables.
+ So I'm not at the same time. Yeah, but I was trying to say that r, the integral, are we sure they are the same for both of the integrals?
+ Because we have the c of t that should be... This is the same function. It's a function.
+ It's a function. It's the same function. But once you integrate the function over the same window, it's two integrals over the same.
+ No, no. It's mathematics.
+ It's true that R of T changes, but if you integrate over all the variation integrals, you get the same number.
+ Okay?
+ Okay, so you get this.
+ And this is this part here.
+ Okay?
+ And then you get the other part.
+ Okay?
+ This always happens to do.
+ Arto.
+ Okay?
+ And then for the other part, what do we get?
+ We get this integral.
+ So let's look at this.
+ We have to put the sum outside of the integrals.
+ So we will get sum i equals 1 of n.
+ And then we will get integral the t1 of n.
+ R of t1, R of n.
+ And then we will get b0, b minus the i.
+ Ok?
+ Let's just put the sum outside the integrals.
+ Ok?
+ Back.
+ So now let's look at this integral here.
+ One of these n times will be equal to the other.
+ And the other ones will be different from the other.
+ Ok?
+ So this integral here will be integral t1 r of t1, integral t2 r of t2 and so on.
+ And then at some point there will be integral t1 r of t1 v0 t minus t1.
+ So n minus 1 of this integral will be integral of the rate.
+ And just 1 will be the integral of the rate multiplied by the potential bump.
+ Ok?
+ So this will be equal to what?
+ Let me put this in front of everything.
+ Here we have the tilde, this integral.
+ And then the i, R of the i, to the n.
+ And then I will have this second contribution which would be sum over i from 1 to n of what?
+ So we have the integral, the t, tk, let me use another sign, r of tk to the n minus 1, okay, this one's here, which are n minus 1, okay.
+ And then we have, what is it, this integral of t_i, r of t_i, d t0 minus 1, okay.
+ Okay.
+ Good.
+ Okay, so what I need to do now, I need to summarize all these things.
+ Okay, so let's do that.
+ I need to go to the term with n equal to 0, okay, so the term with n equal to 0, n equal to 0,
+ this means that there is no this term here, okay, the term is n equal to 0, it seems to be e to the minus integral to the top, part of the top, right?
+ Right, okay, because there are no times in this case, okay, so these are all, there are no r's here, there is only the term with the exponential, okay, no photons anywhere, okay.
+ Okay, so this is an interval of my reservation time and I just want to point out that this term is exponentially increasing in the time window while you're doing that, okay, so this is a term that goes to zero when I look at the large window of time, okay, so this is a subliving term.
+ I need to take care of the other ones, okay, so let's try to look at this term here, okay, so I need to compute.
+ M equal to 1 to infinity, okay, and then I have e to the minus integral 0 to t to the tau, and I have 1 over n factorial, okay, in front, and then where I would get, I would get,
+ is integral the T of R of T here. Okay? So I notice, what do I notice? I notice that this, okay, this is almost the expansion of an expansion. Okay?
+ What is, I mean, I just missed one term and what I missed is the, sorry, I just missed the zero term. So I just thought, plus, which was basically the 1% before.
+ So instead of saying that this was exponential, I went up in t.
+ Okay? And so that, in this way, if I put these two terms together, what I have is e to the minus integral from zero to t, the tau out of the tau.
+ And I have the sum from zero to infinity, one barat factorial of this quantity here, integral of the t, r of t, so I put this on the left side, again, you like this.
+ Okay, good. But this is just an exponential.
+ Okay, so this would be e to the minus integral, and the tau out of tau, multiplied by e to the plus integral, then t r of tau.
+ So these are integration variables, so these two exponentials are the same, okay?
+ So I was wondering about the complete discussion, where is the phenomena of the dark noise, also in the event of the zero tension or absorption, because we have created that object that is the probability of emission, but in that probability we are not answering.
+ We are not answering directly the dark noise.
+ We are assuming that they are perfect counters. We are disregarding thermal and dark noise in design.
+ Okay, so basically it should be something, especially for 10 equal to zero, that is the false photon absorbing that is made by the dark noise.
+ Yeah, but we are disregarding. We assume a perfect counter.
+ It's an hypothesis to do the validation, otherwise we do not. But you will see that it works well.
+ You are right, there should be other sources of fluctuations that we have to do.
+ Okay? Very good.
+ And so we dealt with this first part here, and so we got a bit in.
+ Okay?
+ So let's write down the first part of our solution, but then our time is off.
+ Okay?
+ So let me just write the final point to where we arrived so we can from next Tuesday we can deal with the other piece.
+ So what we completed is that we completed this contribution here, so we have a first part which will just be yielded.
+ And then we need to complete the second contribution and the second contribution is the sum over n over 1 over n factorial.
+ Okay, and then what we have, this is from 1 to infinity and we need to compute this integral here, we have always this.
+ And then we have another integral which is the integral over t1, tm, over, I just erased that.
+ It was just this, the t, r of t, min off to t minus pi, this goes to m minus 1.
+ Right?
+ It was this.
+ For the, this one, right?
+ No.
+ No, no, sorry, sorry, sorry.
+ We have just, this to the n minus 1, and then we have just 1, t over t i, r of t i, t not t minus 2.
+ Okay.
+ Okay?
+ And so we need to go with this.
+ Next time we will do the computer.
+ Try to do this.
+ Okay?
+ It's very similar to the other parts.
+ Try to do this and then we will do that again.
+ Okay?
+ Thank you very much.
+ Thank you very much.
+ Thank you very much.

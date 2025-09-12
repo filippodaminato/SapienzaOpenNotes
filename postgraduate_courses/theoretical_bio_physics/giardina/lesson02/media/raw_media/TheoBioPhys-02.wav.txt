@@ -1,0 +1,1034 @@
+ okay so this part of the equation
+ has an equivalence structure so this is
+ this is the if you erase these last two
+ terms this is the equation that you can
+ get for equivalence
+ okay so this part of the equation is
+ fully reversible just precisely in the
+ same way as i mean
+ these two terms here these two terms are
+ are due to the fact that your system
+ lives in an environment lives in a thermal
+ bath in the case of a brownian
+ particle or lives in an environment with
+ certain sources of noise in a more
+ metaphorically
+ okay so this is what destroys the
+ Hamiltonian part of the equation so your
+ colleague asked me okay but then what
+ happens from this statistical physics
+ perspective okay so when when we need to
+ because of the civil mechanics actually
+ we we described everything we described
+ our systems okay our system was made by
+ many reason freedom and not just one as in
+ this case but in general the approach that
+ we used to treat the system for example
+ in the canonical ensemble was to divide
+ the world the universe into two parts
+ the system of interest and the rest of
+ the universe okay which acted as a
+ eternal reservoir okay and then we
+ integrated out the degrees of freedom
+ of the rest of the universe so if you
+ remember the way in which you derive
+ the canonical ensemble in the context
+ of equilibrium statistical physics
+ what you do and this is just a reminder
+ of what you study in your stuff this
+ course you say okay this is my universe
+ the universe is micro canonical
+ it's micro canonical it's completely
+ isolated okay so the energy is conserved
+ and the equations that describe the behavior
+ of each and equal particle are kind of
+ equation okay but then what happens is
+ that you are interested just in this
+ subpart let's say that this is the system
+ this is the rest of the universe okay you
+ are interested only in this part here so
+ what you do is that you consider your
+ whole system which is with conserved
+ energy okay and you integrate out the
+ diesel freedom of heart of the reservoir
+ and at a level of the procedure what you
+ do to achieve that is that you start
+ with the distribution of the microstates
+ of your universe and you know that this
+ distribution is just the canonical
+ the micro canonical ensemble okay so i
+ fix the energy and each part will make
+ little question okay so you start from
+ this and then you say okay my macro state
+ is actually composed of two subsets
+ degrees of freedom of the system and the
+ degrees of freedom of the example okay
+ and then what you do is that you just
+ want the distribution probability of your
+ system okay so what you do is that you
+ integrate okay you average down you
+ integrate the degrees of freedom of the
+ z1 okay so this the whole universe is
+ milder canonical and then your system
+ once you integrate out this you get the
+ canonical distribution
+ okay but i just want to show you the
+ procedure you start from a system with
+ fixed energy you integrate out the
+ degrees of freedom of your canonical
+ distribution and you get of your reservoir
+ and you get canonical distribution so here
+ this is a kind of different approach
+ because here you see you look everything
+ at the level of probability distribution
+ okay so you don't focus on each individual
+ particle you focus on the ensemble in this
+ approach here you just focus on each
+ individual particle but nevertheless you
+ want to take into account the effect of
+ the environment of this r-institution
+ so how do you do that you do that by
+ introducing these two terms
+ okay so this term here the random noise
+ translates into mathematical formulas
+ the effect of the reservoir okay and
+ here what is the effect of the reservoir
+ if you think about what we already started
+ the effect of the reservoir is to exchange
+ energy with the system of interest
+ okay so that these two systems are in
+ internal contact one with each other
+ therefore they can exchange energy and
+ here what is the translation of this in
+ this picture the translation of this in
+ this picture is that the environment can give
+ you kicks if you think of the brown emotion
+ particle the brown emotion particle can
+ receive kicks from the water okay and
+ this is exactly the same effect but into
+ different language the advantage i mean
+ the usefulness of this approach is that
+ it is dynamical so it allows you to
+ study the behavior of the system in time
+ okay here you are assuming that you're
+ moving at your system on very long time
+ scales okay so that your particles or your
+ system of interest in your s explores many
+ different configurations and you are
+ looking at the distribution probability
+ with which the system sample is in this
+ configuration here you are just looking
+ at the dynamic behavior but of course if
+ things are done in a proper way and if
+ the system here equilibrates with the
+ environment in the end at large times
+ you need to find the same results okay
+ and today we are precisely going to see
+ that okay so it's a different way to
+ describe a system in contact with a
+ thermal environment terrible and a noisy environment
+ okay here in everything that you have done
+ during the departure of course happens
+ on the level of distribution provided
+ so it's a statistical description here
+ it happens in time okay so this noise
+ this noise expresses the effect of the
+ environment but time step by time step okay
+ but in the end the two approaches should
+ be should lead a lot of times when a
+ vibration is reached to the same results
+ and we will see that it is exactly the case
+ okay so now we will just keep this in mind
+ that was the relevant to your question right
+ so i guess no yes i was i was speaking
+ about uh the legitimacy of the system and you just said to me that it doesn't really matter in this
+ case like symbol agent dynamics okay so if if the system if the system is ergonic with ergonic
+ mean just in very intuitive terms that your system explores densely the space of all its possible
+ states microstates okay if the system is ergonic and if it equilibrates with the environment
+ okay then i'll come back to this issue here and if it equilibrates to the environment
+ then this means that if you take this equation if you take this dynamics
+ it should explore densely the space of possible microstates
+ and we also have different kind of diffusion regimes in which we could have a dense exploration
+ our lethal space or how wider and that concerns how fast you explore your space of microstates
+ in time but it does not concern how well okay the diffusion behavior which is this one
+ okay this is telling you how quickly you explore the regions around you but it is not telling you
+ whether you explore every place or not okay so this is a different question even though they are
+ not opinion related one with the other in general because for example you can have cases when um your
+ system is super diffusive i mean it's super diffusive because it is driven so in that case since it is driven it
+ does not reach equilibrium but a stationary state which is not a equilibrium in the stat phase sense
+ but these are things that i mean you have not studied and if you are interested into that you need to take
+ the course of what does it mean these kind of progressive processes
+ now we will see that
+ okay so this is
+ the point where we arrived last time
+ so then of course this is not
+ the only equation that we are dealing with because
+ this is an equation for velocity and this should always be combined with the
+ equation connects the velocity to the position which is the same okay then in general these two equations are two captive equations and why is that because typically this force here in the general case it depends on x okay so in general it is quite complicated to solve this set of equations unless this f has a simple form for example
+ in the case of linear forces of elastic forces you can solve these equations okay and it's an easy case maybe we will look a bit into it just to familiarize with this kind of processes but in general for the linear forms of this force it's difficult to solve and I mean you have to use sophisticated techniques but what we have been looking at so in general
+ these two equations you need to look at them together so if you want you can combine them together and just write down an equation for the x variable which is this
+ external actually this is not a good thing you can have in systems where you have many degrees of freedom you can also have interruption so let's just write in f of x and then you have minus zeta
+ okay so you can combine these two equations into one single equation for your position degrees of freedom
+ okay and so of course what you get here is that you have two first order equations in time
+ here you have just one equation and a second order in time okay so it's a different way to look at things
+ for example if you perform a numerical simulation it is useful it is usually more easier and more useful
+ right down this way here to wrap up with the question of the story ok but I mean this is a question of focus ok but what we did what we did the other time on Friday we did was to solve this equation in a super simple case in the simplest possible case we said ok let's assume that we have no force ok
+ if we have no force if this term is not there clearly these two equations they become independent one and the other and you can just solve the equation for the velocity because the equation for the velocity just contains the velocity it does not contain the position ok and this is what we did yesterday and we found out the solution if you remember the solution is just this one
+ ok, so we found out the solution here
+ and what we said if you remember we made some comments about this question we derived it in two ways
+ one simple way and one slightly non-computated way
+ and we made some comments, we made the first comment is that this exponential acts as a memory kernel for your system
+ and it just weights on the contribution of the initial condition and of the noise in time from the origin of our process up to the present time
+ so that what happens in the very past is weighted less and what happens in the recent past is weighted more
+ this is the meaning of this memory kernel here
+ okay and then we said that clearly this memory kernel has a time scale and this time scale is a certain by coding law I think and it is m over z
+ okay so the memory kernel of this process is due to the fact that you have inertia
+ why I am telling you this because you can just flip backwards this argument and say that inertia is a way
+ to model the presence of memory
+ and why I am telling you that, because very often when you talk with biologists
+ they actually don't like the term inertia
+ inertia is a mechanical term, so for us it is very familiar
+ because we were born and we didn't have a question
+ so this was what they fed up when we were physicists to children
+ so inertia for us is a very intuitive notion
+ but this is not for biologists
+ on the contrary, biologists know very well about this memory
+ so you need to understand that at the philosophical level
+ inertia just corresponds with memory
+ it's the simplest kind of memory that you can have
+ because you can think that you have processes where the past is weighted
+ it's not a complicated memory kernel which for example decays in a slower way than an exponential
+ so the concept of memory is more general
+ but inertia is the simplest kind of memory kernel that you can think about
+ and this is the first comment that I wanted to make
+ and the second comment is that clearly if you consider systems which have
+ if you take the limit of mass going to zero
+ which is called the other down to the limit
+ if you take the limit of mass going to zero or which is
+ the same you can see that time scales which are much larger
+ than these two, okay, you can see that you can forget
+ about this memory kernel, okay, so you forget
+ about your initial condition because this explanation is basically
+ zero, okay, and here in this
+ integral here, we only went with weight
+ one, t equal to t prime, only in present
+ the immediate past if you want, the step before, okay
+ so here, so basically in this limit
+ which is called the overdone limit
+ what happens is that your solution
+ just becomes v of t equal
+ then we need to take the correct limit here for the delta function
+ if you remember, so we need to not decline
+ and divide by z
+ this becomes a delta function, okay
+ so you will get
+ 1 of z delta
+ okay, so this is the solution of your equation
+ the equation describing your system in the open-down limit
+ okay, but this remembering
+ what is the definition of v, you can write it as an equation for x
+ okay, so in the open-down limit your system is described
+ by this equation here
+ well, this is a noise term
+ and this is the opposition, okay
+ so this is the over downed Langevin equation
+ okay
+ remember that this is noise
+ sometimes you find this term like psi
+ you find different symbols
+ but the point is that
+ you have a derivative of x
+ and an inverse term
+ okay, if you think
+ of the general structure of the equation
+ remember that we started this term here
+ okay
+ the overlap limit of the full equation
+ is simply
+ we need to consider
+ that f is homogeneous
+ with delta f
+ so you can guess what is the overlap limit
+ of the full equation
+ it presents with this one
+ this is the force
+ this is the general structure
+ of the Langeman equation
+ and the overlap limit
+ when you also have forces present in your system
+ which are not the random noise
+ ok
+ so this is the overlap case
+ ok
+ and what our little example
+ our simple example
+ this solution showed us
+ is that the overlap limits
+ holds
+ when we look at the system
+ at times which are much longer
+ than these microscopic times
+ ok
+ so just to give you an idea
+ of some realistic case
+ ok just consider the case
+ of the
+ of the
+ of the Brownian motion
+ remember
+ the approach that we used
+ the approach that we used
+ in the random walk
+ ok
+ so if you remember that
+ even in the context of the
+ random walk
+ we
+ we dealt with parameters
+ which have the same meaning of these ones
+ in particular if you remember what we did on Friday
+ even in the context of the random walk
+ we defined a friction coefficient
+ and this friction coefficient was defined as the mass
+ over two toes
+ where the meaning in that context in the random walk context
+ what was the meaning of these parameters
+ if you remember we have divided
+ our time axis in small intervals
+ and tau was just the time of each interval
+ and it played the role of the time between the two different bits of the water molecule on the dranian particle
+ and it was on the order of 10^-12
+ okay so this is let me call this tau random walk
+ distinguished from this tau that we defined here
+ okay but you see that these two time scales is tau of the random walk
+ so let's invert this relation we define is tau random walk equal m over 2 friction
+ ok so you see that if we give the same meaning to the parameters m and z in the two contexts
+ this time scales here is just one half of the tau that we found in the random walk
+ which was the time between two different keys
+ so this is to say for a Bramian particle this tau here is of the order of 10 to the minus 12 seconds
+ ok so this is to say that if you want to use this approach to study a Bramian particle
+ so a particle of microscopic dimensions in a thermal valve
+ in a thermal diffusive motion
+ this tau is much much smaller than observational timescapes
+ if you perform an observation of your system it can be in seconds, okay, mini seconds if you are really very good
+ this tau is 10 to the minus 12 seconds so it's very very small
+ so what does it mean?
+ that basically you are always in the overdone way
+ so if you want to find out the signature of the fact that there was an inertia in your system
+ you need to explore time scales which are the order of 10 to the minus 12 seconds
+ for a browner particle this is impossible
+ so everything that you see in your experiment is already overclocked
+ for browner motion
+ but it can be that for other kinds of problems
+ this time scale though is not so small as compared to observational time scales
+ so you need to understand that small and large mean nothing
+ it's always comparative to something
+ so small means small compared to observational time scales
+ larger compared to observational time scales
+ ok so if you look at a system in general
+ and you find out that your system can be described by an equation of this time
+ ok where this is some noise which is not thermal noise maybe but it's some other kind of noise
+ and this is the effect that these two terms represent the effect of this noisy environment
+ and you find out that this dark scale here is of the same order of the observations that you can do in experiments on your system
+ then you need to keep the full equation
+ you cannot say that you are in geography and you need to look at the solution of your full equation
+ because of what happens, what you are studying occurs on time scale where memory is different
+ so you always need to look at your problem with a certain critical perspective
+ I will make an example of this
+ I can make you just now but at the end of the course we will look at this
+ if you look at a flock of birds
+ the most part of models that were used to describe the flock of birds
+ are called flocking models
+ we will look at them at the end of the course
+ they were an overdone
+ however when we started doing experiments on real flocks
+ of natural flocks, not just models or simulations
+ we discovered that our system was not in the overdone
+ and that there were phenomena that you could observe
+ that you could not describe in the overdone
+ so you need to put back in action
+ so we will see that at the end of the course
+ but I wanted to tell you this because now you understand why
+ this is something that needs to be dead in camp.
+ So now let's go to the question of try to understand
+ what is the role of the values of parameters entering our system
+ so now we understand what is this role of the friction coefficient of the inertial terms
+ they determine this microscopic time scale which is related to memory
+ then what we have is that we have another parameter which I did not write but should have written
+ and this other parameter is related to the noise
+ okay so I told you last time let's do this here I'm writing the general d-dimensional equations so let's write the variance of the noise in the general case
+ so here alpha and beta are the special coordinates x, y, z ok and the variance of the noise has this group ok so on Friday I just wrote the one-dimensional version of this ok so without coordinate indices ok the more general expression is this one but
+ it's just a generalization what this is telling us this is telling us here we have a delta beta so this is telling us that each coordinate has its own noise so you can see this as three exactly identical equations for each coordinate ok x y and z each coordinate behaves according to the same kind of question ok and all the three coordinates have a noise which acts only at the same time ok so
+ we don't have correlated noise in time that is something that people have studied but it's a generalization we stick to the same kind of question ok and the variance of this noise namely if you take t equal to t prime and alpha equal to beta and we look at how much each coordinates fluctuates we actually typically allow people to fluctuate each coordinates this is given by b b it's just a parameter ok so
+ what I would like now to show you is that b is actually related to what? to equilibrium and therefore to energy ok so to do that we will do the following what we will do is that we will say ok let's assume that our gramian particle it moves in water
+ so the following of the discussion that we had at the beginning of the lecture at some point after many of these kicks these water molecules should equilibrate with the thermal bath made of the water molecules ok so at some point what we should find is the relation given by an equation once the pollen grain equilibrates
+ and therefore we should have this relationship here so actually this is in 1D ok let's do this in B ok in general in a generic dimension it should be like that ok where A squared is B
+ the kinetic energy is proportional to the temperature ok the temperature of the reservoir is water ok very well so this means this means that the equilibrium ok that this relation should go ok so and why do we reach equilibrium
+ and water it will start receiving many kicks so we need to wait a long time so what we expect is that our what we assume is that our Langevin equation will at large times will lead to equilibration of our part ok there are more rigorous ways to show that with that equation we are not dealing with these methods ok this is related to what is called detailed balance if you are interested
+ to take the course of the algorithmic physics ok but anyways so this is what we should get so what I will do now is the following so this equation it has a temperature ok that is temperature on the right side here the temperature is no more ok so this is an equation which allows us to connect the parameters of our dynamic and stochastic
+ equation with equilibrium concept. So what I will do is that I will compute v square of t averaged
+ then we will try to understand what average means. This in general, since the solution of this equation depends on time, this is usually something that depends on time.
+ and for t going to infinity, my guess is that we should be equal to the equilibrium value of the square.
+ So now, what is this average here? This average here is the average performed with the equilibrium canonical distribution.
+ It's a equilibrium average. But what is the average here? Well, here we have random quantity.
+ The quantity is the noise. So making averages on this stochastic dynamical question means making averages with the distribution of the noise.
+ So actually in practice you don't need to know precisely the full distribution. For what we are doing we just need to know what is the average value of the noise and its valiance and we are really happy.
+ But in cases where you need the full distribution of the noise you just need to know, someone has to tell you what is this, what is the distribution of this random bar.
+ And the simplest thing that you can assume is that this distribution is a functional distribution because delta f is defined for each value of t.
+ Okay, and usually this is assumed to be a Gaussian.
+ Okay, so this is something like this.
+ Okay, it's a Gaussian distribution of the value of delta f with a variance given by b.
+ Okay, but we don't need, for what we want to do without it, we don't need the distribution.
+ Okay?
+ Sorry, can you repeat why we use the formula is not a function, a positive distribution?
+ Because delta f is not just one single random variable.
+ Okay.
+ Delta f is delta f of t.
+ So this means that for each time t, you need a random variable.
+ Okay?
+ So if you want to understand this, let's assume, let's think about the discretization.
+ Okay?
+ So the solution, let's say that we discretize time.
+ Like we did for the round walker.
+ We discretize time in some small intervals, large t.
+ Okay?
+ So each one of them is t.
+ Okay?
+ Okay, very good.
+ So now for each one of these integrals, you need a delta f.
+ So if just a number of these integrals, we will have delta f of t1, this is t1, and then here we will have delta f of t2, okay, and so on.
+ And to know what is, to find the solution of your problem, what you need is not just one delta f.
+ What you need is the chain delta f of t1, delta f of t2 and so on up, let's say this is the, let's say that this here you have zero, so t1 is the first integral up to the present time.
+ Okay? So if you want to find the solution of that equation, one part of your permanent part, one single part, you need to know the value of the noise at each time step.
+ So let's say that you are a TV, this is your pollen grain, your pollen grain will start moving, okay, and you will perform an erratic part, okay,
+ and if you want this precise part that your pollen grain realized, performed in a real experiment, you need to know precisely all the values of the delta f at each timestamp, so you need to know all the impulse changes due to the water molecules every time they hit on your pollen grain, clearly this is not something that you are able to do, okay,
+ so since you are not able to do, you cannot really find out what is one single specific path, so what you can do is to average over all possible paths, so you say okay this is one single path but maybe the water molecule kicked in a slightly different way but the statistics of the way of these kicks is the same, so maybe in another path my particle
+ would have made this trajectory and so on. Each one of these trajectories corresponds to a different profile of these random variables. So if you want to look at the statistics of this process you need to know how this is distributed, how this is distributed and so on. How the whole random path is distributed.
+ Each time step, each one of this random variable is distributed independently of the other interval.
+ Ok, let's assume Gaussian distribution, it's not necessarily, it's assume Gaussian distribution.
+ You will have Gaussian distribution for this one, Gaussian distribution for this one and so on.
+ Ok, so what would be the distribution of this sequence of random realizations of the noise?
+ Ok, this would be e to the minus one half delta f of t1 square over b.
+ Multiply the e to the minus one half delta f of t2 square over b.
+ Ok, but we need to multiply by t, the e and the r.
+ Ok, yes.
+ Ok, sorry, sorry.
+ So you will get a Gaussian distribution for each bit.
+ So when you do the product, you sum the exponents and this will give you back to Z.
+ Ok?
+ And this is the meaning of this partial distribution.
+ The meaning of this partial distribution is that if the discretizer
+ in each interval your variable is drawn with a Gaussian measure.
+ Ok?
+ But actually we will assume that we do not need the work.
+ Ok.
+ So when you have a functional distribution and you want to interpret it,
+ the best way is to discretize.
+ But actually this is also the way mathematically this function of distribution is defined.
+ You start by discretizing and then you take the limit.
+ Ok.
+ So if you want to have an intuition of what your functional distribution is,
+ you just need to, the best way to have an intuition is to discretize your process.
+ Ok.
+ Very good.
+ But now let's go back to what we wanted to do.
+ So we wanted to do this.
+ Ok.
+ So now we understood that this average here is an average over the noise.
+ Ok.
+ So this is an average over delta f.
+ So let's perform this average here.
+ Ok.
+ So we want to compute the average value of p squared t.
+ We have the solution.
+ The solution is this one.
+ Ok.
+ So let's do this.
+ Ok.
+ So let's do this in one dimension or if you want for one coordinate then we can sum up all the coordinates.
+ Each coordinate behaves independently.
+ So we can look at each one of them independently.
+ Ok.
+ So what we have for example for a given coordinate let's say.
+ So we have V alpha square of T average.
+ This would be the average value of what?
+ Okay, so we will have some different terms.
+ So we will have a term which has twice this thing here.
+ Okay, so that would be V0 squared E to the minus 2 Z over M T.
+ This is a constant so it does not contain the noise so the average is equal to the constant.
+ It is not noise dependent so it is just this.
+ And then we will have the two cross terms.
+ This multiplied by this and this multiplied by this.
+ We will make the square of this thing.
+ But then I will write this schematically.
+ Ok, let's write it.
+ We will have V0 alpha e to the minus zt over m.
+ And then we will have the integral.
+ And then we need to take the average.
+ We need to take the average.
+ What is the only thing that depends on the noise here?
+ It's this. So we can put the average inside.
+ So this is the only quantity depending on the random variable.
+ And we assume the ideal brightness here, but we assume that the average
+ value is zero, okay?
+ If you remember last lecture.
+ So this term here is zero.
+ It does not contribute.
+ Okay?
+ So the only term that contributes to it is the term where we have the two integrals together.
+ Okay?
+ So let's write the terms with the two integrals together.
+ So I need space, so I'm raising this.
+ Okay, but is it clear what we have this relevant?
+ Yes.
+ Sorry, I understand why this region doesn't come here.
+ It isn't here?
+ Yes.
+ Because the average of that is zero.
+ Okay?
+ You see, there I just wrote it.
+ The properties of the noise, we are assuming a noise.
+ But the average of that is zero.
+ Okay?
+ So this is going to be zero, so I don't have this term.
+ Okay?
+ So I erase this term, right?
+ So the other term that remains is the one where I take the two integrals together.
+ So I will have a term b0 alpha squared.
+ Okay?
+ No, sorry.
+ There is no b0 alpha squared.
+ Okay, b0 is the second.
+ So I will have the two integrals.
+ So I will have integral that e prime e to the minus z over n e minus e prime.
+ Okay, and then I have delta f alpha of e prime over n.
+ Okay, and then I have another integral.
+ So we have another integral.
+ I use a different integration variables because the integrals are two distinct integrals.
+ And then I will have here delta F alpha of this n.
+ And I need to take the average.
+ The average is with respect to the delta F variable so the only part that depends on delta F is this one so I am moving here.
+ Ok? Very good. Ok so now what happens? What happens is that now I can exploit the properties of the mice.
+ So I know that I know what this average is because it is that over there. Ok?
+ So this here is just 2b over m squared. Delta t prime minus 0.
+ Ok? Very good.
+ So I can put this back here. Let's solve that in space.
+ So I have these terms of initial condition.
+ And then what do I get here?
+ Ok? So this is delta t prime minus the second.
+ So I can exploit it. So let me write this here.
+ So we get a little bit of space.
+ So I substitute this.
+ Ok? So here I get 2b over m^2.
+ Where delta t prime minus t prime.
+ Very good.
+ So now I can exploit this delta function.
+ Ok?
+ So this delta function tells me that t second should be equal to t prime.
+ Ok?
+ And the integration range of t second from 0 to t, t prime is included from 0 to t.
+ And so I'm positive that this delta flansion can be exploited.
+ Ok?
+ Because t prime is in the range of integration.
+ Ok?
+ So I will just get rid of one integral.
+ Ok?
+ So this second term, now this second term I began integral from 0 to t, t prime, then I have
+ 2t over m squared, that will be the front because it is constant.
+ Ok?
+ And then these two integrals become the same.
+ Ok?
+ So I will get e to the minus 2z over m, t minus the prime.
+ Ok?
+ Very good.
+ So now we can do this integral.
+ So I get the first.
+ Ok?
+ So this I have one term that I can put on the side.
+ Ok?
+ This one here.
+ And then I have the exponential.
+ So the exponent, integral to the exponential.
+ We get the path M over 2Z.
+ Ok?
+ And then I will get E to the 2Z over M T minus 1.
+ Ok?
+ And I have here the coefficient which was 2B over M.
+ Ok?
+ I think it's ok.
+ Ok?
+ Ok.
+ Ok.
+ Ok.
+ Ok, so now I can write the two swings here.
+ Ok.
+ Ok.
+ Ok.
+ Ok.
+ So what I've got is that the alpha square is equal to the zero alpha square e to the minus
+ two zero over half of the key.
+ Ok.
+ And then here I can simplify, right?
+ Because the two goes on.
+ Ok.
+ The last goes away with this.
+ So I get e over z, n.
+ And then when I multiply this by this I get a 1.
+ I will get 1 minus e to the minus z over n.
+ This is my solution.
+ Ok.
+ Very good.
+ Very good.
+ So now I want this.
+ So I need to sum over all the alpha.
+ From 1 to b.
+ The special coordinates.
+ So I need to sum over alpha.
+ Ok.
+ So when I sum over alpha, here I get 0 squared.
+ Ok.
+ Here I get 0 squared.
+ And here I get the perfect b.
+ Ok.
+ Very good.
+ So now this is b squared.
+ But now what I want to do is to look at the long time routine.
+ Because I want my system to equilibrate.
+ So I need to take the limit for t going to infinity.
+ Ok.
+ So when t goes to infinity what happens?
+ This term here goes to zero.
+ Ok.
+ This term here goes to zero.
+ And the only term that remains is this one.
+ Ok.
+ So what do I get is that v^2 equilibrium, long time limit where my system has to be graded,
+ is equal to v over z n.
+ Ok.
+ Ok.
+ But then I exploit this equation.
+ What this equation is telling me is the following.
+ Now let's say that I simplify one half here and here.
+ I divide by M.
+ So I should get this.
+ So I should get that that quantity is equal to B.
+ K B T over M.
+ Ok?
+ And so what do I get?
+ I simplify everything.
+ So what I get is that B is equal to K B T Z.
+ Ok?
+ So this is called the fluctuation dissipation theorem.
+ It's one of the fluctuation dissipation theorems.
+ Ok?
+ Which relates the properties of this stochastic noise driving our dynamic and stochastic equation.
+ With the temperature.
+ So basically what we understood from this example is that this noise here if we want to describe a process where the noisy environment is a thermal path.
+ So the noisy effect is due to temperature is due to a path which is thermal like in the Bramian motion case where water molecules they are agitated because they are at fine temperature so this is really a good path.
+ Then the amplitude of the noise should be proportional to temperature.
+ If we take the proportion of W, if it is in this model, this is a model, in this model, if we take B proportional temperature and distribution coefficient,
+ we find out that the equilibrium relationship are satisfied.
+ So this is one argument that tells us how we need to take the thermal bath to describe an equilibrium process in the long term.
+ And also know that the thermal bath is not just proportional to temperature but it's also proportional to friction.
+ And this relates to the fact that I told you at the beginning that both these two terms here
+ So the friction coefficient of these two terms are due to the thermal bath.
+ This is the dumping effect of the thermal bath and this is the excitatory effect of the thermal bath.
+ But they are both due to the thermal bath.
+ And indeed, in this relationship, they both are due.
+ Okay?
+ Then we will see, we will see that this is also pusher to recover the Boltzmann distribution.
+ We will see that there.
+ Okay?
+ Very good.
+ So we found this connection.
+ So another parameter that we encountered before, and that is a phenomenological parameter, is the diffusion coefficient.
+ Okay?
+ But the diffusion coefficient does not appear here in the parameters of the model.
+ So it should be related to the parameters of the model.
+ And so we would like to find out what this relationship is.
+ Okay.
+ Very good.
+ Okay.
+ So now we have found this connection with the...
+ For the time being we just looked at the B squared velocity.
+ Okay.
+ In the long time limit.
+ So now since the diffusion coefficient is related to the B squared displacement,
+ we will look at the B squared displacement.
+ Okay.
+ Okay.
+ So, in the previous case, we saw that the B squared displacement is proportional to time
+ and we call the constant in front of this time dependence diffusion coefficient.
+ Okay.
+ Very good.
+ While in general the diffusion coefficient can be defined in a more general way.
+ In this way, okay.
+ We just take the limit for p equal infinity of delta x squared.
+ Okay.
+ So this is the general definition.
+ Also, there is an equivalent one which is the limit.
+ It is even more general.
+ One half.
+ The derivative with respect to time.
+ Okay, that's good.
+ Okay.
+ It is even more general.
+ Okay.
+ Very good.
+ Okay.
+ So now, I mean, to exploit these definitions,
+ in any case what we need to do,
+ both in this case and in this case,
+ we need to find the average value of that x squared.
+ Okay.
+ So this is what we are going to do.
+ Since we know how to perform averages,
+ we have just performed the average of the v-square velocity,
+ we can perform the average of the v-square v-square.
+ Okay.
+ So what we need to do,
+ let's remind,
+ what is this?
+ This is the sum of alpha, okay.
+ Of what?
+ This is the sum of alpha,
+ of x alpha times t times x alpha times zero.
+ Okay.
+ In general, you need to subtract also the average value,
+ but in this case the average value is zero.
+ Yes?
+ I was wondering why we started to say that there was a single agent,
+ so for one particle, not something, one prime particle.
+ Yes.
+ And then during this demonstration,
+ we use the Covertition theorem,
+ that is a microscopical,
+ it's based on a high number of the real freedom system.
+ So why we can just use it and not worry about why we use that,
+ then if we can't use it in this system?
+ Well, because even though the Brownian particle is just one,
+ one Brownian particle,
+ if you can really raise it to the cloud,
+ you can assume one of the functions
+ with the experiment content in the partition.
+ Sorry?
+ I agree with the experiment, okay?
+ Okay, if you prefer to,
+ you can also take it another way,
+ you can think of the population of animals,
+ if you think of the population of animals,
+ you do that, and this all.
+ I mean, it is true that,
+ in general, it is something related to system made by many units of freedom,
+ but, in fact, if you think about it,
+ all you did, basically, all you did in your StatMed course
+ was done from the perfect gas.
+ The perfect gas, they are independent particles,
+ so you just look at one of them, many are the same thing.
+ So the real difference,
+ and when you really need to think of many units of freedom,
+ is when you have interruptions.
+ When you have interruptions,
+ really to be able to say something,
+ from the statistical perspective,
+ you need to have assistance with many units of freedom.
+ But it's there that it's the real difference.
+ When you have independent particles,
+ one or many is the same.
+ So you can see that one pollen grain
+ or a population of pollen grains is the same.
+ So we need to look at this one in here.
+ So let's assume that we start our pollen grain in the origin
+ so the initial coordinate is zero, so we don't have this.
+ So we need to compute this.
+ We need to do all the same kind of analysis that we did before.
+ It's just slightly more complicated and why is that?
+ Because since we need x, the x we need to perform another integral.
+ Because we have the solution for v.
+ But v is the x over the t.
+ So if you want x we need to integrate.
+ So we have two integrals instead of one.
+ They are all exponential.
+ So you can do everything with exponential.
+ You can do that.
+ It's just slightly more complicated.
+ So we will use a bit.
+ Since we know that, I mean,
+ to go to the diffusion coefficient,
+ we need a long time behavior.
+ So we need to understand what's the behavior of the system
+ on the larger scales.
+ So we can say since for my grammar motion,
+ I know that the microscopic scale is very small
+ and the larger limit is dominated by the overtapped behavior,
+ I just look at the overtapped equation which is similar.
+ So I just look at this equation here.
+ So if I look at that equation here,
+ you see that the expression of the position is much similar.
+ So here I can erase, we found this, let me rewrite this,
+ what we found here, so I can erase the blackboard.
+ So we found that B is equal to KB B.
+ Okay, this is the equation, this equation.
+ Okay.
+ Okay, so I'm going to erase everything.
+ Okay.
+ So I just need this equation here.
+ I look at the larger times, so I am in this of the time limit.
+ So this means that I can integrate this.
+ So this means that x of t is equal to x times zero.
+ Okay, plus integral from zero to t, theta prime, theta prime, all that's up.
+ Okay, so let me, I told you let's put x of zero equal to zero, but you see that from this equation immediately you get x minus x zero.
+ So it was basically, it was not useful.
+ Anyway, let's put it to zero.
+ So this is my x of t.
+ And so now it's very easy.
+ Now I have just one integral.
+ I don't have to.
+ So it's really very easy to compute this quantity here.
+ Okay.
+ So let's compute it.
+ So we have the x alpha plus two kind of one single component, one single coordinate.
+ That would be the integral from 0 to t in the prime, delta f alpha over prime.
+ And then I have the second integral.
+ Integral of the z over delta over friction.
+ Delta f for the second alpha over friction.
+ I need to take the average.
+ I need to take the average.
+ So let me, the average will be this.
+ This is the order of the terms.
+ Ok, I just re-order the two integrals.
+ But now I know what is this.
+ I just look at my expression.
+ This is b, it should be 2.
+ b, delta t minus the prime.
+ But now I know what b is.
+ So b is k, b, t multiplied by friction.
+ So this is k, b, t multiplied by friction.
+ Delta t minus the prime.
+ So this would be I just substitute this here.
+ So this would be 2 k, b, t, z, delta t minus the prime.
+ So this comes with this.
+ The delta function allows me to get rid of one of the intervals.
+ And I remain with just my integral from 0 to t, which is t.
+ Ok, so in the end this will give me 2 kVt over z.
+ Ok, very good, so now at this point this is just one special coordinate, so now I sum over all the coordinates.
+ So what I get, I get x^2, delta x^2 is equal to the sum over alpha from 1 to d, the big coordinates of my system, of 2 kVt over friction p, which is equal to 2 kVt over friction p.
+ Now I take one half of the derivative with respect to t, which is the definition of the diffusion coefficient, and so I get that the diffusion coefficient in dimension c is just kVt over x.
+ And so I also found how the parameters of my model are related to the diffusion coefficient, which is something that I can observe in the depth.
+ So temperature, the temperature of the diffusion coefficient are phenomenological metroscopic parameters that I can measure from an experiment.
+ And I have related them with the parameters entering my model.
+ I am happy and gave a meaning to everything that is present in this model.
+ Very good.
+ So this is called the ice tax self diffusion equation.
+ And what we can do, we can also make a step harder.
+ Because usually the friction coefficient is something that tells me when I have my system, in this case my granular particle, moving in a fluid, in an environment, in this case water.
+ This tells me what is the viscous effect of the fluid, of the solution of the environment on my system.
+ Okay, so this viscous effect depends on two things which are distinct, one thing pertains to the system itself.
+ So if you have asperic or brownian particle the effect of the water is one kind, if you have a pubic brownian particle you have a different kind of effect.
+ In the same environment the shape of the object is relevant to understand what is this viscous effect but also the properties of the fluid are important.
+ So there is a dual contribution, one related to the object and one related to the fluid.
+ So this is, if you have a spherical particle, you can write down this as something proportional to the radius of your pollen grain.
+ And this eta which is called the geometrical factor is 6.5.
+ So this is something which is related to the object, this is the radius of our pollen grain.
+ While this eta is the viscosity of the fluid, in the case of water the viscosity of the fluid.
+ And in general you will have here a geometrical factor which depends on the properties of the object and the viscosity of the fluid.
+ So if in general you call it a, a geometrical factor, it depends on the object.
+ Then if you substitute you will get the diffusion coefficient which is just a, k, b, t, or b.
+ And this is called the stock size relationship.
+ Okay, so we, in this way we completed this general part.
+ Okay, so before going at population level, I just want to make a comment, mathematical comment.
+ And the comment is the following. Now let me focus on this equation, the over-down case.
+ Okay? The over-down case when we are only considering a particle, an object, and a noise.
+ You see, we have a partial, coordinates, coordinates, coordinates, and then we have the noise.
+ Okay? So this is a mathematical comment, so this is not the question.
+ This is not the occasional interest, so I am telling you this that you won't forget.
+ But I think it's interesting, so I am going to tell you.
+ So let's say that we have this equation here.
+ The first thing that we notice is that there is just one parameter appearing in this equation,
+ which is restriction z and then the variance of noise of course, but this parameter can be scaled up.
+ This parameter can be scaled up and the way to do that properly, you will probably find this many times in the course of your studies.
+ OK, you can say, well, let's put the friction equal to 1 and we have a simpler equation.
+ This is a very weak but not correct way to do that.
+ If you want to get rid of this parameter, the mathematically correct way to do that is to rescale everything.
+ So let's say that we have this relationship here, delta f of t, delta f of t prime.
+ Let's do this in one dimension, so things get simpler.
+ So this is 2b delta t minus 2.
+ For the moment, let's even forget about the 2dc.
+ It's not important.
+ Okay, so now what I will do is the following.
+ I will define, I will rescale.
+ Okay, so I will take the time t,
+ will go in a new time, which is t over 1.
+ Okay, so the first, the left-hand side of my equation,
+ so let me go this together.
+ Okay, this will be the derivative with respect to the prime of x of t, where t is related to t prime by the solution.
+ Okay, and this will be the f of t.
+ Okay, so now I will redefine, I will redefine my field.
+ So we will introduce a new variable, x tilde, such that x tilde of t prime is equal to x of t.
+ Okay, which means it's equal to x of z prime, because t is z prime.
+ Okay, so I will redefine this variable, so basically here is the basis.
+ Okay, and I will define a new, this is two, sorry, it's important to do the random variable.
+ Okay, so, and now I will define a new random variable, let me call it xi.
+ Okay, xi of the prime, which is equal to delta f of z of the prime.
+ Okay, and so with this, with this definition, this is just xi of the prime.
+ So I changed the symbol, because dimensionally this is a force, but this is not a force.
+ Okay, so we need a little bit of ingestion symbol.
+ Okay, well, and so the thing that I want to see now, so here from this equation, in this form, I got rid of my parameter friction.
+ So here I have friction, but the friction was present in two places, it was present in equation, but it was present also in the variance of the noise.
+ So I need to check whether I got rid of friction in the variance of the noise.
+ So to do that what I will do is I will compute C of T1, C of T2.
+ T1 prime, T2 prime.
+ Very good.
+ This is delta F.
+ Very good. So this is water, follow this definition.
+ So this is delta F of Z T1 prime.
+ Delta F of Z T2 prime.
+ And then I need to take the average.
+ But the average of this correlator is this one.
+ So what I get, I get 2 KVT Z and then the delta of the other one.
+ So we get the delta Z T1 prime minus T2 prime.
+ But then I remember the relationship of the delta function.
+ I remember that delta of AX is equal to delta of X over A.
+ So I can rewrite this as I hope you can see this.
+ Can you see this?
+ If I write here down.
+ So I can rewrite this as 2 KVT of Z.
+ And then I will get delta.
+ D1 prime minus 2 D prime.
+ Divided by Z.
+ And I will get a little bit of Z.
+ Ok.
+ So by using this scaling.
+ With these new variables.
+ I have written my equation in this way.
+ Ok.
+ Where now the noise.
+ The variance of the noise.
+ Is 2 maybe 3.
+ Delta 2.1 prime minus 2 prime.
+ I don't have the friction neither in the equation.
+ Neither in the model.
+ What I did mathematically in different terms.
+ is to redefine the microscopic unit of measure of time.
+ That's it.
+ And I did this by dividing by the friction here.
+ So actually it's not precisely that because friction is not the dimension of time.
+ So if I want to imagine this in a reasonable way,
+ I should put it here, a microscopic time scale to make the dimension of the system.
+ But philosophically this is the meaning.
+ So this mathematical procedure is telling me that in the overdone unit this friction just sets the microscopic unit of measure of time and I can redefine time to get rid of it.
+ Very good, so of course once I understood this I don't need to use these weird symbols.
+ Okay, so this would be the equation where I have rescaled the application from my system.
+ Okay, why did I did it and why did I explain this to you because sometimes you just, as I told you, you just find it and say, okay, let's assume friction is equal to 1, so I can avoid keeping friction in all my computations and so on.
+ But the correct way to do that is this, okay. Of course you see that this has exactly the same effect as putting friction equal to 1 here and in the variance of the noise, it's exactly, you would get to the same effect.
+ But the correct procedure is this one. Now what is interesting about the equation of putting this form is that this is, from a mathematical point of view,
+ this is a well-known process which is called the Wiener process. So actually the Wiener process, when you look at it in books of stochastic processes or when you read some paper written by a mathematician, it is not written in this way.
+ You don't find it in mathematics books, you don't find it written in this way. You find it written in this way.
+ Where W stands for dinner. Okay? And I mean, if you compare these two, the W would be C of T, the T.
+ But why do mathematicians don't use C of T in the T and they use the W? Okay? There is a reason for that.
+ And the reason for that is that this is a continuous process, but it's not differential.
+ So actually since this is not differential, from a formal point of view, you would not be allowed to write this.
+ So now I'll explain you why this is not differential.
+ So let's say that we start from this equation here.
+ We look at a very small time and we compute the x squared.
+ So we look at the very small time, we look at the x squared.
+ The x squared, what is this?
+ It's just, you just need to integrate from t and t plus the t.
+ So the x squared is x of t plus the t minus x of t squared.
+ Okay?
+ So what I have to do is to, for my stuff in the equation,
+ I put it here, if I integrate between t and c plus t.
+ Okay?
+ So that would be the t prime, c of t prime,
+ t seconds, the trick that we have already used before.
+ t seconds, c of t prime, c of t second.
+ Now, let's have to find out the typical value of this internet.
+ So, we want to find out the typical value of the x internet in a very small time.
+ This is what we want to do.
+ So, we take the average value here, we take the average value here.
+ Okay, and this is just something, okay.
+ This is 2 kVt delta t prime minus the second.
+ That's really the other time, that's really before.
+ So, this comes out to be kVt multiplied by the difference of times, which is the t.
+ So, what we just found out is that x^2 is of order dt.
+ This is what we just found out.
+ But if dx^2 is of order dt, dx is of order dt to 1/2.
+ Ok?
+ So, when I take dx over dt, what would be the outcome?
+ The outcome would be dx over dt.
+ We have just seen that this is over dt to 1/2, this is over dt to 1/2 divided by dt.
+ So, this is over 1 over dt to 1/2.
+ So, when I send dt to 0, this goes to 3.
+ So, this is telling us that this is not a differential process.
+ So, from a mathematical perspective, writing it like this,
+ it's meaningless. However, even though this is not a differentiable process,
+ whenever I look at it in a finite, even very small finite interval,
+ it's perfectly meaningful. Okay? And that's why they write it like this.
+ The x equals the w. Okay? Because in every finite interval,
+ everything is perfectly well-defined. Okay? So, the way mathematicians write it down is to write the x equals the w,
+ and this the w now is a random variable, defined on a small interval of the p,
+ and its average value is 2 kVt . So its average value scales with the amplitude of the interval. Okay?
+ So this is the way for an addition to this. So if you find something like this in a book or in a paper or in an article,
+ I mean its just the same thing that we would quickly write down like this but its written in a more rigorous way. Okay?
+ Very well, so now let's introduce, let's introduce, let's do two things which will be the topic of Friday's lecture.
+ Okay, let's do it, let's do it, let's do it, let's do it, let's do it.
+ So let's try a little bit to picture, to have an inclination of what we just came out.
+ So let's look at d=1, okay, to have an inclination, and let's remember that we are looking at the case
+ where delta f is equal to zero, and delta f squared is equal to what?
+ 2 k d t z, okay, which is equal to 2 d z squared, right?
+ I need to divide and multiply by z and I get equal to 2.
+ Okay, very good and what we found out also is that delta x squared equals like 2 d t,
+ where d is equal to k d t.
+ Okay, this is all the things that we have been discussing.
+ Also, what we have is that the average value of x is equal to 0.
+ And a large time, so we just have this equation and if we take the average values.
+ Ok, so now in one direction I will try to picture how good be my trajectory.
+ So how x depends on time.
+ So one individual trajectory will be erratic because it is determined by the realisation of the random pile.
+ By a single realisation in time of the random pile.
+ So maybe my random particle starts in the origin
+ and then it starts going up, maybe down, maybe up
+ and then it goes a little bit up and then down and so on.
+ So its average value should be zero.
+ But then what we know is this one.
+ So at some point it should become going somewhere.
+ And if we take another particle and another realisation of the noise.
+ It will be something different.
+ Maybe we will explore this region here and another one.
+ Maybe we will do something like this.
+ And another one like this.
+ And so on.
+ And maybe another one here.
+ And so on.
+ Why I am drawing this like this?
+ Because I know that the average value should be zero.
+ So if I take a population of rumble walkers in the origin
+ and then I look at this population after some time
+ I expect to find half of the trajectory up and half of the trajectory down.
+ There is no bias in my equation so by symmetry it should be like that.
+ Ok? And the average value should be zero.
+ But also I find this relationship here.
+ What does this relationship here mean?
+ This is at a given time.
+ So this means that I am fixing time.
+ So this is t.
+ And this point in here measures the spread of my position.
+ So the spread of my position should increase with time.
+ So it should be larger and larger as time increases.
+ And that's why I draw with my objectives like this.
+ So this is position versus time.
+ And this is telling me that as time goes on,
+ typically my Brownian motion will get far away from its original position,
+ but it can get far away forward or backward.
+ Remember that we're looking at the one-dimensional case.
+ So if you think back at the random walker,
+ if I have my Brownian puppy on random walker and I do random sets,
+ by chance I can move a little bit more forward or a little bit more backward.
+ But in time these fluctuations will maybe build up in front space or in back space,
+ but they will build up and I will get farther and farther away from my initial position.
+ And that's why this is spread here.
+ If I just look at my, let's assume that I put my gramian motion in a very shallow dish,
+ so that they need to be, and I put my gramian particle at the origin in this dish, experimental dish,
+ and I put many of them all in the same place at the origin, then one will look like this, the other one will look like this, the other one will look like this, the other one will look like this, and then if I look where my population is after time t, and I trace the radius of this space, the region, it will increase with time.
+ Ok, and this is just this relationship here, and this is this diffusion process, the population diffuses and you get this.
+ So now we stop here, then next time what we will be doing is that for the time being I mentioned in a colloquial

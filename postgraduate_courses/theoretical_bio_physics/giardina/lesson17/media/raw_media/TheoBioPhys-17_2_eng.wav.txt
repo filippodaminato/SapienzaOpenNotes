@@ -1,0 +1,247 @@
+ And then what do I have for n minus, so let me rewrite it in the smartest way.
+ So now I separate this logarithm, this logarithm will be the log of n, ok?
+ Ok, so we separate this, this will be log of m plus log of m plus 1 minus log of 2.
+ Ok?
+ Ok?
+ Ok?
+ And this factor here, let's remind that this is a plus.
+ So I can write it like this or like plus according to what suits me best.
+ Ok?
+ So I separate this term.
+ So when I have these two terms I write it like n plus, so I have n plus log of n minus plus log of 2 and then when I have this term I use this formula here and I will get plus n plus 1 house log of n.
+ Ok? So this is this term here. Now I write the other the equivalent expression. So this would be n half 1 minus m log of n half 1 minus m.
+ I will do the same trick here and I will get n minus log of n minus n minus log of 2 plus 1 minus m half n log 1 minus m.
+ So why it is in this way because you see these two this and this are summed together with a minus sign.
+ So when I sum them together this and this and plus plus and minus is n so these two terms cancel to this.
+ Ok and then these two terms they give me minus n log 2 which here would be plus n log 2.
+ Ok.
+ Ok.
+ And then what remains are these two terms here.
+ Ok.
+ So I can rewrite this as 1 over n.
+ Exponential of what?
+ I repeat everything and we hit a HFM minus VJZN2.
+ Awesome.
+ Ok.
+ And then I will get...
+ Minus is probably minus.
+ Ok.
+ I have done the second part.
+ Go.
+ Minus minus m to the power of minus m.
+ And then I will get the...
+ Plus m.
+ Ok.
+ Very good.
+ So actually this is a constant.
+ So after this term I can just push it in the normalization factor.
+ Ok.
+ So in the end.
+ What if I can rewrite them this.
+ A normalization factor.
+ e to the minus beta.
+ I put the m on the side.
+ What remains here?
+ So beta m I put them on the side with a minus m.
+ So here I get minus m h efficient.
+ Minus beta m I put them on the side.
+ So here I remain with plus j m squared out.
+ And then here I have the m to put outside.
+ I have the minus to put outside but I don't have beta.
+ Next I want to put it outside.
+ I need to put here plus k/dt.
+ I can put also a 2 here.
+ And then I get 1 plus m to lower 1 minus m.
+ Ok. Plus 1 minus m to lower 1 minus m.
+ Ok.
+ And so this inside my parenthesis is what I called the effective free energy function.
+ And you see here we have something that has the dimensions of an energy and here we have something multiplied by the temperature that has the dimension of an energy.
+ Ok.
+ So that's precisely what we wanted to get.
+ We said that this is a free energy because it has a part which does not depend on the temperature which is the energy
+ and the part which is associated to an entropy contribution.
+ This is the entropy contribution and this is the energy contribution.
+ Ok?
+ Very good.
+ So once we have this, we found this one in here.
+ This is an expression here.
+ So what do we do?
+ Why did I do this contribution?
+ Because now, let's say that
+ let's say that now we want this, we have this M.
+ Okay?
+ So we brought this M in this way here.
+ So let's say that we now want to come to the average value of M.
+ Okay?
+ We want to come to the average value of M.
+ With this programming solution, so we go to P of M.
+ So M equilibrium will be given by the average value of this instantaneous M that formed with this distribution that we have just found.
+ So this will be the integral over M of the P of M of M.
+ Okay?
+ We want this to be the same that we already found with the graphical method.
+ If things are good, if the world is good, we need to find consistency.
+ Okay, so let's try to figure out what this is.
+ This is a constant, it's the normalization function.
+ Okay, so now how do we copy this thing?
+ Okay, we have this functional formula, the functional formula is called Eric.
+ This is not an integral that we would be able to do, we have a highly non-linear function here.
+ However, there is an end formula of this.
+ So we can apply the Laplace method.
+ Okay, applying the Laplace method means that we need to find the maximum of the exponent,
+ which means the minimum of the free energy and that will give us our answer.
+ This is the Laplace method.
+ Actually the Laplace method we are used to see this when we have just an exponential.
+ You know that the integral is basically equal to the exponential from the minimum.
+ So if we want to put everything in the form of an exponential we should do it like this.
+ But you see that when you do this you have one term which is big which is a n in front and one term which is order 1.
+ So this means that the maximum of this whole function is given by the maximum of this part here.
+ because this second term would give some leading contributions.
+ Ok, so you can just disregard this, put it here, find the maximum of this function here
+ and that will give you the value of m.
+ Ok, that will give you one.
+ So this one in here, applying the plus method, would just be m*.
+ Where m* is the maximum of the exponential, of the function appearing in the exponential, therefore the minimum difference.
+ Therefore m*, which is our equilibrium, because this is what we are computing here,
+ will be given by the minimum of f effective of that.
+ So what we need to do is to find this minimum. How do we find the minimum? We set the derivative of f equal to zero.
+ So what we need to do is to take the derivative of f effective with respect to m, equal to zero.
+ The solution to this equation will give us our equilibrium of value, but it should be the minimum.
+ It should be the minimum, not the maximum.
+ So we need to look at the shape of this function or at the second derivative.
+ And if we find the different solutions to this equation, we need to look at the second derivative
+ and understand which one of them is a maximum, which is a minimum.
+ We can take the minima, but we cannot take the maximum.
+ Because we are applying this because it is the same.
+ Ok? So, not surprisingly you can do that, I will not do that because otherwise we lose time.
+ If you do this, ok?
+ If you take this with that expression there, if we did the combination correctly, ok?
+ This equation here just gives this equation here.
+ Ok? Which is the one that we have already found graphically. Ok? So the things are consistent.
+ So this is L equal equally tangent of beta H plus beta J0.
+ So if you take this derivative here, you find this equation. Ok?
+ If you set this derivative equal to zero, you find that equation.
+ And we are happy. But now we don't only have this equation, we also have a function that allows us to understand that whether a solution is a maximum or is a minimum.
+ And we know that we have to take the minimum. So we get this thing more, that we didn't have from the graphical solution.
+ Because you remember, in the region below Tc, we have three solutions. And I told you, you only need to take the positive and the negative.
+ The M = 0 is not stable. But why is that? The reason is that if you look at this approach, you can see that M = 0 is a maximum of this function. It is not a minimum. So, you have to describe it.
+ But just to look at this in a more intuitive way, we can try to plot this function here. Okay. We can plot this function and see how it looks like.
+ So you need to remember that this in fact it has m inside. This has m inside. So you can plot it exclusively and then plot it as a function of m.
+ So if we plot this as a function of m, let's look at how it looks like and let's look at the case that we have already investigated graphically.
+ So now we consider here, we look at F effective of m, so this is a function which actually depends on if we look at it as a function of m.
+ This F effective depends on two parameters H and T. So it is a function, a parametric function of m and this function depends on the field and the parameters that determine the shape of this function are H and T.
+ So now we set H equal to zero and we look at what happens with value which is the case that we have already seen.
+ So let's start with the larger temperatures, with larger temperatures this function here that function there is something like this.
+ Okay. Basically this term dominates. Okay. Something like this. So you see there is only one minimum and equal to zero. Okay.
+ So now let's see what happens when we start decreasing the temperature. When we start decreasing the temperature what happens is that
+ the second derivative is zero starts becoming flatter and flatter so this third becomes
+ exactly at the C this is like this it's flat so this is a minimum but the second derivative is zero first derivative is zero the second derivative is zero okay so here we have the f
+ over the m equal to zero in this one here and we also have that the second derivative is equal to zero okay and this will be important because the second derivative in zero this fraction is the inverse of the susceptibility of the system we will see that
+ later on and so having a zero second derivative means that the susceptibility of your system diverges so at PC you have some quantities which diverge which is a signature of the first transition of the second or the first transition okay and why is the second or the first transition because it's the second derivative that has something with it okay
+ so at this point we need to see what happens below the sink so below the sink this thing changes shape and it starts around this point okay and so you see that you have three stationary points but n equals zero
+ is still a stationary point this is a plus and this is a minus okay but this is a maximum so it's not something that dominated the measure okay while these two are two minima so these are the unique points this is nothing this is a stable value okay this justifies what we did before that we need to discard the n equals zero r okay
+ so at this point we have the situation in zero field so the picture that we have is that
+ we have the situation in the future and we have the situation in the future and we have the
+ situation in the future.
+ We have the situation in the future and we have the situation in the future and we have the
+ situation in the future.
+ We have the situation in the future and we have the situation in the future.
+ Okay, so maybe it is better to complete the scenario.
+ So we saw, okay, that H is equal to zero.
+ The magnetization has this behavior here.
+ So this is the temperature, this is the C.
+ And as we will see more in details later on,
+ at this point here, up to C,
+ M is equal to zero, okay?
+ And the equilibrium value, okay?
+ So here I discriminated between the two because I also had the negative.
+ I should write down the equilibrium, let me write down, okay?
+ So m is equal to zero and what I will show you later on is that the susceptibility of the system,
+ which is the derivative of m with respect to h at h equal to zero,
+ this is the linear susceptibility, which is related to that as well there, this is equal to g.
+ How can we see this?
+ So this is the equilibrium volume.
+ So we can grab .
+ And I have enough to do this.
+ I have enough to do this like this.
+ I need to discuss this one and this.
+ But trust me for the time being that we have this.
+ Okay?
+ So this is a point where our order is in style.
+ So it discriminates from an order phase to an order phase and it is also a point where there is something, okay, in our system that goes to infinity.
+ Okay?
+ Very good.
+ So now, we would like to understand, so this is the second order phase transition, where the open parameter changes in a continuous way, we are not going to jump here.
+ And there is a second order quantity, which is this susceptibility, which is what we do, which inverts.
+ Okay. In general, this is the probability, I will put into this second part that we will address this more specifically next time.
+ So now we are going to see what happens when h is different.
+ Let's look at the signal, this is at h.0.
+ So what happens if h is different from zero?
+ So now we have this function here, and then we have two methods, two approaches that we have built up to see what happens.
+ The first approach is the graphical one, we can look at the equation defining the normalization and solve it graphically,
+ which is what we did at the beginning for the case of h equal to zero.
+ And we can look at this effective free energy and see where it has the minimum.
+ Okay, so we will look at the moment.
+ Excuse me, so these graphs that we need are all with h equal to zero.
+ H equal to zero, so I said that this is an h equal.
+ Okay.
+ So let's start to look at the equations.
+ In the case the equation is this.
+ Okay.
+ So if you want to solve this graphically as usual we want to compare this function and this function and to see what they cost.
+ This is the idea.
+ So now we set h is different from zero.
+ Okay.
+ And let's start by considering the situation where t is larger than c.
+ So we have h different from zero and t larger than c.
+ Okay.
+ Let's draw the two functions here.
+ So the first function is always in a straight line.
+ Just like this.
+ The second function is an invariable tangent.
+ But the invariable tangent now it is not equal to 0 in 0.
+ Because we have this term here.
+ So let's assume that h is larger than 0.
+ In case h is smaller than 0 is complemented.
+ While it is standing in the same.
+ So let's look where this function has 0.
+ The hyperbolic tangent is 0.
+ The 0 hyperbolic tangent is where H is equal to minus, sorry, M, is equal to minus beta H divided by CPJ.
+ Okay, this cancels. For this value and 0, the hyperbolic tangent is equal to 0.
+ So it could be something right here. Okay, this is an 0.
+ So this is where the hyperbolic tangent is 0.
+ So when we wrote hyperbolic tangent, it is as if this was its own reference frame, okay, where it is 0.
+ And the hyperbolic tangents, let us do a dash line here.
+ The slope, the slope of the tangent is always given by this.
+ And since we are in the case t-large than tc, this means that the slope is smaller than one of the straight line here.
+ So it will start like this and then it will go to plus one and minus one.
+ So this will be the behavior.
+ So you see that we have one solution which is this one and this solution will give us the equilibrium value of m
+ as a function of value of the field and the temperature that reaches.
+ The external parameters that control wherever our system is.
+ So it will always be positive if the field is positive.
+ If the field is negative you have to be permitting and you will find a negative value.
+ It will be the other way.
+ The points will be here and you will find a negative value.
+ So what happens if we fix the temperature and we increase the field.
+ Increasing the field means that we take this point and we put it farther away.
+ And if we put this farther away this solution would be closer to one.
+ On the contrary, if the field becomes very small, this means that we are pushing this unzero value towards zero.
+ And if you push this curve on the right, you see that this crossing point becomes smaller.
+ So the larger the field, the larger will be the value of the equilibrium minimization that we define.
+ Ok, so above this C what we will get is a curve very similar qualitatively, of course not qualitatively but very similar to the one that we found in absence of interruptions.
+ So, the larger the field, the larger the field, the larger will be magnetization, the smaller the field, the smaller will be magnetization.
+ Ok? And so, how is this scenario represented in terms of effective?
+ Ok. So, we take some H larger than zero, E larger than C. You plot that function,
+ what you find is something like this. So, you still have one minimum. Ok. And if the field is positive, this minimum would be in the positive semi-axis. Ok. So, this would be the minimum as a function of T and H for T
+ and H. If you take a negative field, you will find the same thing in the other semi-axis. Ok. So, you would get exactly the same information that you get from solving a negative equation. Ok.
+ So, the situation with T smaller than you see is slightly more complicated. So, since we have one minute, we will not do it now, but let's try to solve it by yourselves.
+ So, just you need to consider this same graphical scenario, but now the slope will be larger, okay?
+ And so I anticipate, so that you can look at it by yourself, that when you take, imagine that you take now a larger temperature,
+ if this is going to be this one, it will be like this.
+ Okay?
+ You have something like this.
+ So this and zero point, remember, this and zero point is set like a symbol.
+ Okay?
+ So, if you have something like this, you see that you have one solution, so it will seem very close to what we get in here,
+ but now what you can see is that if you decrease the field, you just shift this curve towards the right, and at some point when this part here touches this, you will start having three solutions again.
+ Okay? So try to understand what happens and try what can be the corresponding situation in terms of the energy and then we will discuss this next time. Okay?

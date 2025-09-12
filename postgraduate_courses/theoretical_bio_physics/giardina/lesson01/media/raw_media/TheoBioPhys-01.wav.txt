@@ -1,0 +1,901 @@
+ And the next lectures, we will check about them.
+ Okay?
+ Okay, so what is this course about?
+ This course is about, as you can see from the title,
+ Theorality of Biophysics, okay?
+ And in particular, the aim of the course is to show you
+ and to teach you how statistical physics is used for
+ and can be applied to describe
+ and understand biological phenomena.
+ So the course is divided into two big sections.
+ The first section is the goal of understanding
+ and learning how to deal with noise.
+ And the second part of the course is on the country,
+ it's dedicated to understanding and dealing with interactions.
+ Okay?
+ So noise and interactions are two important ingredients
+ in the behavior of biological systems.
+ And why is that?
+ Noise is important because if you take at organisms
+ or biological entities living at the microscopic scales
+ and you have many of them, like cells, bacteria of other kind,
+ I don't know, amoebe, eukaryotic organisms and so on,
+ all these entities live in, when they live in their environment
+ in the darkened temperature, they are subject to very strong thermal fluctuations, okay?
+ So they are very small and they live in an environment which is a darkened temperature
+ and the effect of this environment produces noise on the behavior of the single individual, okay?
+ So it is important at the microscopic scale, it is important to take care of this noise, okay?
+ In the description of the system.
+ But there is also another reason, and the other reason is that noise plays a crucial role also when it is not thermal noise.
+ So for biological systems you might have many kinds of different noises, for example, if you think of a human, okay?
+ When humans behave, usually they take decisions, but these decisions are never accurate, they are performed with a certain amount of uncertainty,
+ and this uncertainty can be modeled from a mathematical point of view with noise.
+ So I talked about the two extremes, microscopic biological entities living at the macroscopic scale
+ and organs living on the behavior on the larger scale.
+ In both of these cases we have something which is noise, which produces noise on the behavior of the system.
+ So we need to understand how to deal with this noise.
+ When you think about interactions, on the other hand, interactions are everywhere.
+ If you think of a protein, if you think of a DNA segment, if you think of, I don't know, a group of animals.
+ And also in all these cases, very often you have interactions between individuals.
+ So what is the effect of such interactions?
+ In the simplest cases, as in physical system, the purpose of the interaction is to just keep together the individual units, okay?
+ But it might produce also other things, okay?
+ So the other interesting aspect that we are going to address is how interaction can give rise to collective behavior,
+ to behavior on the larger scale, okay?
+ So to do that, we will see that we can use a lot of techniques and approaches that have been used in physics, okay?
+ And so some of them you already know them, you don't know, but you already know them.
+ And so what we will try to do in this course is try to understand how we can exploit all this knowledge that we have from physics and apply it to the biological systems, okay?
+ So this is a good question, so since there is another person arriving, let me tell you that what I would like you to do is to run me an email, okay?
+ And in this way I can create a mailing list, okay?
+ And this mailing list is important for two reasons, because it allows me to communicate quickly with you if you have to cancel some lectures or add new ones, okay?
+ So this is important, but it is also important for you for the next years, because what I usually do with this mailing list is that whenever I get an email for a PhD offer, a postdoc offer, a summer school that might interest people working or interested in biological physics, I send this email to the mailing list, okay?
+ So in this way you will be included in this mailing list, which also includes students from past years, and you will be up to date for interesting offers and seminars for them, okay?
+ So the first part of the course will be devoted to noise, and so what we are going to do in this first lectures is to review a little bit the ways in which we treat noise in physics.
+ So this will be a mini course, so this will be a mini course on stochastic equations, okay?
+ So those of you who are interested into this from the mathematical and physical point of view in this topic, they will have the possibility to study in more details in several courses in this master degree.
+ For example there is the course of non-equilibrium physics, for example, there is the course of non-equilibrium physics, which is this year's, that addresses more in detail on this part of the course.
+ And there is also a specialised course of the second year, the stochastic processes, which is more mathematical theory, okay?
+ So those of you who want to really study rigorously what I am going to say, can do that in these two courses.
+ What I would like to do is to give a minimal introduction to these topics, but which is sufficient for us to understand why they are relevant in the study of biological courses.
+ Okay, so the first thing that we are going to address is Brownian motion, okay, so Brownian motion, Brownian motion, you all know that one of the first papers of Brownian motion was published by Einstein and the problem that he wanted to address, okay, is the following.
+ Let's assume that we have a pollen grain, okay, and pollen grains are the linear size of a pollen grain is of one micron, okay?
+ And why this is particularly interesting to us because one micron is approximately the size of a cell, okay?
+ So a cell, for example, a bacterium, E. coli is in length, E. coli is in length of length of one micron, okay?
+ Of course, just to have a little bit of scales in mind, DNA and RNA, we are on the scale of nanometers, okay?
+ Atoms and molecules, we are on the scale of Armstrong's, then we can scale up, I don't know, white blood cells are a little bit larger.
+ So they are not one micron, they are, I think, 10 to the minus 2 millimeters, so they are probably the largest cell that we can deal with, okay?
+ But the interesting thing is that a pollen grain is precisely the same size of a bacterium, okay?
+ So this is interesting because then later on we will look at bacteria, we will look at chemotaxis and chemoreception and we will deal precisely with objects of this kind, of this size, okay?
+ And so, and what you can notice is that if you just put a pollen grain in water, okay, you observe it, what you will see is that this pollen grain does not remain still, but it starts moving, okay?
+ And it moves in an erratic way, and it moves in an erratic way, so why is that it moves in an erratic way?
+ It moves in an erratic way because, because there are all the molecules of water, okay, which continuously bump on the pollen grain and give some kicks.
+ And these kicks, of course, they are, I mean, you can see them as random, of course, from the strictly microscopy point of view, they are deterministic, like, but if you just look at how they act on the pollen grain, they act in a random way, because you have molecules arriving from all the directions, and when they bump on the pollen grain, they will exchange a random quantity of momentum, so this will make the pollen grain shift in a random way.
+ And this will also make the pollen grain speed increase or diminishes by a random quantity, so it's a random effect due to all the molecules of the water bumping into this pollen grain.
+ Okay, and then you can make some computations, so I have written down all my computations in my notes, which I forgot in my office, but the end point of this computation is very simple, I just sketch out what is the idea of the computation.
+ Let's say that, let's say that we want now to look at this pollen grain, and we would like to try and to understand what is the time scale of this microscopic motion of all the molecules of water that give these kicks on the pollen grain.
+ So how do you do that? Well, you can look in the table, okay, first thing, since this pollen grain, it's abundant temperature, we know that this is an estimate of the energy per part.
+ Okay, if we just assume that water molecules act like a perfect gas, okay, this would be an estimate of the energy of the molecules, and since we know the temperature, okay, because we know that the temperature is of the order of 200 and temperature, we know the value of the Boltzmann constant, which is of the order of 10 to minus 23, okay.
+ We know all these quantities, we just then equate this expression to the average kinetic energy of the particles, okay.
+ And then, what we can get, if you want to know the mass of the water molecule, we can look at the table, the molar mass, okay, divide by the Avogadro number, and get the mass of a single water molecule, I don't remember the number, okay, but you can do that in this way, you can try to do that by yourself, and then we can check next time.
+ And so we get this V, okay, and then what we can do, then we can assume that the water is close packing, so that the distance between the molecule is of the order of one nanometer, okay.
+ So we have this, imagine that water molecules like this, in an ugly state, and we have an estimate of the distance between these two particles, which is of the order of one nanometer, so we have a length, okay.
+ And once we get this velocity here, okay, and once we get this velocity here, okay, we can estimate what is the time between the two successive kicks, okay.
+ And what we get, from the relation L equals V tau, okay, we can get tau equal V over L, okay, so this is, this is 10 to the minus 9, okay.
+ So this, this is 10 to the minus 9 meter, okay.
+ V, if you do all these arguments here, okay, that I explained to you before, this comes out to be the one kilometer per second, so it's 10 to the 3 meter per second, okay.
+ And so what you get, you get an estimate of this time between successive kicks, which is 10 to the minus 12 seconds, okay.
+ So this is the estimate that you get, and I wanted to make this explicit example, just to show you that this is, this kicking is truly a microscopic phenomenon, this is something that you cannot access from an observation.
+ Unless you have some very well-performing instrument, okay, unless you have some very well-performing instrument.
+ But I mean, if you observe your correct brain, this is, this is not the resolution of a homoscopic observation.
+ So this is just a very, a very, a very, a very microscopic time scale, 10 to the minus 12.
+ What you observe is the behavior that results from the effect of many many many of such kicks. Okay? Okay so this is interesting because then once we have understood this we understand that the Brownian motion is a large scale phenomenon once that you get from observation where large scale in this case I mean time.
+ Okay? So and what you see when you see your pollen grain if you perform an observation then just assume that we are looking at our tank from the top. Okay so this is a tank of water and we have our pollen grain here. So what is that you observe? If we place the pollen grain here what we will see is that very slowly this pollen grain will start to move and if you wait more and more time
+ the pollen grain will explore an area which will increase with time. Okay? So this is an archetypical example of diffusion. Okay? This pollen grain diffuses in water and this is what you get from your microscopic observation.
+ So now what we would like to do is to give a mathematical description which start from the microscopic scale and give us the macroscopic scale. Okay? So we will do this in two ways. We will start with the simplest possible description which is the random walk. Okay? So the random walk. Okay?
+ Here the random walk. Okay. Here the random motion of course is in three dimensions because you have this pollen in really a container of water which lives in 3D. My view here is a two dimensional example because I am just drawing on the blackboard. We will start with one dimension which is the simple case. Okay? But generalization in larger dimensions is really straightforward.
+ So let's start with the random walk. So let's start with the random walk description. Okay? So what is this random walk description? Let's assume that we want to describe the behavior of a walker. Okay? And this walker can move in one dimension. Okay?
+ And this walker can just walk in this direction, forward or backward. Okay? So what, what, so you have to, it's the one dimensional version of this random motion. Okay?
+ So let's say that this is the time axis. To make things simpler, I will assume that the time axis is just divided in discrete intervals. Okay? So let's say that this is the time axis.
+ Okay? So I will have discrete intervals. Okay? So I will have discrete intervals. Okay? Discrete intervals. Okay? Discrete intervals. Ah, very good. And in each one of these discrete intervals my walker takes a step. Okay?
+ So this is the time axis. Okay? So the length of each interval, I will call it tau. And this tau is precisely, if you want, it mimics the interval between the two successive kicks of the water molecules on our Graugian particle. Okay? So it's a microscopic time. In real Graugian motion, it is 10 to the minus 12. So it's really seconds. It is 10 to the minus 12. So it's really seconds. It's 10 to the minus 12. So it's 10 to the minus 12. So it's 10 to the minus 12.
+ So it's 10 to the minus 12. So it's really seconds. It's really very small. Okay? Very good. So tau is this microscopic interval. And now what I need to specify is the length of the step. So let's say that I have a walker and that each discrete time step, I take one step. Okay?
+ So I will call L. Okay? So I will call L the length of this microscopic step that I take in each one of these intervals. Okay? Very good. How is this L? Okay? I don't know. What I can say, we will see that this is not important. What I will say is that this is a random variable. Okay?
+ just in the same way as when a particle kicks it can exchange a very heterogeneous amount of momentum with my pollen grain and therefore the pollen grain will move of a certain spatial distance which is basically a random quantity because the possibilities are given from all the molecules with all the possible directions, all the possible velocities, I mean it's basically a random quantity.
+ I can model it as a random quantity. However, I will require a few features from this distribution, okay. I know that in my Iranian motion case, the distribution of the velocity is the Maxwell-Waltzmann distribution, so I mean it has a well defined mean and average, in the case very quickly, it's an exponential function b^2, okay.
+ So basically I know that this distribution, the resulting distribution of L will be with a well defined mean and a well defined variance. So I will assume that this P of L is such that the average value of L and variance, okay, with this I mean L^2 minus L^2, variance of this quantity, okay.
+ I will assume that these two quantities are fine, okay. This is what I assume. I don't need anything else, because then what I would like to do, so I have my walker, so at each time step I can take a step, it can be a shorter step, it can be a larger step, but not too large, because the distribution
+ the distribution begins quickly enough. And it can be a forward step or it can be a backward step. You can imagine, but just for simplicity, that this is a Gaussian, but it does not need to be a Gaussian. It can be whatever you like. But it needs to have a variance and meaning which are fine. Okay. Very good. So at this point, what I would like to do is given this microscope details of this process, I would like to
+ I would like to predict, okay, what will be the distance traveled by the walker after a certain number of steps. Okay. So let's take, let's assume that I take N steps. Okay. And after these N steps, what I would like to do is that I would like to know where is my walker, so what is its position, okay.
+ So this is its position, okay, after time T and its position, after N steps, and its position will be given by the sum, so let's say that I just nominate with a certain index K, each time step, each time interval. So this, the position will be given by the sum of LK, of LK, where LK is the step that I take at time K. Okay.
+ Okay. Very good. And this K runs from 1 to N. Okay. Very good. Okay. But, so, this is actually something that you already know how to deal about because this variable X is a sum.
+ is a sum of a large number of random variables. And you already know from probability theory, from the courses that you did in your undergraduate degree, that we can apply the central limit theorem to this case.
+ Ok? So does the central limit theorem tell us, I will not be driving but you studied it in the stuff met course and even in the lab course as I had the first year in undergraduate degree.
+ This tells me that in the central limit theorem, it tells me that the average value of x is nothing else the sum of k,
+ the average of k. Ok? Which is since all of them are distributed in the same way, it's nL. Ok?
+ And also we know that the variance of x is n delta square. Ok? So both the mean and the variance grow with the number of steps.
+ But the central limit theorem is even more powerful than that because it gives us the whole distribution of the positions. And what is the whole distribution? The whole distribution is abortion distribution. Ok? Which is like this.
+ Okay, we should even these relations that we already wrote before, okay, this is the
+ distribution of x after n steps, okay, and this is nothing else but this quantity here
+ sorry, in the numerator in the first part we have still delta x. Okay. 2n delta l squared divided by normalization, okay.
+ Okay, so this is the expression of displacement after n steps but what I would like to do is to rewrite this distribution not in terms of n but in terms of the elapsed time, okay.
+ But I can do this very easily and why I can do this very easily, okay, because I know that the total elapsed time is n2, okay.
+ Therefore n is nothing else than t over 2, okay. Very good. So now let's see how we can, how, how we can rewrite everything.
+ Okay, so this distribution then becomes e to the minus x minus n is t over tau, okay, so we have minus t and here we have l over tau squared, okay.
+ And here we have 2t delta squared over tau. And then we have the normalization, okay.
+ Okay, so now I will do another passage here. I will define v, what is called drift velocity, as l over tau, okay.
+ And I will define the diffusion coefficient as 2 delta l, sorry, delta l squared over tau tau, okay.
+ And in this way I can finally rewrite my p of x and t, now it is expressed as a function of space and time, okay.
+ And this will be e to the minus x minus bt squared, okay.
+ Divided by 4 dt divided by normalization which is 4 times b, okay.
+ And this is my final, my final result. So what is this?
+ My walker was a long time, because this is an asymptotic expression.
+ So really the time n must be larger for the second limit here and then to hold.
+ So I need to wait a, a, a, a, a large time, okay.
+ And this, this gives me after I wait a lot, a lot, this, this gives me the probability after this time t,
+ to find my walker in a living position, okay.
+ So this, this is the distribution that you get for diffusion, okay.
+ Diffusive processes, simply diffusive processes, okay.
+ So let me write this here.
+ Okay.
+ So let me write this here.
+ Okay.
+ Very good.
+ And remember that we defined that these parameters D and V, in terms of the microscopic details of my browser,
+ okay.
+ Okay.
+ Okay.
+ Okay.
+ Very good.
+ And remember that we defined that these parameters D and V, in terms of the microscopic details of my process, okay.
+ but V and D, they, they, they also have a meaning, a, a phenomenological meaning, okay.
+ because let's, let's, let's assume the water or the polycane or whatever.
+ If you wait a large time and at the beginning of your experiment, you have your pollen grain in a certain position, you can measure how much the pollen grain has moved.
+ if you wait a microscopic time, okay.
+ Because you are performing a microscopic span.
+ So you can measure X, okay.
+ So you put your pollen grain here, it starts moving and after some time D, you can see how, how long, how distant it has moved.
+ Okay.
+ And if you repeat the same experiment many times or equivalently, if you put many pollen grains at the same time in the origin,
+ you can measure what is the statistics of this variable and you can compute the variance and you can compute the mean value.
+ Okay.
+ So, let's assume that you compute the mean value.
+ Okay.
+ You compute the mean value at different times.
+ So this is your experiment, you are doing your experiment.
+ You compute the average, the average value X after a certain time.
+ So you perform, you know nothing of the underlying process, you just perform an experiment.
+ Okay.
+ So you perform this experiment, you put a pollen grain, the pollen grain moves, after some time T, you measure where it is.
+ You repeat this many times and you compute the average value of the position and the values of the position.
+ Okay.
+ And then for example, what you find is something like this.
+ So after a certain time, you find something here, then you find something here, then you find something here, then you find something here.
+ These are experimental data as a function of time.
+ Okay.
+ So you wait a first time, a second time, a third time, larger values of the time, all myoscopic times.
+ Okay.
+ And you find these points.
+ Then you fit them with a straight line.
+ Okay.
+ Okay.
+ The slope of this fit is your estimate of view.
+ Okay.
+ This is how you can estimate the drift velocity from an experiment.
+ Okay.
+ And then you do the same thing.
+ You do the same thing with the variance.
+ Okay.
+ Here is the plot of the average value.
+ You can do the same, but instead of plotting your measure, your experimental.
+ So this is the result of the experiment.
+ Okay.
+ That's not the result of the field, which is the other one.
+ Okay.
+ So you do the same thing with the variance.
+ Okay.
+ And you compute the variance.
+ It's a function of time.
+ Where you compute.
+ You can find the, according to how precise is your measurement, you will get more or less
+ a stuck point.
+ But again, you will find something which can be fit with a straight line.
+ And in this case, the slope of this straight line is what?
+ Remember that we just derived that the square is 2b to t.
+ Okay.
+ So this slope of this straight line is v to d.
+ Okay.
+ So this is just to tell you that d and v are phenomenological parameters in the sense that you
+ can measure them from the letter.
+ Okay.
+ But what we did here was to develop a very simple theory, which allows us to
+ connect these phenomenological parameters with the underlying microscopic process.
+ Okay.
+ So we know that this is called the diffusion coefficient.
+ This diffusion coefficient is connected to the properties of the microscopic kicks given
+ given to the, given to your polygrain and so on.
+ Of course, here, we did everything in one dimension.
+ Okay.
+ Usually, objects live in larger dimension.
+ So you need to apply this random world argument to each individual coordinate.
+ okay.
+ So in the end, since coordinates, in most of cases, are independent one or the other, what
+ you would get is that the resulting distribution for, let's say, two-dimensional or three-dimensional vector.
+ okay.
+ This would be exactly the same, but with a vector.
+ Here.
+ Because each coordinate obeys what we have described so far from one dimension.
+ so you would get something like this.
+ So you would get something like this.
+ Okay.
+ Okay.
+ Okay.
+ Well now, what do we have?
+ what we have is that V is the average value of L divided by Tau.
+ Exactly the generalization of what we have seen so far.
+ and D is delta L squared over 2 Tau.
+ So since this delta L squared is the sum over the coordinates of which individual coordinates,
+ if we assume that the system is isotropic, each coordinate has the same distribution.
+ So this will be given by the sum over the coordinates of delta L alpha squared divided by Tau.
+ and if they are all, if the system is isotropic, this will be given by the number of dimensions,
+ two or three, would be applied by the variance of each individual coordinate.
+ Okay.
+ Which is what we have called D for the one dimensional case.
+ Okay.
+ So this will be D of each single coordinate.
+ They are all equal above.
+ So this is to say that the diffusion coefficient for a D dimensional system is D times the diffusion coefficient of each individual coordinate.
+ Okay.
+ Very often you just find that written in books small d, D and D refers to just one coordinate.
+ Okay.
+ Okay.
+ So we have this link between microscopic parameters and microscopic parameters.
+ Okay.
+ Um, so we have introduced the, the, the, the, the diffusion coefficient.
+ So we know that the diffusion coefficient are things to remember.
+ Okay.
+ Okay.
+ Okay.
+ Okay.
+ I wrote the, from this distribution here.
+ Written like this.
+ With a like this.
+ So let me, let me erase here.
+ So we rewrite everything in a nice way.
+ And we can combine this better.
+ Okay.
+ So what we obtained is this.
+ in a nice way and we can implement this better. So what we obtained is this.
+ Okay, and so what we get from this distribution is that the misquest displacement is 2DT.
+ Okay, so I prefer to rewrite this because this is the most...
+ the most used notation. So this D now indicates the diffusion coefficient of each coordinate.
+ And so we have, as I already explained to you, we have small D, big D. Okay?
+ Okay, so this is the relationship that connects the misquest displacement of your worker and time.
+ And so what we find is that in a diffusive process, the misquest displacement grows with time.
+ It grows with time linearly. Okay?
+ So, if...
+ Now we will look at some specific cases. Okay?
+ So, what about the average value? The average value of X.
+ We said is equal to...
+ You can see this from the expression of the Washington distribution.
+ The average value of X also grows with D. Okay?
+ So, now let's try to understand the meaning of these quantities. Okay?
+ Let's think back at the Brownian motion case.
+ The Brownian motion case is a case where you only have this effect of the molecules. Okay?
+ And this random effect is completely isotropic in direction and all the distribution are symmetric.
+ I mean, if a kick arrives in one direction, there will be another one which arrives in another direction.
+ So, by just making this very simple observation, you would not expect any biased motion of your grain.
+ And in fact, indeed, if you perform an experiment and you have your pollen grain here, you will find, for example, for one pollen grain, you will find this trajectory.
+ Another one you will find this trajectory and in another one you will find this trajectory and so on.
+ Okay? So, if you put the population of pollen grains at the origin and you will see that your pollen grain will expand, will move in a completely symmetric way.
+ Okay? So, after some time t, if you start with your population here, it will have covered a certain region or a certain area. Okay?
+ But, symmetric. I mean, there will be no preferred direction in this motion. Okay?
+ And indeed, this simple example of primed motion is an example where, as I told you before, since each kick can occur either in one direction or in the other,
+ small l in our description is equal to zero. Okay?
+ And if you remember the definition of v, okay, since the definition of v is equal to l divided by tau,
+ what we would get is that also this velocity will be equal to zero.
+ So, the original dry promotion case is a case where this v, the velocity here is zero. Okay?
+ Even though we can make a similar example where it is not, but just let me start from this one here.
+ So, in this case where the velocity is zero, this variance, it will be just the second moment of x. Okay?
+ If you start with zero, this will just be the second moment of x. And it will give the dimension of the other chord. Okay?
+ So, this relationship here is telling you my pollen rate population diffuses and it incovers an area,
+ in 2d incovers an area that scales with time. Okay?
+ In dimension d, it will cover the area that scales as t to the three halves. Okay?
+ very good. Okay? So, what about the cases where we have this adrift velocity diffuses? See?
+ For example, you can assume that your pollen, your pollen grain is charged. Okay?
+ So, if your pollen grain is charged and you apply an electric field. Okay?
+ What will happen? The pollen grain will be subject to the electric force. Okay?
+ But it will still feel the kicks of the water molecule. So, you will have two effects that will overlay one on top of the other.
+ The effect, the random effect of the water molecules plus the deterministic effect of the electric force. Okay?
+ The electric force, of course, give a bias to the motion of the Brannian particle.
+ Because if the electric field points in a certain direction and the point and the point and then is positive discharge,
+ it will follow the direction of the field. So, it will go on average where the force tells it to go. Okay?
+ But the motion will not be perfectly deterministic because there is also the effect of the water molecules. Okay?
+ So, this is to qualitatively tell you that the fact that you have a drift velocity different from zero is due to the fact that there are some external forces that give a bias to the motion of your object.
+ And this qualitative explanation can be made more quantitative. Okay?
+ With a simple argument. And what is the simple argument? The simple argument is the following. It's just a very trivial.
+ Let's assume that this is your pollen grain or your molecule, whatever you like. Okay?
+ And now we have all the kicks, of course, of the water molecule. Okay?
+ But we also have this force. The deterministic force acting, let me call it the effort.
+ We have this deterministic force acting on our pollen grain. Okay?
+ Very good. So, let's assume that now there has been a kick and I look at my pollen grain between two kicks. Okay?
+ Every time I have a kick, I have the effect of the randomness, let's say. But between two kicks, I just have the effect of the external force. Okay?
+ So, what happens? This force F acts on my pollen grain. And what happens? Well, I have the distance traveled, okay, by the linear piece.
+ Let's say that I put myself in the direction of the force. So, this is in the direction of the force. So, the displacement performed by the pollen grain in the direction of the force will be just 1/2 m a^2.
+ Because between kicks, I don't have any run, any noise. Okay? So, it just proceeds, like, between Newtonian determinants. Okay? Very good. So, sorry.
+ I'll just help him and help me out. So, it's the force, the displacement is equal.
+ Mezzo-hauty quadro. Okay. So, you're right. So, it's T. Okay? There was something wrong. So, it's this. Great. Okay. So, at this point,
+ we are okay. Because what can we do? Okay? What we can do is the following. That we know that this time T is top. Okay? So, this is very good.
+ So, at this point, what I know also is that A is equal to F over M. Okay? So, I can write this as 1/2 F over M to square. Okay?
+ And now, what I can do is to divide the top on each side. Okay? So, I have this here. And I have this here. So, we can divide it like this. Okay? So, we are almost there.
+ Okay? So, here. Now, let's take the average value of this. Okay? So, let's assume that these are all average values. So, I have this here. So, here on the left-hand side, I have V.
+ because, if you remember, I have defined the drift velocity as L over tau. Okay? And here, I will have F. And what remains here is the quantity here. Tau over 2M. Okay?
+ So, this tells me that there is a linear relationship between my drift velocity and the force applied to my system. Okay? So, this tells me that there is a linear relationship between my drift velocity and the force applied to my system.
+ And so, this is a way to show you what I have shown you before, that you have a drift velocity whenever you have an external force applied to the field. Okay? Good. And the other interesting thing in this relation, in this relationship here, is this parameter here, which is what I would call friction coefficient or the viscosity coefficient. Let's call it friction coefficient. Okay? So, this friction coefficient, again,
+ is a phenomenological, a priori, is a phenomenological parameter. Why? Because, again, I can perform an experiment when I apply an external force to my system. Okay? And I can measure with different values of applied forces, which is the resulting average velocity of my falling drain after a certain time. Okay? And from this, I can measure with different values of applied forces, which is the resulting average velocity of my falling drain after a certain time. Okay? And from this, I can measure with different values of applied forces,
+ friction coefficient. Okay? So, this is a parameter that I can estimate phenomenologically from the data, from an observation, but they are related to the microscopic quantities of the description that I have given. Okay? So, we have another phenomenological parameter. We have the
+ my falling drain after a certain time and from this I can extract from the slope the friction coefficient.
+ So this is a parameter that I can estimate phenomenologically from the data from an observation but they are related to the microscopic quantities of the description that I have given.
+ So we have another phenomenological parameter, we have the diffusion coefficient and now we have the mean velocity but also we have the friction coefficient.
+ So we have here friction coefficient which is equal to 2m. These are all the microscopic expression and over there we have the phenomenological description.
+ Okay so this is a nice description of the phenomenon that we have given. Now before going on to a different description which is more useful for several purposes let me make a comment to this.
+ So what we found here is that the mean square displacement let's consider what b from simplicity grows like the time.
+ Okay so the longer I wait the farther will my worker be. Okay. This is what is called the standard diffusion behavior.
+ Okay.
+ Very good.
+ standard diffusion behavior, but this is not the only kind of diffusion behavior that is observed. Okay.
+ And so in general what we would find is that this can be written as in this way. Okay.
+ where this exponent the value of this exponent is something that helps to classify the diffusion process that you are dealing with. Okay.
+ So what we have is that z equal to 2 correspond to standard diffusion which is what we have already been discussing. Okay.
+ that if z is smaller than 2. If z is smaller than 2. If z is smaller than 2. This means that the travel distance grows with t more than in the case of standard diffusion. Okay. So this is called super diffusion. Okay.
+ on the other hand if z is larger than u this means that the travel distance grows less than in the case of standard diffusion and this is called sub-diffusion.
+ The model will make something we will not derive mathematically we will not study the properties of these processes but what I would like to do is to give you a few examples of where this can occur just to give you an intuition of why you can have super diffusion.
+ So let's assume that let's remain within this context the same random word picture that we have already seen before.
+ So the hypothesis to apply the intersection with the theorem and therefore to derive the diffusive behavior that we got are basically always here.
+ So I am assuming that the L values drawn in each one of these intervals are independent one from the other.
+ Okay, so I didn't specify this explicitly but I gave it for graphic but it was clear from my argument that they were all independent.
+ So each time that I draw, each time that I work, the length of every step is drawn independently of what happened before and after.
+ They are independent one.
+ Okay, so let's say this L, L1 and this L, L2 in two different time steps they are independent variable.
+ Okay.
+ There are no correlation between these two.
+ So this is one hypothesis and the other hypothesis that I made is that each one in time has a finite variance in the finite mean.
+ Okay.
+ So let's try to see what happens if I just consider different cases where these two hypothesis are non-perified.
+ So one case is that instead of assuming that the mean and the variance are well defined, I assume a distribution which has large tails.
+ Okay.
+ Distribution with large tails means that for example the variance is not defined.
+ Okay.
+ So that is not a typical length of my step.
+ Okay.
+ Very good.
+ Very good.
+ So this, in this case, for example, distribution which have this feature here are called the length distribution.
+ and they are such that they decay at large values of L with power law takes.
+ Power laws with small exponents.
+ Okay.
+ So that variance is not defined.
+ Okay.
+ Remember that the variance at the second moment is this.
+ Okay.
+ So if P of L does not decrease fast enough, the second moment is not defined.
+ Okay.
+ So we are in a case where you have large tails.
+ What does it mean having large tails?
+ It means that big steps are reasonably probable.
+ They are not so rare as in the previous case.
+ Okay.
+ So clearly we will not derive the exponent Z but you can have a strong intuition that if I can, if my walker can take from time to time very big steps, it will move more quickly space.
+ Okay.
+ So the diffusion space will be quicker, will be faster than in the case where I have a shorter tails in my distribution.
+ And indeed if you do the computation what you get is that you are in this case here.
+ Okay.
+ And this is an interesting case, the case for biological phenomena.
+ Okay.
+ Indeed, levy diffusion and levy distribution and this kind of quick, more quick explorative behavior has been used in many cases
+ to describe search strategies of organisms in biology.
+ Okay.
+ So this is not something weird that you don't find, we don't find, we don't lose.
+ This is something that has an application even for biological systems.
+ Okay.
+ Very good.
+ So another case where you can get, where you can get super diffusion is the following.
+ Let's assume that, okay, we have a well-behaving potato, so this is a sharp potato, so these two moments are well defined.
+ But we have correlation between the variables.
+ So the variables are not independent.
+ Okay.
+ So what might happen in this case?
+ In this case it happens that if at some point, by any chance, I take a larger step, okay.
+ Okay.
+ The next step will have a larger probability to be large as well.
+ Okay.
+ Because we have correlation.
+ Okay.
+ So this is again one case where not for each individual step, but for small chains of steps, I can have larger displacements.
+ And indeed also in this case, if the correlations are strong, okay, you get the super diffusion.
+ Okay.
+ So this is another example.
+ So now let's make an example with super diffusion.
+ Make the example for super diffusion, I would like to generalize a little bit this framework.
+ Okay.
+ Because, I mean, if it's also an interesting generalization, it's said.
+ So what happens?
+ It happens that here, so far, I have assumed that all the top, all the length of this, of this individual time steps, the duration of this time, between one step and the other, is fixed.
+ And it is two.
+ But clearly in reality, it is not like that.
+ If you think of the pollen grain, I told you an estimate of the time between two gigs is 10 to the minus 12 seconds, but it is an estimate.
+ It can be slightly more, it can be slightly less.
+ So even two is a random variable.
+ Okay.
+ Okay.
+ So let's now assume that both l and tau are random variables.
+ Okay.
+ And each of them is, has its distribution.
+ So this, this has a distribution.
+ So it has a certain value, average value of l and of the variance and this will have another distribution and again, we have a certain mean value and a certain variance.
+ Okay.
+ Okay.
+ Good.
+ So what changes?
+ So actually, if the mean, the mean of the, of the, of the distribution of times is finite, nothing changes.
+ And why is that?
+ Because what you can say is that after n steps, applying the central limit theorem to both of these two variables, what you will get is that the travel distance will be n times l.
+ Okay.
+ But also you will get that the total time passed will be n multiplied by 2.
+ Okay.
+ So if you remember, we just got this expression here just by substituting n with the tau.
+ So we can do exactly the same and the difference will be that our time t, that our n now will be the total time over tau.
+ Okay.
+ So once we substitute n with the total time over tau, we get exactly the same expression that, that we, that we looked before.
+ The only difference will be that in all the definition of the microscopic parameters, I have to put the average value of tau instead of tau.
+ Okay.
+ And then nothing changes.
+ So, as soon as the distribution of times has a finite mean, everything remains the same.
+ Okay.
+ Everything remains the same and I'm happy about that.
+ But what can happen?
+ It can happen that the distribution of tau is such that the mean value of tau is not finite.
+ Okay.
+ So, times are, for example, times are distributed with the laggy distribution where you have big tails.
+ So, you, we can have very, very long times to wait between one step and the next one.
+ Okay.
+ So, in this case, your intuition tells you, okay, if I take one step and then I have to wait a lot of time before taking the other step,
+ I will move in a slower manner.
+ Okay.
+ And indeed, you can show that this is the case of sub-diffusion.
+ Okay.
+ So, typically in many systems, the fact that you have a power, the power low tails in distribution of the times, is due to the fact, for example, if you take the physical systems, that you have energy traps.
+ So, for example, if you have particles, this is a, we are changing the context.
+ If you have particles that move in a certain energy landscape, but when you move in this landscape, you can find some wets, so that your particles go there.
+ And then, maybe you have, uh, uh, you have a fatty temperature, so from time to time, you will get out from the well.
+ But, if the well, if there are many wells, and if the wells are deep, you need to take a lot of time before going on.
+ So, this is, uh, this is a case where, if you look at the resulting distribution of, of, of, of escape times from, from, from these potential wells, it can become a power low.
+ Okay? So, there are physical situations where you get this, uh, where you get this, uh, this distribution, which has, uh, power low, like this.
+ Less in biology, but in physics, you will have.
+ So, okay, so we, we are happy that we, we, uh, we understood this, uh, this distinction here.
+ But, in, in, in this course, we will focus on, uh, on standard diffusion, so we can, uh, I mean, just important that you know that there are these cases, but we will not address them.
+ Okay, so, so far, we have been dealing with this, um, with this, uh, um, with this, uh, uh, description, which is a mistake description.
+ But, very often, uh, it turns out that, uh, the discrete decisions are not very convenient.
+ So, we would like, uh, to write down some, uh, equation, continuous equation in time, which, uh, somehow is about the same kind of thing.
+ Okay, and this is, uh, this is, uh, what can be done with, uh, what are called, the longitudinal equation.
+ Okay, so, the longitudinal equation is a phenomenological equation, uh, and the aim of this equation is a stochastic equation.
+ Stochastic means that there is noise, somehow, in, in, in, in, in, in this equation.
+ And, uh, the idea is that you want to, to describe this same kind of, of phenomenon.
+ So, what, so, in general terms, uh, what we want to understand is that, let's say that we have a particle called a plane, for example.
+ And this particle might be subject to the standard forces.
+ And, uh, to random forces, what I call, the longitudinal system.
+ Okay, so, I would call delta f denomination.
+ Okay?
+ So, this is, uh, let's do this next.
+ This is deterministic, uh, force that we know what it is.
+ And, this is something that we don't know what it is.
+ And, we'll model it as a random variable.
+ Okay?
+ Okay?
+ So, what, what is this, uh, equation?
+ How it is done?
+ Okay?
+ It starts like, uh, the deterministic equation.
+ So, what we will have is, in what did that we will make the general case.
+ Here we have, uh, uh, mass, uh, multiplied by the acceleration.
+ Okay?
+ And then, what we get, uh, on, uh, on the left-hand side, we will have the standard force.
+ Okay?
+ So, and then, we will put, uh, a viscous force.
+ Okay?
+ And then, I, uh, I'll explain you why we do this here.
+ Okay?
+ And this is something analog to the friction coefficient that we already encountered, uh, in, uh, in our, uh, previous analysis.
+ Okay?
+ And, uh, and then, what we should have, and then, we would have our, uh, contribution.
+ Okay?
+ So, now, why do we build the equation in this, in this way?
+ Okay?
+ So, let's try to, uh, and then, of course, we have the other question, which is, uh, right?
+ The other question, which is, uh, x.
+ What would they be equal to?
+ Okay?
+ Definition of the loss.
+ Okay.
+ So, why, why do we build it in this case?
+ Okay.
+ Just, if you look at this part here, this is just Newtonian.
+ Yes?
+ What is the subscript that we can use?
+ It's x, like sterla.
+ And the one at the top there?
+ The f?
+ Like the drawing?
+ Here.
+ It's x.
+ Okay.
+ To distinguish it from this.
+ Right?
+ I could also call it f.
+ Okay.
+ It's a force.
+ Okay?
+ Let's call it that.
+ Okay?
+ Okay?
+ Very good.
+ Okay.
+ So, this first part here is just, uh, deterministic movement and dynamics.
+ Okay?
+ Um, then, uh, we have this, uh, second, uh, uh, this second part here.
+ So, and why is that?
+ Why do I do this term here?
+ Because, uh, I know that if I have a particle moving in a, in a viscous fluid, uh, the viscous
+ fluid will generate viscosity and the effect of the viscosity, you studied this in your physics
+ one course probably is, uh, is a friction term of this kind.
+ Okay?
+ And what is the effect of this term here individually considered?
+ So, let's say that you have an equation like this.
+ Okay?
+ The solution of this equation is an exponential that decreases in time.
+ Okay?
+ So, your velocity will start from its initial value and then it will decay exponentially to
+ zero with a timescale that is given by m over the friction.
+ Okay?
+ So, this, uh, phenomenological equation, uh, that relates, uh, the variation of the velocity
+ with the friction coefficient due to the, uh, to the surrounding fluid is something that
+ is telling us that the presence of the fluid tends to slow down our particle.
+ Okay?
+ So, if, if you have a ball coming down in air, you will have this, this viscous effect.
+ if you push a, uh, a particle in water, you will get this viscous effect which will tend
+ to arrest the movement of the, of your, of your particle.
+ Okay?
+ So, this, uh, this, uh, um, this contribution here is telling us, is describing the, the, uh,
+ the dumping, the, the slowing down effect due to surrounding fluid.
+ Okay?
+ And if you think, uh, of your pollen grain, uh, what does it mean?
+ It's that if your pollen grain have, have an initial velocity, velocity, all the kicks
+ of your, of your water molecules, somehow will tend to destroy the initial, uh, the initial, uh,
+ momentum of, of, of your, of your pollen grain.
+ Okay?
+ So, there will be a destroying effect, a disrupting effect, uh, uh, of, uh, of the, of the fluid,
+ around our particle, uh, uh, uh, with respect to its original velocity.
+ Okay?
+ But this is not the only effect.
+ Okay?
+ And why this is not the only effect?
+ Because we know, that if you put a pollen grain, which is still a time in each, uh, equal to zero,
+ it will move erratically, but it will move.
+ So, the same fluid has two effects.
+ A disrupting effect, which is captured by this friction, friction coefficient.
+ And it will also have an exciting effect, which is due to what?
+ In this case, it is encapsulated in the noise.
+ Random kicks given from time to time.
+ Okay?
+ So, both this term here, and this term here, they are both related to the fact, that there is, uh, in the case of the Bramian particle, that there is a, uh, a surrounding, uh, fluid in which my object is moving.
+ Okay?
+ Okay?
+ Okay.
+ Uh, well, this is, uh, a force, like the electric force of my example before.
+ So, this is a force, uh, which can be whatever.
+ Okay?
+ So, in the case of the Bramian particle, uh, in my example, it was, uh, uh, the electromagnetic force.
+ But, if you have, uh, instead of having one pollen grain, you have a more complicated system, where you have many pollen grains,
+ interaction with each other, this force term can also include the interaction between, uh, between the particles.
+ It can be whatever.
+ Okay?
+ Very good.
+ So, the next thing that we need to specify, okay, uh, since this is a random variable, every time we have a random variable, we need to specify its distribution.
+ But, as we already saw in, uh, the example, uh, of the random walk, actually, we don't need to know the full distribution.
+ For many things, it is sufficient to know the mean and the variance.
+ So, we want, uh, we need to specify what is the mean and what is the variance.
+ So, we will assume that the mean is zero.
+ Okay?
+ And why we will assume that?
+ Because if it is non-zero, we can just shift the average value in this term here.
+ Okay?
+ So, that we need, uh, we need, uh, this is, uh, this is a variable that in principle depends on time.
+ Okay?
+ Because everything here depends on time.
+ Okay?
+ Okay?
+ So, we will say that the average value of this, uh, random variable, which is drawn at each, uh, continuous time, uh, value.
+ Okay?
+ Okay?
+ Is zero.
+ And then we need to specify the correlation, the variance of this, uh, this random variable.
+ So, in principle, since this is a process which is defined in time, it could be that this random variable,
+ which are extracted, that, which are drawn at each, at any each value of time, are correlated in time.
+ It is a possibility.
+ So, I need, what I need to specify is the correlator of these random variables in time,
+ the average value of the random value taken at time t and the random value taken at time t.
+ Right?
+ Okay?
+ And the simplest case, which is the one that we're looking at, we'll assume that noise variables
+ at distinct values of the time are independent.
+ Okay?
+ So, this will be something like 2v, and let me call it v, somewhere simple.
+ Okay?
+ The variance of the noise.
+ Delta t minus.
+ Okay?
+ So, this is the equivalent of, of the assumption that I made in the transfer board.
+ the case when I said that the l case of different time intervals were independent.
+ This is the same thing, the same kind of assumption.
+ But since here t is a continuous variable, I have to put a delta function here.
+ Okay?
+ So, these are the properties of, so if I take this random variable at one, at one value at a time.
+ this will translate and do this.
+ Okay?
+ This will be the variance of my variable technique.
+ Okay?
+ Okay?
+ So, now that I have introduced this launch event before, I want to solve it.
+ Okay?
+ I want to solve it because solving it will explain to me how many different areas, it will give me some interesting features and interesting properties.
+ So, let's, let's try to solve it.
+ So, let's, let's try to solve it.
+ But, in general, with a mandatory f, I don't know how to solve it.
+ So, let's start to look at the case where f is equal to zero.
+ Okay?
+ So, we will assume that f is equal to zero.
+ Okay?
+ So, what I need to do is to solve this equation here.
+ This is a stochastic differential equation.
+ Where delta f is my random variable.
+ Okay?
+ Okay?
+ Okay.
+ So, I will give, I will give you first the solution.
+ Okay?
+ Okay?
+ Okay.
+ So, I will give, I will give you first the solution.
+ and then we will, we will try away to, we will solve it.
+ Okay?
+ But then, let me give you the solution.
+ The solution of this equation is the following.
+ Okay?
+ Okay?
+ Okay.
+ So, I will give, I will give you first the solution and then we will, we will try away to,
+ we will solve it.
+ Okay?
+ But then, let me give you the solution.
+ The solution of this equation is the following.
+ Okay?
+ Okay?
+ Okay.
+ So, I will give, I will give you first the solution and then we will, we will try away to,
+ we will solve it.
+ Okay?
+ But then, let me give you the solution.
+ Okay?
+ Okay?
+ I am assuming that my process starts in zero.
+ I am calling zero without initial time on my process.
+ Okay?
+ Okay?
+ Okay.
+ Okay.
+ Okay.
+ Okay.
+ This is the solution.
+ Okay.
+ Okay.
+ Okay.
+ This is the solution.
+ So, uh, okay.
+ And, uh, why I wanted to, but now we will derive, but then I want to, uh, I want to, uh,
+ okay okay this is the solution so okay and why I want to put it now we will derive but then I want to I want for one second to look at it and try to understand what are
+ without the pieces that are here okay so you see that here we have an exponential both here and inside the integral and the exponential this exponential here you can also imagine it something like this where this time scale tau is equal to m over z okay
+ m over z very nice and so what this is telling us this is telling us that my system my particle remembers its original condition okay which is v naught v naught is the value of v at time equal to zero so it remembers
+ it remembers the initial condition but this memory details with time so when time t is much larger than this time microscopic times get tau okay
+ my particle loses my particle loses memory of initial condition okay and this second part here it tells us that my particle remembers the effect of the noise okay
+ okay the noise is the initial condition is only at time t equal to zero but the noise is applied at any time so at any time I have my noise but also in the case of the noise my particle remembers the noise always with this memory kernel which has the same time scale okay
+ so basically this exponential is a memory kernel which tells us how my system keeps track of its past
+ either the initial condition or the noise that has been applied from time to time okay
+ very good so if you want this is the generalization to the random case to the random case to the case where we have a random variable of the integration of the newton equation because in the case of newton equation what do you have?
+ we have a random variable of the newton equation where n the v over the t equal some force and if you want to find v at time t this will give you 0 plus the integral from 0 to t of what from the t prime of f of t prime over n okay
+ that's it that's it okay you're just integrating but here you don't have noise here due to the fact that you have noise the information gets degraded okay and it gets degraded with this weight here is this clear?
+ okay so now that we understood the meaning of this we can make some some further some further comments
+ first this time scale clearly depending on the fact that this time scale is big or large as compared to observational scales this equation can be simplified or not
+ okay so it is clear that when my time t is much larger than t i can completely disregard all this memory effect okay and why is that?
+ let's assume the limiting case okay let's assume that we are looking at our system at time t which are much larger than t okay
+ okay then what happens what happens to the first term okay if t is much larger than t this term is zero so i forget about my initial condition so much time has passed that i forgot my initial condition because this explanation is basically zero okay
+ and then what happens here here inside my integral this is t minus t prime divided by t if t goes to infinity sorry if t goes to zero
+ okay what you can see is that this exponential will go to zero unless t is equal to t prime okay so when the tau when the t becomes much larger than tau or equivalently where tau goes to zero okay this becomes delta function okay and indeed you have that you have this limit but the limit
+ e to the minus x over a over a for a that goes to zero. This limit is a delta. This is a delta x. Okay? And we are precisely in this situation here where instead of a we have tau which is equal to f over x. Okay?
+ So at very large times or when this tau is very small, okay, I basically can forget about this term here which is due to the presence of the massage due to inertia. And this equation simplifies, the initial equation simplifies and it's basically as having minus zeta v plus delta.
+ And this is what is called the overdump the limit. We will go back next time to this more in details. Okay?
+ But this is just to say that here I have simply the effect of the noise and if you take a delta function here and you put this to zero, you get v equal delta f over z.
+ Okay? Using this expression here. Okay? You want to see more in details. So let's, if you want to, if you want to apply this limit here inside the picture. Okay? We need to divide and multiply by z. And then we are in this condition here. And then this.
+ And then we get this. Okay? And we get this. Okay? We will, we will look at the overdump lipid next time. So, but here I just wanted to show you that when this tau turns to zero or when I, or when I look at times t minus t, and then this becomes the function. And then this becomes the function. And then we get this. Okay?
+ Okay, we will look at the over time lipid next time so but here I just wanted to show you that when this tau turns to zero or when I look at times t much larger than tau, we can get a simplifying treatment, a simplifying description of our process when we just forget about inertia, about the mass.
+ Okay, so now let's go back to understand how I derived the equation here, okay, solution, so there are two ways in which I can derive the solution, a simple way, a quick way and a slow way and then I will do them both, the quick way because it's quicker and the slow way because it will be useful in it.
+ Okay, so the quick way is the following. So I understood by looking just at the presence of this dissipative term here, the one with friction, that there should be a decaying exponential, okay.
+ And the scale of the scale of this decaying exponential can be nothing else than m over the friction z, for dimensional reasons, okay. So m over z has the dimension of a time, so this is the only thing that I can give the dimensions of a time for this model.
+ So this will be, I expect that there should be something like this in my system, okay, in the solution of my system. So what I do, I take the solution, okay, B of t, and I write it like this.
+ Okay, so this point, my problem becomes finding me, okay. So now let's plug it, let's plug this form here in my equation and let's see what happens, okay. So my question is m, the v will be t.
+ Okay. So this becomes m, I need to do the derivative here, so I will have two contributions, so we have two contributions where the derivative acts in g.
+ Okay. Okay. And then I have the other contribution, and the other contribution is where the derivative acts on the exponentials, so that I have m, and I have a minus z over m, okay, and then I have the exponential again.
+ Okay. Okay. And then here I have minus z over m, okay. And then here I have minus z over m, okay.
+ Okay. So now what do I notice, I notice that this, this here is just b, this is b. Okay. Therefore, this term here and this term here cancel. So this and this cancel off. Okay.
+ Okay. Okay. And so what I, what I will remain with is the g over the t is equal to what? Is equal to delta f over m, e to the z over m, t. Okay. So now I integrate, okay. I integrate this equation, okay.
+ I integrate this equation, what do I get, is that g of t, is that g of t, is equal to the initial value, g naught, plus the integral from 0 to t, in the t prime, of what? Of e, z over m, t prime, delta f of t prime, over m. Okay.
+ okay but to get once I get g I immediately get b okay and so I immediately get b of t is equal to g0 e to the minus z over mt and then I have the distribution plus integral from 0 to t in the p' prime there is this coefficient so this becomes e to the minus z over m
+ d minus the prime delta f of the prime over m okay and so I got the solution that they were equal there okay so this is this okay so we're happy there is just one thing to check the initial condition so let's see what is b at time t equals 0
+ at time t equals 0 this integral is 0 and this is g0 so g0 is nothing else than g0 so I think that's not g0
+ so I have exactly the same expression okay good so we derived this equation
+ in the simplest possible way okay it is a trial solution use this method of trial solution
+ yes
+ okay but then we can solve it in a different way
+ I can find the solution also in a different way
+ okay which is more complicated but will turn out to be useful in the following
+ okay so what is this following way
+ let's assume so let we have this equation this is a differential equation
+ it's a probability differential equation and what to solve
+ sorry I first have a differential equation because it is in terms of e
+ okay so I can solve this I can solve it by finding the solution of the homogeneous
+ equation as you learned there yeah I can try to solve this equation by finding
+ the solution of the homogeneous equation plus one particular solution of the full equation
+ this is the method the general method to solve the differential equations okay so
+ maybe I want I want what I want is a solution of the homogeneous equation
+ oh the homogeneous equation is the equation we have idea regarding this okay so we are looking
+ at the case without f so this equation what is the homogeneous equation is the equation where I
+ I just cancel everything that does not depend on b on the variable that I'm looking at so I need to
+ cancel this term here so the homogeneous equation is nothing else than m the e over the t
+ equal to minus z and I already solved this equation here this equation here is easy to
+ solve it is the estimation that I mentioned before so v of t equal to the minus t
+ okay so this is the solution of the homogeneous equation okay very good as you can verify just by
+ by the running okay very good so now what I need to do is to find a solution one specific solution of the full equation
+ okay to do this I will use a method which is called the propagator method
+ what is the propagator method I want the propagator method I want the propagator method is a method where
+ you just take your equation your full equation you know this is a useful for linear equations okay this is a linear equation
+ so because this is a we can apply this method so we have this equation here and we just do not consider this term here
+ but instead of this term here we put the delta function okay so we solve the equation the following equation
+ we solve the equation and the v over the t plus zv so all the linear terms depending on v I put them on the
+ on the left hand side and here on the right hand side and here on the right hand side in the real equation I could have the delta f term
+ but now I put the delta function
+ okay so I want to solve the solution here
+ so let's say that the quantity let's not call this v because after this is a different quantity
+ v is the quantity that obeys the real equation so let me call this quantity here g okay so I want to find the
+ function function function g that solves this equation here this function g is what is called the
+ propagator and you will understand why it's called the propagator
+ okay this is called the propagator and why is it useful to get this propagator function because once I find the
+ okay okay I immediately find a solution of the full equation
+ and why is that because I simply write v of t is equal to the integral of minus infinity
+ plus infinity in the t prime of g of t minus t prime delta f of t prime okay and why this is a solution of the full equation because let's let's
+ let's apply the full equation so the equation is this one let me write here the full equation
+ the equation is m the v over the t equal minus zv plus delta okay very good
+ so now let's apply let's let's see whether this v satisfies this equation okay so this equation here I can be writing just putting this on this side in this way okay
+ okay so now I just take this left hand side this lambda this left hand side I can write it as m
+ the relative with respect to t plus z which I need to apply to my v of t
+ so I take this and I apply this to a solution of this kind okay so here what I need to do I need it to derive respect to time and to add z
+ okay okay okay okay okay okay so I take this operator here and I apply it to v of t
+ but v of t should be equal to this and in this expression in this integral the time is only here
+ so I can just take this parenthesis and bring it inside the integral
+ and once I bring it inside the integral it acts on g
+ but when it acts on g since g is the solution of this equation here I get a delta t minus t prime okay
+ and therefore the delta of t minus t prime gives me back inside the integral a delta f of t which is this okay
+ so once I find this g automatically I find the solution of my equation this is the propagator
+ so now we need to find this g okay let's find it why this method is interesting because you can
+ generalize it to more complicated solutions while the trial the trial function method is specific to this case
+ and this generated method you can generalize it so that's that's why I'm doing this okay so let's let's
+ try to solve this so we need to solve this equation here
+ okay okay to solve this equation it is convenient to go through yeah so I just write g of t
+ okay okay okay so I put it just apply this to this but what do I find when I take the derivative with respect to time here I will get I will get
+ m pi omega okay okay and then I have this term here plus z
+ g half of omega the fourier transform the delta function is a one so here i get the one okay
+ and so this way I very easily get my g hat omega
+ the fourier transform the delta function is a one so here i get the one okay
+ okay okay and so this way I very easily get my g half of omega which is one
+ one okay and then to get the g of t i need to uh
+ fourier back from the inverse fourier transform so to do this it is convenient and you will see why
+ you will write this in this way we write this in this way um
+ so now i need to go to q of t
+ which is equal to the integral omega r minus t and then i would have divided i m
+ okay so how do i perform this integral i see that this is an integral
+ without a complex number inside okay and this complex number has a a divergence
+ in the in the upper complex plane okay in the point omega equal i z over r okay
+ so if i just draw my complex plane real omega
+ this function has a divergence as a pole here
+ okay this is this is itself okay
+ so i know how to compute integrals of this type because i can compute them very easily
+ by applying the residue theorem
+ so what is this residue theorem what i can just show we will not do that but you should know that
+ is that i need to perform the integral over the real axis because this is the integral on the real axis
+ okay okay but i can show that this integral is equivalent to performing the integral of a semicircle
+ okay when the radius of the semicircle goes to infinity okay
+ okay and to compute the integral of the semicircle i can apply the residue theorem and the residue theorem tells me that this is equal
+ is equal to 2 pi pi i okay
+ which is useful because it simplifies with the other one so it's 2 pi i the sum of the residues
+ in the value of the poles of the of the individual function okay
+ and so how do i compute in this case i have just one divergence okay so i don't have any sum here i
+ just one contribution okay and so let's see what it turns out
+ okay okay very good so i need to compute that quantity here that quantity there
+ i don't know i don't know which what was the conversion that used in the in the method section
+ whether it was you brought it like this or not but okay okay so what is this this is just you take the
+ integral the integral function the integral function is this one okay so this is your integral function
+ let me call it f and you multiply it by omega minus omega bar k and you compute this in omega bar k
+ this this is this is what we mean with taking the residue in one point so what does it mean in my case
+ in my case i have just one divergence of the function which is this here which means that my omega bar
+ i have just run it is just i z over m okay so i i need to take my function and my function f is just e i omega t
+ okay divided divided by i m
+ omega minus omega bar okay here's this i have to take this and multiply it by
+ omega minus omega bar so this to cancel and then i have to evaluate this in omega bar
+ which means that this is e to the minus z of m t divided by m i
+ okay there is a number right here
+ the 2 pi is
+ okay
+ okay okay okay okay so when i come with this
+ okay so when i come with this
+ the 2 pi i cancels me with the 2 pi i okay and what i get is e to the minus z of m t
+ almost okay why did i say almost because here
+ here i told you that i need to close to transform my integration path into semicircle okay but to do
+ that what i need to do is that my function should decrease my function on this upper half of the semicircle
+ should go to zero when i send r to infinity okay so this is you can see from this shape here this is correct
+ because the imaginary part of the degree gives me a an exponential decaying function okay on this upper half
+ but only if t is positive
+ so if t is not positive if t is negative the the function computed on this on this semicircle
+ when i send the radius of the semicircle to infinity it will increase it will not decrease okay so this means that i can close
+ my my path in the upper half only for positive times if time is negative i need to close it
+ in the upper half in the upper half so i need to do this but if i close it in the lower part
+ there are no uh divergences inside the semicircle so the theorem tells me that i get zero okay so what does it mean
+ it means that i get this if time is larger than zero and i get zero if times is negative so i should put here
+ in the lower half of it okay so this is the complete solution good so once i get the complete solution
+ i'm happy because now i know how to compute this is the particular solution of my of my equation
+ i just put it inside
+ okay so what do i get i should write down g of t equal minus infinity plus infinity 30 prime g of t minus t prime
+ delta f of t prime and now let me write g of t minus t prime so this is minus infinity here i can put zero because i'm assuming that
+ my process is starting zero so delta f is zero before zero okay so i start from zero
+ here uh here what i get here what i get is that i should put e to the minus z over m
+ t minus t prime because i need to compute g in t minus t prime because this is g of t prime okay
+ theta t minus t prime over m
+ okay delta f of t minus t prime and this theta minus t prime so tells me that i need to sum
+ only over times t prime that is moment on t okay so this is equal
+ so this is my solution of step two
+ so this is my solution of step two
+ so this is my solution of step two
+ so this is my solution of step two
+ so this is my solution of step two
+ so this is my solution of step two
+ so this is my solution of step two
+ solution a specific solution of the full equation
+ and then the general solution i get it by adding the specific solution of the full equation
+ the specific solution of the full equation to the solution of the homogeneous equation
+ so the full solution will be d of t equal to zero e to the minus z over t z over m t plus the secret of here
+ and we get back to the correct solution okay
+ so now just two comments why is this called the propagator i mean why because the propagator propagates
+ the effect of the delta f through time this is why it cause the propagator it propagates propagates
+ the effect of this function here through time and another important thing is this theta here
+ okay this theta here is crucial this theta here is what encodes causality okay
+ because you see the effect of this theta here is that here in principle you should count all times
+ but clearly only the noise that occurred before time t could have influenced the behavior of time t
+ not the future ones okay so the causality
+ physically tells us that this integer should not have gone up to infinity and indeed from a mathematical point of view
+ once you put the solution we get this theta function here which involves the causality principle okay
+ okay so now this is a small mathematical bit work to show you how we get this solution because we can
+ this can turn out to be useful in the future but now we leave aside the mathematical derivation
+ and just look back at our solution okay because with our solution we can now compute a lot of things
+ and we can derive a lot of interesting physical relationships and we will do that on Tuesday okay so we stop here now and
+ about Tuesday the lecture is supposed to start at eight okay but by experience i know that before
+ 820 nobody's here okay so let's say that we start at 8 30 sharp okay we start at 8 30 and
+ but be here at 8 30 okay okay questions
+ this character here yes theta it's a theta
+ it's a Greek theta
+ okay

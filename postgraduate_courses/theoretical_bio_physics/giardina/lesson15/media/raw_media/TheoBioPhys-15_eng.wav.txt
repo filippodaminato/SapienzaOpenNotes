@@ -1,0 +1,1376 @@
+ We complete two sets of enzymatic reactions gathered together and apparently when I wrote
+ down the equations there was a mistake in equations. We wrote down these equations two times
+ ago and two times ago they were correct. And then at the beginning of the last lecture
+ I asked you, tell me what are the equations. Okay, so your colleague had already written
+ the equations but you made a mistake. So there was a mistake in the original equations
+ but then the whole deviation was correct. So you just need to check, you just need to compare
+ the initial formulas of the last lecture with the last formulas of two lectures ago and these
+ last ones are correct and you just adjust the results. Ok? Ok, so but now what were we
+ discussing, UPN? Ok, so we were just, UPN is two, the part, we started.
+ So we started the biochemical pathway that leads to the enzymatic orientation of the concentration of CGMT.
+ Ok, now we need to address the last step of the full biochemical pathway, namely to try to understand
+ how the concentration of CGMT regulates the opening of the ionic channels of the membrane.
+ Ok, so the last thing that we discussed last time was a very simple argument to estimate the current,
+ the electric current that goes to one single electronic channel.
+ Ok, and we made this a simple computation and we understood that the current passing to a single
+ electric channel is the other than the white people.
+ Ok, and so this is a striking coincidence and why is that?
+ Because, as we recommended the other day, if we look in the experiments performed at low light intensity on a single fiber receptor, what happens is that in absence of light the current fluctuates and then if we just turn on our torch, our light, all the changes in the current are changes of the order
+ and from multilogs of one people. So one could be tempted to say that what happens when the photoreceptor is subject to a standard light, very low light intensity, so that for example one single photon is absorbed, what happens is that one single photon opens up and that's why the current changes of one people.
+ Beginning after this speculation we realized that this is not possible and why this is not possible because the time scale of the change of the current to the membrane of the photoreceptor is of the order of seconds, while people investigating the time scale of the opening and closing of ionic channels and this is of the order of milliseconds.
+ So there is a gap in the time scales between these two processes. So clearly it's not one single channel that is the cause of this connection.
+ Instead what happens is that the absorption of one single photon, the photon arriving, as we discussed this photon,
+ the triggers a whole series of different steps and in the end what this steps cause is a difference in concentration of this quantity here,
+ CGMP, and this CGMP as we will see today, it changes the statistics of opening, closing of the orange channels.
+ Okay? So now let us address this issue here. So channels, ionic channels opens and closes continuously.
+ Okay? And this is something that we can understand if you look at the behavior of the current in absence of light, which continuously forwards.
+ Okay? Since the current is continuously fluctuates, it is the total current in the membrane.
+ The total current through the membrane, it will be given by the number of open channels, okay?
+ Multiplied by the current of one individual channel, so this one, the one that we completed during the last lecture.
+ Okay? So this n now stands, it's not the number of protons, it's the number of open channels.
+ Okay? So clearly this quality here and this fluctuations here are nothing else than fluctuations in the number of open channels.
+ Okay? So the number of open channels changes continuously, this is a dynamical value.
+ So this is an I of T which is equal to NO of T I1.
+ Okay? Even in absence of lab, this does not depend on the fact there is lab, there is no lab.
+ There are always good questions because these proteins here, channels of proteins, continues to be opened and been closed.
+ Okay? So what we would like to understand, what is first of all the dynamics of this opening and closing,
+ and then the quantity that regulates the stationary value of the power.
+ So let's try to start to model this with a very simple kinetic equation.
+ Ok so let's imagine a very simple model where we call K-O the rate at which a closed channel opens up.
+ Ok so this is the rate of opening and likewise K-C is the rate of closing.
+ So since this is the dynamic of quantity, if we want to write down a question that describes how this and O of T varies in time, we should write something like this.
+ The variation of the number of other channels will be given by what?
+ By the global number per unit type of channels that are closed and open up.
+ And this is given by this one here.
+ This is the rate of opening and this is the global number of closed channels.
+ Okay. Minus, sorry, this is open C, okay. Minus and C, okay.
+ Yes. These are the channels that are open, sorry.
+ So this is the number of channels that are closed but open, okay, and in time the T, okay.
+ And this is the number of channels that are open but they are closed, okay.
+ Is this clear, the equation is clear? Okay, so in principle there should be noise and one can do the computation also with noise or we will stick to something simpler and we will, for the time being, disregard the equations.
+ And then the equation for the number of closed channels is analogous, okay.
+ But of course, we have this term split, so this will be NOKC - NCKO.
+ Okay.
+ And then on top of that, we have a constraint that we need to satisfy.
+ And the constraint is that the number, the number of open channels plus the number of closed channels is equal to the total number of channels.
+ Okay, which is a constant.
+ Okay, so basically this means that these two equations are not only ended.
+ We can just reduce this second coupled equation to just one equation.
+ Okay, so let's for example look at the number of open channels.
+ Okay, so to get an equation which only involves an O, we need to substitute them C.
+ And instead of having here a C, we will put the total number of channels minus an O.
+ Yes?
+ I know that we are disregarding the noises, but why are they different?
+ So, we have put two palaces different for the noise in the number of opening gates and for the gate.
+ In principle they are different because the rate is different.
+ Because if you want to take into account of the situations you need to be someone's following under the computation but I can tell you how much should go if one wants to put inside the noise.
+ So let's say that let me call XO in general a random variable.
+ And this random variable is the number of channels that opens in a time density.
+ So, if, okay, so what is this, what is this, okay.
+ So, this is, this is a random event and we can assume it to be distributed with a Poisson distribution, okay.
+ So, this means that the probability of having this number here, number of channels in time density, this is a Poisson distribution, so this should be e to the minus the average value, okay.
+ Okay, multiply by x bar to the x zero, okay, divided by x zero, right, okay.
+ So now what is x zero bar, this is just x zero bar, this is ko, okay.
+ The average number of, this is the meaning of rate, okay.
+ So the meaning of rate is that in time of the t on average ko the t events of, okay.
+ So this would mean that the average value of open channels in time of t should have this expression, okay.
+ And this also means that since this is an awesome distribution, delta x is zero square average, okay.
+ In a awesome distribution what we mean and the equation are equal, okay.
+ So this should be also equal to t noted, okay.
+ So what does it mean?
+ It means that now this x0 we can write it as the average value, okay.
+ Plus the fluctuation, okay.
+ And the fluctuation has this average here, okay.
+ So this is a number, this is a random number.
+ This is a constant, okay, and this is a random number, okay.
+ So I just shifted the mean value, okay.
+ So now let me say that I want to compute, I want to write this with also this term.
+ So now I write the then O of T, okay.
+ And O of T what is it? This is the number of channels that opens in time with T.
+ So this is exactly what I had called previously XO, okay.
+ So this would be XO bar plus delta XO, okay.
+ So now let me write this explicitly.
+ Sorry, this is just a contribution.
+ Now then I have to subtract the other contribution.
+ I'm looking just at this contribution, okay.
+ So let me say then O plus, the contribution that makes the number of enchantments increase, okay.
+ So yes, so sorry this is an MC and this is an NC, I don't know, this is the global number, okay.
+ Okay, and so here I now substitute, so the first term is KO, the T and C, okay.
+ Okay, and then there is the fluctuation, let me, let me leave it like this, I know that the variance of this quantity is this, okay.
+ And therefore what I know is that the linear quantity, this goes as K0 to T and C to 1/2, okay.
+ Very good.
+ But the important point is that I know what is the variance of this random variable, okay.
+ So now I can do the same argument for the negative contribution.
+ I can see the same in the same way.
+ And I compute then D and O minus, okay.
+ So if I compute the D and O minus I would get something the same thing because it's another pass on process, okay.
+ And this would be, let me call Xc, this other variable, that would be Xc bar plus delta Xc.
+ And that would leave Kc delta T and O plus delta Xc.
+ So if I now plug them together, what I would get is that T and T is equal to the same part that I had before.
+ Ok, so we will get SC KO - LO KC DT.
+ Ok, because I am writing actually for the M and then I will write for the T.
+ Ok.
+ And then I will get the functioning part which is delta XO minus delta XC.
+ Ok.
+ Very good.
+ So now the important thing is that I can compute.
+ This is a rough environment.
+ So I don't care the details but what I would like on the menu of this I call it delta X.
+ Ok.
+ What I need to understand is what is the average value of this.
+ ok and what is the variance of this noise
+ this acts as the noise so I want to understand its statistical properties
+ so the average variance is zero because the average variance is zero because this is by definition
+ x minus x average so when I average this I get zero when I average this I get zero
+ so the average of this noise is zero ok so I have x average is zero
+ ok and if I want the equation I need to square this I need to square this and so we have a term where I have the delta x o squared which is this ok
+ so I will get the term with the delta x o squared will give me k o and c the t ok and then I have the term with the b squared which will give me plus k c and o the t ok and then I will have the mixed term ok so the mixed term I can assume that they are correlated this is actually not going to be true
+ but if I think I can assume that they are more related and so it does not be important ok so this is the variance of my direct x square variable ok and so and as you have the Langeman equation the variance of the noise on a scale of the t should grow like the t and this is indeed what happens ok so in the end what I find out is that it is not going to be true and it is not going to be true but if I think I assume that they are more related and so it does not be important ok so this is the variance of the noise on a scale of the t should grow like the t and this is indeed what happens ok so in the end
+ and what I find out is that once I divide this by the t I will have a simply a noise as usual ones that we have in lunch and equation ok so now I divide the t ok this will be this and this I will call it x-i ok
+ and this x-i what I know is that its average value is zero and the x-i squared will be given exactly by this
+ with the t ok ok because once we write it this way the correlator I should write it like this
+ minus the prime will be like by kc.kc plus kc. ok and so in this way I conduct everything to an equation
+ which also has the noise ok so the noise is equal in the two cases if yeah I think it's equal
+ in any case whatever I want so if I consider the correlations it's slightly different but it should be
+ no ok so here I need to be a little bit careful no I think it's correct
+ because then you can say ok but this is the same variable that I have in my equation ok so you need to
+ make a further approximation and approximate this with a stationary variable or you can keep it
+ multiplicative this depends on the sophistication in which you want to treat the equation ok
+ however I didn't want to go into this but if you want to take into account also
+ this is the way you need to proceed ok ok but this is interesting because in the end what you can do
+ yeah you can make some other arguments and in the end you can show that also the properties of this noise depend on the sum of the rates
+ but I didn't want to go into some detail, I just wanted to look at the main contribution
+ so at least this discussion shows you that these two terms correspond to what happens upon average in a tiny term of the team
+ there could be fluctuations, this is the average value of the increment of an o or a nc that you will get in the interval
+ ok, so for now once you have these equations as I was telling you we can just reduce to one single equation if you describe this constraint here
+ so let's write it for NO this will give here we get a constant and channel KO ok and then we will get minus and C minus is already NO KO
+ ok and then we will get minus and O case ok which we can remember the right putting these two dumps together ok
+ so the first term is KO enjamblant ok and the second term is this one ok ok ok so we need to solve these questions
+ so this simple thing that we can see is what is the stationary value of the number of open channels
+ what is the stationary value the stationary value is when the number of open channels does not vary anymore
+ so we get it by setting the derivative equal to 0 ok and this gives us
+ this is equal to and then we can also look at the dynamics of this equation
+ and the explicit solution so here what we have we have the derivative which is proportional to the number itself so we expect an exponential as a solution ok so we didn't have this term here we will find an exponential that is based on 0 but since we have this term here we know that there will be a stationary value which is different from 0 and it is this one ok so what we expect is that the solution
+ will be given by something which is this plus A v to minus T ko plus this ok when we derive this we find a term like this ok and usually when we have the derivative of a thing equal to thing by something this is an exponential ok
+ this is an exponential ok so what we need to do is to find the a ok so you see this when time goes to infinity this term goes to zero we get the stationary solution this is consistent with what we have defined ok and then we need to find the a this a here and to find a with a fixed initial condition ok so if we call
+ n of pi n of 0 the number of open channels times 0 initial condition ok what we have is that now we set 0 ok and we get n of 0 is equal to n of stationary plus a ok
+ and therefore the best in this equation is that a should be equal to n of 0 minus n of stationary
+ ok therefore this should be equal to n of 0 minus k o or k o plus k c
+ and once we fix a we have the solution
+ in terms of initial condition and the rates of growth
+ ok so what we have we have this number of enchantments
+ we start looking at our system we have another certain initial condition
+ on a time scale which is the inverse of the sum of these two rates
+ the system arrives at the stationary solution
+ and that fluctuate stationary solution and fluctuate thermo is the one that we have discovered so far
+ which has the amplitude proportional to the external cells
+ ok
+ so the interesting point that we see here is that the number
+ and that what I am interested into in this moment is that the number
+ stationary value of the open chandles becomes like this, this is the physiobiological parameters
+ the number of chandles that we have on the membrane
+ so this is not something that can be influenced by the concentration of CGLP
+ it is given, but there is another quantity which is this one
+ and this quantity here, what is the meaning of this quantity here?
+ if you look at this quantity this is the rate of opening divided by the total rate of opening plus closing
+ so this has the meaning of the probability of getting them on a channel
+ ok? so we can call this quantity here PO, the probability of getting them on a channel
+ likewise we could do the same argument on MC instead of on NO and we would get the same thing
+ and since the possible state of a channel R2 either open or closed
+ BC will be just limited by one minus PO as respect by concentration methodology
+ so in the end with this simple analysis we're telling us is that if there is something that is influenced
+ that can be influenced by concentration of CgmP, this is precisely the probability, is the probability, which is the ratio of the ratio of the region of the region of the region of the region of the region of the region of the region of the region of the region of the region of the region of the region of the region of the region of the region of the region of the region of the region of the region of the region of the region of the region of the region of the region of the region of the region of the region of the region of the region of the region of the region of the region of the region of the region of the region of the region of the region of the region of the region of the region of the region of the region of the region of the region of the region of the region of the region of the region of the region of the region of the region of the region of the region of the region of the region of the region of the region of the region of the region of the region of the region of the region of the region of
+ Ok? This is what we are going to do. And actually, the simplest way to extend this is to resort to a model that we have already studied, which is the two step model.
+ Before resorting to that model, one can look at experiments and one can look precisely at how the current membrane varies with respect to the concentration of CGL.
+ This can be measured, people have measured what this point is so they can evaluate behavior of this one in here.
+ And what they have been looking at in particular is a difference of current from the membrane in its absolute value as compared to the minimum possible value as a function of concentration of CGL.
+ And if we look at this quantity, which is left for a positively defined quantity, okay, if we look at what we find we see here which is something like this, okay.
+ And if we try to fit this form with a function of form, the best fit is a function, it's a hit function and we get something like this.
+ So let me call this protein here, I call it G, as I did in the enzymatic reaction modeling.
+ Okay, here Imax is the maximum value, beta mode, so it is as input here, and this value is the value for which, this one here, which is half of the maximum value.
+ This one here, and the fit is very good, when I take it and when I am equal to 3.
+ Ok, so this picture here reminds us of something that we have already seen.
+ So we have already seen a situation where the concentration of certain molecules affect some molecules.
+ And we encounter the similar behaviour in the chemo section.
+ And in that case, on the y-axis we have the proximity of the flagella motors to rotate clockwise.
+ And on the x-axis we have the concentration of a y-axis, if you remember.
+ Here we have two different quantities but this suggests that we can try to model the behavior in the same way.
+ So in that case the ratio behind the two-state model was the fact that flagella motors are proteins.
+ Okay, so disturbing some binding sites where KYP can bind.
+ Okay, and at a certain given time there could be a certain number of sites which are occupied by these KYP molecules.
+ Okay, and the probability of binding, therefore the probability of finding a certain number of sites occupied depends on the state of the flagellant motor whether it rotates clockwise or whether it rotates clockwise.
+ So transposed to this situation would apply a similar framework but in this case the object that we are looking at is a ionic channel. Ionic channels are proteins in themselves.
+ Here we have a ionic channel. So we assume that ionic channels again the proteins have some sites where molecules of C, G and P combine.
+ So at a certain time for example a C, G and P molecule combine here or combine here.
+ Clearly the larger would be the concentration of this G and P molecule the difference would be the probability of finding our protein with a certain number of sites of the fiber molecule.
+ But in this case it is even more reasonable to assume that this bonding process is different when the channel is open or when the channel is closed.
+ So the conformation of the protein in the cell is different.
+ So the probability of finding a certain number of sites occupied will be different in the open state or in the closed state of the other channel.
+ So exactly in the same way as we did the other time, what we will do is that we will express the probability of finding any sites occupied in the open state in a most normal-like way.
+ So this will be E to the minus V, that is energy, F of M, and we will assume this energy to depend on the state and to depend on the number of occupied banking sites.
+ And so, as we get the time, we will write down this generalized free energy as a zero point free energy, which is the energy of the ionic channel in absence of any Cgm molecule attached to it.
+ and then we will assume a certain binding energy in the open state and as before, as we did in the other case, we will assume that binding is stable in the open state.
+ So, the binding energy in the open state will be larger than the binding energy in the closed state, but from time in we are moving at the open state and then we need to subtract the chemical potential.
+ The chemical potential is the thing that depends on the concentration. The chemical potential tells us how likely the solution in which our protein is found is likely to give molecules of Cgmp to the channel.
+ And then to get PO, I'm redoing again what we already did so I'm trying to go quickly because we already did this whole complication.
+ PO will be given by the sum over M from 0 to M where M is the number of binding sites.
+ What about combinatorial factor because out of the M possible sites there are different ways in which M sites are occupied and then we will put this.
+ And then we have the one with the same factor and then the one with this, we come with this and what we get as usual.
+ It should be before.
+ There are some failures missing, but this is not the fourth one, because we are going to know what they saw.
+ Yes, yes.
+ Here they are.
+ Here they are.
+ Okay, so what this would give us, this would give us, this would give us G to the end,
+ divided by a quantity that would be called ko,
+ okay, where ko is equal to e to the minus beta,
+ f, o binding,
+ gt,
+ okay,
+ this is what we get,
+ remember correctly,
+ you want to do the computation,
+ it should be this one,
+ one plus zero,
+ okay,
+ and then we do the same thing for c,
+ no sorry, it's one,
+ one plus one,
+ one plus one,
+ okay,
+ now it's not right,
+ so now we need the same thing for c,
+ okay,
+ and this is one at the same way,
+ this is one over z,
+ one plus g over k,
+ c,
+ this is not the same, okay,
+ this is not the same, okay,
+ that I have used before,
+ let me call it,
+ we don't confuse ourselves,
+ to the end,
+ okay,
+ and then we can find z by imposing
+ that the probability
+ p of plus c is equal to one,
+ so we have z
+ is equal to one plus g
+ over k in the c to the end,
+ plus g
+ plus g
+ over k in the c to the end,
+ and then we plug everything together,
+ and now it's going to
+ find the result here,
+ plug everything together,
+ and what we get
+ is that p o
+ is equal to what?
+ p o is equal to 1 plus G over k to the O again,
+ dividing 1 plus G over k to the O again,
+ plus 1 plus G over k to the C again.
+ Okay.
+ And this is interesting,
+ because the number,
+ the average number of the channels,
+ you divide that before,
+ I just cancelled this,
+ but the average number of the channels,
+ okay,
+ it suggests the total number of channels
+ would be applied by this TO,
+ so I could even,
+ it would be exactly by this formula here,
+ it would be applied by the total number of channels,
+ okay.
+ And again, if you remember what you said before,
+ the current to the membrane,
+ it would be even by the current,
+ it's from one single channel,
+ multiplied by the number of the channel,
+ therefore it would be even by this quantity,
+ multiplied by one,
+ and divided by this quantity,
+ multiplied by one.
+ So in this way you have an estimate for the current to the membrane.
+ Okay?
+ And as we saw from the two-state model in the case of the reception,
+ this functional form can be simplified
+ and it can be simplified when
+ it can be simplified by considering that even this relationship here
+ KD in the O is smaller
+ than KD in the C
+ so that if we have a situation where the concentration
+ of C G and P is included
+ between these two values
+ ok
+ this form simplifies
+ because every time
+ that I have
+ G over 18 the C
+ is much smaller than 1
+ and this means that
+ G over 18 the O
+ is much smaller than 1
+ ok
+ so every time we have
+ G over 18 the O
+ we can use that 1
+ ok
+ and every time we have
+ G over 18 the C
+ we can this regard G over 18
+ ok so if we make this simplification
+ it is like what this is here
+ we get from the current
+ is a simplified expression
+ which would give me
+ G to the N
+ G divided by
+ G to the N
+ and here we would get
+ G to the N
+ of the G to the N
+ plus one
+ okay
+ so then we can
+ divide everything
+ here you can get
+ G to the N
+ and you see that we get exactly
+ the same functional form
+ that was observed in the data
+ ok so
+ the
+ two state model
+ predicts
+ ok
+ predicts
+ predicts the same functional
+ formula even by the data
+ and clearly you see
+ that this third here
+ clearly is the
+ maximum possible carbon
+ this is when all the channels
+ are open
+ and
+ this parameter here
+ is given by
+ the constant
+ okay
+ so this two-scale model
+ helps to rationalize
+ with observing the data
+ helps us to understand
+ why the probability of
+ our channel drag rates
+ covered
+ and it also helps us
+ to interpret this parameter
+ n, which on the level of feeding
+ is just a parameter, but within this framework
+ it is an estimate
+ of the binding sites
+ where the molecules of Cg
+ and C can bind on
+ on the
+ channel. Okay?
+ And so in this way
+ we have completed the last
+ step of our
+ biochemical pathway
+ that starts with the absorption
+ of the form
+ and ends with the change of the value.
+ Ok?
+ So the last comment
+ that I would like to make
+ about photoreception
+ goes back
+ to the problem of
+ single non-discrimination
+ that we already pressed
+ a few languages ago.
+ So once
+ so far we have been
+ discussing
+ the photoreceptors
+ but as I told you at the beginning
+ the photoreceptors are just
+ the first layer of cells
+ that elaborate
+ the light signal
+ so we have
+ all our rods and let's look
+ at this equation with low light intensity
+ where the rods are
+ the photoreceptors that
+ function
+ ok
+ and so some photon arrives
+ ok
+ and the photons change
+ the current
+ through the membrane of these cells
+ but these cells are
+ connected
+ ok
+ we are then writing
+ via synapses
+ where there are some synaptic connections
+ to bipolar cells
+ another layer of the cells
+ ok
+ which are called bipolar cells
+ so each bipolar cell
+ has all these signals
+ in terms of currents
+ arriving from a certain number
+ of photoreceptors
+ ok
+ it's basically
+ the connection arrived from
+ basically all the photoreceptors
+ so each bipolar cell receives
+ all these signals
+ it's the current
+ so there is a current through the membrane
+ the current travels
+ between the synaptic
+ junctions
+ between the
+ the box and
+ the next layer of cells
+ and that arrives at these bipolar cells
+ and then again
+ then rise
+ these arrive at the next
+ okay
+ so now the problem that we would like to understand
+ is what happens here
+ okay
+ so
+ what happens at the level of the bipolar cell
+ and this is related to the signal to noise distribution
+ let's say
+ so we have all
+ let's say that this bipolar cell
+ receives the signal from many
+ from many atoms
+ there is a new current
+ ok
+ which will be a function
+ certain function
+ of the sets of currents
+ from all the roads
+ connected to the repolets
+ that we are considering
+ ok so this is the
+ ok so these currents
+ here are noisy signals
+ ok we have already seen
+ that by looking at the
+ experiments on a single
+ phosphopase so this current
+ fluctuates ok and it
+ fluctuates when there is no
+ light it fluctuates when one
+ photon is absorbed it fluctuates
+ when two photons are absorbed and so on
+ ok so there is a more
+ distribution of this current
+ which is due to the fact that
+ maybe some of them has arrived
+ but it is due to the fact that
+ there are fluctuations in the current
+ precisely because
+ the number of both enchantments
+ is due to the time
+ ok
+ so at some point
+ this noise can become worrisome
+ ok
+ and why is that?
+ because we have seen
+ that certain values of the current
+ can actually correspond to both
+ to the case where one photon is absorbed
+ and to the case where no photons are absorbed
+ ok
+ so now well
+ what happens at the level of the vector of the cell
+ what is this function here?
+ so there are two possibilities
+ so one possibility
+ and we call it possibility A
+ ok
+ is just that
+ the input
+ is just the sum
+ so sum is the sum
+ of all the carbons of the photoreceptors
+ so just the carbons are right
+ they have to sum down
+ and the input signal is just the sum
+ of all this carbon
+ and this will be a noisy signal
+ but then at some point
+ so this is the input
+ the input for your bipolar cell
+ the bipolar cell applies some filtering
+ ok
+ so there is some filter
+ there is some biological process inside
+ of the bipolar cell that adds some filter
+ and a cleaner
+ current is even enough
+ to do the next negative cells
+ ok
+ and the second possibility
+ is that the input
+ is only a function
+ of the upcase
+ right
+ ok
+ so that
+ this input has already some filter
+ in operation which occurs at this level
+ and then what happens here
+ from input 1 to this
+ ct
+ process which does not
+ include that
+ okay
+ so we would like to understand
+ whether the scenario is A
+ or the scenario is B
+ what can be a good
+ filter in any case
+ okay
+ so let's start to analyze
+ the simplest possibility
+ okay which is scenario
+ and now I will show you
+ with a very simple argument
+ that scenario A is really not possible
+ okay
+ so let's see
+ what is this input current
+ so the input current would be
+ the sum
+ from K equal to 1
+ the total number of photoreceptor connected to my computer cell
+ from this area
+ so we already
+ we already saw what is this
+ this number here
+ we saw that this is a random number
+ ok
+ and this random number
+ from what we learned from the experiment
+ of a single photoreceptor
+ we can see that this is
+ let me call it I1
+ which is one people pair
+ the number of photons
+ absorbed by
+ by the
+ photoreceptor
+ plus a noise
+ and we know that
+ even this quantity here
+ we have modeled this
+ if you remember
+ we have seen
+ that this quantity here
+ can be modeled as a Gaussian
+ okay
+ if you remember this is what we did
+ except in time
+ I don't remember how to call it
+ sigma
+ sigma
+ square
+ okay
+ so we model it in this way
+ if we go back
+ if we go back
+ where actually
+ we were very general
+ we assume that this variance
+ depended on how many
+ how many nanofotons were absorbed
+ so in principle
+ our original formulation
+ this variance
+ was different
+ according to whether one nanofotons was absorbed
+ two photons were absorbed and so on
+ but we can simplify things
+ let's assume that the variance is always the same
+ which is not far from one from two
+ so we have a simplified version
+ if you remember this was the origin
+ of this
+ of this feature
+ we were observing
+ a certain talent
+ in the experiment on a single-power receptor
+ which was
+ a function like this
+ on global add intensity
+ and we said that this is even by
+ the superposition
+ of several motions
+ the first motion
+ is centered on
+ the case where
+ zero photons are absorbed
+ this is centered
+ on the value of the current
+ when one photon
+ is absorbed
+ and so on
+ very good
+ so let's look
+ what does it mean
+ this stands from the average value
+ for example this
+ one photon is absorbed
+ this is the average value
+ it's where the quotient is being
+ and this
+ this is a fluctuation
+ which is covered by this quotient distribution
+ and the typical
+ variance of this fluctuation
+ is this parallelism as well
+ ok so this we have already studied
+ that it's just another way of
+ we say the same thing
+ ok
+ so let's say that
+ we have our torch on
+ very low light intensity
+ and we look at
+ all our photoreceptors
+ ok
+ so here on the x axis
+ I just put the index of the photoreceptor
+ so k is a
+ is a discrete index
+ which runs from 1 to the global number of photoreceptor
+ that we are considering
+ ok
+ so let's
+ consider first the case
+ where we are in the dark
+ so there is no external light
+ and we measure
+ imagine that we can measure
+ the current to each one
+ of these photoreceptors
+ ok
+ we know that on average
+ we will not find exactly
+ in all
+ photoreceptors
+ precisely because
+ we have this issue
+ for example
+ in one case
+ we will find this value here
+ the first photoreceptor
+ in another one we will find this
+ and another one we will find this
+ another this another here
+ we will find this in the main parts
+ excuse me, sorry the x axis
+ there is a k
+ k is the index of a photoreceptor
+ so this is the carbon to measure
+ to that photoreceptor
+ ok
+ I just want to plot the quantity that I have some in that
+ ok
+ ok
+ so now let's
+ let's view
+ the same experiment
+ but with a very very low light intensity
+ ok
+ with a light intensity
+ where let's say
+ the average value of absorbed photon
+ would be around 1
+ just to make an example
+ ok
+ yes
+ what is the number of 20?
+ 20 ppm parallel is the average value
+ to the carbon to the membrane
+ in absence of time
+ ok
+ so now we do the same experiment
+ with this very low light intensity
+ on average
+ 1/4 of the photoreceptor is absorbed
+ ok, so we do the experiment
+ ok
+ so this is the reference value
+ ok
+ so actually it should be the other way around
+ because when the photon is absorbed
+ it is also a thesis
+ so let's take a look at this
+ so this is like a b-compared
+ so we know that on average
+ the carbon is a piece of one b-compared
+ but this is just on average
+ so if we do the same experiment
+ maybe we will find something here
+ something here
+ something here
+ so this cloud will be
+ around
+ 90p stars
+ but there will be
+ fluctuations
+ and sometimes we will find some values
+ for example this one
+ or this one
+ which could correspond
+ to one case or to the other
+ ok
+ this point is here
+ ok
+ ok
+ ok
+ so now let's
+ these fluctuations are covered
+ by this variable
+ which fluctuates
+ with the Gaussian distribution
+ so now let's see
+ let's see
+ what should we expect
+ for if we sum
+ if we simply sum
+ what would be the equals
+ so let's compute
+ I equal
+ this would be the sum of
+ fk of ik
+ so now we know what is fk
+ so this would be
+ i1nk
+ plus the sum of k
+ so the first term
+ is very simple
+ this is just the total number
+ of photons
+ absorbed by
+ my retina
+ multiplied by
+ and the second term
+ will be a sort of random variable
+ in this side
+ which is the sum
+ of n random variables
+ and n is quite large
+ so n for let's say for a star a mantle
+ is of the order of 500
+ for mambas
+ i think it's a 1000
+ okay so it's a big one
+ not super big but it's
+ of the order of 1000 individuals
+ okay so now let's
+ let's look at what are the properties
+ of this noise here
+ the noise
+ on the backboard itself
+ so since this is
+ the sum of random variables
+ I can apply something to the linear theorem
+ and what I know is that
+ xa^2 average
+ would be equal to Femina
+ xa^2 average
+ which is
+ this is single squared
+ ok
+ and we know
+ that we already estimated
+ that in the experiment
+ in the motor sector
+ this is 0,1 people that
+ we already saw that several lectures ago
+ so sigma
+ is of the order of 0,1 people
+ ok
+ very good
+ so we know that the order
+ of this random term
+ this is a deterministic term
+ which reproduces
+ external signal
+ ok
+ so if and not photons are absorbed
+ this term here is really
+ proportional to the number of absorbed photons
+ so this is what I mean
+ that we would like to
+ transmit to the brain
+ ok
+ so if there was no noise
+ this would be a perfectly safe
+ way to account for what happens
+ outside
+ but there is this noise here
+ so this can be of course
+ positive negative
+ it's approximately distributed with this balance
+ so this error
+ this noise here
+ if we want to see how loud it is
+ we need to take the square root of this
+ ok so that would be
+ square root of m
+ multiplied by sigma
+ which is 0, 1, 2, 1
+ ok
+ ok
+ ok
+ ok
+ ok
+ ok
+ these are 1, it's 1 gigopert
+ ok
+ so you see this term here
+ is with a very low light intensity
+ this global number of absorbed photon
+ is just a few
+ 4, 5, 6
+ if we are low light intensity
+ this is a small number
+ ok
+ so let's see what's this
+ ok
+ so with 500
+ with 500
+ for salamander
+ with 500
+ and 500
+ this will be approximately
+ something that is slightly larger
+ let's say
+ if we can take the square root of 5
+ exactly that's the number
+ okay so the square root of 5
+ being of 10
+ okay
+ if you put here 500
+ it's 5 by 100
+ 100 comes to the square root of 100
+ which comes to this one
+ and you are left with the square root of 5
+ which is 2.2 and something
+ okay
+ sorry what is the n
+ n is the global number
+ the total number of
+ of lots
+ basically almost all the rods connect with
+ each of the cells
+ thank you
+ so you see that
+ when n is
+ 4000 for example
+ this is much larger
+ okay
+ so the point of this argument
+ is that in animals
+ this term here
+ at low life intensity
+ is of the same order as this one
+ So, if the bipolar cell simply stung the currents coming from the photoreceptors
+ it would do a very poor job
+ because already at the level of the input
+ the running signal, the global current
+ could have nothing to do with what happens in the other side
+ so clearly there should be some mechanism occurring in the process
+ in the chemical processes which are very sophisticated processes that occur at the level of the synapses
+ that filter the level of the gap
+ we don't know precisely what happens
+ there but what we can do is to try to understand
+ what would be an optimal filter
+ ok?
+ so let's imagine that we ask now the following question
+ let's say that I know that this input should be a function
+ of the currents of the currents
+ arriving from the individual current sectors
+ and I would like to find what is this optimal filter
+ ok
+ and we are already set by the algorithm that I have just made
+ that this filter cannot be linear
+ we expect a linear filter
+ but we would like to see this
+ with a sort of optimization
+ output
+ and so this is what I will do now
+ ok
+ so let's say that I have a certain number of n total of photons absorbed by lightena
+ ok
+ of course this will be given by the sum of the photons absorbed by the individual photon-acceptors
+ by individual rods
+ ok
+ and I can say that the filter that occurs between the rods and the polar cells
+ is a function that I will call as n-extimated of all the darrens
+ ok so this is a function that given the input darrens from the photoreceptor
+ gives an estimate of the number of photons absorbed by k
+ ok so in the linear case what I had is that this was equal to sum of k of mk plus some noise
+ and we understood this is just proportional to the character
+ I just wrote this equation for the character but I just multiplied by i1
+ and that's the sum of the character
+ ok so then what we understood is that this term is this term here
+ so this is proportional let's say to sum over k
+ i1 and k so this is proportional to this ok
+ this was in the linear filter case and we understood that this doesn't work
+ so we got the 1 so we see here
+ and what we want to find out what is the best possible filter that we can build
+ with the currents rate A
+ so to do that we will define again in a similar way to what we already need
+ the level of the single photoreceptor
+ but now we will do at the level of the whole system
+ we will define an error function
+ and the error function will be what?
+ we need the real value of absorbed the proton
+ minus the estimated value of absorbed the proton
+ which is a function of the end case
+ x^2
+ and what can we say?
+ we can say that an optimal filter will be a filter that minimizes this error function
+ ok
+ so this error function is a functional of the function of the currents
+ ok
+ this is functional
+ and now we want to find the ultimate filter by minimizing this error
+ so what we need to do this is to take the functional derivative of this epsilon
+ with respect to an x that is this function on the other case
+ except this equal to 0
+ and this defines the optimum filter
+ of course there is a problem
+ because now we already know that this i case
+ this is what we started with this i case
+ it has a fluctuating part
+ ok
+ so this function has inside it has some noise
+ ok
+ so I mean
+ we cannot solve this problem in this way
+ because there is this noise
+ what we can do is to take the average error
+ and this average error
+ it is a well-defined quantity
+ because once we average
+ we get rid of the random variables
+ and this operation at this point
+ can be analytically performed
+ ok
+ so we now want to perform this operation here
+ to do this operation here
+ we need to compute this epsilon
+ at least write it easily
+ and then we know from the data
+ ok
+ can you repeat the procedure
+ I don't know why we have to take the
+ mean value of the
+ you can write it without mean value
+ but then you don't know how to operate analytically
+ analytically when you have random variables
+ you don't know the specific properties of a single
+ realisation of the mouse, you just know its statistical properties
+ so anything analytical that you can do
+ is once you perform out of this
+ otherwise you are not able to do anything at all
+ so here this means that we want to find out
+ of the filter that on average performs
+ ok so what is this average
+ ok so this average in fact the sources of noise
+ in the case of this photoreceptive process
+ the fact that the number of photos that are absorbed
+ is a random variable it is possible and distributed
+ and the fact that even when we fix the number of absorbed photons
+ there are fluctuations of thermal origins in the random pattern
+ these are the two sources of errors that we discussed many times so far
+ so this is related to the fact that we have a probability distribution
+ of all our IKs
+ these are all random variables
+ and also the number of absorbed photons
+ and therefore in general the total number of photons is 75
+ ok
+ so these are the two
+ the probability distribution we need to take into account
+ ok
+ the IKs are here and IKs here
+ ok
+ and so epsilon will be epsilon b
+ epsilon b
+ we need to perform the averages
+ so these are continuous variables
+ and these are discrete variables
+ ok
+ so we need to sum all the discrete variables
+ ok
+ so we will have a sum of this
+ that is done here
+ and then we will integrate all the continuous variables
+ so we have something like this
+ ok
+ and then we will have the p of 5 k's
+ and n total
+ and then we will have the function
+ that we will get n total
+ minus nx
+ which is the function of this variable c
+ ok
+ so now with respect to this
+ quantity here this is the average value
+ we are interested in minimizing this with respect to nx
+ ok
+ so we are interested in the dependence of all the currents
+ to perform this derivative here
+ ok
+ so this is a functional derivative
+ how does a functional derivative work?
+ you probably already know this
+ but let's say that we have a function g
+ which is a functional of a certain function f of x
+ and this is an integral
+ because here we have an integral
+ so this would be something integral over x prime
+ by searching coefficients
+ and a function of the function of x
+ ok
+ so what's the correspondence
+ between this generic notation and this one
+ x is the set of the k
+ ok
+ and this coefficient
+ in our case
+ will be to build itself
+ ok
+ and f of x
+ in this case
+ will be
+ n x
+ of the other case
+ and v
+ will be
+ n of
+ minus f
+ okay so this is
+ this is the equivalence
+ from what we really have
+ and we see the fragmentation
+ so if we want to take
+ the functional derivative
+ we really want
+ to understand how this one in here
+ changes
+ when we perform
+ a little change
+ in the function f around one of x
+ this means taking the function of the negative
+ this depends on this function
+ f in this
+ complex way
+ we want to change a little bit
+ this function
+ in the specific position x
+ and we want to see how this integral changes
+ ok
+ so the way
+ to understand how to do this
+ is as usual
+ this is the weak half a minute explanation
+ ok
+ so we just
+ we just
+ ok
+ so if we discretize
+ let's say that this is the x prime axis
+ and we discretize the small intervals
+ ok
+ so this will be done
+ sum of the A, I number the A each one of this integral
+ ok
+ of A, of XA
+ prime
+ B
+ of F
+ of XA
+ prime
+ ok
+ and now taking the derivative let's say that X is here ok
+ value X that we are considering is here
+ so among this sum we just need to pick up the interval
+ where X prime A is equal to X ok
+ and take the derivative with respect to F
+ ok so you see if we take this let's call it F of
+ and so basically we need to derive this and so you see that the derivative basically acts with me
+ so this will give you when we take the derivative with respect to Fx of this
+ what do we get? among the sum we will pick up the term of the sum when x-prime F is equal to x
+ and take the normal derivative with that point there
+ so that will give us A of x multiplied by the derivative of the function B to give F of x
+ This is very long ago, so I would at least introduce the idea of what you should be discussing in some of the courses I guess
+ Can you repeat, why the distribution to a B is also tenfold as a random variable
+ If we can evaluate the new value on a probability distribution that is the upper p function of the random variable pk and the total, right?
+ But why also the total is a random variable?
+ Because the real number of absorptive photons is a random variable
+ because absorption is a one-two process and so is a logical receptor.
+ If the outside light has a given light intensity,
+ the number of absorptive photons for two is itself in a possible distribution.
+ Okay.
+ Okay, this is why this is random variable.
+ The estimated it is a random variable because it is a random variable slash pk and x.
+ And estimated because the ik are random variables, yes.
+ So, sorry, we are using the, I mean, it is like a function of a random variable.
+ Exactly.
+ It is a function of a random variable because every function is a function of a random variable.
+ Every f is an f.
+ But now there are no random variables in order.
+ Now these levels are integration variables because we average them.
+ These are just integration variables inside the integral.
+ So these are random variables if you look at the specific value.
+ But once you average this is an integration value.
+ Excuse me, the first term is product.
+ The product of DIA.
+ Because you have for each photoreceptor you have to integrate all the carbon through that.
+ All the possible values of that carbon.
+ Very good.
+ So in the end it is much easier than what it looks like.
+ So you just take a delivery.
+ You just close your eyes.
+ It's like this is a variable and a function and you take a delivery.
+ Okay.
+ D-I-K.
+ I don't see it from here.
+ It's D-I-K.
+ You are integrating over all the I-Ks.
+ Okay.
+ Okay.
+ You need to unrage over this random variable.
+ So you need to integrate over the I-Ks and to sum over...
+ Okay.
+ Okay.
+ Okay.
+ So sorry.
+ Yes.
+ Unfortunately, there is a little bit of background noise.
+ Okay.
+ So let's do this.
+ Okay.
+ So let's do this.
+ Okay.
+ So let's do this.
+ Okay.
+ Let's do this derivative.
+ Okay.
+ So let me erase this.
+ Let me divide this here.
+ So we have two here.
+ So we need to take the derivative of this.
+ We take the derivative of this with respect to an X.
+ The integral disappears.
+ Okay.
+ Here the integral disappears.
+ Okay.
+ We start with an integral.
+ We have an integral.
+ We select only the value that's very interesting in the derivative.
+ So, the upside over an X of the IKs.
+ When I look at this, the integral over the IKs disappears.
+ Okay.
+ The sum remains because the sum is not over the IKs.
+ So we can get this is the sum remains.
+ This is from zero to infinity.
+ And then what we get is P of IK and total.
+ Okay.
+ And then we need to derive this function here.
+ So we get two.
+ And total.
+ Minus MF.
+ Obvious case.
+ And then we would need to take the derivative of NX with respect to NX which is one.
+ So this is the result of the functional derivative that we need to set it to 0.
+ Sorry.
+ Minus one is the derivative of minus NX.
+ Sorry?
+ I have the derivative in NX, not minus.
+ Yeah, there is a minus.
+ We need to set it to 0.
+ Okay, so what we get therefore, at this point this would be the optimal.
+ The optimal is the solution of this equation.
+ Okay, so let's say, what does it give?
+ This is going to be here.
+ So let's break down to the terms.
+ So the truth we can erase it.
+ So this term is n total, sum, sorry, n total,
+ and total, something like pi, pi, i, k, and total.
+ Okay.
+ And then we get, so this should be equal to the sum of the total of pi, i, k, and total,
+ and then we get an x optimal of x.
+ Okay.
+ Okay.
+ Now we can get an x.
+ Okay.
+ So now this sum here, you see this does not depend on n total.
+ Okay.
+ So we can sum by itself.
+ Okay.
+ And what is this sum?
+ So this is a probability of two variables.
+ This set of variables and this variable.
+ And we are summing all the variables.
+ So we are marginalizing with respect to one of the variables.
+ So this sum here is nothing else than the probability distribution.
+ Just the IPs.
+ And so what do we get?
+ We get the optimal filter.
+ And this one will be here.
+ Okay.
+ So we got this for, sorry, we got it.
+ Okay.
+ So we arrived so far here.
+ How much time do we have?
+ 10 minutes, maybe 5-9 minutes.
+ Okay.
+ Very good.
+ So at this point it is convenient
+ to rewrite everything in terms of the single photoreceptors.
+ So we will assume that each single photoreceptor
+ works independently of the other ones, which is reasonable.
+ Okay.
+ So the number of photons absorbed by one photoreceptor
+ is independent of the number of photons absorbed by another photoreceptor.
+ So if you assume this, the first thing that we can say is
+ that is this 3K aphoryses that will become the product of the probability of having a certain current
+ that was coming from the photoreceptor.
+ And then now we would like to rewrite the second one in here, instead of writing this in terms of the total number of absorbed photons, we would like to see this spectralized in terms of the number of photons absorbed by each immunohorceptor.
+ And this is easy to do and why is that because we know that P over IK and top we can write it as the sum of K over NK of all the NKs.
+ Ok. Of P of the IKs NKs delta and top minus sum of K NK. Ok. So this is the usual change how to the if you have a set of random variables
+ how to derive the probability of a function of those variables. Ok. So imagine that you have this probability of the NK's and you want to find out the probability of N dot which is a function of the NK's. Probability theory tells you that this is the formula that you need to apply and you study that in the statement course. Ok. So we will not reiterate this again. We have this expression here.
+ So we can just use this expression here. Plug this inside of this. Ok.
+ And then you see once I've done this, I can perform the sound of my top. Ok. I can perform the sound of my top. Ok.
+ And when I perform the sound of my top, and when I perform the sound I just implement this delta function. Ok.
+ And basically the result of this sound is that everywhere I have my top I substitute that I have a sound of a k or a sound of a k like that. Ok.
+ So this probability distribution, this expression here becomes p, sorry, lx optimal
+ it becomes, this shift is over there and top becomes the sum, so this becomes the sum over all the mks.
+ So I bring this sum outside this one.
+ Then I implement the delta, so the top becomes the sum over k over mk.
+ Ok, this is where the top was.
+ And then I have the p of all the ik's and k's.
+ Ok, and then I have divided the p of all the ik's.
+ Ok.
+ And then once again, what I can do is assume that all the photoreceptors, they function independently one on the other.
+ So I can use this and I can assume the same factorization for the ik's.
+ I want to reduce myself to a product of a thing that happens in a single receptor, this is my name.
+ so I do this, so this becomes the sum of all mk's, sum of the k in k and here we have the product of the k of p, i, k and k and here we have the product of the k, i, l, it's probably the other way, p over i, l.
+ ok so this is what i have ok so this helps me to simplify a lot and why is that to understand that let's write this explicitly so we understand what this is so this what this is this is sum let's write it explicitly this is sum over the number of absorbed the photon of photoreceptor 1
+ from E from E from E. The sum of the absorb of the proton so from photoreceptor 2 from E to E. Sum of N to E. This is the symbol.
+ Ok. So this is a sum. So this is N1 plus N2 plus Nm. Ok. This is a product. So this will be P, I1 and 1, P, I2 and 2, P, Im and n.
+ And then I will have a product here P of I1, P of I2, P of Im.
+ Ok? So now let's perform this answer. Ok? Let's start with the first step here.
+ Ok? Let's start with the first one. Ok? So, I want to perform after the two. Let's forget. Let's assume that there are not the other ones. Ok? Let's forget the other ones, just at least the first one.
+ So now, the sum of an entity. What does the sum of an entity? This is not involved in the sum of an entity. The sum of an entity is just this term here. Ok?
+ So what is the sum of an entity? It is just the PI2, right? I am not generalizing, but I am not able to do it because of it.
+ And the same is true for all the other ones. So the only contribution I am left with is the sum of an entity. Ok?
+ I am left with the sum of N1 of N1 P of I1 N1 divided by P of I1. Ok?
+ This is what I get for the first one. Ok?
+ And then I will have the second one, the second one with M2. It will be exactly the same, but with 2 instead of 1. Ok?
+ So I will get the sum of M2 and 2, P of I2 and 2 divided P of I2.
+ And then I have all the other ones, they are all the same.
+ They are not all the same because they are from different photoreceptors,
+ but the functional form of this term is the same.
+ And so in the end what I get?
+ Excuse me, could you repeat why this last passage?
+ How did we get?
+ How did we get?
+ How did we get?
+ This last expression, sorry, the last passage.
+ This one?
+ Yes, yes.
+ Okay, so let's start to perform this computation.
+ Let's start with the first term of the sound.
+ So you need to forget all the rest.
+ Okay?
+ So when you have the first term,
+ here you need to perform so many sums.
+ One sum will evolve and one.
+ It's the first one.
+ And all the other sums will involve things that are not one.
+ Let's do this other ones first.
+ So let's start to do the sum for N2.
+ When you sum over N2,
+ what is the only thing that we mention N2?
+ It's this one.
+ When you sum over N2,
+ you are performing the sum
+ of a probability distribution of two variables
+ over the second one.
+ So you are marginalizing
+ over the second variable.
+ The result is the probability distribution
+ of just the first variable
+ which is this.
+ So the two cancels.
+ And the same is true
+ for all the other sums.
+ For all the other sums.
+ Okay. But for the first one.
+ The first one is this.
+ Then you meet the argument
+ with all the other numbers of the sum
+ and you get this.
+ Okay.
+ So in the end
+ what we got
+ is our optimal filter
+ okay
+ so we can stop here
+ I just write down the final result
+ and then we will finish tomorrow
+ so we got that the optimal filter
+ is just what?
+ is just the sum
+ of a k from 1 to the n
+ of what?
+ of the sum
+ of the nk
+ of the 0 to the infinity
+ of nk
+ p
+ of ik
+ okay
+ divided by p
+ of ik
+ okay
+ so we
+ we stop here
+ and tomorrow
+ we will just use what we already know
+ about this probability distribution
+ we will complete this expression
+ ok? Because we know
+ we already know in single photoreceptor
+ what these distributions are
+ and we will exploit
+ this knowledge
+ ok?
+ ok so see you

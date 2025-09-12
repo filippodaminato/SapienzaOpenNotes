@@ -1,0 +1,600 @@
+ They think that the opening of the back of the chamber is a cascade and so the incrementing potential varies a lot in a very short time.
+ So now we are trying to understand how this is possible and how we can model that at the level of one single period.
+ Okay, so we go back to the origin of this change in the profession so far again, we need to imagine the lamp rings appearing inside of the set and here is the outside.
+ Ok, so I am not drawing you the shape of the neurons of the numerals, you have seen many drawings, if you want to go on Wikipedia, find a beautiful photograph of the numerals, basically the skin is a little bit like that,
+ you have the central part of the cell which is called the soma, and then you have a long part in front of the cell which is called the axon, and some parts on the top which are called the dendrites, and what happens is that the axon is connected to dendrites of other cells, of other neurons,
+ and so on, and so these neurons are all connected one to the other, and what happens is that each neuron typically, these dendrites of one neuron, they connect with many other axons of different other neurons, therefore the network itself of neurons is very limited.
+ We will address the level of the network afterwards. For now I am concerned about the membrane, so we are looking at the membrane of the cell, and the membrane of the cell, precisely as other cells, is full of these eonic channels.
+ So for one single neuron, there are many kinds of eonic channels, eight, nine kinds, and overall, if you look up here in neurons, you can find even hundreds of different kinds of eonic channels.
+ Okay, so what happens with these eonic channels, with these eonic channels as we already discussed, these channels are semi-permoral, they are semi-permoral, so this means that certain ions from the inside can go outside and vice versa, and they are selective, so certain kind of eonic channels make only some kind of ions pass through.
+ So we talk, for example, about calcium channels, we talk about potassium channels, so they are specific to particular kinds of ions.
+ And so due to this fact that the membrane is semi-carbable, so for example, there are eonic positive ions that remain more of the inside and negative ions that remain more of the outside,
+ and there is an unbalance of charge on the two sides of the membrane and this creates a potential difference.
+ We already started this problem at the beginning of the course and what we did at the beginning of the course
+ was that we studied what was the equilibrium situation if we only assumed that ions move due to diffusion.
+ okay so we said okay imagine that ions start moving from the inside to the outside for example negative ions go outside so there is an imbalance between the inside and the outside
+ and then let's assume that the concentration of ions is larger inside than outside so there is this push due to diffusion that pushes the ions outside
+ ok? so if this C1 is larger than C2 the concentration of these ions that goes to the membrane inside and outside they start moving from the inside to the outside
+ ok? because remember diffusion is something that tells you that there is a larger concentration of things in one place and they are free to move
+ so these things will move towards the outer space
+ that is this effective force that pushes the population towards the rise of the dead
+ ok? so we understand that
+ so the ions start moving from the inside to the outside but as they start moving there will be some balance
+ balance so there will be an opposite force, okay, directed by the electric field in the membrane, and so there will be two opposite forces that try to balance each other, one with fusion that pushes things from the inside to the outside, and one with electric field with electric force that pushes the ions from the outside to the inside, and when these two balances together will let them
+ processionary breathing. This phenomenon is always there, but on top of this there are also some proteins which are called ionic pumps, and these ionic pumps keep pumping ions from the inside to the outside, and so they change it in a way with the intramembrane potential, and they set the intramembrane potential to a value which is not the one that we
+ would have equilibrium and with an int current. In equilibrium you don't have an int current, while with these pumps you have an int current.
+ So the combination of the equilibrium is said that more or less the order of the intramembrane potential difference was of the order of 50 millivolt.
+ So you need, in a stationary situation with the effect of the yawning pump, also with the diffusion and the electric force and so on, in the end, in this general situation, if we look at a single yawning channel, we will find a potential difference which is of the effect of the yawning pump.
+ This is the order of 100 milliliters and a comment to this yawning channel.
+ This is not a whole story, why it is not a whole story?
+ Because there are many channels.
+ And if there is no yawning pump, there will be a potential of around 1 milliliters, is it right?
+ Well, the potential is the order of 50 milliliters, we make the computations.
+ What is the computations?
+ Yeah, you want that, right?
+ Okay, but then this is an order of 1, the exact number will change, it depends on the kind
+ of yawning channel that we are moving on.
+ Whether it is a cultural yawning channel, or assuming it depends, it depends on the kind
+ of yawning channel, the exact number, okay?
+ But this is the potential difference across one single channel and they have made them, okay?
+ So if you want to compute the potential difference across the whole membrane, we need to take into account the effect of all these yawning channels, okay?
+ so if we would like to try now to write a question that regulates the potential difference across the membrane so now we indicate with V the potential difference across the whole membrane not across a single channel, okay?
+ so this is due to the effect of all these channels that are across the membrane, okay?
+ so a simple way to do that is to consider that if you look at the whole membrane, okay?
+ it is something which has some excess of charge on the one side with respect to the other, okay?
+ so if you don't look at the scale of the single channel but you look at it as a whole object, it is like a capacitor, okay?
+ A capacitor is something that has a different distribution of charge on the plates of the capacitor, right?
+ So we can use a sort of schematic of the membrane like this, okay?
+ So as we would do with an electric circuit with a capacitor, we can write down a question for the potential, okay?
+ And the question for the potential is the usual limit, if I call C the capacitor of the whole membrane, okay?
+ We would get C the B of the key, equal to the current, where I is the current across the whole membrane, okay?
+ And this current, I can actually split it into two parts, this will be useful.
+ Let's say a current due to the channels, okay?
+ Due to the fact that on the membrane there are channels and therefore these channels generate
+ and each one of them cells generate a current through the channel.
+ But then there can be also some signal arriving from the outside, okay?
+ So for example, our neuron is connected with other neurons
+ and at some point some electric carbon arrives from the neurons connected to the neurons.
+ So we will split it into two parts.
+ And we will try, this is a question that we have written in more and more details
+ and in the most detailed way it is not easy to solve
+ but we will start looking at it in some simple approximation just to have an idea
+ of what information we can get at least from an equation of this one
+ ok, so let's try to specify a little bit better
+ these current channels
+ so we can split it as a sum of the channels
+ so this will go to 1 and this is the number of channels
+ on the membrane, global number of channels
+ and then I don't
+ sorry
+ it's not like this
+ sorry I have to put it in that way
+ so this is the number of different kinds of channels that I have
+ so if I have yarn channel, potassium channel, these are all different kinds
+ so this is the number is something which is for example for a single neuron it is 8, 9, 10, there are different kinds of channels of complementary
+ and then let me say that I is the number of channels of kind I
+ and then what I have is that I call GI the conductivity of camera light
+ so the inverse of the resistance of the channel
+ and here I will tell you what it is later on
+ let me write it in the other term that is important
+ Fi is the fraction of channels of candide which is open
+ ok so because if I consider for example potassium channels
+ some of them might be closed
+ so the channels that are closed do not contribute to the target
+ do not contribute with any target
+ so I don't need to counter
+ this product here is the number of channels of one type
+ this is a constant because the global number of channels of one type is a constant
+ so this is the abundance
+ and what is this?
+ this is the current passing to channel I
+ so the potential divided by the resistor
+ sum an equation that relates potential difference and current
+ so this product here is the current to an individual channel of kind I
+ so if we fix I we are focusing on a specific kind of channel
+ and what is this telling us?
+ that if the potential is equal to the I no current passes through that channel
+ so let me explain again
+ let's focus on one single channel
+ we said there are ionic pumps and so on
+ so in a standard situation there will be a current here
+ to the single channel considering it isolated
+ ok, if there was only one single channel in the membrane
+ open, ok, with the effect of ionic pumps
+ I would have a certain interpotential
+ potential across the membrane
+ and a certain current, ok, but now
+ the potential difference across the membrane is not just due to this channel
+ but all of them, so the potential itself
+ can be different from the one that I would have
+ if that channel was alone, ok
+ so the potential is not even, ok
+ so this V can be different from the stationary value
+ of that single channel due to the ionic pump, ok
+ and what it can be is that the potential of the membrane can for example be equal to the value of the potential in this specific channel that would put to zero the current through it, ok
+ and this is precisely the other so this means that if due to the effect of anything on the other channels the external signal and so on the whole potential difference is equal to this value of the i through this channel no current
+ that will be current through the other ones but not through this one ok and this is indeed called the resting potential of channel value
+ of kind value so if it works for one of them it works well ok so this is the contribution for this for the part of the channel and then I can explain I see that it is what it is
+ it is because of time it is because of interactions ok if I just form an experiment it depends ok so now this is the equation that we need to look at but the only one can say ok if we know these values
+ actually maybe there are some ways to find out if this is bi this is a parameter for this model but I can make experiments in trying to determine if this is bi or it is for all ok
+ it should be easy to solve this equation after all this looks like a linear equation in the potential v ok so one might think ok this is easy to solve actually it is not and the reason why it is not is that this quantity here
+ it is not a constant the fraction of open channel the fraction of open channels of a certain time depends itself on v ok so to be able to solve this equation we also need to try to understand what is fi so fi is the quantity that depends on v ok so the equation becomes a little trivial because as v changes fi changes
+ and i change this for you and so there is a feedback between the fraction of open channels and the value of the protection this is what i was telling you before this will be crucial because this will be processed with the mechanism that you know via a feedback mechanism allows for the opening the sudden opening the quick opening of many channels ok so it is very important that this point here depends on the protection
+ so now to be able to say something more we then forgive to complement this equation with an equation with 4.5 ok and so here we don't have many details on the tape but we can just do something very very simple
+ ok so what we can assume is that there will be a certain value FI equilibrium of V ok such that if I keep V fixed ok so forget that there is a dynamic so V equals oxygen time according to this equation but if I keep V fixed my FI will reach this equilibrium value at that particular value of V ok
+ ok and then we will move to the German case and we will do that ok but for the time being let's assume that there is this value
+ then clearly we are not in that condition because in general V will keep changing ok
+ so if V will keep changing also FI will keep changing and so we need to assume a dynamics for FI
+ what we can assume is that the dynamics is a relaxation dynamics ok
+ so basically we will assume for FI this equation here
+ so what does it mean? It means that let's assume that FI is different from its equilibrium value
+ ok
+ then what happens is that we will relax
+ so the solution of this equation is an exponential
+ if you remember that
+ so it's an exponential
+ this function as a function of time will relax exponentially to Fi equilibrium
+ ok? very good
+ so what we get in this case is that we have this relaxation of dynamics
+ so if we start with a value of Fi which is different from Fi equilibrium
+ this tells us that we exponentially reach the value of Fi equilibrium
+ if it could be fixed or if the value is slowly as compared to the time scale of Fi
+ it will relapse to the value of Fi equilibrium exponentially with a time spectrum
+ ok?
+ we will also use the equilibrium and so in the end
+ we will have two equations to solve
+ ok the first equation will be this and the second equation will be this
+ actually though the timescape depends itself on the negative channels that we are looking at
+ because maybe there are quicker channels and smaller channels
+ so we need to put that right here
+ ok?
+ because the system that regulates our system is this
+ ok?
+ so we are almost done
+ why we are not completely done
+ because I told you
+ here the dependence of V
+ which is the most important thing
+ because if you want to solve for V
+ we need to understand the dependence of V
+ the dependence of V is function here
+ we put in the value of the fraction of the channels
+ given a certain value of the potential
+ and this is something that I have not already told you this
+ ok
+ ok so now let's try to determine this FI equilibrium
+ ok
+ so let's just focus on an individual channel
+ ok
+ ok so let's imagine that the channel is closed
+ if the channel is closed
+ we have some distribution of charge in the inside and in the outside
+ ok
+ now let's assume that this channel opens up
+ if the channel opens up what happens is that all the charge
+ all these ions some of them are just attached here
+ attached to this protein
+ so when the protein will open up what happens is that it will move a certain charge from the inside to the outside
+ the charge that is attached to it will change the information
+ so this specific charge that is moved when the channel is open is called the gating charge
+ okay so let's assume that there is a gating charge
+ okay that is moved across the membrane
+ so if this gating charge is moved it is moved across a potential difference which is the potential difference of the membrane
+ which is V ok so we are basically moving a charge across a potential V
+ so there is a change in energy due to the moving of this charge ok
+ let's say that Fi of 0 is the free energy of our channel when it is closed ok
+ when it opens up there is a change in energy this energy will decrease because some charges will shift following the increment rate potential
+ so i will have a decrease in energy which is due to the charge in units of V
+ so Q is the charge that is moved and V is the membrane potential so this is the energy
+ so this is the free energy in the case of a normal channel
+ while in the case of a closed channel this is just no solid zero
+ so the free energy in the open case is equal to free energy in the closed case minus the channel
+ ok so we are in a situation here where our system which is the channel
+ come in two states, the states open which has associated energy fi open equal to fi closed minus 2EV
+ and the state closed which has energy fi closed
+ ok so in equilibrium we can treat this system exactly with two state models
+ that we have been studying a lot in the past
+ and that we have been using to describe several phenomena
+ both in the chemoreception and photoreception
+ the opening of the channels in photoreception
+ in that case what made the difference between opening and closing
+ in this case what makes the difference in energy is the burning of the charge
+ the structure of the model is the same, it is a two state system and in this case there is just
+ one single bound inside and so we can have the contribution of just one getting the charge
+ so we can do the computation and the computation follows exactly the same procedure that we used in that case
+ since it is really very simple we can remind what it was
+ okay so if we want to find out the probability of the channel to the open this will be e to the minus beta the free energy of the open case
+ divided by a randomization factor and this will be equal to e to the minus beta if I close minus this is a constant
+ minus q e to the and the probability for which we close is e to minus beta and Z we find it just by closing the normalization
+ ok the fact that PIO plus PIC should be equal to 1 and so what we get is that this is equal to beta on beta plus 3 plus B plus C
+ okay and therefore what we find is that the probability of the channel to be open would be equal to this
+ okay
+ okay
+ okay
+ okay
+ okay
+ okay
+ okay
+ okay
+ okay
+ okay
+ okay
+ okay
+ okay
+ why do you feel different
+ okay sorry
+ sorry sorry sorry
+ sorry
+ so principal
+ these are different
+ okay
+ so let me call
+ this fi
+ zero
+ open
+ and this is fi
+ zero
+ okay
+ and the reason is that if there is
+ no
+ unbalance
+ of charge
+ between the inside
+ and the inside
+ so there is no charge
+ the free energy of the close protein
+ can be different from the one
+ of the protein
+ in absence of charge
+ these two quantities here
+ in principle are different
+ this is Fi0C
+ Fi0C
+ Fi0C
+ is the energy
+ of the closed protein
+ without charge
+ ok, with the charge
+ without charge
+ because if it is closed
+ and in fact Fi0O
+ Fi0O
+ is the energy
+ of the open protein
+ which in principle
+ could be different from the protein
+ so if there is no charge
+ because for some reason
+ there is no charge
+ no charge
+ but anyway
+ the energy free
+ can be different
+ when the protein is closed
+ or when it is closed
+ so these two constants
+ must be different
+ ok
+ this is the reason
+ I have done
+ a simplification in more
+ ok
+ so this will be Fi0 open and this will be Fi0 closed
+ and so here this will be Fi0 open Fi0 open
+ and this will be Fi0 closed and here I will also have E to the -beta Fi0 closed - Fi0
+ Ok, so now it's correct
+ Very good
+ Just to, because I'm not sure if I understood
+ When it is open, as it can be in zero or non-zero configuration
+ depending on the present or absence of the charge. Instead when it is closed, it is emitted. So we could omit the zero and the closed.
+ Exactly, because the change in free energy is due to the fact that some charge is brought from following the potential difference.
+ So the energy has decreased because the charge has followed the potential difference.
+ So 0 is just necessary for the open channel, not for the open channel.
+ Thank you very much.
+ Okay, so in this we can recast this just by the random parameters.
+ We can therefore write in the probability for these channels to be open is equal to 1 over 1 plus e to the beta.
+ e to the beta, b minus b to the delta, regarding only the polar.
+ So the 1/2 is correct, regarding a certain delta.
+ Ok, where we could learn these parameters, delta is 1 over QE.
+ Ok, yes.
+ And the 1/2 is just F of I0 low, minus F of I0 open, divided by, multiplied by V.
+ Ok.
+ Ok.
+ So.
+ Let's just re-announce the pegs.
+ Ok.
+ So.
+ And the.
+ What is the shape of this curve here?
+ So what we have is that this curve of V turns to 1 where V becomes very large.
+ Much larger than V 1/2.
+ Ok.
+ So when there is a very large increment of potential this thing goes to 1.
+ V much larger than this.
+ This becomes exponentially larger if V is positive.
+ Ok.
+ is a positive differential difference okay and so this no sorry so if v is so if v so this is v
+ no no no no no this is a minus yes this is a minus i make a mistake and this is a plus okay so there is a minus check your notes because this was okay you check your notes you see that this should be a minus because this was a plus with a plus sign and the numerator and in this we have this
+ machine you are sorry I erased it let me rewrite it again we have EO is equal to E to the minus eta FIO open minus QPB okay and we have the same thing here plus E to the minus eta FIO close okay so now we divide the numerator
+ the denominator by the same quantity okay so this means that we divide this by E to the beta QPB okay and divided by E to the beta QPB means multiplied by E to the minus beta QPB and so the sign of this should be negative okay very good so there is a minus sign here and the sign that should
+ be you know this was correct and so here this should be the minus this is the minus okay so now the signs are correct okay I can cancel this and I can load this graphically
+ basically here V minus V one half what happens is that when V is much larger than V one half the exponential will go to zero and then we go to this one here okay one and then exactly
+ for V equal to V one half this will be one half and then the other okay it's a nonlinear function
+ well what they show is that this is a nonlinear function and it should be one half okay
+ very good and so I wanted to show you this because here you understand that there is a strong nonlineality here and so this is a set of coupled first order version of time but which is nonlinear this is why if I would like to solve this set of
+ questions that would be very hard to do because of this non-linearity.
+ So what can we do what can we do so to solve these equations.
+ So this DIO is FI.
+ Sorry, exactly.
+ Once we have this DIO, FI is just an I.
+ So this is exactly the same.
+ This is a fraction.
+ A probability of fraction is the same.
+ OK?
+ So this is equal to FI.
+ This is 0.
+ FI can be equal to FI.
+ OK.
+ OK.
+ So since we don't know how to solve this equation in general,
+ let's say that we want at least to solve it in some approximation.
+ OK.
+ So what we will do is that,
+ let me write everything here,
+ so I have the wrong blackboard to start with.
+ So I have these two versions here,
+ these are the versions that we are looking at.
+ Okay, that's the stem, and then we have...
+ Okay, now you can do this.
+ Okay, so now I have everything here, and I can have it here.
+ Left part.
+ So now what I will do is that I will assume that my system, I know what is the best part of the system.
+ So now what I will do is that I will assume that my system, I know what is the value of the system in my stationary state in absence of external signals.
+ Okay, then I assume, so I know that my system has a right to stationary state, okay, and the potential across the membrane is V0 in this stationary state.
+ Then I add the small external signal and this will make V0 change and it will become a circle V0 plus a population point.
+ I assume that this is small and I want to try to understand whether I can get something by expanding in that V.
+ And why this problem is simpler, because if I assume that delta V is small, I can plug everything here inside and transform, modify this equation into a linear equation.
+ And once we have a linear equation, I will solve everything. So this is what I will do. I will plug inside that equation, this expression here, and I will disregard everything from order delta V squared on.
+ I will linearize the equation, I will do that, as more linear expansion about the resting stationary solution, okay?
+ And this is clearly not something exact, but it gives some interesting qualitative information, therefore this is what I will do.
+ So let's try to do that. So let's try to do that. The left hand side, okay?
+ So this binoc is something which is a constant, so it can be driven into zero, so on the right hand side I will just get this.
+ This is what we can do now, okay?
+ So of course when I return my system not only we can change also Fi will be equal to Fi zero, let's say in the stationary situation, plus that Fi.
+ Ok, where Fi zero is Fi equilibrium of zero. Ok, so let's do this exercise.
+ This is a cost count, this is a cost count, and then we have two terms where we need to expand this term here and this term here.
+ So let's do this. So we have Fi zero plus that Fi. Ok, and then we have Fi.
+ Ok, nice, and here we have, we have, if not, minus Fi.
+ Right.
+ Very good.
+ And then we have the Deriva di Saita file.
+ Let's see.
+ Ok.
+ Ok.
+ Let's add the part zero.
+ Let's add the part y.
+ Ok.
+ And then we get the minus.
+ That's like the equation of b.
+ Ok.
+ So here we need to expand.
+ So we have the SI equilibrium of this.
+ It will be equal to SI equilibrium of b0.
+ Ok.
+ Plus the derivative of SI equilibrium i with respect to b in b0.
+ Ok.
+ Multi-dial by delta b.
+ Ok.
+ Do you agree?
+ This is a function and since b is equal to b0 delta b, I just compute this function in b0 plus delta b and delta b is smaller, therefore I can expand.
+ Ok.
+ Very good.
+ But I remember this and I know you have f.
+ It's function of only one variable so it's derivative.
+ Ok.
+ Ok.
+ But remember that f_i_0 is f_i_0, so this and this comes as that.
+ Ok.
+ Very good.
+ So I have these two questions.
+ And here I only need to take the terms which are in linear order, not the ones that are quadratic order.
+ And so let's see what comes out in this regression.
+ I have, let's, first observation, all the terms of order one, they need zero.
+ Okay, what are the terms of order one? This, this and this.
+ Okay, and why is that? Let's write everything.
+ So I have first the terms of order one, this that multiplies F_I_0, which multiplies F_I_0, okay?
+ And then I have the joints of linear order, so I have plus delta F_I, which multiplies this, plus minus delta V, that multiplies F_I.
+ And then I have to turn to the delta F_I, that multiplies F_I.
+ And then I have to be able to do F_I, F_I, F_I, F_I, F_I.
+ This is a constant.
+ So now we can simplify it further and one simplifying it further because by definition of, sorry then I have the here.
+ The external current is of the same order of delta V and delta F because it is the one that is pushing my state out of the equilibrium solution.
+ Okay so now what I observe, I observe that this curve here gives contribution zero and why is that?
+ because by definition of stationary state, okay, I should get that this is equal to sum of i and i g i, f i zero, d i minus g zero.
+ Okay, I said that this is the stationary solution, the equilibrium solution in absence of any external signal.
+ Therefore stationary means that it doesn't change, therefore it satisfies this solution.
+ Okay, therefore you see that this verb here, the first verb, it is precisely the sum that I did there, and so it is z.
+ Okay, very good.
+ Therefore what I am left with is a set of two equations which are linear, so let me write them here.
+ This was f_i equate to zero, okay, plus, let me go with f_i just to remember that this is small.
+ Okay, and then we have this.
+ So, this is the set of algorithms that we need to solve.
+ And to solve these equations, we need to go to the air, because we are still derivative in time.
+ So, if we want to react to derivative in time, we can get rid of them.
+ Okay.
+ So, let's go into the air.
+ So, what I get is minus on the left hand side minus omega, the value of omega, equal what?
+ I'm going to write them just as to the questions.
+ Okay, nice.
+ I, G, I, and I have high mechanism.
+ I'm going to be not 30 and after.
+ Okay.
+ This is the first term.
+ Sorry, this is this term here.
+ Sorry, sorry.
+ And then I have the term with the resting potential.
+ Okay.
+ And this term here is equal to x plus some other i, the i and i, the i minus three naught, the delta x i half of omega plus the delta x i half of omega.
+ Okay.
+ And then I have the second one, minus i omega, the x half of omega.
+ Is equal to 2, minus 1 over 2i.
+ And I have delta fi omega minus the derivative.
+ And I have that derivative of omega.
+ Ok, so now you see I can solve explicitly the problem because I can derive delta fi from the second question and plug it inside the first one.
+ Ok?
+ So from this second question, what do I get?
+ Let me bring this to this other side.
+ So I would get, let me multiply by tau i, this will all.
+ So if I multiply by tau i, I will have tau i here.
+ And here.
+ Ok?
+ And so I will get delta fi hat, which multiplies one minus i omega to e.
+ Ok?
+ And this will be equal to, this is a plus, is constant.
+ And that will be half, ok?
+ Ok?
+ And so now I can substitute this.
+ So let me do this directly.
+ So this means that, let's try with the explicitly, the delta hat of I omega is equal to this delta in half of omega,
+ which multiplies the f over the p0 at equilibrium, divided by 1 minus I omega 3.
+ Ok, let's try to finish this.
+ Ok, so I start doing this back.
+ It is equal to minus i, the i and i.
+ Excuse me, the ligament in the f and the i, the g ligament, the b comes across the t.
+ Okay, so we can rewrite the first term and then the second term must be the i, sorry, sorry, sorry, sorry, sorry.
+ So this is an equilibrium, this is a cluster, this is the first term, this one, and then we have this one here, so I'm putting the minus sign in front, so this would be plus v0 minus the i.
+ So here, I am just putting the minus sign in front, so at least I can write it as minus, and here, v0 minus the i.
+ So I put the minus sign in front of everything here.
+ And now I can substitute, I can plug this, and so I will have df.divium over dd.
+ d0 divided by 1 minus 3 omega.
+ Okay.
+ Delta V hat.
+ Delta V hat I can plug it in front.
+ Okay.
+ Okay.
+ Okay.
+ So I think, let me check whether this is to correct the question.
+ So here I forgot C.
+ Okay.
+ Very good.
+ Okay.
+ And so now what I get is that I can plug everything containing the data together.
+ So what I get is the delta omega.
+ So I take these terms containing the data on the other side.
+ And what I get is what?
+ Minus omega c.
+ This term here.
+ And then there was a minus here, so there is a plus here.
+ So I get a plus.
+ So now I will call, this term here is a constant.
+ Sum over i, g i, i, f i, it's a constant.
+ So it's a constant and these two quantities are dimensionless.
+ And the dimension of this term, of this constant, is the dimension of a conductivity.
+ So it's the inverse of a resistor, so I will call it in this way.
+ To remind myself that this is a conductivity, the inverse of a resistor.
+ It is a constant, so I can plug a signal in this constant.
+ And then I have the other term, and the other term is this one.
+ So this term here, this contribution here, the equilibrium part of this side, it acts just like a resistance.
+ So the effect of all the channels, each one of which brings a certain conductivity, that's a given resistance, the resistor.
+ It's this overall average equilibrium effect.
+ And then I have this other term here.
+ So this other term here, it depends because this is not a constant, there is a media here.
+ So to try to interpret the second term, we need to make some smaller numbers.
+ So let me rewrite it.
+ So this is like this.
+ So we have f.
+ I believe you are never using enough, this is a constant actually.
+ Okay.
+ And then I will have the sum of i.
+ I will have the i and i, and then I will have the 0 minus the i, divided by 1 minus the i, omega i.
+ Okay.
+ Therefore, the t does not depend on i.
+ What?
+ The derivative, the f has an equilibrium or the b does not depend on i.
+ Yes, yes, of course, this is fine.
+ And so you cannot put outside of the summation.
+ Yes, thank you.
+ Okay.
+ Okay.
+ Okay.
+ Okay, so let's try now to understand that we need to be discriminated to understand the role of the sector.
+ The kind of channels that we have.
+ Okay.
+ So let's consider the first case with the big channels.
+ The big channels are those which will reach their stationary state in terms of opening very quickly.
+ Okay.
+ So this means that 2i is small.
+ Okay.
+ And in particular what we have is that 2i omega is much smaller than 1.
+ Okay.
+ So if 2i omega is much smaller than 1 you see that here this contribution disappears and this is again a constant.
+ Okay, so if it is a constant it also plays the role of connectivity on a universal system.
+ Okay.
+ So now the important point is to try to understand what is the sign.
+ Okay.
+ So if these channels are channels with positive feedback, what this means?
+ This means that FI equilibrium with respect to V, this is larger than zero.
+ Which means that if the potential difference increases you can have more of a channel.
+ So there is a positive feedback, you increase the potential, you open the channel, you increase again the potential, you open the channel and so on.
+ So there is this positive feedback between an increase of the potential difference and the opening of your channels.
+ This is included in the sign of this solution.
+ And then the second condition that we want to assume is that the eye is larger than you.
+ So what does it mean? It means that due to the effect of the yoring pumps in the stationary state there is still a positive current to the channel.
+ So if this is the case, if all these conditions are verified, so you have weak channels with positive feedback and the rest for which the yoring pumps are very effective.
+ Sorry, the positive of the yoring will be greater than zero. That's not in plan.
+ No, no, these are two distinct variables. Yes. There will be some channels that satisfy these conditions.
+ Very good. If all this happens, then this second term here is a constant and it is a negative constant.
+ So this term here in this case of the channel will be something like -1 over something.
+ So you see the effect of this term will be to decrease the resistance of this circuit.
+ And so the overall effect will increase the current and increase the increment rate potential.
+ So there is a feedback there.
+ Because the external signal just makes your potential increase a little bit.
+ But the increase of the potential makes some peak channels to open.
+ Because this is positive, so you are increasing the potential, more channels open.
+ If more channels open, there is a negative resistor effect, so the potential will increase again.
+ Which will make more channels to open and so on.
+ So there is this cascade of opening.
+ And we will look a little bit more in detail.
+ Not today, but we will look at a simple example, very simple example.
+ That make this effect very clear.
+ Okay, you will see what is the consequence of this.
+ But you still understand, you already can understand that.
+ So if there is something of this kind and this kind of channels are the ones that dominate the dynamics.
+ Clearly, you change the stationary state.
+ So remember that here we are starting close to the stationary state with zero.
+ And there is some expression, some external signal that arrives.
+ But this signal that arrives has the effect to bring you away from the initial point.
+ Okay?
+ And here, of course, we cannot study these longer-term dynamics
+ because we have been doing the mechanics of linear expansion,
+ but we will look next time at a simple case
+ where we can solve the problem even in the non-median case.
+ Okay?
+ On the contrary, let's see what is the effect
+ of adding the slow channels.
+ Okay?
+ In the case of the slow channels we have the opposite relation.
+ Okay?
+ So basically the opposite relation, this term dominates over this.
+ Okay?
+ And this term behaves therefore as an effective inductance.
+ Okay? So remember that the equations for inductance are this.
+ If you remember, okay?
+ So when you get this score from your entities first, okay?
+ This will become this.
+ Okay, and therefore what you will get is that this is an I omega.
+ This is going to be alpha omega divided by I L omega.
+ So whenever you find something which has an I omega,
+ it's basically something that relates when it happens.
+ So if this term dominates over this,
+ you will have a coefficient,
+ you will have a coefficient,
+ it will be a constant,
+ multiplied by I omega,
+ and all the possible in front is an effective in balance.
+ So this is, I think we can stop here,
+ because it's almost done,
+ but clearly the most interesting case
+ for our discussion would be the role of the dissenters,
+ and on Friday we will see what is the consequence of this
+ in a very similar time.

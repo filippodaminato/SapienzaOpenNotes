@@ -1,0 +1,1223 @@
+ You are assuming that you have a lot of substrate, ok, so you can keep producing the product,
+ ok, and your problem is to find at which rate the product is produced, ok, because you have
+ all the substrate that you want, so you can keep producing the substrate, ok, so this
+ is the rate, ok, and the rate depends on the concentration of the substrate clearly because
+ the more concentrated is the substrate the quicker you will be able to produce the substrate and if you plot this as a function of Cs/km, you show that this rate, ok, the production rate that you are going like this, ok, this production rate is something which goes like this, ok, so the, you start at small parties of Cs, you start producing
+ this product with this rate and then the rate is up to the maximum value, so the rate increases, it keeps increasing, ok, so you add the larger is the concentration, the larger is the rate, which is the ratio that we get, but the rate does not increase linearly, I mean at some point it's up to it, you cannot produce the product at infinite rate, ok, and I want you to
+ see that this is not B, ok, this is B and D, ok.
+ Also, we said that CS is constant in time, but now we are adopting the B and D as a function of CS, so we set a concentration to this piece and then we ask...
+ Yes, yes, let's say if you had another concentration, how would the rate it is, ok?
+ Of course, this is a rate, so as I was telling you before, this means that you keep producing product, clearly this is a regime that only holds up to a certain point, because even when you have a very huge amount of substrate, if you keep from the substrate to synthesize the product, at some point, clearly, the substrate will lose.
+ The substrate will increase and the assumption that we need to have a constant substrate will not hold anymore.
+ So this is an approximation which holds in the first regime where you can assume that the substrate is constant.
+ At some point you will use the substrate and therefore this rate will block zero F because you will not have anything more to change.
+ But at this I just wanted to show you that in this case with one single reaction, one single substrate you have this constant rate of production.
+ Okay, so now we will see that here is different, here is different.
+ Why? Because one of these two reactions here involves G.
+ Okay, involves the product of the first reaction.
+ Okay, and we are not assuming that G is in a huge amount.
+ The idea is here that Gp is very abundant, so the substrate S is very abundant.
+ But G is not. G is produced starting from S.
+ So we cannot assume that the concentration of G is constant
+ and in T it is a set of coupled equations.
+ I wrote down an equation also for the number of molecules in G.
+ Okay, therefore for the concentration.
+ Okay, so these were the equations that we wrote yesterday.
+ These are the strengths that I learned once we used in the basic quantum question.
+ Now we need to solve them all.
+ Okay, so let's do this.
+ And here it's just, everyone has to be patient with just algebra and some digits.
+ So you probably got the right result but it was written in a way that looked different from the one in the other but actually it was the one in the other.
+ So let's do this step by step.
+ So the first thing that we need to do is to find out the stationary state as we did for the simplest case, to find out the stationary states of the two enzymes.
+ ok, so we will set a piece of this equal to Z and we will find stationary states for the concentrations of the enzymes, so we have MS.
+ I should write stationary states, but please don't write stationary states otherwise we will have four S on one letter and it is really too much.
+ so this is stationary state and this would be from this, first here we need to substitute this region here, so should we do this step by step?
+ ok, in this case it is really like in the previous case, so don't let me do this again, you just need to substitute here, ok, here we will substitute N total SS minus N SS likewise here, we will do the same here
+ ok, and this will be N D G, no sorry, N S, N D total minus N D G, ok, so the first step is to substitute this here, then I set these two equations to zero and I find exactly the same kind of solution that we found in the one equation case, which is this
+ where these two cases are the Michaelis constants for the synthesis
+ and this is the equation and this is the equation and this is the equation. Therefore the definition is the one analogous to the one of the Michaelis constant that we have before
+ this is just gay S minus plus B S over gay S plus, so it's the ratio of the rates that take out from the creation of S
+ decrease the number of enzymes S and this is the rate of the reaction that increases the production of the metastatic states
+ and this is exactly the same way Kb it will be equal to Kb minus plus Bb and this is Kb plus
+ these are the questions related to the production of the metastatic states
+ ok so at this point what we need to do is to take this one is here and in a certain path in the equation for 2
+ ok so let's write the equation for G so we will have T and G over P
+ so let's write this again
+ ok so I made some, I think I made some
+ so let's see what I did
+ so I think this is just, I am probably here
+ so I need to write this
+ please check that I am writing exam with the same question
+ and we have to do this, minus Mgcg
+ this one
+ it is the same, right?
+ so here, I mean, before substituting the stationary boundaries
+ I need to implement the constraint here
+ ok, because this, I should put it, I should use the solution
+ ok, so I will cancel this
+ and the step will put N total minus N minus 2
+ ok, I exploded the conservation of the enzymes
+ ok, so this is just a step
+ ok, and then, and then I see what?
+ I see that there are terms which contain NSS
+ which is this one, and terms that contain NBG
+ ok, this one and this one, so I put them all together
+ ok, before substituting the stationary values
+ I just write myself in the equation in this way
+ so I will have BS
+ and this remains the same because I have just one of this
+ but then the terms of the NBG, they are two
+ so I will have plus NBG
+ and here I have AB-
+ ok, and then I have minus CG
+ ok, B plus
+ ok, and BG
+ B is plus
+ because we have minus and minus
+ minus and minus, that's it
+ ok, and then I have this other term which is
+ no, it will also be explicitly
+ so let's write it explicitly
+ minus KB+
+ and the total
+ C
+ ok, I think we are there
+ ok, good
+ very good
+ ok, so now I can consider this and this
+ and I substitute this solution here for the stationary value
+ so I will get
+ S
+ and like this
+ and S total
+ Cs over Cs plus Ks
+ this is this term here
+ and then I have this term here
+ this is the prefactor so I will start it out
+ let me write down the grand consist first
+ Kd minus
+ plus Cg
+ Kd plus
+ and then I will put the stationary values of the Dg which is this
+ so I will get N D total
+ ok
+ and then I will get Cg divided by Cg plus Kd
+ ok
+ and this is the second term
+ and then I have the second term
+ so minus
+ Kd plus
+ and the total
+ Cg
+ so now what I do
+ is that
+ I want to
+ stress the dependence of Cg
+ because you see
+ Ng is just a Cg
+ apart from a volume factor
+ to omega Cg
+ where omega is the volume
+ where our reaction is
+ the concentration
+ and the number of G
+ they differ by a constant
+ so they are basically the same point
+ ok
+ so
+ I want to
+ this is basically an equation for
+ Ng or Cg as you prefer
+ so I want to
+ give you evidence the dependence on Cg
+ so I will try
+ to use it here
+ if I have Cg, Cg will put together
+ the other terms
+ so we'll write this
+ as it is
+ this remains here
+ I don't have Cg
+ so this remains this
+ I don't care
+ but here
+ I just
+ put together everything
+ that depends on Cg
+ this term is non-linear
+ as you can see so we want to manipulate it a little bit
+ ok
+ so what we have is this
+ and this is divided by Cg plus Kd
+ this is this divided by this
+ you see both these two terms events on this
+ so here we have minus Kd plus
+ and everything multiplies
+ and the total Cg
+ ok very good
+ ok so now I want to rewrite
+ this parenthesis here in a nicer way
+ ok so let's do this on one side so that
+ we can write another result here
+ ok
+ so what is this parenthesis here
+ I will have Kd minus plus
+ Cg Kd plus
+ minus Kd plus
+ Cg
+ minus Kd plus
+ Kd
+ ok
+ divided by Cg
+ plus Kd
+ right
+ ok
+ so now
+ these terms cancels
+ ok
+ these terms cancels
+ and now
+ what I need to remember
+ is the expression of Kd
+ ok
+ so what is the expression of Kd
+ the expression of Kd
+ I have it here
+ ok
+ this is Kd
+ ok
+ so you see when I multiply Kd
+ by Kd plus
+ this is Kd plus Kd
+ ok
+ so this is just
+ this is just
+ this is just
+ sorry
+ what is this
+ what is just
+ let's do that
+ Kd minus
+ plus
+ Pd
+ divided
+ by Kd plus
+ ok
+ so this and these are cancelled
+ ok
+ this Kd minus
+ this Kd
+ ok
+ and so what happens is that
+ this Kd minus
+ cancels to this
+ ok
+ so this cancels to this
+ and the only
+ left is Bd
+ ok
+ so in the end
+ the whole parenthesis is nothing else
+ than minus Bd
+ divided Cg
+ plus Kd
+ ok
+ excellent
+ ok
+ so now I can rewrite
+ this
+ this remains the same
+ the S
+ and S total
+ Cs
+ divided by Cs
+ plus Ks
+ ok and the second term
+ is exactly analog
+ to the first one
+ but with the deliberation
+ minus Bd
+ and D total
+ ok
+ Cg
+ over Cg
+ plus A
+ ok
+ and this is the equation that you find in the other
+ you don't find the deliberation
+ you find the left
+ this
+ ok
+ this is how we get it
+ ok
+ it's ok
+ Thank you.
+ But in principle they are couples, so you need to inform the computations in detail to ensure that everything is well.
+ Okay? The intuition is that when you have separation of time scales you can simplify things, but you need to get it.
+ Okay. Okay. So this is the equation. So now why is this equation interesting? This is an equation for Cg. Okay? So I was telling you before we can just write this Ng, we can just write Cg and dominion here. It's just a constant difference between two or you can use Ng instead of Cg. It's the same. Okay.
+ But the interesting thing is that what one would like to do is now try to exploit this equation to be able to say things about the reaction that's happening.
+ Okay. So far this is an equation so you can't really extract much information from that. You need to solve the equation to try to understand what's happening so the first thing that one can do is as usual to try to
+ understand what is the stationary scale of this equation. So let's imagine that there is this equation and this equation is going on, has been going on for a while but at some point this kinetics can give rise to a certain stationary concentration of the product which is Cg and Pg.
+ So it is describing the fact that you are synthesizing and degrading this Cg and P which would be important for photoreception because we can regulate the opening of the channel of the membrane so we want to try to understand what regulates the production of this Cg and P, what is the value of this Cg and P and what is the time scale on which this Cg and P changes and so on.
+ So the first thing that we can do is assuming that we have a certain concentration of enzymes, let's see what is the result in stationary concentration of Cg and P which is the cheating resultation here.
+ So we want to look at the stationary state for Cg, stationary state for Cg.
+ Ok, so please note that this is a linear equation in Cg, so if you want, linear equations are resolved and linear equations are not resolved, that's why we look at simple things before.
+ Ok, so we just look at the stationary state as the processor.
+ The stationary state, we find out the stationary state means that we assume that there is no variation any longer of this, of the number of gemolybids, of the CGLP, and we set this left on the side equal to zero.
+ So if we set this equal to zero, we immediately find a solution for CGLP.
+ And what is the solution?
+ Solution that you just need to equate these two members here.
+ Don't let me do the algebra, this is really very easy.
+ So the solution that we get is the following: CGL in the stationary state,
+ okay, so this is the stationary value, is this one here, KB, BD under the S,
+ and the total divided by NS total, okay,
+ 1 plus KS over C minus 1.
+ So this is the final result, okay, for the stationary value,
+ then I will leave it here because we will insert the regimes,
+ which have simplified this expression,
+ but for that being, this is the exact solution.
+ Okay, so already here, we see what we were interested in,
+ namely the fact that actually the stationary concentration of Cg depends on the number of enzymes.
+ Okay, so the more synthesis enzymes there are, the larger would be the stationary value,
+ the more degradation enzyme that we would have, the smaller would be the concentration of Cg and P in the stationary state.
+ And this is important and why it is important because when the retinol changes its structure,
+ what happens is that the degradation enzymes gets activated.
+ So here I wrote a number of enzymes D, number of enzymes S,
+ but I then believe the number of those enzymes which are in the active state,
+ which are able to participate in any equation.
+ They can be also in a state where they do not participate in this equation,
+ so these are the enzymes in the active states.
+ So I think for example in the other, maybe they are with a plus,
+ I don't remember, but these are the active class of enzymes,
+ of those kinds of enzymes.
+ So what happens is that when the retinol changes,
+ it goes from C11 to C trans,
+ some D enzymes get activated.
+ And so what happens is that N total D increases.
+ Okay? And so this means from this expression as a consequence,
+ the value of Cg in the stationary space once these enzymes have changed.
+ Okay? And since this concentration regulates how many open channels there are,
+ this will imply less open channels.
+ And this will imply smaller current.
+ Okay? Which is indeed what you see in experiments on photoreceptors.
+ Okay? You remember when we commented the experiments on photoreceptors,
+ I told you, let's say that here the torch is off, then at some point we turn the torch on,
+ okay, and I know in reality what happens is this, the current decreases, okay?
+ We actually draw it on the other side, we draw the absolute value of the variation,
+ but in truth what happens is that the current decreases, okay?
+ So when there is light, the current decreases, okay?
+ This is a range of a few seconds, okay?
+ But the change, the sound of the change is more light less than light, okay?
+ Very good. And so this is what happens and the reason why this happens is that CG is regulated in this way and when this number here increases, CG decreases.
+ And then the next step which is this one we will see afterwards, okay?
+ Very good. So that's the first thing that you can do, okay?
+ And this is what sets the stationary state but with this equation you can also look at something related to the dynamics, okay?
+ So we cannot solve the full dynamics because the problem is not linear but what we can do easy is to imagine the following, okay?
+ So let's say that we are in a stationary state, okay? We are in a stationary state and then at some point there is a fluctuation with respect to the stationary state
+ and we want to understand how long will it take the system to go back to the stationary state again, okay?
+ so to do this what we need to assume is that CG is equal to the stationary value, okay?
+ plus a certain variation which is small, okay?
+ so if we do this, why this problem is a little bit easier to solve because I assume that this is small so I can pull it back here and disregard the hormonal energy, so I'm working on expansion and this I can solve it, okay?
+ So what I'm going to do is to take this equation, okay? I'm going to try to solve this equation to find out the dynamics of this data.
+ This is a constant value, right, because by definition of stationary values it is a constant value.
+ So I assume that there is a small variation with respect to the stationary value and I want to understand how this variation evolves in time.
+ So I plug this expansion back here and what I need to remember is of course that the derivative of this is zero, so the left hand side will just be the derivative of the equation.
+ Ok, so we get omega derivative with respect to t of this delta g, this is the only part which dynamically depends on time.
+ Ok, and then I have to get all the rest, but in all the rest I can do an expansion, so the first term here remains the same.
+ So let me, for the type b, let me call this first term a, which remains untouched for what we are doing now.
+ Ok, so this is a, this is a.
+ Ok, so the only point where there is a Cg is here. Ok, and so let's see what happens.
+ So if that would be minus the b and the total and here I would have Cs, Cg, Ss plus the g. Ok, and then I would have this here. Ok.
+ So here we have Cg, Ss plus the g plus the g. Ok. Very good. Now I know that the g is very small so what I can do is that I can rewrite this here.
+ I can rewrite it as what I can rewrite it as cgss plus kb. Ok. Which multiplies 1 plus delta g over cgss plus kb. Ok.
+ And actually since this is a denominator this would be minus 1. Ok.
+ And then since delta g is small I can expand. So this 1 line plus this quantity that is small to the minus 1 becomes this. Ok.
+ So I can substitute this term here with the denominator just Cg plus Kb. Ok. And the denominator 1 minus delta g over Cgss plus Kb. Ok.
+ And now since I know that the g is smaller I can multiply all these terms and retain only the median terms. Ok.
+ So this will become a minus bdnb total and then I have c stationary state g divided c stationary state g plus kb. Ok.
+ Sorry, let me write this like this and then I have all the other terms c g ss plus delta g minus this multiplied by this so minus delta g c ssg divided c ssg.
+ and this term here I disregard it because it is seminal ok so I am ok with this very good.
+ ok so the other thing that I noticed is that let's look at this contribution ok this contribution
+ here and let's remember this A ok so A is this and the contribution with this is exactly this
+ but with the CG stationary state ok but my definition of stationary state in the stationary state
+ this term compensates each other ok so this contribution here compensates with the term A
+ ok because this is the contribution of the stationary state ok so it goes away
+ and so the only term I am left with is this one ok so let me rewrite that I am left with
+ from media derivative with respect to t will give the g ok this will be equal to - bb and t total cg stationary state plus kb ok
+ then here i have delta g on both sides delta g ok and i have here 1 minus c stationary state g divided by c stationary state g plus kb ok
+ ok
+ ok
+ very good so now what i will then do now we can do the following
+ ok
+ ok
+ sorry
+ let me look at what are you going to answer A so the C as with the C stationary state g
+ because the A is this term g
+ the contribution of this is inside this one
+ where C is in stationary state
+ ok
+ but if you break down the equation from the stationary state
+ you can put 0 here so this is equal to this
+ ok
+ ok
+ so now let me write this in a very different way
+ ok so the delta G I put it here
+ ok so here I just multiply and divide by C G S S
+ ok
+ now I divide by meter
+ ok
+ so this is the number
+ this point here is the number of G molecules in the section I say
+ ok by definition
+ and what is this thing here
+ so this is the rate
+ that we would have
+ if only the aggregation enzymes were pressed
+ you see
+ this is the case of one single equation
+ ok
+ so you see that when you have one single enzyme
+ the rate has this form here
+ ok
+ so this is precisely the thing that we have here
+ it's a rate
+ the rate only due to the regression process
+ ok
+ a rate is the inverse of a time scale
+ ok so we can call this one in here
+ 1 over 2 efficiently
+ ok
+ why I call it 1 minus coefficient
+ because you see that the actual rate of my process
+ since I have 1 minus something positive
+ the actual rate of my process is always smaller than this one
+ ok
+ so this is the largest rate that I can have
+ in this set of coupled equation
+ ok
+ because I have 1 minus something else
+ ok
+ so once I understood this
+ what I can say
+ so what I find is that
+ the derivative with respect to time
+ the way my excitation evolves dynamically
+ I can rewrite this like this
+ ok
+ so we already know that the solution of this equation is an exponential
+ ok that the case is 0
+ ok
+ and the rate which is exponential in case
+ is given by this and here
+ ok
+ so the solution would be delta g of t
+ equal delta g initial
+ e to the minus t over 2
+ where tau is the time scale
+ the inverse of the rate of this decaying process
+ and what is this tau
+ the time scale of this graph
+ of this process
+ 1 over tau is equal to 1 over tau efficient
+ 1 minus cs g
+ it will be very effective from English
+ ok
+ very good
+ so this tau is the effective lifetime of this excitation
+ so my system increases
+ for some reason it increases the concentration of g
+ but then the dynamics brings it back to its stationary value of this time
+ and why I wrote this
+ I wrote this
+ because I wanted to show you something
+ ah yes, there is also a media
+ so there is a
+ okay
+ okay
+ oh yes, yes
+ okay, so because once we have
+ this version here
+ and once we have the stationary solution
+ it will be the primary stationary solution
+ okay, so this is the stationary solution
+ so let me write
+ now here I write a really delightful
+ effective lifetime
+ okay
+ so here I have the stationary value
+ and the lifetime of any sedations
+ so again these two equations
+ are very useful because
+ they allow me to identify
+ an efficient regime for this reaction
+ what is an efficient regime?
+ an efficient regime is where
+ where I have
+ oh sorry
+ I need also
+ I also
+ ok but I have it here
+ ok
+ and also there is a question here
+ so what is an efficient regime?
+ an efficient regime is a regime where I produce very easily
+ the product and I see from this equation it is an efficient regime
+ an efficient regime is a regime where this part here which is the one that keeps the rate increasing
+ the synthesis part is very strong
+ so the larger is this part, the larger will be the rate
+ so the rate of production which brings me to the stationary state
+ so the FASA will be the approach to the stationary state
+ and this happens when I have a good amount of substrate
+ so where this term is as close as possible to one
+ which is its maximum value
+ so this means that Cs must be much larger than Ks
+ so the approach to the stationary state
+ this implies that Cs must be much larger than Ks
+ and this is the first condition
+ and then the second condition is that once I reach the stationary state
+ if something returns my system I should go back to the stationary state quickly
+ and so this means that I should have my lifetime as close as possible to PF
+ which corresponds to the quickest possible comeback to the stationary state
+ if the stationary state is returned so that's the response on the system
+ so to achieve this best response, namely to have tau equal to the optimal value of f
+ I need to have this term small
+ and so this means to have this term small
+ this means that I need to have cg in the stationary state
+ much lower than kd
+ ok so this should be small
+ so these are the conditions that set my system in a very efficient state
+ so the product is created very rapidly
+ and perturbations are reacted to very quickly
+ ok so these are the conditions
+ so this is what defines an efficient regime
+ ok
+ and why it is interesting this efficient regime
+ because in the efficient regime
+ all the equations simplify
+ ok
+ all the equations simplify
+ because we can exploit these conditions here
+ ok
+ and so if we assume these conditions
+ what in the stationary state
+ every expression of top
+ what we get is the following
+ ok
+ let's assume
+ that we are in an efficient regime
+ ok
+ that will be efficient regime
+ what do we have?
+ let's start by the equation
+ the equation simplifies
+ because basically this would be equal to 1
+ ok
+ and this would be equal
+ we said that cg
+ should be much smaller than kt
+ so I can disregard the cg
+ in the denominator
+ so the equation simplifies
+ and the equation becomes omega
+ the cg over the p
+ equal the s
+ and s total
+ minus v e
+ over kt
+ and the total
+ cg
+ the equation simplifies
+ the expression of the stationary state simplifies
+ you can see directly from there
+ or from this equation
+ because what you get is that
+ cg stationary state
+ it will be equal to
+ kv total
+ no, sorry, kv
+ kv
+ and s total
+ ok, divided
+ this is s
+ divided
+ t
+ mv total
+ ok
+ and so here we see
+ clearly again
+ in a linear way how
+ the number of decadent design
+ is the concentration in the special state
+ and likewise
+ if we simplify
+ the expression of tau
+ over there
+ the expression of tau
+ becomes equal to
+ kb
+ omega
+ divided by
+ bb
+ and b tau
+ ok
+ so the efficient regime
+ the number of degradation regime
+ regulates both the stationary states
+ and the response of the system
+ to issues
+ ok
+ so this
+ we understand why this is an important one
+ ok
+ very good
+ and this also allows me
+ to understand
+ how
+ the whole machinery
+ of this
+ of this
+ process
+ functions
+ ok
+ and
+ to see this
+ let's try to understand this
+ so let's
+ let's put our steps
+ in this efficient regime
+ ok
+ let's assume that photoreceptors
+ work in efficient regime
+ which is in the end what people found out
+ and let's say ok
+ so now let's imagine that
+ the change of retinol
+ changed the number of enzymes
+ ok
+ so the retinol reaction
+ that's not a reaction
+ the retinol transition
+ for a variation
+ delta
+ delta N
+ D of the enzymes
+ ok
+ so I have some photons arriving
+ the retinol performs this transition
+ a certain number
+ of degradation enzymes gets
+ dilated
+ ok
+ so I would like
+ just like to try to understand
+ how much
+ the concentration of
+ cGMP changes
+ ok so let's try to do this
+ well the stationary
+ value of the genome
+ cGMP concentration
+ is a function
+ ok
+ so if you want to find out
+ this cGSS has changed
+ what should I do?
+ I should take the derivative of
+ cGSS
+ with respect to
+ m e total
+ m e total
+ right
+ this is what I should do
+ ok
+ so since
+ the dependence
+ is as 1 over x
+ ok
+ I will get this from here very easily
+ I am interested in
+ the absolute value of the variation
+ ok
+ so I can take the absolute value of this derivative
+ so that would be
+ kb
+ vs
+ ms total
+ vd
+ ok
+ and then I should put
+ nb total
+ ms total
+ ok
+ delta md
+ ok
+ but this md total
+ square
+ md total
+ divided by md total
+ it's going to be 2
+ ok
+ and why this is convenient
+ because this is the stationary value
+ ok
+ is that the variation
+ of the stationary state
+ is equal to
+ the value of the stationary state
+ multiplied by
+ the relative variation
+ of MD
+ ok
+ and the best way to say this
+ ok
+ is that the relative variation
+ of the concentration
+ is equal to the relative variation
+ of the enzymes
+ ok
+ so this one will be here
+ ok
+ this one will be here
+ yes
+ the one in the square
+ this is to show you that the
+ relative concentration
+ are proportional one to the other
+ but if I am interested in the absolute variation of CG
+ then I need to look at this
+ here
+ and this probably here
+ is called the gain
+ so this means
+ let me write this here
+ the variation of CSGG
+ is equal to the gain
+ the variation
+ and why
+ this is called gain
+ because the larger is the gain
+ the more the signal is amplified
+ ok
+ so if this
+ G0 is a
+ large number
+ this means that I produce
+ a small number of activated
+ enzymes
+ and
+ the consequence of the
+ concentration is much larger
+ so this is an amplification
+ factor
+ so the larger is this
+ G0 the more amplified
+ is the C0
+ to really understand
+ to really understand
+ how strong is this
+ is this
+ i mean people have
+ have this
+ so this is the game
+ this is the explicit value of the game
+ ok
+ and so people have tried to estimate
+ what this point is here
+ for the typical function
+ of the receptors
+ that we find in real animals
+ and what they found
+ is that this G0
+ is of the order of
+ 1,000
+ this is a very large number
+ this is G0
+ this is of the order of
+ and this I wanted to show you
+ this because this explains
+ why
+ this whole biochemical pathway
+ is very efficient
+ because
+ you know
+ we already saw that
+ the transition of the retinal
+ works very well
+ the mechanism is that even though there is noise
+ the rate at which this transition occurs is very good
+ ok, so when photons arrived
+ in a way the system is able to really enhance a true transition of the retinal
+ disregarding fluorescence, disregarding black noise and so on
+ so already at this stage it is happening in a good way
+ but even after that what we see here is that once the retinal performs a transition
+ and some enzymes are activated then this signal at the next stage here is amplified
+ so if 10 new enzymes are activated
+ 1,000 more molecules of CGRP will be produced
+ there is a factor 1,000
+ between that one step and the other
+ so the signal is enormously amplified
+ for this kinetic equation
+ so it has been plenty to work through all these equations
+ but this is important for us all
+ that we can see and we can measure this kinetic costals
+ and we can see that this reaction is really
+ with a very, very engaged fact
+ very good, so at this point
+ we understood that this process is
+ very nicely performed
+ then at this point we can ask
+ ok, what happens later?
+ we have this change in the concentration
+ of Cg and P
+ ok, so we would like
+ to not understand
+ how is it that this
+ variation of Cg and P
+ changes
+ ok
+ so to do this
+ I will first make an argument
+ which
+ will
+ which is actually
+ it's interesting but it's not a problem
+ ok
+ and we will see why
+ so let's go back
+ to the membrane
+ ok
+ because the current to the membrane
+ is the current to the membrane
+ so we need to understand what happens
+ at the level of the membrane
+ so as I told you
+ the membrane
+ this is the membrane of our cell
+ this is a photoreceptor
+ and this is in general
+ it has some channels
+ so some places
+ where here you have a protein
+ and the protein can be
+ open or closed
+ so when
+ the channel is open
+ eyes
+ can pass
+ to the membrane
+ and then they
+ polarize the membrane
+ so there would be a certain
+ variation
+ in how the charge
+ is distributed inside and outside
+ of the membrane and we already
+ looked at this process
+ if you remember at the beginning of the course
+ we made an estimate
+ of the
+ transmembrane potential difference
+ only by considering
+ the diffusion
+ and we found that
+ the variation
+ of the progression
+ of the membranes
+ of the order of the millibots
+ so I told you actually
+ this is not the whole story
+ because there are some ionic pumps
+ which continuously keep
+ current of ions
+ fixing to some specific values
+ but in the end
+ even considering ionic pumps
+ in a stationary situation
+ let's say in absolute light
+ the potential difference
+ across the membrane
+ is of the order of 50 volts
+ so let's say that this is
+ the stationary value
+ of the potential difference
+ to the membrane
+ through a channel
+ actually
+ and the membrane
+ this is by considering
+ the terms and so on
+ so now
+ we would like
+ to understand
+ what can we say about the current
+ so
+ ions
+ which will pass
+ through these
+ channels
+ and this will be the current
+ okay
+ so the current
+ will be given by
+ by the charge
+ of these ions
+ which are able to cross
+ the membrane
+ multiplied
+ by
+ the
+ the number
+ of the flux
+ that goes through each other
+ so flux
+ this is called
+ particle government
+ and we need to monitor this by the area
+ of the channel
+ so let's see how we can complete that
+ ok
+ so let's see how we can complete that
+ ok
+ let's see how we can complete that
+ ok
+ let's see how we can complete that
+ so let's start by looking at the current
+ so let's say that we are looking at a channel
+ ok so this is this channel
+ I am just looking in this way
+ ok
+ ok
+ so let's say that my ions
+ my charged particles
+ they move at a certain average velocity
+ which is mean
+ ok
+ so the numbers
+ let's say that we are looking at our system
+ on a time scale like d
+ ok
+ so the number of particles
+ and all the particles
+ they have a mean velocity
+ directly towards the outside
+ because the potential difference
+ will bring them outside
+ ok
+ this is the inside
+ this is the inside of the cell
+ this is our membrane
+ so they are all going
+ on average
+ of course if they fluctuate
+ there will be a random contribution
+ to this motion
+ but this is the mean contribution
+ so the mean contribution is towards the outside
+ first we have this current of particles moving outside
+ and so for this the number of particles moving outside
+ in time of t
+ that will be this area a
+ the particle in this volume
+ all they will go outside
+ ok? so how many particles do we have here?
+ we have the concentration of particles
+ let me see what they call it
+ yes, the concentration of the ions
+ we have the concentration of particles
+ but then the current is the number of particles
+ per unit time per unit area
+ so the current is just this
+ ok
+ so here I can rewrite this
+ as Q
+ C
+ V
+ A
+ so now I need to find what is this drift velocity
+ ok, these particles
+ and this is something that we already did
+ so let's say that these particles
+ they are ions
+ so they are just very small molecules
+ so what do they do?
+ they will diffuse
+ ok
+ in the water solution inside the cell
+ and they will be subjected to the external force
+ and the potential difference
+ between the inside and the outside
+ of the membrane
+ so if I want to write down
+ some equation for the movement
+ of each one of these particles
+ it should be
+ let me write an equation
+ from the coordinate perpendicular
+ to the membrane
+ so I just go in one dimension
+ so this would be this
+ ok
+ equal force plus noise
+ ok
+ this is the usual
+ Langevin equation
+ ok
+ that we already studied
+ where this is friction
+ and this is a random part
+ of this motion
+ which takes into account for diffusion
+ so for the fluctuations in this movement
+ and this is the external force
+ due to the
+ potential difference of the membrane
+ so now I would like to find out the mean velocity
+ I just need to take the average value of this
+ so I can take the average
+ this does not depend on the number of variable
+ so this is zero
+ and so what do I find
+ this is a relation that we already studied
+ which is the relation between standard forces
+ and brief velocity
+ so I found that the force
+ sorry
+ the brief velocity is equal to the force
+ if we want to estimate this force
+ let me do this
+ but this is easy
+ because this force is nothing else
+ than the electric force
+ so it would be the charger of the ion
+ and then I should put the electric field
+ but the electric field is delta V over L
+ where L is the thickness of the membrane
+ so remember
+ to compute the potential difference from the inside to the outside
+ we need to integrate the field
+ so you get that E L
+ is equal to delta V
+ okay
+ and then I have Z
+ but Z I can write it
+ sorry, K D over D
+ okay
+ so I have the temperature which is easier to leave
+ than the temperature
+ okay
+ so I have this expression here
+ so I can plug everything inside
+ okay
+ so let's plug it inside
+ so I have to plug the current
+ is equal to
+ Q
+ square
+ that's a B
+ over L
+ D
+ K by T
+ mostly black by the area
+ okay
+ it's the thickness
+ so it's this
+ okay
+ so now
+ we have actually all these numbers
+ because we know
+ that it is 1 micrometer
+ squared per second
+ minus 1
+ okay
+ and then
+ we know value of K by T
+ the order of
+ 25 mV
+ okay
+ K by T
+ over Q
+ is the order
+ if we assume that the charge is 1
+ okay we can see
+ K by T over Q
+ is equal
+ so the order of 25 mV
+ at the temperature
+ okay
+ and then the Q is
+ the charge of the electron
+ and then
+ what else we need
+ we already know what it is
+ okay
+ so we can plug the numbers inside
+ and yes we need this
+ and this
+ so for typical membranes
+ L is of the order of
+ 5 nanometers
+ okay and the diameter
+ of the channel is
+ it's even smaller
+ it's
+ say that the diameter of the channel
+ it's 0,3 nanometers
+ it's not really smaller
+ okay
+ and the area
+ will be the half of this square
+ that will be like a type
+ okay so once we have all this number
+ we can plug everything together
+ okay
+ and we can compute
+ the conductance
+ so the conductance is this
+ so everything is the inverse of the resistance
+ and so everything has
+ the potential difference
+ and it turns out that this conductance
+ is of the order
+ of 20mC
+ okay
+ 20mC
+ and if we multiply
+ this by
+ 50mV
+ the typical
+ stationary value of the
+ potential
+ what we get
+ is that across one channel
+ okay
+ the current is of one peak of that
+ okay
+ so the result of this is that
+ let me drop up here
+ by plugging inside of the
+ numbers
+ you should find this
+ that we found that p is equal to g
+ this is a reduction
+ instead of the e
+ we plug inside all the real values
+ so we find that g
+ is of the order of 20
+ of this events
+ that e is of the order of
+ 15 millilocks
+ the result is that
+ the carbon through one
+ channel
+ is of the order of one million
+ ok
+ why are you of this whole computation
+ because if you remember
+ the experiments that we did
+ with the torch
+ we saw that all the changes
+ in the current
+ were multiples of one million
+ ok
+ so
+ what happens
+ is that
+ the photon is absorbed
+ the retinal changes
+ the enzymes are activated
+ the concentration of C, G and C changes
+ and this change
+ opens up one ionic channel
+ and this is why
+ our power changes
+ ok
+ this is wrong
+ and the reason it is wrong
+ is that the time scale
+ with which ionic channels
+ opens and closes
+ is of the order of milliseconds
+ so if this was really what happened
+ what we should have seen
+ in our experiment
+ in the global sector
+ is that the change of the current
+ is instantaneous basically
+ on the contrary
+ when I wrote to you
+ on several occasions
+ when I wrote to you the blog
+ of the current
+ you said the current
+ I am writing this with the correct size
+ so with this feature
+ that would mean that one channel
+ closes up because the current
+ exists
+ but if this was related to just
+ what happens to one single channel
+ this time scale
+ should have been of one millisecond
+ instead it is of
+ two seconds
+ so this cannot be
+ the closing
+ of one single the only channel
+ it is something different
+ and what we will see
+ on Thursday
+ next time
+ which will be whatever
+ so what we will see
+ is that what changes
+ is the whole statistics
+ of opening and closing of channels
+ so the change
+ in the concentration of CGLP
+ does not cause
+ the closing of one single channel
+ but alters the whole statistics
+ of all the young channels
+ the young channels continuously
+ open and close
+ on very small scales
+ much smaller than what happens
+ with our experiment
+ so it is a continuous
+ opening and closing of the young channels
+ and there will be an average number
+ of open young channels
+ it is this average number
+ due to the resolution of our focus
+ ok?
+ so we will see how this will occur next time
+ now talking about next time
+ I look...
+ siamo tutti italiani
+ tutti italiani
+ ho guardato il calendario
+ ho qua in disastro
+ perché venerdì è vacanza
+ ma di lì è vacanza
+ venerdì è vacanza
+ cioè facciamo più lezione
+ cioè voi una nuova
+ facciamo i dati
+ voi adesso vi andate a casa
+ adesso vi vedete due settimane
+ oppure comunque se viene i giorni dopo Pasqua
+ ci siete perché è la prezzo
+ quindi se io metto una lezione
+ mercoledì alle otto e mezza
+ voi potreste venire?
+ no, quello di Pasqua
+ voi avete pensato che mentre io ero un po' guardando mi pare che l'unica possibilità di aule e di vostra disponibilità è che è quello di mattina
+ perché voglio dire, lo so che è brutto venire anche a te e mezza, però questo significa che al final non posso prima
+ vuoi dire anche a posto vantaggio
+ ma io normalmente finisco, le lezioni quando finisco il 15 giugno io normalmente anche prima finisco
+ poi possiamo aggiustare anche gli argomenti, vediamo che vorrei fare alcune cose e vorrei fare
+ in teoria io vorrei fare 60 ore, vediamo cosa riusciamo a fare perché ci sono un sacco di vacanze
+ con una che mi va di fare un sacco di recuperi, quindi vabbè allora io magari se riesco a trovare l'aula
+ vi mando un'email per mercoledì prossimo alle otto e mezza, ok?
+ intanto se vuoi venire per il Leonardo

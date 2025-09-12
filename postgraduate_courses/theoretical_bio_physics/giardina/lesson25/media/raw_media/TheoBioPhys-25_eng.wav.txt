@@ -1,0 +1,944 @@
+ Okay, thank you very much, and I'm going to reflect, thanks everyone for coming, and so it will be a slide, because it will mostly be an overview of what you can do with this kind of models to study proteins, so I will not go much into details, but I will show you, I will give you a little notebook that you can use to make some.
+ Look at the data, analyze them in the bit, and feel free to interrupt any time on the screen.
+ So, the slides together with the tutorial are in this folder, where you will find the slides.
+ Sorry, it's called Kargeski because I am going to use this material this summer.
+ You will find the slides, you will find this book that I will cite later,
+ which gives you, from which I took most of the material.
+ I am not supposed to share this video of the book, but I do, so just don't tell anyone.
+ And then you have some data that you will look at.
+ So these are protein sequences and this is the structure, the fluid structure of these proteins.
+ And then there is a notebook that you will comment.
+ So this is what you will find in the folder.
+ Okay, so what do we want to do?
+ So let's say the long term goal of this kind of studies is to understand something about the structure and the function of proteins starting from the sequence.
+ So you know that proteins are polymers made of amino acids, so there is a chain of amino acids, and you can read, you can sequence the chain and you can read a string of letters
+ that are the symbols telling which amino acids is at which position, so you can associate each protein a string of letters, and in principle this string of letters is supposed to contain all the information about the protein, right, so the protein will fold from being an open polygon, it will fold into some structure, and once it is folded, assuming it is properly folded,
+ then it will be used by the organisms to do this action. So for example, this protein here is what is called the beta-lactamase, so it is a protein that bacteria can use to fight antibiotics.
+ Okay, so when an antibiotic arrives, for example, a PCM, the bacteria will use this beta-lactamase to cut the antibiotics and make it eliminated somehow.
+ So, anyway, proteins do all kinds of different functions and what you would like to do is I give you a sequence and you can tell me how this sequence will fold into three dimensions,
+ and what is it going to do to the organism that uses it. So of course it is a very ambitious job, but as you all know, the first step, so mapping the sequence to the structure, is today considered as essentially done.
+ So we have softwares, the most famous is Alpha4, but there are other ones now, based on artificial intelligence, that are able to predict, given a sequence, are able to predict the structure with extremely good accuracy.
+ Now, the problem is that the second step, so going from the structure to the function, or skipping the structure and just going from the sequence to the function, is much more difficult, and so it is still a largely open problem.
+ Why? Because going from sequence to structure is simple somehow, in the sense it is at least a well-defined mathematical problem.
+ The sequence is a string of letters, there are 20 amino acids, so it is a string with an alphabet of 20 letters.
+ The structure is a mathematically well-defined object, so for each amino acid you have a certain group of atoms,
+ and you can give the structure by giving the coordinate of each atom in three dimensions.
+ So a structure is a list of three-dimensional vectors that give you the positions of, say, the atoms in the amino acids.
+ So you have two well-defined mathematical objects, the sequence and the structure,
+ and you have a lot of data. Why? Because thanks to the progress in sequencing,
+ we have, in databases, you can find something of the order of ten to the eight sequences that you can download,
+ and it's also not super, super difficult to measure the structure,
+ I mean, it's difficult, you have to go to the synchrotrons, you have to crystallize the proteins,
+ it's complicated, but you can do it, and today you find of the order of ten to the five structures,
+ so you have a large database of sequences and structures, and you can use this large database to train your machine,
+ and once you, and you know, I mean, I think you know that it's really important for these modern, deep architectures
+ to have a lot of data, if you don't have a lot of data, you have problems, but here you have a lot of data, so you can do it,
+ and, well, you do it, and you win another prize. Fine. Now, the next step, people are working a lot on the next step,
+ so the problem with the next step, so trying to create this function is that, first of all, function is not a really well-defined thing, so what does it mean functionally? You have proteins that can cut antibiotics, so you want to know, for example, the binding, so you want to know how easily the protein can bind the antibiotic, but then it also has to cut it, so it's binding, then it's cutting, also the protein needs to be expressed
+ by a cell and transported to the membrane, so it maybe doesn't function because it's not efficiently transported to the membrane, so function is a combination of many things, different things, and it depends a lot on the environment, so maybe you change the concentration of antibiotic, you change the response of the cell, and so on and so forth, so it's already very hard to define precisely what function means, also it depends on the context, and finally it's
+ typically much, much harder to measure. So if you go to databases, for example, we have the order of 5,000 sequences of beta-artemase, but if you look to experiments that measure, for example, how these sequences are able to, for example, what is the survival rate of cells that have this protein with a certain amount of antibiotics, you find a few data.
+ Well, pretty much, much less data. So it's very hard to train with artificial intelligence to do this. Anyway, so this is more or less what we can try to do. So today I will discuss mostly the first step, but I will give you maybe, if there is time, I will give you hints of how we can go beyond and discuss function.
+ The relationship of sequence and function, so try to predict function from the sequence. You would like to design artificial proteins that can do things you want them to do. You can try to understand how nature did it by evolution. So this is because maybe you just want to understand nature.
+ And also you would like to understand and optimize protocols to do evolution in the lab. So people try to mimic evolution in the lab and to evolve functions. And so you would like to understand how you can optimize the way you do that.
+ So the way I will discuss today is based on data and statistical physics, because this is a class in statistical physics.
+ Okay, so this is the book. As I was saying, the book, so this book is a book that is based on a class we were teaching with Zimbabwe on the Monson Palace. It was a second year master class, so you are supposed to be able to read this book easily, and it contains some ideas on how you can use statistical physics to infer things from data.
+ So, if you are interested, you don't have to buy it, you can take it from the folder.
+ Ok, so, what are the data that we can use, that we are going to use?
+ So, we have many different kinds of data, and the aim is to combine them to something.
+ The first set of data, the easiest set of data that we have, are natural proteins.
+ So, I don't know if you, maybe you already discussed it, so natural proteins are the result of natural evolution, so maybe at some point, a long time ago there was some ancestral protein that then evolves, and so today you have different species and you have different sequences, so if you take these species and you extract the DNA and the sequence, you will find different sequences of the same protein essentially.
+ So you have very different sequences that will actually fold into the same structure and do the same thing in the organism. For example, these beta-lactamases that give antibiotic resistance, there are, as I was saying, we have of the order of 5000 different sequences that do the same thing, more or less the same thing.
+ When I say different, what I mean is that if you compare, if you take two at random and you compare them, you look how many you have to, you align them somehow because they might have slightly different lengths, so there are ways to align them.
+ So once you align them, you can say, okay, how many amino acids are different, and you typically find that 70-80% of the amino acids are different.
+ So, I mean, they are really different, okay, there are only about 20% of the cells that are the same.
+ Okay, fine, so, this kind of data are public, you can, there are databases like Uniprot where you can go and you can download for a given protein family, so proteins have been organized in families, and typically families have the same structure and similar functions.
+ Even if sometimes you can have the same family, the same structure and different functions, so this is also interesting.
+ But anyway, let's say you have a family in Uniprot, you download the sequences and you get something like this.
+ I will show you an example, a concrete example later.
+ And so you have this, say, 5000 sequences that are very different, and you can align them, and then you can look at the statistical properties of these sequences.
+ And there are two main quantities that are interesting, one is what is called conservation, so you can look at each site, okay, so the protein has a certain length, here we have 13 sites, so you can look on the first site, and here we have the hair and so on, so you can look on the third site, and you see there is always a D, so this is a very concerned site.
+ This D is really important because mainly this is a binding site, and you really need a D to bind to something.
+ So this happens. Sometimes you have sites that are concerned but not 100% concerned, so with very high probability you get a D and maybe you also get something else.
+ So this is one, so you look site by site and you count how many times you find the same terminal accident, that's concentration.
+ So this is the single site statistics that we discussed.
+ Exactly, so this is single site statistics and then you have two site statistics, which means you take two sites and you ask,
+ "Okay, if I have a K here, what is the probability that I have an R here?" and so on and so forth.
+ So you can look at correlations between different sites.
+ And sometimes you find that there are pairs of sites that are strongly correlated,
+ in the sense that, for example, every time there is a P here, there is a T here, for example.
+ And this, as we are going to see, often is a sign that there is something that constrains these two sites to be correlated,
+ typically a contact information.
+ So if you are in the fold, you have two sites that end up being very close.
+ If you rotate one, maybe you put an amino acid that is a bit bigger,
+ then maybe in the neighboring one you have to put something a bit smaller to keep the volume, things like that.
+ So what we are going to do is to try to use this co-evolutional signal to get information about this cloud.
+ But before doing that, I will finish talking about the data.
+ So these are very useful data, and the idea is that you can think to a protein family as a set of proteins that have the same length.
+ So if your length is L, like here you have 13 sides, on each side you can put 20 amino acids plus one gap.
+ So the gap is when you align the sequences, sometimes you realize that maybe one amino acid has been lost in evolution, so you keep the gap.
+ But anyways, you have 21 symbols on each side.
+ So you have 21 to the power L possible sequences, out of which most do not function, do not form, do not do what they are supposed to do.
+ So you can think that this data that nature gives to you are points in this big space.
+ So your space is 21 to the power L, L is typically 100, so it's a statistical system, a huge number of possible states, 21 to the 100.
+ Out of this huge number of possible sequences, nature gives you a few samples that have been sampled by the evolution.
+ You can think of evolution as a kind of stochastic process in this space.
+ So you end up with a few samples, but these samples are quite well distributed in this space.
+ Because as I was saying before, if you take two points at random, they are typically very, very fairly.
+ They are typically 80% away in the sense of distance in number of equations.
+ So you have a very small number of sequences, you have 10 to the 5 sequences in the best case,
+ out of 21 to the 100 possible sequences.
+ But this sample is supposed to be a good representation of the possible space of this protein,
+ at least the one that Nathan has explored during the rushi.
+ Okay, so this is the first kind of data.
+ Now the second kind of data, which is also very interesting,
+ is what are called deep-mutational scans.
+ So these are experiments where people take one natural sequence,
+ so you choose one of these points,
+ and now you do all possible mutations around this point.
+ So you take your sequence and you start from the first site,
+ and you start putting all possible amino acids there,
+ and then you do it for the second and for the third.
+ If you have 100 sites and 20 amino acids,
+ it's about 2,000 measurements, so 2,000 mutants that you have to test,
+ and this is dual world, so you can take these mutants,
+ you put them typically in some bacteria,
+ and then you do something, for example with antibiotics,
+ and you check if the mutant is able to survive the antibiotics.
+ So this is a measurement of function.
+ And so you will have mutations that are able to maintain the function,
+ mutations that can improve the function sometimes,
+ and you will have mutations that are collaborative,
+ that will make the protein non-functional.
+ So sometimes you will see that you will do the mutation,
+ the bacteria will put a little bit of antibiotic
+ and they die because the protein is not functioning.
+ So in these experiments, these are experiments that have become cheaper and cheaper.
+ So you really now start to have a lot of these kinds of experiments.
+ So there are many more data.
+ They typically are, sorry, by construction they are able to sample only a very small portion of this space,
+ which is basically a cloud of points around one lightning.
+ But sometimes, for example, there are families where you have this kind of experiments done for two or maybe even more points.
+ So you can compare, for example, you do a mutation here, you do a mutation here, and you can compare how this mutation will change in different regions of the space.
+ So, I don't know if you did statistical physics, this is like you have an icing model, and it's not an icing in spots because you have more than two states, but it's kind of an icing model.
+ Here you can think that you have an equilibrium sample of your model, and here you can think that you are just flipping spins around one state and you can see what happens.
+ And of course, the effect of flipping one spin can depend on all the other spins.
+ So if you make a mutation here, it can be very different than making the same mutation as someone else.
+ So this is why these kind of experiments are interesting. They tell you something about the space of sequences.
+ Okay, the third class of data that are also becoming cheaper and cheaper, but still, I mean, this is this kind of experiments that are maybe...
+ Okay, there are these three here, and maybe now you see 2020, 2020, 2023, there are maybe now a few more, but we are still talking about tens of papers.
+ So they are still very expensive. These are experiments where you try to do an evolution in the world. So you start with some wild types. So this is your, for example, you take E. coli, you have this betalactamase. The betalactamase is working well. You put antibiotics and the bacteria can survive. And now what do you do? Why is it complicated? Because you have to take out the DNA of the...
+ of the gene. Typically these are plasmids. I don't know what are plasmids, but anyway they are quite easy to extract. So you extract this DNA. And what you do? You do PCR. So you replicate the DNA and you do PCR with levels. So you introduce mutations. So you generate, you have one point, one original sequence, and you generate a library of mutants that have
+ one or two mutations, or maybe three. You put back the plasmids, the DNA, into the bacteria, the bacteria will produce the protein. If the mutations are good, they will survive, otherwise they will die. So what do you do? You have everything dismissed, you put the antibiotics, you wait, and then you take the bacteria that survive, and these are good, and the others die here.
+ So, and then you do it again, so you take out the DNA, put it back, I mean take it out, put it back.
+ So you can imagine that this process takes time, so these two experiments were each more or less done on the scale of one PhD thesis, so they lasted for three years.
+ They are quite expensive, and they were able to do 20 generations.
+ So they were able to do this process 20 times.
+ So in the end, what you obtain is, at each step, you do one of two mutations.
+ So after 20 generations, you can have maybe 30, 40 mutations.
+ Not all mutations are accepted at each step, because sometimes you make a mutation and the partida died.
+ So in the end, you end up with libraries that have a rather small sequence divergent,
+ so you have maybe 20, 30 mutations around the initial point.
+ But the advantage is that sequencing is cheap, so at the end of the experiment you take all your population of bacteria and you can sequence a lot.
+ So you have a lot of sequences, ok? So you have few mutations but you have a lot of data.
+ And now people are starting to find ways to do this without having to take out the DNA and put it back in each step which is the most complicated part.
+ And so there are some recent works that have been cited here where they could reach orders of 500 generations.
+ But still with a sequence maybe with 40-50 mutations.
+ But it's still, you see, compared to what NATO did, and NATO could mutate all the protein,
+ we are still very far from that.
+ But, okay, the advantage is that we have much more sequences because it's all done in the lab,
+ and also the advantage is that it's done in very controlled conditions.
+ You know how much antibiotics you are putting, you know the temperature, you know everything,
+ of course natural evolution is very complicated, the environment changes all the time,
+ you have many species, many interactions, so it's much more complicated.
+ Okay, so the last class of data that we have is what are called phyrogeny reconstructions.
+ So the idea is, okay, again you have the natural evolution, the same as before,
+ you observe some proteins, some species, and what you try to do is to infer
+ the ancestors, and so then you can take the proteins that you infer, and you can test them in the lab,
+ so you can try to reconstruct the proteins that existed millions of years ago,
+ and you can then test them in the lab and see if your inference is good, if they function,
+ if they function under which conditions, and so on, and so the idea of these experiments,
+ again in this schematized representation, is that you have two proteins that you can see today,
+ for example, that are two leaves of your tree, and you try to reconstruct the path that brings you from one to the other,
+ maintaining the function. So you try to explore paths into this space of...
+ And this is another experiment that is very nice where they have a protein,
+ they have two proteins that have the same structure,
+ one is fluorescent in the blue and the other is fluorescent in the red.
+ So what they did was to construct all the intermediates,
+ so you have 13 mutations, the two proteins are 13 mutations away,
+ so they did all the intermediates, which means they did 2^13 intermediates,
+ so they put either the amino acid of this one or the amino acid of the other one,
+ and they tested all of them, and they measured the fluorescence,
+ so there are many that are not fluorescence, so they don't work,
+ but then there are some that are fluorescent in the red and some that are fluorescent in the blue,
+ and they would reconstruct, let's say, a portion of this space that has this shape,
+ where you see that initially you make mutations and you keep the blue fluorescence,
+ so the more mutations you do, here this is one mutation, so you can do 13 proteins,
+ 13 sides you take the first, the second, here you have 13 choose 2,
+ so you see, the more you go far away from the original protein, the more possibilities you have,
+ but then at some point a lot of mutations start being bad,
+ so you restrict the possibilities and you have this kind of bottleneck shape,
+ and then you jump to the other function that is the red one.
+ So the idea is that in this space there might be, it can be a complicated space where you can have channels that are difficult to find,
+ that evolutionists do find to go from one protein to another one.
+ So people are trying to reconstruct this one.
+ And this last figure is also a very nice favorite, this one.
+ It's a figure where they study antibodies.
+ So they have a patient...
+ So there are some antibodies that are called broadly neutralizing antibodies.
+ So these are antibodies that are able to neutralize many different strains of the same virus.
+ So here you have three strains of the influenza virus.
+ So these are called H1, H3, and flu B.
+ These are three different types of influenza that circulate today.
+ So we can catch it.
+ And so they found a patient that was able to,
+ that had a immune system,
+ that was able to neutralize all of them.
+ And this is, this antibiotic here,
+ they're liposomatic.
+ So this was taken from the blood of the patient.
+ And then they reconstructed,
+ you know the antibodies, I don't know if you know,
+ but anyway, I don't know it very well,
+ but anyway, the antibodies are created by some recombination process
+ that happens in some part of our body.
+ And so they could infer, with some inference technique,
+ the original recombination that gave rise to these antibodies.
+ So the antibodies are first generated by a random process of recombination,
+ and then they are exposed to the pathogens that you meet,
+ and they are evolved and selected to bind the pathogens.
+ So they could reconstruct the original antibody that was produced by the patient,
+ and then evolved to become proteometrializing,
+ and they found 16 mutations.
+ So again, they constructed all the 2 to the 16 intermediates,
+ and they tested them against the free strains,
+ and so they could reconstruct a part in the space of sequences,
+ where you go from something that is mildly binding one strain,
+ so then it has been optimized,
+ then it has been optimized to bind to another strain,
+ and then to the first strain.
+ So you can really reconstruct a part that was likely the trajectory of the patient
+ that probably first was infected by one virus,
+ developed antibodies, then the patient was infected by another virus,
+ and then these antibodies evolved into something else, and so on and so forth.
+ So you start to have experiments, also these kinds of experiments are quite expensive,
+ but you start to have experiments where you can have access to this kind of trajectory into the space of sequences.
+ So all this to say, the take-home message, there are many, many data, more and more data are coming,
+ and there is a need for models to make sense of this data.
+ And why we want to make sense of this data?
+ Again, because we would like to understand this space of proteins that do the same thing,
+ because maybe we want to generate artificial proteins that are very particularly optimal,
+ so they are, let's say, minimum of the fitness, so maximum of the fitness,
+ or maybe we want to model this kind of experiments, so that we understand how much antibiotics I should put
+ if I want to have a certain diversity in my final library, and so on and so forth.
+ And, as I was saying before, because we won't understand the evolution, and so on and so forth.
+ So, okay, now I want to give you an idea of how you can build models.
+ And, as I was saying at the beginning, I will start with the easiest step.
+ The step that allows you to use this data on the sequence to get information about the function.
+ So, this might seem like prehistoric at this point, but it's actually work that was published in 2010, and this is a review from 2018.
+ This was pre-AlphaFond, so that's why I said it might seem prehistoric, but it was an important step to develop AlphaFond, I think.
+ And so the idea was to use for evolution to infer some product of the start. So how does it work?
+ Okay, so once again we have this data. Okay, now this is an example. This is a protein called the trypsinin epitone. It's a protein that you find in many species, like bacteria, mammals, insects, unicorns.
+ It's a small protein, that's why it's a good test to start. When you align, you see here, this is the alignment, you have 53 sides.
+ It is relatively easy to align because it has a typical pattern with this C, this C stain, I don't know if you can read, but there is a C here that is extremely concerned.
+ You see, essentially they all have a C in the second position, and there is another C stain here, and in between there is stuff that you can align.
+ So, I gave you here in this file an alignment of sequences, here there are 13,600 sequences.
+ So, if you open this notebook, you can open it, I am not sure you can read it, it is better.
+ Anyway, so there is stuff, but what I wanted to show you, you can open this file, you can read the data, and if you read it, this is how it looks like.
+ So you have, this is called the FASTA format, it's a standard format for proteins, you have one line that starts with this symbol, I don't remember the name of this symbol in English, but anyway.
+ Here you have some information that is the name of the protein, so this is a domain, so it's a sub-part of some bigger proteins, so you have the name and you have where it was in the original sequence.
+ But anyway, the important part is that here you have the sequence. So, when you read the data, you can discard this part and just keep the sequences, and here are the sequences, and as I was saying, you have 1316 sequences and the length is 53.
+ Okay, what do we want to do with this? We want to extract the conservation and the corrosion. How do we do that? Ah, sorry, this is the three-dimensional structure of the protein, and the aim is to try to predict which sites are in contact. I will tell you later how we define contact.
+ So for the moment let's start by extracting conservation and corruption. So how do we do that? Well, a convenient way is to do what is called a one-hotting coding. So we are going to replace each site by a string of zeros and ones, where one zero zero zero zero is the gap. So you see if there is a gap, we put the one.
+ And then zero one zero zero zero zero is going to be an A. You see this protein starts by an A.
+ So A here is going to be this, and then, okay, there is no B, B is not an acid, so the next one is C.
+ So zero zero one, you see here, I told you that in the second position that is almost coming with a C,
+ and you see that C is going to be zero zero one. So you do that.
+ There is a little thing that I tell you now, it's technical, but it is convenient to remove the last,
+ so when you have the last one which is I think Y, yes, so if you have Y here, there is no Z,
+ so if you have Y, you are going to put all zeros, okay, so this thing has length 20.
+ You have 21 symbols, but you say that the first one is 1, 1, 1, 1, the last one is all zeros,
+ the reason is that if you put the 21th column, the sum, you must have one symbol equal to 1,
+ so the last column is going to be a linear combination of the others,
+ and since you are going to invert these matrix later,
+ if you have one column that is a linear combination of the other columns,
+ you have zero, you can't invert the matrix,
+ so it's just convenient to do it this way, okay, easy, clear?
+ so we have 20 symbols, one is one and the other is one,
+ and it's also possible that they are all zero, which means one.
+ okay, so now you have this matrix, the matrix has a size of 53 times 20,
+ which is the number of columns, and 13,600, which is the number of rows,
+ and you see that the concentration is just, you sum each, you sum all the symbols on each column,
+ and this will count how many times you have determinants, okay.
+ So it's very easy, you just do this operation, you do sum over the axis,
+ over the vertical axis, you divide by m, which is the number of sequences, so the number of lines,
+ and this will give you the frequency of having the one in each position.
+ So this is your convolution, sorry, this is your concentration,
+ and we are going to indicate this by P_i_a, where i is the side index,
+ so it is 1, 2, 3, up to 53, and a is the amino acid index,
+ so it is going to be 1, 2, 3, up to 20.
+ So i, a, you can group them together into a single index,
+ that will go from 1 to 53 times 20.
+ Could you repeat, how do you attribute the first one before the summing?
+ I lost it, so sorry.
+ The ones, how do you attribute it? Because I understood the ones.
+ The ones here.
+ Yeah, the first step, sorry.
+ Yeah, so whenever there is a gap, you put one and then all zeros,
+ because the gap is the first symbol, let's say.
+ Then you go to A, which is the next one.
+ So if there is an A, you put 0 1 0 0 0.
+ The next one is a C, so if there is a C, you put 0 0 1 0 0.
+ So if you want, the first group of 20 bits is the first side.
+ So if there is a one here, it's a gap.
+ If there is a one here, it's A, C, D, and so on.
+ It's a binary notification of the identity of the amino acids.
+ Exactly.
+ So this is going to be the first side, the second side, the first side, and so on.
+ Okay, so then once you have this representation, it's very timidial.
+ You count how many ones you have on a certain column,
+ and this gives you the probability of having that amino acid in that column.
+ The next step is to do the evolution.
+ So you want to know what is the frequency of having a certain amino acid, for example, P here,
+ and another amino acid, for example, Y here.
+ So what should you do?
+ Basically you have to do the correlation.
+ So you have, maybe you have already seen this.
+ I'm not sure, but it's a simple way to do correlations.
+ You have a matrix of size, here is m, the number of sequences, here is l times q, sorry, l is 53 times q, that is 20.
+ And you want to know what is the probability of having a one here and a one here.
+ For each tail of columns.
+ So what you can do, if you call this matrix X,
+ if you do X transpose X divided by the number of theta,
+ and you call this C, sorry, let's call it P2.
+ This matrix now is a matrix of size 53 by 20,
+ and it's exactly the probability or the frequency of having two ones in the two columns.
+ You can think about it for a second, but if you're not convinced and you just do it yourself,
+ it's easier than me explaining it.
+ So that's what is done here.
+ So MSA20 is the matrix here, we are just going to do matrix transpose dot product to the matrix,
+ divided by the number of data, and this is our co-evolutionary frequency,
+ which I'm going to call PIAJB, which is the probability of having amino acid A on the side of I,
+ and amino acid B on the side of J.
+ So the reason why I'm spending time on these details is just that in the notebook I gave you, this is what is done.
+ So if you want later to check the notebook, this is exactly, so this is the matrix, you can check how we did it, but it's very standard,
+ and this is exactly the line that you will find in the code, okay?
+ So you can do it yourself.
+ So once you have this, if you want to extract co-evolution,
+ it's not enough to have P, what you want to do is to compare
+ the joint probability of having the two amino acids on the two sides
+ with what you would have if they were independent.
+ If they were independent, you would have just the product of the one-side frequencies, right?
+ So you construct the matrix C, which is just the matrix P,
+ minus the product of the one-side statistics.
+ If this thing is equal to zero, it means that finding, for example, a C here and a D here,
+ there is no correlation, so the probability is just the product of the probability.
+ If it is non-zero, then you have some co-evolucionality, okay?
+ All right, so now we want to use this matrix to get information on this data.
+ What can we do? The first thing we can do, so we could just look at the entries of the matrix C.
+ But the idea is that the matrix C is going to be quite noisy, so we want to average what we are interested in
+ are not really pairs of amino acids on its sides, but we are interested in pairs of sides.
+ We want to know if the site here, for example, is it close to site 21, for example.
+ So we are interested in pairs of sides irrespective of amino acids that you find.
+ So that is just to average the signal over amino acids.
+ So a way to do that, there are many ways to do that,
+ but the convenient way is to use what is called the Mutual Information.
+ Have you ever heard of Mutual Information?
+ Anyways, it is defined here.
+ So if you have a probability distribution of 200 variables,
+ the Mutual Information is just...
+ So if you have two random variables, X and Y,
+ the Mutual Information of X and Y
+ is the logarithm of the probability of X and Y joint
+ divided by the logarithm of the two marginal probabilities
+ averaged over P.
+ So you can prove that this quantity is always positive
+ and it is equal to 0
+ of course if P of X and Y is equal to P of X times P of Y
+ it means that Y represents an independent
+ then this ratio is equal to 1
+ the logarithm of 1 is 0
+ and so the mutual information is 0
+ because observing X does not give you any information of Y
+ it's like you have two dices and you
+ no, the plural of dices is 2
+ I never remember this
+ you have two coins
+ you draw the two coins
+ if the coins are independent
+ if I hide the second coin
+ and I show you the first coin
+ you have no information on the second coin
+ so this is going to be 0
+ if instead they are correlated
+ you can prove that this quantity is non-zero
+ and it is positive
+ and the bigger it is
+ the more you observe in one coin
+ this information in the other coin
+ so here the idea is to fix two sites
+ and say suppose that you observe the amino acid site i
+ so for example you look at site 10
+ and you see that on site 10 there is a system
+ do you get any information what is going to be the amino acid on site 21
+ so what i do is i consider i fix i and j
+ i consider a and b which are amino acids as random variables
+ and i do the mutual information
+ so i sum over a and b of the joint probability times the log
+ and if this quantity is 0 it means there is information otherwise there is information
+ so i do this for each pair ij so i get a matrix of size 53 by 53
+ it is a symmetric matrix
+ the diagram is not very interesting because it is just
+ so basically you have 53 times 52 over 2 elements
+ so what do you do? you rank them
+ so you say ok the pair of sides that have the biggest movement formation
+ is my first guess for a contact
+ it is an assumption
+ I assume that if two sides are strongly correlated in the sequence
+ they are probably in contact
+ so let's try to say that the sides, the pairs with the biggest movement formation
+ is the first candidate to be a competitor
+ so it basically sort the pairs of sides by the movement formation
+ so you start by watching the biggest movement formation
+ and the next and next and next
+ and what you see here
+ and you can make this plot by yourself if you want using the notebook
+ is what is called the positive predictive value
+ which is take the first ten predictions
+ ok so the horizontal axis is the number of predictions
+ so you say ok I rank the sites by mutual information
+ I take the ten sites that have the biggest mutual information
+ now for this protein I know the structure
+ ok the structure has been measured
+ so I'll give you in the notebook a file
+ that tells you the distance between pairs of amino acids in the protein
+ in the 3D structure
+ and the convention is to say that if two amino acids are closer than 8 angstrom
+ they are in contact
+ it's a convention that is reasonable based on the geometry of the amino acids
+ so you can go to the file and check which pairs are really in contact
+ and what is plotted here
+ so for example if you fix the first 10 predictions
+ how many of them are correct
+ so how many among the first ten sites that have the biggest mutual information
+ are really contacts
+ and you see all of them
+ so it kind of works
+ the sites that have the biggest mutual information
+ are the ones that contact
+ but then if you start making more and more predictions
+ you start making mistakes
+ so for example if you try to predict the first 30 contacts
+ you see that it goes down quite a lot
+ and only 60% out of them are contacts
+ the other one are false positives
+ and then it depends how many predictions you get to make
+ of course the more you make predictions
+ and the more you get right predictions
+ the more you can guess the structure
+ because if you know that site 1 is touching site 13
+ and site 14 is touching there
+ then it's easier to arrange things
+ so, ok, fine
+ there is, now this was done in the
+ this work, I forgot to put the reference, sorry about it
+ this was done in the 90s, I think
+ the first study of using this mutual information
+ as a way to guess the contacts
+ there is this empirical recipe
+ which helps a little bit
+ to do this what is called average total correction
+ it is not very important but I just mentioned it for completeness
+ and the idea is very simple
+ the idea is that around one sphere
+ if you are in 3 dimensions you can put 12-13 spheres
+ so you cannot have a site that is in contact with more than 13 other sites
+ so what this thing is trying to do
+ is to say ok if there is one site that has very high total information
+ in many fields I try to downgrade a little bit
+ it's more information
+ it's not much more than that
+ it's a recipe that improves a little bit the prediction
+ so this again, not here
+ it depends a little bit on the details
+ so you see here it's not changing much
+ but you will see later
+ ok there is another technical note
+ which is it's convenient to use a regularization
+ you can do this inference when you compute the probabilities
+ and particularly you can use what is called Excel Count
+ have you ever heard of it?
+ no
+ sorry
+ I am using maybe some
+ but anyway, Excel Count just means that you
+ so if you have to measure an empirical frequency f
+ what you do
+ is to say
+ I will do a combination of the frequency I measure plus
+ I will put a sort of prior that is 1 over
+ 21
+ so I say ok
+ because I have a limited number of data
+ I try to say ok if there is a probability that is very very small
+ I will say
+ well maybe there are some sequences that could have gotten acid
+ and so I put a small prior to realize it
+ well I'm not going to give you no class on regularization
+ so anyway it's a standard way to make
+ to regularize a bit when you have
+ when you don't have many many new data
+ so you will see in the notebook
+ that I put
+ episode account
+ and if you want to know more about it
+ I can give you a reference where it is
+ explained
+ ok now
+ this works
+ but it's not excellent
+ because you see you get the first
+ 15 let's say contacts right
+ so up to when the x
+ the number of predictions is about 15
+ all of them are correct
+ but then you start making a lot of mistakes
+ and the ratio
+ and the probability and the ratio of
+ false positives
+ becomes bigger and bigger
+ so can we do better
+ so now the idea is to say
+ ok I'm using
+ the correlations to try
+ to infer something
+ maybe, I don't know, do you have questions
+ I'm going to spot
+ because you are not interrupting me at all
+ so either you are very following everything
+ or you are very lost
+ so I can
+ also go back to something I said before
+ if it's all clear
+ or you are lost
+ let's hope it's all clear
+ but I mean
+ don't be shy
+ I don't have to arrive anywhere
+ so I can stop at any point and go back
+ ok so
+ can we do a bit better
+ that's maybe the more interesting part
+ from the inference
+ we can do better
+ because
+ as it's written here
+ correlation is not causation
+ so what can happen
+ is the following thing
+ suppose you have a site here
+ that is in contact with this site and this site
+ so this will be correlated to this
+ and this will be correlated to this
+ but this ok
+ I put the wrong example
+ because these are in contact with
+ anyway you understand
+ if you have two sites that are in contact with the same one
+ this will be correlated to this
+ this will be correlated to this
+ and these two will be correlated
+ just because they are correlated to a common friend
+ but they are not in contact
+ so that is how can I get rid
+ of these spurious correlations
+ that are mediated by other sites
+ one standard way is very simple
+ invert the correlation matrix
+ so instead of looking at the correlation matrix
+ look at the inverse
+ why
+ so there are two ways of justifying
+ this method
+ of inverting the matrix
+ so first of all
+ the idea is okay
+ let's consider
+ n random variables
+ that I call y1, y2, ym
+ and suppose that
+ these random variables have this distribution
+ okay so the
+ the joint probability distribution
+ of the n variables
+ is going to be the exponential of -1
+ ij
+ yi j j yj
+ this can be
+ Gaussian variables so they can be discrete variables
+ it's not very important
+ the important point
+ is that you can say okay these j's
+ are my interactions
+ if jij
+ is equal to zero
+ then the variable i
+ does not interact
+ with variable j
+ what does it mean exactly
+ what it means exactly is that
+ if you write the conditional probability
+ of variable i
+ conditioned to the other variables
+ it is going to be
+ this is a simple calculation
+ you can think about it
+ but the conditional probability of yi
+ given the other variables
+ has this form
+ so it is exponential of -1/2
+ yi
+ now the index i is not summed anymore
+ because this is the probability of yi
+ so for example I consider y
+ deciding under 20
+ so the probability of an massive 20
+ is going to be this
+ times the sum of the jj
+ so if
+ j 20
+ 47
+ is equal to 0
+ it means that the conditional probability of the amino acid
+ on site 20
+ does not depend on which amino acid
+ on site 47
+ so they are not interacting
+ still they can be correlated
+ because maybe site 20 is not directly
+ interacting with site 47
+ but is maybe interacting with some other site
+ so there will be a chain of interaction
+ that will bring in correlations
+ so the idea is that you can have a situation where many of these j's are 0
+ or maybe small
+ and the corresponding, if you look to the correlation matrix
+ of yi and yj
+ this is going to be non-zero even if the corresponding coupling is 0
+ ok so the idea is ok suppose that you have a probability distribution of this form
+ and you would like so you measure the correlations so you have data
+ from the data you measure the correlations from the correlations you would like to reconstruct the j
+ because you think because of this argument that the j are more representative of the two interactions
+ than the correlations so i would like to infer the j given these correlations
+ is it clear yes okay so how do i do that well i will tell you later how you can do it exactly
+ but you can you can start by doing an approximation and you can do it in two ways the first thing
+ the first thing is suppose that y is gaussian so if that y is gaussian then this is a multivariate gaussian distribution
+ it's easy to handle and you can show exactly it's a simple calculation that the correlation between i and j
+ here supposing that i and j have zero mean so just let's say the y's are going to be my variables
+ where i remove the mean so then the correlation between y and j is exactly the inverse of the matrix j
+ okay so if the y are gaussian i give you the matrix c you invert the matrix and you get the j
+ so in that case it's exact but now you can say it is a clearly these are not gaussian so because these are
+ zero one so they are not gaussian so what can i do well first of all i can pretend that they are gaussian so i
+ just i take my so these variables the variables that i'm interested in at zero one i can call them sigma
+ like here and i can remove the mean i can divide by the variance they are zero one so the variance is equal to the mean
+ and these are my standardized variables and then i can pretend they are gaussian just invert the matrix
+ there is a better argument which is if the variables are binary as it is the case here
+ you can do a new field approximation so i don't know if you have you know about new field approximation
+ so the new field approximation maybe you have never seen in this way but you have seen in the easy
+ model what you do is you know that the average value of the spin sigma is you can write it as the
+ average of the hyperbolic tangent of the local field and the midfield approximation is to bring
+ the average inside the hyperbolic tangent okay so you have an identity this is called carland
+ identity this is easy to derive in terms of conditional probabilities so and basically the
+ thing the approximation is that you bring this out from outside this function to inside so if you want
+ the details you find the details in the in the folder i can tell you write me an email i can tell you
+ where to look but anyway you will find f which is the erbolic tangent exactly so for four plus minus
+ one variables f is going to be the erbolic tangent if you have zero one variables it's going to be a
+ easy point but it's the same okay so now you have self-consistent equations to give you the
+ average of each variable and now i i've also put some local fields because i need them
+ so if you are in the easy model this is just the usual question that the magnetization is
+ the erbolic tangent of the field class j times magnetization now you have another identity which
+ is called the fluctuation distribution relation that it tells you that the correlation between
+ i and k so cik the correlation between yy and yk is equal and this is exact to the derivative
+ of the average of yy we respect the fluid on k okay so for each choice of the local fields here
+ local fields are going to be you have to add the term sorry i forgot to add it but you have to add the term
+ sum of the i of hi yi local field so for each local field for each choice of the local fields you can
+ solve these equations and then you can do this derivative we will not do it but you can do it
+ so if you do it analytically so now you take the midfield equation and you do the derivative of this
+ with respect to hk what happens so i take this equation here and i'm going to do the derivative
+ of y type average with respect to hk within the field so what should i do i should take the derivative
+ of this thing with respect to hk so what happens i get f prime of what is written there so it's going
+ to be h i plus the sum of mj of j by j yj times the derivative of this with respect to hk so the
+ derivative of h i respect to hk so the derivative of h a respect to hk is a delta function so it's
+ delta i and the derivative of this is going to be sum over j the j's are given are fixed and here
+ i get the derivative of y i with respect to h k right so you see i got now i put the fields equal to zero
+ now because i don't need the fields are only to do this obsidian step so i put the fields equal to zero
+ this thing i call it this object here i call it d i i so it's a diagonal term and i get this
+ a consistent equation for c which is c i k so here i get c i k is going to be d i i times the identity
+ plus sum of j of j i j c sorry this was j
+ c j k so i get the matrix relation between c j and this diagram so you write it in this
+ way so c is equal to diagonal times the identity plus j c you put the diagonal term on the other
+ side you bring the identity on the other side and you solve and you get this relation so you get that
+ the matrix of couplings that you want to infer is given by the inverse of this diagonal matrix
+ minus the matrix of the c and here i realized that okay sorry the well for the i use the different
+ convention for the j of sorts for the gaussian we usually put the minus for the binary we usually
+ don't put the minus so sorry for the minus that is a bit but anyways the important thing is that
+ this matrix is diagonal so if you are interested only in the off diagonal terms you can discard it
+ so you don't need it and you get that j is equal to c minus y with a minus sign if you know that's in
+ the convention okay so these are two independent arguments to
+ to invert the matrix of correlations and get
+ an estimate of the matrix j that is the one that is supposed to contain the direct interactions
+ between variables so this is why this is called sometimes direct cabinet analysis because instead
+ of looking to the correlations you look to the direct cabinets but at this stage just the matrix
+ inversion and so it will work either if you assume that these things are gaussian they are clearly not
+ or if you assume that you move in field any field approximation so let's do that so now this is what
+ was done by people through statistical physics in the 2011 i think is the first paper where they
+ proposed this so you take the matrix you invert it and you get the counting between site 20 amino acid c
+ and site 47 amino acids okay now once again you want to average other amino acids to extract a better
+ more robust signal so what you are going to do is just transform the 53 by 20 times 53 by 20 matrix
+ into 53 by 53 just by summing the square of the gap is over a so you do that and you get now a matrix
+ it is 53 by 53 again it's a symmetric matrix because the matrix of correlations is symmetric
+ and so when invert is symmetric so once again you can take pairs of sides and you can rank them
+ exactly as you need for the mutual information but instead of using the mutual information
+ you lose this quantity and you see that you get a big improvement so you particularly flood
+ this average product correction you get now the first 30 predictions are correct so compared to
+ the mutual information you see in the information case the first 30 predictions were half correct
+ and half wrong while here you can get much more okay sorry i forgot to say that in each plot there
+ are two holes the the dashed line is all pairs but the problem is that all pairs is a bit
+ trivial because of course if you have a sequence of course sorry of course one side and the next
+ are in contact because the protein is a chain between four different so you want to typically
+ exclude from the analysis the pairs of size that are too close on the chain so you typically look
+ only at those that are distance bigger than four along the chain but anyway this is a detail
+ the important point is that you see here an example so this is again the
+ the
+ trips in the bigger this is this protein we are looking at from the beginning
+ these are the top 30 pairs that are the highest into information the ones in red are contacts the
+ one in green are not contacts and so you see that there are about half that are good predictions
+ and half could have false positives but when you start use the matrix inversion and the
+ this quantity f that is called the fabulous knot whatever all of them are correct so you get much
+ more information and you can reconstruct the structure and now you can say why are you telling
+ me all these things we are alpha fold who cares about this well one module of alpha fold is exactly
+ with this okay so this is the now this is alpha fold so these things were done in the early 2010
+ the review is from 2018 but then alpha fold arrived and if you look at the architecture of alpha fold
+ so you give to alpha fold a sequence it's going to do a lot of things but one of them is to look into
+ can you read you cannot read but here it's written genetic database search so it's going to be
+ precisely this so the alpha fold is going to look for proteins that are homologous that you can align
+ it's going to construct this thing that is called the multiple sequence alignment and it's going to do
+ precisely the compute the correlations and invert the matrix and this is going to be used
+ then by the rest of the pipeline to predict okay so it's not all of the story this but it's an
+ important thing okay that's why i won't mention so i think it's still relevant to understand i mean
+ it's it's in general it's in general it's a very general method that allows you to to extract
+ copies from correlations and it's used in many other domains like for example when you analyze animals
+ in the brain it's a general infant technique that can be used in many contexts and
+ in the case of proteins it's still relevant in the alpha form of the mouse architecture
+ okay francesco just let me make some comments yes connect to what we studied in the previous parts
+ of the force so to meet the equations we have uh revisited them in the context of the simple easy
+ model okay if you remember here is the relationship between a correlation and the response function
+ that was definitely shown you derivative of the average values that your field to go into the
+ correlation and we proceed in exactly the same way for the standard easy model what's the difference
+ the difference is in that case you already know what are the interactions so you know that the J and J are different from 0 in nearby sides of the lattice
+ here you don't know it's precisely this matrix that you want to achieve so this relationship is used in the other direction
+ so we use it for this model because there we knew the j and we want to be the c and we got an expression for the correlation function and we want to be the correlation there
+ here we are using it the other way up we know the c from data and we want to infer the interaction matrix
+ and this idea that correlations and couplings are different we have already commented on that
+ in the easy model, the easy model you have short-term interactions and you have the correlations that extend on much larger distances that may interact in themselves
+ precisely because of what Professor Zamponi said that you can have that one spin is in contact with another one but it can influence also very far away spins
+ because there is a chain of influence from one to the other. It is exactly the same. But here we are using this the other way up. We know the correlations and we want to infer the direct coupling between animal acids. This is the first one. The second comment is that the probability distribution that Professor Zamponi introduced there is exactly the same one that you get
+ with a maximum metric approach starting from the correlations. So if you say I want the probability distribution that maximizes the n to the n that reproduces the correlation, it does start from there. So you can see as the maximum probability model for correlation between the sides and the sequence.
+ Ok, so this is just to put in contact with what you already saw in the course or with what Professor Thurman said.
+ Is there a question like this?
+ Ok, so exactly, so now maybe in the last half an hour, the take home of this part was that you can use statistical properties of sequences to obtain information
+ about structure, this is already a big step, in its full form we have a formula, it was considered as a really important vector, because I mean, maybe it's not clear, but I mean, we have ten to the eight sequences, and we have ten to the five structures, so I told you that you have a lot of data, but still you have a factor, three orders of magnitude between structures and sequences,
+ so now Alphafold is able to give the structure for all the time-to-date sequences, so it's a huge improvement, and you can use it to do a lot of things, like when people are interested in the structure, because once you know the structure, you can better understand where are the binding sites, which parts are inside the protein, which parts are outside, how you can have two proteins interact, so typically the interaction parts are going to be the ones that are outside, and so on and so forth.
+ Now, the last part is to say, okay, can I use this to generate artificial sequences?
+ And so that's why I was mentioning at the beginning the idea of generative models.
+ So, I think you know what are generative models.
+ The idea, for example, is that they give you a lot of images of human faces, you construct a model,
+ and your model is going to be a probability distribution over the space of images.
+ So now you can sample a new state from this probability, and you get this.
+ So if you go to this web page, you can play with it, you keep clicking and clicking.
+ This is already very old.
+ Similarly, if I give you a lot of text, you can train a model that assigns a probability distribution to a string of text, and so then you can use it to generate new text.
+ Now, can we do the same for proteins? So proteins are essentially a language, and you have a string of letters, so this is really language.
+ So, of course, people have tried to use the same architectures that you use in ChatGPT, for example, so language models,
+ to learn how to generate strings of letters that would correspond to proteins. So, that's a possibility.
+ What I and many other people tried to do is to use something simpler, which is the maximum entropy principle.
+ So the idea is, okay, instead of using some complicated language model that is a big black box that we essentially don't understand,
+ let's try to do something simpler.
+ And what is this? Something simpler is to say, okay, let's take...
+ So I have this space, as I told you, I have a space of...
+ So suppose I have a certain family of proteins, for example, the one we were looking at before, it's a protein of size 53.
+ I have a space of 53 to the power of 21, so 21 to the power of 53 possibilities.
+ I write each of them as a string of letters, so A1, A2, AL, which is my string of 53 amino acids.
+ I want to construct a probability distribution over the space of these amino acids.
+ So we know that conservation is very important, we know that co-evolution is very important.
+ Why don't we make the minimal model that is consistent with the conservation and co-evolution that we have in the data.
+ And I understand that you know how to do that.
+ So you use the maximum energy principle and what you get is a Boltzmann distribution
+ which has local fields that correspond to the conservation.
+ So you will fit the local fields to keep the same conservation that you have in the data
+ and you will have a coupling matrix that you have that will give you the co-evolution.
+ So, I already told you how you can infer this matrix.
+ I told you you can invert the correlation matrix.
+ This will correspond to a midfield approximation of the one-cementary principle,
+ which is actually not good if you want to use this as a generative model.
+ This has been tried and it doesn't work very well.
+ So you have to do something better.
+ You have to find exactly the tablids and the fields that give you
+ the best fit to the data.
+ How do you do that?
+ There is an algorithm that is called Boltzmann learning.
+ It's actually very easy for the idea.
+ So you have, from your data, you measure the probability of observing amino acid A on site I.
+ So this will be the one in the data.
+ If you have, if you start with a guess for the H and the J,
+ you put equal to zero, but I invest that where you want.
+ You can measure the probability in the model that you get amino acid A on site I.
+ You take the difference.
+ If the difference is equal to zero, you are happy because you have profit.
+ Otherwise, you change the local field proportionally to the difference.
+ With a certain learning limit. And you do the same for the calculus.
+ So you will adjust the calculus and the fields in such a way to match the model and the data.
+ And you can show that this also corresponds to a gradient ascent in the likelihood.
+ So if you do maximum likelihood, this is the same.
+ So it's a bit hard, because the hard part is that you don't know the probabilities of the model.
+ You have to compute them numerically, and to do this, of course, if you have 53 to the power of 21 possible sequences, you cannot count of them.
+ So you have to do Monte Carlo, so you need to do some Monte Carlo centric.
+ But now there are codes to do it very efficiently, so if you want to do it, we have a GitHub.
+ So we have this joint group between the group here and the group in Paris of Martin White,
+ who is the one who first implemented all these ideas on proteins.
+ And so if you go to - sorry - so in the slides you find - so we have this joint group that we call
+ the Statistical Thesis for Contemporary Biology.
+ But anyway, you have this QR code.
+ You go here, you get the GitHub.
+ So on the GitHub, you have this package
+ that is called Ada BNDCA,
+ which means Adaptive Ports-On-Machine for DCA,
+ that is counting analysis.
+ It's a simple code, but it's easy to install.
+ You have a Python version, a Julia version,
+ and you have a C version.
+ So depending on your taste,
+ you can choose the language you want.
+ But anyway, it's a package to install it,
+ and it will do precisely this.
+ So you can, you give to the code disalignment,
+ and the code will do for you the Boltzmann learning,
+ and it will give you a matrix JIAJP,
+ that is the one that appears here.
+ And it will give those to the local fields.
+ Okay?
+ So now you have an exact Boltzmann distribution
+ that fits the concentration and production of your data.
+ Maybe it's not enough because, of course,
+ in your data there are more complicated correlations
+ like three-point statistics, and so on and so forth.
+ But let's start with this tool.
+ Why should you prefer this to a chat GPT-like model?
+ Well, it's a matter of taste.
+ First of all, we have few data.
+ Chat GPT works well because you have a huge training set.
+ They train it on basically all of the human texts that they want to gather.
+ In proteins we have much less data.
+ So maybe using an architecture that is very big and deep and complex is maybe a bit of an outkill.
+ I mean it's too much, maybe you have got over fixed stuff.
+ So we have less data.
+ But also these models are more interpretable because as I told you this JIJAB is something that you can also understand.
+ Because I mean some of it is for example physical contents being amino acids.
+ So you understand what this machine is doing.
+ It's energy efficient so you can take our code and run it on your laptop and in half an hour you get the model.
+ While if you want to train a large language model you will use much more energy and for this reason it's accessible to everyone.
+ So I think in times where it looks like the bigger the better, it's also important sometimes to just think okay do I really need these complicated things.
+ Maybe you do, but for the moment in the field of proteins I still didn't see a real truth that if you want to generate artificial proteins you really do better if you are completed in models.
+ For the moment I consider that this is kind of the state of the art, not for structural prediction, for structural prediction alpha 4 is a big thing and this is the state of the art.
+ But if your goal is to generate sequences that are statistically indistinguishable from the natural ones and that will function as well as the natural ones, I think you can consider that this is kind of the state of the art.
+ There are equivalent models that do as good as that, but they are typically more complex, so I will stay with this one.
+ And this is an example. So this is a very nice table from a game by the theory part, and from the group of Rana in Chicago from the experimental part, so it appears in science.
+ So what did they do? They took another protein, it's called the Chloris-Nate-Methase, it's a protein that is used by the E. coli and other species to
+ synthesize some animal acids. So you put the bacteria in a meeting where there are no such animal acids.
+ And then the bacteria would use this enzyme to produce the animal acids that it needs.
+ And so you can decide, so you can do the same game that I showed you before with antibiotics.
+ You can serve the bacteria, so you put the bacteria in a medium where there are no such amino acids and then the bacteria have to produce that using it.
+ Or you can feed the amino acids to the bacteria and then the bacteria doesn't eat it.
+ So you can tune the amount of selection that you impose on the bacteria.
+ So what do they do?
+ It is a protein that has 100 sites, so you are gaining 20 to the 100 possible sequences, which is 10 to the 130.
+ And they took the natural sequences.
+ I think at the time of that failure, there were 2 or 3 thousand sequences in the public data set.
+ So again, you take this kind of data, this one.
+ So you take natural sequences from other species, and you learn this model.
+ So again, you do both when you are learning and you learn your model.
+ When you learn your model, what you realize is that your model has an entropy
+ that is about half the entropy of the uniform distribution.
+ So this means, if you take a random one of the 10 to the 114 sequences of length 100,
+ the probability that the sequence that you draw a random uniformly
+ is the corresponding mutase is 10 to the minus 65.
+ So finding the corresponding mutase just by taking a random problem of length 100 is impossible.
+ But still, there are a lot of sequences.
+ Because if the entropy is half of the quantity of the uniform distribution, it means that still you have 10 to the 65 sequences that you can generate from this fluid distribution.
+ And that are supposed to be corresponding mutases.
+ So they did the following thing.
+ So the first experiment that they did was to take the natural sequences.
+ So you have, again, you have 2,000 natural sequences.
+ And these natural sequences are used to train the model.
+ So here on the vertical axis, you have the energy that the model gives to these sequences.
+ The energy means it's a Boltzmann distribution, so the energy is going to be this step.
+ The sum of the couplings and the fields.
+ So, low energy means the model thinks this is a good corresponding case, high energy means bad.
+ So, by construction all the natural sequences are going to be at low energy.
+ And now you put these sequences into the E. coli and you check if the E. coli can survive when you take out the amino acids that are constructed using this.
+ What you have on the horizontal axis is the relative enrichment which means essentially the growth rate of the bacteria with this mutant.
+ So when it is here you see it is good. I mean they can grow. When it is here they cannot grow.
+ If you do a histogram now it is not shown here but if you do a histogram you see it is kind of bipodal.
+ So that is why we decided to put the threshold here. I decided to say ok whatever is above this threshold we consider that it is a good corresponding case.
+ Whatever is below is bad.
+ You see that among the natural sequences that you use to train the model 30% are good more or less and the others are bad.
+ Why they are bad? They are bad because as I was saying at the beginning function is a complex thing.
+ So these are coircement mutases that work in another species and you are taking them from the species where they work and you are putting them in ecoli.
+ So maybe there is something wrong in this process. Maybe some other protein that is in ecoli would not interact well with the coircement mutase so the protein is not going to work and so on and so forth.
+ So maybe these gray things are still good coircement mutases in the sense that they will fold and they will function in some species but they don't function in the conditions of the experiment.
+ But still 30% of the natural sequences work which is huge because as I said if you take a sequence at random the probability that it will work is 10 to the minus 65 so 30% is huge.
+ It is order 1.
+ So you use this to train the model and now you use the model to generate new sequences.
+ So these are artificial sequences that nature has never seen.
+ So it is like when you chat to GPT and you generate new text that nobody has ever written.
+ Here you have new sequences that nature has never seen.
+ And each font is a sequence. You have the energy and you have the enrichment.
+ So they did, on purpose, they generated sequences with low energy, but they also generated sequences with high energy.
+ And this you can do, because you have a model, you can change the temperature and you can sample at different energies.
+ And what you see is that the sequences that have high energy, so that the model considers bad,
+ when you do the experiment, they never work. So it's consistent.
+ While out of the sequences that are good, I mean that they have low energy, about 30% work.
+ So it's the same success rate that you get in the natural ones.
+ So it means that the model is able to generate proteins that are artificial
+ but that look like the natural ones and have the same probability of function in picolide.
+ So they take these sequences, these artificial sequences, they synthesize them and they put the side of...
+ Yes.
+ ...and see if they work...
+ Exactly.
+ So, I think this is really, to me this is really impressive because you are able to generate a total artificial product, of course,
+ and in particular in this last plot what you see is a plot of the energy as a function of the identity to the closest natural.
+ So, each point here is an artificial sequence. So, you take your artificial sequence, you look in the natural ones, you look to the closest ones,
+ so the one that has less mutations. And this will be the x-axis and the y-axis is the energy. So, you see that the energy increases when you go away from the natural sequences, which is basically what you have here in this plot.
+ So, the model has been trained to give low energy to the natural sequences, so when you go away from the natural sequences, the energy will go up.
+ But, still, you have here sequences, I don't know if you can see the color as well, but you have sequences here that are 40% away from the nearest natural, so you have mutated about half of the protein, and still it's functioning, okay, so you, it's not like, because you know, when you do generative modeling, you have always to be a bit worried, like if you do images,
+ and by the way, this is not very often done when you assess the references on the screen, so it's something you have to keep in mind, if I say, okay, great, I have a model that can generate images of human faces, but okay, fine, but this one, how far it is from the closest face in the training set? I don't know, because they don't tell you.
+ But so here you can do it, you can check. And I think whenever you generate a model, you have to check if you can how far you are from the training set. In the ideal setting, you would like the distance from the generated data and the closest training set to be of the same order of magnitude of the distance between two close-by points in the training set, if you are doing well.
+ But anyway, so here you see that you can reach about 50% divergence from the 100 sequences while still keeping functions.
+ So you are able to explore the space.
+ So, just to conclude, as I was saying, we have packages that you can use to play with this.
+ You can apply these ideas not only to proteins, but also to RNA and DNA.
+ There are still sequences of vectors, so you can use the same things.
+ So, we did some work to generate artificial RNAs.
+ It's interesting because in RNA you have even less data than proteins for structures, so it's interesting to study RNA.
+ And in RNA the unit is not one base because they are triplets, so...
+ Yes, but the model can take that into account.
+ So you can work with individual bases and the model will learn that there are correlations.
+ But you can also put them more explicitly if you want.
+ And the last thing I will tell you, but I will not go into the details, is that we can use these models.
+ Once you infer this Borzano distribution, you can do Monte Carlo.
+ So if you have a Borzano distribution, you can do Monte Carlo.
+ And what we found, and I find this also quite interesting because, well, what we found is that if you do Monte Carlo on the model that you infer from the natural sequences,
+ you can describe what you see in experiments that do evolution in the lab, which I find interesting because the natural evolution and the evolution in the lab are in principle very different,
+ you are doing different selections and so forth, but still the model can give you information on what will happen in the experiment.
+ So if you want to do a PhD where you do this and you spent three years doing this experiment, maybe before doing it, now that you know it,
+ you can take the model and have an idea of how many generations you should do, what kind of selection you should put and so in principle the model can tell you something about how to optimize your experience better.
+ So this is something that we are working on and it's still in progress but kind of worse. So maybe I don't know if you can stop here. So if you want to play with the data, as I said, you can go to the folder and you can take this notebook.

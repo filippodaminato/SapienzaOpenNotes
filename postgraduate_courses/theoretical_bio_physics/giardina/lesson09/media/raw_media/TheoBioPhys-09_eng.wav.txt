@@ -1,0 +1,764 @@
+ so now what I would like to investigate is the next step namely how is it that this particular
+ kind of movement translates at the population level to what the population moves towards the
+ region of highest concentration so before doing that let me go back to a point that i have already
+ underlined several times here in the last lectures and namely the fact that the bacterium is sensitive
+ to gradients and not the absolute value of the concentration okay so i reported last time the
+ result of certain experiments that were performed precisely to codify this fact and the curve from last
+ time was a curve where here above i thought as a function of time
+ okay so this is an experiment which is performed with the accumulation of bacteria
+ in a homogeneous medium okay so the nutrient is distributed uniformly in the dish where bacteria
+ are replaced and the nutrient concentration as a nutrient is something like this and then at some
+ point i increase for a very short time the concentration of the nutrient and then i
+ increase it to the initial values okay the baseline and in the bottom in the bottom
+ of the figure what i represent is the probability of counterclockwise rotation of the flagella
+ called the bacterium okay which can be measured and you have to imagine that you have this
+ this dish where you have all this bacteria and when you click i mean to call this module here
+ you just count how many bacteria are rotating in the flagella or on a on a on a direction or more
+ okay and then you take this number you divide by the total number of the bacteria you can also measure
+ that in a small interval of time so what people saw was that there was a certain faceline
+ which is approximately the one that you measure in the absence of the
+ so here the probability from zero it fluctuates and then when you have this increase it increases
+ and then regularly goes back to the original values and we set up this time scales of the order of a few seconds
+ okay but then you can do something different you can change your nutrient concentration in a different way
+ maybe with a standard of life behavior so at some point you just increase the nutrient concentration
+ and you need this concentration at the highest level okay and what you would observe in this case is that again
+ your probability of counterclockwise rotation namely the length of the run increases and then
+ even even though with a slower decay okay let's say this is a couple of seconds and this is four
+ seconds something like this it goes back okay so this this means that uh because as i was telling you
+ before what drives the chemical behavior is the variation of the nutrient concentration so in this
+ experiment the variation is induced by the experimenter by changing in time the nutrient so
+ what happens is that this quantity here the time derivative of the nutrient here changes
+ and here changes okay and otherwise for other times it is zero every time this quantity is different
+ from zero we have a change in the behavior of the bacteria so it is the change of c not c itself
+ that regulates the kinetics of that behavior motion okay so then we want to explore this part
+ in a simple model that we will discuss now and as we already implemented if we are in a situation
+ where concentration is is not changed by the outside in time but the distribution of the nutrient
+ is dis homogenous in the environment then in this case what we get is that c dot is simply given for the
+ bacterium by the gradient of c not product with the velocity of the bacteria itself namely there is a
+ a temporal change in the in the nutrient which is induced by the fact that the material moves and
+ therefore it explores the regions with different concentration okay so this is a temporal variation
+ and this is what happens in case of a spatial spatial
+ okay so this will be useful later then just let me make another comment here okay so this is the
+ probability of counterclockwise mutation and we said that when the nutrient increases this
+ probability increases okay on average this means that the length of the run increases okay and this
+ also means that the rate of tumbles decreases okay so the less tumbles i have in the prime the more longer
+ okay so all this information can also be written by saying that c dot okay sorry that the tumbling rate
+ that i had called alpha if you remember in a few lectures ago so this is the tumbling rate which
+ is one over the average length of other one okay so this tumbling rate is a function of c dot okay
+ this is a scenario can be rephrased by saying that the tumbling rate is a function of c dot
+ and what kind of function it is it is a decreasing function so if c dot increases
+ alpha decreases ok and if c dot decreases actually what happens is that alpha remain the same
+ but for the sake of the model I want to make we will assume that alpha increases ok
+ so now what is this model that I would like to discuss it is a very simple one-dimensional
+ model of ketone axis ok so let's assume that I look at the population of bacteria in one
+ dimension ok so this is space in one dimension x and I call p of x and t the population of
+ bacteria position x identity the probability of funding this is the
+ probability of fun let's say pdx and the x is the probability of finding a
+ bacterium position x identity or maybe you cannot interpret this as the number
+ density how many bacteria there are in the interval that's since we are looking at a
+ population that do not divide the number of bacteria is fixed okay so if you if you take a
+ number and you divide it by total number that's sorry if you take a number if n or x and p is the
+ number of bacteria at position x and you divide it by the total number of bacteria you can get the
+ frequency which is a probability so talking about p of n is the same thing because this is a constant
+ okay yes
+ should i expect that in that graph in the second case
+ they have to be more than the neck the one on left because we have single variation of the gradient
+ but then the step is constant in the concentration and so the the counterclockwise pregnancy is less
+ This is what you get experimentally. So the change is not in the height, it's in the decay. But I mean, if you want to schematize them, you can say the same thing happens here and here. It's not like that because here the decay is a little bit lower. But at a qualitative level what you get is that you have a change in behavior only when there is a change in your representation.
+ The important point is what happens here. So here and here, even though the nutrient here is in larger concentration, like here, the bacterial motion is the same.
+ Whether you put a population of bacteria with a concentration of 2 nanomolar micro-nutrients or with a concentration of 5 nanomolar micro-nutrients, the population is moving the same way.
+ It's only when there is a change that something happens.
+ Okay, so let's go back to this problem.
+ So now I will look at this body, the probability of finding our bacteria at a certain position in space, and I'm going to write down an equation for this population.
+ So my aim is to write down an equation for this p of x and t, and then to find out how this distribution depends on the nutrient concentration.
+ Very good. So let's assume that, for example, we place a nutrient concentration that increases in this direction.
+ It's just an assumption. I could have chosen your two points.
+ Okay, so now let's say that to do this the best thing to do is to split this population in two subpopulations that I would call P plus of X in D and P minus of X in D.
+ The sum of these two population will give you that control.
+ Very good and what is P plus and what is defined?
+ P plus is the population of bacteria that move towards the right.
+ So let me focus around the specific point.
+ Then I will discretize and say that this is X and there will be certain amount of bacteria here.
+ Some of them will move towards the right and these are the plus.
+ Likewise the minus will be the ones that will move towards the left.
+ So now what? Now let me specify also another thing, so we have already understood that alpha is a function of C dot, but we are in a situation where the nutrient changes because the bacteria are moving, so this is the expression of the C dot that I need to use.
+ Okay so in general I have this quantity here, alpha is simply a function of the change of the nutrient but for the sake of simplicity I will distinguish two cases, the cases of the bacteria that moves to the right and the bacteria which moves to the left.
+ So I will call alpha plus, this is always the same function of this argument, right?
+ So let's say for the plus population how would this function agree?
+ For the plus population alpha of C dot would be alpha of what?
+ Let's look at what we said before the gradient of C dot V but in the case of the plus population the velocity is always oriented towards the right because by definition this is the population moving towards the right.
+ So we are in what D so actually this is a simple product what is important is the sign of V. The sign of V in this case is positive because the population moves towards the right. So this would be alpha of the gradient of C so let's say the C over the X V with a plus and I call this alpha plus.
+ In this case I have the same function of its argument but in this case the argument is slightly different because the velocity is oriented towards the left so that would be the C over the X with a minus V and I call this alpha minus.
+ So alpha plus is the function alpha evaluated at the C over the X multiplied by V with V identity the speed of the bacteria and for the minus population it is the same thing but with a minus inside and the function is the same.
+ the function of its argument is the same. Okay so give it that maybe I can write this here okay so I have alpha plus function alpha of the c over the x v and alpha minus is the function alpha of minus the c over x.
+ So now I want to find out an equation from these two populations so let's try to find out this equation here.
+ So I want to understand in a small time interval that d how much population p plus changes at position x.
+ Okay and as you have seen I have discretized this axis and I am choosing this the length of this interval which I call the x.
+ In such a way that I assume that bacteria move at fixed speed which is a raising assumption and so I choose this the x, such if I am looking at my bacteria and I say the t, the x is precisely the t.
+ Let's say the change of my t+ at position x at t in a small interval of t.
+ Okay, so what happens here?
+ How does this population change?
+ There will be some bacteria, remember that the population plus moves towards the right.
+ Okay, so the bacteria that are here will move one step towards the right.
+ But the bacteria in the interval on the left of the one I am considering, they will move inside the interval itself.
+ So I will have a positive change, I will have a change which is given by p+ of x minus the x minus p+ of x.
+ These are the ones that go out and these are the ones that come in.
+ But this is not the only change.
+ And why this is not the only change?
+ Because this is the change that I would have if the only thing that happens is that bacteria move.
+ But I know that this is not the only thing that can happen because what can also happen is that some bacteria will perform a tumble.
+ Okay, so some of these bacteria will change direction.
+ Okay, so let's say that I have already called alpha the tumble rate of my bacteria in particular since I am looking at the class population I will use the alpha class.
+ Okay, so remember that this is a rate.
+ What is the meaning of the rate?
+ This means that Alpha DP is the number of bacteria that changed the action, that performed the tumble.
+ Okay, so now you have this number of bacteria that decide to tumble.
+ Then where can they go?
+ Well, if you are in 2D or 3D, okay, let's consider 2D.
+ So I have my bacteria which is performing a run, and then at some point it performs a double.
+ And the double can occur in all these different directions, okay?
+ It's an angle, okay?
+ But when you are, so there is an almost uniform probability of choosing any of the possible directions, as we discussed at the beginning of this part.
+ We said that the distribution in angle corresponds to a uniform distribution almost precisely. There is a little difference but it's almost a uniform quotation.
+ Okay? Very well. But this is in 2D or in 3D. In 1D you don't have many angles, you have just two of them. Straight back. Okay?
+ So saying that there is a uniform probability in tumbling, in this case means that when the bacterium decide to tumble, it can equally tumble back or tumble if not. Okay?
+ So this means that once the decision to tumble is taken, there will be one half probability of changing direction and one half probability of remaining in the same direction.
+ So the number of bacteria going towards the right that change direction and go towards the left is this half.
+ Just because once the decision of the tumble is taken, there is equal probability of taking a right and left.
+ So these are the bacteria, so this is the way of course that I need to find the absolute value of people that is jumping.
+ I need to multiply by equals T plus.
+ So this number of bacteria will change direction, so I need to subtract this.
+ So we have a minus, alpha plus, alpha plus, half, T plus of X, T by T.
+ Okay? Right?
+ But then I can make exactly the same argument for the minus population.
+ Also in the minus population there will be a certain number of bacteria that will perform a number.
+ And half of them will change class and will become a bacteria that will be derived.
+ So I need to subtract the ones that change in the pink class population but I need to add
+ the ones that change in the black pink minus population.
+ So we have another term here which is plus r of a minus r of p minus of x.
+ Very good. So now let me divide by the t.
+ So if I divide by the t this becomes a derivative and I let the t be very small.
+ This becomes a derivative with respect to time.
+ So this becomes a partial derivative with respect to time.
+ Remember that p depends on two variables so this is a partial derivative.
+ And then what do I get here?
+ So let me now here divide and multiply by the x.
+ Now when I divide by the t, the x over the t is nothing else than the velocity.
+ So we have a velocity here.
+ And then what is this?
+ This is minus the derivative with respect to x of the population.
+ So, it's minus the derivative of p with respect to x, okay?
+ And then here the division is really trivial, so let me just write the plus, plus, plus,
+ plus, plus, plus, plus, plus, plus, plus, plus, plus.
+ Okay?
+ Now, we can do exactly the same thing also for the minus population, okay?
+ The argument is completely the same, okay?
+ The difference is that the velocity is not v but it's minus v, okay?
+ So, what I would get is this .
+ And here, of course, I need to change the sign, so, I would have a minus, alpha minus,
+ alpha plus, alpha plus, alpha plus. Okay? And so, at the end, I get these two equations. Okay. Okay. So, now, what I would like to do is try to solve these equations, but to solve them dynamically is a little bit complicated.
+ The problem will now be to understand what happens in the stationary situation.
+ Yes.
+ Can you clarify the question in the last term ?
+ No. And the reason is that in this case, the members of the population class that change
+ the group are half a plus to plus.
+ In the same way as here we have you see here is plus but here you get minus.
+ Because you want to see how the P plus changes and to understand what is the...
+ Let me explain a little bit better what is this term here and also this term here.
+ What is the rate?
+ The rate by definition is how many events per unit time you get.
+ Okay, so in general, as I said, alpha plus, alpha plus the P, okay, it will give you the probability
+ that one bacterium will change identity, plus or minus, one bacterium of the plus population
+ will change group in time the P.
+ If you want to know how many bacteria of the plus population there are that change in group, you need to multiply by the number of bacteria, which is P+, ok?
+ So this quantity here gives you the global number of bacteria, the average number of bacteria of the plus population that become minus population, ok?
+ And that's why I put a minus sign here because they go away from the plus population, this is the number, this is the decrease in number of plus bacteria due to the fact that some of them change in the group, ok?
+ likewise there will be some bacteria from the minus group that will change state and become a plus group and this is this number, ok?
+ here it's the same but we are looking at the other population, so we are looking at the minus population, so these are the bacteria of the minus population that change group
+ ok, so here I need to look at p- because this p- plays exactly this role here ok you are looking at the probability that one minus bacterium becomes plus by the number of minus bacteria and you get the total number of minus bacteria that become plus ok and decrease the minus population likewise here you need to put p plus and you need to put a plus ok
+ yes like I get that but it's just like with derivative p plus doesn't that disappear kind of like but you don't get why there is a plus here no like why do you have the last term at all like if you take q plus derivative by t should like the last term doesn't have a q plus so that why should wise I couldn't yeah
+ is this clear but maybe maybe after after the lecture we can discuss these more at left ok ok so at this point what we would like to do is to manipulate a little bit these equations but in general
+ it's not so easy so what we will do is to look at this equation in the stationary state ok what does it mean in the stationary state
+ the stationary state means in a situation where the population does not change anymore ok so let's look at this ok
+ so we will look at the stationary state ok the stationary state means that this is what it is, do not depend on time
+ and therefore also the global views are dependent on time
+ so the stationary state, I can set these two left hand side 0 and therefore what do I get?
+ I get v the t plus over the x equal minus alpha plus t plus plus alpha minus t minus
+ minus alpha plus p plus, okay, and everything here now in the stationary state actually I
+ can p plus and p minus in the stationary state only depend on x because they are in a dependence
+ by definition of stationary states is not there so these are actually good derivatives
+ ok because p depends monoling on x
+ ok great so now let's try to do a few things first thing let's subtract one from the other
+ yes okay so on the left hand side I will get the
+ so I'm subtracting the second equation from the first equation okay
+ and since you see one side subtract this
+ this cancel to this and this cancel to this okay
+ so again this is the equation here
+ okay okay so this equation
+ so this equation implies that
+ plus of x minus the minus of x
+ which is a constant
+ okay so now what is that fix is this constant
+ this constant is fixed by boundary conditions
+ that I choose for my system okay so you see
+ if I choose a boundary condition where a is different from 0
+ that would mean that there would be
+ in the stationary state the number of
+ particles going towards the right would be different from the number of particles going towards the left
+ so there would be currents of particles
+ but I don't want that, I want to be in a situation which is like equilibrium
+ so I want also to have 0 currents therefore to do that
+ I will propose that this is equal to 0
+ therefore what do I get is that p plus is equal to p minus
+ which therefore due to the normalization condition that p plus p minus p is equal to p minus
+ okay
+ so now I will do something different
+ so here I subtracted one question from the other
+ okay so when I add them
+ we'll go again, here again
+ this
+ okay
+ and this will give me
+ minus, alpha plus, plus
+ okay
+ and then I will get
+ plus, alpha minus, p minus
+ okay
+ but then
+ I exploit this factor here
+ the fact that p plus and p minus
+ are p out
+ and therefore this equation becomes
+ here
+ it's just the derivative of the full probability
+ so here I get p
+ the p over the x
+ and on the right hand side
+ I will get
+ minus alpha plus
+ minus alpha minus
+ alpha minus
+ of p powers
+ ok
+ this is the equation I wrote
+ ok
+ very good
+ so now I would like to understand what I can derive from this equation here
+ ok
+ so I can erase here because I have that here I need
+ - Prima che cancellavi il quadro delle equazioni, stai dicendo: ma siamo sicuri, cioè, al segno di quelle che escono e tamburano e quelle che non tamburano?
+ Cioè, la P^ sarebbe, se vogliamo, la frazione di particelle che sorrebbe logicare andare a destra, e poi con la F^p sono quelle che invece per a destra tamburano, e quindi vanno a sinistra.
+ Però sempre da X sostanzialmente, perché è lì che stiamo portando.
+ Mentre le altre sono quelle che vorrebbero andare a sinistra e invece vanno a destra da X.
+ Però di fatto sempre da X escono a sinistra o a destra quando vanno ad angolano.
+ De una importanza.
+ This term here is telling you how many particles that move inside the X get out of the box.
+ And these two terms are telling you the change in the number inside the X due to tumbling.
+ Okay, so you can say okay but I already counted for each particle the fact that it is moving and the fact that it might crumble.
+ This is your problem, right?
+ Okay, there should be a slightly, a small difference but that difference is over the t and so you can disregard it.
+ Okay, so it's always small. At first order this is correct. There are some slight differences but these are second order so you don't put them here.
+ Okay? Okay, so let's, let's, and you also need to consider that this is average numbers.
+ So we are not looking at fluctuations, this is a simplified investigation of this problem.
+ Because we are looking at average behavior.
+ When I say that this is the number of particles that are moving towards the change due to movement,
+ I'm looking at average behavior.
+ If I really want to look at the real behavior of the, of the real bacteria,
+ what I do need to do is to write down a stochastic equations for individual bacteria,
+ which typically do have noise inside,
+ and I need to write down everything in terms of the stochastic equations,
+ which also take a couple of fluctuations.
+ But this is good enough for what we want to show, okay?
+ So now I would like to say something,
+ starting from that equation there,
+ but I will rewrite here.
+ So what I got is this.
+ This is a minus, right?
+ Minus.
+ Alpha plus, minus, alpha minus.
+ Okay?
+ So this is the equation.
+ So now I will proceed in two ways.
+ The first way, it makes an assumption and it's easier to build it.
+ The second way is without assumption and it is slightly complicated.
+ So let's try with the first assumption.
+ So let's say that the function alpha of C dot, okay,
+ is a smoothly varying function
+ and that the variation of the nutrient
+ are small, they are not large, okay.
+ If this is the case, what I can do
+ I can just say that alpha of C dot
+ the function alpha of its argument, okay,
+ I get a spot. So this will be alpha in zero variation
+ of the nutrient plus
+ the alpha of the C dot
+ evaluated in zero, okay,
+ multiply by C dot.
+ Plus there would be other terms but I say
+ C dot is small so I stop myself here at the linear term.
+ So I perform a linear expansion.
+ Very good. Let's say that this is correct and we will see
+ that this is reasonable. Okay?
+ From experiment you can deduce that this is reasonable.
+ So if this is the case, then what I can do?
+ Well, I can now understand the different
+ behavior of alpha plus and alpha minus. And why?
+ Because alpha plus, remember, alpha plus corresponds to exactly
+ this writing here in the case where C dot
+ is equal to V derivative of C with respect to X.
+ Remember, okay?
+ The argument, remember that what's inside the function alpha
+ is C dot. Okay? So here C dot is this and here
+ C dot is the minus sign. So in the case of alpha plus
+ that would be alpha in zero plus
+ the alpha of the C dot
+ would be zero. And in the minus case
+ that would be the same thing but
+ with the minus sign.
+ So now let me plug everything inside. I need to compute alpha plus minus alpha minus.
+ So I can see directly from here. If I do this minus this, what do I get?
+ These two terms cancel. But these two are done. So that will be 2, that will give 2 alpha over 0, 0, B over X.
+ So now when I plug this inside here, what do I get? I get the two cancel with the two.
+ Okay, so I get the alpha and the stop, I'm putting zero, B and C of X.
+ Okay?
+ And I have a piece.
+ Very good.
+ So now I want to integrate this thing here.
+ So let me, let me, let me multiply both sides by the X and divide both sides by P.
+ So I will get the P over P equal minus the alpha over the 0.
+ So this is a constant and then I get this.
+ Now I integrate.
+ From a certain reference value that I call 0.
+ And therefore we will get the logarithm of p .
+ Minus logarithm of 0.
+ OK.
+ And here I would get minus the half of our decidoth in 0.
+ OK.
+ So now let me exponent shape.
+ OK.
+ And if I exponent shape, what do I get?
+ I get e of x.
+ This will be given by a certain constant.
+ OK.
+ OK.
+ E to the minus.
+ The output of that result.
+ Zero.
+ It's your x.
+ OK.
+ So as you see, basically,
+ you find here also the thing that we already discussed in the default Planck equation.
+ We imposed the conditions of equilibrium and we found out a probability density that asked the Gibbs-Potsman for.
+ OK.
+ Very good.
+ But in this case, the equation was not for the Planck equation because we also had the diffusion there, OK?
+ Which was the first part of the equation, the one with the derivative with respect to X.
+ But we also had an additional term which was due to .
+ OK?
+ OK.
+ Very good.
+ So at this point, why this is interesting?
+ Because, let's see, this is the stationary solution of the dynamics that we investigated.
+ So this means that we have been looking at a population of bacteria moving with this run-and-tumble dynamics.
+ OK?
+ So with the dynamics that makes the population move more towards where the gradient is positive.
+ And now let's say that we looked at this population for a very long time.
+ So this population due to this dynamics arrived at the stationary situation.
+ And now we want to understand what is this stationary situation.
+ OK?
+ And the stationary situation is described by this profile.
+ So we want to understand where the bacterial population arrived at long times.
+ So where is the population concentrated at long times.
+ So let's see how do we understand, how can we do,
+ how can we infer where the population is concentrated
+ when we find the maximum of this probability distribution.
+ So if we find the maximum of p of x,
+ we will find out where all the bacteria have gone.
+ OK?
+ So let's find the maximum.
+ The maximum we need to compute the maximum of this function here.
+ But since the exponential is a monotonic function, finding the maximum of p means finding the maximum of the exponent.
+ OK?
+ So where is the maximum of the exponent?
+ Well, the first thing that we need to find out is what is the sign of this poster.
+ OK?
+ But we already discussed this.
+ We said that when c dot decreases, alpha decreases.
+ So this is a decreasing function of its argument.
+ Therefore, the sign of this derivative is minus.
+ So this is negative.
+ OK?
+ Because this is a decreasing function of its argument.
+ So its derivative is negative.
+ So this means that the exponent has a plus sign in front of the c.
+ c is positive by definition.
+ It's a concentration.
+ OK?
+ So the exponent is positive.
+ So the maximum of b will correspond to the maximum of c.
+ So we found exactly what our intuition was telling us that due to this dynamics the population
+ of bacteria goes where the nutrient is more concentrated.
+ OK?
+ So we have a dis-homogeneous pattern of nutrients, bacteria perform chemotaxis and if we wait long enough all the bacteria will arrive where the nutrient is more concentrated.
+ Where there is no nutrient which is clearly a favorable situation from a biological situation.
+ Okay? So that's good because this is a very simple model but it shows very clearly how these dynamics leads to a good solution.
+ Okay? Very well. Then let's now try to understand whether this linear assumption is necessary.
+ Okay? So, after the lead is not, let's try to show.
+ Okay, so let's say what can we do if we don't want to reform the linear assumption?
+ Well, let's do the following, okay, so in general this alpha plus minus alpha minus, what this is?
+ This is alpha of b the c over the x minus alpha of minus b the c over the x. Okay? This is how we define things. This is a function of x. Okay? Why? Because c is a function of x, it's derivative of a function of x, so everything is a function of x.
+ So this will be, I can write very generically, okay? This will be minus this functional x.
+ Okay? So now let's proceed without performing any assumption, we can proceed like we did before, so I can write here the t over p.
+ Okay? And on the right-hand side what I will get is minus f of x to x. Okay? Let's integrate between zero and x. So what do I get? Let's put it here.
+ Okay? And then I will get logarithm as before on the left-hand side. Okay? And then I exponent shape what I get.
+ Okay? Okay. Okay.
+ So now you see this P of X as I already commented before has the shape of a Boltzmann-Gibbs distribution. Okay?
+ Where this integral plays the role of an effective potential. Okay? Very good. So now we would like to understand where are the maxima of P of X.
+ Once again, the maxima of P of X will be where the maxima of the exponent will be, okay? Therefore, the maxima of P of X will be where the minima of this effective potential happens.
+ Okay, the maxima of P of X will respond to the minima of the effective potential P of X that Aeremandio is defined by 1 over 2B in V of X's prime of this leg.
+ So let's try to understand what are these minimal V of X.
+ The minimal V of X are defined by the equation of the V of X.
+ What you see? This is what defines a stationary point of V of X.
+ So, minimal stationary points, therefore they need to satisfy the solution.
+ So, let's see what does it imply.
+ Well, V of X is defined like this. If I take the derivative, I just get 1 over 2V, okay, F of X equal to Z.
+ Okay, very good. So now I substitute the expression of F, okay, good. So let's put inside the definition of F.
+ F was tough one. This implies that alpha B the C over the X should be equal to alpha minus B the C over the X.
+ Okay, but alpha is a monotonic function of its argument therefore to get this condition here the argument should be zero, okay.
+ This condition here implies that the C of X should be zero, okay.
+ So what we just found is that the stationary points of V are also stationary point of the nutrient, the concentration of the nutrient, okay.
+ So we know from this that the stationary maxima of P should correspond to stationary point of the nutrient concentration.
+ Now we need to check that it is at the maximum, so we need to check this.
+ So to check whether these stationary points are the maximum or minimum of C, we impose the condition that required and then we need to find out the minimum of the P's over the X.
+ So let's compute the second derivative and let's impose that the second derivative should be larger than zero.
+ So what we need to compute is that the second derivative of P with respect to X and the minimum should be larger than zero.
+ So this does it imply, we already have the first derivative, it's this one.
+ So the second derivative is precisely the F over the X.
+ Okay, this should be larger than Z.
+ Okay.
+ Very good.
+ So let's write down what is F.
+ F is just this minus this, so this implies the derivative of alpha alpha plus.
+ Alpha plus, let's say, with respect to x minus the derivative of alpha minus with respect to x.
+ Okay, so now let's write this down explicitly.
+ So what is this? This is the derivative with respect, this is the derivative of the function alpha with respect to its argument.
+ Okay, in the minimum, this should always be evaluated in the minimum, multiplied by the derivative of C dot with respect to X, minus the same thing here.
+ Sorry, this was... okay, but I'm doing this, this term here.
+ For the alpha plus, this C dot is nothing else than D, the C over the X.
+ Okay, and therefore I write it like this. And here I have the same thing, the derivative of the alpha function with respect to C dot, evaluated in the minimum, so this is a constant.
+ Okay? And then I need to perform the derivative of C dot for the minus case with respect to X.
+ But in this case the argument is with a minus.
+ Okay? So I get this. Is this clear?
+ So as you see since I have a minus here and a minus here, the two minus compensates and I get a plus.
+ So that these two terms are completely equivalent. Okay?
+ And therefore this quantity here, 2e larger than zero, is nothing else than d alpha over dc dot, evaluated at the minimum,
+ which multiplies v, the second derivative of c, with respect to x squared.
+ Very good, and this should be positive, because I'm looking at the maximum p, means that this should be positive, therefore this should be positive.
+ But we already know that this derivative is smaller than zero, so to have this quantity positive, the second derivative of c should be negative.
+ Okay, and this means that whatever is the function alpha, the minima of this effective potential corresponds to the maxima of the concentration.
+ Okay, so also in this general case, the minima, the maxima of p of x corresponds to the maxima of the nutrient concentration.
+ Okay, so also in the general case, and by conclusion, therefore, what we get is that the second derivative of c should be smaller than c.
+ Okay, so the maxima of p are in points that are stationary points of the concentration and precisely are its maxima.
+ Maxima of p, maxima of c.
+ So also in this general case, with no assumption, I can conclude that the chemotactic dynamics brings my bacteria where the concentration of the nutrient is left.
+ Okay, so this concludes the conclusion of this very simple model.
+ Okay, so we are happy about that because we understood that it will happen.
+ Of course, generalizing these two larger dimensions is a little bit complicated.
+ In this one-dimensional case, you can solve stationary, you can find easy stationary solution in larger dimensions.
+ Before telling you what is the equation, the analog of this equation for p that we discussed in larger dimensions,
+ what I would like to do is to go back a little bit to the assumption that we made.
+ I told you this assumption that alpha depends linearly on c-dot is reasonable.
+ I told you that if we write something earlier, this linear response is reasonable.
+ Now I want to discuss why this is reasonable.
+ To understand why this is reasonable, we need to perform a little dv-tuchron,
+ which is nevertheless useful because it introduces concepts that probably you have already studied,
+ but that would be useful for you in the future.
+ And in the concepts of response, a response pattern, and a fluctuation risk question.
+ Okay, so let's go back and ask the question given an answer.
+ Okay, so before going into that, what is the thing here, what's happening?
+ Here we have a certain quantity which is C or C dot being most precise.
+ Let's say that it is C, we have this quantity here, C of X, and this is an environmental quantity.
+ So it's something that is outside my system and my system is the bacterium.
+ And then this quantity here influences another quantity which pertains to the system I'm looking at.
+ In this case the other quantity is alpha.
+ Okay?
+ So if you want, you can schematize this process of saying that you have an input, a signal,
+ an external signal, and this signal influences, determines how a variable of your system behaves,
+ which is alpha.
+ Okay?
+ So you can see this as an input-output process, this is the input and this is the output.
+ Okay?
+ Or you can see this as a response process, namely something happens in the nutrient, the system
+ and the bacteria provides a response by changing up.
+ So this behavior here explains you what is the response behavior of your system to an external
+ signal which is C of C, C of X in this case.
+ So I'm telling you this because now I would like to schematize this process as a response
+ process within a single mathematical framework.
+ And this will be very useful to understand why as compared to what you have seen in physics so far,
+ what happens in bacteria is high on the tree.
+ So let's try to look at the simplest possible system,
+ because here things are changing in time, that we have treated so far.
+ So let us look at the language equation.
+ So let's say that we have a system, and the value of interest of our system,
+ I would call it x, in that case it would be alpha, but to remain very general,
+ let's say that this is the value of interest, and we are looking at a question,
+ which is of this form here, the x or the p, friction,
+ so we are looking at the same as possible case, so Langevin equation,
+ we know it now, the same as possible equation that we can have a vision.
+ Then, in general, let's do it in one dimension, but this can be generalized,
+ and then we have some external forces, and then we have some force.
+ So this is the structure of the Langevin equation we have done meaning that we have seen many times.
+ So now let's try to see what we will get.
+ In general let's say that we want to perturb our system with some external depression.
+ In general this force can be derived from a potential function ux and ux will be what it will be.
+ I don't know, it can be whatever.
+ But now let's say that this is a situation that we have so far.
+ For example we studied the case where this is just a squared wave, a quotient wave.
+ But this is not important. The important thing is that it is good.
+ The important thing is that if you now want to perturb our system, what should we do?
+ A perturbation is something that from the outside it couples with our system and may change.
+ So if we want to model at a mathematical level of perturbation, we just should have something here in the potential, the energy function of our system, which includes this perturbation due to this external sigma.
+ So my u of x, which is whatever, will become u of x, and in the simple case, we can just assume that the perturbation acts linearly, modifies linearly our system.
+ Okay, so here in my notes I called it in a different way, I called it small f, so we call it small f.
+ Okay, so small f is the perturbation and the perturbation couples without the variables of interest, okay.
+ Actually, in general this could be a very complicated function of x, so we are just assuming that it is a simple linear function.
+ This is linear responsibility, that's why it's called linear responsibility.
+ Okay, very good.
+ Very good, so now let's try to see, let's say that we want to study the response of our system.
+ What does it mean to study the response of our system?
+ To study the response of our system means that
+ to study the response means that I apply this perturbation
+ and I look at how the variables of my system are changed.
+ So to make a practical example so that everything becomes very theoretical.
+ Let's say that I study the problem that I studied before so I'll just put this term here
+ because in this case I know how to solve everything.
+ But the general concepts that I'm telling you here are general
+ but the solution I'm performing is in a simple case where I can solve the equation.
+ Very good.
+ Okay, so let's see what happens to our system. So our equation is this one.
+ So what is the f of x and then what it is?
+ It is minus kx and this is the one that I have even in absence of perturbation plus this f.
+ Let me assume this f is a constant. I apply a constant over perturbation.
+ Very good. So this is, if you want, f0 of x, the force in absence of perturbation and this is the perturbation.
+ So now let's look at the equation. So the equation, what it is? So this is what I would get in absence of perturbation and this is the perturbation.
+ So what happens? Let's say that I look for the time data, it is regardless of perturbation. So I look at my system unperturbed.
+ In terms of that my system unperturbed and I compute the average value of x, we are ready to compute that and this is something that at least when I could get the initial condition, this is zero.
+ Okay, this is completely symmetric, the average value is zero for an unzero vector equation.
+ But now let's imagine that at a certain point I apply the vector equation and now I measure the average value of x in presence of the vector equation.
+ In general this will be different from zero so it will be different from the amplitude of the value and this difference is precisely what gives me the response of my system.
+ So usually under linear response theory what do I say? What I say is that my system in a condo of regression, it will be equal to what system in absence of regression plus a certain response which is given by a certain response kernel
+ and, how do we call it, T minus T prime multiplied by the equation, okay?
+ So this is the system and this is called the response kernel of my system.
+ So now what I would like to show you is in this simple case what is the response kernel, okay?
+ So if you remember, we already solved the unperturbed case, this one, okay?
+ The unperturbed question.
+ And what you find, the unperturbed question, if you go back to the, so this is F equal to zero, okay?
+ If you go back to your notes, you will find out what is the solution of the unperturbed case.
+ So here I'm putting that z equals to one.
+ I don't remember, maybe we solved the equation for the full equation also with the inertial term, but if you just look at the notes, you can find the over-dump limit very easily.
+ Let me write the solution.
+ You can verify very easily that this is the solution just by deriving it.
+ This solution obeys and satisfies the solution.
+ So this is the solution for the F equals zero.
+ Now what happens if you take the average value.
+ If you take the average value, this term has only the noise, the noise has zero in.
+ And therefore this is e to the minus 50.
+ Namely you have also only the method of addition to addition.
+ And if you just let the system, if you wait a little bit, this term will be zero.
+ So this is the kind of x equal to z.
+ So now what we would like to do is add the vertuversion and see what happens.
+ When you add the vertuversion, you will just get here another term.
+ This is this one.
+ So when you average,
+ when we average, so this is x of p,
+ x of zero is equal to x of zero, p to the minus a.
+ x in presence of perturbation, you still have this here,
+ but then here, when you take the average of this term here,
+ this part here becomes zero, because of the noise of zero mean,
+ but this one in this term of perturbation, it is different from zero.
+ This is not a stochastic term, this is an external signal, it is what it is.
+ So this term remains and you will get...
+ So now what you see is simply since this is equal to this, we can substitute.
+ And then by comparing this and this, you immediately understand that in this case, R of t and t' is equal to what?
+ 2k, e to the minus k, t to the minus k.
+ Okay. Just compare this and this.
+ We see, we understood what is the response pattern.
+ Okay, in this simple case.
+ I just wanted to show you a case where we can compute explicitly the response pattern.
+ This is one case, okay?
+ Then, to show you an interesting relationship, I also want to compute something different.
+ So this is the response in presence of an external situation.
+ Now I would like to compute something else.
+ What I would like to compute is another quantity, and it is, let me, let me do this.
+ What I want to compute is in absence of fluctuations, in absence of fluctuations, in absence of this nutrient,
+ in our case it will be the change in the nutrient distribution.
+ In absence of fluctuations, so I will put x = 0, so this is x = 0, this is x = 0.
+ So in the case x = 0, if I now want to compute, is the correlation function of x.
+ So what I will now compute is the function x of t1, x of t1, x of t1.
+ So actually in general it is convenient to compute, this is the correlation function.
+ I compare the variable interest at two different times.
+ So usually what one does in physics is actually to compute the connected correlation.
+ The connected correlation would be x of t minus x of value, x of t1 minus x of value.
+ So instead of looking how my variable is correlated in time, I look at how the fluctuations of my variable are correlated.
+ In this case it makes no difference in why the added value of x goes to zero.
+ Let's say that we use, if you assume zero initial condition, it is always zero, otherwise I need to add a little bit into it.
+ So in our case, we can look at it.
+ So now let's go to this point in here.
+ And let's look at the range, which is also useful because we get a little bit of the initial condition.
+ So let's look at the really connected one.
+ So I get this.
+ Okay.
+ So I need to come to take the average value of x minus x average.
+ So x minus x average is just a disintegral.
+ Okay.
+ So delta x of t is just a disintegral here in absence of f because I am looking at the other
+ So I need to look 0, integral, integral between 0 and t.
+ Okay, we got this integration variable t1 because here I have a t' so there is a geometric confusion.
+ I will get t1, e to the minus k, t minus 0.
+ Delta x of t1.
+ So this is the delta x of t.
+ Now I need to compute delta x of t prime, so I need another integral.
+ So we need integral from 0 to t prime this time.
+ And I have that t2, e to the minus k, t prime minus t.
+ And I have delta f of t.
+ And I integrate the output.
+ Very good.
+ So at this point, what I need to do is,
+ the only thing that I need to average on hypnosis, right?
+ Because this is just what I get.
+ So we have integral 31 from 0 to t,
+ integral 32 from 0 to t prime.
+ And then I get e to the minus, I have k,
+ and then I have t plus t prime minus t1 minus t3.
+ Okay, I'm putting everything together.
+ And then here I have delta f1 of f of t1,
+ delta f of t2, average.
+ But if you remember the properties of the noise,
+ this is just a delta t1 minus t2,
+ multiplied, let's write down.
+ When we write this equation,
+ we should always write the values of the noise,
+ because this is incomplete.
+ Here we should evaluate the properties of the noise,
+ and the properties of the noise is delta f of t1,
+ and the fact of t2 is 2 Kb of tz delta t1 minus t2,
+ but then we need to consider the friction equal to 1,
+ so let's reduce this.
+ Okay?
+ So here I can have so this would be
+ 2 kvt delta t1 minus t2.
+ Okay?
+ There you go.
+ So now the delta function allows me to perform one of the three integrals.
+ Okay?
+ So which one should I do first of the three integrals?
+ Okay?
+ Well, this delta function tells me that t1 should be equal to t2.
+ Okay?
+ So it is convenient, this is a good way to do this,
+ to start with the integration variable with the largest extreme.
+ Okay?
+ Because in this way we are sure that the delta function can be implemented.
+ Okay?
+ So for example, let's assume that t is larger than t prime.
+ Okay?
+ So if t is larger than t prime, let's try to do first the integral t1.
+ And why I'm doing that?
+ Because if this is t1, okay, the integral t1 varies from 0 to t.
+ Okay, and instead what is the range of variation of t2?
+ The range of variation of t2 is from 0 to t prime.
+ So let's assume that t prime is smaller than t.
+ So t prime is here, okay.
+ So if I integrate over t 2, okay, you see that, I mean, if t 1 is larger than t prime, there are values for which the left function is 0.
+ Instead, if I integrate over t 1, okay, since t 1 arrives up to here, t 2 is always included in the integration rate of t 1.
+ Okay, so you can do also the other way around but you need to be more careful.
+ In this way you are sure that the delta function can be implemented.
+ Okay, so I perform this so we said that I integrate first on t 1 and then what I get is that the delta function tells me that t 1 should be equal to t 2.
+ So what I get is that this integral should be equal to the integral up to t prime in the t 2, e to the minus k and I have t plus t prime and then what I get is that t 1 should be equal to t 2,
+ so this should be minus 2, this should be fine, then this is equal to e to the minus k, t plus t prime,
+ and then I would get the integral of 0, t prime, in the e2, of e, 2k, 2k.
+ and then this would be, I forget, for the time being I am not putting this third here, then we will put it back.
+ Okay, so this is what, let's look from this integral, this is e to the minus k t plus t prime, okay, and this would be 1 over 2k, okay,
+ e to the 2k prime minus 1, okay, very good, so let me write down here the final result,
+ what we got, we have the factor 2kVt so the 2 cancels, okay, and so we get kVt over k, okay,
+ kVt over k, and then we get, let's look at the first term, the first term would be e to the minus k t minus the prime,
+ and the second term would be minus e to the minus k, this is the difference, this is the result.
+ So now what we want to look at is this correlation function at large times.
+ Maybe we place our initial condition but we want to be very far away from the initial condition.
+ So T and T prime must be large. If we are in this condition of large times this second term here disappears. So at large times you only get this first part.
+ Even though, I mean even when T and T prime are large the difference can be whatever so we need to, this term remains there.
+ So, now we get the response function and we also get the correlation function.
+ Which is equal to KvT, okay?
+ Multiplied by E to the minus K.
+ Okay, so first observation. Both of these quantities, which in principle are quantities that depend on two times, actually a large time, so if you are not close to the initial condition, they depend only on their difference.
+ And this is what is called the time translational invariance. In systems which have an equilibrium dynamics, we always find time translational invariance.
+ The only thing that breaks the translational invariance is the initial condition. If you are far away from the initial condition, then if you look two times here, it's the same thing.
+ The most interesting thing that I wanted to show you is that if you look at these two qualities, you see that the time-dependence is the same.
+ You have the same kernel, and so this would suggest that there is a connection between them.
+ And actually, we can find this connection very easily explicitly in this case, but this is a very general problem.
+ Let's try to find out what is the connection.
+ The connection is that r is equal to minus beta, the derivative with respect to t of c of t minus t.
+ Connected or not connected.
+ In the end, it's the same if you take the connected or not.
+ It's easier to do computation when it's the same.
+ And why is that?
+ Because let's take the derivative of this with respect to t.
+ If you take the derivative with respect to t, you get a minus k.
+ So the k simplifies with this one.
+ There is a minus that you get and there is a k by t.
+ You multiply by beta and you get the response function.
+ So this is called the dynamical fluctuation dissipation theorem.
+ It is a very important theorem in equilibrium dynamics.
+ And you can show that in general if your system is an equilibrium system
+ then this condition holds and it is called fluctuation dissipation theorem.
+ But why I told you all this?
+ First because it was a good excuse to tell you about the response and the situation and the situation here and which are very important concepts.
+ Some of you probably have already encountered these concepts in the courses of non-equilibrium physics or stochastic process or whatever.
+ But these are in general very important concepts so that's a good location to discuss.
+ Then I told you this because I mean usually what is the behavior of correlation functions in physical systems?
+ Okay let's look at this case a particle moving in a quadratic potential so super classic physical system.
+ You get this so this correlation function is exponentially decayed.
+ Okay so the correlation function that you get usually when you have simple dissipative dynamics
+ in potential functions like you always have in physics your correlation function is something like this.
+ The case explanation. Okay? This is C as a function of the time difference.
+ Okay? So Tau is D minus T. You get this. This is really, I mean in special cases
+ for example in phase transition this is not an explanation it's a power loop.
+ But you always find in all the problems that we have done in physics in most of them
+ you encounter these decaying relations functions.
+ Due to this problem here, this means that also the response is a decaying function.
+ The response will be a factor if this is an exponential decaying function also its derivative would be an exponential decaying function.
+ The response function so also the response function will result better.
+ Why this is important?
+ This is important because let's try now to understand what happens in a typical experimental situation.
+ So in a typical experimental situation what you would get, let's say that I have my system, I can turn it and I want to see the response.
+ So I can change in the average value of my quantity x minus xf minus x0, I want to see how it is.
+ So let's try an experiment which is also one that we discussed with bacteria where at some point I just increase, I have zero, this is f of t.
+ I have zero f of t, zero external altercation and then at time e equal to zero, I turn off the altercation and I leave it constant.
+ So in this case f of t is just zero up to time equal to zero and then it becomes a constant.
+ Okay, so what would be the change in the variable of my system? That would be the integer of t prime of my function multiplied by a constant, I can put it outside.
+ Because I'm doing it just like, I'm raising up a constant temperature. Okay? Very good. So now I'm doing exactly the same kind of experiment that I plotted that I've shown you for the bacterium.
+ Then down here for the bacterium I was plotting the counterclockwise probability. Okay? Now here I wrote the average value, the change in the value.
+ The change in the value. It's the same thing as the other. Okay? So now this was zero up to time t equal to zero. Now let's see how it changes. I apply a constant perturbation and I see how my system changes. Let's compute that. Let's compute that for example for this system where in general. Okay? Let's say that I want to compute this so I wait a long time. I want to see how my system changes in presence of this new perturbation.
+ So I take t to infinity, okay? So for t, much larger than 1, let's say this would be f, the integral from zero to a very large time, let's put it to infinity, t prime of r, t minus t.
+ Okay? So I need to integrate my response kernel, okay? No, no, let's say that we have a response kernel like this, okay?
+ This is a decaying function, it's always positive, it's decaying, if I perform its integral, I will find a number, okay?
+ So this number will be, in physics, this is called static susceptibility, but it is what it is, okay?
+ I will find that I will have a response of my system and my delta x will change by finding that number, okay?
+ So what you will find is something like this.
+ If we use our example, we can compute this explicit, just an exponential.
+ That would be a constant delta x infinity minus an exponential.
+ In the case of that we compute the explicit.
+ In general, if this is decaying, you will find something like this, okay?
+ Very good, but this is very different from what we found for bacteria.
+ Remember for bacteria I told you that in the analog case, our variable which was different but not important, something like this, then it went back to the origin of that, okay?
+ So here, in this physical example, you have a finite response against income. Here, the system goes back to its original value, it's what it's called adaptation.
+ So what does it mean? This means that to get a behavior like this, we need to have a response kernel which is very different from the one that we usually like in physics, okay?
+ How this kernel should be? We should find that if we wait long enough, the system goes back to its original value.
+ So this means that this integral here should be zero, okay?
+ So what we should find is that our response, if we integrate our response kernel, we should find zero to get adaptation, okay?
+ So this is the response kernel that we have should be something, some function that when we take the integral over all times, gives zero, okay?
+ And why I am telling you this, because they measure the response kernel in bacteria for alpha, for the quantity alpha, okay?
+ So, they measure that, so they measure alpha of t as a function, let's say that this is an absence of a nutrient, they just look at this equation here, this quantity here, and they measure this
+ with experiments and they found something like this, ok? So this is the response of the kernel format, ok? And next time, at this point, because I went too long, we will show that this kernel here, which, as we discussed, is the only thing that can produce the adaptability.
+ This kernel here, that they measure, is fully consistent with a linear dependence of alpha and 0, and we will see that tomorrow, on Tuesday.
+ Okay?

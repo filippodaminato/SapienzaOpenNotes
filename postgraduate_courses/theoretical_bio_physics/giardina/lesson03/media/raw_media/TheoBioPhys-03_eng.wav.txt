@@ -1,0 +1,706 @@
+ of the question.
+ What we have seen is that if we scale a property in variables,
+ we can rewrite our question this way.
+ Where the side is a noise, whose progress is defined in this way.
+ And the effect was to get 3 per mili of the friction, because we had rescaled at the time by a friction.
+ This is just an automatic trick, in general, this equation, if we don't rescale, it will be like this.
+ Where this is random force and this is the friction.
+ So, what I told you last time is that if we consider this equation in its simple form, from a mathematical point of view, it should be more probably written in this way.
+ We have seen that x is a stochastic process which is not differentiable, which is continuous but not differentiable.
+ This is the mathematically correct way to describe this behavior.
+ Why this is interesting?
+ For now, the w square is a random quantity that scales to the interval of time of a mutual company with the difference to x.
+ So, this is interesting because this immediately allows us to understand one thing.
+ So, in this formula we can see this equation by scrutising the time axis in many small intervals.
+ Each of these intervals is done to the t and the x is the space excursion that our collard ray or our walker performs in time.
+ So, when we take the continuous limit, t goes to zero and we get the continuous equation.
+ Okay, so with this formalism you can see very clearly that if I ask myself what is the overall distance
+ that my walker, my current rate has traveled in time t, this overall distance will be just the sum
+ of all of these intervals here of the small dx traveled in each one of them.
+ Okay? And if we number these integrals with a time index, this is just from 0 to t, okay?
+ So you can see that this continuous equation can be seen as the limit for the t going to zero, this is the last form.
+ But then this is exactly the same as what we have seen with the random water discrete formulas.
+ The previous way we describe the stochastic behavior of the pole and the grain, the stochastic movement of the pole and the grain.
+ And the difference is that within the random water formalism, instead of having the t, we have the top, the length of each discrete interval.
+ And instead of having the x, we called it in, maybe probably we called it the x, I don't remember how it went.
+ Okay, so, but in the end, we immediately realize that once we have to make this correspondence between this discretized version of the continuous equation and the random water formalism,
+ we immediately know what is the distribution of this variable here because exactly as in that case we can apply the central limit here and also here.
+ Okay, and so we immediately get that distribution probability of the overall distance of travel in time t is nothing else than the one that we derived in that case.
+ Which is this Gaussian distribution, okay? So it is exactly the same result as the one that we got in the previous case.
+ Okay, so very nice. The interesting thing is that you can verify from this expression here, this is distribution probability of the distance travelled by the walker after time t.
+ From this expression here, you can easily verify that our p satisfied following the equation, which is the diffusion equation.
+ Okay, this is in one dimension and if we generalize this in the main dimension, this becomes the following equation.
+ So this is what is known as the diffusion equation. And it describes mathematically what we already pictorially describe the other times.
+ Maybe in one dimension, if I just draw how the distance travelled by the whole headband is in time and I draw different trajectories.
+ I maybe have one trajectory here, then I have one trajectory here, then I have one trajectory here, then I have one trajectory here, then I have one trajectory here.
+ Do you remember we did this last time? And we said if I fix my time t, okay.
+ The average is zero, because in this case I assumed, I didn't assume the presence of any external force and I know it has a zero mean.
+ So what we have is that the variance of these trajectories of the distance traveled from the origin,
+ this variance, which is delta x squared average, this is 2 dp, it grows with time.
+ Okay, which is consistent with the fact that as you have your walkers, they walk away from the origin
+ and if you have many walkers the population will explore a region of space which is larger than larger.
+ So this is the mean of this result.
+ So this is the mean square displacement but you would get something similar if instead of looking at the second moment the distance traveled from the origin you would look at the whole distribution.
+ So if you want to look at the whole distribution here at time t you will find a Gaussian and this Gaussian has this variance here.
+ If you now look at a later time we go on with these trajectories.
+ If you look at a later time you will have another distribution with a larger variance.
+ So the distributions of the positions explored by the Volcker becomes larger and larger and larger.
+ Which means that the population is exploring farther and farther regions.
+ Very good.
+ So this diffusion equation can be written in a different way.
+ We can rewrite this equation in the form of a continuity equation.
+ And this is interesting because this also gives us an intuition of what happens.
+ Okay, so we can write this in this way.
+ So this is the structure of a continuity equation.
+ This is what you would write down for example for an incompressible fluid,
+ having the density of the fluid instead of the probability and having the real current of particles instead of this probability.
+ J is called the probability current and if you compare these two equations you will find that J is equal to minus D the gradient.
+ This is called fixed law, the relationship between the current and the probability.
+ And why this is interesting, because this is telling us that there is a current of walker's population which is due to the fact that the distribution in space is not homogeneous.
+ And this current is oriented from where there are more walkers, more particles, towards where there are less particles.
+ So let's say that we are in 2D and we put a population of walkers in the origin.
+ So at time equals zero we have a p of x of p equal to zero which is a delta x minus zero.
+ We put all the particles at the origin, all our walkers we put them at the origin, this is the origin.
+ Then each one of them, we have a progression of them, each one of them we start moving rapidly in this random walk fashion, exploring larger and larger areas.
+ So all my particles we start to explore.
+ So I take a snapshot after a certain time, so initially they were all concentrated in the origin, after a certain time, let's say 10 seconds, they have covered a certain area, they have expanded, they diffuse, that's precisely the meaning of the orbit.
+ Okay? Then if we wait a little bit more, what you will find is that they will have expanded more.
+ Okay? So if you just look at this process between the first time you say this is T1 and this is T2, okay?
+ Your population as a whole has gone from this region here towards this region here.
+ So there is a current of particles from here towards the larger region.
+ Okay? And what is the direction of this current? The direction is from where there were more particles,
+ to where there were less particles. So it is precisely in the direction of the gradient of the concentration of the particles.
+ This is the meaning of this equation here. Okay? So you have a current which is opposite to the gradient of the concentration of the population.
+ Okay, so now I would like you to give a very intuitive derivation of this equation here, of the diffusion equation and of the fixed law.
+ It is not a rigorous derivation and then I will tell you why it is not a rigorous derivation.
+ But in the end the result is correct.
+ So let's consider the one-dimensional case which is simple lambda graphically.
+ So let's say that I want to compute the current of particles in space.
+ So this is my spatial coordinates x. I am the one b. And now I discretize space in intervals.
+ Okay? But I choose this discretization in a smart way. Okay?
+ So I choose the interval of my discretization, delta x, okay?
+ In such a way that on average, in time delta t, this is the distance traveled by my particles.
+ Okay? So I know that in this case the particles are moving randomly,
+ so the relationship between space traveled and time is the one that we have seen already,
+ which is delta x squared equal to 2d delta t, ok?
+ And so what I know is that the typical value of delta x should be equal to square root of 2d delta t, ok?
+ So I choose delta x in this way. This is the average behavior. This is not the real behavior for one individual trajectory. This is the average behavior.
+ But I want to do things simple, so I am just using the average behavior, ok?
+ So basically what happens is that if I imagine that now that I have a population here, ok, so I have my population of workers, ok?
+ So let's say that here is the origin, here is the origin of the x-axis and I'm looking at a situation where at the initial time I put all my population in the origin, ok?
+ And then I wait some time t. So after some time t, since I started my population here, the population will move towards, I mean it's a cement, let's say that I'm looking at the positive semi-axis.
+ So the population will move from zero towards larger values of axis, so in general there will be more particles if I consider, now let me consider this interval here, this is the interval in position x, there will be more particles on the left and less particles in x and right to x.
+ Okay, so this is x, this is x minus delta x and this is x plus delta x.
+ Okay, these are the intervals that I'm looking at.
+ Okay, and since I started here, my movement, there will be more particles here than here.
+ Okay, precisely because of this color from the origin towards the outside.
+ Intuitive effect. Okay, so now I want to compute exactly the current, the current from this interval to this interval.
+ Okay, so what is the current? The current is, if you consider this separating the surface, which is one point in one d, would be a surface in a larger dimensions.
+ The current is defined as the number of particles that cross this surface in the unit time.
+ Divided by the surface, but here the surface is just from an electron, so it's just a point, so we don't need to divide.
+ Okay? So if I want to compute the particle, the current, in this separating surface here,
+ I need to compute the number of particles that went from here to here.
+ So let's compute how many are these particles.
+ Let's look at the particles that are here.
+ Since the movement is random, half of these particles will go to the left
+ and half of these particles will go to the right.
+ Ok, so this will be...we want to know the ones that go to the right
+ because we are coming in this separating surface
+ so from the left side I will have one half of the number of particles
+ which are in x minus delta x, ok, which are in this integral here
+ so half of the particles that are here will cross and go to the left.
+ But then there will be also some particles from here that go to the left, ok.
+ And since the current is a vector, these two currents are opposite sides
+ so we need to subtract this other number.
+ So we need to subtract the number of particles that from here go to here
+ and they again are on half of the particles that are found in 1x, ok.
+ and then we need to divide by time because by definition the current is number of particles that cross a certain surface divided by time, ok.
+ Very well, so now I want to re-express this quantity here in terms of
+ of probabilities. Ok, so to do that, what I notice is that the number of particles which are found in any given interval, ok, this is the probability density at that interval, and here of course,
+ divided by the volume of the interval itself, which is in one dimension in simple delta x, ok, so the number of objects in a certain interval delta x is just the probability density multiplied by delta x, ok, for the concentration, ok, very good, so this we can therefore
+ substitute this equation, exposing this here, so this we can get delta x and let me put it on the right and then we have p of x minus delta x minus p of x and here delta, ok, very nice, so at this point I just want to write this as a
+ incremental difference, so I put a minus sign in front, so this becomes minus one half p of x minus p of x minus delta x, delta x over delta x, ok, and then what I want to do that is to consider the case where all these intervals are very small, so delta x is small, delta is small, everything is small,
+ everything is small, so here I can expand and this is just, I divide by delta x and I divide by delta x, when I send delta x to zero this becomes the derivative, ok, so this would become minus one half, this would become the derivative with respect to x, ok, and what is this, I need to take the limit of this but I know
+ that this relationship holds on average, ok, so when I take delta x squared and I divide by delta t, what I would get is 2d, ok, so this would give me 2d and 2councers and what I would get is minus d derivative of t with respect to x, ok, and this is how you can, I mean
+ this very simple way, this relationship here between the current and the probability, ok, so here I have defined the current in this way, here I have shown you that this is a real current, it's a current of moving objects, ok, because here I used the standard definition of current as number of particles per unit time per unit surface, ok, so this is really a current, ok, probability current, but it is a current.
+ So now what I would like to show is the second part of the equation and we have shown that this, we can derive this simple argument of this relationship and we can show that this is a real current and now I want to see that the probability evolves in this way, once I have defined the current in that way.
+ So I still use this setup here, using this setup here, I always do that at some time, so now I am interested here, this is the little bar around the position x, okay, and what I want to do, what I want to compute this,
+ how the number of particles in this interval changes with time, okay, so we want to understand what is the variation in number of particles within this interval, okay.
+ So what is the variation, the variation of n of the number of particles at position x. Okay, so this will be given by the number of particles that arise from here, okay.
+ So the particles, the current of particles that bring new particles from the left, okay, on average, minus the number of particles current to the right interval, okay.
+ So this will be given by the number of particles that go from here to here, it will be given by the current in Ax minus Delta X, T, multiplied by the surface, which is one point in this case, so we don't need to write that.
+ Okay? Very good. And at this point, we need to subtract what? We need to subtract the number of particles that from here go to here, and so this is minus J of X, T, better.
+ Okay, so now let's rewrite this in terms of probability.
+ As before we know that N of X and T is equal to delta X divided by X, T of X and T.
+ Okay, so this quantity here is nothing else, delta P, sorry, let me write it here, so this becomes,
+ this is, sorry, let's write this explicitly, this is N of X to plus delta P minus N of X to this delta here.
+ Ok, so this will be delta X because of the definition, since N of X and T is equal to P of X and T multiplied by delta X,
+ this will be delta X, P of X, T plus delta T minus P of X and T and this will be equal to, I rewrite it over here but I put a minus sign in front so this will be minus delta T,
+ J of X and T minus J of X minus delta X and T, very good.
+ So now I divide, I put this delta X here, I put this delta V here, okay?
+ And what you find from this, when you take delta X and delta T going to zero, is precisely that the derivative of T with respect to T is equal to minus the spatial derivative of J with respect to X, which is precisely this equation here in one dimension.
+ So I will draw here another three equations and now this.
+ I have space to continue writing.
+ The left hand side is the derivative of T with respect to T is equal to minus the derivative of J with respect to X.
+ So this is precisely this equation in one B.
+ Ok? So we have seen that in one B we recovered the diffusion equation with this very simple argument.
+ So why is the argument not rigorous? The argument is not rigorous.
+ The result is correct but the argument is not rigorous because I assumed an average relationship between space and time.
+ And to derive rigorously the equation I will need to take into account not the average behaviour but the same.
+ So that's why this is an unwaving argument.
+ But at least it gives the idea of what is happening.
+ It gives very well the idea that we have this current of particles due to the fact that even though each particle moves randomly,
+ since here there are more and here there are less, on average there will be a current towards the right in this example here.
+ This is the intuition that I wanted you to have.
+ Okay, so now before going to the more complex case where we also have external forces,
+ I would like to make a simple, to address a very simple, yes?
+ I was just wondering why are we just considering the particles going to the right and not the left?
+ I told you before, the problem is the symmetric.
+ You can do exactly the same element on the other side, okay?
+ Just look at one side for simplicity.
+ Anything that holds the same towards the left.
+ The only distinction that we need to do is from the origin, okay?
+ Okay, so here we are going farther away from the origin towards the right.
+ You could have said exactly the same going farther away from the origin towards the left.
+ You would have derived the same equations, okay?
+ So now I would like to show you a very simple case where we can apply these very simple equations
+ to investigate a problem of biological meaning, okay?
+ So let's assume that we are in a lake, there is a lake, okay?
+ So we have this big lake, this blackboard of the lake, and we have some bacteria
+ with a very, very, very, very large dilution, so we have very few bacteria, so we can focus on just one, okay?
+ So we have one bacterium in this lake, so here is our bacterium, okay?
+ And let's schematize our bacterium like a sphere with a ribose R, okay?
+ So this is our bacterium, okay?
+ Very well, so the bacterium metabolizes all oxygen molecules in the lake.
+ So there are oxygen molecules everywhere in the lake.
+ And every time one molecule of oxygen, by diffusing in water, arrives on the surface of our bacterium,
+ it gets eaten.
+ So clearly, the question that we would like to address is:
+ what is the largest size of a bacterium that can survive in the lake given the concentration of oxygen in water?
+ You have here an intuition that the problem is that our bacterium will need a certain amount of oxygen per unit time.
+ This is called in biology the intake.
+ So the bacterium needs a certain amount of oxygen per unit time to survive.
+ And since it is in the lake and the oxygen molecules will continue to diffuse, they will continue to arrive on the surface of the bacterium.
+ So now the point is, will they arrive in sufficient numbers to satisfy its intake?
+ Okay, so this is the problem I want to address.
+ Now usually the intake, the amount of nutrient a cell needs to survive grows with the volume of the cell itself.
+ So we can assume that the intake will be some constant, okay, let me call it alpha multiplied by R^3.
+ Okay, so this is the intake.
+ Then what we need to compute, but now we have all the tools to do that.
+ What we need to compute is the number of particle oxygen that arrive on the surface of the bacterium per unit time.
+ Namely, the current of particles that arrive on the surface of the bacterium.
+ Okay, this is precisely the current that we have to find.
+ Okay, and since oxygen molecules, they move by diffusion, they are passive particles, there is no other way they can move in water.
+ So the equation that describes the movement of the oxygen particles is precisely the diffusion equation that we have just seen.
+ Okay, so now we can apply those equations to solve this question.
+ Okay, so how can we formalize this problem here?
+ Let me call it C of X and T, the concentration of oxygen particles in the lake.
+ Okay, so this is the analog of the probability P that we have seen formally mathematically in the equation before.
+ Okay, so in absence of our bacterium, we can expect that this distribution is completely uniform.
+ Okay, but once you put the bacterium inside the lake, since it will start to treat the oxygen, it will modify the concentration.
+ So what we can expect, we can expect that if you look very far from the bacterium, let me put the origin of our reference frame in the middle of the bacterium.
+ So x is equal to zero is just this point here, okay?
+ So what we can assume is that when x is much larger than 1, very large distances from our bacterium, okay?
+ Our c of x into t will be equal to, let's say, c naught, concentration without bacterium, okay?
+ But then when we arrive across to the bacterium, there will be a modification of this concentration due to the fact that every time that particles arrive on the boundary, they disappear, okay?
+ Very good, so what we can know that the question that describes how the concentration varies in space and time is the diffusion equation, so this is the equation here, c over the p plus the divergence of the current diffusion equation equal to z, okay?
+ So now what we want to do is to actually, we are not interested in the time dependence of the concentration because what we can expect is that when we place the bacteria in the lake, something will start to change as compared to the situation when there are no bacteria, precisely because of this effect that the particles disappear on the boundary,
+ but then after some transient time my system will reach a new stationary state where the concentration profile of oxygen molecules will be slightly different than the bacteria and then come back to be like the one I had without bacteria if I go far enough from it.
+ Okay? So let's simplify our problem and let's say that we want to look at this stationary situation. So the stationary situation is stationary when it does not change it does not change in time. So what does it mean? It means that we are looking at a condition where c of x does not depend on time any longer. So it is stationary.
+ So if you are looking at the stationary situation then we are looking at what is called the stationary state. The stationary state is defined by the fact that c does not depend on time any more. Therefore the derivative of c with respect to time should be zero.
+ stationary equation nothing depends on time. But if we are in the stationary state then what we can derive from the confusion equation is that the divergence of the component should be equal to zero.
+ Okay, very good. Okay, so now I can exploit the divergence theorem. Okay, so you know that I can translate this relationship here into the fact that if I now compute
+ what is the word in English? The flow of this current vector through a closed surface. Okay, this should be equal to zero. So what I want to consider is a closed surface in this three dimensional surface. Okay, so this should be a closed surface and then I compute the flow of this current vector through a closed surface. Okay, so this should be a closed surface and then I compute the flow of this current vector through a closed surface. Okay, so this should be a closed surface and then I compute the flow of this current vector.
+ So this is what I will try to exploit here and to exploit this I want to take into account to simplify my problems. This could be a generic closed surface.
+ I can take a volume and close the phone. The important point is that it should be closed.
+ I want to exploit this mathematical property to be able to say something about my system so what I will do is to choose a volume which is particularly useful for what I want to do.
+ And the first thing that I notice is that my problem with the simple assumption that I made should have a spherical symmetry because the bacterium is spherical, I assume it is a sphere so everything should be completely isotropic with respect to angles and should only depend on the distance from the origin.
+ So what I will do, this means that actually my j which in principle depends on x, the current will actually depend only on the distance from the origin.
+ Okay, so this will be a j of r, where r is the distance from the origin of the point that I am doing.
+ So what is convenient for me to do is the following, say that this is the bacterium, okay, I want to apply that theorem there, so what I will do is to choose a volume which is made by
+ two genetic spheres, one inside the other, okay, so let's say that this is R1 and this is R2, okay, the smallest sphere is rated R1 and the largest sphere is rated R2, okay, then what I know is that the current, my current will have a spheric assembly, so it will be a vector
+ which is radially oriented towards the center of the reference frame, okay, so you see that the current
+ will enter perpendicularly to my volume from the outside to the inside, okay, and the direction is an entering
+ direction on the lattice sphere and an exiting direction in the inner sphere, okay
+ so when I want to compute, when I compute this quantity here, okay
+ this will give me 4pi r1 squared jr1
+ minus 4pi r2 squared jr2 equal to 0
+ okay
+ because I am computing the flow across the outer surface minus the flow through the inner surface
+ is this clear?
+ but this should hold for any value of R1 and R2
+ I chose them in another way
+ so this means that J of R for pi R^2 should be a constant
+ I call this constant A
+ okay
+ so this J of R I found an expression for the modulus of J of R
+ which is some constant
+ divided for pi R^2
+ okay
+ very good
+ okay so I am happy about that
+ I found the expression of the current
+ I mean I need a way to come to this constant A
+ but we will see how we do that
+ but before doing that
+ I now want to exploit the relationship
+ that connects the current with the concentration itself
+ okay
+ so what is the general definition of the current
+ I erased it but the general definition was that J is equal to minus D, the gradient of D of C
+ that's in the solution
+ okay
+ so this is the general, the fixed law, the general definition of current that we gave previously
+ But since we understood that in this case the only variation that we have a spherical symmetry, so the only variation that again with respect to the distance from the origin, it is convenient to re-express the gradient in radial coordinates, in spherical coordinates.
+ And I know that the coordinates that depend on the angles are on 0, the only one that is 0 is the one that depends on the distance from the origin.
+ So what I get is that J of R looking in this direction is minus D derivative with respect to R of C of R.
+ Also the concentration will depend only on the distance from the origin.
+ So now since I am in stationary regime this becomes I can write it as a simple derivative.
+ And I can integrate.
+ So what I get is that C of R is the integral minus 1 over D.
+ The integral from, now we will set the lower integration variable.
+ From the time being, let me put it up to R.
+ From where do I integrate?
+ Well, it is convenient to integrate from the surface of the bacterium.
+ Why?
+ Because I know that once oxygen molecules arrive there, they disappear.
+ So I know that the concentration there should be zero.
+ So the constant here, I should put COR, but CO1 is zero, so I don't have it.
+ Because remember, every time I look at Mollivitzen right here, they get immediately eaten,
+ they get immediately absorbed by the bacterium, so the concentration there, exactly there is zero.
+ Okay, very nice, but now I know that the expression of J of R, because I have just derived it,
+ so this would be R prime, and move it again, A over 4 pi plus 1.
+ Okay, very good, so this would give me minus 1 over D,
+ then the primate is minus 1 over A, so it's plus 1 over 4 pi, 1 over R,
+ and I should evaluate this between small f, small r, and mid r.
+ Okay, and I have an A.
+ Okay, so this would be, this would be A over 4 pi,
+ and I would get one of the small r minus one of the big r.
+ Okay?
+ This should be correct.
+ Very good.
+ And now, and this is C of r.
+ And now finally I have a way to compute my constant A,
+ which is still the quantity that I don't know what it is.
+ Okay.
+ And why is that?
+ Because I know that when I look far away, far away from the bacterium,
+ I should find again the concentration C0 that I would have in absence of bacterium.
+ Okay.
+ Okay.
+ So I take this, the limit for R to infinity.
+ Okay.
+ And I get C infinity, which should be equal to C0.
+ Okay.
+ And this is what it is.
+ So when R goes to infinity, this term is zero.
+ So I can get minus A over 4 pi V.
+ Okay.
+ And in this way, I can rewrite this constant A in terms of the stationary institution of oxygen molecules in the lake.
+ So this will give me A equal minus 4 pi D R sin.
+ Okay.
+ So finally, I'll plug back what I got in the expression of J of R and C of R and I have the final expression.
+ So J of R will be equal to D minus C4 pi V R C0 divided 4 pi A^2.
+ So it's equal to minus D R C0 over A^2.
+ Is this clear if you don't, just stop me.
+ And C of R, C of R is again minus 4 pi V R C0
+ divided 4 pi V A, 1 over R minus 1 over R, and this comes to this, and I can rewrite C of R as C0 which multiplies 1 minus P of R.
+ which is a very intuitive expression because this is telling me that when R goes to infinity, I get C0, okay?
+ but C0 decreases as soon as I get closer to my E.
+ Okay, so this is a very intuitive expression.
+ And now once we have these expressions here, we are ready to do our final computation.
+ We are able to do our final computation because now what we want to compute is the,
+ we have already we have the expression for the intake, now we want to compute
+ which is the number of particles that arrive on the surface of the bacterium per unit time.
+ Ok, so we need to compute the current on the surface of the bacterium multiplied by the surface of the bacterium.
+ Ok, so we need to compute J of R multiplied by 4 pi R squared.
+ This by definition of current is the number of particles that arrive at the unit time on the surface of the bacterium
+ and get absorbed by the bacterium.
+ Very good, so we just compute this quality, we have all the bits to do that.
+ This is J of r, we just compute this for the small r equal d r.
+ This is the absolute value, the sign is not important.
+ The sign is just telling me that the current is a current towards me.
+ So this would be 4pi r squared multiplied by dr c0 divided r squared.
+ Just check that I'm not making any mistakes. I'm not checking with my notes so you have to check.
+ Okay, so if this is correct, this should be equal to 4pi vr0.
+ This looks correct at a qualitative level, just let me check that the result is correct.
+ I told you to set them, we are not interested in the sign, the sign means that this is entering the bacteria.
+ Now we want to compare that with the impact.
+ Okay, so this is correct and this is meaningful for me because this is telling me that the larger is the bacterium,
+ the more oxygen per unit type it will be able to capture, it's reasonable.
+ Then it tells me that the larger is the concentration of oxygen molecules, the larger will be the number of oxygen molecules that the bacterium will be able to capture per unit time.
+ And this quality is also proportional to the diffusion coefficient.
+ This is also correct because the larger diffusion coefficient means that the faster the oxygen molecules will arrive per unit time on its surface.
+ This means everything is qualitative in realismo.
+ Ok, so now our bacterium will be able to survive if this number of oxygen molecules will be larger than its intake.
+ Ok, so we have survival.
+ Means that 4 pi v r c0 should be larger than equal to alpha a cube.
+ If we are in these conditions our bacterium not can survive.
+ Ok, so this is a condition for the radius because you remember the original question was
+ how large can a bacterium be to survive in the lake?
+ so this is a condition for our radius for the size of the bacterium because here we can now erase this
+ this becomes square so this means that r should be smaller or equal of 4 pi d c0 over alpha
+ so this point here sets a critical size such that smaller bacteria than these critical size can survive
+ and larger bacteria can also survive
+ so you see this is an interesting example because we just use the very simple mathematical formulas
+ to investigate, to answer a very meaningful question
+ so this shows you why these techniques are useful
+ to make these simple arguments about questions that can be even deeper and interesting questions
+ ok? Now we will see another one shortly
+ excuse me, I don't understand for the beginning, but is it not that the bigger it is, the larger is the probability to survive?
+ and the reason why it is not like that is precisely because the larger is the bacterium, the more amount of nutrient it requires.
+ Because the larger is the cell in general, the more nutrient you need to make it function.
+ So one needs to compare with the available resources so here we made an argument to see whether available resources are sufficient with respect to the biological advantage.
+ So the next thing that I would like to do is to go one little bit further.
+ We will go in steps. The next step is the following.
+ So we started by introducing the longitudinal equation in its general form.
+ This is this one.
+ So far we have been looking at the case where we said f equal to 0.
+ This is the first thing that we did.
+ We said f equal to 0 then we said okay.
+ In this case we solved the equation with inertia and then we said okay at large times that we did inertia.
+ So basically we raised these two terms and we considered the overdone limit for which we derived the diffusion equation.
+ Okay.
+ So now what I would like to do is to consider the case where we introduce again force back into action.
+ Okay.
+ But we make a simplified assumption we assume that this force is a constant.
+ Usually it depends on the positions.
+ Okay.
+ Or even on time if the system is driven.
+ Okay.
+ But now we will assume the simple case when F is a constant it does not depend on the position.
+ Okay.
+ Very good.
+ So how do things change in this case?
+ Okay.
+ So we assume that this is a constant.
+ Well at the level of the solution of the full equation what you notice is that you see f and delta f they appear exactly in the same way in this equation here.
+ So we can use the techniques that we adopted to derive the solution of the full equation in absence of the force and then substitute delta f with the delta f plus f.
+ So if you remember we had solved the equation and we found that p of t is equal to what to p0 e to the minus t z over n plus integral from 0 to t 30 prime e to the minus 0 over m t minus t prime.
+ Ok and here we have delta f of t prime over m ok in the previous case here we can add if we have also a force we can add an f of t prime in general it depends on time ok so to write this down you need only to require that the force does not depend on the position it can also depend on time ok
+ because the method to solve the equation is exactly the same. So this would be the solution in this case. But then we can see very easily what happens when f is a constant.
+ So let's assume that f is a constant. If f is a constant, let's look at this contribution here. If f is a constant, we have here an infinite from 0 to t over the d prime.
+ Here we can put this from the way. This is easy because now this is a constant, I can put it outside.
+ I do everything that is a constant outside so we have e to the minus z over mt, this contribution here.
+ f over m and then I will get the integral from 0 to t to the d prime e to the z over m prime.
+ And this is nothing else, this integral here, this is e to the minus z over m t, f over m and this gives the integral gives me an m over z multiplied by e to the z over m minus t minus 1.
+ Okay? And then I will get the physical here is e, sorry, it's f over m z, sorry, friction. And then I will get 1 minus e to the minus z over m.
+ So then I will have here, I can rewrite explicitly this term here, so this is exactly what I got in my previous analysis in absence of force and then I will have a contribution to the constant force which is this.
+ So this will be my solution.
+ So this is the complete solution in presence of noise and of an external constant force.
+ Now this gives me already a very interesting fact.
+ Let me erase this. Now let's compute the average value of V.
+ Okay? So let's compute the average value of V.
+ Okay? If I don't have the external force, okay, I would only get the contribution due to the initial condition
+ because the average value of delta F is t. Okay?
+ But now I have this term here so what I get is that this average value at time t is equal to b0 e to the minus z over mt
+ plus f over z, 1 minus e minus z over mt
+ okay this is what I get for the average value
+ and now let's see what happens when I wait a long time
+ so I set t equal to infinity and I find what is the long time limit of this average value of the velocity
+ okay and then what I get is v which is the syntonic limit which is c f
+ okay so if you remember when we discussed the Brownian motion at the beginning at the rank of one and so on
+ we introduced the drift velocity which was the ratio of the external force to the friction coefficient
+ and we recovered this drift velocity also in this context
+ so this is the value that the velocity of our Brownian particle takes
+ if we wait a time which is much longer than the microscopic time scales present in our system
+ which is M over T. This holds for T much larger than M over T, which is the microscopic time scale.
+ So if I look at time scales which are much larger than the microscopic time scale,
+ order of 10 to the minus 11 for a Brownian particle, for a Brownian pollen grain,
+ then I will see that my pollen grain will move erratically,
+ but on average will move along the direction of the external force.
+ Very good, and you see very easily that this is also the stationary solution,
+ because if you take this equation, you set the derivative,
+ you take the average value of this equation,
+ so you look at this equation from the average value,
+ if you take this equation from the average value,
+ you take this and this disappears,
+ and if you take the stationary solution,
+ we need to put this to zero,
+ and you get back exactly that solution there.
+ So this is what happens when you wait for your system
+ to reach the stationary state.
+ The pollen brain will acquire an average velocity
+ which is given by the external bias, the force divided by friction.
+ And what happens in time?
+ In time it happens that you have the contribution of this external force
+ but on top of that you have the effect of the noise
+ which is exactly the same that we have before
+ so if you want to draw a Victorian description
+ in something the same way as we did before
+ so for the one case which is the one which is easier to picture
+ in the case f equals to zero in one t
+ we just draw this picture here
+ where we have the erratic motion of all our particles
+ all initially placed in the origin
+ and the fusion behavior due to noise is related
+ to the fact that this excursion of these trajectories becomes larger and larger
+ as time becomes larger and larger
+ ok, so how is it modified
+ when we have the force
+ we know that we have a bias
+ ok, and so we know that on average
+ our velocity should be equal to this one
+ ok, so on average
+ if this is on average velocity
+ the position is just the integral
+ so it will be just this multiplied by t
+ ok, so let's say that we look at the average position
+ ok, we just need to integrate this
+ along times
+ ok, just to integrate this
+ we go against F over Z divided by D
+ ok, so what happens that on average
+ this is X in 1D and this is D
+ on average if I have a positive force
+ ok, the average value of the position
+ will be a straight line with slope equal to the force
+ divided by friction, ok, so this is the average contribution
+ which here equals zero. But then on top of this average
+ contribution it will have the effect of noise for each single
+ trajectory. So my digital trajectory will do exactly the same
+ that here did around zero, they will do that
+ around this straight line. So my trajectories
+ just make like this and another one
+ this, another one like this
+ this, okay, so everything will be the same
+ until around the average edge
+ and here again the excursion
+ around the average value will be done
+ okay, so if I now
+ using the same tools that we used before
+ if I now compute x
+ we start with the origin, so the original position is 0
+ minus the average value of x
+ squared, now this
+ will be 2 dt
+ this will grow it down
+ like this
+ okay, so we will find precisely the same
+ if you see the end, but with respect to these averages
+ okay, and you can copy this exactly
+ I will not do again the same contribution
+ but it's with the same
+ computations that we did in the previous case
+ okay, so
+ now we are happy about that, so this is
+ at the level of the single
+ trajectory, okay
+ now what happens at the level of
+ the distribution
+ probability, so what happens
+ if I want to describe
+ how the probability of finding
+ a pentagon
+ position x at the time t
+ evolves
+ with time
+ ok
+ if I want to do that
+ ok
+ the easiest way to do this
+ to guess what will be the
+ resulting behavior
+ is to
+ is to look back
+ at the diffusion equation
+ written in terms of the carbon
+ so if you remember in absence of forces
+ we understood
+ that the evolution equation
+ of the probability distribution
+ can be written in this way
+ okay
+ and with the simple argument
+ that we did
+ we understood
+ why it is like that
+ because we understood that
+ why we have this equation because we understood that
+ it just discretizes our x axis
+ and we look at the certain position x
+ how the combination of values
+ inside this interval
+ depends on how many particles
+ arrive here
+ and how many particles go outside
+ on the other side
+ so it depends on the currents
+ from the ingoing and the outgoing
+ current of particles
+ in that specific interval
+ that I am considered in
+ and this is pretty general
+ so what I expect is that this equation still holds
+ what changes in the expression of the current
+ and why does the expression of the current changes
+ before we said that
+ in the previous argument
+ the current was given by the fact
+ if you remember
+ the current across this surface was given by the fact
+ that we have a certain population
+ on the two sides of the surface that we are looking at
+ and since the particles move randomly but here there are no particles from here
+ there would be an intercarment from the left to the right
+ so the only effect that we had in the previous case
+ in absence of external forces was that there is an imbalance of particles
+ and since they move randomly and we start from an unbalanced situation
+ there will be something that tries to smooth this imbalance
+ okay, this is the intuition of what happened, of diffusion
+ you try to make things equal, you try to smooth the original imbalance of your distribution of particles
+ but now there will be still this effect but there will be another effect of all that
+ and this other effect will be given by the fact that there is a force which pushes the particles in some direction
+ okay so let's assume that the previous contribution the one due to the randomness is still the same
+ okay so we would have a contribution to our current which is always given by the imbalance in the distribution of particles
+ okay the one that we had before but then we expect that we will have something else due to the force
+ and we want to conclude with what is this something else
+ okay very good so now this is what we want to do and the argument is very simple
+ so let's again consider these small cartoons here
+ okay let's say that we want to understand that let's say that we have a force
+ acting in this direction okay and we know from the Langevin equation that on average
+ since there is this force on average the particles will move in the direction of the force
+ with a drift velocity V which is equal to F over friction okay this is what we have just seen before
+ okay so now let's say that I want to compute here the tablet through this boundary here
+ and let's say that I take this interval delta x I take it equal to V delta P okay so I'm discriminating
+ a different way from here so I'm taking this delta x as D multiplied by u okay so there will be some particles here and I know that all the particles that are inside here they will move to the next to the next integral because I chose delta x in this way okay so the number of particles
+ that cross from here to here the number of particles that cross this surface here it will be given by what? it will be given by delta x multiplied by p of x okay and so the number of particles
+ the number of particles per unit time okay will be given by this divided by this okay so I need to divide this by this okay and so this will be p of x t okay but v is the force
+ divided by friction so this will be f divided by friction p okay and since this motion is in the direction of f I don't need to consider one half and one way or one half in another way because all of them will move in the direction of the force okay and so I understand that here the piece that I need to add that was in one
+ dimension if I am in the generic dimension I need to put a piece here which is different like this
+ okay and finally since I have these two equations here once I get the expression of the current
+ I can get the equation of the probability so I can run it down
+ and what I get is that the derivative of phi with respect to P
+ it will be equal to D and then I will have minus the gradient of force
+ and this is what I get and this is called the Fokker-Planck equation
+ of course in the case where f is a constant it does not depend on x I can put it outside but in general I should put it inside and this expression also holds when f depends on space
+ ok? so this is called the Fokker-Planck equation
+ so now let's try to make a simple example where we can exploit this more general equation in a biological example
+ so the example that I want to make is an example where we try to estimate the difference in electric potential across the membrane of a cell
+ ok? so what is the situation that we want to consider? the situation that we want to consider is the following
+ we have our cell, this is the inside of the cell and this is the outside
+ ok? cells living in a medium usually in organisms ok? so we are assuming a general situation where we consider a typical cell and a typical environment in which the cell lives
+ ok? very good. so usually both inside and outside the cell you can find ions ok? example plus, cl minus and so on ok? and each of these ions will have a certain concentration ok? so let's look at
+ I don't know I made an example here but I don't remember which one is sodium I think so let's look at sodium but you can take whatever you want ok? and let's assume that we have a certain concentration c-inth of sodium and a certain concentration c-out of sodium ok?
+ ok? so now the interesting thing is that usually the membranes are permeable ok? so this means that it's permeable to some of these ions not to all of them so what we have is that some of these ions can move outside
+ for example sodium comes outside because the membrane is permeable and it's like you have some small holes, some channels, these are proteins which some ions are able to cross and some other ones are not able to cross.
+ So due to the fact that we have this selective permeability of the membrane, what happens is that when you have this movement of particles from the inside to the outside, so typically what we have is that Cint is larger than Cout.
+ Okay, so what we have already seen is that when there is an unbalanced concentration by diffusion molecules that you go from where the concentration is larger to where the concentration is smaller.
+ So these ions will, the current of the ions will go in this direction but when the current of these ions goes in this direction automatically you will have an imbalance of charge.
+ So there will be an excess of charge outside the membrane and a lack of charge inside the membrane.
+ So at the beginning when you have a neutral situation in terms of charges you have only this diffusion effect which tends to bring particles from the inside to the outside because there is an unbalancing concentration.
+ But as soon as this movement starts occurring there will be a balance and therefore there will be an electric field going in the opposite direction and since these are positively charged particles there will be a force pushing back the ions from the outside to the inside.
+ Okay, so here we have two effects. One effect is due to diffusion, namely the fact that we have a non-homogeneous concentration of ions in the inside and in the outside of our cell.
+ This is a diffusion effect and the second effect is due to an external force, we discuss the electric force that is generated as soon as we create a balance of charge.
+ So now, if we look back at this expression here, we will have both these terms contributing to the data.
+ And we want to exploit this to try to understand what happens when my system arrives at an equilibrium situation.
+ So at an equilibrium situation, what I can expect is that first of all, the system becomes stationary, it does not change any time any longer.
+ And we don't have currents. This is the definition of equilibrium. We don't have probability currents.
+ Ok? So to understand where this happens I need to pause that J should be equal to zero. Ok?
+ And so now we will when this happens at some point I will have a certain stationary equilibrium difference in electric potential in my membrane and this will be my estimate of the membrane and intramembrane potential. Ok?
+ Very good, so now I need to find out of this potential difference I need to solve this equation here. Ok?
+ So clearly I want to make my system, my program as simple as possible.
+ So I will assume that everything that happens happens perpendicularly to the membrane and so I am in one dimension basically.
+ I just look along that direction which is the direction along which things happen.
+ Okay, so now let's compute this in here so if this should be equal to zero then what I would have for minus b sorry I need to use this equation but since I use the c for concentration instead of p I need to use c okay this is usually the notation adopted in when looking at biological processes so I need to impose
+ that d is the derivative that suits a one dimension so the derivative of c with respect to x should be equal to f over z okay okay very good so now
+ what i do what i do is that i i solve this problem by just by putting c here and x here so what i do have this thing i remember that the definition of t is k p t of a friction you remember the relation that we found between
+ the friction and temperature okay so we have a bit of this and we have a bit of temperature okay and then at this point what i will have is k p t this equal c equal f the x okay very nice
+ and now i integrate this across the membrane okay so i integrate this from the inside to the outside from inside to the outside okay and i integrate this from the inside to the outside okay so let's continue here i hope i get all the signs correctly
+ so okay so here i get ABT and the primitive of this integral is the logarithm okay so here i will get the logarithm of C outside minus the logarithm of C inside okay and then here i will get what do i get okay
+ okay so now what is F? F is equal to the charge let's say that we are looking at ions with one positive charge so the amount of the charge is E okay and this is multiplied by an electric field so this is the force okay so this term here would be E integral from inside to outside
+ E the X but this is minus the potential difference between the outside and the inside okay so this would be minus E it would be E O the outside minus V inside
+ okay okay so this is correct because this at the level of the signs okay because you see I have an excess of positive charge outside so
+ it's V outside minus V inside which is positive okay so this right hand side I have a negative number okay
+ and here the concentration outside is smaller than the concentration inside so I have a negative number also here so the signs are correctly derived okay
+ okay so I can write this as KDT log of C outside divided C inside okay equal minus that E delta V okay
+ and this gives me this gives me C outside it will be equal to C inside E to the minus beta E delta V okay
+ so I want you to notice that this is a Boltzmann form okay
+ and we will see that this is not a case okay
+ so here we derived this expression that relates the difference of concentration with the membrane potential
+ okay so actually since my original point was to compute the membrane potential
+ I actually I mean I want to focus on this expression here okay
+ and just check what is the scale of this membrane potential in a realistic situation
+ so I now just try to put numbers into this
+ okay so typically typically what happens for sodium
+ so in general for ions with a generic charge I should put here Q which is the charge of the ion
+ whatever it is, so here I will have Q and here I will have P
+ okay so for Na plus Q is equal to E
+ and typically what we have is that the ratio of C yield over C out is equal to 10
+ then what do we need to know, what we need to know is the atomic temperature which is the value of ADT
+ I think we are ready to complete that, this is of the order of 10 to the minus 10 to the 1 joule
+ we can write it down in electron volts and this is typically 2.8 10 to the minus 2 electron volts
+ ok so at this point what we can do, we can use this formula and what we have is Q
+ but Q is equal to E, E delta V over KpT should be equal to the logarithm of 10
+ ok
+ and therefore we can plug inside the numbers
+ and considering that if we divide KpT divided by E in electron volts
+ if we divide KpT written in electron volts
+ by E we just have a volt equivalent
+ ok
+ so KpT over E
+ KpT over E
+ is equal to approximately 140
+ just over here
+ volts
+ and then we plug this inside
+ and what we get
+ for delta V
+ is something that should be
+ approximately
+ 58
+ millivolts
+ ok
+ so from this very simple argument
+ very simple argument
+ exploiting all the
+ simple diffusion processes
+ that we have studied today
+ we give an estimate
+ of the membrane potential
+ which is of the order
+ this is of the
+ the good order
+ so we are not
+ it's not what happens
+ but the order is good
+ and why it's not what happens
+ it's not what happens because usually
+ there are what are called
+ ionic pumps
+ inside
+ cells
+ that keep pumping
+ ions outside
+ the cells
+ or inside the cells one way or another
+ so
+ we don't really are in this equation
+ where diffusion exactly
+ compensates the electric
+ field generated
+ by diffusion itself
+ on top of that effect of these ionic pumps
+ which are not taken into account
+ but the order of magnitude is correct
+ ok so this is
+ a very simple argument but it is
+ the correct order of magnitude
+ ok
+ so now just
+ let me conclude with a
+ very simple
+ a very very simple
+ ok
+ let's see
+ here
+ I'm going to slide here
+ I wonder what's here
+ let me check
+ I'm going to slide here
+ I'm going to slide 6
+ 1, 2, 3
+ no page
+ there is no page
+ maybe we can stop here
+ because we have only 5 minutes left

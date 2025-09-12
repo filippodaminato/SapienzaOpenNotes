@@ -1,0 +1,407 @@
+ Allora, siccome è iniziata la registrazione faccio un breve riassunto di quello che abbiamo
+ detto finora. Stiamo introducendo un sistema archetipico per studiare i comportamenti collettivi
+ in fisica, vale a dire il modello di easing. Nel modello di easing abbiamo un reticolo e su ogni
+ sito reticolare vi è una variabile che noi identifichiamo come un momento magnetico individuale
+ del singolo atomo che si trova sul sito reticolare che può assumere soltanto due valori un valore
+ positivo che corrisponde a questa variabile s con i che indica appunto lo spin sul sito
+ iesimo con il valore più 1 e corrisponde a questo momento magnetico diretto verso l'alto
+ e si meno 1 e corrisponde al momento individuale lo spin diretto verso il basso adesso vogliamo
+ studiare la meccanica statistica di questo sistema quindi quello che dobbiamo fare innanzitutto
+ del sistema è quella che io sto scrivendo scritto jump primo pezzo poi aggiungo un altro e adesso
+ diciamo che cosa sono questi due pezzi quindi il primo pezzo quello che sto indicando in questo
+ momento con la tre con la faccia è un pezzo di allineamento perché è un pezzo di allineamento
+ perché questa jj, questa matrice jj che io sto scrivendo qui è una matrice che specifica
+ che cosa? specifica due cose, chi interagisce con chi, perché se questa qui è zero per
+ una determinata coppia di siti e j vuol dire che i siti di spin e j non interagiscono tra
+ loro e poi qual è il valore dell'interazione. Quello che noi prenderemo è una jj che è
+ uguale a j, cioè un valore positivo, se i e j sono primi vicini, quindi noi prendiamo
+ per esempio in questo disegno, se noi prendiamo questo sito, quali sono i suoi primi vicini?
+ I suoi primi vicini sono questo, questo, questo e questo, quindi in due dimensioni abbiamo
+ 4 vicini sul reticolo quadrato, abbiamo 4 vicini, quindi questa è quella che viene chiamata
+ un'interazione a primi vicini, perfetto, ovviamente a seconda della struttura del reticolo e della
+ dimensione il numero di questi primi vicini e quali sono cambierà, benissimo, allora
+ quindi abbiamo assunto un'interazione che è positiva per i primi vicini, allora che
+ cos'è che succede in questo caso? Quello che succede è che se voi vi chiedete quali
+ sono le configurazioni di spin che ottimizzano questa energia, cioè che rendono l'energia
+ più negativa possibile, quello che voi vedete è che il termine a questo punto lo possiamo
+ riscrivere, meno somme su i minore di j, dove i minore di j indica tutte le coppie di vicini,
+ di j, si, sj, quindi con questa definizione dell'interazione diventa questo il pezzo di interazione,
+ quindi siccome j è positiva, quello che vedete è che per minimizzare l'energia io devo prendere si, sj con lo stesso segno,
+ quindi questo viene chiamato un'interazione di allineamento perché se uno vuole soddisfare questa interazione, quindi rendere l'energia più bassa possibile, deve allineare gli spiri.
+ Allora quello che voi sapete è la meccanica statistica che man mano che voi abbassate la temperatura il termine energetico conta sempre di più nella misura, quindi quello che ci aspettiamo è che
+ se noi andiamo a portare questo sistema a temperatura bassa, le configurazioni che domineranno la vostra misura sono configurazioni che sono più allineate, cioè sono configurazioni in cui più o meno tutti gli spin puntano nella stessa direzione, perché in questa maniera il termine energetico viene utilizzato.
+ Allora la presenza di un campo magnetico esterno, anch'essa cerca di allineare lo spin, ma cerca di allinearlo a se stesso, quindi in presenza di un campo magnetico abbiamo due effetti, abbiamo l'effetto del campo magnetico che cerca di allineare lo spin a se stesso, ognuno degli spin a se stesso, e poi l'effetto dell'interazione, l'effetto dell'interazione è uguale a che ogni spin cerca di allinearsi con i vicini, quindi abbiamo un effetto di tipo cooperativo ma locale, questo dato dall'interazione.
+ E' un effetto dovuto ad un agente esterno che è rappresentato dal campo magnetico. Perché vi sto facendo questi commenti? Perché voi vedete che anche se nel contesto ferromagnetico l'interazione di allineamento e lo spin e il campo magnetico hanno un significato particolare perché effettivamente corrispondono a delle vere interazioni tra spin vicini e alla vera presenza del campo magnetico esterno,
+ però astraendosi dal contesto specifico del sistema fisico che stiamo guardando, questo modello può anche riferirsi a tantissimi altri sistemi, sistemi sociali, sistemi di comportamento non fisico, quindi sistemi biologici, sociali, economici, eccetera, in cui vi sono da un lato delle tendenze di tipo imitativo che sono rappresentate da questo termine di allineamento,
+ ogni singola entità, in questo caso uno spin, cerca di fare quello che fanno le entità vicine, in questo caso allinearsi a quelle dei vicini.
+ E invece un altro termine che è un termine che indica come ognuno di queste entità si rapporta a qualcosa che viene dall'esterno,
+ in questo caso è il campo magnetico ma in altri contesti può anche essere qualcosa altro, può essere qualsiasi tipo di stimolo esterno che agisce sulle singole entità del sistema.
+ Ma queste applicazioni, queste declinazioni di questo modello le vedremo dopo, però adesso rimaniamo al modello in sé, da un punto di vista matematico e che cosa possiamo capire da questo modello e dal suo strutto riguardo all'idea del ferromagnetico che stiamo guardando adesso.
+ Allora che cosa dobbiamo fare adesso se vogliamo fare la meccanica statistica di questo sistema? Dobbiamo fare quello che voi avete imparato a fare nel corso di meccanica statistica del terzo anno, quindi siccome noi siamo interessati a studiare un sistema a temperatura, a presenza di un bagno termico, dobbiamo utilizzare l'ensemble canonico, quindi la quantità che dobbiamo calcolare, da cui poi calcoliamo tutte le variabili termodinamiche, è la funzione di partizione.
+ Quindi che cos'è la funzione di partizione? La funzione di partizione, adesso fatemi indicare con S l'insieme di tutti gli spin, in maniera concisa, quindi S sarà uguale a S1, S2, Sn, se abbiamo n spin nel nostro sistema, quindi Z sarà la somma su S di E elevato a meno beta H di S.
+ Una volta che noi abbiamo calcolato Z, quello che possiamo fare è calcolarci la nostra misura di Boltzmann, cioè la probabilità con cui ogni singola configurazione si realizza, che non è altro che è elevato a meno beta H di S su Z, e con questa probabilità calcoliamo tutto.
+ Una qualsiasi osservabile, ne possiamo calcolare la media, ne possiamo calcolare le fluttuazioni e possiamo calcolare tante altre cose.
+ Ma che fluttuazioni queste le avevate già viste nel corso di meccanica statistica, adesso riprendiamo le definizioni, però poi voglio anche spiegarvi che cosa sono delle altre quantità importanti che sono quelle che vengono dette funzioni di correlazione.
+ Quindi allora adesso per esempio una delle quantità classiche che uno si calcola è il valore medio dell'energia, quindi immaginiamo che vogliamo calcolare il valore medio dell'energia, come si fa a calcolare il valore medio dell'energia?
+ Sto facendo ripassioni meccaniche statistiche perché magari alcuni di voi l'hanno fatto due anni fa e non si ricorda, quindi quello che devo fare è utilizzare questa misura e fare la media dell'osservabile che corrisponde a questa quantità, se nel caso dell'energia questo osservabile è l'emiltoniana.
+ Quindi quello che devo fare è, questo simbolo è una media sulla misura che stiamo considerando e quindi questa cosa non è altro che questa quantità qui.
+ Ok? Quindi questa è l'energia media. Analogamente se io voglio calcolare il valore medio di E quadro, devo fare la stessa cosa.
+ Ok, qua ci metto il quadrato. E così, diciamo, se al posto di H ci metto qualsiasi altra osservabile funzione delle mie configurazioni, calcolo la media nella stessa maniera.
+ Quindi avrò che O medio sarà dato da 1 su Z.
+ Una volta che voi avete calcolato Z nel solito modo che avete imparato, potete calcolare l'energia libera, potete calcolare l'introvia, potete calcolare tutto quello che vi parla.
+ Allora ci sono delle relazioni che sono particolarmente importanti, adesso andremo a vedere.
+ Però prima di andare nel dettaglio di queste relazioni, fatemi dare una descrizione un pochino concisa
+ che poi vedremo, però fatemi dire che cosa succede in questo sistema.
+ Allora, in questo sistema in particolare una delle quantità medie che voi potete calcolare
+ e che ha un ruolo particolarmente rilevante è quella che si chiama il parametro d'ordine.
+ Che cos'è il parametro d'ordine?
+ Il parametro d'ordine è un osservabile che ci indica, che descrive se il nostro sistema
+ si trova in uno stato piuttosto che in un altro. In questo caso, per questo sistema, quali
+ sono i possibili stati in cui il sistema si può trovare? Sostanzialmente quello che
+ succede è che noi abbiamo due situazioni diverse, lo capita anche intuitivamente. Quello
+ che abbiamo visto è che l'Emiltoniana ha un termine di allineamento tra gli spin locali.
+ Allora, da un punto di vista qualitativo e anche intuitivo, quello che succede è la
+ seguente cosa. Quando io sono ad alta energia, ad alta temperatura, che cos'è che dominerà?
+ Ad alta temperatura dominano i pezzi entropici della misura. Alta temperatura significa che
+ c'è un grande rumore che agisce, il rumore termico che agisce su ognuno degli spin. Questo
+ rumore termico tenderà a fare fluttuare in maniera aleatoria ognuno degli spin in maniera
+ molto forte. Questo effetto sarà più forte dell'effetto che tende ad allineare uno spin
+ con i vicini. Globalmente questo che cosa significa? Significa che il vostro sistema non sarà allineato
+ quindi uno spin sarà in una direzione, uno spin sarà in un'altra e se voi vi andate a guardare
+ quella che viene chiamata la magnetizzazione che adesso sto definendo, che è definita così
+ non normalizzata, somme sui del valore medio di SI, questa qui vi viene uguale a 0
+ perché ogni spin flutto indipendentemente dagli altri, il suo valore medio è 0 e quindi globalmente questa magnetizzazione, cioè il grado di allineamento globale del sistema è 0
+ quindi questa è una fase paramagnetica in cui il sistema non è magnetizzato
+ quello che succede però è che man mano che poi abbassate la temperatura, l'effetto entropico che è legato al rumore termico diventa sempre più piccolo
+ e quindi quello energetico invece domina sempre di più, quello energetico tende ad allineare uno spin con i due vicini
+ questo effetto è un effetto del baccatena, io mi allineo con i vicini, i vicini si allineano con i due vicini eccetera eccetera
+ quando questo effetto globalmente è più forte, più grosso del rumore termico il sistema si magnetizza
+ quindi se voi andate, quindi questo diciamo questa è a temperatura alta, avrà questa situazione
+ a temperatura bassa, ok, quello che avrò è che M invece sarà diverso da zero, il sistema
+ si è magnetizzato, perfetto, quindi abbiamo ad alta temperatura e a bassa temperatura abbiamo
+ queste due possibili situazioni, sistema ferromagnetico e sistema paramagnetico, cosa succede quando
+ io per esempio parto a temperatura alta e man mano comincio ad abbassare la temperatura,
+ quello che succede è che ci sarà in questo particolare sistema un punto in cui il sistema passerà
+ dallo stato paramagnetico al sistema magnetizzato, questo punto è una transizione di fase perché
+ questo cambiamento avviene in maniera collettiva, avviene ad un particolare valore della temperatura
+ dati gli altri paramagneti del sistema, quindi se voi in particolare andate a guardare quello
+ che il comportamento di questa magnetizzazione, conviene guardare la quantità, l'analoga
+ quantità intensiva, vedete questa magnetizzazione cresce come il numero di spin, quindi cresce
+ come la taglia del sistema, ma io posso definire una magnetizzazione intensiva, quindi se adesso
+ vado a guardare il comportamento di questa magnetizzazione intensiva nel tempo, poi vedremo
+ come ricavare questa curva, però prima vi dico cosa succede, il comportamento è un comportamento
+ di questo tipo qui, quindi questa magnetizzazione sarà nel limite termodinamico, nel limite termodinamico
+ fino ad una certa temperatura di transizione sarà zero e poi ad un certo punto diventa
+ diverso da zero, questo punto che ho chiamato Tc è la temperatura a cui avviene la transizione,
+ quindi in questa regione qui il sistema è paramagnetico disordinato e in questa regione
+ qui è ferromagnetico, quindi qua nella regione paramagnetica domina il disordine, qui nella
+ regione ferromagnetica c'è quello che viene chiamato un ordine globale, quindi questa
+ è già una cosa interessante il fatto che vi sia una transizione di ordinamento, il modello
+ di Ising è considerato come un archetipo delle transizioni di ordinamento, vi è un'altra
+ caratteristica e poi vi potete dire va bene t uguale a 0 tutti si allineano perfettamente
+ quindi qua c'è un n uguale a 2, ma vi potete dire va bene ma come si allineano questi sping?
+ Allora immagino di essere temperatura molto bassa, quindi tutti, così tutti sono perfettamente
+ allineati l'uno all'altro, se voi ci pensate abbiamo due possibilità, o sono tutti allineati
+ così, oppure sono tutti allineati così, quindi voi vedete che in realtà io qui ho detto
+ che alla temperatura c'è uno stato, ma in realtà ce ne sono due possibili, sono questi
+ due stati, uno che corrisponde a magnetizzazione positiva e uno che corrisponde a magnetizzazione
+ negativa, quindi io dovrei metterci qui anche l'altra branca di questa curva, uno ne mette
+ uno per economia di disegno, però ce ne sono in realtà. Questo fenomeno è un fenomeno
+ che viene riferito come una ruota spontanea della simmetria, che cosa significa? Significa
+ che voi avete un sistema che ha una simmetria, in questo caso se voi andate a guardare la miltoniana,
+ torniamo indietro alla miltoniana, voi vedete che questa è miltoniana in assenza di campo
+ magnetico, adesso stiamo guardando le cose in assenza di campo magnetico, questa è miltoniana
+ che ha una simmetria per inversione dello spin, cioè se voi prendete tutti gli spin e li
+ invertite, le miltonia rimane da stessi, per qualsiasi configurazione, quindi abbiamo
+ questa simmetria, lo stato di equilibrio paramagnetico, dove la magnetizzazione è
+ zero, rispetta questa simmetria, però quando io sono a bassa temperatura e il nostro sistema
+ si trova o qui o qui, questa simmetria è rotta, perché? Perché in questo scato tutti
+ gli spin sono in alto e se li flippo tutti quanti non è che rimangono allo stesso stato
+ cambio stato, quindi va passo dallo stato a magnetizzazione positiva a quello a magnetizzazione
+ minima. Quindi nella fase a bassa temperatura, sotto Tc, sotto la temperatura di transizione
+ io ho una rottura spontanea di simmetria, perché il sistema a livello macroscopico, qua stiamo
+ parlando di stati macroscopici, non di microstati, di stati macroscopici, il sistema a livello
+ di stato di equilibrio macroscopico si può trovare in due diversi stati di equilibrio,
+ ognuno dei quali singolarmente preso rompe la simmetria iniziale dell'emiltoniale del
+ vostro sistema. Ovviamente se io considero tutti e due gli stati, allora l'esimmetria
+ è restaurata, però ogni singolo scato ergolico, ogni singolo stato di equilibrio individualmente
+ è considerato la rompe. Questo fenomeno viene chiamato rottura spontanea della simmetria.
+ Perfetto, adesso avete un po' l'idea globale di come si comporta questo sistema. Quello che cercheremo adesso di capire è di studiarlo, di capire come si può ricavare questa curva, di capire quali sono le proprietà interessanti che hanno interesse a studiare, che caratterizzano questo sistema e le proprietà che avvengono qui intorno alla transizione dove, come vedremo, il sistema si comporta in maniera collettiva.
+ Allora, prima di andare a vedere questo nel dettaglio, cioè cercando di risolvere un po' di approssimazione a questo modello,
+ quello che andremo a fare è a introdurre certe relazioni e certe quantità che ci saranno utili poi nello studiare il sistema stesso.
+ Allora, se voi provate a calcolare le quantità che abbiamo detto prima, diciamo per esempio dell'energia,
+ quindi prima abbiamo detto se proviamo a calcolare il valore medio di E, se proviamo a calcolare il valore medio di E quadro,
+ quello che voi troverete, e anche quindi quella che viene chiamata fluttuazione, che è definita come E meno il valore medio di E al quadrato,
+ che se vi fate il calcoletto vi viene uguale a E al quadrato, basta sviluppare il quadrato e vi ritrovate questa relazione.
+ Allora, se voi vi andate a calcolare questo delta E al quadrato con le regole della meccanica statistica,
+ quindi funzione di partizione, calcolate le mettoniane, fatele meglio, eccetera, eccetera,
+ quello che trovate è questa relazione che voi già avete visto in meccanica statistica al terzo anno,
+ e questo è il motivo per cui io non la ripeto qui, ve la dopo è scontata.
+ Quello che vedrete è che c'è una relazione che inisce la capacità termica,
+ il calore specifico del vostro sistema a queste quantità, le fluttuazioni di energia.
+ Allora, qual è questa relazione?
+ Questa relazione voi l'avete già appunto studiata e vi dice questo,
+ che la capacità termica, che non è altro che la variazione dell'energia media rispetto alla temperatura,
+ è uguale a beta quadro per la fluttuazione quadratica media.
+ Sto mettendo Kb uguale a 1 ad A per 2.
+ Perfetto, allora questa quantità qui, questa relazione qui,
+ noi normalmente insistiamo molto su questa relazione nel corso di meccanica statistica per vari motivi.
+ Il primo motivo è quello che vi dice che siccome la capacità termica è data da n volte il calore specifico,
+ volume costante, e questa è uguale, come abbiamo scritto sopra, beta quadro, delta e quadro.
+ Questa relazione ci dice che delta e quadro è scala come n,
+ quindi la fluttuazione quadratica dell'energia scala come n,
+ quindi la fluttuazione quadratica alla un mezzo, quindi la fluttuazione lineare dell'energia scala come radice di n.
+ Ok? E questa cosa, perché è importante? Perché vi dice che le fluttuazioni relative, cioè delta quadro medio alla un mezzo diviso e medio, come andranno? Andranno come radice di n su n, perché l'energia estensiva va come n, le fluttuazioni abbiamo visto che vanno come radice di n, quindi questa quantità va come 1 su radice di n.
+ Le fluttuazioni relative dell'energia tendono a zero, quindi l'energia media, man mano che il sistema, che prendete sistemi sempre più grandi, l'energia del vostro sistema sarà sempre più, in termini relativi, vicino al suo valore medio, o se volete l'energia intensiva tende a un valore ben specifico quando il numero di componenti tende all'infinito.
+ Quindi diciamo questa è una relazione utile che vi fa vedere sostanzialmente che nel limite termodinamico vale l'equivalenza degli alzami.
+ Quindi questo è uno dei motivi per cui noi normalmente parliamo di questa relazione, ci impieghiamo tempo su questa relazione nel corso di meccanica statistica.
+ Però questa relazione, quello che adesso invece interessa a me qui, vi dice anche un'altra cosa. Questa relazione vi dice che vi è una quantità, che è questa, che misura le fluttuazioni spontanee del vostro sistema a una certa temperatura.
+ La delta e quadro mi dice, vabbè, a una certa temperatura l'energia ha un certo valore medio, però se io la vado a guardare, istante per istante fluttuerà attorno a questo valore medio, fluttuerà un pochino.
+ Quindi a temperatura fissata, la temperatura è il parametro che mi controlla l'energia, quindi è la variabile, la forza termodinamica che mi controlla l'energia.
+ Se io questa la fisso, metto a temperatura fissata, l'energia assume un colore medio ma anche fluttua, quindi queste sono le fluttuazioni spontanee a temperatura fissata, al membro destro.
+ Al membro sinistro invece che cosa c'è? Al membro sinistro vi è una quantità che vi dice come l'energia varia quando voi variate questo parametro, quindi che cosa succede al vostro sistema quando voi cambiate uno dei parametri esterni al vostro sistema, quindi questa a sinistra è una funzione di risposta,
+ vi dice come risponde il vostro sistema quando voi cambiate qualcosa dall'esterno, quindi questo è un esempio di una relazione tra quelle che vengono chiamate relazioni di fluttuazione e dissipazione, una di quelle relazioni che vi uniscono come fluttuo il sistema in maniera spontanea a parametri esterni fissati, cioè le fluttuazioni spontanee, membro destro, e come reagisce il sistema, come risponde il sistema a delle variazioni esterne.
+ Quindi unisce risposta a stimoli esterni con fluttuazioni in assenza di variazioni esterne.
+ Allora, questa relazione qui dell'energia del calore specifico voi le fate già viste, a me però ne interessano altre, perché uno questo discorso tra come connettere la risposta del sistema alle fluttuazioni spontanee lo può fare per qualsiasi altra variabile.
+ Quindi in particolare adesso noi andremo a guardare delle altre variabili che sono in generale interessanti, quindi però prima di andare a dire come legare le fluttuazioni spontanee agli stimoli esterni cerchiamo di generalizzare un pochino i concetti che sono entrati in questa relazione, cioè la quantità che abbiamo a destra che misura fluttuazioni di energia o se volete come l'energia è correlata a se stesse,
+ e dall'altro lato funzione di risposta. Adesso vediamo in generale come possiamo generalizzare queste quantità.
+ Per fare questo la prima cosa che facciamo è di introdurre le funzioni di correlazione.
+ Ok? Che sono delle quantità che giocheranno dei ruoli molto importanti.
+ Allora immaginiamo di avere due variabili che sono funzioni dello stato microscopico del nostro sistema.
+ Le chiamerò in maniera del tutto generale A di S e B di S.
+ Allora quello che io voglio definire adesso è la funzione di correlazione tra A e B, cioè come A è legata a B in termini statistici.
+ Questa come viene definita? Viene definita come il valore medio di A di S e B di S.
+ Allora, questa è una funzione di correlazione normale, quindi vi dice, questa è una quantità che tende a dirvi in media quanto A e B fanno la stessa cosa.
+ Va bene? Quindi per esempio, adesso poi faremo degli esempi pratici così sarà più intuitivo anche capire che cosa significa queste quantità.
+ Quindi questa è quella che viene chiamata funzione di correlazione normale.
+ Poi vi è invece quella che viene chiamata funzione di correlazione connessa.
+ Cosa è la funzione di correlazione connessa?
+ C, A, B, connessa.
+ La funzione di correlazione connessa è sempre una funzione di correlazione,
+ ma invece di connettere direttamente A e B, io connetto le loro fluttuazioni.
+ Quindi scrivo A di S meno il valore medio di A, B di S meno il valore medio di B.
+ E questo se svolgete i prodotti lo potete anche scrivere come la parte normale della correlazione,
+ quindi diciamo quella non con S, meno il valore medio di A, il valore medio di B.
+ Quindi questa è la funzione di correlazione, la correlazione con S e vedremo che gioco un ruolo molto importante.
+ Allora, perché vi sto introducendo questa funzione di correlazione?
+ Se pensate all'esempio che abbiamo fatto prima, se io adesso prendo A uguale ad H di S, cioè all'energia,
+ e prendo B uguale sempre ad H di S, cioè ad E, allora voi vedete che C connessa E non è altro che quello che prima,
+ nella prima formula, avevamo chiamato delta e quadro. Quindi nella relazione di fluttuazione di situazione
+ che avevamo visto prima, al membro destro non c'era altro che un caso particolare di una funzione di correlazione,
+ in quel caso è una funzione di autocorrelazione, cioè di un osservabile con se stessa, connessa, perfetto, però in generale questa è una generalizzazione,
+ quindi io posso prendere anche A e B che sono diverse e ho delle quantità medie più generali, perfetto, allora, adesso perché vi voglio dire questa cosa,
+ perché la funzione di correlazione connessa è importante, adesso cerco di farvi capire perché, allora adesso guardiamo il nostro sistema particolare e scegliamoci come ADS un singolo spin,
+ io posso sceglierla come mi pare, non è detto che questa ADS debba essere per forza la somma sui come l'Emiltoniana, l'Emiltoniana è la somma sui e j, j, j, si, sj, quindi somma su tanti, ma ADS può essere anche un singolo spin, la posso scegliere come mi pare, basta che sia una funzione dello stato microscopico del sistema,
+ quindi io prendo ads uguale ad s con i e bds uguale ad sj, ok? Adesso calcoliamoci in questo caso che cos'è la funzione di correlazione,
+ quindi la cij, ok, fatemi la chiamare così, sarà data dal valore medio di s con i, valore medio di s con i, quindi che cosa misura questa quantità?
+ Questa quantità è la funzione di correlazione normale, non quella connessa, ogni volta che i due spin hanno la stessa direzione avrà un valore positivo, ogni volta che hanno invece il segno opposto avrà un segno negativo, quindi questa quantità mi misura quante volte, diciamo voi quando pensate a una media termodinamica,
+ se volete voi potete pensare, ricordatevi qual è il significato di misura di equilibrio, il significato di misura di equilibrio è quello che in realtà, quello che succede nel vostro sistema è che il vostro sistema evolve nel tempo e a ogni istante la configurazione microscopica del sistema assume dei valori diversi, però se si è nelle situazioni opportune, cioè se il sistema ha thermalizzato, quando si è raggiunto l'equilibrio,
+ e cosa succede? Che voi, se voi andate a fare la media del vostro sistema sul tempo, questa media sul tempo può essere espressa come una misura,
+ che è quella che noi chiamiamo misura di equilibrio, questo è il significato della misura di equilibrio.
+ Quindi un'interpretazione di questa quantità qui, questa quantità qui, questa funzione di correlazione qui, vi dice se voi andate a guardare il vostro sistema all'equilibrio,
+ ma lo andate a guardare microscopicamente e lo seguite nel tempo, vi dà un'idea di quanto spesso i due spin assumono gli stessi valori.
+ Analogamente la funzione di correlazione cj connessa, da che cosa sarà data? Sarà data dalle fluttuazioni,
+ di s con i s j vale a dire, abbiamo detto prima, s con i meno s con i medio, s con j meno s con j medio, vale a dire, questa cosa l'abbiamo già scritto prima, è uguale ad s i s j, la parte non connessa, meno valore medio di s i, valore medio di s j.
+ Quindi questa è una quantità importante che è la funzione di correlazione tra gli s i, questa quantità, qual è il significato di vero, qual è la differenza tra questa e questa?
+ Questa quantità vi dice quanto sono simili s i e s j, questa seconda quantità che cosa vi dice?
+ Quanto s i e s j fluttano nello stesso modo, quindi vedete questa seconda sarà tanto più grande, perché ogni tanto più grande,
+ quanto il delta s i e il delta s j sono uguali, ma i delta s i e il delta s j che cosa sono? Sono le fluttuazioni dello spin i e dello spin j rispetto al valore medio del sistema, quindi vi dice quanto gli spin fluttuano nella stessa maniera, va bene?
+ Allora perché vi sto dicendo che queste funzioni sono importanti e soprattutto sono importanti le funzioni di correlazione connessa? Guardiamo un esempio, allora l'esempio che adesso io vi voglio fare è l'esempio proprio,
+ del sistema che stiamo andando a guardare, quindi facciamo un caso che è quello che mi interessa, immaginiamo di avere un sistema in cui non ho interazioni, quindi prendiamo per esempio siccome stiamo guardando il modello di easing, abbiamo detto che il modello di easing ha questa espressione,
+ nella versione ferromagnetica dove ho specificato che l'interazione a questo segno, i minore dj tra freccette, normalmente viene indicato per dire interagisco soltanto con i primi vicini.
+ Allora no, allora mi pare che l'ho scritto così, è solo un fattore che è arbitrario ovviamente, però poi devo rimanere fedele a me stessa e al futuro, altrimenti mi ho scritto come meno somme su i e j vicini, ok? Questo intendo vicini, perfetto la somma sui vicini.
+ Benissimo, allora a questo punto il modello completo abbiamo detto essere meno somme sui, h con i, s con i, ok?
+ Allora adesso facciamo finta che non ci siano le interazioni, quindi tolgo questo pezzo qua.
+ In questo caso il modello è semplicissimo da risolvere, perché?
+ Se io mi voglio calcolare z, cosa devo fare per calcolare z alla funzione di riportezione?
+ fare la somma su tutti gli s di e elevato o meno beta hs ok e quindi questo è cosa sarebbe sono su
+ s1 s2 la testa e siccome il tonale non interagente c'è lo spaziale fattorizza quindi però è elevato
+ meno beta più beta perché c'è poi me h1 s1 elevato beta h2 s2 eccetera eccetera eccetera ok quindi
+ questa mi viene come ci aspettiamo nel caso di un sistema non interagente il prodotto su tutti
+ gli ok di che cosa della z del singolo spin i la z del singolo spin i la che cosa è data è data
+ dalla somma su si che può essere uguale più o meno uno di elevato a beta a caroni facciamo il caso
+ semplicissimo l'esempio in quel campo magnetico uguale da perduto quindi questo non c'ha neanche
+ la riqui va bene possiamo lasciare uguale non fa nessuna differenza quindi adesso facciamo questa
+ cosa quindi questo che cosa mi viene sarà devo sommare il pezzo con esso uguale ad una che mi verrà
+ h con i e poi ci devo mettere il pezzo con il meno ok quindi questo mi viene uguale a due volte il
+ coseno e iperbolico di beta e benissimo a questo punto è anche facile calcolarsi il valore medio di
+ s con i del singolo spin abbiamo detto che questo è il caso non interagente quindi la misura si
+ fattorizza quindi l'abbiamo visto per le z ma vale anche per la misura c'è la p di s sarà data
+ dal prodotto con i delle p di singolo spin perché sono non interagenti e quindi il valore medio di
+ s con i lo faccio con la misura del singolo spin quindi sarà data dalla somma s con i
+ uguale più o meno 1 di e elevato a meno beta h di s con i su z con i per s con i quindi
+ questo sarà uguale sono passaggi banali ma li facciamo perché è un po' un ripasso anche
+ per chi non ha visto queste cose da tanto tempo quindi questo sarà h con i s con i s con i diviso
+ z che l'abbiamo già calcolata ma la ripetiamo e quindi questo mi viene uguale a che cosa mi viene
+ uguale ad e elevato beta h con i e il pezzo con l'S con i uguali ad 1 ok poi c'è quello con meno 1
+ quindi meno e elevato meno beta h con i diviso z con i ricordandomi l'espressione di z con i
+ questo mi viene uguale la tangente iperbolica di beta h con i ok quindi questo ce lo segniamo
+ è lo perché ci servirà dopo quindi nel caso non intelligente s con i è uguale alla tangente
+ iperbolica di beta ok benissimo perfetto ma allora adesso che cosa devo fare adesso
+ immaginiamo siccome stavo parlando di correlazioni torniamo indietro alle correlazioni immaginiamo
+ che adesso voglio calcolare quella che avevamo definito prima cioè la funzione di correlazione
+ tra lo spin i e lo spin j quella normale e quella connessa quindi ci calcoliamo mettiamo a calcolarci
+ s con i s con j ok quindi in questo caso il sistema è non interagente quindi quando io vado a calcolare
+ questa media questa media inizialmente la media è sulla misura totale quindi sarebbe somme su tutti
+ di s della p di s totale per s con i s con j ok ma abbiamo detto che la p di s si fattorizza
+ perché il sistema è non interagente quindi questa mi verrà uguale alla somma su s1 sn
+ di p di s1 p di sn per s con i s con j allora di tutte queste s quelle che contengono i e j
+ rimangono le altre si sommano a 1 perché la p è normalizzata quindi questa mi viene la somma su s con i di p di s con i s con i per la somma su s j della p di s con j s con j quindi questa vi fa valore medio di s con i valore medio di s con j ok quindi quello che abbiamo trovato è che nel caso in cui non ho interazione
+ la funzione di correlazione è uguale del valore medio ss j è uguale semplicemente al prodotto delle medie
+ dei singole delle singole variabili ed è diversa da zero ok che cosa adesso sostituire se voi sostituite
+ ad ss j l'espressione che abbiamo appena trovato trovate quanto vale questa correlazione dipende
+ dal valore del campo magnetico ovviamente più forte il campo magnetico più questa correlazione sarà
+ perfetto allora a questo punto andiamoci a calcolare invece quella connessa quindi abbiamo detto
+ che la cj è uguale ad si sj quindi sarà uguale alla tangente iperbolica di beta con i tangente
+ iperbolica di beta con j ok perfetto adesso andiamo invece a guardare quella connessa quella
+ connessa la definizione qual è si sj meno si sj questa è la definizione sempre in qualsiasi
+ caso qualsiasi sia limite questo caso particolare però che cosa abbiamo visto che questo primo
+ pezzo non è altro che s con i s con j quindi quando vado a togliere s con i s con j quello
+ che trovo è zero ok allora questo è il punto a cui volevo arrivare quello che volevo arrivare
+ la seguente cosa le funzioni di correlazione quelle non connesse quindi quelle senza la c in alto che
+ cosa vi dicono vi dicono quanto due variabili si stanno comportando nella stessa maniera però
+ diciamo due variabili si possono comportare nella stessa maniera per due motivi diversi un motivo è
+ che c'è qualcuno dall'esterno che gli fa fare la stessa cosa quindi in questo caso in particolare
+ io metto un campo magnetico e metto per esempio un campo magnetico positivo allora ognuno degli spin
+ si allinea al campo magnetico individualmente e quindi per forza faranno tutti più o meno la stessa
+ cosa perché ognuno si allineano si allineerà al campo in questo caso la collazione forte perché
+ ognuno individualmente segue lo stesso segnale sterno invece che cosa succede qual è un'altra
+ possibilità che può succedere altra possibilità che può succedere è che invece le due variabili che
+ state state considerando in questo caso gli stim si comportano nella stessa maniera non perché c'è
+ un agente esterno e tutte e due individualmente stanno seguendo l'agente esterno quanto perché
+ c'è un'interazione che le fa comportare nella stessa maniera nel caso specifico del ferromagnete perché
+ siccome tendono non nell'esempio che abbiamo fatto quello interagente ma in generale modelli siccome c'è
+ un termine di interazione che dice io mi comporto come il vicino al vicino si comporta come il vicino
+ allora questo meccanismo fa sì che due spin si tendino a comportarsi nella stessa maniera a causa
+ di questa catena di di passaggi imitativi locali ok quindi la funzione di correlazione due variabili
+ si possono comportare nella stessa maniera o perché individualmente seguono l'agente esterno oppure
+ perché c'è un meccanismo di interazione che le fa comportare nella stessa maniera, ma allora è importante distinguere queste due situazioni perché quando io guardo un sistema e vedo che si comporta in maniera collettiva io voglio poter capire se questo comportamento collettivo è dovuto al fatto che c'è qualcosa dall'esterno che le fa agire tutte quante nella stessa maniera oppure se c'è un meccanismo di interazione locale all'interno del sistema che si è propagato
+ e quindi il comportamento collettivo è una conseguenza dell'interazione presente tra gli individui
+ allora la quantità che mi permette di capire questa cosa è proprio la funzione di correlazione connessa
+ perché? perché come vedete da qui la funzione di correlazione connessa, non quella normale, quella connessa
+ nel caso in cui non ci sono interazioni è zero
+ quindi se io prendo un sistema, vedo che si sta comportando in maniera collettiva
+ vado a guardare qual è la funzione di correlazione connessa
+ se la funzione di correlazione connessa è uguale a 0
+ allora io posso subito dire che il comportamento collettivo
+ il fatto che le variabili tendono a comportarsi nella stessa maniera
+ dipende dal fatto che io ho qualcosa di esterno
+ per esempio un campo magnetico in questo esempio
+ se invece la funzione di correlazione connessa è diversa da 0 in maniera sostanziale
+ questo significa che il comportamento collettivo che io sto osservando
+ è frutto delle interazioni che ci sono all'interno del nostro sistema
+ allora, a questo punto voi potete dire
+ vabbè, ma tanto se io conosco le Miltoniana
+ lo so già qual è la causa delle funzioni di correlazione che io osservo
+ questo è giusto
+ nel caso particolare del modello di ISI che noi stiamo guardando adesso
+ è proprio quello che succede
+ io in questo caso qui non ci ho messo interazione
+ ho trovato una funzione di correlazione connessa che era uguale a zero
+ se invece ci mettevo la funzione di correlazione
+ la parte di interazione, la parte con le J
+ questa qui che ho tagliato in questo caso
+ se io ci rimetto questa parte qui
+ e mi ricardo con le funzioni di correlazione connesse
+ vedrò che è diversa da zero
+ quindi quando studio un modello con l'emiltoniana
+ data questa cosa non è particolarmente illuminante
+ però lo è quando voi fate un po' il processo opposto
+ che è quello che spesso avviene in biologia
+ cioè voi osservate un sistema
+ e non è che sapete qual è la sua emiltoniana
+ voi osservate un sistema
+ misurate certe quantità
+ e il problema che voi dovete un po' affrontare
+ è quello contrario
+ rispetto a quello che stiamo facendo noi adesso
+ cioè voi misurate certe quantità
+ guardate certi osservabili
+ che sono osservabili medie
+ cioè l'analogo di questi A-medio
+ B-medio che noi abbiamo scritto qui
+ voi osservate delle cose
+ e dovete cercare di capire
+ che cosa ci sta dietro questo comportamento
+ quindi in qualche modo
+ voi l'emiltoniana
+ se vogliamo parlare in termini un po' di nastratti
+ voi l'emiltoniana del sistema non ce l'avete
+ la dovete indovinare
+ quindi dovete capire dalle osservazioni
+ che cos'è che determina il comportamento
+ che voi state osservando
+ allora questo calcoletto che noi abbiamo fatto
+ che vi dice che in assenza di interazioni
+ le funzioni di correlazione sono connesse
+ sono uguali a zero
+ è una cosa che voi potete andare a guardare
+ benissimo sui dati
+ cioè voi avete dei dati
+ avete un sistema che si comporta in maniera collettiva
+ e andate a calcolare
+ rispetto agli osservabili rilevanti
+ e andate a calcolare le funzioni di correlazione connesse
+ e se le funzioni di correlazione connesse sono uguali a zero
+ allora sicuramente ci sarà qualche agente esterno
+ che determina il comportamento collettivo che state osservando
+ e invece le funzioni di correlazione sono diverse da zero
+ allora quello che dovete cominciare a pensare
+ è che ci sia un qualche tipo di interazione tra gli individui
+ che determina quello che voi avete visto
+ vi faccio un esempio concreto e anche a voi vicino
+ così capire anche meglio il senso e l'importanza di questa osservazione
+ da un punto di vista matematica alla fine banale
+ come forse alcuni di voi sanno
+ quello di cui io mi occupo tra le altre cose
+ è lo studiare il comportamento del collettivo negli animali
+ quindi per esempio negli stormi di uccelli
+ allora voi vedete questi stormi di uccelli
+ e questi stormi di uccelli viaggiano tutti insieme
+ allora uno si può cominciare a chiedere
+ ma questi uccelli viaggiano tutti insieme
+ perché seguono un leader
+ per esempio
+ questo è quello che succede
+ ci sono casi specifici di uccelli
+ in cui succede questo
+ per esempio le oque che viaggiano in formazione
+ ci sono altri esempi in cui c'è questo effetto del leader
+ cioè il leader è l'analogo
+ nel modellino che abbiamo appena visto
+ di un campo magnetico
+ cioè è un uccello particolare
+ quindi se volete
+ è come se fosse un gente esterno
+ lo potete chiamare in qualche modo
+ e tutti seguono lui
+ quindi questo è
+ un caso in cui
+ voi avete tutti quanti che fanno la stessa cosa
+ ma perché ognuno segue il leader
+ allora uno come fa a distinguere
+ una situazione in cui
+ c'è effettivamente un leader e tutti gli uccelli
+ seguono lui da una situazione
+ in cui invece non c'è nessun leader
+ si va a calcolare la funzione di correlazione connessa
+ delle velocità
+ e va a vedere se questa funzione di correlazione connessa è uguale a 0
+ vuol dire che effettivamente il comportamento collettivo che uno osserva
+ è dovuto a un leader oppure qualcosa di simile
+ per esempio stanno andando verso lo stesso posto dove vanno a mangiare
+ quindi ognuno di loro ha un obiettivo comune e vanno tutti nello stesso posto
+ invece se la funzione di correlazione viene diversa da zero c'è un meccanismo di interazione tra gli individui
+ che li porta a questo stato di ordine collettivo
+ quindi è un concetto con la funzione di correlazione connessa importante per discriminare tra sistemi interagenti e sistemi non interagenti
+ qual è anche il senso di un'altra maniera anche intuitiva, fisica di vedere questa cosa
+ quando voi andate a guardare, come vi ho detto, la funzione di correlazione connessa
+ la funzione di correlazione connessa vi dice quanto sono simili, non le variabili che state guardando
+ ma le loro fluttuazioni
+ allora che cos'è che vi succede?
+ immaginate che voi avete una situazione in cui avete un leader
+ ognuno degli uccelli se segue un leader
+ immaginate di avere un gruppo di uccelli, stanno tutti seguendo un leader
+ allora ognuno degli uccelli lo segue ma non è che ci riesce benissimo
+ lo farà con un certo errore, quindi la sua direzione di movimento varierà un pochino
+ queste sono le fluttazioni dell'uccello Iesi, un singolo uccello
