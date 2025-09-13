@@ -1,20 +1,14 @@
-/* =========================
-   Stile generale
-   ========================= */
 body {
   font-family: 'Georgia', serif;
   margin: 0;
   padding: 0;
-  background: #f2e8e8; /* leggero rosato/rosso chiaro */
+  background: #f2e8e8;
   color: #2a1a1a;
   line-height: 1.6;
 }
 
-/* =========================
-   Header - gradazione rosso Sapienza
-   ========================= */
 header {
-  background: linear-gradient(135deg, #822433, #a32f46); /* vinaccia graduale */
+  background: linear-gradient(135deg, #822433, #a32f46);
   padding: 2rem;
   text-align: center;
   border-bottom: 3px solid #ffffff;
@@ -25,7 +19,6 @@ header {
 header h1 {
   font-size: 2.5rem;
   margin: 0;
-  color: #ffffff;
 }
 
 header p {
@@ -34,17 +27,10 @@ header p {
   color: #ffffffcc;
 }
 
-/* =========================
-   Main content
-   ========================= */
 main {
   max-width: 900px;
   margin: 2rem auto;
   padding: 1rem;
-}
-
-section {
-  margin-bottom: 2.5rem;
 }
 
 h2 {
@@ -59,30 +45,48 @@ h2 {
   font-weight: bold;
 }
 
-/* =========================
-   Input ricerca
-   ========================= */
-#searchBox {
+.search-box {
   width: 100%;
   padding: 0.6rem 1rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 0.5rem;
   border-radius: 8px;
   border: 1px solid #822433;
-  background: #f5dede; /* leggero rosso chiaro */
+  background: #f5dede;
   color: #822433;
   font-size: 1rem;
   box-shadow: inset 0 2px 4px rgba(0,0,0,0.05);
 }
 
-#searchBox:focus {
+.search-box:focus {
   outline: none;
   border-color: #a32f46;
   box-shadow: 0 0 10px #a32f46aa inset;
 }
 
-/* =========================
-   Lista PDF
-   ========================= */
+/* Filtri */
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  margin-bottom: 1rem;
+}
+
+.filters select {
+  padding: 0.5rem 0.8rem;
+  border-radius: 8px;
+  border: 1px solid #822433;
+  background: #f5dede;
+  color: #822433;
+  font-size: 0.95rem;
+  transition: all 0.3s;
+}
+
+.filters select:hover {
+  border-color: #a32f46;
+  box-shadow: 0 0 6px #a32f46aa inset;
+}
+
+/* Lista PDF */
 #pdf-list {
   list-style: none;
   padding: 0;
@@ -93,13 +97,13 @@ h2 {
   margin: 0.7rem 0;
   padding: 0.5rem 0.8rem;
   border-left: 4px solid #822433;
-  background: #f8e6e6; /* rosso molto chiaro */
+  background: #f8e6e6;
   border-radius: 4px;
   transition: background 0.3s, transform 0.2s;
 }
 
 #pdf-list li:hover {
-  background: #f0c0c0; /* gradazione leggermente più scura */
+  background: #f0c0c0;
   transform: translateX(5px);
 }
 
@@ -114,38 +118,68 @@ h2 {
   text-decoration: underline;
 }
 
-#pdf-list span {
-  color: #5a3a3a;
-  font-size: 0.9rem;
-  margin-left: 0.5rem;
+.pdf-badge {
+  display: inline-block;
+  padding: 0.15rem 0.5rem;
+  margin-left: 0.3rem;
+  font-size: 0.8rem;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: bold;
 }
 
-/* =========================
-   Footer
-   ========================= */
+.pdf-badge.faculty { background-color: #822433; }
+.pdf-badge.level { background-color: #a32f46; }
+
 footer {
   text-align: center;
   padding: 1rem;
   border-top: 1px solid #a32f46;
   font-size: 0.9rem;
-  background: #f2e8e8;
+  background: white;
   color: #822433;
   margin-top: 3rem;
 }
 
-/* =========================
-   Responsive
-   ========================= */
+.btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.btn-primary {
+  background-color: #822433;
+  color: #fff;
+  font-weight: bold;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.btn-primary:hover { background-color: #a23745; }
+
+.btn-secondary {
+  background-color: #f4f0f1;
+  color: #822433;
+  font-weight: bold;
+  padding: 0.7rem 1.3rem;
+  border: 2px solid #822433;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.3s, color 0.3s;
+}
+
+.btn-secondary:hover {
+  background-color: #822433;
+  color: #fff;
+}
+
+/* Responsive */
 @media (max-width: 600px) {
-  header h1 {
-    font-size: 2rem;
-  }
-
-  header p {
-    font-size: 1rem;
-  }
-
-  #searchBox {
-    font-size: 0.95rem;
-  }
+  header h1 { font-size: 2rem; }
+  header p { font-size: 1rem; }
+  .search-box { font-size: 0.95rem; }
+  .filters { flex-direction: column; }
 }

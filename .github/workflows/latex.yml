@@ -35,10 +35,14 @@ jobs:
 
               if [ -f "$dir/config.json" ]; then
                 title=$(jq -r '.title' "$dir/config.json")
+                faculty=$(jq -r '.faculty' "$dir/config.json")
+                level=$(jq -r '.level' "$dir/config.json")
                 professor=$(jq -r '.professor' "$dir/config.json")
                 year=$(jq -r '.year' "$dir/config.json")
               else
                 title="Corso sconosciuto"
+                faculty="N/D"
+                level="N/D"
                 professor="N/D"
                 year="N/D"
               fi
@@ -49,7 +53,7 @@ jobs:
                 echo "," >> public/pdfs.json
               fi
 
-              echo "  {\"title\": \"$title\", \"professor\": \"$professor\", \"year\": \"$year\", \"file_name\": \"$pdf_file\"}" >> public/pdfs.json
+              echo "  { \"faculty\": \"$faculty\", \"level\": \"$level\", \"title\": \"$title\", \"professor\": \"$professor\", \"year\": \"$year\", \"file_name\": \"$pdf_file\"}" >> public/pdfs.json
             else
               echo "❌ Compilazione fallita per $tex_file"
             fi
@@ -63,6 +67,8 @@ jobs:
       - name: Copy static website
         run: |
           # Copia index.html e style.css nella cartella pubblicata
+          mkdir -p public/pages
+          cp -r pages/* public/pages/ || echo "Cartella static non trovata, ignoro"
           cp index.html public/
           cp style.css public/ || echo "style.css non trovato, ignoro"
 

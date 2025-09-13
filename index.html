@@ -3,48 +3,53 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sapienza Physics Open Notes 📘✨</title>
-    <!-- Favicon emoji -->
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg'><text y='32' font-size='32'>📘✨</text></svg>">
-
+  <title>Sapienza Open Notes 📘✨</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg'><text y='32' font-size='32'>📘✨</text></svg>">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <h1>Sapienza Physics Open Notes 📘✨</h1>
-    <p>Appunti condivisi di Fisica – Università La Sapienza, Roma</p>
+    <h1>Sapienza Open Notes 📘✨</h1>
+    <p>Appunti aperti e collaborativi della Sapienza Università di Roma</p>
   </header>
 
   <main>
     <section>
       <h2>📖 Il Progetto</h2>
       <p>
-        <span class="highlight">Sapienza Physics Open Notes</span> nasce per raccogliere, organizzare e condividere 
-        appunti e materiali di Fisica prodotti dagli studenti della Sapienza Università di Roma.  
-        L’obiettivo è creare un archivio <strong>libero, aperto e collaborativo</strong> che faciliti lo studio 
-        e favorisca la cooperazione tra studenti e ricercatori.
+        <span class="highlight">Sapienza Open Notes</span> raccoglie, organizza e condivide appunti e materiali prodotti dagli studenti della Sapienza.  
+        L’obiettivo è creare un archivio <strong>libero, aperto e collaborativo</strong> per favorire lo studio e la cooperazione.
       </p>
     </section>
 
     <section>
       <h2>🤝 Collabora con noi</h2>
       <p>
-        Questo progetto vive grazie al contributo della comunità.  
-        Puoi <strong>proporre correzioni, aggiungere appunti o migliorare i materiali</strong> 
-        aprendo una Pull Request sulla nostra repository GitHub.  
+        <span class="highlight">Sapienza Open Notes</span> è aperto a tutti: aggiungi appunti, correggi errori o proponi miglioramenti.  
       </p>
-      <p>
-        Insieme possiamo costruire una risorsa preziosa per tutti gli studenti di Fisica della Sapienza!
+      <div class="btn-container">
+        <a href="https://github.com/filippodaminato/SapienzaOpenNotes" target="_blank" class="btn-primary">
+          🚀 Contribuisci su GitHub
+        </a>
+        <a href="./pages/tutorial.html" class="btn-secondary">
+          📘 Leggi il tutorial
+        </a>
+      </div>
+      <p class="text-center" style="font-style: italic; color: #555; margin-top: 1rem;">
+        Ogni contributo rende questo archivio più utile per tutti 💡
       </p>
     </section>
 
     <section>
       <h2>📂 Materiale disponibile</h2>
-      <input 
-        type="text" 
-        id="searchBox" 
-        placeholder="Cerca per titolo, professore o anno..."
-        style="width: 100%; padding: 0.5rem; margin-bottom: 1rem; border-radius: 8px; border: 1px solid #555;">
+      <input type="text" id="searchBox" placeholder="Cerca per titolo, professore o anno..." class="search-box">
+
+      <div class="filters">
+        <select id="filterFaculty"><option value="">Tutte le facoltà</option></select>
+        <select id="filterLevel"><option value="">Tutti i livelli</option></select>
+        <select id="filterProfessor"><option value="">Tutti i professori</option></select>
+      </div>
+
       <ul id="pdf-list">
         <li>Caricamento in corso...</li>
       </ul>
@@ -52,7 +57,7 @@
   </main>
 
   <footer>
-    <p>© 2025 Sapienza Physics Open Notes – Progetto open source degli studenti di Fisica, La Sapienza Roma</p>
+    <p>© 2025 Sapienza Open Notes – Progetto open source degli studenti della Sapienza Università di Roma</p>
   </footer>
 
   <script>
@@ -62,11 +67,38 @@
       try {
         const response = await fetch('pdfs.json');
         pdfData = await response.json();
+        populateFilters();
         renderList(pdfData);
       } catch (error) {
         console.error('Errore nel caricamento dei PDF:', error);
         document.getElementById('pdf-list').innerHTML = '<li>Errore nel caricamento dei file.</li>';
       }
+    }
+
+    function populateFilters() {
+      const facultySet = new Set();
+      const levelSet = new Set();
+      const professorSet = new Set();
+
+      pdfData.forEach(pdf => {
+        if(pdf.faculty) facultySet.add(pdf.faculty);
+        if(pdf.level) levelSet.add(pdf.level);
+        if(pdf.professor) professorSet.add(pdf.professor);
+      });
+
+      const facultySelect = document.getElementById('filterFaculty');
+      const levelSelect = document.getElementById('filterLevel');
+      const professorSelect = document.getElementById('filterProfessor');
+
+      facultySet.forEach(f => facultySelect.appendChild(new Option(f, f)));
+      levelSet.forEach(l => levelSelect.appendChild(new Option(l, l)));
+      professorSet.forEach(p => professorSelect.appendChild(new Option(p, p)));
+
+      // Event listeners per filtri
+      facultySelect.addEventListener('change', filterList);
+      levelSelect.addEventListener('change', filterList);
+      professorSelect.addEventListener('change', filterList);
+      document.getElementById('searchBox').addEventListener('input', filterList);
     }
 
     function renderList(data) {
@@ -81,7 +113,9 @@
       data.forEach(pdf => {
         const li = document.createElement('li');
         li.innerHTML = `
-          <a href="${pdf.file_name}" target="_blank">${pdf.title}</a> 
+          <a href="${pdf.file_name}" target="_blank">${pdf.title}</a>
+          <span class="pdf-badge faculty">${pdf.faculty || ''}</span>
+          <span class="pdf-badge level">${pdf.level || ''}</span>
           <span style="color:#aaa">– ${pdf.professor} (${pdf.year})</span>
         `;
         list.appendChild(li);
@@ -90,15 +124,20 @@
 
     function filterList() {
       const query = document.getElementById('searchBox').value.toLowerCase();
-      const filtered = pdfData.filter(pdf =>
-        pdf.title.toLowerCase().includes(query) ||
-        pdf.professor.toLowerCase().includes(query) ||
-        pdf.year.toLowerCase().includes(query)
-      );
+      const facultyFilter = document.getElementById('filterFaculty').value;
+      const levelFilter = document.getElementById('filterLevel').value;
+      const professorFilter = document.getElementById('filterProfessor').value;
+
+      const filtered = pdfData.filter(pdf => {
+        return (
+          (pdf.title.toLowerCase().includes(query) || pdf.professor.toLowerCase().includes(query) || pdf.year.toLowerCase().includes(query)) &&
+          (facultyFilter === "" || pdf.faculty === facultyFilter) &&
+          (levelFilter === "" || pdf.level === levelFilter) &&
+          (professorFilter === "" || pdf.professor === professorFilter)
+        );
+      });
       renderList(filtered);
     }
-
-    document.getElementById('searchBox').addEventListener('input', filterList);
 
     loadPDFs();
   </script>
