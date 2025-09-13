@@ -1,0 +1,19 @@
+[
+  { "faculty": "Physics", "level": "undergraduate", "title": "Laboratorio di Meccanica", "professor": "Prof. Organtini", "year": "", "file_name": "courses_physics_undergraduate_laboratorio_di_meccanica_organtini.pdf"}
+,
+  { "faculty": "Physics", "level": "undergraduate", "title": "Analisi", "professor": "Prof. ansini", "year": "", "file_name": "courses_physics_undergraduate_analisi_ansini.pdf"}
+,
+  { "faculty": "Physics", "level": "undergraduate", "title": "Geometria", "professor": "Prof. Spinelli", "year": "", "file_name": "courses_physics_undergraduate_geometria_spinelli.pdf"}
+,
+  { "faculty": "Physics", "level": "graduate", "title": "Theoretical Bio Physics", "professor": "Prof. Giardina", "year": "2024/2025", "file_name": "courses_physics_graduate_theoretical_bio_physics_giardina.pdf"}
+,
+  { "faculty": "Physics", "level": "graduate", "title": "Statistical Mechanics and Critical Phenomena", "professor": "Prof. Marinari", "year": "", "file_name": "courses_physics_graduate_statistical_mechanics_and_critical_phenomena_marinari.pdf"}
+,
+  { "faculty": "Physics", "level": "graduate", "title": "Condensed Matter Physics", "professor": "Prof. Caprara", "year": "2020/2021", "file_name": "courses_physics_graduate_condensed_matter_physics_caprara_2020.pdf"}
+,
+  { "faculty": "Physics", "level": "graduate", "title": "Computational Statistical Mechanics", "professor": "Prof. De Michele", "year": "", "file_name": "courses_physics_graduate_computational_statistical_mechanics.pdf"}
+,
+  { "faculty": "Physics", "level": "graduate", "title": "Introduction To Quantum Field Theory", "professor": "Prof. Polosa", "year": "", "file_name": "courses_physics_graduate_iqft_polosa.pdf"}
+,
+  { "faculty": "Physics", "level": "graduate", "title": "Mathematical Physics", "professor": "Prof. Teta", "year": "", "file_name": "courses_physics_graduate_matematical_physics_teta.pdf"}
+]

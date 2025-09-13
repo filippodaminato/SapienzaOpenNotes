@@ -113,10 +113,16 @@
       data.forEach(pdf => {
         const li = document.createElement('li');
         li.innerHTML = `
-          <a href="${pdf.file_name}" target="_blank">${pdf.title}</a>
-          <span class="pdf-badge faculty">${pdf.faculty || ''}</span>
-          <span class="pdf-badge level">${pdf.level || ''}</span>
-          <span style="color:#aaa">– ${pdf.professor} (${pdf.year})</span>
+          <div class="course-badge">
+            <div class="course-info">
+                <a href="${pdf.file_name}" target="_blank">${pdf.title}</a>
+                <span style="color:#aaa">– ${pdf.professor}</span>
+            </div>
+            <div class="course-filters">
+                <span class="pdf-badge faculty">${pdf.faculty || ''}</span>
+                <span class="pdf-badge level">${pdf.level || ''}</span>
+            </div>
+          </div>
         `;
         list.appendChild(li);
       });

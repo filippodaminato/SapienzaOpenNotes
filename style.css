@@ -91,6 +91,8 @@ h2 {
   list-style: none;
   padding: 0;
   margin: 0;
+  height: 65vh;
+  overflow: scroll;
 }
 
 #pdf-list li {
@@ -118,8 +120,14 @@ h2 {
   text-decoration: underline;
 }
 
+#pdf-list .course-badge {
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+}
+
 .pdf-badge {
   display: inline-block;
+  width: min-content;
   padding: 0.15rem 0.5rem;
   margin-left: 0.3rem;
   font-size: 0.8rem;
@@ -128,7 +136,15 @@ h2 {
   font-weight: bold;
 }
 
-.pdf-badge.faculty { background-color: #822433; }
+.course-filters {
+  display: flex;
+    text-align: right;
+    
+}
+
+.pdf-badge.faculty { 
+  background-color: #822433; 
+}
 .pdf-badge.level { background-color: #a32f46; }
 
 footer {
