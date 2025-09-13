@@ -38,12 +38,14 @@ jobs:
                 faculty=$(jq -r '.faculty' "$dir/config.json")
                 level=$(jq -r '.level' "$dir/config.json")
                 professor=$(jq -r '.professor' "$dir/config.json")
+                semester=$(jq -r '.semester' "$dir/config.json")
                 year=$(jq -r '.year' "$dir/config.json")
               else
                 title="Corso sconosciuto"
                 faculty="N/D"
                 level="N/D"
                 professor="N/D"
+                semester="N/D"
                 year="N/D"
               fi
 
@@ -53,7 +55,7 @@ jobs:
                 echo "," >> public/pdfs.json
               fi
 
-              echo "  { \"faculty\": \"$faculty\", \"level\": \"$level\", \"title\": \"$title\", \"professor\": \"$professor\", \"year\": \"$year\", \"file_name\": \"$pdf_file\"}" >> public/pdfs.json
+              echo "  { \"faculty\": \"$faculty\", \"semester\": \"$semester\", \"level\": \"$level\", \"title\": \"$title\", \"professor\": \"$professor\", \"year\": \"$year\", \"file_name\": \"$pdf_file\"}" >> public/pdfs.json
             else
               echo "❌ Compilazione fallita per $tex_file"
             fi

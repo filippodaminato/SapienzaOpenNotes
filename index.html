@@ -131,8 +131,10 @@
                 <span style="color:#aaa">– ${pdf.professor}</span>
             </div>
             <div class="course-filters">
-                <span class="pdf-badge faculty">${pdf.faculty || ''}</span>
-                <span class="pdf-badge level">${pdf.level || ''}</span>
+              <span class="pdf-badge faculty">${pdf.faculty || ''}</span>
+              <span class="pdf-badge level">${pdf.level || ''}</span>
+              <span class="pdf-badge level">Y:${pdf.year || ''}</span>
+              <span class="pdf-badge level">S:${pdf.semester || ''}</span>
             </div>
           </div>
         `;
