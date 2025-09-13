@@ -1,0 +1,95 @@
+% ==============================
+% Preambolo standard Sapienza Open Notes
+% ==============================
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[italian]{babel}
+
+% Font elegante e leggibile
+\usepackage{lmodern} 
+\usepackage{microtype} % Migliora la spaziatura
+
+% Matematica
+\usepackage{amsmath, amssymb, amsthm, mathtools}
+
+% Grafici e immagini
+\usepackage{graphicx}
+\usepackage{float} % Per controllare la posizione delle figure
+
+% Collegamenti ipertestuali
+\usepackage[hidelinks]{hyperref}
+
+% Liste personalizzate
+\usepackage{enumitem}
+
+% Layout e geometria
+\usepackage{geometry}
+\geometry{a4paper, margin=2.5cm}
+
+% Stile dei paragrafi
+\setlength{\parskip}{0.8em}
+\setlength{\parindent}{0pt}
+
+% Colori accento in stile Sapienza
+\usepackage{xcolor}
+\definecolor{sapienzaRed}{HTML}{822433}
+\definecolor{sapienzaLightRed}{HTML}{F0C0C0}
+
+% Comandi utili
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\Q}{\mathbb{Q}}
+
+% Numerazione teoremi
+\usepackage{amsthm}
+\newtheorem{theorem}{Teorema}[section]
+\newtheorem{definition}{Definizione}[section]
+\newtheorem{example}{Esempio}[section]
+
+% ==============================
+% Miglioramenti estetici
+% ==============================
+% Titoli più eleganti
+\usepackage{titlesec}
+\titleformat{\section}
+  {\normalfont\Large\bfseries\color{sapienzaRed}}
+  {\thesection}{1em}{}
+
+\titleformat{\subsection}
+  {\normalfont\large\bfseries\color{sapienzaRed!80!black}}
+  {\thesubsection}{1em}{}
+
+% Stile box per esempi e definizioni
+\usepackage{tcolorbox}
+\tcbset{
+  colback=sapienzaLightRed!20, 
+  colframe=sapienzaRed, 
+  boxrule=0.8pt, 
+  arc=4pt, 
+  left=2mm, right=2mm, top=1mm, bottom=1mm,
+  fonttitle=\bfseries
+}
+
+
+% ==============================
+% Messaggio di benvenuto e invito a collaborare
+% ==============================
+\newcommand{\projectintro}{
+  \section*{Contribuisci anche tu}
+  Questi appunti fanno parte del progetto \textbf{Sapienza Open Notes}, 
+  una raccolta collaborativa di materiali didattici per gli studenti della Sapienza Università di Roma.  
+
+  Se trovi errori, omissioni o hai idee per migliorare gli appunti, 
+  puoi contribuire aggiungendo correzioni o nuove lezioni.  
+  Ogni contributo è prezioso e aiuta a creare una risorsa aperta e condivisa per tutti!  
+
+  \medskip
+  \noindent
+  \textit{Per collaborare: visita la repository GitHub ufficiale} 
+  \href{https://github.com/filippodaminato/SapienzaOpenNotes}{SapienzaOpenNotes}  
+}
+
+% ==============================
+% Messaggio introduttivo e invito alla collaborazione
+% ==============================
