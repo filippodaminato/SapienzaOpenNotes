@@ -2,7 +2,7 @@ body {
   font-family: 'Georgia', serif;
   margin: 0;
   padding: 0;
-  background: #f2e8e8;
+  background: #f2e8e84d;
   color: #2a1a1a;
   line-height: 1.6;
 }
@@ -46,7 +46,7 @@ h2 {
 }
 
 .search-box {
-  width: 100%;
+  width: -webkit-fill-available;
   padding: 0.6rem 1rem;
   margin-bottom: 0.5rem;
   border-radius: 8px;
@@ -71,7 +71,11 @@ h2 {
   margin-bottom: 1rem;
 }
 
+/* Rimuove lo stile predefinito di Safari e Firefox per select */
 .filters select {
+  -webkit-appearance: none; /* Safari e Chrome */
+  -moz-appearance: none;    /* Firefox */
+  appearance: none;         /* Standard */
   padding: 0.5rem 0.8rem;
   border-radius: 8px;
   border: 1px solid #822433;
@@ -80,6 +84,33 @@ h2 {
   font-size: 0.95rem;
   transition: all 0.3s;
 }
+
+/* Aggiungiamo un piccolo bordo interno per evidenziare selezione */
+.filters select:focus {
+  outline: none;
+  border-color: #a32f46;
+  box-shadow: 0 0 6px #a32f46aa inset;
+  -webkit-appearance: none;
+}
+
+/* Pulsanti dei filtri (se usi button) */
+.btn-primary,
+.btn-secondary {
+  -webkit-appearance: none; /* Safari */
+  -moz-appearance: none;    /* Firefox */
+  appearance: none;
+  cursor: pointer;
+}
+
+/* Eventuali freccette dei select personalizzate */
+.filters select {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 5'%3E%3Cpath fill='%23822433' d='M0 0l5 5 5-5z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 0.5rem center;
+  background-size: 0.6rem auto;
+  padding-right: 2rem; /* spazio per freccetta */
+}
+
 
 .filters select:hover {
   border-color: #a32f46;
