@@ -9,20 +9,32 @@
 <body>
   <header>
     <h1>🚀 Tutorial per collaborare</h1>
-    <p>Una guida semplice per contribuire a Sapienza Open Notes</p>
+    <p>Una guida passo-passo per contribuire a Sapienza Open Notes usando <strong>GitHub Desktop</strong></p>
   </header>
 
   <main>
     <section>
-      <h2>1️⃣ Crea un account GitHub</h2>
+      <h2>1️⃣ Perché usiamo Git?</h2>
       <p>
-        Se non hai già un account, registrati gratuitamente su 
-        <a href="https://github.com" target="_blank">github.com</a>.
+        Git è un sistema che permette di <strong>collaborare senza rischiare di rovinare il lavoro degli altri</strong>.  
+        Ogni contributo viene salvato come un "checkpoint" (commit), e si può sempre tornare indietro.  
+        Usiamo GitHub come "punto di incontro online" dove tutti possono proporre le modifiche.
       </p>
     </section>
 
     <section>
-      <h2>2️⃣ Fai un fork del progetto</h2>
+      <h2>2️⃣ Crea un account GitHub</h2>
+      <p>
+        Per prima cosa registrati gratuitamente su  
+        👉 <a href="https://github.com" target="_blank">github.com</a>.
+      </p>
+      <p>
+        Questo ti servirà per avere il tuo spazio personale dove salvare le modifiche.
+      </p>
+    </section>
+
+    <section>
+      <h2>3️⃣ Fai un fork del progetto</h2>
       <p>
         Vai alla repository ufficiale:  
         👉 <a href="https://github.com/filippodaminato/SapienzaOpenNotes" target="_blank">
@@ -30,80 +42,89 @@
         </a>.
       </p>
       <p>
-        Premi sul pulsante <strong>Fork</strong> in alto a destra: creerai una copia del progetto nel tuo profilo.
+        Premi sul pulsante <strong>Fork</strong> in alto a destra:  
+        creerai una copia <em>tutta tua</em> del progetto, indipendente da quella principale.  
+        Così puoi lavorarci senza rischiare di rompere nulla.
       </p>
     </section>
 
     <section>
-      <h2>3️⃣ Scarica il progetto in locale</h2>
-      <p>Hai due possibilità:</p>
-      <div class="options">
-        <div class="option">
-          <h3>💻 Metodo 1: riga di comando (Git)</h3>
-          <pre><code>git clone https://github.com/TUO_USERNAME/SapienzaOpenNotes.git
-cd SapienzaOpenNotes</code></pre>
-        </div>
-        <div class="option">
-          <h3>🖱️ Metodo 2: strumenti grafici</h3>
-          <p>
-            Puoi usare un software come <a href="https://desktop.github.com/" target="_blank">GitHub Desktop</a> 
-            o <a href="https://www.sourcetreeapp.com/" target="_blank">SourceTree</a>.  
-          </p>
-          <p>
-            Ti basta inserire l’URL della tua copia del repository 
-            <code>https://github.com/TUO_USERNAME/SapienzaOpenNotes.git</code> 
-            e scegliere la cartella dove salvarlo.
-          </p>
-        </div>
-      </div>
+      <h2>4️⃣ Clona il progetto con GitHub Desktop</h2>
+      <p>
+        Scarica e installa <a href="https://desktop.github.com/" target="_blank">GitHub Desktop</a>.  
+      </p>
+      <p>
+        Poi aprilo e scegli <em>File → Clone Repository</em>.  
+        Inserisci l’URL del tuo fork:
+      </p>
+      <pre><code>https://github.com/TUO_USERNAME/SapienzaOpenNotes.git</code></pre>
+      <p>
+        Ora hai una copia locale del progetto sul tuo computer.
+      </p>
     </section>
 
     <section>
-      <h2>4️⃣ Crea un branch per le tue modifiche</h2>
+      <h2>5️⃣ Crea un branch</h2>
       <p>
-        Anche qui puoi scegliere:
+        Per ogni modifica (nuova lezione, correzione, aggiunta di immagini) crea un <strong>branch</strong>.  
+        Un branch è come un "binario parallelo" su cui lavori senza toccare i file principali.
+      </p>
+      <p>
+        In GitHub Desktop premi su <em>Current Branch → New Branch</em>  
+        e scrivi un nome descrittivo, ad esempio:
       </p>
       <ul>
-        <li><strong>Git (riga di comando):</strong>  
-          <pre><code>git checkout -b nome-del-tuo-branch</code></pre>
-        </li>
-        <li><strong>Strumenti grafici:</strong> usa l’opzione <em>“New Branch”</em> o <em>“Checkout branch”</em>.</li>
+        <li><code>analisi1-lezione03</code></li>
+        <li><code>fisica1-correzione-formule</code></li>
       </ul>
     </section>
 
     <section>
-      <h2>5️⃣ Aggiungi o modifica i file</h2>
+      <h2>6️⃣ Aggiungi o modifica i file</h2>
       <p>
-        Segui la struttura del repository e le <a href="https://github.com/filippodaminato/SapienzaOpenNotes?tab=contributing-ov-file" target="_blank">linee guida</a>.  
-        Puoi aggiungere nuove lezioni, immagini o correggere errori.
+        Segui la struttura delle cartelle:  
+        <code>faculty/undergraduate/course/instructor/lectures/</code>  
+        e rispetta le <a href="https://github.com/filippodaminato/SapienzaOpenNotes?tab=contributing-ov-file" target="_blank">linee guida</a>.  
+      </p>
+      <p>
+        Puoi aggiungere nuove lezioni in LaTeX, immagini, o correggere errori nei file già presenti.
       </p>
     </section>
 
     <section>
-      <h2>6️⃣ Salva e invia le modifiche</h2>
-      <div class="options">
-        <div class="option">
-          <h3>💻 Con Git</h3>
-          <pre><code>git add .
-git commit -m "Descrizione breve delle modifiche"
-git push origin nome-del-tuo-branch</code></pre>
-        </div>
-        <div class="option">
-          <h3>🖱️ Con strumenti grafici</h3>
-          <p>
-            Troverai pulsanti come <strong>Commit</strong> e <strong>Push</strong>.  
-            Inserisci un messaggio chiaro per descrivere le modifiche e inviale al tuo fork.
-          </p>
-        </div>
-      </div>
+      <h2>7️⃣ Salva le modifiche (Commit)</h2>
+      <p>
+        Ogni volta che fai una modifica, GitHub Desktop ti mostra i file cambiati.  
+        Scrivi un <strong>messaggio chiaro</strong> che descrive cosa hai fatto, ad esempio:
+      </p>
+      <ul>
+        <li>"Aggiunta Lezione 3 di Analisi 1"</li>
+        <li>"Corretta formula nel Capitolo 2"</li>
+      </ul>
+      <p>
+        Poi premi <strong>Commit to nome-del-tuo-branch</strong>.  
+        Questo crea un "checkpoint" sicuro del tuo lavoro.
+      </p>
     </section>
 
     <section>
-      <h2>7️⃣ Apri una Pull Request</h2>
+      <h2>8️⃣ Carica le modifiche online (Push)</h2>
       <p>
-        Vai sulla tua copia della repository su GitHub e premi  
-        <strong>Compare & Pull Request</strong>.  
-        Spiega cosa hai fatto e invia la richiesta: gli altri potranno revisionarla e unirla al progetto principale.
+        Dopo il commit, premi <strong>Push origin</strong>.  
+        In questo modo le tue modifiche passano dal tuo computer al tuo fork su GitHub.  
+        Ora gli altri possono vederle.
+      </p>
+    </section>
+
+    <section>
+      <h2>9️⃣ Proponi le modifiche (Pull Request)</h2>
+      <p>
+        Vai sul tuo fork su GitHub. Ti apparirà un messaggio che dice  
+        <strong>Compare &amp; pull request</strong>.  
+      </p>
+      <p>
+        Premi il pulsante, aggiungi una descrizione chiara e invia.  
+        Questa è una <strong>proposta</strong>: il team potrà leggere i tuoi cambiamenti e decidere di integrarli.
       </p>
     </section>
 
@@ -111,9 +132,9 @@ git push origin nome-del-tuo-branch</code></pre>
       <h2>🎉 Fatto!</h2>
       <p>
         Hai contribuito a <span class="highlight">Sapienza Open Notes</span>  
-        e hai aiutato la comunità a crescere 💡
+        e reso il progetto più utile per tutta la comunità 💡
       </p>
-      <a href="../index.html" class="button">⬅️ Torna alla Home</a>
+      <a href="../index.html" class="btn-primary">⬅️ Torna alla Home</a>
     </section>
   </main>
 
