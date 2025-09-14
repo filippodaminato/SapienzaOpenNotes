@@ -13,65 +13,62 @@ jobs:
       id-token: write
 
     steps:
-      - name: Checkout repository
+      - name: Checkout repo
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          fetch-depth: 0 # serve per git log e diff
 
-      - name: Detect changed courses
-        id: changes
-        run: |
-          changed_tex=$(git diff --name-only HEAD~1 HEAD | grep 'main.tex' || true)
-          changed_courses=$(echo "$changed_tex" | xargs -n1 dirname | sed 's|/[^/]*$||' | sort -u)
-          echo "changed_courses=$changed_courses" >> $GITHUB_OUTPUT
-
-      - name: Compile LaTeX courses and generate PDFs
+      - name: Setup
         run: |
           mkdir -p public
           echo "[" > public/pdfs.json
           first_entry=true
 
-          # Tutti i corsi
-          all_courses=$(find . -name "main.tex" | xargs -n1 dirname | sed 's|/[^/]*$||' | sort -u)
+      - name: Process courses and lessons
+        run: |
+          # Trova tutte le lezioni (main.tex)
+          find ./latex_courses -name "main.tex" | while read -r tex_file; do
+            course_dir=$(dirname "$tex_file" | xargs dirname)  # cartella del corso
+            lesson_dir=$(dirname "$tex_file")                 # cartella della lezione
 
-          for course_dir in $all_courses; do
-            relative_path=${course_dir#./}
-            sanitized_name=$(echo "$relative_path" | sed 's|/|_|g')
-            pdf_file="${sanitized_name}.pdf"
+            # Raccogliamo info sul PDF
+            relative_path=${lesson_dir#./}
+            sanitized_name=$(echo "$relative_path" | sed 's/\//_/g' | sed 's/^_//' | sed 's/_$//')
+            pdf_file="latex_courses_${sanitized_name}.pdf"
+            pdf_path="public/$pdf_file"
 
-            # Decide se compilare:
-            # 1) corso modificato
-            # 2) corso non modificato ma PDF mancante
-            compile=false
-            if echo "${{ steps.changes.outputs.changed_courses }}" | grep -q "$course_dir"; then
-              compile=true
-              echo "📄 Compilo corso modificato: $course_dir"
-            elif [ ! -f "public/$pdf_file" ] && [ ! -f "$course_dir/main.pdf" ]; then
-              compile=true
-              echo "📄 PDF mancante, compilo corso: $course_dir"
+            # Verifica se la lezione è stata modificata o se il PDF manca
+            last_commit=$(git log -1 --format="%H" -- "$tex_file")
+            pdf_exists=false
+            [ -f "$pdf_path" ] && pdf_exists=true
+
+            changed=false
+            if [ "$pdf_exists" = false ]; then
+              changed=true
+              echo "📄 PDF mancante, compilo $tex_file"
             else
-              echo "ℹ️ Corso non modificato e PDF presente: $course_dir"
+              # controlla se la lezione è cambiata rispetto all'ultimo commit
+              last_pdf_commit=$(git log -1 --format="%H" -- "$pdf_path" || echo "")
+              if [ "$last_commit" != "$last_pdf_commit" ]; then
+                changed=true
+                echo "📄 Lezione modificata, ricompilo $tex_file"
+              fi
             fi
 
-            if [ "$compile" = true ]; then
-              docker run --rm -v "$PWD:/data" -w "/data/$course_dir" texlive/texlive:latest \
-                latexmk -pdf -interaction=nonstopmode -halt-on-error main.tex || \
-                echo "⚠️ Compilazione fallita per $course_dir, PDF esistente se presente rimarrà"
+            if [ "$changed" = true ]; then
+              docker run --rm -v "$(pwd):/data" -w "/data/$lesson_dir" texlive/texlive:latest latexmk -pdf -interaction=nonstopmode -halt-on-error main.tex || echo "⚠️ Compilazione fallita, mantengo PDF esistente se presente"
+              cp "$lesson_dir/main.pdf" "$pdf_path" 2>/dev/null || echo "⚠️ PDF non generato"
             fi
 
-            # Copia PDF se esiste
-            if [ -f "$course_dir/main.pdf" ]; then
-              cp "$course_dir/main.pdf" "public/$pdf_file"
-            fi
-
-            # Metadata dal config.json
-            if [ -f "$course_dir/config.json" ]; then
-              title=$(jq -r '.title' "$course_dir/config.json")
-              faculty=$(jq -r '.faculty' "$course_dir/config.json")
-              level=$(jq -r '.level' "$course_dir/config.json")
-              professor=$(jq -r '.professor' "$course_dir/config.json")
-              semester=$(jq -r '.semester' "$course_dir/config.json")
-              year=$(jq -r '.year' "$course_dir/config.json")
+            # Dati dal config.json del corso
+            config_file="$course_dir/config.json"
+            if [ -f "$config_file" ]; then
+              title=$(jq -r '.title' "$config_file")
+              faculty=$(jq -r '.faculty' "$config_file")
+              level=$(jq -r '.level' "$config_file")
+              professor=$(jq -r '.professor' "$config_file")
+              semester=$(jq -r '.semester' "$config_file")
+              year=$(jq -r '.year' "$config_file")
             else
               title="Corso sconosciuto"
               faculty="N/D"
@@ -81,12 +78,8 @@ jobs:
               year="N/D"
             fi
 
-            # Metadata git a livello di corso (tutte le lezioni)
+            # Metadata git aggregato su tutte le lezioni del corso
             last_edit_date=$(git log -1 --format="%cs" -- "$course_dir")
-            last_editor_name=$(git log -1 --format="%an" -- "$course_dir")
-            last_editor_email=$(git log -1 --format="%ae" -- "$course_dir")
-            last_editor_url="https://github.com/${last_editor_email%@*}"
-
             contributors=$(git log --format='%an|%ae' -- "$course_dir" | sort -u | jq -R -s -c 'split("\n")[:-1] | map({name: split("|")[0], profile_url: ("https://github.com/" + (split("|")[1] | split("@")[0]))})')
 
             # Aggiungi al JSON
@@ -105,16 +98,13 @@ jobs:
               \"year\": \"$year\",
               \"file_name\": \"$pdf_file\",
               \"last_edit_date\": \"$last_edit_date\",
-              \"last_editor\": {
-                \"name\": \"$last_editor_name\",
-                \"profile_url\": \"$last_editor_url\"
-              },
               \"contributors\": $contributors
             }" >> public/pdfs.json
 
           done
 
-          echo "]" >> public/pdfs.json
+      - name: Finish JSON
+        run: echo "]" >> public/pdfs.json
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
