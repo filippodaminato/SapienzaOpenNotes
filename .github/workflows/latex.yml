@@ -13,38 +13,37 @@ jobs:
       id-token: write
 
     steps:
-      - name: Checkout repository
+      - name: Checkout repo
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # serve per git log e diff
+          fetch-depth: 0 # serve per git log e diff
 
-      - name: Detect changed main.tex files
+      - name: Detect changed .tex files
         id: changes
         run: |
           changed=$(git diff --name-only HEAD~1 HEAD | grep 'main.tex' || true)
-          echo "changed_tex<<EOF" >> $GITHUB_OUTPUT
-          echo "$changed" >> $GITHUB_OUTPUT
-          echo "EOF" >> $GITHUB_OUTPUT
+          # Sostituisci spazi e newline con separatore
+          changed_sanitized=$(echo "$changed" | tr '\n' ' ')
+          echo "changed_tex=$changed_sanitized" >> $GITHUB_OUTPUT
 
-      - name: Compile LaTeX and generate PDFs metadata
+      - name: Compile LaTeX files and collect metadata
         run: |
           mkdir -p public
           echo "[" > public/pdfs.json
           first_entry=true
 
+          # Determina i .tex da compilare
           if [ -n "${{ steps.changes.outputs.changed_tex }}" ]; then
             tex_files="${{ steps.changes.outputs.changed_tex }}"
           else
             tex_files=$(find . -name "main.tex")
           fi
- 
+
           for tex_file in $tex_files; do
             dir=$(dirname "$tex_file")
-            echo "📄 Compilando $tex_file"
+            echo "📄 Compilo (o aggiorno metadata) per $tex_file"
 
-            docker run --rm -v "$(pwd):/data" -w "/data/$dir" texlive/texlive:latest \
-              latexmk -pdf -interaction=nonstopmode -halt-on-error main.tex || \
-              echo "⚠️ Compilazione fallita, manterremo PDF precedente se presente"
+            docker run --rm -v "$(pwd):/data" -w "/data/$dir" texlive/texlive:latest latexmk -pdf -interaction=nonstopmode -halt-on-error main.tex || echo "⚠️ Skip compila fallita, mantengo pdf vecchio se presente"
 
             if [ -f "$dir/main.pdf" ]; then
               relative_path=${dir#./}
@@ -52,7 +51,7 @@ jobs:
               pdf_file="${sanitized_name}.pdf"
               cp "$dir/main.pdf" "public/$pdf_file"
 
-              # Lettura dati dal config.json se presente
+              # Estrai dati dal config.json se presente
               if [ -f "$dir/config.json" ]; then
                 title=$(jq -r '.title' "$dir/config.json")
                 faculty=$(jq -r '.faculty' "$dir/config.json")
@@ -69,36 +68,35 @@ jobs:
                 year="N/D"
               fi
 
-              # Metadata Git
+              # Metadata git
               last_edit_date=$(git log -1 --format="%cs" -- "$tex_file")
               last_editor_name=$(git log -1 --format="%an" -- "$tex_file")
               last_editor_url="https://github.com/$(git log -1 --format="%ae" -- "$tex_file" | cut -d'@' -f1)"
 
               contributors=$(git log --format='%an|%ae' -- "$tex_file" | sort -u | jq -R -s -c 'split("\n")[:-1] | map({name: split("|")[0], profile_url: ("https://github.com/" + (split("|")[1] | split("@")[0]))})')
 
+              # Aggiungi virgola se non è il primo elemento
               if [ "$first_entry" = true ]; then
                 first_entry=false
               else
                 echo "," >> public/pdfs.json
               fi
 
-              cat <<'EOF' >> public/pdfs.json
-              {
-                "faculty": "'"$faculty"'",
-                "semester": "'"$semester"'",
-                "level": "'"$level"'",
-                "title": "'"$title"'",
-                "professor": "'"$professor"'",
-                "year": "'"$year"'",
-                "file_name": "'"$pdf_file"'",
-                "last_edit_date": "'"$last_edit_date"'",
-                "last_editor": {
-                  "name": "'"$last_editor_name"'",
-                  "profile_url": "'"$last_editor_url"'"
-                },
-                "contributors": '"$contributors"'
-              }
-              EOF
+              echo "{" >> public/pdfs.json
+              echo "  \"faculty\": \"$faculty\"," >> public/pdfs.json
+              echo "  \"semester\": \"$semester\"," >> public/pdfs.json
+              echo "  \"level\": \"$level\"," >> public/pdfs.json
+              echo "  \"title\": \"$title\"," >> public/pdfs.json
+              echo "  \"professor\": \"$professor\"," >> public/pdfs.json
+              echo "  \"year\": \"$year\"," >> public/pdfs.json
+              echo "  \"file_name\": \"$pdf_file\"," >> public/pdfs.json
+              echo "  \"last_edit_date\": \"$last_edit_date\"," >> public/pdfs.json
+              echo "  \"last_editor\": {" >> public/pdfs.json
+              echo "    \"name\": \"$last_editor_name\"," >> public/pdfs.json
+              echo "    \"profile_url\": \"$last_editor_url\"" >> public/pdfs.json
+              echo "  }," >> public/pdfs.json
+              echo "  \"contributors\": $contributors" >> public/pdfs.json
+              echo "}" >> public/pdfs.json
 
             else
               echo "❌ Nessun PDF trovato per $tex_file"
@@ -107,13 +105,13 @@ jobs:
 
           echo "]" >> public/pdfs.json
 
-      - name: Setup GitHub Pages
+      - name: Setup Pages
         uses: actions/configure-pages@v5
 
       - name: Copy static website
         run: |
           mkdir -p public/web_pages
-          cp -r web_pages/* public/web_pages/ || echo "Cartella web_pages non trovata, ignoro"
+          cp -r web_pages/* public/web_pages/ || echo "Cartella static non trovata, ignoro"
           cp index.html public/ || echo "index.html mancante"
 
       - name: Upload artifact
