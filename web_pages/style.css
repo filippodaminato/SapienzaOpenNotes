@@ -1,3 +1,4 @@
+/* =================== BASE =================== */
 body {
   font-family: 'Georgia', serif;
   margin: 0;
@@ -45,6 +46,7 @@ h2 {
   font-weight: bold;
 }
 
+/* =================== SEARCH & FILTERS =================== */
 .search-box {
   width: -webkit-fill-available;
   padding: 0.6rem 1rem;
@@ -63,7 +65,6 @@ h2 {
   box-shadow: 0 0 10px #a32f46aa inset;
 }
 
-/* Filtri */
 .filters {
   display: flex;
   flex-wrap: wrap;
@@ -71,11 +72,10 @@ h2 {
   margin-bottom: 1rem;
 }
 
-/* Rimuove lo stile predefinito di Safari e Firefox per select */
 .filters select {
-  -webkit-appearance: none; /* Safari e Chrome */
-  -moz-appearance: none;    /* Firefox */
-  appearance: none;         /* Standard */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
   padding: 0.5rem 0.8rem;
   border-radius: 8px;
   border: 1px solid #822433;
@@ -83,61 +83,42 @@ h2 {
   color: #822433;
   font-size: 0.95rem;
   transition: all 0.3s;
-}
-
-/* Aggiungiamo un piccolo bordo interno per evidenziare selezione */
-.filters select:focus {
-  outline: none;
-  border-color: #a32f46;
-  box-shadow: 0 0 6px #a32f46aa inset;
-  -webkit-appearance: none;
-}
-
-/* Pulsanti dei filtri (se usi button) */
-.btn-primary,
-.btn-secondary {
-  -webkit-appearance: none; /* Safari */
-  -moz-appearance: none;    /* Firefox */
-  appearance: none;
-  cursor: pointer;
-}
-
-/* Eventuali freccette dei select personalizzate */
-.filters select {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 5'%3E%3Cpath fill='%23822433' d='M0 0l5 5 5-5z'/%3E%3C/svg%3E");
   background-repeat: no-repeat;
   background-position: right 0.5rem center;
   background-size: 0.6rem auto;
-  padding-right: 2rem; /* spazio per freccetta */
+  padding-right: 2rem;
 }
 
-
+.filters select:focus,
 .filters select:hover {
+  outline: none;
   border-color: #a32f46;
   box-shadow: 0 0 6px #a32f46aa inset;
 }
 
-/* Lista PDF */
+/* =================== PDF LIST =================== */
 #pdf-list {
   list-style: none;
   padding: 0;
   margin: 0;
   height: 65vh;
-  overflow: scroll;
+  overflow-y: auto;
 }
 
 #pdf-list li {
   margin: 0.7rem 0;
-  padding: 0.5rem 0.8rem;
   border-left: 4px solid #822433;
   background: #f8e6e6;
   border-radius: 4px;
   transition: background 0.3s, transform 0.2s;
+  cursor: pointer;
+  padding: 0.5rem 0.8rem;
 }
 
 #pdf-list li:hover {
   background: #f0c0c0;
-  transform: translateX(5px);
+  transform: translateY(-3px);
 }
 
 #pdf-list a {
@@ -151,33 +132,89 @@ h2 {
   text-decoration: underline;
 }
 
-#pdf-list .course-badge {
-    display: grid;
-    grid-template-columns: 5fr 1fr;
+#pdf-list .course-title {
+  color: #822433;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#pdf-list .course-title:hover {
+  color: #a32f46;
+  text-decoration: underline;
+}
+
+/* =================== COURSE BADGE =================== */
+.course-badge {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.course-summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.course-info {
+  /* display: flex;
+  flex-direction: column; */
+}
+
+.course-filters {
+  display: flex;
+  gap: 0.3rem;
+  align-items: center;
 }
 
 .pdf-badge {
   display: inline-block;
-  width: min-content;
   padding: 0.15rem 0.5rem;
-  margin-left: 0.3rem;
   font-size: 0.8rem;
   border-radius: 4px;
   color: #fff;
   font-weight: bold;
 }
 
-.course-filters {
-  display: flex;
-    text-align: right;
-    
-}
-
-.pdf-badge.faculty { 
-  background-color: #822433; 
-}
+.pdf-badge.faculty { background-color: #822433; }
 .pdf-badge.level { background-color: #a32f46; }
 
+/* =================== EXPANDABLE DETAILS =================== */
+.course-details {
+  width: 100%;
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.4s ease, padding 0.4s ease;
+  /* padding: 0 0.5rem; */
+  font-size: 0.9rem;
+  color: #555;
+  margin-top: 0.3rem;
+  /* border-top: 1px solid #a32f46; */
+}
+
+.course-details.expanded {
+  max-height: 500px;
+  /* padding: 0.5rem; */
+}
+
+.course-details div {
+  margin-bottom: 0.3rem;
+}
+
+.download-btn {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.25rem 0.5rem;
+  background: #fcf8f8;
+  color: #fff;
+  /* border: 1px solid #a32f46; */
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 0.85rem;
+  transition: background 0.3s;
+}
+
+/* =================== FOOTER =================== */
 footer {
   text-align: center;
   padding: 1rem;
@@ -188,6 +225,7 @@ footer {
   margin-top: 3rem;
 }
 
+/* =================== BUTTONS =================== */
 .btn-container {
   display: flex;
   justify-content: center;
@@ -223,16 +261,24 @@ footer {
   color: #fff;
 }
 
-/* Responsive */
+/* =================== RESPONSIVE =================== */
 @media (max-width: 600px) {
   header h1 { font-size: 2rem; }
   header p { font-size: 1rem; }
   .search-box { font-size: 0.95rem; }
   .filters { flex-direction: column; }
+
+
+  .course-summary {
+  flex-direction: column;
+  align-items: baseline;
+  gap: 10px;
+  }
 }
 
 
-.badge-link {
+
+.notes-link {
   display: inline-block;
   background-color: #f4f0f1;
   color: #822433;
@@ -244,7 +290,7 @@ footer {
   transition: background 0.3s, color 0.3s;
 }
 
-.badge-link:hover {
+.notes-link:hover {
   background-color: #822433;
   color: #fff;
 }

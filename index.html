@@ -46,7 +46,7 @@
         Questo approccio permette di produrre appunti di qualità rapidamente, con un flusso di lavoro collaborativo e facilmente gestibile tramite <strong>git</strong>.
       </p>
       <p>
-        <a href="./web_pages/how_to_take_notes.html" class="badge-link">📄 Scopri come applicarlo</a>
+        <a href="./web_pages/how_to_take_notes.html" class="notes-link">📄 Scopri come applicarlo</a>
       </p>
     </section>
 
@@ -81,8 +81,7 @@
         <select id="filterSemester"><option value="">Tutti i semestri</option></select>
       </div>
 
-
-      <ul id="pdf-list">
+      <ul id="pdf-list" class="pdf-list">
         <li>Caricamento in corso...</li>
       </ul>
     </section>
@@ -97,8 +96,1113 @@
 
     async function loadPDFs() {
       try {
-        const response = await fetch('pdfs.json');
-        pdfData = await response.json();
+        // const response = await fetch('pdfs.json');
+        pdfData = [
+  {
+    "faculty": "fisica",
+    "semester": "1",
+    "level": "undergraduate",
+    "title": "Geometria (Cl-Gal)",
+    "professor": "O'Grady/Molcho",
+    "year": "1",
+    "last_edit_date": "2025-09-14",
+    "contributors": [
+      {
+        "name": "filippodaminato",
+        "profile_url": "https://github.com/filippodaminato"
+      }
+    ],
+    "file_name": "latex_courses_physics_undergraduate_geometria_ogrady_molcho.pdf"
+  },
+  {
+    "faculty": "fisica",
+    "semester": "1",
+    "level": "undergraduate",
+    "title": "Geometria",
+    "professor": "Spinelli",
+    "year": "1",
+    "last_edit_date": "2025-09-14",
+    "contributors": [
+      {
+        "name": "filippodaminato",
+        "profile_url": "https://github.com/filippodaminato"
+      }
+    ],
+    "file_name": "latex_courses_physics_undergraduate_geometria_spinelli.pdf"
+  },
+  {
+    "faculty": "fisica",
+    "semester": "1",
+    "level": "undergraduate",
+    "title": "Geometria (Gam-Pes)",
+    "professor": "Salvati Manni/Viaggi",
+    "year": "1",
+    "last_edit_date": "2025-09-14",
+    "contributors": [
+      {
+        "name": "filippodaminato",
+        "profile_url": "https://github.com/filippodaminato"
+      }
+    ],
+    "file_name": "latex_courses_physics_undergraduate_geometria_salvati_manni_viaggi.pdf"
+  },
+  {
+    "faculty": "fisica",
+    "semester": "1",
+    "level": "undergraduate",
+    "title": "Geometria (Pet-Z)",
+    "professor": "Sambusetti",
+    "year": "1",
+    "last_edit_date": "2025-09-14",
+    "contributors": [
+      {
+        "name": "filippodaminato",
+        "profile_url": "https://github.com/filippodaminato"
+      }
+    ],
+    "file_name": "latex_courses_physics_undergraduate_geometria_sambusetti.pdf"
+  },
+  {
+    "faculty": "fisica",
+    "semester": "1",
+    "level": "undergraduate",
+    "title": "Astrofisica",
+    "professor": "De Bernardis",
+    "year": "2",
+    "last_edit_date": "2025-09-14",
+    "contributors": [
+      {
+        "name": "filippodaminato",
+        "profile_url": "https://github.com/filippodaminato"
+      }
+    ],
+    "file_name": "latex_courses_physics_undergraduate_astrofisica_de_bernardis.pdf"
+  },
+  {
+    "faculty": "fisica",
+    "semester": "1",
+    "level": "undergraduate",
+    "title": "Meccanica Quantistica (Df-Mo)",
+    "professor": "Nardecchia",
+    "year": "3",
+    "last_edit_date": "2025-09-14",
+    "contributors": [
+      {
+        "name": "filippodaminato",
+        "profile_url": "https://github.com/filippodaminato"
+      }
+    ],
+    "file_name": "latex_courses_physics_undergraduate_meccanica_quantistica_nardecchia.pdf"
+  },
+  {
+    "faculty": "fisica",
+    "semester": "1",
+    "level": "undergraduate",
+    "title": "Meccanica Quantistica (A-De)",
+    "professor": "Pelissetto",
+    "year": "3",
+    "last_edit_date": "2025-09-14",
+    "contributors": [
+      {
+        "name": "filippodaminato",
+        "profile_url": "https://github.com/filippodaminato"
+      }
+    ],
+    "file_name": "latex_courses_physics_undergraduate_meccanica_quantistica_pelissetto.pdf"
+  },
+  {
+    "faculty": "fisica",
+    "semester": "1",
+    "level": "undergraduate",
+    "title": "Meccanica Quantistica (Mp-Z)",
+    "professor": "Contino",
+    "year": "3",
+    "last_edit_date": "2025-09-14",
+    "contributors": [
+      {
+        "name": "filippodaminato",
+        "profile_url": "https://github.com/filippodaminato"
+      }
+    ],
+    "file_name": "latex_courses_physics_undergraduate_meccanica_quantistica_contino.pdf"
+  },
+  {
+    "faculty": "fisica",
+    "semester": "1",
+    "level": "undergraduate",
+    "title": "Fluidodinamica per l'Astrofisica",
+    "professor": "Graziani",
+    "year": "3",
+    "last_edit_date": "2025-09-14",
+    "contributors": [
+      {
+        "name": "filippodaminato",
+        "profile_url": "https://github.com/filippodaminato"
+      }
+    ],
+    "file_name": "latex_courses_physics_undergraduate_fluidodinamica_per_astrofisica_graziani.pdf"
+  },
+  {
+    "faculty": "fisica",
+    "semester": "1",
+    "level": "undergraduate",
+    "title": "Laboratorio di Segnali e Sistemi (Mp-Z)",
+    "professor": "Felici",
+    "year": "3",
+    "last_edit_date": "2025-09-14",
+    "contributors": [
+      {
+        "name": "filippodaminato",
+        "profile_url": "https://github.com/filippodaminato"
+      }
+    ],
+    "file_name": "latex_courses_physics_undergraduate_laboratorio_di_segnali_e_sistemi_felici.pdf"
+  },
+  {
+    "faculty": "fisica",
+    "semester": "1",
+    "level": "undergraduate",
+    "title": "Laboratorio di Segnali e Sistemi (Df-Mo)",
+    "professor": "Luci",
+    "year": "3",
+    "last_edit_date": "2025-09-14",
+    "contributors": [
+      {
+        "name": "filippodaminato",
+        "profile_url": "https://github.com/filippodaminato"
+      }
+    ],
+    "file_name": "latex_courses_physics_undergraduate_laboratorio_di_segnali_e_sistemi_luci.pdf"
+  },
+  {
+    "faculty": "fisica",
+    "semester": "1",
+    "level": "undergraduate",
+    "title": "Laboratorio di Segnali e Sistemi (A-De)",
+    "professor": "Vignati/Raggi",
+    "year": "3",
+    "last_edit_date": "2025-09-14",
+    "contributors": [
+      {
+        "name": "filippodaminato",
+        "profile_url": "https://github.com/filippodaminato"
+      }
+    ],
+    "file_name": "latex_courses_physics_undergraduate_laboratorio_di_segnali_e_sistemi_vignati_raggi.pdf"
+  },
+  {
+    "faculty": "fisica",
+    "semester": "1",
+    "level": "undergraduate",
+    "title": "Meccanica Statistica (Mp-Z)",
+    "professor": "Giardina",
+    "year": "3",
+    "last_edit_date": "2025-09-14",
+    "contributors": [
+      {
+        "name": "filippodaminato",
+        "profile_url": "https://github.com/filippodaminato"
+      }
+    ],
+    "file_name": "latex_courses_physics_undergraduate_meccanica_statistica_giardina.pdf"
+  },
+  {
+    "faculty": "fisica",
+    "semester": "1",
+    "level": "undergraduate",
+    "title": "Meccanica Statistica (Df-Mo)",
+    "professor": "Sciortino",
+    "year": "3",
+    "last_edit_date": "2025-09-14",
+    "contributors": [
+      {
+        "name": "filippodaminato",
+        "profile_url": "https://github.com/filippodaminato"
+      }
+    ],
+    "file_name": "latex_courses_physics_undergraduate_meccanica_statistica_sciortino.pdf"
+  },
+  {
+    "faculty": "fisica",
+    "semester": "1",
+    "level": "undergraduate",
+    "title": "Meccanica Statistica (A-De)",
+    "professor": "Caprara",
+    "year": "3",
+    "last_edit_date": "2025-09-14",
+    "contributors": [
+      {
+        "name": "filippodaminato",
+        "profile_url": "https://github.com/filippodaminato"
+      }
+    ],
+    "file_name": "latex_courses_physics_undergraduate_meccanica_statistica_caprara.pdf"
+  },
+  {
+    "faculty": "fisica",
+    "semester": "1",
+    "level": "undergraduate",
+    "title": "Analisi",
+    "professor": "Ansini",
+    "year": "1",
+    "last_edit_date": "2025-09-14",
+    "contributors": [
+      {
+        "name": "filippodaminato",
+        "profile_url": "https://github.com/filippodaminato"
+      }
+    ],
+    "file_name": "latex_courses_physics_undergraduate_analisi_ansini.pdf"
+  },
+  {
+    "faculty": "fisica",
+    "semester": "1",
+    "level": "undergraduate",
+    "title": "Analisi (Cl-Gal)",
+    "professor": "De La Torre Pedraza",
+    "year": "1",
+    "last_edit_date": "2025-09-14",
+    "contributors": [
+      {
+        "name": "filippodaminato",
+        "profile_url": "https://github.com/filippodaminato"
+      }
+    ],
+    "file_name": "latex_courses_physics_undergraduate_analisi_de_la_torre_pedraza.pdf"
+  },
+  {
+    "faculty": "fisica",
+    "semester": "1",
+    "level": "undergraduate",
+    "title": "Analisi (Gam-Pes)",
+    "professor": "Martinazzi",
+    "year": "1",
+    "last_edit_date": "2025-09-14",
+    "contributors": [
+      {
+        "name": "filippodaminato",
+        "profile_url": "https://github.com/filippodaminato"
+      }
+    ],
+    "file_name": "latex_courses_physics_undergraduate_analisi_martinazzi.pdf"
+  },
+  {
+    "faculty": "fisica",
+    "semester": "1",
+    "level": "undergraduate",
+    "title": "Analisi (Pet-Z)",
+    "professor": "Pinzari",
+    "year": "1",
+    "last_edit_date": "2025-09-14",
+    "contributors": [
+      {
+        "name": "filippodaminato",
+        "profile_url": "https://github.com/filippodaminato"
+      }
+    ],
+    "file_name": "latex_courses_physics_undergraduate_analisi_pinzari.pdf"
+  },
+  {
+    "faculty": "fisica",
+    "semester": "1",
+    "level": "undergraduate",
+    "title": "Laboratorio di Fisica Computazionale I (P-Z)",
+    "professor": "Marinari",
+    "year": "",
+    "last_edit_date": "2025-09-14",
+    "contributors": [
+      {
+        "name": "filippodaminato",
+        "profile_url": "https://github.com/filippodaminato"
+      }
+    ],
+    "file_name": "latex_courses_physics_undergraduate_laboratorio_di_fisica_computazionale_I_marinari.pdf"
+  },
+  {
+    "faculty": "fisica",
+    "semester": "1",
+    "level": "undergraduate",
+    "title": "Laboratorio di Fisica Computazionale I (D-O)",
+    "professor": "Mancini Terracciano",
+    "year": "",
+    "last_edit_date": "2025-09-14",
+    "contributors": [
+      {
+        "name": "filippodaminato",
+        "profile_url": "https://github.com/filippodaminato"
+      }
+    ],
+    "file_name": "latex_courses_physics_undergraduate_laboratorio_di_fisica_computazionale_I_mancini_terracciano.pdf"
+  },
+  {
+    "faculty": "fisica",
+    "semester": "1",
+    "level": "undergraduate",
+    "title": "Laboratorio di Fisica Computazionale I (A-C)",
+    "professor": "Pani",
+    "year": "",
+    "last_edit_date": "2025-09-14",
+    "contributors": [
+      {
+        "name": "filippodaminato",
+        "profile_url": "https://github.com/filippodaminato"
+      }
+    ],
+    "file_name": "latex_courses_physics_undergraduate_laboratorio_di_fisica_computazionale_I_pani.pdf"
+  },
+  {
+    "faculty": "fisica",
+    "semester": "1",
+    "level": "undergraduate",
+    "title": "Introduzione alla Fisica dei Sistemi Biologici",
+    "professor": "Di Leonardo",
+    "year": "",
+    "last_edit_date": "2025-09-14",
+    "contributors": [
+      {
+        "name": "filippodaminato",
+        "profile_url": "https://github.com/filippodaminato"
+      }
+    ],
+    "file_name": "latex_courses_physics_undergraduate_introduzione_alla_fisica_dei_sistemi_biologici_di_leonardo.pdf"
+  },
+  {
+    "faculty": "fisica",
+    "semester": "1",
+    "level": "undergraduate",
+    "title": "Termodinamica e Laboratorio (P-Z)",
+    "professor": "Santanastasio",
+    "year": "",
+    "last_edit_date": "2025-09-14",
+    "contributors": [
+      {
+        "name": "filippodaminato",
+        "profile_url": "https://github.com/filippodaminato"
+      }
+    ],
+    "file_name": "latex_courses_physics_undergraduate_termodinamica_e_laboratorio_santanastasio.pdf"
+  },
+  {
+    "faculty": "fisica",
+    "semester": "1",
+    "level": "undergraduate",
+    "title": "Termodinamica e Laboratorio (A-C)",
+    "professor": "Del Re D.",
+    "year": "",
+    "last_edit_date": "2025-09-14",
+    "contributors": [
+      {
+        "name": "filippodaminato",
+        "profile_url": "https://github.com/filippodaminato"
+      }
+    ],
+    "file_name": "latex_courses_physics_undergraduate_termodinamica_e_laboratorio_del_re_d.pdf"
+  },
+  {
+    "faculty": "fisica",
+    "semester": "1",
+    "level": "undergraduate",
+    "title": "Termodinamica e Laboratorio (D-O)",
+    "professor": "Del Re E.",
+    "year": "",
+    "last_edit_date": "2025-09-14",
+    "contributors": [
+      {
+        "name": "filippodaminato",
+        "profile_url": "https://github.com/filippodaminato"
+      }
+    ],
+    "file_name": "latex_courses_physics_undergraduate_termodinamica_e_laboratorio_del_re_e.pdf"
+  },
+  {
+    "faculty": "fisica",
+    "semester": "1",
+    "level": "undergraduate",
+    "title": "Calcolo delle Probabilità",
+    "professor": "Paoluzzi",
+    "year": "3",
+    "last_edit_date": "2025-09-14",
+    "contributors": [
+      {
+        "name": "filippodaminato",
+        "profile_url": "https://github.com/filippodaminato"
+      }
+    ],
+    "file_name": "latex_courses_physics_undergraduate_calcolo_delle_probabilita_paoluzzi.pdf"
+  },
+  {
+    "faculty": "fisica",
+    "semester": "1",
+    "level": "undergraduate",
+    "title": "Analisi Vettoriale (D-O)",
+    "professor": "De Marchis",
+    "year": "2",
+    "last_edit_date": "2025-09-14",
+    "contributors": [
+      {
+        "name": "filippodaminato",
+        "profile_url": "https://github.com/filippodaminato"
+      }
+    ],
+    "file_name": "latex_courses_physics_undergraduate_analisi_vettoriale_de_marchis.pdf"
+  },
+  {
+    "faculty": "fisica",
+    "semester": "1",
+    "level": "undergraduate",
+    "title": "Analisi Vettoriale (P-Z)",
+    "professor": "Terracina",
+    "year": "2",
+    "last_edit_date": "2025-09-14",
+    "contributors": [
+      {
+        "name": "filippodaminato",
+        "profile_url": "https://github.com/filippodaminato"
+      }
+    ],
+    "file_name": "latex_courses_physics_undergraduate_analisi_vettoriale_terracina.pdf"
+  },
+  {
+    "faculty": "fisica",
+    "semester": "1",
+    "level": "undergraduate",
+    "title": "Analisi Vettoriale (A-C)",
+    "professor": "Montefusco",
+    "year": "2",
+    "last_edit_date": "2025-09-14",
+    "contributors": [
+      {
+        "name": "filippodaminato",
+        "profile_url": "https://github.com/filippodaminato"
+      }
+    ],
+    "file_name": "latex_courses_physics_undergraduate_analisi_vettoriale_montefusco.pdf"
+  },
+  {
+    "faculty": "fisica",
+    "semester": "1",
+    "level": "undergraduate",
+    "title": "Laboratorio di Astrofisica",
+    "professor": "Battistelli/Columbro",
+    "year": "",
+    "last_edit_date": "2025-09-14",
+    "contributors": [
+      {
+        "name": "filippodaminato",
+        "profile_url": "https://github.com/filippodaminato"
+      }
+    ],
+    "file_name": "latex_courses_physics_undergraduate_laboratorio_di_astrofisica_battistelli_columbro.pdf"
+  },
+  {
+    "faculty": "fisica",
+    "semester": "1",
+    "level": "undergraduate",
+    "title": "Meccanica Analitica (A-C)",
+    "professor": "Mastropietro",
+    "year": "2",
+    "last_edit_date": "2025-09-14",
+    "contributors": [
+      {
+        "name": "filippodaminato",
+        "profile_url": "https://github.com/filippodaminato"
+      }
+    ],
+    "file_name": "latex_courses_physics_undergraduate_meccanica_analitica_mastropietro.pdf"
+  },
+  {
+    "faculty": "fisica",
+    "semester": "1",
+    "level": "undergraduate",
+    "title": "Meccanica Analitica (D-O)",
+    "professor": "Papinutto",
+    "year": "2",
+    "last_edit_date": "2025-09-14",
+    "contributors": [
+      {
+        "name": "filippodaminato",
+        "profile_url": "https://github.com/filippodaminato"
+      }
+    ],
+    "file_name": "latex_courses_physics_undergraduate_meccanica_analitica_papinutto.pdf"
+  },
+  {
+    "faculty": "fisica",
+    "semester": "1",
+    "level": "undergraduate",
+    "title": "Meccanica Analitica (P-Z)",
+    "professor": "Zamponi",
+    "year": "2",
+    "last_edit_date": "2025-09-14",
+    "contributors": [
+      {
+        "name": "filippodaminato",
+        "profile_url": "https://github.com/filippodaminato"
+      }
+    ],
+    "file_name": "latex_courses_physics_undergraduate_meccanica_analitica_zamponi.pdf"
+  },
+  {
+    "faculty": "fisica",
+    "semester": "1",
+    "level": "undergraduate",
+    "title": "Meccanica Quantistica e Statistica",
+    "professor": "van Heck",
+    "year": "3",
+    "last_edit_date": "2025-09-14",
+    "contributors": [
+      {
+        "name": "filippodaminato",
+        "profile_url": "https://github.com/filippodaminato"
+      }
+    ],
+    "file_name": "latex_courses_physics_undergraduate_meccanica_quantistica_e_statistica_van_heck.pdf"
+  },
+  {
+    "faculty": "fisica",
+    "semester": "1",
+    "level": "undergraduate",
+    "title": "Laboratorio di Meccanica (Gam-Pes)",
+    "professor": "Baldassarre",
+    "year": "1",
+    "last_edit_date": "2025-09-14",
+    "contributors": [
+      {
+        "name": "filippodaminato",
+        "profile_url": "https://github.com/filippodaminato"
+      }
+    ],
+    "file_name": "latex_courses_physics_undergraduate_laboratorio_di_meccanica_baldassarre.pdf"
+  },
+  {
+    "faculty": "fisica",
+    "semester": "1",
+    "level": "undergraduate",
+    "title": "Laboratorio di Meccanica",
+    "professor": "Organtini",
+    "year": "1",
+    "last_edit_date": "2025-09-14",
+    "contributors": [
+      {
+        "name": "filippodaminato",
+        "profile_url": "https://github.com/filippodaminato"
+      }
+    ],
+    "file_name": "latex_courses_physics_undergraduate_laboratorio_di_meccanica_organtini.pdf"
+  },
+  {
+    "faculty": "fisica",
+    "semester": "1",
+    "level": "undergraduate",
+    "title": "Laboratorio di Meccanica (Cl-Gal)",
+    "professor": "De Cecco",
+    "year": "1",
+    "last_edit_date": "2025-09-14",
+    "contributors": [
+      {
+        "name": "filippodaminato",
+        "profile_url": "https://github.com/filippodaminato"
+      }
+    ],
+    "file_name": "latex_courses_physics_undergraduate_laboratorio_di_meccanica_de_cecco.pdf"
+  },
+  {
+    "faculty": "fisica",
+    "semester": "1",
+    "level": "undergraduate",
+    "title": "Laboratorio di Meccanica (Pet-Z)",
+    "professor": "Piacentini",
+    "year": "1",
+    "last_edit_date": "2025-09-14",
+    "contributors": [
+      {
+        "name": "filippodaminato",
+        "profile_url": "https://github.com/filippodaminato"
+      }
+    ],
+    "file_name": "latex_courses_physics_undergraduate_laboratorio_di_meccanica_piacentini.pdf"
+  },
+  {
+    "faculty": "fisica",
+    "semester": "1",
+    "level": "undergraduate",
+    "title": "Laboratorio di Calcolo (Pet-Z)",
+    "professor": "Rahatlou",
+    "year": "",
+    "last_edit_date": "2025-09-14",
+    "contributors": [
+      {
+        "name": "filippodaminato",
+        "profile_url": "https://github.com/filippodaminato"
+      }
+    ],
+    "file_name": "latex_courses_physics_undergraduate_laboratorio_di_calcolo_rahatlou.pdf"
+  },
+  {
+    "faculty": "fisica",
+    "semester": "1",
+    "level": "undergraduate",
+    "title": "Laboratorio di Calcolo (Cl-Gal)",
+    "professor": "Boeri",
+    "year": "",
+    "last_edit_date": "2025-09-14",
+    "contributors": [
+      {
+        "name": "filippodaminato",
+        "profile_url": "https://github.com/filippodaminato"
+      }
+    ],
+    "file_name": "latex_courses_physics_undergraduate_laboratorio_di_calcolo_boeri.pdf"
+  },
+  {
+    "faculty": "fisica",
+    "semester": "1",
+    "level": "undergraduate",
+    "title": "Laboratorio di Calcolo (A-Ci)",
+    "professor": "Rovigatti",
+    "year": "",
+    "last_edit_date": "2025-09-14",
+    "contributors": [
+      {
+        "name": "filippodaminato",
+        "profile_url": "https://github.com/filippodaminato"
+      }
+    ],
+    "file_name": "latex_courses_physics_undergraduate_laboratorio_di_calcolo_rovigatti.pdf"
+  },
+  {
+    "faculty": "fisica",
+    "semester": "1",
+    "level": "undergraduate",
+    "title": "Laboratorio di Calcolo (Gam-Pes)",
+    "professor": "De Michele",
+    "year": "",
+    "last_edit_date": "2025-09-14",
+    "contributors": [
+      {
+        "name": "filippodaminato",
+        "profile_url": "https://github.com/filippodaminato"
+      }
+    ],
+    "file_name": "latex_courses_physics_undergraduate_laboratorio_di_calcolo_de_michele.pdf"
+  },
+  {
+    "faculty": "fisica",
+    "semester": "1",
+    "level": "graduate",
+    "title": "Computational Statistical Mechanics",
+    "professor": "De Michele",
+    "year": "1",
+    "last_edit_date": "2025-09-14",
+    "contributors": [
+      {
+        "name": "filippodaminato",
+        "profile_url": "https://github.com/filippodaminato"
+      }
+    ],
+    "file_name": "latex_courses_physics_graduate_computational_statistical_mechanics.pdf"
+  },
+  {
+    "faculty": "fisica",
+    "semester": "1",
+    "level": "graduate",
+    "title": "Introduction to Quantum Field Theory (A-J)",
+    "professor": "Polosa",
+    "year": "1",
+    "last_edit_date": "2025-09-14",
+    "contributors": [
+      {
+        "name": "filippodaminato",
+        "profile_url": "https://github.com/filippodaminato"
+      }
+    ],
+    "file_name": "latex_courses_physics_graduate_introduction_to_quantum_field_theory_polosa.pdf"
+  },
+  {
+    "faculty": "fisica",
+    "semester": "1",
+    "level": "graduate",
+    "title": "Introduction to Quantum Field Theory (K-Z)",
+    "professor": "Esposito",
+    "year": "1",
+    "last_edit_date": "2025-09-14",
+    "contributors": [
+      {
+        "name": "filippodaminato",
+        "profile_url": "https://github.com/filippodaminato"
+      }
+    ],
+    "file_name": "latex_courses_physics_graduate_introduction_to_quantum_field_theory_esposito.pdf"
+  },
+  {
+    "faculty": "fisica",
+    "semester": "2",
+    "level": "graduate",
+    "title": "Theoretical Bio Physics",
+    "professor": "Giardina",
+    "year": "1",
+    "last_edit_date": "2025-09-14",
+    "contributors": [
+      {
+        "name": "filippodaminato",
+        "profile_url": "https://github.com/filippodaminato"
+      }
+    ],
+    "file_name": "latex_courses_physics_graduate_theoretical_bio_physics_giardina.pdf"
+  },
+  {
+    "faculty": "fisica",
+    "semester": "1",
+    "level": "graduate",
+    "title": "Soft and Biological Matter",
+    "professor": "Sciortino",
+    "year": "1",
+    "last_edit_date": "2025-09-14",
+    "contributors": [
+      {
+        "name": "filippodaminato",
+        "profile_url": "https://github.com/filippodaminato"
+      }
+    ],
+    "file_name": "latex_courses_physics_graduate_soft_and_biological_matter_sciortino.pdf"
+  },
+  {
+    "faculty": "fisica",
+    "semester": "1",
+    "level": "graduate",
+    "title": "Physics Laboratory I (Part.)",
+    "professor": "Voena",
+    "year": "1",
+    "last_edit_date": "2025-09-14",
+    "contributors": [
+      {
+        "name": "filippodaminato",
+        "profile_url": "https://github.com/filippodaminato"
+      }
+    ],
+    "file_name": "latex_courses_physics_graduate_physics_laboratory_I_part_voena.pdf"
+  },
+  {
+    "faculty": "fisica",
+    "semester": "1",
+    "level": "graduate",
+    "title": "Physics Laboratory I (Cond. Matt.)",
+    "professor": "Betti",
+    "year": "1",
+    "last_edit_date": "2025-09-14",
+    "contributors": [
+      {
+        "name": "filippodaminato",
+        "profile_url": "https://github.com/filippodaminato"
+      }
+    ],
+    "file_name": "latex_courses_physics_graduate_physics_laboratory_I_cond_matt_betti.pdf"
+  },
+  {
+    "faculty": "fisica",
+    "semester": "1",
+    "level": "graduate",
+    "title": "Topics in Quantum Mechanics and Field Theory",
+    "professor": "Pelissetto",
+    "year": "1",
+    "last_edit_date": "2025-09-14",
+    "contributors": [
+      {
+        "name": "filippodaminato",
+        "profile_url": "https://github.com/filippodaminato"
+      }
+    ],
+    "file_name": "latex_courses_physics_graduate_topics_in_quantum_mechanics_and_field_theory_pelissetto.pdf"
+  },
+  {
+    "faculty": "fisica",
+    "semester": "1",
+    "level": "graduate",
+    "title": "Stellar Astrophysics",
+    "professor": "Schneider",
+    "year": "1",
+    "last_edit_date": "2025-09-14",
+    "contributors": [
+      {
+        "name": "filippodaminato",
+        "profile_url": "https://github.com/filippodaminato"
+      }
+    ],
+    "file_name": "latex_courses_physics_graduate_stellar_astrophysics_schneider.pdf"
+  },
+  {
+    "faculty": "fisica",
+    "semester": "1",
+    "level": "graduate",
+    "title": "Biochemistry",
+    "professor": "Boffi",
+    "year": "1",
+    "last_edit_date": "2025-09-14",
+    "contributors": [
+      {
+        "name": "filippodaminato",
+        "profile_url": "https://github.com/filippodaminato"
+      }
+    ],
+    "file_name": "latex_courses_physics_graduate_biochemistry_boffi.pdf"
+  },
+  {
+    "faculty": "fisica",
+    "semester": "1",
+    "level": "graduate",
+    "title": "Physics Laboratory I (Bio.)",
+    "professor": "Ortolani",
+    "year": "1",
+    "last_edit_date": "2025-09-14",
+    "contributors": [
+      {
+        "name": "filippodaminato",
+        "profile_url": "https://github.com/filippodaminato"
+      }
+    ],
+    "file_name": "latex_courses_physics_graduate_physics_laboratory_I_bio_ortolani.pdf"
+  },
+  {
+    "faculty": "fisica",
+    "semester": "1",
+    "level": "graduate",
+    "title": "Astrophysical Processes and Plasmas",
+    "professor": "Piacentini",
+    "year": "1",
+    "last_edit_date": "2025-09-14",
+    "contributors": [
+      {
+        "name": "filippodaminato",
+        "profile_url": "https://github.com/filippodaminato"
+      }
+    ],
+    "file_name": "latex_courses_physics_graduate_astrophysical_processes_and_plasmas_piacentini.pdf"
+  },
+  {
+    "faculty": "fisica",
+    "semester": "1",
+    "level": "graduate",
+    "title": "Object Oriented Programming for Data Processing",
+    "professor": "Pannarale",
+    "year": "1",
+    "last_edit_date": "2025-09-14",
+    "contributors": [
+      {
+        "name": "filippodaminato",
+        "profile_url": "https://github.com/filippodaminato"
+      }
+    ],
+    "file_name": "latex_courses_physics_graduate_object_oriented_programming_for_data_processing_pannarale.pdf"
+  },
+  {
+    "faculty": "fisica",
+    "semester": "1",
+    "level": "graduate",
+    "title": "Computational Biophysics",
+    "professor": "Rovigatti",
+    "year": "1",
+    "last_edit_date": "2025-09-14",
+    "contributors": [
+      {
+        "name": "filippodaminato",
+        "profile_url": "https://github.com/filippodaminato"
+      }
+    ],
+    "file_name": "latex_courses_physics_graduate_computational_biophysics_rovigatti.pdf"
+  },
+  {
+    "faculty": "fisica",
+    "semester": "1",
+    "level": "graduate",
+    "title": "Condensed Matter Physics (K-Z)",
+    "professor": "Grilli",
+    "year": "1",
+    "last_edit_date": "2025-09-14",
+    "contributors": [
+      {
+        "name": "filippodaminato",
+        "profile_url": "https://github.com/filippodaminato"
+      }
+    ],
+    "file_name": "latex_courses_physics_graduate_condensed_matter_physics_grilli.pdf"
+  },
+  {
+    "faculty": "fisica",
+    "semester": "2",
+    "level": "graduate",
+    "title": "Condensed Matter Physics",
+    "professor": "Caprara",
+    "year": "1",
+    "last_edit_date": "2025-09-14",
+    "contributors": [
+      {
+        "name": "filippodaminato",
+        "profile_url": "https://github.com/filippodaminato"
+      }
+    ],
+    "file_name": "latex_courses_physics_graduate_condensed_matter_physics_caprara_2020.pdf"
+  },
+  {
+    "faculty": "fisica",
+    "semester": "1",
+    "level": "graduate",
+    "title": "Condensed Matter Physics (A-J)",
+    "professor": "Polimeni",
+    "year": "1",
+    "last_edit_date": "2025-09-14",
+    "contributors": [
+      {
+        "name": "filippodaminato",
+        "profile_url": "https://github.com/filippodaminato"
+      }
+    ],
+    "file_name": "latex_courses_physics_graduate_condensed_matter_physics_polimeni.pdf"
+  },
+  {
+    "faculty": "fisica",
+    "semester": "1",
+    "level": "graduate",
+    "title": "Group Theory in Mathematical Physics",
+    "professor": "Panati",
+    "year": "1",
+    "last_edit_date": "2025-09-14",
+    "contributors": [
+      {
+        "name": "filippodaminato",
+        "profile_url": "https://github.com/filippodaminato"
+      }
+    ],
+    "file_name": "latex_courses_physics_graduate_group_theory_in_mathematical_physics_panati.pdf"
+  },
+  {
+    "faculty": "fisica",
+    "semester": "1",
+    "level": "graduate",
+    "title": "Advanced Mathematical Methods for Physics",
+    "professor": "Crisanti",
+    "year": "1",
+    "last_edit_date": "2025-09-14",
+    "contributors": [
+      {
+        "name": "filippodaminato",
+        "profile_url": "https://github.com/filippodaminato"
+      }
+    ],
+    "file_name": "latex_courses_physics_graduate_advanced_mathematical_methods_for_physics_crisanti.pdf"
+  },
+  {
+    "faculty": "fisica",
+    "semester": "1",
+    "level": "graduate",
+    "title": "General Relativity",
+    "professor": "Pani",
+    "year": "1",
+    "last_edit_date": "2025-09-14",
+    "contributors": [
+      {
+        "name": "filippodaminato",
+        "profile_url": "https://github.com/filippodaminato"
+      }
+    ],
+    "file_name": "latex_courses_physics_graduate_general_relativity_pani.pdf"
+  },
+  {
+    "faculty": "fisica",
+    "semester": "1",
+    "level": "graduate",
+    "title": "Computational Solid State Physics",
+    "professor": "Boeri",
+    "year": "1",
+    "last_edit_date": "2025-09-14",
+    "contributors": [
+      {
+        "name": "filippodaminato",
+        "profile_url": "https://github.com/filippodaminato"
+      }
+    ],
+    "file_name": "latex_courses_physics_graduate_computational_solid_state_physics_boeri.pdf"
+  },
+  {
+    "faculty": "fisica",
+    "semester": "1",
+    "level": "graduate",
+    "title": "Fundamentals of Quantum Optics",
+    "professor": "Trotta",
+    "year": "1",
+    "last_edit_date": "2025-09-14",
+    "contributors": [
+      {
+        "name": "filippodaminato",
+        "profile_url": "https://github.com/filippodaminato"
+      }
+    ],
+    "file_name": "latex_courses_physics_graduate_fundamentals_of_quantum_optics_trotta.pdf"
+  },
+  {
+    "faculty": "fisica",
+    "semester": "2",
+    "level": "graduate",
+    "title": "Mathematical Physics",
+    "professor": "Teta",
+    "year": "1",
+    "last_edit_date": "2025-09-14",
+    "contributors": [
+      {
+        "name": "filippodaminato",
+        "profile_url": "https://github.com/filippodaminato"
+      }
+    ],
+    "file_name": "latex_courses_physics_graduate_matematical_physics_teta.pdf"
+  },
+  {
+    "faculty": "fisica",
+    "semester": "1",
+    "level": "graduate",
+    "title": "Astrophysics Laboratory I",
+    "professor": "De Bernardis",
+    "year": "1",
+    "last_edit_date": "2025-09-14",
+    "contributors": [
+      {
+        "name": "filippodaminato",
+        "profile_url": "https://github.com/filippodaminato"
+      }
+    ],
+    "file_name": "latex_courses_physics_graduate_astrophysics_laboratory_I_de_bernardis.pdf"
+  },
+  {
+    "faculty": "fisica",
+    "semester": "1",
+    "level": "graduate",
+    "title": "Statistical Mechanics and Critical Phenomena",
+    "professor": "Marinari",
+    "year": "1",
+    "last_edit_date": "2025-09-14",
+    "contributors": [
+      {
+        "name": "filippodaminato",
+        "profile_url": "https://github.com/filippodaminato"
+      }
+    ],
+    "file_name": "latex_courses_physics_graduate_statistical_mechanics_and_critical_phenomena_marinari.pdf"
+  },
+  {
+    "faculty": "fisica",
+    "semester": "1",
+    "level": "graduate",
+    "title": "Nuclear Physics",
+    "professor": "Cunqueiro",
+    "year": "1",
+    "last_edit_date": "2025-09-14",
+    "contributors": [
+      {
+        "name": "filippodaminato",
+        "profile_url": "https://github.com/filippodaminato"
+      }
+    ],
+    "file_name": "latex_courses_physics_graduate_nuclear_physics_cunqueiro.pdf"
+  }
+]//await response.json();
         populateFilters();
         renderList(pdfData);
       } catch (error) {
@@ -146,13 +1250,24 @@
         const li = document.createElement('li');
         li.innerHTML = `
           <div class="course-badge">
-            <div class="course-info">
-                <a href="${pdf.file_name}" target="_blank">${pdf.title}</a>
-                <span style="color:#aaa">– ${pdf.professor}</span>
+            <div class="course-summary">
+              <div class="course-info">
+                <span class="course-title">${pdf.title}</a>
+                <small style="color:#aaa">– ${pdf.professor}</small>
+              </div>
+              <div class="course-filters">
+                <span class="pdf-badge faculty">${pdf.faculty || ''}</span>
+                <span class="pdf-badge level">${pdf.level || ''}</span>
+              </div>
             </div>
-            <div class="course-filters">
-              <span class="pdf-badge faculty">${pdf.faculty || ''}</span>
-              <span class="pdf-badge level">${pdf.level || ''}</span>
+            <div class="course-details">
+              <div><strong>Anno:</strong> ${pdf.year || '-'}</div>
+              <div><strong>Semestre:</strong> ${pdf.semester || '-'}</div>
+              <div><strong>Ultimo aggiornamento:</strong> ${pdf.last_edit_date || '-'}</div>
+              <div><strong>Contributors:</strong> 
+                ${pdf.contributors.map(c => `<a href="${c.profile_url}" target="_blank">${c.name}</a>`).join(', ')}
+              </div>
+              <a href="${pdf.file_name}" target="_blank" class="download-btn">📄 Scarica PDF</a>
             </div>
           </div>
         `;
@@ -238,5 +1353,21 @@
 
     loadPDFs();
   </script>
+
+
+
+
+<script>
+document.querySelectorAll('.course-badge').forEach(badge => {
+  const summary = badge.querySelector('.course-summary');
+  const details = badge.querySelector('.course-details');
+  const icon = badge.querySelector('.toggle-icon');
+
+  summary.addEventListener('click', () => {
+    const expanded = details.classList.toggle('expanded');
+    icon.textContent = expanded ? '⬆️' : '⬇️';
+  });
+});
+</script>
 </body>
 </html>
