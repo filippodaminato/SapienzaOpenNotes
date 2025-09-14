@@ -32,7 +32,7 @@ jobs:
       # 4. Run the build script
       - name: Build PDFs and generate JSON
         run: |
-          python3 build_pdfs.py
+          python3 .github/workflows/build_pdfs.py
 
       # 5. Setup GitHub Pages
       - name: Setup Pages
