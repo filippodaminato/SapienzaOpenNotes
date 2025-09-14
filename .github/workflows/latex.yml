@@ -16,55 +16,45 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          fetch-depth: 0  # Serve per git log e diff
 
-      - name: Detect changed courses
-        id: changes
+      - name: Setup environment
         run: |
-          changed_tex=$(git diff --name-only HEAD~1 HEAD | grep 'main.tex' || true)
-          changed_courses=$(echo "$changed_tex" | xargs -n1 dirname | sed 's|/[^/]*$||' | sort -u)
-          echo "changed_courses=$changed_courses" >> $GITHUB_OUTPUT
+          sudo apt-get update
+          sudo apt-get install -y jq
 
-      - name: Compile LaTeX courses and generate PDFs
+      - name: Prepare public folder and JSON
         run: |
           mkdir -p public
           echo "[" > public/pdfs.json
+
+      - name: Compile LaTeX and collect metadata
+        run: |
           first_entry=true
 
-          # Tutti i corsi
-          all_courses=$(find . -name "main.tex" | xargs -n1 dirname | sed 's|/[^/]*$||' | sort -u)
+          # Trova tutte le cartelle dei corsi contenenti main.tex
+          find latex_courses -name "main.tex" | while read tex_file; do
+            course_dir=$(dirname "$tex_file")
+            pdf_file="public/$(echo "$course_dir" | sed 's/\//_/g').pdf"
 
-          for course_dir in $all_courses; do
-            relative_path=${course_dir#./}
-            sanitized_name=$(echo "$relative_path" | sed 's|/|_|g')
-            pdf_file="${sanitized_name}.pdf"
+            # Controlla se ci sono modifiche nelle lezioni o main.tex
+            changed=$(git diff --name-only HEAD~1 HEAD "$course_dir" || true)
 
-            # Decide se compilare:
-            # 1) corso modificato
-            # 2) corso non modificato ma PDF mancante
-            compile=false
-            if echo "${{ steps.changes.outputs.changed_courses }}" | grep -q "$course_dir"; then
-              compile=true
-              echo "📄 Compilo corso modificato: $course_dir"
-            elif [ ! -f "public/$pdf_file" ] && [ ! -f "$course_dir/main.pdf" ]; then
-              compile=true
-              echo "📄 PDF mancante, compilo corso: $course_dir"
-            else
-              echo "ℹ️ Corso non modificato e PDF presente: $course_dir"
-            fi
-
-            if [ "$compile" = true ]; then
-              docker run --rm -v "$PWD:/data" -w "/data/$course_dir" texlive/texlive:latest \
+            if [ -n "$changed" ] || [ ! -f "$pdf_file" ]; then
+              echo "📄 Compilo corso: $course_dir"
+              docker run --rm -v "$(pwd):/data" -w "/data/$course_dir" texlive/texlive:latest \
                 latexmk -pdf -interaction=nonstopmode -halt-on-error main.tex || \
-                echo "⚠️ Compilazione fallita per $course_dir, PDF esistente se presente rimarrà"
+                echo "⚠️ Compilazione fallita, manterrò PDF esistente se presente"
+            else
+              echo "✅ Corso non modificato, PDF già esistente"
             fi
 
-            # Copia PDF se esiste
+            # Copia il PDF nella cartella pubblica
             if [ -f "$course_dir/main.pdf" ]; then
-              cp "$course_dir/main.pdf" "public/$pdf_file"
+              cp "$course_dir/main.pdf" "$pdf_file"
             fi
 
-            # Metadata dal config.json
+            # Estrai dati dal config.json del corso
             if [ -f "$course_dir/config.json" ]; then
               title=$(jq -r '.title' "$course_dir/config.json")
               faculty=$(jq -r '.faculty' "$course_dir/config.json")
@@ -81,13 +71,10 @@ jobs:
               year="N/D"
             fi
 
-            # Metadata git a livello di corso (tutte le lezioni)
+            # Metadata git su tutta la cartella del corso
             last_edit_date=$(git log -1 --format="%cs" -- "$course_dir")
-            last_editor_name=$(git log -1 --format="%an" -- "$course_dir")
-            last_editor_email=$(git log -1 --format="%ae" -- "$course_dir")
-            last_editor_url="https://github.com/${last_editor_email%@*}"
-
-            contributors=$(git log --format='%an|%ae' -- "$course_dir" | sort -u | jq -R -s -c 'split("\n")[:-1] | map({name: split("|")[0], profile_url: ("https://github.com/" + (split("|")[1] | split("@")[0]))})')
+            contributors=$(git log --format='%an|%ae' -- "$course_dir" | sort -u | \
+              jq -R -s -c 'split("\n")[:-1] | map({name: split("|")[0], profile_url: ("https://github.com/" + (split("|")[1] | split("@")[0]))})')
 
             # Aggiungi al JSON
             if [ "$first_entry" = true ]; then
@@ -103,12 +90,8 @@ jobs:
               \"title\": \"$title\",
               \"professor\": \"$professor\",
               \"year\": \"$year\",
-              \"file_name\": \"$pdf_file\",
+              \"file_name\": \"$(basename "$pdf_file")\",
               \"last_edit_date\": \"$last_edit_date\",
-              \"last_editor\": {
-                \"name\": \"$last_editor_name\",
-                \"profile_url\": \"$last_editor_url\"
-              },
               \"contributors\": $contributors
             }" >> public/pdfs.json
 
@@ -122,7 +105,7 @@ jobs:
       - name: Copy static website
         run: |
           mkdir -p public/web_pages
-          cp -r web_pages/* public/web_pages/ || echo "Cartella static non trovata, ignoro"
+          cp -r web_pages/* public/web_pages/ || echo "Cartella web_pages non trovata, ignoro"
           cp index.html public/ || echo "index.html mancante"
 
       - name: Upload artifact
