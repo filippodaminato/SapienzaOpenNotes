@@ -18,16 +18,12 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Detect changed courses
+      - name: Detect modified files
         id: changes
         run: |
-          # trova main.tex modificati nelle ultime due revisioni
-          changed_tex=$(git diff --name-only HEAD~1 HEAD | grep 'main.tex' || true)
-          # ottieni le cartelle dei corsi
-          changed_courses=$(echo "$changed_tex" | xargs -n1 dirname | sort -u)
-          # salva in un file temporaneo per bash
-          echo "$changed_courses" > changed_courses.txt
-          echo "changed_courses_count=$(echo "$changed_courses" | wc -l)" >> $GITHUB_OUTPUT
+          # trova tutti i file modificati tra HEAD~1 e HEAD (main.tex e lezioni)
+          modified_files=$(git diff --name-only HEAD~1 HEAD | grep -E 'main.tex|lesson[0-9]+/lesson[0-9]+\.tex' || true)
+          echo "$modified_files" > modified_files.txt
 
       - name: Compile LaTeX courses and generate PDFs
         run: |
@@ -35,30 +31,28 @@ jobs:
           echo "[" > public/pdfs.json
           first_entry=true
 
-          # leggi tutti i corsi
+          # trova tutte le cartelle dei corsi
           all_courses=$(find latex_courses -name "main.tex" | xargs -n1 dirname)
 
-          # leggi corsi modificati in un array
-          mapfile -t changed_courses < changed_courses.txt
+          # carica file modificati in array
+          mapfile -t modified_files < modified_files.txt
 
           for course_dir in $all_courses; do
             relative_path=${course_dir#./}
             sanitized_name=$(echo "$relative_path" | sed 's|/|_|g')
             pdf_file="public/${sanitized_name}.pdf"
 
-            # Decidi se compilare: corso modificato o PDF mancante
+            # Determina se compilare
             compile=false
-            for c in "${changed_courses[@]}"; do
-              if [ "$c" = "$course_dir" ]; then
+            for f in "${modified_files[@]}"; do
+              if [[ "$f" == "$course_dir"* ]]; then
                 compile=true
                 break
               fi
             done
-            if [ ! -f "$pdf_file" ] || [ ! -f "$course_dir/main.pdf" ]; then
-              compile=true
-            fi
 
-            if [ "$compile" = true ]; then
+            # Compila solo se modificato o PDF mancante
+            if [ "$compile" = true ] || [ ! -f "$pdf_file" ] || [ ! -f "$course_dir/main.pdf" ]; then
               echo "📄 Compilo corso: $course_dir"
               docker run --rm -v "$PWD:/data" -w "/data/$course_dir" texlive/texlive:latest \
                 latexmk -pdf -interaction=nonstopmode -halt-on-error main.tex || \
@@ -72,7 +66,7 @@ jobs:
               cp "$course_dir/main.pdf" "$pdf_file"
             fi
 
-            # Metadata config.json
+            # Leggi metadata dal config.json
             if [ -f "$course_dir/config.json" ]; then
               title=$(jq -r '.title' "$course_dir/config.json")
               faculty=$(jq -r '.faculty' "$course_dir/config.json")
@@ -89,7 +83,7 @@ jobs:
               year="N/D"
             fi
 
-            # Metadata git su tutte le lezioni
+            # Metadata git: considera tutte le lezioni e main.tex
             last_edit_date=$(git log -1 --format="%cs" -- "$course_dir")
             contributors=$(git log --format='%an|%ae' -- "$course_dir" | sort -u | \
               jq -R -s -c 'split("\n")[:-1] | map({name: split("|")[0], profile_url: ("https://github.com/" + (split("|")[1] | split("@")[0]))})')
