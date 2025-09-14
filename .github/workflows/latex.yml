@@ -82,23 +82,23 @@ jobs:
                 echo "," >> public/pdfs.json
               fi
 
-              cat <<EOF >> public/pdfs.json
+              cat <<'EOF' >> public/pdfs.json
               {
-                "faculty": "$faculty",
-                "semester": "$semester",
-                "level": "$level",
-                "title": "$title",
-                "professor": "$professor",
-                "year": "$year",
-                "file_name": "$pdf_file",
-                "last_edit_date": "$last_edit_date",
+                "faculty": "'"$faculty"'",
+                "semester": "'"$semester"'",
+                "level": "'"$level"'",
+                "title": "'"$title"'",
+                "professor": "'"$professor"'",
+                "year": "'"$year"'",
+                "file_name": "'"$pdf_file"'",
+                "last_edit_date": "'"$last_edit_date"'",
                 "last_editor": {
-                  "name": "$last_editor_name",
-                  "profile_url": "$last_editor_url"
+                  "name": "'"$last_editor_name"'",
+                  "profile_url": "'"$last_editor_url"'"
                 },
-                "contributors": $contributors
+                "contributors": '"$contributors"'
               }
-            EOF
+              EOF
 
             else
               echo "❌ Nessun PDF trovato per $tex_file"
