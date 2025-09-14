@@ -16,16 +16,13 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0 # Serve per git log e diff completo
+          fetch-depth: 0
 
       - name: Detect changed courses
         id: changes
         run: |
-          # Trova tutte le lezioni modificate
           changed_tex=$(git diff --name-only HEAD~1 HEAD | grep 'main.tex' || true)
-          # Trova la cartella principale del corso (assume struttura .../course_name/main.tex)
           changed_courses=$(echo "$changed_tex" | xargs -n1 dirname | sed 's|/[^/]*$||' | sort -u)
-          # Output
           echo "changed_courses=$changed_courses" >> $GITHUB_OUTPUT
 
       - name: Compile LaTeX courses and generate PDFs
@@ -34,7 +31,7 @@ jobs:
           echo "[" > public/pdfs.json
           first_entry=true
 
-          # Trova tutti i corsi (cartelle contenenti main.tex)
+          # Tutti i corsi
           all_courses=$(find . -name "main.tex" | xargs -n1 dirname | sed 's|/[^/]*$||' | sort -u)
 
           for course_dir in $all_courses; do
@@ -42,22 +39,32 @@ jobs:
             sanitized_name=$(echo "$relative_path" | sed 's|/|_|g')
             pdf_file="${sanitized_name}.pdf"
 
-            # Se il corso è stato modificato, compila
+            # Decide se compilare:
+            # 1) corso modificato
+            # 2) corso non modificato ma PDF mancante
+            compile=false
             if echo "${{ steps.changes.outputs.changed_courses }}" | grep -q "$course_dir"; then
+              compile=true
               echo "📄 Compilo corso modificato: $course_dir"
-              docker run --rm -v "$PWD:/data" -w "/data/$course_dir" texlive/texlive:latest \
-                latexmk -pdf -interaction=nonstopmode -halt-on-error main.tex || \
-                echo "⚠️ Compilazione fallita per $course_dir, uso PDF esistente se presente"
+            elif [ ! -f "public/$pdf_file" ] && [ ! -f "$course_dir/main.pdf" ]; then
+              compile=true
+              echo "📄 PDF mancante, compilo corso: $course_dir"
             else
-              echo "ℹ️ Corso non modificato, mantengo PDF esistente: $course_dir"
+              echo "ℹ️ Corso non modificato e PDF presente: $course_dir"
             fi
 
-            # Copia PDF se presente
+            if [ "$compile" = true ]; then
+              docker run --rm -v "$PWD:/data" -w "/data/$course_dir" texlive/texlive:latest \
+                latexmk -pdf -interaction=nonstopmode -halt-on-error main.tex || \
+                echo "⚠️ Compilazione fallita per $course_dir, PDF esistente se presente rimarrà"
+            fi
+
+            # Copia PDF se esiste
             if [ -f "$course_dir/main.pdf" ]; then
               cp "$course_dir/main.pdf" "public/$pdf_file"
             fi
 
-            # Metadata dal config.json se presente
+            # Metadata dal config.json
             if [ -f "$course_dir/config.json" ]; then
               title=$(jq -r '.title' "$course_dir/config.json")
               faculty=$(jq -r '.faculty' "$course_dir/config.json")
