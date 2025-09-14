@@ -13,26 +13,31 @@ jobs:
       id-token: write
 
     steps:
-      - name: Checkout repo
+      - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0 # serve per git log e diff
 
-      - name: Detect changed .tex files
+      - name: Detect changed main.tex files
         id: changes
         run: |
+          # Trova tutti i main.tex modificati nell'ultimo commit
           changed=$(git diff --name-only HEAD~1 HEAD | grep 'main.tex' || true)
-          # Sostituisci spazi e newline con separatore
-          changed_sanitized=$(echo "$changed" | tr '\n' ' ')
-          echo "changed_tex=$changed_sanitized" >> $GITHUB_OUTPUT
+          # Esporta in output GitHub Actions
+          echo "changed_tex=$(echo "$changed" | tr '\n' ' ')" >> $GITHUB_OUTPUT
 
-      - name: Compile LaTeX files and collect metadata
+      - name: Compile LaTeX and update pdfs.json
         run: |
           mkdir -p public
-          echo "[" > public/pdfs.json
-          first_entry=true
 
-          # Determina i .tex da compilare
+          # Carica vecchio JSON se esiste
+          if [ -f public/pdfs.json ]; then
+            json=$(cat public/pdfs.json)
+          else
+            json="[]"
+          fi
+
+          # Determina quali file compilare
           if [ -n "${{ steps.changes.outputs.changed_tex }}" ]; then
             tex_files="${{ steps.changes.outputs.changed_tex }}"
           else
@@ -41,9 +46,11 @@ jobs:
 
           for tex_file in $tex_files; do
             dir=$(dirname "$tex_file")
-            echo "📄 Compilo (o aggiorno metadata) per $tex_file"
+            echo "📄 Compilando $tex_file"
 
-            docker run --rm -v "$(pwd):/data" -w "/data/$dir" texlive/texlive:latest latexmk -pdf -interaction=nonstopmode -halt-on-error main.tex || echo "⚠️ Skip compila fallita, mantengo pdf vecchio se presente"
+            # Compilazione con latexmk (assicura TOC)
+            docker run --rm -v "$(pwd):/data" -w "/data/$dir" texlive/texlive:latest \
+              latexmk -pdf -interaction=nonstopmode -halt-on-error main.tex || echo "⚠️ Compilazione fallita, mantengo pdf vecchio se presente"
 
             if [ -f "$dir/main.pdf" ]; then
               relative_path=${dir#./}
@@ -51,7 +58,7 @@ jobs:
               pdf_file="${sanitized_name}.pdf"
               cp "$dir/main.pdf" "public/$pdf_file"
 
-              # Estrai dati dal config.json se presente
+              # Config JSON
               if [ -f "$dir/config.json" ]; then
                 title=$(jq -r '.title' "$dir/config.json")
                 faculty=$(jq -r '.faculty' "$dir/config.json")
@@ -72,38 +79,28 @@ jobs:
               last_edit_date=$(git log -1 --format="%cs" -- "$tex_file")
               last_editor_name=$(git log -1 --format="%an" -- "$tex_file")
               last_editor_url="https://github.com/$(git log -1 --format="%ae" -- "$tex_file" | cut -d'@' -f1)"
-
               contributors=$(git log --format='%an|%ae' -- "$tex_file" | sort -u | jq -R -s -c 'split("\n")[:-1] | map({name: split("|")[0], profile_url: ("https://github.com/" + (split("|")[1] | split("@")[0]))})')
 
-              # Aggiungi virgola se non è il primo elemento
-              if [ "$first_entry" = true ]; then
-                first_entry=false
-              else
-                echo "," >> public/pdfs.json
-              fi
-
-              echo "{" >> public/pdfs.json
-              echo "  \"faculty\": \"$faculty\"," >> public/pdfs.json
-              echo "  \"semester\": \"$semester\"," >> public/pdfs.json
-              echo "  \"level\": \"$level\"," >> public/pdfs.json
-              echo "  \"title\": \"$title\"," >> public/pdfs.json
-              echo "  \"professor\": \"$professor\"," >> public/pdfs.json
-              echo "  \"year\": \"$year\"," >> public/pdfs.json
-              echo "  \"file_name\": \"$pdf_file\"," >> public/pdfs.json
-              echo "  \"last_edit_date\": \"$last_edit_date\"," >> public/pdfs.json
-              echo "  \"last_editor\": {" >> public/pdfs.json
-              echo "    \"name\": \"$last_editor_name\"," >> public/pdfs.json
-              echo "    \"profile_url\": \"$last_editor_url\"" >> public/pdfs.json
-              echo "  }," >> public/pdfs.json
-              echo "  \"contributors\": $contributors" >> public/pdfs.json
-              echo "}" >> public/pdfs.json
-
+              # Rimuove la vecchia entry se esiste e aggiunge la nuova
+              json=$(echo "$json" | jq "map(select(.file_name != \"$pdf_file\")) + [{
+                faculty: \"$faculty\",
+                semester: \"$semester\",
+                level: \"$level\",
+                title: \"$title\",
+                professor: \"$professor\",
+                year: \"$year\",
+                file_name: \"$pdf_file\",
+                last_edit_date: \"$last_edit_date\",
+                last_editor: { name: \"$last_editor_name\", profile_url: \"$last_editor_url\" },
+                contributors: $contributors
+              }]")
             else
               echo "❌ Nessun PDF trovato per $tex_file"
             fi
           done
 
-          echo "]" >> public/pdfs.json
+          # Scrivi JSON aggiornato
+          echo "$json" > public/pdfs.json
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
@@ -111,7 +108,7 @@ jobs:
       - name: Copy static website
         run: |
           mkdir -p public/web_pages
-          cp -r web_pages/* public/web_pages/ || echo "Cartella static non trovata, ignoro"
+          cp -r web_pages/* public/web_pages/ || echo "Cartella web_pages non trovata"
           cp index.html public/ || echo "index.html mancante"
 
       - name: Upload artifact
