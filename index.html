@@ -3,14 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sapienza Open Notes 📘✨</title>
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg'><text y='32' font-size='32'>📘✨</text></svg>">
-  <link rel="stylesheet" href="style.css">
+  <title>Sapienza Open Notes 📝</title>
+  <link rel="stylesheet" href="./web_pages/style.css">
 </head>
 <body>
   <header>
-    <h1>Sapienza Open Notes 📘✨</h1>
-    <p>Appunti aperti e collaborativi della Sapienza Università di Roma</p>
+    <h1>Sapienza Open Notes 📝</h1>
+    <p>Appunti aperti e collaborativi della Sapienza Università di Roma </p>
   </header>
 
   <main>
@@ -33,6 +32,24 @@
       </p>
     </section>
 
+    <section>
+      <h2>💡 Prendere appunti in modo smart</h2>
+      <p>
+        Per ottenere appunti chiari, completi e facilmente condivisibili, molti studenti trovano utile combinare diversi strumenti durante la lezione:
+      </p>
+      <ul>
+        <li>Registrare l’audio della lezione per catturare spiegazioni dettagliate e commenti del docente.</li>
+        <li>Annotare manualmente formule, schemi e grafici alla lavagna, così da integrare il materiale visivo e personale.</li>
+        <li>Successivamente, utilizzare strumenti di trascrizione AI per convertire l’audio in testo e combinare automaticamente le tue annotazioni in un documento <strong>LaTeX</strong> chiaro e ben strutturato.</li>
+      </ul>
+      <p>
+        Questo approccio permette di produrre appunti di qualità rapidamente, con un flusso di lavoro collaborativo e facilmente gestibile tramite <strong>git</strong>.
+      </p>
+      <p>
+        <a href="./web_pages/how_to_take_notes.html" class="badge-link">📄 Scopri come applicarlo</a>
+      </p>
+    </section>
+
 
     <section>
       <h2>🤝 Collabora con noi</h2>
@@ -43,7 +60,7 @@
         <a href="https://github.com/filippodaminato/SapienzaOpenNotes" target="_blank" class="btn-primary">
           🚀 Contribuisci su GitHub
         </a>
-        <a href="./pages/tutorial.html" class="btn-secondary">
+        <a href="./web_pages/tutorial.html" class="btn-secondary">
           📘 Leggi il tutorial
         </a>
       </div>
@@ -60,7 +77,10 @@
         <select id="filterFaculty"><option value="">Tutte le facoltà</option></select>
         <select id="filterLevel"><option value="">Tutti i livelli</option></select>
         <select id="filterProfessor"><option value="">Tutti i professori</option></select>
+        <select id="filterYear"><option value="">Tutti gli anni</option></select>
+        <select id="filterSemester"><option value="">Tutti i semestri</option></select>
       </div>
+
 
       <ul id="pdf-list">
         <li>Caricamento in corso...</li>
@@ -87,31 +107,31 @@
       }
     }
 
-    function populateFilters() {
-      const facultySet = new Set();
-      const levelSet = new Set();
-      const professorSet = new Set();
+    // function populateFilters() {
+    //   const facultySet = new Set();
+    //   const levelSet = new Set();
+    //   const professorSet = new Set();
 
-      pdfData.forEach(pdf => {
-        if(pdf.faculty) facultySet.add(pdf.faculty);
-        if(pdf.level) levelSet.add(pdf.level);
-        if(pdf.professor) professorSet.add(pdf.professor);
-      });
+    //   pdfData.forEach(pdf => {
+    //     if(pdf.faculty) facultySet.add(pdf.faculty);
+    //     if(pdf.level) levelSet.add(pdf.level);
+    //     if(pdf.professor) professorSet.add(pdf.professor);
+    //   });
 
-      const facultySelect = document.getElementById('filterFaculty');
-      const levelSelect = document.getElementById('filterLevel');
-      const professorSelect = document.getElementById('filterProfessor');
+    //   const facultySelect = document.getElementById('filterFaculty');
+    //   const levelSelect = document.getElementById('filterLevel');
+    //   const professorSelect = document.getElementById('filterProfessor');
 
-      facultySet.forEach(f => facultySelect.appendChild(new Option(f, f)));
-      levelSet.forEach(l => levelSelect.appendChild(new Option(l, l)));
-      professorSet.forEach(p => professorSelect.appendChild(new Option(p, p)));
+    //   facultySet.forEach(f => facultySelect.appendChild(new Option(f, f)));
+    //   levelSet.forEach(l => levelSelect.appendChild(new Option(l, l)));
+    //   professorSet.forEach(p => professorSelect.appendChild(new Option(p, p)));
 
-      // Event listeners per filtri
-      facultySelect.addEventListener('change', filterList);
-      levelSelect.addEventListener('change', filterList);
-      professorSelect.addEventListener('change', filterList);
-      document.getElementById('searchBox').addEventListener('input', filterList);
-    }
+    //   // Event listeners per filtri
+    //   facultySelect.addEventListener('change', filterList);
+    //   levelSelect.addEventListener('change', filterList);
+    //   professorSelect.addEventListener('change', filterList);
+    //   document.getElementById('searchBox').addEventListener('input', filterList);
+    // }
 
     function renderList(data) {
       const list = document.getElementById('pdf-list');
@@ -133,8 +153,6 @@
             <div class="course-filters">
               <span class="pdf-badge faculty">${pdf.faculty || ''}</span>
               <span class="pdf-badge level">${pdf.level || ''}</span>
-              <span class="pdf-badge level">Y:${pdf.year || ''}</span>
-              <span class="pdf-badge level">S:${pdf.semester || ''}</span>
             </div>
           </div>
         `;
@@ -142,22 +160,81 @@
       });
     }
 
+    // function filterList() {
+    //   const query = document.getElementById('searchBox').value.toLowerCase();
+    //   const facultyFilter = document.getElementById('filterFaculty').value;
+    //   const levelFilter = document.getElementById('filterLevel').value;
+    //   const professorFilter = document.getElementById('filterProfessor').value;
+
+    //   const filtered = pdfData.filter(pdf => {
+    //     return (
+    //       (pdf.title.toLowerCase().includes(query) || pdf.professor.toLowerCase().includes(query) || pdf.year.toLowerCase().includes(query)) &&
+    //       (facultyFilter === "" || pdf.faculty === facultyFilter) &&
+    //       (levelFilter === "" || pdf.level === levelFilter) &&
+    //       (professorFilter === "" || pdf.professor === professorFilter)
+    //     );
+    //   });
+    //   renderList(filtered);
+    // }
+
+
+    function populateFilters() {
+      const facultySet = new Set();
+      const levelSet = new Set();
+      const professorSet = new Set();
+      const yearSet = new Set();
+      const semesterSet = new Set();
+
+      pdfData.forEach(pdf => {
+        if(pdf.faculty) facultySet.add(pdf.faculty);
+        if(pdf.level) levelSet.add(pdf.level);
+        if(pdf.professor) professorSet.add(pdf.professor);
+        if(pdf.year) yearSet.add(pdf.year);
+        if(pdf.semester) semesterSet.add(pdf.semester);
+      });
+
+      const facultySelect = document.getElementById('filterFaculty');
+      const levelSelect = document.getElementById('filterLevel');
+      const professorSelect = document.getElementById('filterProfessor');
+      const yearSelect = document.getElementById('filterYear');
+      const semesterSelect = document.getElementById('filterSemester');
+
+      facultySet.forEach(f => facultySelect.appendChild(new Option(f, f)));
+      levelSet.forEach(l => levelSelect.appendChild(new Option(l, l)));
+      professorSet.forEach(p => professorSelect.appendChild(new Option(p, p)));
+      yearSet.forEach(y => yearSelect.appendChild(new Option(y, y)));
+      semesterSet.forEach(s => semesterSelect.appendChild(new Option(s, s)));
+
+      // Event listeners per filtri
+      [facultySelect, levelSelect, professorSelect, yearSelect, semesterSelect].forEach(el =>
+        el.addEventListener('change', filterList)
+      );
+      document.getElementById('searchBox').addEventListener('input', filterList);
+    }
+
     function filterList() {
       const query = document.getElementById('searchBox').value.toLowerCase();
       const facultyFilter = document.getElementById('filterFaculty').value;
       const levelFilter = document.getElementById('filterLevel').value;
       const professorFilter = document.getElementById('filterProfessor').value;
+      const yearFilter = document.getElementById('filterYear').value;
+      const semesterFilter = document.getElementById('filterSemester').value;
 
       const filtered = pdfData.filter(pdf => {
         return (
-          (pdf.title.toLowerCase().includes(query) || pdf.professor.toLowerCase().includes(query) || pdf.year.toLowerCase().includes(query)) &&
+          (pdf.title.toLowerCase().includes(query) ||
+          pdf.professor.toLowerCase().includes(query) ||
+          pdf.year.toLowerCase().includes(query)) &&
           (facultyFilter === "" || pdf.faculty === facultyFilter) &&
           (levelFilter === "" || pdf.level === levelFilter) &&
-          (professorFilter === "" || pdf.professor === professorFilter)
+          (professorFilter === "" || pdf.professor === professorFilter) &&
+          (yearFilter === "" || pdf.year === yearFilter) &&
+          (semesterFilter === "" || pdf.semester === semesterFilter)
         );
       });
       renderList(filtered);
     }
+
 
     loadPDFs();
   </script>

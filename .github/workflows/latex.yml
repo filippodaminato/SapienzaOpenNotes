@@ -15,17 +15,34 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # serve per git log e diff
 
-      - name: Compile all main.tex files and collect metadata
+      - name: Detect changed .tex files
+        id: changes
         run: |
-          mkdir public
+          changed=$(git diff --name-only HEAD~1 HEAD | grep 'main.tex' || true)
+          echo "changed_tex=$changed" >> $GITHUB_OUTPUT
+
+      - name: Compile LaTeX files and collect metadata
+        run: |
+          mkdir -p public
           echo "[" > public/pdfs.json
           first_entry=true
 
-          find . -name "main.tex" | while read -r tex_file; do
+          # Se ci sono main.tex modificati, compiliamo solo quelli
+          if [ -n "${{ steps.changes.outputs.changed_tex }}" ]; then
+            tex_files="${{ steps.changes.outputs.changed_tex }}"
+          else
+            # Altrimenti usiamo tutti i main.tex già presenti
+            tex_files=$(find . -name "main.tex")
+          fi
+
+          for tex_file in $tex_files; do
             dir=$(dirname "$tex_file")
 
-            docker run --rm -v "$(pwd):/data" -w "/data/$dir" texlive/texlive:latest pdflatex -interaction=nonstopmode main.tex
+            echo "📄 Compilo (o aggiorno metadata) per $tex_file"
+            docker run --rm -v "$(pwd):/data" -w "/data/$dir" texlive/texlive:latest latexmk -pdf -interaction=nonstopmode -halt-on-error main.tex || echo "⚠️ Skip compila fallita, mantengo pdf vecchio se presente"
 
             if [ -f "$dir/main.pdf" ]; then
               relative_path=${dir#./}
@@ -33,6 +50,7 @@ jobs:
               pdf_file="${sanitized_name}.pdf"
               cp "$dir/main.pdf" "public/$pdf_file"
 
+              # Estrai dati dal config.json se presente
               if [ -f "$dir/config.json" ]; then
                 title=$(jq -r '.title' "$dir/config.json")
                 faculty=$(jq -r '.faculty' "$dir/config.json")
@@ -49,15 +67,39 @@ jobs:
                 year="N/D"
               fi
 
+              # Metadata git
+              last_edit_date=$(git log -1 --format="%cs" -- "$tex_file")
+              last_editor_name=$(git log -1 --format="%an" -- "$tex_file")
+              last_editor_url="https://github.com/$(git log -1 --format="%ae" -- "$tex_file" | cut -d'@' -f1)"
+
+              contributors=$(git log --format='%an|%ae' -- "$tex_file" | sort -u | jq -R -s -c 'split("\n")[:-1] | map({name: split("|")[0], profile_url: ("https://github.com/" + (split("|")[1] | split("@")[0]))})')
+
               if [ "$first_entry" = true ]; then
                 first_entry=false
               else
                 echo "," >> public/pdfs.json
               fi
 
-              echo "  { \"faculty\": \"$faculty\", \"semester\": \"$semester\", \"level\": \"$level\", \"title\": \"$title\", \"professor\": \"$professor\", \"year\": \"$year\", \"file_name\": \"$pdf_file\"}" >> public/pdfs.json
+              cat <<EOF >> public/pdfs.json
+              {
+                "faculty": "$faculty",
+                "semester": "$semester",
+                "level": "$level",
+                "title": "$title",
+                "professor": "$professor",
+                "year": "$year",
+                "file_name": "$pdf_file",
+                "last_edit_date": "$last_edit_date",
+                "last_editor": {
+                  "name": "$last_editor_name",
+                  "profile_url": "$last_editor_url"
+                },
+                "contributors": $contributors
+              }
+            EOF
+
             else
-              echo "❌ Compilazione fallita per $tex_file"
+              echo "❌ Nessun PDF trovato per $tex_file"
             fi
           done
 
@@ -68,11 +110,9 @@ jobs:
 
       - name: Copy static website
         run: |
-          # Copia index.html e style.css nella cartella pubblicata
-          mkdir -p public/pages
-          cp -r pages/* public/pages/ || echo "Cartella static non trovata, ignoro"
-          cp index.html public/
-          cp style.css public/ || echo "style.css non trovato, ignoro"
+          mkdir -p public/web_pages
+          cp -r web_pages/* public/web_pages/ || echo "Cartella static non trovata, ignoro"
+          cp index.html public/ || echo "index.html mancante"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

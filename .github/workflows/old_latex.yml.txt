@@ -1,0 +1,84 @@
+name: Build LaTeX and Deploy PDFs
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Compile all main.tex files and collect metadata
+        run: |
+          mkdir public
+          echo "[" > public/pdfs.json
+          first_entry=true
+
+          find . -name "main.tex" | while read -r tex_file; do
+            dir=$(dirname "$tex_file")
+
+            docker run --rm -v "$(pwd):/data" -w "/data/$dir" texlive/texlive:latest pdflatex -interaction=nonstopmode main.tex
+
+            if [ -f "$dir/main.pdf" ]; then
+              relative_path=${dir#./}
+              sanitized_name=$(echo "$relative_path" | sed 's/\//_/g' | sed 's/^_//' | sed 's/_$//')
+              pdf_file="${sanitized_name}.pdf"
+              cp "$dir/main.pdf" "public/$pdf_file"
+
+              if [ -f "$dir/config.json" ]; then
+                title=$(jq -r '.title' "$dir/config.json")
+                faculty=$(jq -r '.faculty' "$dir/config.json")
+                level=$(jq -r '.level' "$dir/config.json")
+                professor=$(jq -r '.professor' "$dir/config.json")
+                semester=$(jq -r '.semester' "$dir/config.json")
+                year=$(jq -r '.year' "$dir/config.json")
+              else
+                title="Corso sconosciuto"
+                faculty="N/D"
+                level="N/D"
+                professor="N/D"
+                semester="N/D"
+                year="N/D"
+              fi
+
+              if [ "$first_entry" = true ]; then
+                first_entry=false
+              else
+                echo "," >> public/pdfs.json
+              fi
+
+              echo "  { \"faculty\": \"$faculty\", \"semester\": \"$semester\", \"level\": \"$level\", \"title\": \"$title\", \"professor\": \"$professor\", \"year\": \"$year\", \"file_name\": \"$pdf_file\"}" >> public/pdfs.json
+            else
+              echo "❌ Compilazione fallita per $tex_file"
+            fi
+          done
+
+          echo "]" >> public/pdfs.json
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Copy static website
+        run: |
+          # Copia index.html e style.css nella cartella pubblicata
+          mkdir -p public/pages
+          cp -r pages/* public/pages/ || echo "Cartella static non trovata, ignoro"
+          cp index.html public/
+          cp style.css public/ || echo "style.css non trovato, ignoro"
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

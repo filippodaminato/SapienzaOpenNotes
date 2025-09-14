@@ -230,3 +230,21 @@ footer {
   .search-box { font-size: 0.95rem; }
   .filters { flex-direction: column; }
 }
+
+
+.badge-link {
+  display: inline-block;
+  background-color: #f4f0f1;
+  color: #822433;
+  font-weight: bold;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  text-decoration: none;
+  border: 1px solid #822433;
+  transition: background 0.3s, color 0.3s;
+}
+
+.badge-link:hover {
+  background-color: #822433;
+  color: #fff;
+}
