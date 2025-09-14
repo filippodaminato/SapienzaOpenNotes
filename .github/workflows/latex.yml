@@ -16,90 +16,85 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0 # serve per git log e diff
+          fetch-depth: 0
 
-      - name: Detect changed main.tex files
-        id: changes
+      - name: Detect modified courses
+        id: detect
         run: |
-          # Trova tutti i main.tex modificati nell'ultimo commit
-          changed=$(git diff --name-only HEAD~1 HEAD | grep 'main.tex' || true)
-          # Esporta in output GitHub Actions
-          echo "changed_tex=$(echo "$changed" | tr '\n' ' ')" >> $GITHUB_OUTPUT
+          # Trova tutte le cartelle dei corsi con un main.tex
+          find . -name "main.tex" | xargs -n1 dirname | sort -u > all_courses.txt
 
-      - name: Compile LaTeX and update pdfs.json
+          # Trova quali corsi hanno file modificati nell'ultimo commit
+          git diff --name-only HEAD~1 HEAD | grep '\.tex$' | xargs -n1 dirname | sort -u | uniq > changed_courses.txt
+
+          echo "all_courses=$(paste -sd ' ' all_courses.txt)" >> $GITHUB_OUTPUT
+          echo "changed_courses=$(paste -sd ' ' changed_courses.txt)" >> $GITHUB_OUTPUT
+
+      - name: Compile changed courses and update pdfs.json
         run: |
           mkdir -p public
+          # Inizializza JSON array
+          json="[]"
 
-          # Carica vecchio JSON se esiste
-          if [ -f public/pdfs.json ]; then
-            json=$(cat public/pdfs.json)
-          else
-            json="[]"
-          fi
+          for course_dir in ${{ steps.detect.outputs.all_courses }}; do
+            echo "📄 Aggiornando metadati per $course_dir"
 
-          # Determina quali file compilare
-          if [ -n "${{ steps.changes.outputs.changed_tex }}" ]; then
-            tex_files="${{ steps.changes.outputs.changed_tex }}"
-          else
-            tex_files=$(find . -name "main.tex")
-          fi
+            main_tex="$course_dir/main.tex"
+            pdf_file="$(echo "$course_dir" | sed 's/^\.\///; s/\//_/g').pdf"
 
-          for tex_file in $tex_files; do
-            dir=$(dirname "$tex_file")
-            echo "📄 Compilando $tex_file"
-
-            # Compilazione con latexmk (assicura TOC)
-            docker run --rm -v "$(pwd):/data" -w "/data/$dir" texlive/texlive:latest \
-              latexmk -pdf -interaction=nonstopmode -halt-on-error main.tex || echo "⚠️ Compilazione fallita, mantengo pdf vecchio se presente"
-
-            if [ -f "$dir/main.pdf" ]; then
-              relative_path=${dir#./}
-              sanitized_name=$(echo "$relative_path" | sed 's/\//_/g' | sed 's/^_//' | sed 's/_$//')
-              pdf_file="${sanitized_name}.pdf"
-              cp "$dir/main.pdf" "public/$pdf_file"
-
-              # Config JSON
-              if [ -f "$dir/config.json" ]; then
-                title=$(jq -r '.title' "$dir/config.json")
-                faculty=$(jq -r '.faculty' "$dir/config.json")
-                level=$(jq -r '.level' "$dir/config.json")
-                professor=$(jq -r '.professor' "$dir/config.json")
-                semester=$(jq -r '.semester' "$dir/config.json")
-                year=$(jq -r '.year' "$dir/config.json")
-              else
-                title="Corso sconosciuto"
-                faculty="N/D"
-                level="N/D"
-                professor="N/D"
-                semester="N/D"
-                year="N/D"
-              fi
-
-              # Metadata git
-              last_edit_date=$(git log -1 --format="%cs" -- "$tex_file")
-              last_editor_name=$(git log -1 --format="%an" -- "$tex_file")
-              last_editor_url="https://github.com/$(git log -1 --format="%ae" -- "$tex_file" | cut -d'@' -f1)"
-              contributors=$(git log --format='%an|%ae' -- "$tex_file" | sort -u | jq -R -s -c 'split("\n")[:-1] | map({name: split("|")[0], profile_url: ("https://github.com/" + (split("|")[1] | split("@")[0]))})')
-
-              # Rimuove la vecchia entry se esiste e aggiunge la nuova
-              json=$(echo "$json" | jq "map(select(.file_name != \"$pdf_file\")) + [{
-                faculty: \"$faculty\",
-                semester: \"$semester\",
-                level: \"$level\",
-                title: \"$title\",
-                professor: \"$professor\",
-                year: \"$year\",
-                file_name: \"$pdf_file\",
-                last_edit_date: \"$last_edit_date\",
-                last_editor: { name: \"$last_editor_name\", profile_url: \"$last_editor_url\" },
-                contributors: $contributors
-              }]")
-            else
-              echo "❌ Nessun PDF trovato per $tex_file"
+            # Se il corso è stato modificato, ricompila il PDF
+            if echo "${{ steps.detect.outputs.changed_courses }}" | grep -qw "$course_dir"; then
+              echo "⚡ Compilo PDF per $course_dir"
+              docker run --rm -v "$(pwd):/data" -w "/data/$course_dir" texlive/texlive:latest \
+                latexmk -pdf -interaction=nonstopmode -halt-on-error main.tex || echo "⚠️ Compilazione fallita, mantengo PDF vecchio se presente"
             fi
+
+            # Copia il PDF se esiste
+            if [ -f "$course_dir/main.pdf" ]; then
+              cp "$course_dir/main.pdf" "public/$pdf_file"
+            fi
+
+            # Lettura dati da config.json
+            if [ -f "$course_dir/config.json" ]; then
+              title=$(jq -r '.title' "$course_dir/config.json")
+              faculty=$(jq -r '.faculty' "$course_dir/config.json")
+              level=$(jq -r '.level' "$course_dir/config.json")
+              professor=$(jq -r '.professor' "$course_dir/config.json")
+              semester=$(jq -r '.semester' "$course_dir/config.json")
+              year=$(jq -r '.year' "$course_dir/config.json")
+            else
+              title="Corso sconosciuto"
+              faculty="N/D"
+              level="N/D"
+              professor="N/D"
+              semester="N/D"
+              year="N/D"
+            fi
+
+            # Tutti i file del corso
+            course_files=$(find "$course_dir" -name "*.tex")
+
+            # Metadata git
+            last_edit_date=$(git log -1 --format="%cs" -- $course_files)
+            last_editor_name=$(git log -1 --format="%an" -- $course_files)
+            last_editor_url="https://github.com/$(git log -1 --format="%ae" -- $course_files | cut -d'@' -f1)"
+            contributors=$(git log --format='%an|%ae' -- $course_files | sort -u | jq -R -s -c 'split("\n")[:-1] | map({name: split("|")[0], profile_url: ("https://github.com/" + (split("|")[1] | split("@")[0]))})')
+
+            # Aggiunge/aggiorna JSON
+            json=$(echo "$json" | jq "map(select(.file_name != \"$pdf_file\")) + [{
+              faculty: \"$faculty\",
+              semester: \"$semester\",
+              level: \"$level\",
+              title: \"$title\",
+              professor: \"$professor\",
+              year: \"$year\",
+              file_name: \"$pdf_file\",
+              last_edit_date: \"$last_edit_date\",
+              last_editor: { name: \"$last_editor_name\", profile_url: \"$last_editor_url\" },
+              contributors: $contributors
+            }]")
           done
 
-          # Scrivi JSON aggiornato
           echo "$json" > public/pdfs.json
 
       - name: Setup Pages
