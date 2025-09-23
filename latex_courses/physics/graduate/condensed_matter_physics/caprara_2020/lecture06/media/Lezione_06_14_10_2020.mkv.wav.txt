@@ -1,0 +1,650 @@
+ we are at 77
+ ieri in reality the limit
+ we have not overcome it because I look at the chat
+ and in the other room no one was entered, they were all in the first room
+ so we are at 78, so I don't know if the limit is over, but I don't have a solution, at least not in the last few hours
+ so if you have questions about the previous, my idea is the following, if you have questions, please do ask whenever
+ of course, I may decide whether the answer to the question is of interest to everybody, in which case I will answer immediately
+ this is usually the case when the question is important to understand what I am doing now
+ if the question is about something I did before, but it's not relevant for what I'm doing now
+ then I reply after the lecture, or we may even take a Google Meet at any time you want
+ provided I'm not lecturing and then I can answer to the question in a private
+ manner my intention today is again to do exercises so my first the first
+ exercise that we propose is again taken from the Ashcroft Mermin page 108
+ exercise 1 this is about the Debye Scherer method and the reason why I want to
+ propose this exercise is because it makes clear that even if I have no direct
+ access to the direction of the reciprocal space wave vector just a few spots in
+ the diffraction pattern can immediately and univocally determine the lattice that
+ gave rise to that x-ray scattering pattern and also I would like to discuss
+ some trick that you can apply to make the calculations as simple as possible
+ as possible.
+ 84.
+ 84.
+ 84.
+ 84.
+ 84.
+ 84.
+ 84.
+ 84.
+ 85.
+ So, I first read the text of the exercise.
+ You have a powder specimen of three different monoatomic, so no bases whatsoever in the sense of different atoms, three different cubic crystals.
+ And those three crystals, which we may call crystal A, crystal B and crystal C, are analyzed with the device sharer technique.
+ We know that one of them is FCC, one of them is BCC and the other is dynon structure.
+ So all of them are cubic, one is FCC, this is a Breve Lattice, one is DCC, this again is a Breve Lattice and diamond is a Breve Lattice plus basis.
+ Of course I told you that also BCC and FCC and FCC can be described as Breve Lattice as cubic plus basis but in this case the basis is fake because we know that the starting lattice is a Breve Lattice.
+ But nonetheless it may be useful in calculations and we'll do some other example of why and when this is useful to treat those cases too as cubic plus basis.
+ But in the exercise today we don't need this and so I'll treat DCC and FCC as Brevei lattices.
+ So since FCC Brevei lattices as reciprocal lattice which is DCC and DCC as reciprocal lattice which is FCC,
+ we expect that the device share pattern is a DCC in the case of the FCC, is an FCC in the case of the VCC
+ and since this is FCC then again the reciprocal lattice is a VCC
+ because the basis will never give rise to a reciprocal lattice
+ the reciprocal lattice is always associated with the Brevet lattice
+ even in the presence of a basis, what the basis does is to eliminate some peaks
+ but the Brevet lattice, the reciprocal lattice is given only by the structure of the Brevet
+ the basis does not determine the reciprocal lattice of the given lattice
+ Professor, excuse me, I apologize to interrupt you but you are not recording the lesson, the lecture
+ Oh, yes, sorry
+ Anyway, today they took back most of what they have been saying
+ because they said that making this record the public is a mess, as I was expecting
+ because, you know, it's a mess
+ there are data that are your data, I don't care about myself
+ but there are your names, your identities
+ and making this public is a real mess
+ in principle, for each lecture, for each
+ I should have the written consent from all the people that were taking part in the lecture
+ you know, it's a mess, so I don't know how to make this public
+ so we will find some way to do this
+ but it's a really mess, they say that now
+ there is also... it's a real mess
+ anyway, I'm recording all the lectures
+ but I don't know how to make them public, to share them with you
+ this is really a serious problem, it's not my problem, it's a problem with your privacy
+ so it's really serious
+ because I should look the name of the participants of lecture number one, lecture number two
+ and for each lecture I should have received the written consent signed, written consent from all the people
+ and even if one doesn't consent then the lecture cannot be made public
+ so, okay, but I am recording it now, thank you for telling me
+ so, we know the angles, so I write here sample A, sample B and sample C, the angles are 42.2 degrees
+ 49.2 degrees, 72.0 degrees and 87.3.
+ For sample B, 28.8, 41, 58, 50.8 and 59.6.
+ And for sample C, 42.8, 73.2, 89 and 115.
+ Those are the angles.
+ I recall you that in the bisharer you have an incoming X-ray, your sample, and this is the scattering
+ angle. And then you take record of the angle in your detector, okay? I also recall the
+ Biescherler formula which is capital K, I don't know
+ about the direction of this capital K, but this is the magnitude of a reciprocal
+ lattice vector, is two times small k, the magnitude of k which is
+ the same as the magnitude of k prime because the scattering is elastic,
+ the sine of phi over two. This is the Biescherler
+ formula.
+ So my suggestion to solve this exercise is that here you have a table with your angles phi, here you
+ should have a table with your sine of phi divided by two for sample A, sample B and sample C.
+ Then you take whatever calculator. Please remember that the angle is given in degrees here so you
+ should set your calculators to the deg mode. Don't use the radiance because in radiance this is
+ just crazy. The sine changes sign likewise if you take these values to be radiance whereas this
+ sign will never change sign will always be positive as it must the sign here must always be positive
+ and this is for granted if you measure the angle phi in degrees because phi can be zero
+ up to 180 between zero and 180 the phi the sign is always positive because you have to take the
+ sign of phi divided by two so it's between zero and 90 which is always possible okay good
+ so i record the numbers
+ and then i spell them out
+ so in case of sample a the signs are 0.360 0.416 0.588 0.690
+ in case of sample b the sign of 5 over 2 given this value for 5 is 0.249 0.350 0.429 and 0.497
+ and in the case of sample c the numbers are 0.365 0.596 0.701 and 0.843 those are the numbers
+ now what should I do with those numbers in principle I should plug the numbers in this formula and calculate the values of the magnitude of k
+ to do this I should know the wavelength of my radiation to determine k
+ which is 2pi over the wavelength
+ however the exercise does not give this information in the text
+ it gives the information in a sub-question
+ and tells me that the wavelength is 1.5 Ohmstrom
+ but I want to solve this exercise without this information
+ so I don't know the wavelength
+ so you say you are crazy, you want to determine the structure even without knowing the wavelength
+ it's kind of, you don't know the direction, you don't know the wavelength, you know nothing
+ and I'll show you that I know everything I need to reconstruct the given structure
+ so what I propose to you is the following idea
+ actually we know the direction because we have the angle
+ and when we have them then we have the direction of the vector of time
+ but you only measure the angle phi not the angle theta
+ so you don't know k as a vector
+ because you know only the angle but all the angles
+ because you are averaging over the direction
+ so in this if I have a film every spot is a circle
+ because you are averaging over the direction
+ so you don't know the direction you see all the spots
+ because all the this is a powder sample
+ so the grain are oriented in all directions
+ so you really have no information about the original direction
+ of course if there was only one direction compatible
+ then you could immediately trace back to this
+ but all the direction with the same magnitude of k will give rise to the same spot
+ at the same magnitude of k for instance in the cubit this, this and this
+ which are three completely different families of lattice planes
+ give the same spot with the Baichelle
+ so there is really no way and there must be no way to take track of the direction of k
+ so what I propose is the following: this number is a constant
+ so if I take ratios
+ this ratio is nothing but the ratio of the corresponding value of the sign
+ if I have two different values of the angles
+ then I have two different values for k
+ and the ratio of the signs is the same as the ratio of the magnitudes of k
+ because this is a constant
+ when I take the ratio the constant drops
+ and k1 divided by k2 is sine of phi 1 over 2 divided by sine of phi 1 divided by 2
+ so, I can take the ratios of my signs
+ so here I can make a third table which is k1 k over k1
+ the ratio of k divided by the first
+ by definition the first is always one because when I take this and I divide it by itself I get one
+ very boring
+ this means that the length of the shortest reciprocal lattice vector is my unique length in my reciprocal lattice
+ to identify only the structure I don't need to know how long is this vector
+ I only need to know that there is such a vector
+ then the most interesting ratios are the next ratios
+ so I write them
+ this is 1.16
+ this is 1.41
+ and this is 1.63
+ Then this is 1.63, this is 1.72 and this is 1.92.
+ And then the last one is 1.92, this is one, this is two and this is 2.30.
+ are the ratio this divided by this is 1.16 this value divided by this one is 1.63
+ this value divided by this value is 1.92 okay and the same this divided by this is 2
+ this divided by this is 1.72 this divided by this is 1.41 and the same for the third column
+ now to help you with identification I write the following numbers here 2 divided by
+ square root of 3 this number is 2 divided by square root of 3 this is 2
+ divided by square root of 3 times the square root of 2 and this is the square
+ root of 11 divided by 3 for the moment these numbers are like crazy but now I
+ will show you so my blackboard is over so I must erase this first part I only need
+ those values that are all we need for the final part of the exercise
+ this number here are the square root of 2 square root of 3 and 2 is 2 there is
+ nothing to say is two then the other numbers are already there this is this
+ one this is this one there is a new one which is this and this is four divided
+ by the square root of three I don't need these values actually but this is just
+ to help you reading the figures so I know that one of them I don't know which is a
+ FCC one of them is BCC and the third is a diamond so let's start with identifying
+ the FCC to have an FCC my reciprocal lattice must be a BCC so I can draw a BCC
+ ok so in a BCC I have all the vertices
+ and then one extra point at the crossing points of the two diagonals
+ so, let's imagine that this is the origin of my lattice
+ what is, in your opinion, the nearest lattice point
+ the point that is nearest to the origin
+ this is the side of the cube
+ this is half a way along the diagonal
+ the diagonal is the square root of 3
+ half a way along the diagonal is the square root of 3 divided by 2
+ so this is the shortest
+ this is a vector that I call k1
+ the first one
+ the shortest
+ ok, this is what I call k1
+ My calculation K1 is equal to 1, the magnitude of K1 whatever it is I don't know, to know it I should know the wavelength, but if I don't know the wavelength this number is equal to 1.
+ This is K1, this is K2, this is K3 and this is K4. So what is the next? The next point. There are many but they are all equivalent because I don't know the direction.
+ What only matters is the magnitude. So for instance, I can take this point. This is K2. Now, if K1 is 1, what is K2?
+ 1 times 2 over square root of 3. 1 times 2 over square root of 3.
+ So my K2 is 1 times 2 over square root of 3.
+ So we expect K2 to be equal to 2 divided square root of 3.
+ Where is it?
+ Let's go for the next.
+ So this makes a case for this to be the FCC we are looking for.
+ But let's go to the next.
+ What is the next?
+ This one?
+ This one?
+ No.
+ This?
+ Ah, yes, yes, yes.
+ Okay.
+ So, this.
+ This is K3.
+ What is K3 if K1 is 1?
+ K2 for the square of 2.
+ 2 divided by the square root of 3 times K3.
+ So this is K3.
+ 2 divided by the square root of 3 is this side,
+ times the square root of 2 is this diagonal,
+ and this is exactly this number.
+ Now, that would be enough,
+ but let's go for the term for K4.
+ K4 is tricky, so I ask you to identify K4.
+ It's not easy, but it's the next.
+ We can calculate with the square of K2 plus the square of K3
+ and we make the square of all.
+ K2 al quadrato più K3 al quadrato tutto sotto radice e dovrebbe venire quello giusto perché viene 4 e...
+ Yeah, but where is this point? So, ok, yes, this is the answer, but where is this point?
+ Eh? Thank you.
+ So, the next point is the center of the next cube.
+ So I take the center of the next cube
+ and this is, as your colleague suggested, K4
+ which is exactly square root of 11 divided by 3.
+ This is shorter than the diagonal, which is 2.
+ This diagonal, if this is 1, this is 2.
+ This is slightly shorter, so it comes first
+ and of course that comes much before this, which is 2 times k2.
+ And this is 2.32.
+ So this is the fourth, and the fourth is exactly the distance
+ between one corner and the center of the next cube.
+ All the next cubes, not just one next cube, all the next, there are so many,
+ but we cannot distinguish between the Byshevel.
+ All the peaks that correspond to the same magnitude of K are equivalent in the Byshevel, ok?
+ So, now we can say that since the reciprocal lattice is Vcc,
+ I cannot fit these numbers in another structure.
+ The only structure with cubic symmetry that fits those numbers is a Bcc
+ and then the starting lattice is Fcc.
+ So, let's go to the second.
+ Now, in the third there are the same peaks that are here,
+ with some missing point, this is missing for instance.
+ So, the suspect is this, that this is the diamond.
+ Because it has the same peaks, this is also here,
+ and this is also here, and then there is this other,
+ that would be 4 over square root of 3, the next along the side.
+ It's two times, this is just two times this.
+ So this is two point square root of 3, this is two times this.
+ So it's the sum of the edges of two cubes.
+ So this is the diamond, it is FCC with missing this spot.
+ And if you go back to the selection rule of the diamond structure which we calculated yesterday,
+ this spot is expected to be missing with the diamond selection rule.
+ And so this is why this is not there.
+ Then this must be BCC, but let's check.
+ If this is a BCC, then the reciprocal lattice is FCC.
+ So let's draw the primitive cell of an FCC
+ and let's find these numbers in the primitive cell of an FCC.
+ Yes, you see you have all the vertices and all the six points at the center of the six faces.
+ Okay.
+ Now, again I can take this point as the origin, now which is the shortest, the second point.
+ Yeah, so this or this, one that goes from the corner to the center of the phase.
+ This is one, this is K1, which I assume to be the unit in my reciprocal space.
+ Then, what is the next?
+ Yes, so this is K2, and if K1 is equal to 1, then K2 is the square root of 2.
+ What is the next?
+ It's the point that goes from this to this point here.
+ This is K3, from the corner to the center of the top phase or the bottom phase, this is K3.
+ and this is just the square root of three if this is one is one plus the
+ square root of two squared is one plus two three and the square root is the
+ square root of three and the next is just this this is k4 no sorry this is not k4
+ this is k4 is this if you go from one corner to the opposite corner and if
+ this is one this is so these numbers can only fit in a BCC in sorry in an FCC and
+ since this is the reciprocal lattice the starting lattice must be sorry I wrote
+ this okay I should have written now BCC and then the reciprocal lattice now is FCC
+ and so we were able to assign a structure for our lattice only with four peaks
+ in the device sharer scattering pattern four peaks are more than enough to tell one structure from the
+ other you could assign FCC, BCC and diamond without any information about the direction of course if we
+ do have information about the direction then we can also reconstruct distinguish this
+ from this from this and so we can put now our points in the three-dimensional space
+ but of course this is not because the ratios of these lengths are fixed by the
+ geometry of the lattice and so there is not much to add to this in order to
+ reconstruct the original bravais lattice do you have questions so far
+ there is a question? yes the origin is the center this is the center of the face of the right so it is k1
+ okay so the question is what about this this is exactly equivalent to k1 because it's the distance
+ from a corner to a center of an adjacent face and so this must be again k1 which is the first one
+ the question number two it's trivial so i will not do that but it is now you know the
+ wavelength so assume that the wavelength is 1.5 ans then tell what is the length of the
+ conventional unit cell in each case that you can do yourself and try to answer
+ to this question anyway I will do other exercise where I'll do this so in case
+ you don't succeed we will come again to this but I want to add the last question
+ this is interesting suppose that now instead of the diamond the third crystal
+ is a zinc blend what angles would you observe in this list this is very
+ interesting to check if you are following what I am saying so now suppose that the sample C is not a diamond
+ with equivalent atoms but is zinc blend with in equivalent atoms so now I have FCC plus basis
+ but the atoms on the basis are not equivalent to the atoms on the FCC lattice they are in equivalent
+ then what numbers should I observe here if you wish what angles should I observe in the list of my angles
+ the same as A because now I have FCC the selection rule don't apply because when the atoms are not
+ equivalent I cannot have a cancellation from the structure factor and so I should observe exactly
+ the same angles as A so in the case of the zinc blend the pattern is exactly the same as that of the
+ FCC there is not any extra selection rule due to the structure factor of course in that case information about the chemical composition may help because of course I can by chemical composition know that zinc blend is not a simple crystal that is a composite crystals and then
+ I can obtain gain information about its structure anyway as I told you I expect a different intensity of the peaks so I observe the same peaks but with different intensities because there is a partial cancellation of course whenever the selection rules tells me that this peak cannot be seen
+ when the atoms are identical when the atoms are not identical of course it's not fully suppressed but its intensity is suppressed somewhat so I see the same peak as with FCC but with somewhat lesser intensity and in this case of course I can then deduce that that peak would be missing in the case of identical atoms and then I can figure out that this is an FCC with inequivalent atoms sorry diamond with inequivalent atoms which is then in the form of zinc blank
+ so I proposed all the warm-up exercises that I could propose myself and I have more of course but I would like to ask you if you feel that I should insist on some specific point because before in the next lecture because we have to take a full lecture before we can solve a full exercise of the kind
+ that is given in a written exam so if you feel that there are some weak points in your understanding of x-ray scattering this is the moment to express your doubts and to try and fix some shaky points in your understanding of x-ray scattering so i can propose several because i have
+ several so i have more exercises than ours we can devote to exercises of course but so for me are all
+ equivalent so to be useful to you i would like to to to do an exercise that you feel is really useful
+ to you for me are all equivalent so for me i pick one i pick another it's all the same so if you have
+ a preference for instance if you want to understand the role of the basis or if you want to
+ see another
+ exercise on the Debye-Sherrer I would say no because I will propose you one from a
+ formal exam so that we will do another exercise on the Debye-Sherrer method we will do
+ so I can propose for instance now to do the same exercise as yesterday for the diamond structure
+ but now treating the diamond structure as the FCC as a Brevay lattice so without the trick of
+ treating it as a cubic plus basis and see that we get exactly the same results this is one thing that
+ we could do if you feel that this would help you in understanding what is going on for me it's
+ just the same so if you feel that this is useful to you i will do it with pleasure
+ it's it's reasonable okay let's do this so
+ diamond again
+ as i told you diamond is c atoms
+ on two fcc brevet lattices
+ displaced
+ along the body diagonal
+ by one fourth of its length
+ so how can i imagine the diamond structure i take two fcc one is the starting fcc
+ and the other is displaced along the body diagonal by one quarter of the total length
+ so i obtain two comprenetrating fccs and this is the diamond structure
+ this is the recipe so now i want to describe this as fcc plus basis
+ okay
+ the basis is a two vector basis now because i have only two
+ fcc brevet lattice so my basis is two vectors one can always be taken as zero so i take the origin
+ on one of the points of one of the two brevet lattices and the other is displaced along the
+ diagonal by one fourth of the length so this is i plus j plus okay this is my basis
+ okay now
+ FCC is a driver lattice so the reciprocal lattice must be a BCC we have already
+ calculated the three fundamental vectors of the BCC these are two pi over A
+ j plus k minus i 2 pi over A k plus i minus j and 2 pi over A i plus j minus k so as you see now I'm not using the cubic reciprocal space factors
+ I'm using the reciprocal space fundamental vector of a Bcc which is the reciprocal lattice of the FCC
+ now with this I don't have to take into account the basis of the FCC because this is already taken into account by the fact that I am now taking a Bcc reciprocal lattice
+ so I am only have to take care of the basis of the real basis of my lattice. Of course as you shall see the calculations are slightly more complicated but okay we can do it.
+ So again the recipe is that my reciprocal lattice vector K is written as N1B1 plus N2B2 plus N3B3 with N123 an integer.
+ and I want to calculate the structure factor which is the sum of LJ from 1 to 2 of E to the IK dot BJ
+ okay so since we choose for the one zero the first term is a one K dot zero zero e to the zero is one
+ and then I have only one term more you will remember yesterday we had four times two eight terms but of
+ course the structure factor could be factored into two factors one that took into account the fake basis
+ and the other that took into account the real basis now we have only the real basis so we have only two
+ thirds so we have to calculate the scalar product of this times this this is
+ let's do this calculation so I have n1 and then b1 times d2
+ 2 pi over a times a over 4 is pi over 2 this will be in front of everything
+ ok 2 pi over a times a over 4 is pi over 2
+ then let's calculate the first product is b1 times d2 j times i is
+ 0, j times j is 1, j times k is 0, so it's 1, k times i is 0, k times j is 0, k times k is 1, minus i times i is 1,
+ i times j is 0, i times k is 0, 1 plus 1 minus 1 is 1, plus n2 and again with n2 is the same,
+ I have k times k is 1, i times i is 1, minus j times j is minus 1, so it's a total of 1 and then the same
+ would be 3, so it's n3 times i times i is 1, j times j is 1 and minus k times k is minus 1, so again this.
+ This is now my selection rule in terms of these numbers so i must warn you this is one
+ of the tricky points if i use the cubic as a lattice and then treat the FCC structure as
+ a fake basis one big advantage is that the three vectors b1, b2 and b3 for the
+ cubic are orthogonal these are not orthogonal so the magnitude of this
+ vector is not it's not just this number square plus this number square plus this
+ number square there are also the cross products whereas with the cubic this is
+ very easy the magnitude of K since b1 b2 and b3 are orthogonal is proportional to
+ this number square plus this number square plus this number square so this is
+ one big advantage of working with the cubic symmetry this is why even if you
+ know that the FCC is a breve lattice you rather prefer to treat this as a cubic plus
+ basis nonetheless this is just to show you that if I make the good calculation
+ without this assumption I get exactly the same results so let's now analyze the
+ result I got I got this result for my structural factor and now I must ask
+ myself what is the selection rule for this number do you have questions so far
+ because I need some space so let's be asked so structure factor is one plus
+ this number is what if n1 plus n2 plus n3 over 2 is 7
+ this is a minus 1 this is sorry n1 rather than 2 this is 7 so it's a multilateral so this is a 1 and this is 1 plus 1 which is non-zero
+ then I have the n1 plus n2 plus n3 over 2 is odd in this case this is a minus 1 1 minus 1 will give 0
+ and then if n1 plus n2 plus n3 is odd then I get plus or minus 5 which is non zero so the
+ only case where I suppress the peak in this case the peak is not suppressed
+ because one plus one is two SK is different from zero in this case so let's
+ write now the value of SK SK will be two which is different from zero zero and one
+ plus or minus i which is different from zero so the peaks will be suppressed
+ whenever this condition is met okay do you agree now I want to show that this is
+ exactly the condition that we found in the previous exercise so if you agree I only
+ leave the condition which is this one the peak is suppressed whenever n1 plus n2 plus n3 divided by 2 is an odd number which means that n1 plus n2 plus n3 is a multiple of two of an odd number
+ now to see that the condition is exactly the same we must express k in the cubic basis
+ so
+ so
+ so
+ so
+ so
+ so
+ so
+ so
+ so
+ okay
+ so
+ these three numbers now play the role of h k and l of the cubic masses
+ now these two are two ways of writing the same vector
+ so i must compare
+ let's for instance find what is nu1
+ nu1 is the coefficient
+ in front of
+ the unit vector in the direction of the x axis
+ so nu1
+ is
+ n1
+ divided by 2 with the minus sign
+ i multiply here by 2
+ divided here by 2 so that I have a 4 pi over n in front so I have minus n1 divided by 2 plus n2 divided by 2 plus n3 divided by 2
+ which can be written as n1 plus n2 plus n3 divided by 2 minus n1
+ because n1 enters with the minus sign and all the others enter with the plus sign
+ so the same is true of course for n2 and n3
+ I will write directly the result
+ and this is the recipe now if I take the sum
+ of the number nu this is this plus this
+ plus this is three halves of this minus
+ the sum is one half of the sum
+ so we get that the sum of these numbers
+ must be an odd number which if you we
+ compare with the selection rule that we
+ have found before let me take it the
+ exercise on the zinc blend structure
+ treated as the FCC plus basis
+ we have found
+ H plus K plus L where H, K and L are now what I call the nu 1 or 2 and nu 3 just to make the symmetry between nu and N.
+ So whenever this number is hot, this number is going to be zero.
+ So we get exactly the same selection rule.
+ We call e to the i, pi over 2, h plus k plus l.
+ This was the selection rule coming from h plus k plus l.
+ Where h, k and l. So, okay, h, so this new, this h was when the basis was with a factor of 2 here.
+ So, if I put the 2 inside, this is now h, so h is new 1 over 2, sorry, 2 times new 1, because I must take 1 to here.
+ k is 2 times new 2, and l is 2 times new 3. Now it's okay, because I have that this is...
+ 2 times the sum of the new, which means that these must be 2 times another number, which was the selection.
+ This is not what I say, that h is new 1 is not true.
+ h is 2 times new 1, k is 2 times new 2, and l is 2 times new 3, because this must be written with a 2 in front to have the basis of a simple cubic.
+ So a factor of 2 goes here, here, and here, and this is what we call the h, k, and l.
+ I have a question. Yes?
+ Actually, the number h, k, and l, they don't have a common factor.
+ No, no, no, no, no. Okay, I get your question.
+ So the question is h, k, and l do not have a common factor when they are treated as Miller indices.
+ Of course, you have also the vectors where they have common factors.
+ They are not the Miller indices.
+ No, no, they are the name of the coefficients, okay?
+ So I can call these coefficients h, k and l.
+ They have the meaning of Miller indices if they have no common factors.
+ So you can always write a reciprocal lattice vector as a linear combination of v1, v2 and v3 with some coefficient h, k and l.
+ If h, k and l are not co-prime then you can always put a factor, a common factor in front and they have h prime, k prime and l prime which are co-prime and those numbers will be the Miller indices.
+ So my statement was about the identification of the Miller indices.
+ If you want to identify the Miller indices then you have to divide by which is different from saying that they cannot have common factor.
+ They of course have plenty of common factors because if k is a reciprocal lattice vector then 2k, 3k, 4k, 7k, 42k are also reciprocal lattice vectors.
+ Ok?
+ So they can have common factors.
+ Yeah, they are not Miller indices.
+ Scusi professore.
+ Sì.
+ L'altra regola, diciamo la regola che noi avevamo trovato per cui H, K e L dovevano necessariamente
+ essere tutti pari o tutti dispari e questa l'avevamo trovata usando la base falsa, diciamo.
+ Sì.
+ E' giustificata dal fatto che sono due volte non uno, due volte non due, due volte non tre?
+ Cioè, la troviamo lì? E' per questo che non compare questa...
+ Sì, in principio, lo che vedo è che n1, n2 e n3 sono integgi.
+ No n1, n2 e n3 non sono integgi necessari, se scrivo questo in questo modo.
+ Perché adesso, se io prendo n1 uguali 1, n2 e n3 uguali 0,
+ this is possible here,
+ then I get 1 plus 0 plus 0 is 1,
+ 1 alfa minus 1 is minus 1 alfa.
+ So nu is equal to minus 1 alfa.
+ Why?
+ Because this is not k written in terms of primitive vectors.
+ So the coefficients here can also be non-integer numbers.
+ The prescription is that a brevet lattice is such,
+ which is a linear combination of the fundamental vectors with integer coefficients.
+ The fundamental vector, if I use other vectors that are non-fundamental,
+ then of course the numbers here can even not be non-integer numbers.
+ But I wrote this just to identify these numbers and to make a connection between this writing,
+ which is the only correct writing.
+ I am writing K in terms of my fundamental vectors, my primitive vectors.
+ And so in this writing N1, N2 and N3 must all be integers.
+ Otherwise this is not a brevet lattice.
+ Then I wrote this and by identifying the two different ways of writing this,
+ I identified N1, N2 and N3.
+ But then you see that N1, N2 and N3 are not necessarily integers.
+ And then why?
+ Because this is not written, this is not a fundamental vector, this is not a fundamental vector, and this is not a fundamental vector.
+ The coefficients there need not to be integers, yes?
+ Si, then I translate the answer.
+ We have seen that if we have a number disparate,
+ we have seen that if we have a number disparate,
+ so the question is, what I see and what I don't see,
+ in order to see, in that case we have the condition,
+ now it's the condition for not seeing,
+ and the condition for not seeing is that m1 plus m2 plus m3,
+ so it's the condition under which this sk is equal to zero,
+ is this condition, and this condition translates immediately
+ in the condition that this h plus k plus l is a multiple of an odd number,
+ so that this is minus one to an odd number, which is minus one,
+ and then one minus one is zero.
+ So the only condition which is important is the condition when a sk is equal to 9?
+ Yes, yes, so it depends on the question.
+ If the question is what we see, what peaks are permitted, then the answer is the complementary to this.
+ The peaks that are not seen is because a sk is equal to zero.
+ The peaks that are seen is because a sk is different from zero.
+ So it depends on the question you ask.
+ The answer is, of course, related to the question.
+ In this case, we are asking the question, what are the peaks that are not seen?
+ And I wanted to show that this was the calculation in the fake basis, H plus K plus L.
+ And then of course the recipes that they are not seen whenever this number is a multiple of an odd number.
+ And now we got the same answer with N1, N2 and N3, which are the true Miller indices of my linear combination of primitive vectors
+ for my true reciprocal lattice of the FCC starting Breve Lattice.
+ Hi Professor, I have a question.
+ Yes, please, you ask.
+ Now that we've done both methods, I just wanted to ask explicitly why was it interesting to use the fake basis in the calculation when it took us so much longer, actually, than using the true basis when there are two basis vectors?
+ So, I was trying to answer to the question and I'll try to make it clear.
+ So, when it amounts to the selection rules, of course this calculation is much simpler when I take only the true basis, so this basis provided I know by heart this.
+ Now if I remember by heart this then this calculation is much simpler. If I don't know this I am first to calculate this, so I have to start with an FCC, I have to remember the primitive vector of an FCC, I have to apply the recipe to go from the primitive vector to the primitive vector of reciprocal space and I find this primitive vector for the VCC reciprocal lattice of the FCC.
+ And then I plug these vectors in this calculation and I get this result.
+ If I don't remember then of course in that case the primitive vector of a cubic lattice are very easy to remember.
+ You don't need to calculate it.
+ Those are just two pi over a in the direction x, y and z.
+ In that case the expression for V1, V2, R and V3 is very simple.
+ Of course the calculation of the structure factor is more complicated.
+ So this is one point.
+ What I want to say is that both ways of solving and exercise are equally correct, of course.
+ Now that you are convinced that the two give the same result, of course you can choose whatever you like.
+ There is one point though, in a while we will do some exercise for instance on the Debye Scherer.
+ In the Debye Scherer what is important is to calculate the magnitude of k, not k itself, but its magnitude.
+ Now if I use this vector, many of your colleagues in the past years have written the magnitude of this vector
+ as n1 squared plus n2 squared plus n3 squared under square root.
+ And this is wrong, plainly wrong.
+ If I use the cubic with h, k and l, then this is true.
+ Why? Because in the cubic, b1, b2 and b3 form an orthogonal, not normal because they are not normalized,
+ but they form an orthogonal basis.
+ In this case, b1, b2 and b3 are a basis, but this basis is not orthogonal.
+ So it's much more, the expression for the magnitude of k is much more complicated, much more.
+ And it's much more difficult to list your k in order of increasing length,
+ which is fundamental in a device-sharer exercise.
+ So as soon as we will solve the device-sharer exercises,
+ then it will become clear that adopting a fake basis to describe the FCC makes the exercise much, much, much simpler.
+ Okay? But I agree with you that if I am given this,
+ then this calculation is much faster than the calculation that we did yesterday.
+ Yes, I agree totally. So if the question is just this, then I totally agree with you.
+ Thank you.
+ You're welcome. Okay?
+ Thank you.
+ Okay, let me propose the following then. As I see, we need to go through these points. They are not tricky, but I understand that until you have not taken a sufficient exercise, then they may look kind of not straightforward.
+ So, I would like to propose the exercise of Astros Mermin page 108 number 2. This is not new, but in this way,
+ we disentangle the calculation we did yesterday from the calculation where we want to prove that the FCC can be described as a breve lattice, a simple cubic with a basis.
+ So, I read the text of exercise number 2 so that I hope that the point I was trying to make becomes clearer and then it will become even clearer when we do some exercise.
+ so I read it it is often convenient it is often convenient to represent an FCC brevet lattice as a simple qubit with a cubic primitive cell of side A and the four point basis it is often convenient
+ to take FCC as simple cubic plus four-point basis
+ okay this is a statement then why it is often convenient as slow as soon as we solve exercise we
+ will see that is far more convenient than not doing so then first question show
+ that the structure factor is either four or zero
+ question B
+ show that when the points with zero structure factor are removed the remaining
+ points of the reciprocal lattice make up a body-centered cubic lattice with side 4 pi over a
+ which is what must be expected and the question is why is this to be expected?
+ well because this is the true reciprocal lattice of my FCC so
+ I take my FCC and I take a conventional primitive set a conventional unit set not the primitive one
+ so I have points at the corners and then points at the middle of each case
+ one, two, three, four, five, six, okay
+ now as I said I can take this as one point of my basis and then I have
+ a second point at the center of this phase a third point at the center of this phase
+ and the fourth point at the center of this phase
+ so this is the minimal basis to describe this as a simple qubit plus a basis
+ so, as I told you, the basis is now d1 equals 0, d2 is equal to
+ a over 2, j plus k, d3 is a over 2, k plus i and d4 is a over 2, i plus j
+ in this case we are entitled to write our reciprocal lattice vector as hd1 plus kd2 plus lb3
+ with v1
+ very simple to remember because it's 2pi over a
+ if the side of my cell is a of a cubic, simple cubic cell, then the side in reciprocal lattice is 2pi over a because the volume is 2pi cubed divided by the volume.
+ And this is i, v2 is 2pi over a j and v3 equals 2pi over a k. They are much simpler to remember and then I have to calculate the structure factor.
+ So, first term is always 1 because we always take the first basis vector equal to 0.
+ Then I have k times d2.
+ I have a 2 pi over a times a over 2, this is a pi that is common for.
+ then I have V1 times this is I times I1, V2 times this is 0, V3 times this is A times K1
+ and so this is H plus L sorry I was taking this so it's this and so I'm taking this
+ times this here I is missing and so I only J times J and K times K so this is K plus L
+ then I have this times d3 and now I have k and i so this makes one, this makes zero and this makes
+ one so I have h plus l and then I have
+ this vector times this vector i times i is one, j times j is one, k times this is zero and so I have h plus k.
+ okay so now
+ we can put the structure factor in order
+ this we have already written
+ e to the i pi is minus one and so we have a minus one to the k
+ plus l plus minus one to the h plus
+ so now we can make all the possible cases
+ i will list all of them and then we take our final conclusion so
+ k plus l can be even and the k plus l can be odd
+ for k plus l even
+ we have h plus l odd and sorry h plus l let me
+ follow the same okay odd
+ and h plus l even and for k plus l odd we can add h plus l odd and h plus l even
+ now in this case if k plus l is even and h plus l is odd can we say something about h plus k
+ k plus l is an even number h plus l is an odd number
+ sorry here k plus l is an even number h plus l is an odd number what can we say about h plus k
+ h plus k must be odd
+ why because if we sum these two numbers we have h plus k plus 2l
+ odd plus even is odd 12 is an even number so h plus k must
+ forcefully be odd there is no other possibility
+ but then we have even odd odd what is the structure factor
+ zero
+ if k plus l is even and h plus l is even what can we say about h plus k
+ this must also be even because now we have k plus h plus 12 is even plus even
+ even 12 is even so k plus h must be even what is the structure factoring we have even even even
+ 4 then we have k plus l odd and h plus l odd what can we say about h plus k
+ it must be even
+ because h plus k plus 12 is odd plus odd even 12 is even and so h plus k must be even
+ What is odd, odd, even? Odd, odd, even? Zero. Finally,
+ K plus L odd, H plus L even, what can we say about H plus K? Odd, because H plus K plus 12 is
+ even plus odd, 12 is even so H plus K must be odd, and then we have odd, even, odd, what is SK? Zero, so
+ two complementary questions, what are the peaks that are suppressed? All the peaks where I find
+ a zero, this is suppressed, this is suppressed, this is suppressed, the only case where a peak is seen visible is this, this is K plus L even, H plus L even, H plus K even, in this case the peak is visible, so we have a cubic lattice
+ where we are keeping only the sides where K plus L, H plus L and H plus K are all even numbers and this is a BCC lattice
+ we have seen that this define a BCC lattice so we find that the true reciprocal lattice of our FCC is a BCC
+ because it's a cubic where these peaks are missing, these peaks are missing and these peaks are missing
+ the only visible peaks are those for which k plus l is even, h plus l is even, h plus k is even
+ and this makes a BCC of side 4pi over a
+ if the starting side was 2pi over a, now the side is 4pi over a
+ so suppose that you do this by mistake you mistakenly take the FCC as a simple cubic plus basis you find this result then you look and you say aha so the reciprocal lattice is a BCC
+ but the BCC is the reciprocal of the FCC and then the starting lattice was a brevet lattice
+ because the final lattice is a brevet lattice which is not a simple cubit it's a rather a BCC
+ but the BCC is the reciprocal of the FCC and the FCC is a brevet lattice itself
+ so this description gives the same result as far as its ray scattering is concerned
+ you finally find that the only way vectors that matters are those that form a BCC
+ the right BCC not one BCC, the right BCC
+ but calculating for instance the magnitude of HK and of K with the simple cubic is much simpler
+ because if K is equal to HB1 plus HKB2 plus LB3 with D1, D2 and D3
+ fundamental vector of the cubic lattice so 2pi over A times I, J and K
+ what is the magnitude of K?
+ question
+ so this all have 2pi over A in front
+ which is their norm
+ and then apart from this norm they are orthogonal
+ so the magnitude is square root of A square plus K square plus L square
+ very simple
+ I only have to remember that the only K that are allowed if I use this K
+ are those for which K plus L, H plus L and H plus K are all even number
+ of course and this I leave to you if they are all even number
+ then H, K and L must either all be even or all be odd
+ it's the same statement so saying that this number is even
+ this number is even and this number is even
+ it's only possible if H, K and L are all even or all odd
+ it's not possible if they have different parity
+ because I can take some in all possible ways and they must always give an even number
+ so if this and this is odd but H is even then this would be odd and this would be odd
+ so they must all be odd or all be even and we know that this is exactly the recipe to give a PCC
+ okay
+ so this is just to encourage you but we will do exercises on this
+ but it's to encourage you to make this choice even for the FCC
+ and then remember that you have to eliminate all the k vectors that are not allowed by this selection rule
+ and only keep those that are allowed if you do this you are in fact describing the reciprocal lattice as a BCC
+ you write it as a simple cubic but then you eliminate all the points that do not obey
+ you eliminate all the points that do not obey this rule and you are left with a BCC which is the correct
+ reciprocal lattice for an FCC and the same is true of course for the BCC you can describe the BCC as a simple cubic plus basis
+ and in that case you have to eliminate all the points that the reciprocal lattice are not on an FCC lattice
+ you can do the same exercise with starting with BCC and using as a reciprocal lattice
+ the simple cubic, so describing the BCC as a simple cubic plus basis
+ in that case we know that we have only two point basis, so it's even simpler
+ okay, I'm finished
+ Are there other lectures here? You don't know.

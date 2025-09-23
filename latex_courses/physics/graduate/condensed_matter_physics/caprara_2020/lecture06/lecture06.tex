@@ -1,0 +1,187 @@
+\section{Il Metodo delle Polveri (Debye-Scherrer) e Determinazione della Struttura Cristallina}
+\label{sec:le}
+In questa lezione, affronteremo un esercizio tratto dal libro di testo Ashcroft \& Mermin (pagina 108, esercizio 1) per dimostrare la potenza del metodo di diffrazione a raggi X su polveri, noto come metodo di Debye-Scherrer. L'obiettivo è mostrare come, anche senza conoscere l'orientamento dei singoli cristalli, sia possibile determinare in modo univoco il reticolo di Bravais di un campione analizzando la posizione di pochi picchi di diffrazione.
+
+\subsection{Introduzione al Metodo di Debye-Scherrer}
+
+Il metodo di Laue, che abbiamo visto in precedenza, richiede un singolo cristallo di grandi dimensioni e permette di determinare la sua orientazione. Tuttavia, molti materiali sono disponibili solo in forma policristallina, ovvero come un aggregato di un gran numero di piccoli cristalliti, ciascuno con un'orientazione casuale.
+
+Il metodo di Debye-Scherrer è progettato appositamente per questi materiali. Il campione in polvere viene investito da un fascio di raggi X monocromatico (con un vettore d'onda $\mathbf{k}$ ben definito). Poiché i cristalliti sono orientati casualmente, per ogni possibile vettore del reticolo reciproco $\mathbf{K}$ che soddisfa la condizione di Bragg, ci sarà sempre un qualche cristallito orientato nel modo giusto per produrre diffrazione.
+
+La condizione di diffrazione è data da $\Delta\mathbf{k} = \mathbf{K}$, dove $\Delta\mathbf{k} = \mathbf{k'} - \mathbf{k}$. Poiché lo scattering è elastico, $|\mathbf{k'}| = |\mathbf{k}|$. Questo implica che per un dato vettore $\mathbf{K}$, il vettore d'onda diffratto $\mathbf{k'}$ giace su un cono di diffrazione con un angolo di semiapertura $\phi$ rispetto alla direzione del fascio incidente. L'insieme di tutti i fasci diffratti da tutti i cristalliti per un dato modulo $|\mathbf{K}|$ forma un cono.
+
+La relazione fondamentale che lega l'angolo di scattering $\phi$ (l'angolo tra $\mathbf{k'}$ e $\mathbf{k}$) al modulo del vettore del reticolo reciproco $K = |\mathbf{K}|$ è:
+$$ K = 2k \sin\left(\frac{\phi}{2}\right) $$
+dove $k = |\mathbf{k}| = \frac{2\pi}{\lambda}$. Misurando gli angoli $\phi$ ai quali si osservano i picchi di diffrazione, possiamo risalire ai moduli dei vettori del reticolo reciproco permessi per quel cristallo.
+
+\subsection{Testo dell'Esercizio}
+
+Si analizza un campione in polvere di tre materiali cristallini monoatomici cubici: Campione A, Campione B e Campione C. Sappiamo che uno di essi ha una struttura cubica a facce centrate (FCC), uno una struttura cubica a corpo centrato (BCC) e il terzo la struttura del diamante.
+
+Ricordiamo le relazioni tra reticolo diretto e reticolo reciproco (RL):
+\begin{itemize}
+    \item \textbf{Reticolo Diretto FCC} $\implies$ \textbf{Reticolo Reciproco BCC}
+    \item \textbf{Reticolo Diretto BCC} $\implies$ \textbf{Reticolo Reciproco FCC}
+    \item \textbf{Struttura Diamante}: è un reticolo FCC con una base biatomica. Il suo reticolo reciproco è quindi basato su un reticolo BCC, ma la presenza della base introduce un fattore di struttura che può annullare alcune riflessioni (regole di selezione).
+\end{itemize}
+
+Gli angoli di diffrazione $\phi$ misurati per i primi picchi sono i seguenti:
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{|c|c|c|}
+\hline
+\textbf{Campione A} & \textbf{Campione B} & \textbf{Campione C} \\
+\hline
+42.2° & 28.8° & 42.8° \\
+49.2° & 41.0° & 73.2° \\
+72.0° & 50.8° & 89.0° \\
+87.3° & 59.6° & 115.0° \\
+\hline
+\end{tabular}
+\caption{Angoli di diffrazione $\phi$ misurati.}
+\end{table}
+
+Il nostro compito è associare ciascun campione alla sua struttura cristallina.
+
+\subsection{Analisi dei Dati Sperimentali}
+
+Poiché la lunghezza d'onda $\lambda$ non è nota, non possiamo calcolare i valori assoluti di $K$. Tuttavia, possiamo analizzare i rapporti tra i diversi valori di $K$. Dalla formula $K = 2k \sin(\phi/2)$, vediamo che il rapporto tra due moduli $K_i$ e $K_j$ è indipendente da $k$:
+$$ \frac{K_i}{K_j} = \frac{2k \sin(\phi_i/2)}{2k \sin(\phi_j/2)} = \frac{\sin(\phi_i/2)}{\sin(\phi_j/2)} $$
+
+\paragraph{Passo 1: Calcolo di $\sin(\phi/2)$.}
+Calcoliamo il valore di $\sin(\phi/2)$ per ogni angolo misurato.
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{|c|c|c|}
+\hline
+\textbf{Campione A} & \textbf{Campione B} & \textbf{Campione C} \\
+\hline
+0.360 & 0.249 & 0.365 \\
+0.416 & 0.350 & 0.596 \\
+0.588 & 0.429 & 0.701 \\
+0.690 & 0.497 & 0.843 \\
+\hline
+\end{tabular}
+\caption{Valori di $\sin(\phi/2)$ corrispondenti ai dati sperimentali.}
+\end{table}
+
+\paragraph{Passo 2: Normalizzazione e calcolo dei rapporti.}
+Per confrontare i pattern, normalizziamo i valori di $K$ (proporzionali a $\sin(\phi/2)$) rispetto al valore più piccolo di ogni serie, che corrisponde al primo picco di diffrazione ($K_1$). Calcoliamo quindi i rapporti $(K/K_1)^2$, che sono uguali a $(\sin(\phi/2) / \sin(\phi_1/2))^2$. Lavorare con i quadrati è conveniente perché i moduli quadri dei vettori del reticolo reciproco sono spesso legati a somme di quadrati di interi.
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{|c|c|c|c|}
+\hline
+\textbf{Campione} & $\sin(\phi/2)/\sin(\phi_1/2)$ & $(K/K_1)^2$ & \textbf{Rapporto Intero Approssimato} \\
+\hline
+\textbf{A} & 1.000 & 1.00 & 3 \\
+           & 1.156 & 1.34 & 4 \\
+           & 1.633 & 2.67 & 8 \\
+           & 1.917 & 3.67 & 11 \\
+\hline
+\textbf{B} & 1.000 & 1.00 & 1 \\
+           & 1.406 & 1.98 $\approx$ 2.0 & 2 \\
+           & 1.723 & 2.97 $\approx$ 3.0 & 3 \\
+           & 1.996 & 3.98 $\approx$ 4.0 & 4 \\
+\hline
+\textbf{C} & 1.000 & 1.00 & 3 \\
+           & 1.633 & 2.67 & 8 \\
+           & 1.921 & 3.69 & 11 \\
+           & 2.309 & 5.33 & 16 \\
+\hline
+\end{tabular}
+\caption{Rapporti normalizzati dei moduli e dei moduli quadri dei vettori K.}
+\label{tab:rapporti}
+\end{table}
+
+\subsection{Confronto con i Reticoli Reciproci Teorici}
+
+Ora confrontiamo i rapporti interi ottenuti nella Tabella \ref{tab:rapporti} con quelli attesi per i reticoli reciproci delle strutture cubiche. Un generico vettore del reticolo reciproco di un cristallo cubico di lato $a$ si scrive come $\mathbf{K} = \frac{2\pi}{a}(h\mathbf{\hat{x}} + k\mathbf{\hat{y}} + l\mathbf{\hat{z}})$, dove $h,k,l$ sono interi. Il suo modulo quadro è:
+$$ K^2 = \left(\frac{2\pi}{a}\right)^2 (h^2+k^2+l^2) $$
+Ci aspettiamo quindi che i rapporti dei moduli quadri $K^2/K_1^2$ siano rapporti tra somme di quadrati di interi.
+
+\subsubsection{Caso 1: Reticolo Diretto BCC $\implies$ Reticolo Reciproco FCC}
+Il reticolo reciproco è FCC. I vettori che connettono l'origine ai punti più vicini sono quelli che terminano al centro delle facce, del tipo $\frac{2\pi}{a}(1,1,0)$ e permutazioni.
+\begin{itemize}
+    \item $K_1^2$: $h^2+k^2+l^2 = 1^2+1^2+0^2 = 2$.
+    \item $K_2^2$: Il successivo set di punti è ai vertici, del tipo $\frac{2\pi}{a}(2,0,0)$. $h^2+k^2+l^2 = 2^2+0^2+0^2 = 4$.
+    \item $K_3^2$: Vettori del tipo $\frac{2\pi}{a}(2,1,1)$. $h^2+k^2+l^2 = 2^2+1^2+1^2 = 6$.
+    \item $K_4^2$: Vettori del tipo $\frac{2\pi}{a}(2,2,0)$. $h^2+k^2+l^2 = 2^2+2^2+0^2 = 8$.
+\end{itemize}
+I rapporti $K^2/K_1^2$ attesi sono quindi $2/2=1$, $4/2=2$, $6/2=3$, $8/2=4$, ovvero \textbf{1, 2, 3, 4}.
+Questa sequenza corrisponde perfettamente ai rapporti interi calcolati per il \textbf{Campione B}.
+
+\textbf{Conclusione:} \textbf{Il Campione B ha una struttura BCC}.
+
+\subsubsection{Caso 2: Reticolo Diretto FCC $\implies$ Reticolo Reciproco BCC}
+Il reticolo reciproco è BCC. I vettori che connettono l'origine ai punti più vicini sono quelli che terminano al centro del cubo, del tipo $\frac{2\pi}{a}(1,1,1)$.
+\begin{itemize}
+    \item $K_1^2$: $h^2+k^2+l^2 = 1^2+1^2+1^2 = 3$.
+    \item $K_2^2$: Il successivo set di punti è ai vertici, del tipo $\frac{2\pi}{a}(2,0,0)$. $h^2+k^2+l^2 = 2^2+0^2+0^2 = 4$.
+    \item $K_3^2$: Vettori del tipo $\frac{2\pi}{a}(2,2,0)$. $h^2+k^2+l^2 = 2^2+2^2+0^2 = 8$.
+    \item $K_4^2$: Vettori del tipo $\frac{2\pi}{a}(3,1,1)$. $h^2+k^2+l^2 = 3^2+1^2+1^2 = 11$.
+    \item $K_5^2$: Vettori del tipo $\frac{2\pi}{a}(2,2,2)$. $h^2+k^2+l^2 = 2^2+2^2+2^2 = 12$.
+    \item $K_6^2$: Vettori del tipo $\frac{2\pi}{a}(4,0,0)$. $h^2+k^2+l^2 = 4^2+0^2+0^2 = 16$.
+\end{itemize}
+I rapporti $K^2/K_1^2$ attesi sono quindi $3/3=1$, $4/3$, $8/3$, $11/3$, $12/3=4$, $16/3$.
+La sequenza di rapporti osservata sperimentalmente è \textbf{1, 4/3, 8/3, 11/3, 4, 16/3, ...}.
+I rapporti interi calcolati per il \textbf{Campione C} sono (moltiplicando per 3): 3, 8, 11, 16. Questo corrisponde a un sottoinsieme della sequenza BCC: $K_1^2 \propto 3$, $K_2^2 \propto 8$, $K_3^2 \propto 11$, $K_4^2 \propto 16$.
+\textit{Nota: il picco corrispondente a $h^2+k^2+l^2 = 4$ non è stato misurato o è troppo debole}.
+
+\textbf{Conclusione:} \textbf{Il Campione C ha una struttura FCC}.
+
+\subsubsection{Caso 3: Struttura Diamante}
+La struttura del diamante è un reticolo FCC con una base di due atomi identici, uno in $(0,0,0)$ e l'altro in $(\frac{a}{4}, \frac{a}{4}, \frac{a}{4})$. Il suo reticolo reciproco è BCC, ma il fattore di struttura $S_\mathbf{K}$ determina quali riflessioni sono visibili.
+Il fattore di struttura è:
+$$ S_\mathbf{K} = \sum_j f_j(\mathbf{K}) e^{i\mathbf{K} \cdot \mathbf{r}_j} $$
+Per il diamante, con atomi identici (fattore di forma atomico $f$), abbiamo:
+$$ S_\mathbf{K} = f(\mathbf{K}) \left[ e^{i\mathbf{K} \cdot \mathbf{0}} + e^{i\mathbf{K} \cdot (\frac{a}{4}, \frac{a}{4}, \frac{a}{4})} \right] = f(\mathbf{K}) \left[ 1 + e^{i \frac{2\pi}{a}(h,k,l) \cdot \frac{a}{4}(1,1,1)} \right] $$
+$$ S_\mathbf{K} = f(\mathbf{K}) \left[ 1 + e^{i\frac{\pi}{2}(h+k+l)} \right] $$
+L'intensità del picco di diffrazione è proporzionale a $|S_\mathbf{K}|^2$. Analizziamo i valori di $h+k+l$:
+\begin{itemize}
+    \item Se $h,k,l$ sono un misto di pari e dispari, per il reticolo FCC la riflessione è già assente (regola di selezione per FCC: $h,k,l$ tutti pari o tutti dispari).
+    \item Se $h,k,l$ sono tutti pari:
+        \begin{itemize}
+            \item Se $h+k+l = 4n$ (es. (2,2,0), (4,0,0)), allora $\frac{\pi}{2}(h+k+l) = 2n\pi$. $S_\mathbf{K} = f(1+e^{i2n\pi}) = 2f$. L'intensità è massima.
+            \item Se $h+k+l = 4n+2$ (es. (2,0,0), (2,2,2)), allora $\frac{\pi}{2}(h+k+l) = (2n+1)\pi$. $S_\mathbf{K} = f(1+e^{i(2n+1)\pi}) = f(1-1) = 0$. \textbf{Riflessione estinta!}
+        \end{itemize}
+    \item Se $h,k,l$ sono tutti dispari (es. (1,1,1), (3,1,1)), allora $h+k+l$ è dispari.
+    $|S_\mathbf{K}|^2 = |f(1+e^{i\frac{\pi}{2}(2n+1)})|^2 = |f(1 \pm i)|^2 = 2f^2$. La riflessione è presente.
+\end{itemize}
+Riassumendo, per la struttura del diamante sono permesse solo le riflessioni del reticolo reciproco BCC per cui:
+\begin{enumerate}
+    \item $h, k, l$ sono tutti dispari.
+    \item $h, k, l$ sono tutti pari E la loro somma è un multiplo di 4.
+\end{enumerate}
+
+Confrontiamo ora la sequenza di $h^2+k^2+l^2$ per un reticolo FCC (reciproco BCC) e per il diamante:
+\begin{itemize}
+    \item \textbf{FCC (Campione C)}: $h^2+k^2+l^2 = 3, 4, 8, 11, 12, 16, ...$
+    \item \textbf{Diamante (Campione A)}:
+        \begin{itemize}
+            \item $h^2+k^2+l^2=3$ (da 1,1,1): tutti dispari. \textbf{Permessa}.
+            \item $h^2+k^2+l^2=4$ (da 2,0,0): tutti pari, somma=2. \textbf{Estinta}.
+            \item $h^2+k^2+l^2=8$ (da 2,2,0): tutti pari, somma=4. \textbf{Permessa}.
+            \item $h^2+k^2+l^2=11$ (da 3,1,1): tutti dispari. \textbf{Permessa}.
+            \item $h^2+k^2+l^2=12$ (da 2,2,2): tutti pari, somma=6. \textbf{Estinta}.
+            \item $h^2+k^2+l^2=16$ (da 4,0,0): tutti pari, somma=4. \textbf{Permessa}.
+        \end{itemize}
+\end{itemize}
+La sequenza di $h^2+k^2+l^2$ attesa per il diamante è \textbf{3, 8, 11, 16, ...}.
+I rapporti $(K/K_1)^2$ attesi sono quindi $3/3=1$, $8/3$, $11/3$, $16/3$.
+I rapporti interi calcolati per il \textbf{Campione A} erano 3, 4, 8, 11. Normalizzando rispetto a 3, otteniamo 1, 4/3, 8/3, 11/3. Questa sequenza, che ha delle "mancanze" rispetto a quella del Campione C, corrisponde perfettamente a quella attesa per la struttura del diamante.
+
+\textbf{Conclusione:} \textbf{Il Campione A ha la struttura del diamante}.
+
+\subsection{Riepilogo Finale}
+
+L'analisi dei pattern di diffrazione ci ha permesso di identificare in modo univoco le strutture dei tre campioni:
+\begin{itemize}
+    \item \textbf{Campione A: Struttura del Diamante} (Reticolo reciproco BCC con riflessioni estinte)
+    \item \textbf{Campione B: Struttura BCC} (Reticolo reciproco FCC)
+    \item \textbf{Campione C: Struttura FCC} (Reticolo reciproco BCC)
+\end{itemize}
+
+Questo esercizio evidenzia come il metodo delle polveri, nonostante la perdita di informazione sull'orientazione, sia uno strumento estremamente potente per l'identificazione delle strutture cristalline, basandosi unicamente sulla posizione relativa dei picchi di diffrazione.

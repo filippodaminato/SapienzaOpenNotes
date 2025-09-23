@@ -1,0 +1,618 @@
+ from
+ a midterm
+ assessment test
+ of november 19
+ 2018. actually before i start i can give you a full list of exercises on x-ray
+ scattering data from my website those are exercises written exams or
+ assessment test of the previous years so for instance there is
+ january 22 2019 april 8 2019
+ just to suggest to june 18 2019
+ those are all x-rays
+ uh exercises on x-ray spectrum september 10 2019
+ november 19 2019
+ february
+ 3rd 2020 and finally june
+ 15 2020. you'll find all those exercises with solutions on my website
+ and of course you are encouraged to do these exercises and whenever you need to discuss the
+ solution with me please feel free to us to come to consulting time and visit me both
+ on google beat or in my office so let's go back to these exercises this exercise was
+ i would say a rather complete exercise on x-ray scattering because it allows to go through all
+ the subtleties of x-ray scattering in from a crystal so the exercise is like this consider a lattice
+ with cubic symmetry
+ and formula
+ a b
+ we use the bischer
+ with a wavelength
+ of 0.1542 nanometers
+ and we observe the first 10 diffraction peaks
+ i write here the angle 2 theta of the diffraction peak in degrees
+ So we have 36.95, 42.91, 63.30, sorry 62.30
+ 74.64, 78.64 again, 94.06, 105.75, 109.78
+ one hundred and twenty seven point twenty nine and one hundred and forty three point seventy seven
+ those are the measured angle by the device sheller method
+ okay this is the text then question number one
+ after demonstrating that the given lapis is a phase center the cubic
+ level each peak
+ with the miller indices h k and l
+ of the simple cubic
+ and then calculate
+ the lattice parameter a of the conventional unit cell
+ to indicate which of the above peaks would disappear
+ if the a and b atoms were the same and the atom b is displaced
+ by a vector a one-fourth one-fourth one-fourth or
+ a one-half one-half
+ sorry
+ then if a and b are equivalent
+ which of those peaks disappear because of destructive interference from the basis in the
+ cases where the basis is uh a one fourth one fourth one fourth or a one half one half one half
+ is the text of the exercise sufficiently clear to everybody
+ then i recall that with the basharer the amplitude of the reciprocal lattice vector which is the only
+ thing that we know is two times the amplitude of the wave vector of the
+ times the sine of theta in the exercise we give the spectric angle to theta which is what in the
+ bischarer formula is called the angle phi the bischarer is just the difference between
+ the is the angle formed between the incident beam and the scattered beam and this is two times the
+ angle theta formed by the incident or the reflected beam with respect to the surface and in the bischarer
+ formula we have phi over two and phi over two is just theta okay so i wrote this in
+ the drive notation in the bischarer notation here you would have phi over two where five is two
+ theta so the two formulas are the same so to answer the first question
+ what brevet lattice is this it is enough to calculate the length of the first few
+ reciprocal lattice vectors actually even less than that in a previous exercise i've shown
+ that even if you ignore the wavelength you can nonetheless define the lattice structure by
+ taking ratios because a ratio of two wave vectors of two amplitudes is just the ratio
+ of the sign of the corresponding angles
+ because the wavelength or the wave vector is common and wrong excuse me professor yes
+ it's not recording
+ no i actually didn't actually there is a huge problem in sharing this recording so i don't
+ know if i will ever be able to share this but you are right in any case for the moment i am recording
+ because for any lecture i share i should have the written written consent of all the people that
+ were taking part to that lecture to share it in a lawful manner okay so it's a mess it's really
+ because i should know who was there and ask to everybody and even if one single guy doesn't give
+ the written assentment i cannot make these lectures public this is the law and then of course you can
+ tell me okay break the law okay and then i'll become an outlaw i can do this but i prefer not to do this
+ so i would like to find a way to share without breaking so this is the ratio we want to calculate
+ so i list here the first few peaks one two three four theta is half the angle
+ so is 18.475 here it is 21.455 here is 31.150 and here is 37.320
+ this is the angle theta in degrees then i calculate the sine of theta
+ of course i must set my calculator in degrees to have a meaningful number and
+ then this number are three one six nine
+ three six five eight
+ zero point five one seven three and zero point six oh six three
+ okay then in principle i can calculate the magnitude of k because i know the
+ way vector and i know that k is two pi over lambda
+ so lambda is given in the exercise
+ and so i can calculate k but as i told you this is not really interesting
+ because you can take ratios so i skip here the
+ calculation of the value of k if you are interested
+ you can calculate those k but i told you that this is not
+ interesting if you want only to tell what kind of lattice
+ yes this you are studying and here i calculate k divided by k1
+ so i take the ratio of this number with this number of this number with this
+ number the ratio of the science and i get of course for
+ the first is equal to one this is the shortest reciprocal lattice
+ vector that i find in my device shell experiment then the
+ second is 1.154 the third is 1.632
+ and the other is 1.954 those numbers are
+ two divided by the square root of three
+ two times two divided by the square root of three
+ and the last one is square root of 11 divided by three
+ we have seen in a previous exercise that these numbers
+ are the numbers of a bcc and this is the reciprocal lattice
+ then it means that my braille lattice must be an fcc
+ you cannot accommodate this number in a cubic symmetry except that in a bcc
+ in a bcc the shortest is the one that goes from the corner to the
+ point in the center the second is the side the third is two times the side and then you have
+ sorry not to time the side it's to time the diagonal and then you have the center of the
+ neighboring uh primitive side and these numbers are the fingerprint of a bcc but this is the
+ reciprocal lattice which means that the lattice we are starting from our revela this is fcc
+ excuse me professore could you repeat how do we find out that is the base centric cubic so in a
+ previous exercise we have seen that to accommodate these numbers of course you can calculate also the
+ absolute value but in my opinion this is less transparent then you know that your lattice is
+ symmetry then you have to arrange those numbers with three possible choices
+ because with cubic symmetry you have only three choices one choice is a simple
+ cubic another choice is face-centered cubic and the third choice is bodies and cubic so you have not
+ an infinite number of possibilities because you know that your lattice has cubic symmetry then you have to
+ arrange those numbers in a periodic structure and then in a previous exercise we have seen that if we
+ take the body centered cubic then the shortest wavelength i can think of the shortest vector i
+ can think of is the one that reaches the center of the body of my cube and this is what we call
+ the first vector k the second is the side of the cube and if this is of length one
+ of course the true length is the real length that i can calculate but all the
+ other are proportional to that length so what really matters are the ratios so i can always say
+ that my unit length is the shortest way vector the shortest reciprocal lattice vector i call this length
+ one then this length if this is one this would be square root of two of three and then this is
+ two divided by square root of three
+ the third one is this which is just the square root of two this number and so is two square root of two
+ divided by the square root of three and the third one and there is no other possibility
+ is when you join this point with the center of the neighboring
+ and then again by the pythagorean theorem you find that this number is the square root of 11 divided by three
+ this is slightly smaller it's 1.954 this is slightly smaller than this which is two
+ so this comes before this this would be k
+ one two three four
+ and so on okay so at the beginning it appears to be difficult i will try to
+ tell you some tricks you have to order your vectors in order of increasing
+ length of course if you miss one then you have a mismatch and you may be confused but if you are
+ systematic and you put your numbers in order of increasing length then there is no way to mistake
+ so with this exercise in a while i'll tell you what tricks you can adopt to be systematic
+ so the first question
+ is done we have checked that our structure is an fcc now next question is
+ to level the peaks with the miller indices of a simple cubic so the exercise is suggesting us
+ the face-centered cubic as a simple cubic plus a basis
+ then we must write our reciprocal lattice vectors
+ in the form of the reciprocal lattice vector of a simple cube
+ but we know that the interference of the basis
+ will eliminate from my extra ray scattering pattern some of those peaks
+ because the reciprocal lattice vector of an FCC
+ is not a simple cubic rather it's a BCC
+ but we know how to describe a BCC
+ if we start from a simple cubic and we have the prescription that
+ H, K and L must be all even or all odd we obtain the BCC
+ and this is exactly the selection rule that is enforced
+ if I calculate the structural factor coming from
+ the fake basis of an FCC within a simple cubic lattice
+ in this case I find that only the teams where H, K and L are
+ all even or all of them survive and are seen in my selection
+ okay then the question it was a question even in the previous lecture
+ why should I do so and now I explain why
+ this is much better than treating this system with the real
+ reciprocal lattice which is a basic body-centered cubic
+ the first is that as you see here the fundamental vectors
+ are orthogonal whereas if i use the fundamental the standard fundamental
+ vectors of a bcc they are not orthogonal and now
+ when i tell you how to be systematic with the number in the keys you will see
+ that this choice is far better than the other
+ so now i'll be systematic
+ so i have to calculate now my numbers for
+ theta and sine theta so i will write the other numbers here
+ 37 39.320
+ 47.030
+ 52.875
+ 54.890
+ and then
+ 63.645 and the last is 71.885
+ those numbers are just one half of the theta numbers it's just taking theta from 2 theta
+ then i calculate the signs of these numbers
+ and the list follows with this six three three seven
+ seven three one seven
+ seven nine seven three
+ eight one eight zero
+ eight nine six one and the last is nine five oh four
+ okay
+ now how should i proceed
+ we know from breakthrough that the distance
+ between the plates in my family is
+ the ratio between the wavelength
+ and two times the sine of theta this is just that i wrote k as two pi over b where b is my distance
+ and then i write small k as two pi over lambda and then i put this expression in that expression two
+ pi and two pi drops and i have this relation
+ between the wavelength which we know is given by the exercise lambda equals 0.1542 nanometers
+ and the sine of theta which is in this list
+ then
+ this number
+ is
+ 2pi over the absolute value of k
+ and now you see why this choice of k
+ makes the calculation very simple
+ if i have chosen a cubic basis
+ what is the magnitude of my vector capital k
+ is two pi divided by a times the square root of h square plus k square plus s k x square very simple expression
+ the expression if we used the basis vectors of a bcc
+ proper lattice would be much more complicated in terms of the indices
+ so i write here the final formula if i make all the simplification the distance is a
+ divided by the square root of h square plus k square plus l square
+ very simple formula
+ i warn you that this is the real distance if h k and l are co-prime
+ whenever h k and l are not co-prime see this vector makes sense but it's an integer multiple of a
+ shorter vector so we are seeing a reciprocal lattice vector which is twice or three times as
+ large as the shortest and this is a multiple p in the brad formulation the index of my multiplicity
+ is the index n in brad's original formula so whenever there is a common factor n i can put
+ this n in front and this n is accurate n that is in front of the formula for my multiplicity n times lambda
+ okay now i want to be systematic so my suggestion is this
+ list the possible number h k and l at this level it doesn't matter if they are
+ permutation because of course if i permute this number the magnitude of k is always the same
+ since what matters in the byscherrer is only the magnitude of k capital k then all the peaks
+ that are obtained by permutation of the miller indices correspond to the same peak within the
+ by sharon as i told you this vector this vector and this vector are all equivalent they are the same
+ length they are all equivalent within the high share so i have to find h k and l such that
+ they are all even or all of the first prescription
+ why this because in this way i start from a single simple cubic
+ and i obtain a body centered cubic which is the reciprocal lattice of my
+ center cubic so now i'm asking you a question
+ what is the first set of hk and that that i can choose remember that the length of my k
+ capital k is proportional to h square plus k square plus l square and that i should list my
+ k in order of increasing length increasing length so i should start from the smallest possible choice
+ of h k and l and then try to increase them while being systematic without missing any possible case
+ so what is the first possible choice for h k and l i can even write this number because of course the
+ square root of this number is the length so if this increases of course also the length increases
+ what is the first possible choice which is compatible with this prescription
+ zero zero zero is nothing it doesn't exist
+ two zero zero is not the first possible because if i put here a two
+ this is four if i put one one one this is three which is shorter so the first choice is one one one
+ if i make this choice this number is one plus one plus one three good next choice
+ scusi perché one zero zero non è una scelta quale non ho scelto uno zero zero
+ why not one zero zero because they must be all even or all odds one zero zero is one odd and two
+ even so i cannot choose it it's not the base structure so the next now i agree with your
+ colleague is two zero zero and all permutation of course zero two zero zero zero two this number is
+ four there is no integer between three and four so this is the best possible choice what is the next
+ i buy it two to zero is the next two to zero is such that two squared is four plus four is eight
+ plus zero eight the next
+ three one one i buy it you agree i agree three one one all odd nine plus one ten plus one eleven
+ the next
+ two two now
+ four zero zero four zero zero thank you
+ this gives me a 16 for that number
+ three three one
+ nine and nine is 18 and one is 19.
+ the next 4 to 0
+ 16 and 4 is 20.
+ two more and then stop it i promise
+ 4 to 2
+ 4 to 2 is 16 plus 4 20 plus 2 22
+ and that this is why we asked 10 peaks and now we will find out what is the next
+ 20 or 16 20 24 yes
+ yes but only 3 3 3
+ thank you in this case 3 3 3
+ and 5 1 1 gives the same
+ okay for both they are both allowed or odd they both correspond to 27
+ so they will both give rise to the same peak in the byshehrer
+ but now it's said that they come from two completely different
+ family of lattice plates
+ from this wave vectors two completely different
+ family of lattice plates correspond to the same
+ total length of my reciprocal lattice vector
+ and so they are seen as one single peak within my share
+ so the students protested because we had asked
+ 10 peaks but the reason to ask for 10 peaks is that with the
+ 10th peak a surprise came two different sets of middle indices
+ correspond to the same my share rt
+ and then we have everything because we can calculate
+ d and then we can calculate we know d because d
+ is 2 pi over k so we know k
+ we know d and then from this formula we can calculate a
+ and of course there are some numerical uncertainties so the value of a is not
+ exactly the same it varies a little bit but you can judge
+ from the result i get 0.4214
+ 0.4215 0.4216 0.4217 0.4215
+ again 0.4215 0.4215
+ the last is again 4215
+ okay so i have 10 slightly different values for a i can take an average as a representative of my
+ a and this is the side of my conventional conventional fcc unit cell why the conventional
+ because i have written my lattice as a simple cubic of side a and so a is the side of the conventional
+ unit cell so this is the side of my conventional unit cell the average of this number which is
+ as you can figure out this one which is the one that appears more frequently and so weighs the most in
+ the average this is expressed in nanometers
+ i write the formula to calculate a
+ so lambda is known sine theta appears in this list and then i have to take
+ lambda divided by two times in theta and multiply by the square root of this number
+ and i get a so for each peak a is given by this lambda which is a constant 0.1542 divided by two
+ again a constant and sine theta which is the entry of this column
+ and divided by the square root of the entry of this column
+ so if you are systematic and you have everything there then the calculation is
+ type forward and you can fill
+ the last column with this
+ questions so far the procedure so the only tricky point in this exercise the rest are trivial
+ relation is to be systematic with filling those entries so it seems difficult at the beginning
+ but then your ingredients are integer numbers you have to choose those integer numbers according
+ to a prescription in this case the prescription is that they must be all even or all thought
+ and then you must choose those numbers such that this number increases systematically
+ so at each step there are few choices few candidates if you are here then you would not say that the next
+ is four four four it's evidently a leap too far so you must increase those numbers little by little
+ and without abandoning this prescription increase this number which means increase the magnitude of
+ my reciprocal accomplishment and if you do that systematically then you cannot be mistaken
+ you associate each set of miller indices to the corresponding scattering angle
+ i want to point out this was a question from one colleague in this case one one one
+ is a miller index a set of miller indices in this case those are not co-prime but the point is that we
+ are using the simple cubic so if we divide by a factor of two which is a common factor we get one
+ zero zero which is not allowed so the fact that they are not co-prime is a consequence of the fact
+ that we are choosing as a starting point a simple cubic and not a phase-centered cube but if you look
+ at this two two two if you take the common factor two you go to one one one this means that this peak
+ is a replica of this peak with the n equal to in the bragg form so you are taking the second multiplicity
+ of the same peak with n equal to so this is not the correct set of miller indices in this case the
+ correct set of the miller indices from this family of planes is one one one and i find two two two
+ because this is the secondary peak and then there will be a three three three and if i take a common
+ factor three i gain a one one one and this is the tertiary peak of the same family of lattice planes
+ okay so in this case these are not sorry these are not strictly speaking the miller indices of the
+ family of planes they only characterize the length of capital k but the family of miller indices is
+ one one one of the family of lattice planes and for three three three also because they must be
+ co-prime in this case they cannot be co-prime because the peak is not present in the structure
+ of my face center excuse me professor say can you quickly explain why they should be even or all odd
+ so because we have calculated the
+ phase centered cubic as a simple cubic plus a basis this was the exercise we did in the previous
+ lecture and if you do so then you are entitled to treat the basis as a real basis with equivalent
+ patterns and then you know that the peaks that this appears are the peaks for which the structure factor
+ which is the sum over j running on the basis which for the fcc is a four vector basis
+ is zero those peaks disappear then you write k in this form because you are pretending that your
+ lattice is a simple cubic and then you have to write the basis the basis vectors are zero
+ this can always be taken as zero one of your basis points can always be taken as the origin
+ the second point is for instance a over two zero one one
+ the second basis vector is 8 over 2 1 0 1 and the last is a over 2 1 1 0. I'm writing those vectors
+ in components of course in unit vectors this is j and k this is i and k and this is i and j.
+ then i have to calculate this scalar product and make this sum and we find that this number
+ is zero unless h k and l are all even or all odd this is the only case in which
+ this sum is different from zero so i write this this sum is different from zero if and only if
+ h k l r all even or all since this is an exercise we have already done i will not go into the details
+ because the others would be bored but this is the main scheme that you have to follow to verify that
+ this is true and then if you don't get it then you can ask me this when the other are gone because then i
+ will answer to your question in more detail now i won't stop there because we have done this
+ calculation already and so this will be i think the third time to do it
+ so the question is should you give this as an exercise in an exam should we demonstrate this
+ or should we assume this well my suggestion is this this is a suggestion for your life not for my
+ exam so it's much wider than my exam never answer to questions that are not asked only answer to the
+ questions that are asked so if i don't ask you show that then you don't you assume and you only answer my
+ questions so you are if i don't ask you a question you are entitled to assume that this is known
+ actually i do expect that you know that this prescription works for the vcc reciprocal
+ lattice which means that it is good prescription for the fcc and vice versa okay so but this is a
+ general suggestion which works in life in general never answer to a question that has not been asked
+ you're going to deep trouble if you do that and without being you know asked so it's really that
+ you suicide you if you commit suicide because you're going to a problem that you were not even
+ last so now comes a real basis real basis my lattice is a lattice with the chemical formula a b so it has a real
+ even if i treat it as an FCC this is an FCC breve lattice plus a two atoms basis
+ now what i told you is that in general if the two atoms in the basis are different
+ they will never give a strict selection rules the peak a strict selection rule the peak cannot
+ disappear altogether because the amplitudes of the various partial waves in the form factor are
+ proportional to the atomic form factors and the atomic form factors are different for different atoms
+ and so there is no way that those numbers can cancel if their amplitudes are different
+ but if the atoms are the same are the same then there is a possibility that the atomic form factor
+ cancels because of destructive interference for ways that are scattered by different identical atoms
+ located at different points so now we have to calculate the structure factor for a real basis
+ so we can proceed in two ways and i hope that an exercise that we did that equivalent
+ either we take k as a reciprocal lattice vector of the bcc of the fcc
+ which is a bcc and that of course must work
+ the other possibility is that and this is what i suggest you to is to take this
+ and remember that this is a bcc vector if they are all even or all so you take this
+ with the restriction that h k and l are all even or all and then you are taking the good starting
+ reciprocal if you are convinced about this statement i encourage you to take this way to
+ solve the problem because this is way faster because otherwise you have to remember the
+ expression of the reciprocal of the primitive vectors of the bcc reciprocal lattice and put
+ them here and the calculation becomes much much more complicated okay then
+ to make the calculation i have to write k in coordinates so this is 2pi over a h k and l and then
+ in my first case the basis is d1 equal zero zero zero and d2
+ h k l all even or all odd this is the prescription and then my d1 and d2
+ are d100 and d2 a 1 4 1 4 1 4
+ i calculate the structure factor in this case
+ this is a true basis two basis two atom basis because i have two atoms
+ and this is
+ first vector is zero whatever vector times zero is zero e to the height
+ zero is one so the first term is always one this is a good reason to take the first basis vector as
+ the origin of the coordinates the second is what
+ e to the i k dot d2 two pi over a times a is two pi
+ and then i have h over four plus k over four plus m over four so it's pi over two h plus k plus m
+ when is this expected to be zero
+ so whenever this number
+ is odd so our prescription is that h plus k plus l over two
+ is odd
+ if this number is odd we have e to the i pi which is minus one or e to the i three pi which is minus one
+ so now we go back to these and we have to apply this extra rule the first rule is implicit here
+ because from the very beginning we choose h k and l all even or all so we have not to care about that
+ we go back to our list one plus one plus one is three three divided by two is not enough number
+ it's not even integer so this peak is seen then we have two plus zero plus zero is two
+ two divided by two is one this is odd so this peak disappears it's not seen
+ two plus two is four divided by two is two this is visible three plus one plus one is five five divided
+ by two is not integer so this is visible two plus two plus two is six six divided by two is three three
+ is odd this peak is not seen four plus zero plus zero is four divided by two is two it's an even
+ number so this is visible three three one is of course visible because this is an odd number four
+ two zero is six six divided by two is three three is an odd number this is not seen four to two
+ is eight divided by two four is all every number so this is visible three three three is nine five
+ one one is seven seven and nine are odd numbers so this rule does not apply because we cannot divide
+ by two so the peaks that disappear are this peak this peak and this peak
+ they disappear because of the interference of the basis if the atoms are now assumed to be identical
+ if the atoms are not identical the suppression is not complete of course those peak will look fainter
+ because they are partially suppressed there is a partial suppression but the suppression is not
+ complete so if my basis is a basis of two inequivalent atoms what i expect is that this
+ piece will be visible but will be fainter than the nearby peaks because they are partly suppressed by
+ a partial interference if the atoms are the same then the interference is complete and the peak
+ disappear all together okay now let's make the same calculation with the other prescription a
+ one over two one over two
+ the calculation is the same but now there is not this factor of two here
+ because now i have two pi over a times a over two is a pi and so i have now the result
+ i write it again so that you have time to rewrite
+ what is the prescription now
+ when the structure factor is zero
+ so now the prescription is this of course
+ now the prescription is h plus k plus l must be odd i change color because now we are under a new
+ selection rule this selection rule so i go back to my list
+ Now, in my list, my prescription is H+K+L is odd, then the peak disappears. 1+1+1=3, 3 is odd, this peak disappears.
+ 2, even this is there, this is there, 3+1+1 disappears, 3+3+1 disappears, 333 and 511 disappear.
+ So you see, you change the basis and the X-ray diffraction pattern changes completely.
+ So you can tell the difference between an FCC with the basis of identical atoms displaced by one-fourth, one-fourth, one-fourth along the diagonal and by one-half, one-half, one-half along the diagonal.
+ They give rise to a completely different set of black peaks and so they can be distinguished by an X-ray scattering experiment,
+ which of course loses all information about the direction of the reciprocal lattice way back.
+ So this exercise gives a complete overview of what can be encountered in an exercise on X-ray scattering.
+ Because you have to tell the structure starting from a list of angles that are measured in the experiment and you have also to calculate the effect of adding a basis to your balance.
+ The bottom line of this kind of exercise is that, of course, whenever you are dealing with a cubic symmetry,
+ by far the simplest choice you can make is to treat your cubic lattice as a simple cubic plus a fake basis,
+ because in this case the expression for your reciprocal lattice vectors is much simpler,
+ and also the expression for the length.
+ The only prescription is on the Miller indices that you can take,
+ but this is implemented very easily.
+ And then you have to list those numbers in such a way as to produce increasing numbers
+ for the magnitude of the reciprocal lattice vector,
+ which means increasing numbers for h^2 plus k^2 plus n^2.
+ The permutation doesn't matter,
+ so you can just take one individual as a representative of all the possible permutation,
+ so this is equivalent to 0, 2, 0, 0, 2.
+ And in this way you can very, very easily exhaust all the list of the possible peaks.
+ Since the students protested for having been given 10 peaks,
+ in the next exercises we used to relegate less than 10 peaks to examine,
+ so 5, 6 peaks and so on.
+ Okay.
+ In principle, if you proceed in a systematic way, the exercise is quite not so complicated,
+ but of course, the first time you face such an exercise, you may be somewhat in difficulty.
+ Do you have a question about the solving strategy or I would have done differently, which is, of course, possible, as I told you?
+ This exercise can be solved by starting from the very beginning with the reciprocal lattice spectacles in the BCC form, then the solution is more complicated in the end.
+ The final result is the same for the physical quantities, for instance, the size of the conveyor itself must be exactly the same.
+ This must not depend on the strategy of solution to your exercise.
+ Excuse me, Professor.
+ I think so much in a few steps the methods to go through an exercise of this type.
+ Like number one, to do that, to do that, and to help us to understand that.
+ Your voice is jumping, so I'm not sure I followed you.
+ So, if I understood what you asked, I'm not sure, but in principle, the solving strategy for this exercise is if you go through all the questions in the order we ask them.
+ Of course, the order of the questions is an implicit or even not so implicit suggestion of the strategy to solve.
+ Of course, if you adopt a different strategy, which may be possible, it may be that with a different strategy, the order of the question, not in this case, but in many other exercises,
+ the order of the questions is reversed because you first need to determine something that is required in the second or third question.
+ So if you read carefully the questions, the questions usually not only indicate what we are asking from you,
+ but also the way, because question number one coming before question number two, means often that to answer question number two,
+ you need to have answered the question number one and so on. And this makes also a path towards the solution.
+ So please take this suggestion as a suggestion from us. Then be systematic like I was.
+ So make tables and put the numbers in your table so that you can immediately,
+ because if I have to calculate several times the sign, of course I waste a lot of time.
+ If I have in my table the value of the sign, then whenever I need this, I look at the entry and I have the value already.
+ What I suggested at the very beginning, I also gave a list on the blackboard, now it's no longer there, is that on my website you find a long list of solved exercises that were exercises of the previous exams and mid-term assessment tests.
+ All those come with a solution so you can check your solution with the solution there and if you are not convinced or you have doubts or whatever or you want to discuss different strategies, different ways of solving, different solutions, mistakes and so on and so forth, just we can meet by Google Meet or in presence and we can discuss whatever.
+ You need to discuss with me.
+ Hi Professor, I have a question.
+ Yes.
+ Did we use the fact that it was a two-atom lattice in question one?
+ We didn't, right?
+ No!
+ So, this is a question that I am asked so often that I hope to be clear-cut about,
+ but evidently I have not been sufficient here.
+ Whenever you are given a lattice of a given symmetry, say FCC,
+ if you are to determine the reciprocal lattice of this lattice, the basis doesn't matter.
+ There is not, I repeat, with risking of being very very boring, I repeat, there is not such a concept
+ as the reciprocal lattice of the basis. And I told also you why, because if I start with the
+ lattice, this is the basis, the real basis. IMFCC, which is a Bravais lattice, plus basis.
+ This means that all my lattice points can be reached by a vector of this form. R, which
+ is a Bravais lattice vector, plus dj, which is a basis vector.
+ Dj is d1 for atom A and d2 for atom B. And that's it.
+ So this is an infinite periodic set.
+ So it makes sense to find the reciprocal lattice of this.
+ This is a finite non-periodic set.
+ So it's meaningless to define the reciprocal lattice for such an object.
+ So the reciprocal lattice is defined only by the brevet lattice of my crystal, not by the basis.
+ The basis doesn't matter when I have to tell what is my reciprocal lattice.
+ Then, of course, if the atoms are really different, which means that they are a true basis,
+ all what I did here is meaningful because all those peaks will be visible
+ even when I take into account the presence of the basis.
+ Do you agree with my statement?
+ If the atoms are different, so this is a real basis of different atoms,
+ then all the peaks that I have listed there, which are the peaks of the reciprocal space
+ of an FCC with all these so the basis doesn't play a role.
+ Where does the basis come into the game?
+ If I am to discuss the modulation of the peaks and then of course I know that if I calculate the structure factor depending on the basis,
+ those peaks will not be the same intensity but the intensity will be modulated.
+ Or, in the case when the atoms become equivalent, in this case, but only in this case,
+ then I can expect that some of those peaks will not be visible because of the selection rule enforced by this structure factor.
+ But only in the case when the atoms are equivalent.
+ So whenever I have a real basis within equivalent atoms, this basis does not play a role when I have to determine the lattice structure of my lattice.
+ Okay?
+ Thank you, Professor.
+ You're welcome.
+ So, I know, I know, my experience, that this is a very delicate point.
+ So, maybe that even if I repeat this over and over, you are not convinced yet, so you go home and say, oh, I am sure that there must be a reciprocal lattice.
+ Okay?
+ So I encourage you to try and define this object.
+ And find a way to define the reciprocal lattice.
+ There is not a periodic structure with respect to this number.
+ The only periodic structure is with respect to this.
+ Since the reciprocal lattice is related to Fourier transform,
+ then I am asking what is the Fourier transform of a function that is periodic in real space with periodicity capital R?
+ and the answer is periodic in reciprocal space with periodicity 2pi over etc.
+ The structure of the basis is non-periodic, it is a finite and non-periodic set,
+ there is no periodicity, I have only two vectors, I cannot define the periodicity of two vectors,
+ and so that it makes no sense to define a reciprocal lattice of my basis set.
+ So, which doesn't mean that the basis plays completely normal, of course,
+ it modulates the intensity of the peaks, but this is just a modulation.
+ If you are asked what peaks do we expect to be more or less intense,
+ then you can answer to this question by calculating the special factor,
+ then I must give you the basis, and then you can calculate the soft k with different atomic form factor.
+ There are some exercises where you are asked to do this with atomic form factor.
+ For instance, let me see, let me see if I find one.
+ For instance, the exercise of November 19, 2019.
+ You are assigned a cesium chloride, which is a simple cubic, now very easy, with a basis.
+ Cesium and chloride, this is a real basis.
+ And then you are asked to calculate the tic structure and to say what tics will be enhanced and what tics will be suppressed.
+ But all the tics will be there irrespective of the basis.
+ Of course, the basis will have a role in modulating the intensity of the modulus.
+ We have now to go on with the program, so we cannot stop and do all the exercises that have been assigned the previous years.
+ There are really too many. But of course, I agree that you may wish to take some more exercises, perhaps one more.
+ So what I can suggest is that you try to solve them and then focus on those that really seem too hard for you.
+ And then we can explicitly discuss those that seem to be more difficult than the other.
+ But of course, if you don't try to solve them yourself, you never know.
+ So at the beginning they look not so simple, but in a while they become very simple, rather automatic.
+ So there is not tricky mathematics or tricky physics behind.
+ The formulas that you have to use are very simple.
+ You have not to solve the Schrodinger equation or differential equations or whatever.
+ The structure of the theory is very simple, I would say, super simple.
+ It's only a matter of getting used to the solution.
+ Okay, in the last ten minutes I don't want to go into the new subject,
+ but I want only to spend a few words to introduce.
+ This is just a very, very underwriting part of the lecture.
+ I don't want to be now in this facility.
+ When describing a crystal, from the very beginning I told you that a crystal, an ideal crystal,
+ is an orderly array of atoms or molecules or whatever, so we assume that the perfect crystal is endowed with periodicity.
+ And of course such structures exist in nature and actually much about crystals was known by geologists and mineralogists before,
+ much before we knew the structure of matter. They realized that the angles of the various faces of the crystals were always the same.
+ There was a regularity. Whenever two faces of a given crystal, for instance of quartz, meet, they meet that specific angle.
+ That depends, of course, on the orientation of the faces, but this is the same for all crystals that are found in nature.
+ So actually, we knew much about regularity in the crystal structure before the atomic structure of matter was assessed.
+ Much before, much before.
+ Then what can we say more?
+ Now we know that matter is made of atoms and molecules, that they tend to blind at high temperature or low density,
+ in a gas phase, then they condense in a liquid phase, and then if you go down in temperature or high in pressure,
+ density, then you finally go into the solid phase.
+ If the solid phase is a true equilibrium phase, then a sufficiently low temperature, this is a crystal.
+ Of course in nature we find also metastable solid phases which are amorphous solids,
+ but if we want the true equilibrium phase this is usually a crystal.
+ Now, so a crystal is a periodic arrangement of atoms in the ideal description,
+ but of course this must be the ground state of such a structure.
+ As soon as we increase the temperature, starting from zero, ground state property,
+ of course, we imagine that the atoms will start to oscillate around their equilibrium position.
+ Now, of course, we realize that the picture, the ideal picture, is very much difficult if we want to treat it from a quantum mechanical perspective,
+ because our system, if we go to the bottom line, is a bunch of ions and electrons.
+ If I take an atom like this and I zoom, then this atom is made of a nucleus and of various electrons that are orbiting in quantum orbitals around the nucleus.
+ So now, in principle, from a quantum mechanical point of view, if I am a super quantum mechanicist, I have to solve the Schrodinger equation for my system.
+ And this reflection depends on all the electron coordinates, on all the nuclear coordinates, etc.
+ So, it's a mess. No one has ever solved such a problem, even for the simplest possible system.
+ The only system that can be solved exactly is the H2+ molecule, which is two ions and one single electron.
+ As soon as we go beyond, and this is not a crystal, it's a molecule.
+ As I told you, and we will come back to this point, that a crystal can be imagined, and in many respective cases, as a huge molecule, huge, huge molecule.
+ Most of the language that we can use for a solid comes from molecular physics, actually.
+ So now we have to deal with the combined motion of electrons and ions.
+ This problem is overwhelmingly difficult in quantum mechanics and so we need to adopt the quantum mechanical approximation to face the problem.
+ And this quantum mechanical approximation is known, and I must assume that you know it, from molecular physics.
+ This is the Born-Oppenheimer approximation.
+ So I'll only spend a few words to discuss the impact that this approximation has on your problem.
+ And then maybe I might write some notes about it if you want to find a quick reference to that,
+ but I cannot go into the details of the Born-Oppenheimer approximation in this lecture.
+ The idea is the following: the electrons are much, much lighter than the ions.
+ So, they move much faster.
+ This is a physical statement, not a mathematical one.
+ Mathematically, it is translated into the way this function depends on this coordinate and on this coordinate,
+ because we know that the derivative of the wave function with respect to this coordinate,
+ and this coordinate give the corresponding momenta and some are disproportional to the corresponding velocity.
+ Whenever there is an ion in the corresponding momentum will be appearing as p squared over capital M,
+ which is an ionic mass for the electron, it will be p squared divided by 2M in the kinetic energy where M is an electron, which is much like that.
+ So the idea is to separate these dependents.
+ I put now a comma to say that I can imagine to solve the electron equation by assuming that the ions are fixed.
+ So, the coordinates of the atoms, of the ions, appear as parameters for the electron wave function,
+ are parameters that are fixed, they are not a dynamical variable, they are not only a dynamical variable.
+ In this way, I can solve my problem and determine the electron levels in the landscape of the fixed ions.
+ And then I can ask myself what happens if now I move, I let my ions move.
+ Since I know the eigenvalues of my electron problem as a function of the coordinates of the nucleari,
+ so I have certain electron eigenvalues which are now a function of what I call the parameters, my nuclear coordinates.
+ Now I can imagine how to vary this coordinates within this context and what comes out in the Bonhoeff and Heimer approximation is that this very quantity plays the role of an effective potential energy for the nuclear problem.
+ So the nuclei move in an effective potential which can be interpreted as the electron eigenvalues with fixed nuclei.
+ This is a function of nuclear position that plays the role of an effective interaction potential for the nuclear.
+ Now these functions move like this as a function of a nuclear position in a molecule, in a solid.
+ They are also periodic because a solid is a periodic function.
+ What is important is the run minima and in the ground state, as mentioned as we take the electronic ground state,
+ there will be the minimum for the ions which will be the equilibrium position for my atoms.
+ If now I increase the temperature, the ions will oscillate around this minima.
+ Of course, this description is classical, from the quantum point of view we know that even if we approximate this minima with a parabola,
+ so we use an approximation of harmonic oscillators, the levels of the nuclei, of the oscillatory motion of the nuclei is one time.
+ And our goal is to describe this quanta and this quanta are the quanta of oscillations of the nuclei.
+ Since at certain wavelength that we can hear oscillation of the ions is sound,
+ those quanta in total analogy with the photons that are the quanta of light are the quanta of sound and are called phonons.
+ So, in the next lecture our main goal is to provide a full quantum mechanical description of the quanta of oscillation of the ions in a solid
+ and we will see that these quanta obey the Bose-Einstein statistics, so they are bosons, they are the quanta of a field,
+ can be described within a quantum field theory, which is in some, within very many respects equivalent of, say, the Klein-Gordon field that is described in quantum field theory,
+ except that this field is the deformation field of the solid, the coordinates will be the deviation from the equilibrium position, so the field is out and the atom deviates locally
+ from its equilibrium position. We quantize this field following the standard quantization prescription, and we will add up to these quantas that are the quant of suns.
+ Of course, if we imagine the gradual excitation of a solid, we can imagine to add the energy, the little pi beta,
+ so those levels will be very quantized. Of course, if we go high in our harmonic oscillator approximation,
+ the levels with a very high energy, which will be the classical sound waves, will be almost classical,
+ and this is the sound we can hear. There is no way we can hear quantum sound.
+ Quantum sound is far too faint to be audible, but nonetheless, imagine that this is the way we can excite sound
+ in our system, we call this factor the phonons, the quantum sound.
+ And this will be our goal in the next few lectures, we will be dealing with phonons.
+ Are there questions?
+ Thank you.

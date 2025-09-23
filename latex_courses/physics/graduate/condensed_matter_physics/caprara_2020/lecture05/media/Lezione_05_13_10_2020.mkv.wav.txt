@@ -1,0 +1,601 @@
+ Thank you.
+ Thank you.
+ Thank you.
+ Thank you.
+ Thank you.
+ Thank you.
+ Thank you.
+ Thank you.
+ So, lectures are being recorded and I'm storing all the lectures on my computer.
+ Actually, I've not yet found a solution so as to comply with the privacy rules that exist in Italy.
+ So, in principle, there are the names of all the participants in the lectures that are available for all those that access to the record.
+ So, I'm trying to solve this. I hope to solve this as soon as possible, then be with a username and password to access to the records for some solutions like this.
+ Today's lecture will be entirely devoted to exercises.
+ So, now we have sufficient material to start with some exercise on prevail actis, reciprocal actis,
+ and x-ray scattering.
+ This kind of exercise is quite common in written exams, and so it's good to take a look.
+ First, I will propose some more macro exercises from the Ashcroft Mermin,
+ and then I propose some exercises of my own.
+ And then, in the next lecture, I'll also propose some exercises from previous written exams.
+ Tomorrow, at 2:00 p.m., we have an extra lecture at 2:00 p.m. in Aula 6.
+ Non abbiamo ancora deciso.
+ So, problem Ashcloth mermin, page 82, problem 1.
+ In each of the following cases, indicate whether the structure is a Brevail Lattice.
+ If the answer is yes, then find the primitive vector.
+ If the answer is no, then describe the Lattice with the smallest possible basis.
+ Thank you.
+ Case A.
+ Case A.
+ Base Centered Cubic, which is a cube, say of site A.
+ With extra points at the centers of the horizontal faces.
+ So, question. Is this a brevet lactis?
+ The question is for you all, so if you have an answer to my question, your answer is welcome.
+ Is this a brevet lattice? And if yes, what kind of lattice is this? And what are the primitive vectors?
+ Any idea? I would say yes. You would say yes, and I buy your yes. Yes. Answer to, is it a brevet lattice? Yes, this is a brevet lattice.
+ What kind of brevet lattice is this? And what are the primitive, a possible choice. As you know, there are infinite choices of primitive vectors.
+ One possible, the simplest possible choice of primitive vectors. So what kind of brevet lattice is this?
+ No, it's not cubic. It would be cubic without this point.
+ You have those points at the center of the horizontal faces. So what?
+ Hexagonal.
+ Hexagonal is very difficult because these angles are 90 degrees angles.
+ So you'll never find a 90 degree angle in an hexagonal lattice.
+ This side is exactly equal to this side, so the answer is tetragonal.
+ This is a tetragonal.
+ So the good answer is: this is a tetragonal Bravais lattice.
+ And what is a possible choice of primitive vectors?
+ Adopt i, j, and k as the unit vectors in the direction of the x, y, and z axis.
+ So let's say this is x, y, and z, for example.
+ You can tell me what is a possible choice of a1, a2, and a3.
+ The size of the cube is a.
+ It starts from the y in the middle.
+ Yes.
+ And we can say y and z.
+ Okay, so you suggest this to be a1.
+ I am drawing a1.
+ This is a1 as suggested by your colleague.
+ Do you agree that this is a primitive vector?
+ Yeah.
+ Yeah, this is a primitive vector.
+ Then what would you choose for a2 and a3?
+ This is the two.
+ So if I take this as the origin, which is reasonable,
+ then this is the y-axis and this is the x-axis.
+ So, now you can tell me what are a2 and a3.
+ You don't quite agree on your way of decomposing a vector.
+ You have to find the components.
+ So, the components are the projections.
+ So, this component is a over 2 and this component is a over 2.
+ Okay?
+ So, a over 2 and then, as you suggest, in one case I have i plus j.
+ In the other case, should we take this, then j comes with a plus and i comes with a minus.
+ Of course, this is one possible choice.
+ Several infinite other choices are possible.
+ So the unit cell is a prism with a square basis.
+ The side of the basis, I agree on this with your colleague, is a square root of 2 over 2,
+ the side of the square basis, and the height is a.
+ So the side of the basis and the height are not the same, so this is not a cubic,
+ but the two sides are the same, so this is not also wrong because it's tetragonal.
+ Are there questions on this exercise?
+ This is very typical, you are expected to be able to tell simple structures as being pre-relatis or not being pre-relatis.
+ This is something that you should be able to do at the end of the course.
+ Okay, if there are no questions, I go to exercise B.
+ Exercise B is a side-centered human.
+ A side-centered cubic is a cube where all the four faces on the sides are also centered.
+ It's the complementary with respect to the FCC to the other lattice we have considered.
+ Now the extra points are at the centers of the four lateral faces.
+ So I have one, two, three, four more points at the centers of the four lateral faces of my cue.
+ "Is this a reveal artist?"
+ You would say no, and I agree with your sounding no, no it isn't.
+ So if it is not, nonetheless this looks like a regular array.
+ If I take this object and I repeat it periodically, I obtain a periodic array of points.
+ So, as I told you, the most general description of a periodic array is Brevet lattice plus basis.
+ Then the question is: what kind of Brevet lattice is this and what is the basis of this Brevet lattice?
+ So we can assume now that the starting Brevet lattice is cubic, so I highlight the eight points at the corners of my cube.
+ Then all points position should be given by a Brevet lattice vector plus a basis vector with j = 1 to n, where n is the number of basis vectors.
+ How many basis vectors do you see here?
+ Remember that by this recipe, once you describe the basis vectors, then you should be able
+ to reach any point in the lattice.
+ Does anybody guess how many to start with?
+ We can tell which are them, but how many basis vectors?
+ If I am here, this is another lattice point.
+ So, this is not, so I should locate this by a basis vector.
+ This is not, and so I should locate it by a basis vector.
+ Then, what about this? Should I add one more basis vector to locate this, or not?
+ No, why? This is the good answer, why?
+ Because to locate this, I go to this, which is another lattice vector, and then add this basis vector, and I get there.
+ To locate this, I go to this point, which is another lattice vector, and then add this, which is a basis vector, and I get there.
+ So as you see, I get all the points by taking a lattice vector plus a basis vector.
+ So my basis is n = 3, 1, 2, 3.
+ One can always be put at the origin, so the first basis vector is the null vector.
+ This is always possible to take one of the atoms of the basis at the origin.
+ And then the other atom is located at this point, if the site is A, and now let's take this as x, y, and z, for simplicity x, y, z.
+ Then one is A over 2, i plus k, and the other is A over 2, j plus k.
+ Where r is simple k.
+ There are three such vectors.
+ They form a basis.
+ So I can reach any point in my lattice with this recipe.
+ I take R as a simple cubic vector, and then I add either zero, so I am exactly at the vertex of my brevet lattice, here, here, here, here, or any periodic repetition of this pattern.
+ If I want to reach this point, I have to add D2, and if I want to reach this point, I have to add D3.
+ and this is the general pattern. Now you can imagine to put another on top, another below, another on the four sides, and then repeat again and again, and pave all the space with this structure.
+ So, in this case, this is the primitive cell of my lapis, it's a cumulative primitive cell, and I get a basis.
+ So, exercise C. Exercise C asks you about the edge-centered cubic.
+ It's, again, a simple cubic, where now you put extra points at the center point of all the edges, all the edges.
+ So I have this, this, this, this, and this, and then I have one point here, one point here, one here, one here, one here, one here, here, here, here, here, here, here, all right.
+ Okay. All of them.
+ Is this a breve lattice? No, it's not.
+ Answers are coming faster. Okay.
+ Then, what is the breve lattice? Of course, we are starting with the cube.
+ So, we can take this as the starting cubit revelatrix.
+ And then...
+ Again, we can take x, y and z, we take this as the origin.
+ And then you can tell me what is n now, the number of basis points.
+ Thank you, four.
+ Again, the game is the following.
+ I start from the lattice point and then I locate the parts that are not on the bralette lattice.
+ So this is one point, this is one point, this is one point.
+ And then I see that to reach this point from here, which is a lattice point, I have this vector.
+ To reach this point from here, and this is a lattice point, I have this vector, etc.
+ And so any other point can be reached by one lattice point plus a basis vector of four different points.
+ d1 that can always be taken as zero, d2, d3 and d4.
+ So either I move a over 2 along the x-axis or a over 2 along the y-axis or a over 2 along
+ the z-axis and this exhausts the basis vectors.
+ Questions on these vectors?
+ Yes, I have a question.
+ Yes, please ask.
+ What do you mean by linear independent?
+ You will never make a linear combination of these.
+ The linear combination only enters in the brevet lattice.
+ Then these are constant vectors.
+ But what are the other vectors you want to combine to make them?
+ I mean that D1 is not necessarily our basis because it is a linear dependent vector from other vectors.
+ No, it is not. You cannot combine the basis. The rule is this: any lattice point is reached by a lattice vector,
+ which is a linear combination of primitive vector plus the basis.
+ You never take a linear combination of basis vector to construct another vector.
+ So, in the recipe, you never consider the case of having to take linear combinations of basis vectors.
+ The basis vector enter in the location of a lattice point individually.
+ And this is the main difference between these and these.
+ This is why I can separate the lattice from the basis.
+ The lattice is an infinite set of vectors. Infinite. This is an infinite set.
+ The basis is always a finite set of vectors and they never get combined into linear combinations.
+ They appear individually in the expression of the location of any lattice point.
+ Of course, if I take D1, I locate the corners of my cubic Bravais lattice.
+ If I take D2, I locate points along the x edge.
+ If I take D3, I locate points in the middle of the y edge.
+ And if I take D4, I locate points in the middle of the z edges of my cupcakes.
+ But they are located individually. You never take D1 plus D2 plus D3.
+ Thank you for asking.
+ So, the next question, the next problem is...
+ But could we not have an atom on the brevet lattice if we have a basis, like D1 is different than 0?
+ Because in these cases we always find D1 equal to 0 because we have a point on the brevet lattice.
+ Yeah, imagine that you take your origin here, here there is no lattice point, so if you now insist that this is your origin, then to locate all the points you have to add non-zero basis vectors, even to locate the points at the edges.
+ This is just the choice of the origin. This is immaterial. Once you have a lattice with a basis, you can always choose the origin to be on one lattice form.
+ This is always a possible choice.
+ Of course, the basis vector will be different, but since this amounts to choosing the origin of your reference frame, of course, this choice cannot affect the physical properties of your system or the geometric property.
+ It's just the translation of the reference frame.
+ Of course, the basis will be different.
+ But nothing physically depends on the basis vector being these exactly, because there are several different choices.
+ For instance, instead of taking this, I could have taken the one pointing downwards.
+ So I could have taken d4 as minus this vector.
+ And this is again a good basis, because now with d4 I located the point which is downwards,
+ and this is located by going from this with plus d4 now, because d4 is in the negative direction.
+ Again, this is a good basis for my...
+ So, like the choice of the lattice is not unique of the primitive vector,
+ I mean even the choice of the faces is not unique.
+ But, what is sure is that any lattice point is reached by the sum of a lattice vector plus a basis vector.
+ And this must always be true.
+ For one choice of j equals 1 to n, where n is the number of basis elements.
+ So, problem 2.
+ Problem 2 is intriguing.
+ What Breville-Laptiste is the following.
+ All points with Cartesian coordinates
+ N1, N2, N3 with integer N1, N2, N3 and the following prescription.
+ A, N1, N2, N3 are all seven or all of.
+ B, N1 plus N2 plus N3 is an even number.
+ I will then assure you that those are two brevet lattices.
+ And now the question for you is what kind of brevet lattice?
+ So, I have a regular array of points,
+ all the points with integer coordinates,
+ and then I must eliminate from my list all the points
+ that do not obey to this prescription.
+ In case I, I must only take the points where N1,
+ N2 and N3 are all even or all odd.
+ In case B, I have to take all the N1, N2 and N3
+ that obey that their sum is an even number.
+ Those two are two Bravais lattices that we already know.
+ But now the question is trying to figure out
+ what kind of Bravais lattices are things.
+ So, you have to imagine a grid.
+ For instance, here we run N1, here we run N2, and here we run N3.
+ So we have 0, 1, 2, 3, 4, etc.
+ 1, 0, 1, 2, 3, 4, etc.
+ And then we have the same on the z-axis, 0, 1, 2, etc.
+ The same grid at z=1, z=2, and so on.
+ Now we have to figure out, of course, so first question.
+ What is the breve lattice if I have no prescription?
+ Just to warm up, what is the breve lattice if there is no prescription?
+ It's a cubic of side one.
+ If I have no prescription, then I have a simple cubic of side one.
+ All the points are allowed and so the primitive cell is just a cube of side one.
+ Ok? Now, let's focus on the first prescription.
+ What?
+ Can you say?
+ Are you sure?
+ So, we can try and construct this. It's not a simple cubic of double-sided. Let's see why.
+ So, when the entries equal zero, this point is in my lapis because this is zero, zero, zero, all even.
+ This is not, because one is odd. This is, this is not, and this is. Now, this is not, this is, this is not, this is, this is not, this is, not.
+ One, three, not, two, three, not, three, three, not, three, four, not, and this, this, this, this.
+ So, here I have a cubic cell of side two, but let's go to z equal one.
+ Then, the point one, one, one is there.
+ they are odd. 1 1 1 is there. So if I rise here by 1 1 1 1 I have a point. Then
+ here 3 1 1 I have a point. 1 3 1 I have a point. 3 3 1 I have a point. Then I go to Z to n 3 equal 2 and for n 3 equal 2 again I have only this point. Then I go to Z to n 3 equal 2 and for n 3 equal 2 again I have only this point.
+ So the same pattern I found for n 3 equal 0 is again found for n 3 equal 2.
+ So now my question: what kind of railway lattice is this? It's a body-centered qubit.
+ So this is a very nice offside 2. So this is BCC conventional cell
+ offside 2. So this is a nice description of a BCC lattice.
+ As you see, you can start from a cubic lattice. If you eliminate some points from a cubic lattice
+ with this prescription, then you end up with a BCC lattice.
+ This is very important that you can always obtain a decorated lapis by eliminating points from a lapis with the same symmetry.
+ Now let's do the second exercise.
+ Their sum must be an even number.
+ So let's start again at entry from zero. Zero, zero, zero is there because zero plus zero plus zero is zero. Zero is there.
+ This point is not there because zero plus one plus zero is solved. Zero plus two plus zero is there. This is not there, this is there.
+ This one is not there. This one is there. This one is there. This one is there. This one is there. This one is there. This one is there. But now, this one. Is it there or not? Yes, it is there because 0 plus 1 plus 1 is 2. So, I have also this point. This 3 plus 1 plus 0 is 4. So, this point is there.
+ 3 plus 3 is 6. This 3 plus 1 is 4. If I go at the next level, this is not there. But the one with coordinates 1, 1, 0 is there. So, I put one point in the center of this space.
+ And again, I put points at the centers of all the phases. So, now this is FCC, with conventional
+ cell, again, of type 2. So, also the phase-centered cubic can be obtained starting from a single
+ cubic and then eliminates some points. With a rule, of course, you cannot eliminate at
+ random, otherwise you get a mess, not a lattice. But if you eliminate with a rule, then you end up with a brevet lattice. In one case it's a BCC, in the other case it's an FCC, and please remember these rules because they will come at hand later in doing other exercises. We will need to recognize that the lattice described
+ by integer numbers that are all even or odd is a BCC, and that a breve lap is described by integer number whose sum is an even number is an FCC.
+ Okay? Yes?
+ It would work again if the sum is an odd number, and of course I get the complementary to this.
+ Okay? Yes?
+ Okay. Since you told me that this was a cubic of sine 2a, can you tell me what prescription should you assign there to have a cube of sine 2a?
+ There is a rule... Thank you, that's the correct rule. Case C: if N1, N2 and N3 are all even numbers, then the resulting brevet lattice is a brevet lattice, which is a simple cubic of sine 2.
+ and this is simple because you can describe this as two times N1, N2, N3, where now N1, N2 and N3 are just integer numbers, and so this is two times a simple cubic, so the side is now 2, this number in front is now the side of my primitive cell.
+ So case c, if I eliminate from my lattice all the numbers where they are not all even, I get a cube of side 2.
+ So, this is Debye Scherer. Before I go into Debye Scherer, I will propose an exercise, again some warm up exercise.
+ So,
+ let's take
+ the diamond structure as an exercise.
+ And this is here.
+ Okay.
+ Diamond structure.
+ The diamond lattice is not a breve lattice, it is the same lattice as the zinc blend, with one difference. In the zinc blend the two atoms are not equivalent, whereas in the diamond all the atoms are carbons and so they are all equivalent.
+ So in this case the fact that the lattice is not a brevet lattice is frightening because even if all the atoms are the same, the lattice points are not all equivalent because for a lattice to be a brevet lattice all the points must be equivalent, which means that when I am sitting at a given point and I look around me I see the lattice exactly the same as if I move to any other point of the lattice.
+ And the diamond lattice is a very nice structure because it can be described as an FCC plus a basis.
+ So this basis is genuine because it tells us that the diamond lattice is not a Bravais lattice.
+ In this exercise I will also introduce a fake basis.
+ The FCC is a lattice of cubic symmetry, it is a Bravais lattice.
+ But imagine that I ignore this and I pretend to describe this as a simple cubic
+ plus basis. This basis is in quotes because it is a fake. The real lattice is a face central cubic.
+ But this description, pretending that it is a simple cubic plus a basis, it's actually very, very suitable for calculations
+ because the reciprocal lattice vector of a simple cubic have a much simpler form than the reciprocal lattice vector of an FCC, which are a BCC.
+ So this way of calculating is always adopted when you deal with FCC or BCC.
+ There is an analysis for BCC, you can pretend your BCC is a cubic lattice plus a basis.
+ And so now we have to see the effect of this fake basis.
+ While the real basis can be occupied by equivalent or non-equivalent atoms, because it is a basis,
+ the fake basis can never be occupied by non-equivalent atoms. Never.
+ Because if I have an FCC, it means that all the points are equivalent.
+ They would never be equivalent if the face would be occupied by another atom.
+ So in the case of a fake basis, I have to imagine that all the atoms are the same.
+ Whereas in the real basis, the atom can be the same, and this is the case of diamond,
+ or different, and this is the case of zinc blend.
+ Zinc blend, zinc sulfide, has the very same lucky structure as diamond,
+ but now the basis is not fake, it's real.
+ At one side of my FCC I have zinc, and on the basis I have sulfur, or vice versa, of course.
+ Ok? And this will make a difference between diamond and zinc blend.
+ So, let's start with a simple cubic.
+ The question of this exercise is what are the selection rules for X-ray scattering?
+ So, the question is: what selection rules for X-ray scattering?
+ So, we have to be very patient and try to figure out what are the selection rules.
+ So, we have to figure out the fake bases.
+ The fake bases first and then the real bases of a diamond lattice.
+ So, first let's start with a face-centered cubic.
+ In the face-centered cubic I have all the points at the vertices of my cube, plus points at the centers of all the faces, all the faces.
+ So, there are six more points.
+ Now, my question for you is the following:
+ Suppose I pretend that I describe my lattice as a simple cube.
+ So, I take this as my lattice point.
+ Okay?
+ Now, the basis point appears to be non-equivalent.
+ Of course, this is a fake.
+ They are non-equivalent.
+ It's just that I gave them a different color
+ to highlight the underlying cubic structure.
+ In this case, how many vectors do I have in my basis?
+ To describe the phase central cubic
+ as I would be simple cubic plus basis.
+ Yes, four, thank you.
+ That's the answer, four basis vectors.
+ So this is capital R of a simple cubic
+ plus, I have four vectors here, D1, D2, D3 and D4.
+ Let me put here a Q there because this is a fake basis.
+ So who can tell me what are these four vectors?
+ One can always be chosen as zero.
+ So, unless otherwise stated we can always make this choice,
+ unless you are asked to make a different choice,
+ then this choice is always natural.
+ So we are taking this as one of my points.
+ Imagine that my axis go like this: x, y and z.
+ So then please tell me three possible basis vectors.
+ Now I have to locate the points at the center of the face.
+ So I have to locate this, this and this and no more.
+ Because to locate this I can move to the next lattice point and then add this vector.
+ To locate this I can go to the next lattice point and then add this basis vector and so on and so forth.
+ So, one the origin, two, three, four, four basis vectors.
+ If I take the side A of the conventional unit cell, this is a conventional unit cell, it's not a primitive because it contains more than one left side,
+ then my vectors are:
+ So one is on the x-z plane, with projections a over two, a over two, one is on the x-y plane, with projections a over two, a over two, and one is on the y-z plane with projections a over two.
+ Of course this is a possible basis, there are several other choices, but this is very natural.
+ And then I must add the real basis.
+ Now in the diamond there are two in equivalent sides, so the basis, the real basis is composed of two vectors.
+ One can always be chosen as zero and the other is obtained by moving of one-quarter of length along the main diagonal of the cube.
+ I go along the diagonal by one-fourth of the total length of the diagonal. So this d2 is a over 4, i plus j plus k.
+ I am moving along the main diagonal, i plus j plus k, with projections a over 4 on all the four corners.
+ So I'm moving of one-quarter in this, let me take another color, so I'm moving from the origin, one point is at the origin.
+ The other point is I take the main diagonal, I divide it into four parts and I put another point here.
+ And then by repeating this pattern over and over, I obtain, starting from my FCC, so this also there, there, there, I must attach this basis at all points of my FCC, which is this.
+ Then I obtained my diamond structure.
+ Okay, now, to calculate the selection rules, we must calculate the atomic form factor.
+ Sorry, correction to the form factor that is due to the basis.
+ I recall that the idea is that if you have a basis, you have a correction to the form factor,
+ which is the sum of all the basis vectors.
+ Okay? Now, in my scheme, how many basis vectors do I have?
+ I have my brevet lattice, which is supposedly a simple qubit, the blue points,
+ then I have a fake basis, which locates the center of the faces with respect to the simple qubit,
+ and then I have a real basis.
+ So the total number of basis points is that for each choice of the fake basis,
+ I can make a choice for the real basis.
+ So I have 4 times 2 equals 8 basis vectors.
+ Okay, so in this sum, I must take the sum over all four numbers.
+ So in my exercise I am calculating this with a plus,
+ this is not important because anyway,
+ if you take the complex conjugate you get,
+ the selection rule is whenever this is zero.
+ Zero is real, so if I take the complex conjugate,
+ just to follow my exercise, I took the prescription with the plus there,
+ but this gives exactly the same selection rule as with the minus,
+ so let's follow what I did in the exercise.
+ So now, my dj is specified in this form,
+ I have to sum over j and l d tilde j plus dl,
+ where j runs from 1 to 4 and l runs from 1 to 2.
+ Okay?
+ So my basis is the sum of one fake basis vector
+ plus a real basis vector in all possible ways.
+ I pick one number from the first list, P tilde one, two, three, four,
+ and I add one of the numbers on the second list.
+ Okay? In all possible ways.
+ And then I calculate this number.
+ Now, why this choice is a clever one?
+ Because here I should take the reciprocal lattice vectors,
+ not for the face-centered cubic,
+ but for the simple cubic.
+ Because I am describing my lattice as a simple cubic.
+ So what are the lattice vectors of a simple cubic of sine a?
+ They are very simple.
+ They are two pi over a and then I have three numbers that we have called the Miller indices
+ and h, k and l.
+ The reciprocal lattice of a simple cubic is a simple cubic of side two pi over m.
+ So this is why this trick of describing the face-centered cubic as a simple cubic plus a basis
+ seems to be a bad trick but it's a good trick because now the reciprocal lattice vectors have a very simple form.
+ of course you should be able in a while to do the same exercise without this trick so describing your
+ face centered cubic as a real brevet lattice then you have to take for k only the k of my fcc
+ which now form a bcc and check that by only considering the real basis which is only this
+ you get exactly the same selection roots
+ okay let's make this calculation
+ so as you see the sum over j and the sum over l factor because the exponential of a sum is the product
+ of two exponentials so i can write this exponential as
+ and then the sum over j is a sum for this and the sum of the l is a sum for this so we can factor the two
+ sums here i have a factor for the sum of l and here i have a factor for the sum of j
+ sorry vice versa this is sum of j
+ and here i have sum of that
+ let's calculate these numbers so i have to take k dot d tilde one
+ d tilde one is zero k dot zero zero e to the zero is one
+ then i have to calculate k dot d2
+ two pi over a times a over two is pi
+ two pi over a times a over two
+ a and a cancel two and two cancel and you are left with a pi and then what
+ i am taking b tilde two so i dot j is zero i dot k is zero j dot j is one
+ j dot k is zero k dot j is zero k dot k is one
+ now i have to take this problem k dot d tilde three again two pi over a times a over two is pi
+ And then I have i times i is 1, i times k is 0, j times i is 0, j times k is 0, k times i is 0, k times k is 1.
+ then I have to multiply K times d tilde 4, the last one, d tilde 1, d tilde 2, d tilde 3, d tilde 4, let's take the product.
+ I times I is 1, I times J is 0, J times I is 0, J times J is 1, K times I is 0, K times J is 0.
+ K times the sum over L, so it's D1 and D2, K dot D1 is 0, E to the height 0 is 1,
+ K dot D2, 2 pi over A times A over 4 is pi over 2.
+ And then I have I times I is one and with the other is zero, J times J is one and with the other is zero, K times K is one and with the other is zero.
+ So H plus K plus A.
+ So now you see that because there is a fake basis, my structure factor is factored into two factors.
+ So it can be zero either because this is zero or because this is zero.
+ This zero is a very strange selection rule because it's selecting according to the failed basis.
+ So the result of this selection rule I want to show you is that this will tell that we cannot take all these reciprocal lattice vectors because they form a cubic reciprocal lattice.
+ This means we can only take those that form a BCC lattice. Why a BCC? Because the reciprocal lattice of an FCC is a BCC.
+ Do you have questions so far? Before I go into the selection rules.
+ Yes? Why do you want to get zero? Why do you want?
+ Because if we have zero, then the peaks will obey von Laue condition for Bragg scattering,
+ but they will not be observable because they will be suppressed by this correction to the structure factor due to the basis.
+ As I told you in the previous lecture, if I have a simple Bravais lattice,
+ then all the peaks that obey the Bravais condition are seen in X-ray scattering.
+ If I have a basis, there is a correction to the scattering amplitude of X-ray
+ that tells me that some peaks will not be observed.
+ Which peaks will not be observed? Those for which this number is zero.
+ If this number is zero, since this number is a prefactor to the scattering amplitude,
+ then it cancels the scattering amplitude for a given k.
+ So, if I have a basis, not all the wave vectors that would be observable
+ only by virtue of the von Laue condition will be observed in scattering,
+ in X-ray scattering, because some peaks will be cancelled by this term.
+ So, let me sum up my result.
+ So, I have my structure factor here, which is 1 plus e to the i pi is minus 1.
+ E to the i pi over 2.
+ E to the i pi over 2 is i, the imaginary unit, to the power of h plus k plus n.
+ So, now I'm asking you, and this is a question for you, under what condition this factor is zero.
+ This is always a one, so in order for this number to be zero, two of these must be minus one and one of these must be a one.
+ Okay, I say it again, this is minus one to some integer power, so this number can either be one or minus one.
+ Do you agree? Minus one to an integer number. If the integer number is even, then you have plus one.
+ If the integer number is odd, you have minus one. So all those can be plus or minus one.
+ The only combination that makes this zero is when I have an equal number of plus and minus one.
+ But I have a plus one, so one must be a minus, say this.
+ Then if these are two pluses or two minuses, this is never going to be zero.
+ For this to be zero, one must be a plus one and the other must be a minus one.
+ So I should have the numbers.
+ So, one of these numbers must be heaven and two of these numbers must be thought.
+ What is this condition?
+ That the sum of all of them is e.
+ That the sum of all of them is an even number.
+ This is a good condition.
+ They are all integer numbers.
+ So, suppose for instance this is odd, this is even and this is even.
+ This cannot work, so I have to have two odd numbers and one even number for this to work.
+ Two of these must be odd and one must be even.
+ So, if this is even, either h and k are both even or they are both odd, and of course you can make the same for all the other.
+ So, if they are not even, h and k are even, that in order to make this odd, l must be odd.
+ And then I have h and k even, and l odd, and so their sum is odd plus odd plus even, even.
+ Or they are both odd.
+ And then in order for this to be even, to be odd, sorry, l must be even.
+ And then I have odd plus odd plus even is again an even number.
+ So the rule is that k plus h plus k plus l is even.
+ So I'm starting with a cubic lattice in reciprocal space.
+ And I am adding to my cubic lattice this prescription.
+ Have we seen this prescription before?
+ It starts from a cubic lattice and eliminates all the lattice points such that their sum is even.
+ What kind of lattice did we get with this prescription?
+ A BCC Ocide A1, because Ocide 2, a BCC.
+ Because we are taking when there are some is even.
+ So, here I have this.
+ If I have a 2, 2, 2, it works, but it doesn't work with minus 1.
+ So, say it again.
+ They are all even.
+ Yes.
+ I have 4.
+ All even.
+ So the sum is even.
+ The sum is even, but I have 4.
+ I am at zero.
+ They are all even.
+ So let's say this again, this is the even number.
+ So even, even, this is even, this is even.
+ Then this must be odd and this must be odd.
+ So I have a soft odd.
+ So this is why it doesn't work.
+ Because I have even plus even plus odd.
+ This is odd.
+ Then if these are both odd, this is odd plus odd is even.
+ So this is a plus one.
+ Then this is odd.
+ This is odd.
+ And then for this to be odd, this must be even.
+ And then we have odd plus odd, odd plus odd, odd plus odd, odd plus odd, odd plus odd, odd plus odd.
+ Yes, so they must all be, all, all.
+ If they are, let's make a list of some, because this is, for instance, zero, zero, zero.
+ One, zero, zero is one, zero, zero.
+ So, this is one, and this is minus one, and this is one, one, zero, did I write this correctly?
+ Yes, this is H slash K, H slash K, so I wrote this correctly.
+ And then, then, this is H slash K, H slash K, H slash K, H slash K.
+ So, okay, the rule is that to be non-zero, so what I see, what I see is that when they
+ are all even or all odd. In that case, I see a peak. So, when they are all even or all odd,
+ s of k is non-zero. So, I see the peak when it is non-zero. So, the peak that I do see
+ are when they are all even or all odd. Because if they are even, then, or all odd, then,
+ for instance, if they are odd, then all these numbers are even. If they are all even, all
+ these numbers are even, yes? Sorry, but when there are all odds of the order term
+ No, no, no. That does not vanish for all odds, but then we see. So first the selection rule for this free factor.
+ So this factor of the free factor, this factor, okay? So we see, so the factor is non-zero when they are all even or all odds.
+ And we know that this rule says that this is a body centered cubic, which is the reciprocal lattice of the face center.
+ So this selection rule is just the result of the fact that we adopted a fake basis.
+ And so the fake basis forces us to have this selection rule because we are pretending that our reciprocal lattice is a cubic,
+ but the reciprocal lattice of an FCC is a BCC.
+ So we have exactly that we see them when they are all even or all.
+ If they are not all even or all, for instance, one is even or all,
+ then all possible combinations, they are not all even or all,
+ then all possible combinations give a zero there.
+ And so in this case, this works.
+ Okay, I was focusing on what cancels, but I should focus on what doesn't cancel
+ because I want the lattice that I do see, not the lattice that I don't see.
+ So, okay, sorry.
+ So, I say it again, this selection rule is only telling us
+ that the reciprocal lattice of an FCC is a BCC.
+ And this is the meaning of this selection rule here.
+ Okay?
+ Now, the true selection rule, this one.
+ This one makes the difference between the diamond and the zinc blend.
+ So, when this is zero, this prefactor is zero.
+ This prefactor is zero when H plus K plus L is two times an odd number.
+ Because E to the power of two is minus I, minus I to another number, minus one to another number is minus one.
+ And I have one minus one zero.
+ So if H plus K is two times an odd number, the piece disappears.
+ This is true for diamond.
+ It's not true for zinc blend.
+ Because in zinc blend, the two atoms are not equivalent.
+ So in front of this number, I have the atomic form factor of, say, zinc.
+ And in front of this number, I have the atomic form factor of, say, sulfur.
+ And so now, even when this number is minus one, since the atomic form factor of zinc is different from the atomic form factor of sulfur,
+ they do not cancel.
+ But in diamond, here I must put the form factor of carbon, here I must put the same form factor of carbon,
+ so these factors out, and then I have this selection of these.
+ I want to give you a few examples of peak that I do see or don't see and according to which roots.
+ So the peak 1 0 0 and all possible combinations 0 1 0 0 0 1.
+ So is this peak seen or not seen? 1 0 0.
+ So I have here 2 minus 1 and 2 1 so it's a 0.
+ So this is not seen and is not seen according to this rule.
+ So this peak is not seen because it's not a k-vector of the BCC.
+ Then let's go to the next.
+ 110 and all possible permutations.
+ 110 is not seen according to both rules.
+ It's cancelled by both rules.
+ Because 110 they are not all even or all odd and 1 plus 1 is 2 and 2 is 2 times 1, 2 times an odd number.
+ So in this case this is 0 and also this is 0. Next peak is 1, 1, 1. In this case this peak is visible. This rule doesn't apply because they are odd.
+ Their sum is 3, so it's odd, so this peak is visible. The next is 2, 0, 0.
+ 2, 0, 0. They are all even, so this rule does not apply, but 2 is 2 times an odd number, so this peak is not visible.
+ Under this selection, then I have 2, 1, 0 and all permutation. 2, 1, 0, they are not all even or all odd, so this is not visible according to the first rule.
+ But it would be visible according to this rule because 2 plus 1 is 3, another number.
+ Then the next is 2, 1, 1.
+ 2, 1, 1, they are not all even or all odd, so this is again not seen according to the previous rule.
+ It would be seen according to the second rule because 2 plus 1 plus 1 is 4.
+ 4 is 2 times 2, 2 is not an odd number, so according to this selection rule this would be visible.
+ But it's not visible because of this selection rule.
+ Then, and I stop, I make the last example.
+ 2 to 0, they are all even, so it is visible according to this law.
+ 2 plus 2 is 4, 4 is not in the form of 2 times another number, so this is visible.
+ Then I have 2, 2, 1 and 3, 3, 0. 2, 2, 1 is not visible according to this law.
+ And 2, 2, 1 is not visible according to this law. And then 3, 1, 0 is not visible according to this law.
+ And 3, 1, 1 is visible according to both. Because 3, 1, 1, they are all both. And 3 plus 1 plus 1 is 5. 5 is not in the form of two times and not numbers. So this is visible. And so on you can complete the list.
+ So if you make an x-ray scattering from diamond, you will see only this peak, this peak and this peak.
+ If you make a scattering from an FCC crystal, not diamond, this would be visible.
+ Because this is not visible, not because of this selection rule, but only because of the
+ selection rule that comes from the diamond basis.
+ So if I take a simple FCC, this peak would be visible, because this is only not seen under
+ this rule.
+ And the same is true, oh no, there are no other points in the list, so all the others are visible
+ by both rules.
+ I have a question, we see that the point 111 is visible, but is this point in the diamond crystal?
+ Yes, because it survived the selection rule of the diamond crystal.
+ So again I say there are two selection rules, one that is fake, we get the selection rule
+ because we are pretending that our brevet lattice is simple cubic plus basis, whereas the FCC
+ is a brevet lattice in itself. So the first selection rule is only recalling us that the true brevet lattice of an FCC
+ is not a simple cubic like this, but it's a simple cubic where we only keep
+ A, K and L such that they are all even or all odd and this makes, as we know from the
+ previous exercise, this makes a BCC. So the first selection rule, the blue one
+ is, sorry, the green one is telling us that our Brevet lattice is not a simple cubic plus basis,
+ but is a face-centered cubic and then as a consequence it's a reciprocal lattice, it's a BCC.
+ So we could have avoided these selection rules if we started from the very beginning
+ with a BCC reciprocal lattice vector. This is simple cubic so it's the wrong
+ reciprocal lattice vector for our previous lattice and because we choose the wrong
+ reciprocal lattice vector we have this severe selection rules that eliminate some of these
+ then there is the real selection rule and this no matter how you start with either you start with a simple
+ cubic plus basis or with a space-centered cubic this is the selection rule that comes from the
+ diamond structure and the diamond structure cancels all the peaks such that h plus k plus l is two times
+ and not none so if in our exercise a k point survives both selection rule then it is visible for diamond
+ if it doesn't because of either one or the other then it will not be visible in diamond if
+ it only disappears because of the first rule then the peak would not be visible even
+ in a simple fcc without basis because this is my selection rule for the fcc the rule for the basis
+ from the real basis comes from the second factor so it's the blue process
+ so this is just to tell that if i describe i pretend to describe my fcc as a fake cubic plus basis i
+ have an extra selection rule but this selection rule is not coming from a real basis is coming from
+ a fake basis it only enforces me the fact that the brevet the reciprocal lattice of an fcc is a
+ bcc and not as important like this whereas the blue is a new selection rule is a real selection rule
+ that tells me that those peak that are not visible because of the blue selection rule will not be
+ visible in diamond so if i make a scattering experiment on zinc blend and on diamond in zinc
+ blend i would see those peaks that only disappear because of the blue rule but i would not see them in
+ diamond but here the only thing that disappears because of the blue rule only is this so this peak
+ that disappears because of the blue rule only would be visible in zinc blend and not visible in diamond
+ okay so tomorrow we have another uh lecture and we will make other exercises tomorrow
+ so

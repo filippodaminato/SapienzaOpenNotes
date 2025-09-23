@@ -1,0 +1,92 @@
+\section{Dinamica Reticolare e Oscillazioni Armoniche}
+\label{sec:lecture8}
+In questa lezione iniziamo lo studio della dinamica dei nuclei in un cristallo, un argomento trattato nel capitolo 22 del testo di Ashcroft \& Mermin. Abbandoniamo temporaneamente lo studio delle proprietà elettroniche per concentrarci prima sulla fisica del reticolo cristallino.
+
+\subsection{Le Approssimazioni Fondamentali}
+
+Per trattare la dinamica di un sistema così complesso come un cristallo, che contiene un numero enorme di nuclei ed elettroni in interazione, è necessario introdurre delle approssimazioni fisicamente motivate.
+
+\subsubsection{1. L'Approssimazione di Born-Oppenheimer}
+La prima e più importante approssimazione è quella di \textbf{Born-Oppenheimer}. Il suo contenuto fisico si basa sulla grande differenza di massa tra elettroni e nuclei (\(m_{\text{nucleo}} \gg m_e\)).
+
+\begin{itemize}
+    \item Poiché gli elettroni sono molto più leggeri, si muovono su una scala temporale molto più rapida rispetto ai nuclei.
+    \item Possiamo quindi, in prima approssimazione, considerare i nuclei come "congelati" in una certa configurazione istantanea.
+    \item Si risolve il problema quantistico per i soli elettroni, che si muovono nel potenziale statico generato dai nuclei fissi.
+    \item Il risultato di questo calcolo è l'energia dello stato fondamentale degli elettroni, che dipende parametricamente dalle posizioni \(\lbrace \mathbf{R} \rbrace\) di tutti i nuclei.
+    \item Questa energia elettronica, \(E_{\text{el}}(\lbrace \mathbf{R} \rbrace)\), agisce come un \textbf{potenziale efficace} per il moto dei nuclei.
+\end{itemize}
+Questa è la stessa approssimazione utilizzata in fisica molecolare; un solido può essere visto come una molecola di dimensioni macroscopiche.
+
+\subsubsection{2. L'Approssimazione Armonica}
+La seconda approssimazione cruciale è quella \textbf{armonica}. L'idea di base è che i nuclei non sono fermi, ma oscillano attorno alle loro posizioni di equilibrio reticolare.
+
+\begin{itemize}
+    \item La posizione istantanea \(\mathbf{r}(\mathbf{R})\) di un nucleo, la cui posizione di equilibrio è data dal vettore del reticolo di Bravais \(\mathbf{R}\), può essere scritta come:
+    \[ \mathbf{r}(\mathbf{R}) = \mathbf{R} + \mathbf{u}(\mathbf{R}) \]
+    dove \(\mathbf{u}(\mathbf{R})\) è il vettore \textbf{spostamento} dalla posizione di equilibrio.
+    \item L'approssimazione armonica consiste nell'assumere che l'ampiezza di queste oscillazioni sia \textbf{molto piccola} rispetto alla distanza interatomica (la costante reticolare \(a\)): \(|\mathbf{u}(\mathbf{R})| \ll a\).
+    \item Questa condizione è generalmente ben soddisfatta a basse temperature. Ad alte temperature, le oscillazioni diventano così ampie da rompere la struttura cristallina (fusione del cristallo), un fenomeno descritto empiricamente dal \textbf{criterio di Lindemann}.
+\end{itemize}
+
+\subsection{Energia Potenziale nell'Approssimazione Armonica}
+
+Consideriamo l'energia potenziale totale \(U\) del cristallo, che dipende dalle posizioni istantanee di tutti i nuclei. Assumendo interazioni a due corpi (trascurando interazioni a 3 o più corpi), possiamo scriverla come una somma su tutte le coppie di atomi:
+\[ U = \frac{1}{2} \sum_{\mathbf{R} \neq \mathbf{R'}} \Phi(\mathbf{r}(\mathbf{R}) - \mathbf{r}(\mathbf{R'})) = \frac{1}{2} \sum_{\mathbf{R} \neq \mathbf{R'}} \Phi(\mathbf{R} - \mathbf{R'} + \mathbf{u}(\mathbf{R}) - \mathbf{u}(\mathbf{R'})) \]
+Il fattore \(\frac{1}{2}\) corregge il doppio conteggio.
+
+Ora espandiamo in serie di Taylor questa energia potenziale per piccoli spostamenti \(\mathbf{u}\).
+
+\paragraph{Termine di ordine zero (energia di equilibrio).}
+È l'energia del cristallo con tutti i nuclei nelle loro posizioni di equilibrio (\(\mathbf{u}=0\) per ogni \(\mathbf{R}\)).
+\[ U_0 = \frac{1}{2} \sum_{\mathbf{R} \neq \mathbf{R'}} \Phi(\mathbf{R} - \mathbf{R'}) \]
+Questo termine è una costante e rappresenta l'energia di coesione del cristallo. Poiché \(\Phi\) dipende solo dalla differenza \(\mathbf{R}-\mathbf{R'}\), la doppia somma può essere riscritta come:
+\[ U_0 = \frac{N}{2} \sum_{\mathbf{R} \neq 0} \Phi(\mathbf{R}) \]
+dove \(N\) è il numero totale di atomi. Questo dimostra che l'energia è una quantità \textbf{estensiva}, proporzionale alla dimensione del sistema.
+
+\paragraph{Termine del primo ordine.}
+Lo sviluppo al primo ordine coinvolge il gradiente del potenziale.
+\[ U_1 \propto \sum_{\mathbf{R}, \mathbf{R'}} (\nabla \Phi)_{\mathbf{u}=0} \cdot (\mathbf{u}(\mathbf{R}) - \mathbf{u}(\mathbf{R'})) \]
+Questo termine è \textbf{nullo}. La condizione di equilibrio stabile impone che la forza netta su ogni atomo sia zero, il che significa che il gradiente dell'energia potenziale calcolato nelle posizioni di equilibrio deve annullarsi.
+
+\paragraph{Termine del secondo ordine (termine armonico).}
+Questo è il primo termine non banale e descrive l'energia immagazzinata in un sistema di oscillatori accoppiati.
+\[ U_{\text{harm}} = \frac{1}{4} \sum_{\mathbf{R}, \mathbf{R'}} \sum_{\mu, \nu} (u_\mu(\mathbf{R}) - u_\mu(\mathbf{R'})) (u_\nu(\mathbf{R}) - u_\nu(\mathbf{R'})) \frac{\partial^2 \Phi}{\partial x_\mu \partial x_\nu} \bigg|_{\mathbf{u}=0} \]
+dove \(\mu, \nu\) sono gli indici cartesiani (x, y, z). L'approssimazione armonica consiste nel troncare lo sviluppo a questo ordine.
+
+L'Hamiltoniana del nostro sistema diventa quindi:
+\[ \mathcal{H} = \sum_{\mathbf{R}} \frac{\mathbf{p}(\mathbf{R})^2}{2M} + U_0 + U_{\text{harm}} \]
+dove il primo termine è l'energia cinetica di tutti i nuclei (assumendo un cristallo monoatomico con massa M).
+
+\subsection{La Matrice Dinamica}
+
+L'espressione per \(U_{\text{harm}}\) può essere riscritta in una forma più compatta:
+\[ U_{\text{harm}} = \frac{1}{2} \sum_{\mathbf{R}, \mathbf{R'}} \sum_{\mu, \nu} u_\mu(\mathbf{R}) D_{\mu\nu}(\mathbf{R} - \mathbf{R'}) u_\nu(\mathbf{R'}) \]
+dove abbiamo introdotto la \textbf{matrice dinamica} \(D_{\mu\nu}\). Questa matrice descrive le "costanti di accoppiamento" tra le oscillazioni dei diversi atomi. 
+
+\subsection{Modello Semplificato: Catena Monoatomica 1D}
+
+Per comprendere la fisica delle vibrazioni reticolari, partiamo dal modello più semplice possibile: una catena lineare di atomi identici di massa \(M\), separati da una distanza \(a\) all'equilibrio, con interazione tra primi vicini descritta da una costante elastica \(K\).
+
+L'equazione del moto per lo spostamento \(u_n\) dell'n-esimo atomo è:
+\[ M \ddot{u}_n = K(u_{n+1} + u_{n-1} - 2u_n) \]
+Questa è un'equazione differenziale alle differenze finite. Cerchiamo soluzioni di tipo \textbf{onda piana}:
+\[ u_n(t) = A e^{i(qna - \omega t)} \]
+dove \(q\) è il vettore d'onda e \(\omega\) la frequenza angolare.
+
+Sostituendo questa soluzione nell'equazione del moto, si ottiene la \textbf{relazione di dispersione}:
+\[ \omega^2 = \frac{4K}{M} \sin^2\left(\frac{qa}{2}\right) \]
+da cui:
+\[ \omega(q) = \sqrt{\frac{4K}{M}} \left| \sin\left(\frac{qa}{2}\right) \right| \]
+
+\subsection{Analisi della Relazione di Dispersione e Fononi}
+
+La relazione di dispersione \(\omega(q)\) descrive come la frequenza di vibrazione dipenda dal vettore d'onda.
+\begin{itemize}
+    \item \textbf{Limite di grandi lunghezze d'onda (\(q \to 0\))}: Per \(q\) piccolo, \(\sin(qa/2) \approx qa/2\). La relazione diventa lineare:
+    \[ \omega(q) \approx \left( a\sqrt{\frac{K}{M}} \right) q = v_s q \]
+    Questa è la relazione per le onde sonore, dove \(v_s\) è la \textbf{velocità del suono}. In questo limite, il reticolo si comporta come un mezzo elastico continuo.
+    \item \textbf{Confini della Prima Zona di Brillouin (\(q = \pm \pi/a\))}: A causa della periodicità del reticolo, i vettori d'onda fisicamente unici sono confinati nell'intervallo \([-\pi/a, \pi/a]\), la \textbf{prima zona di Brillouin}. Ai bordi della zona, la velocità di gruppo \(v_g = d\omega/dq\) si annulla. Questo corrisponde a onde stazionarie, in cui atomi adiacenti oscillano in opposizione di fase.
+\end{itemize}
+La quantizzazione di queste onde vibrazionali dà origine a quasiparticelle chiamate \textbf{fononi}, i quanti delle vibrazioni reticolari, che si comportano come bosoni.
+

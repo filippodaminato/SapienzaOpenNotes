@@ -1,0 +1,170 @@
+\section{Esercizi su Reticoli di Bravais e Diffrazione}
+\label{sec:lezione5}
+
+Questa lezione è interamente dedicata allo svolgimento di esercizi pratici. Dopo aver introdotto i concetti teorici nelle lezioni precedenti, ora abbiamo materiale sufficiente per iniziare ad affrontare esercizi sui reticoli di Bravais, sui reticoli reciproci e sullo scattering di raggi X. Questo tipo di esercizi è molto comune negli esami scritti, quindi è fondamentale prenderci confidenza.
+
+Inizieremo con alcuni problemi tratti dal testo di riferimento "Ashcroft \& Mermin", per poi passare a esercizi proposti dal docente. Nelle lezioni successive, affronteremo anche esercizi tratti da temi d'esame passati.
+
+\subsection{Esercizio 1: Ashcroft \& Mermin, pag. 82, n. 1}
+Il problema chiede, per una serie di strutture cristalline, di determinare se si tratti o meno di un reticolo di Bravais.
+\begin{itemize}
+    \item Se la struttura è un reticolo di Bravais, bisogna trovare i vettori primitivi.
+    \item Se non lo è, bisogna descriverla come un reticolo di Bravais con l'aggiunta di una base (la più piccola possibile).
+\end{itemize}
+
+\subsubsection{Caso (a): Cubico a Base Centrata (Base-Centered Cubic)}
+\textbf{Descrizione:} La struttura è un cubo di lato $a$, con punti reticolari ai vertici e punti aggiuntivi al centro delle due facce orizzontali (superiore e inferiore).
+
+\paragraph{Domanda: È un reticolo di Bravais?}
+Sì, questa struttura è un reticolo di Bravais.
+
+\paragraph{Identificazione del Reticolo e Vettori Primitivi}
+Anche se la cella convenzionale di partenza è cubica, la presenza dei punti aggiuntivi solo su due facce modifica la simmetria del reticolo. Non può essere esagonale, poiché tutti gli angoli sono di 90 gradi. La descrizione corretta è quella di un \textbf{reticolo tetragonale}. Questo perché i lati della base sono uguali, ma diversi dall'altezza della cella.
+
+Per trovare i vettori primitivi, stabiliamo un sistema di coordinate cartesiane con versori $\hat{i}, \hat{j}, \hat{k}$ lungo gli assi $x, y, z$. Poniamo l'origine in uno dei vertici del cubo. Una scelta possibile per i vettori primitivi è la seguente:
+
+\begin{figure}[h!]
+    \centering
+    % Nota: il file 'lezione_5-page-6.jpg' deve essere nella stessa cartella del file .tex
+    % \includegraphics[width=0.4\textwidth]{lezione_5-page-6.jpg}
+    \caption{Rappresentazione del reticolo cubico a base centrata, come mostrato alla lavagna.}
+\end{figure}
+
+Considerando il punto al centro della base $xy$, possiamo definire due vettori che lo raggiungono partendo dai vertici adiacenti. Ad esempio, partendo dall'origine (0,0,0) e dal vertice in ($a$,0,0), possiamo raggiungere il centro della base in ($a/2$, $a/2$, 0). I vettori primitivi che generano l'intero reticolo sono:
+$$ \vec{a}_1 = \frac{a}{2}(\hat{i} + \hat{j}) $$
+$$ \vec{a}_2 = \frac{a}{2}(-\hat{i} + \hat{j}) $$
+$$ \vec{a}_3 = a\hat{k} $$
+Questi vettori descrivono una cella primitiva che è un prisma a base quadrata (rombo), con un'altezza $a$. I lati della base hanno lunghezza $\sqrt{(\frac{a}{2})^2 + (\frac{a}{2})^2} = \frac{a\sqrt{2}}{2}$. Poiché la lunghezza dei lati di base è diversa dall'altezza ($ \frac{a\sqrt{2}}{2} \neq a $), il reticolo è correttamente classificato come tetragonale.
+
+\subsubsection{Caso (b): Cubico a Facce Laterali Centrate (Side-Centered Cubic)}
+\textbf{Descrizione:} La struttura è un cubo con punti ai vertici e punti aggiuntivi al centro delle quattro facce laterali (verticali).
+
+\paragraph{Domanda: È un reticolo di Bravais?}
+No, questa struttura non è un reticolo di Bravais. L'ambiente visto da un vertice non è identico a quello visto dal centro di una faccia.
+
+\paragraph{Descrizione come Reticolo + Base}
+Poiché non è un reticolo di Bravais, dobbiamo descriverlo come un reticolo più semplice con una base di atomi associata ad ogni punto reticolare.
+\begin{itemize}
+    \item \textbf{Reticolo Sottostante:} Scegliamo un reticolo \textbf{cubico semplice (CS)}, i cui punti sono i vertici del cubo.
+    \item \textbf{Base:} Dobbiamo trovare il numero minimo di vettori base che, applicati a ogni punto del reticolo CS, generano tutti i punti della struttura. La base è composta da $n=3$ punti.
+\end{itemize}
+La logica è la seguente: prendiamo un punto del reticolo CS come origine. Per generare i punti al centro delle facce, non abbiamo bisogno di un vettore base per ogni faccia. Ad esempio, il punto sulla faccia laterale destra può essere generato partendo dal punto del reticolo CS sul vertice in basso a destra e applicando lo stesso vettore base usato per la faccia di sinistra.
+Una scelta possibile per i vettori della base, con il lato del cubo pari ad $a$, è:
+$$ \vec{d}_1 = \vec{0} \quad (\text{per i vertici del cubo}) $$
+$$ \vec{d}_2 = \frac{a}{2}(\hat{i} + \hat{k}) \quad (\text{per le facce nel piano } xz) $$
+$$ \vec{d}_3 = \frac{a}{2}(\hat{j} + \hat{k}) \quad (\text{per le facce nel piano } yz) $$
+Ogni punto $\vec{P}$ della struttura può essere scritto come $\vec{P} = \vec{R} + \vec{d}_j$, dove $\vec{R}$ è un vettore del reticolo cubico semplice e $\vec{d}_j$ è uno dei tre vettori della base.
+
+\subsubsection{Caso (c): Cubico a Spigoli Centrati (Edge-Centered Cubic)}
+\textbf{Descrizione:} La struttura è un cubo con punti ai vertici e punti aggiuntivi al centro di ogni spigolo.
+
+\paragraph{Domanda: È un reticolo di Bravais?}
+No, anche questa struttura non è un reticolo di Bravais.
+
+\paragraph{Descrizione come Reticolo + Base}
+\begin{itemize}
+    \item \textbf{Reticolo Sottostante:} Anche in questo caso, il reticolo di riferimento è \textbf{cubico semplice (CS)}.
+    \item \textbf{Base:} Il numero di punti nella base è $n=4$. La logica è simile a prima: abbiamo bisogno di un vettore per l'origine, e poi di vettori per raggiungere i centri degli spigoli adiacenti all'origine. Tutti gli altri centri degli spigoli possono essere raggiunti traslando dai vertici più vicini.
+\end{itemize}
+I vettori della base sono:
+$$ \vec{d}_1 = \vec{0} \quad (\text{per i vertici}) $$
+$$ \vec{d}_2 = \frac{a}{2}\hat{i} \quad (\text{per gli spigoli lungo } x) $$
+$$ \vec{d}_3 = \frac{a}{2}\hat{j} \quad (\text{per gli spigoli lungo } y) $$
+$$ \vec{d}_4 = \frac{a}{2}\hat{k} \quad (\text{per gli spigoli lungo } z) $$
+
+\paragraph{Nota importante sulla distinzione tra Vettori Primitivi e Vettori Base}
+Durante la discussione, è emersa una domanda cruciale sulla natura dei vettori base. È fondamentale capire la differenza:
+\begin{itemize}
+    \item I \textbf{vettori primitivi} ($\vec{a}_1, \vec{a}_2, \vec{a}_3$) generano l'infinito insieme di punti di un reticolo di Bravais tramite combinazioni lineari a coefficienti interi: $\vec{R} = n_1\vec{a}_1 + n_2\vec{a}_2 + n_3\vec{a}_3$.
+    \item I \textbf{vettori della base} ($\vec{d}_j$) sono un insieme finito di vettori di spostamento. Essi non vengono mai combinati linearmente tra loro. Vengono sommati individualmente ai vettori del reticolo $\vec{R}$ per generare la posizione di tutti gli atomi nella struttura finale: $\vec{P} = \vec{R} + \vec{d}_j$.
+\end{itemize}
+La scelta dell'origine e dei vettori base non è unica, ma il numero di elementi nella base e la struttura fisica risultante sono invarianti.
+
+\subsection{Esercizio 2: Identificazione di Reticoli da Coordinate}
+Il problema chiede di identificare quale reticolo di Bravais è formato da un insieme di punti con coordinate cartesiane $(n_1, n_2, n_3)$, dove $n_1, n_2, n_3$ sono interi, soggetti a specifiche condizioni. Se non ci fossero condizioni, il reticolo sarebbe un cubico semplice di lato 1.
+
+\subsubsection{Caso (a): $n_1, n_2, n_3$ tutti pari o tutti dispari}
+Analizziamo la disposizione dei punti:
+\begin{itemize}
+    \item Sul piano $n_3=0$ (pari), sono ammessi solo i punti con $n_1$ e $n_2$ entrambi pari (es. (0,0,0), (2,0,0), (0,2,0), (2,2,0)). Si forma un reticolo quadrato di lato 2.
+    \item Sul piano $n_3=1$ (dispari), sono ammessi solo i punti con $n_1$ e $n_2$ entrambi dispari (es. (1,1,1), (1,3,1), (3,1,1), (3,3,1)). Questi punti si trovano esattamente al centro dei quadrati del piano sottostante.
+    \item Sul piano $n_3=2$ (pari), il pattern si ripete identico a quello per $n_3=0$.
+\end{itemize}
+La struttura che emerge è un \textbf{reticolo cubico a corpo centrato (BCC)}, la cui cella convenzionale ha un lato di 2. Questa è una regola fondamentale da ricordare.
+
+\subsubsection{Caso (b): $n_1 + n_2 + n_3$ è un numero pari}
+Analizziamo i punti ammessi da questa condizione:
+\begin{itemize}
+    \item Sul piano $n_3=0$, la condizione diventa $n_1+n_2$ pari. Questo è vero se $n_1$ e $n_2$ sono entrambi pari (i vertici di un cubo di lato 2) o entrambi dispari. I punti con $n_1, n_2$ dispari, come (1,1,0), (1,3,0), etc., si trovano al centro delle facce del cubo.
+    \item La condizione vale per tutte le facce. Ad esempio, per la faccia sul piano $n_1=0$, la condizione è $n_2+n_3$ pari, che ammette il punto (0,1,1) al centro della faccia.
+\end{itemize}
+La struttura risultante è un \textbf{reticolo cubico a facce centrate (FCC)}, con una cella convenzionale di lato 2. Anche questa è una regola cruciale da memorizzare.
+
+\subsubsection{Caso (c): $n_1, n_2, n_3$ tutti pari}
+Questa condizione è la più semplice. Possiamo scrivere le coordinate come $(2m_1, 2m_2, 2m_3)$, dove $m_i$ sono interi qualsiasi. Questo corrisponde a prendere un reticolo cubico semplice e riscalare tutti i vettori di un fattore 2.
+La struttura risultante è un \textbf{reticolo cubico semplice (CS)} con lato 2.
+
+\subsection{Esercizio 3: Struttura Diamante e Regole di Selezione}
+Questo esercizio analizza le regole di selezione per lo scattering di raggi X dalla struttura tipo diamante.
+
+\subsubsection{Descrizione della Struttura Diamante}
+La struttura diamante non è un reticolo di Bravais. Anche se tutti gli atomi sono identici (Carbonio), non tutti i siti atomici sono equivalenti. Può essere descritta come un \textbf{reticolo FCC + una base}. La base è composta da due atomi identici.
+La struttura è la stessa della Zincblende (ZnS), ma in quel caso i due atomi della base sono diversi (Zn e S).
+
+\subsubsection{Approccio con la "Base Fittizia"}
+Per semplificare i calcoli, si adotta un trucco: invece di lavorare con il reticolo FCC, si descrive l'FCC stesso come un reticolo \textbf{cubico semplice (CS) + una "base fittizia"}.
+\begin{itemize}
+    \item \textbf{Vantaggio:} Il reticolo reciproco di un CS è anch'esso un CS, i cui vettori hanno una forma molto semplice, $\vec{K} = \frac{2\pi}{a}(h,k,l)$. Questo è molto più facile da maneggiare rispetto al reciproco di un FCC, che è un BCC.
+\end{itemize}
+
+\paragraph{Definizione delle Basi}
+\begin{enumerate}
+    \item \textbf{Base Fittizia (da CS a FCC):} Per generare un FCC partendo da un CS, servono 4 punti base.
+        $$ \vec{d}'_1 = \vec{0} $$
+        $$ \vec{d}'_2 = \frac{a}{2}(\hat{i} + \hat{j}) $$
+        $$ \vec{d}'_3 = \frac{a}{2}(\hat{i} + \hat{k}) $$
+        $$ \vec{d}'_4 = \frac{a}{2}(\hat{j} + \hat{k}) $$
+    \item \textbf{Base Reale (da FCC a Diamante):} Per ottenere la struttura diamante, si aggiunge a ogni sito dell'FCC una base di 2 atomi.
+        $$ \vec{d}_1 = \vec{0} $$
+        $$ \vec{d}_2 = \frac{a}{4}(\hat{i} + \hat{j} + \hat{k}) $$
+\end{enumerate}
+La base totale per la nostra descrizione (CS $\rightarrow$ Diamante) è composta da $4 \times 2 = 8$ punti, con vettori di posizione $\vec{D}_{jl} = \vec{d}'_j + \vec{d}_l$.
+
+\subsubsection{Calcolo del Fattore di Struttura}
+L'intensità dei picchi di diffrazione è modulata dal fattore di struttura $S(\vec{K})$. I picchi per cui $S(\vec{K})=0$ sono "estinti" e non vengono osservati. La formula generale è $S(\vec{K}) = \sum_{n} f_n e^{i\vec{K} \cdot \vec{D}_n}$. Nel nostro caso, poiché la base è una composizione, la somma può essere fattorizzata (assumendo atomi di Carbonio con fattore di forma $f_C$):
+$$ S(\vec{K}) = f_C \left( \sum_{j=1}^{4} e^{i\vec{K} \cdot \vec{d}'_j} \right) \left( \sum_{l=1}^{2} e^{i\vec{K} \cdot \vec{d}_l} \right) $$
+Calcoliamo i due fattori separatamente, usando $\vec{K} = \frac{2\pi}{a}(h\hat{i} + k\hat{j} + l\hat{k})$.
+
+\paragraph{Primo Fattore (dalla base fittizia FCC):}
+$$ \sum_{j} = 1 + e^{i\frac{2\pi}{a}(h,k,l)\cdot\frac{a}{2}(1,1,0)} + e^{i\frac{2\pi}{a}(h,k,l)\cdot\frac{a}{2}(1,0,1)} + e^{i\frac{2\pi}{a}(h,k,l)\cdot\frac{a}{2}(0,1,1)} $$
+$$ = 1 + e^{i\pi(h+k)} + e^{i\pi(h+l)} + e^{i\pi(k+l)} $$
+Questo fattore è diverso da zero solo se gli indici di Miller $(h,k,l)$ sono \textbf{tutti pari o tutti dispari}. Questa non è una "vera" regola di selezione per la struttura, ma una conseguenza del nostro approccio fittizio: ci sta semplicemente dicendo che il reticolo reciproco dell'FCC è un BCC, e non un CS.
+
+\paragraph{Secondo Fattore (dalla base reale del Diamante):}
+$$ \sum_{l} = 1 + e^{i\vec{K} \cdot \vec{d}_2} = 1 + e^{i\frac{2\pi}{a}(h,k,l)\cdot\frac{a}{4}(1,1,1)} = 1 + e^{i\frac{\pi}{2}(h+k+l)} $$
+Questo fattore si annulla ($S_K = 0$) se $e^{i\frac{\pi}{2}(h+k+l)} = -1$. Ciò accade quando l'esponente è un multiplo dispari di $\pi$, ovvero $\frac{\pi}{2}(h+k+l) = (2m+1)\pi$, che porta alla condizione:
+$$ h+k+l = 2(2m+1) = 2 \times (\text{numero dispari}) $$
+Ad esempio, la somma $h+k+l$ deve essere 2, 6, 10, etc.
+
+\subsubsection{Riassunto delle Regole di Selezione e Esempi}
+Un picco di diffrazione $(h,k,l)$ è visibile per la struttura diamante solo se sopravvive a entrambe le regole:
+\begin{enumerate}
+    \item \textbf{Regola FCC:} Gli indici $(h,k,l)$ devono essere tutti pari o tutti dispari.
+    \item \textbf{Regola Diamante:} La somma $h+k+l$ non deve essere uguale a due volte un numero dispari.
+\end{enumerate}
+
+Analizziamo alcuni picchi a basso indice:
+\begin{itemize}
+    \item \textbf{(100)}: Misti $\rightarrow$ \textbf{Non visibile} (violata regola 1).
+    \item \textbf{(110)}: Misti $\rightarrow$ \textbf{Non visibile} (violata regola 1).
+    \item \textbf{(111)}: Tutti dispari (OK regola 1). Somma = 3. Non è $2 \times$ dispari (OK regola 2) $\rightarrow$ \textbf{VISIBILE}.
+    \item \textbf{(200)}: Misti (dispari \# di 0) $\rightarrow$ \textbf{Non visibile} (violata regola 1). Nota: se fosse un FCC semplice, questo picco (tutti pari) sarebbe visibile, ma qui la somma è 2, che è $2 \times 1$ (dispari), quindi sarebbe estinto dalla regola 2. (Il professore lo considera non visibile per la regola 2, ma prima di tutto è un picco con indici misti (pari e dispari, se consideriamo lo 0 come pari), quindi è estinto per la regola FCC).
+    \item \textbf{(210)}: Misti $\rightarrow$ \textbf{Non visibile} (violata regola 1).
+    \item \textbf{(220)}: Tutti pari (OK regola 1). Somma = 4 = $2 \times 2$ (pari). Non è $2 \times$ dispari (OK regola 2) $\rightarrow$ \textbf{VISIBILE}.
+    \item \textbf{(311)}: Tutti dispari (OK regola 1). Somma = 5. Non è $2 \times$ dispari (OK regola 2) $\rightarrow$ \textbf{VISIBILE}.
+\end{itemize}
+
+\paragraph{Differenza con la Zincblende}
+Nella Zincblende, i due atomi della base sono diversi (Zn e S), quindi hanno fattori di forma atomica $f_{Zn}$ e $f_S$ diversi. Il secondo fattore diventa:
+$$ S_2 = f_{Zn} + f_S e^{i\frac{\pi}{2}(h+k+l)} $$
+Anche quando l'esponenziale è -1, il termine non si annulla perché $f_{Zn} \neq f_S$. Quindi, picchi come il (200), che sono estinti nel diamante, sarebbero visibili (anche se con intensità ridotta) nella Zincblende.

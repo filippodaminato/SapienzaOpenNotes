@@ -1,0 +1,155 @@
+\section{Esercizio Completo sulla Diffrazione a Raggi X}
+\label{sec:lecture7}
+
+\subsection{Introduzione e Contesto dell'Esercizio}
+
+Questa lezione è interamente dedicata allo svolgimento di un esercizio completo sulla diffrazione a raggi X, ripreso da una prova d'esame del 19 Novembre 2018. L'obiettivo è applicare in modo organico tutti i concetti visti finora per determinare la struttura di un cristallo sconosciuto a partire dai dati sperimentali.
+
+Il professore introduce l'argomento segnalando la disponibilità di numerosi altri esercizi simili, con soluzioni, sul suo sito web, invitando gli studenti a esercitarsi e a contattarlo per chiarimenti.
+
+\subsection{Testo dell'Esercizio}
+
+Si vuole determinare la struttura di un cristallo sconosciuto. Le informazioni a nostra disposizione sono:
+\begin{itemize}
+    \item Il cristallo ha \textbf{simmetria cubica}.
+    \item La sua formula chimica è \textbf{AB}, quindi è un cristallo biatomico.
+    \item L'analisi viene condotta con il metodo delle polveri di Debye-Scherrer.
+    \item La lunghezza d'onda della radiazione X utilizzata è $\lambda = 0.1542$ nm.
+\end{itemize}
+
+Viene fornito l'elenco dei primi 10 angoli di diffrazione $2\theta$ (misurati in gradi):
+\begin{center}
+36.95, 42.91, 62.30, 74.64, 78.64, 94.06, 105.75, 110.37, 127.20, 138.77
+\end{center}
+
+Le richieste dell'esercizio sono:
+\begin{enumerate}
+    \item \textbf{Determinare il reticolo di Bravais} del cristallo.
+    \item \textbf{Calcolare il parametro reticolare} (o costante reticolare) $a$.
+    \item \textbf{Determinare la struttura cristallina}, ovvero specificare la base e la posizione degli atomi A e B.
+    \item Indicare \textbf{quali picchi scomparirebbero} se i fattori di forma atomici di A e B fossero identici ($f_A = f_B$).
+\end{enumerate}
+
+\subsection{Punto 1: Determinazione del Reticolo di Bravais}
+
+Il punto di partenza è la legge di Bragg per un cristallo cubico, che lega l'angolo di diffrazione $\theta$ agli indici di Miller $(h,k,l)$ del piano riflettente:
+$$ \sin^2\theta = \frac{\lambda^2}{4a^2}(h^2+k^2+l^2) $$
+Dato che il termine $\frac{\lambda^2}{4a^2}$ è una costante per l'esperimento, i valori di $\sin^2\theta$ misurati per ogni picco devono essere proporzionali a una sequenza di numeri interi, dove ogni intero è la somma di tre quadrati ($S = h^2+k^2+l^2$).
+
+\paragraph{Passo 1: Tabulazione e calcolo di $\sin^2\theta$.}
+Il primo passo operativo è calcolare $\sin^2\theta$ per ogni angolo $2\theta$ fornito.
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{|c|c|c|c|}
+\hline
+\textbf{Picco \#} & $\mathbf{2\theta}$ \textbf{(°)} & $\mathbf{\theta}$ \textbf{(°)} & $\mathbf{\sin^2\theta}$ \\
+\hline
+1 & 36.95 & 18.475 & 0.1009 \\
+2 & 42.91 & 21.455 & 0.1338 \\
+3 & 62.30 & 31.150 & 0.2676 \\
+4 & 74.64 & 37.320 & 0.3682 \\
+5 & 78.64 & 39.320 & 0.4009 \\
+6 & 94.06 & 47.030 & 0.5350 \\
+7 & 105.75 & 52.875 & 0.6359 \\
+8 & 110.37 & 55.185 & 0.6732 \\
+9 & 127.20 & 63.600 & 0.8018 \\
+10 & 138.77 & 69.385 & 0.8755 \\
+\hline
+\end{tabular}
+\caption{Valori di $\sin^2\theta$ calcolati dai dati sperimentali.}
+\end{table}
+
+\paragraph{Passo 2: Identificazione della costante di proporzionalità e della sequenza di interi.}
+Dobbiamo ora trovare il massimo comun divisore (approssimato) dei valori di $\sin^2\theta$. Questo valore corrisponderà alla costante $C = \frac{\lambda^2}{4a^2}$. Un metodo pratico è ipotizzare a quale intero $S$ corrisponda il primo picco (solitamente un intero piccolo come 1, 2 o 3) e calcolare il valore di $C$.
+Ipotizziamo che il primo picco (0.1009) corrisponda a $S=3$ (un'ipotesi comune per reticoli FCC o BCC).
+$$ C = \frac{\sin^2\theta_1}{S_1} = \frac{0.1009}{3} \approx 0.03363 $$
+Ora usiamo questo valore di $C$ per trovare gli interi corrispondenti a tutti gli altri picchi, calcolando $S_i = \sin^2\theta_i / C$.
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{|c|c|c|}
+\hline
+$\mathbf{\sin^2\theta}$ & $\mathbf{\sin^2\theta / 0.03363}$ & \textbf{Intero (S) più vicino} \\
+\hline
+0.1009 & 3.00 & 3 \\
+0.1338 & 3.98 & 4 \\
+0.2676 & 7.96 & 8 \\
+0.3682 & 10.95 & 11 \\
+0.4009 & 11.92 & 12 \\
+0.5350 & 15.91 & 16 \\
+0.6359 & 18.91 & 19 \\
+0.6732 & 20.02 & 20 \\
+0.8018 & 23.84 & 24 \\
+0.8755 & 26.03 & 27 \\
+\hline
+\end{tabular}
+\caption{Identificazione della sequenza di interi $S = h^2+k^2+l^2$.}
+\end{table}
+
+La sequenza di interi ottenuta è: \textbf{3, 4, 8, 11, 12, 16, 19, 20, 24, 27}.
+
+\paragraph{Passo 3: Confronto con le sequenze teoriche dei reticoli cubici.}
+\begin{itemize}
+    \item \textbf{Cubico Semplice (SC)}: $S = 1, 2, 3, 4, 5, 6, 8, ...$ (tutti gli interi che sono somma di 3 quadrati). Non corrisponde.
+    \item \textbf{Cubico a Corpo Centrato (BCC)}: La regola di selezione è $h+k+l = \text{pari}$. Questo porta a $S = 2, 4, 6, 8, 10, 12, ...$. Non corrisponde.
+    \item \textbf{Cubico a Facce Centrate (FCC)}: La regola di selezione è che gli indici $(h,k,l)$ siano tutti pari o tutti dispari. Questo porta esattamente alla sequenza $S = 3, 4, 8, 11, 12, 16, 19, 20, ...$.
+\end{itemize}
+La corrispondenza è perfetta. Il reticolo di Bravais è \textbf{Cubico a Facce Centrate (FCC)}.
+
+\subsection{Punto 2: Calcolo del Parametro Reticolare $a$}
+Possiamo ora usare la formula inversa per calcolare $a$ da uno qualsiasi dei picchi. È buona norma usare il primo picco, poiché gli angoli piccoli sono generalmente misurati con maggiore precisione relativa.
+$$ a = \sqrt{\frac{\lambda^2 S}{4 \sin^2\theta}} = \frac{\lambda \sqrt{S}}{2 \sin\theta} $$
+Usando i dati del primo picco ($S=3$, $\sin^2\theta=0.1009$):
+$$ a = \frac{0.1542 \text{ nm} \cdot \sqrt{3}}{2 \cdot \sqrt{0.1009}} = \frac{0.1542 \cdot 1.732}{2 \cdot 0.3176} \approx 0.4205 \text{ nm} $$
+Il parametro reticolare della cella convenzionale cubica è \textbf{0.4205 nm}.
+
+\subsection{Punto 3: Determinazione della Struttura Cristallina}
+Sappiamo che il reticolo è FCC e la formula chimica è AB. Esistono due strutture cristalline molto comuni che soddisfano questi requisiti:
+\begin{enumerate}
+    \item \textbf{Struttura tipo Salgemma (NaCl)}: descrivibile come un reticolo FCC di anioni (es. A) e un reticolo FCC di cationi (es. B), interpenetrati e traslati l'uno rispetto all'altro di $(\frac{a}{2}, \frac{a}{2}, \frac{a}{2})$. La base è A in (0,0,0) e B in $(\frac{1}{2}, \frac{1}{2}, \frac{1}{2})$.
+    \item \textbf{Struttura tipo Blenda di Zinco (ZnS)}: descrivibile come un reticolo FCC di atomi A, con gli atomi B che occupano metà dei siti tetraedrici. La base è A in (0,0,0) e B in $(\frac{1}{4}, \frac{1}{4}, \frac{1}{4})$.
+\end{enumerate}
+Per distinguerle, analizziamo il \textbf{fattore di struttura} $S_\mathbf{K}$, la cui ampiezza al quadrato $|S_\mathbf{K}|^2$ è proporzionale all'intensità del picco di diffrazione.
+$$ S_\mathbf{K} = f_A e^{i\mathbf{K} \cdot \mathbf{r}_A} + f_B e^{i\mathbf{K} \cdot \mathbf{r}_B} $$
+Per la struttura \textbf{NaCl}:
+$$ S_\mathbf{K} = f_A + f_B e^{i\pi(h+k+l)} $$
+Poiché il reticolo è FCC, consideriamo solo $(h,k,l)$ tutti pari o tutti dispari.
+\begin{itemize}
+    \item Se $(h,k,l)$ sono \textbf{tutti pari}, $h+k+l$ è pari, $e^{i\pi(\text{pari})}=1 \implies S_\mathbf{K} = f_A + f_B$.
+    \item Se $(h,k,l)$ sono \textbf{tutti dispari}, $h+k+l$ è dispari, $e^{i\pi(\text{dispari})}=-1 \implies S_\mathbf{K} = f_A - f_B$.
+\end{itemize}
+Questo modello \textbf{non prevede estinzioni sistematiche} oltre a quelle del reticolo FCC. Poiché abbiamo osservato tutti i picchi della sequenza FCC, questo modello è compatibile con i dati.
+
+Per la struttura \textbf{ZnS}:
+$$ S_\mathbf{K} = f_A + f_B e^{i\frac{\pi}{2}(h+k+l)} $$
+\begin{itemize}
+    \item Se $(h,k,l)$ sono tutti dispari (es. 111), $h+k+l$ è dispari, $S_\mathbf{K} = f_A \pm i f_B$.
+    \item Se $(h,k,l)$ sono tutti pari, la loro somma può essere $h+k+l=4n$ o $h+k+l=4n+2$.
+        \begin{itemize}
+            \item Se $h+k+l=4n$ (es. 220, $S=8$), $S_\mathbf{K} = f_A + f_B$.
+            \item Se $h+k+l=4n+2$ (es. 200, $S=4$), $S_\mathbf{K} = f_A - f_B$.
+        \end{itemize}
+\end{itemize}
+Anche questo modello non prevede estinzioni sistematiche. Tuttavia, la struttura NaCl è di gran lunga la più comune per i cristalli ionici semplici AB. In assenza di informazioni sulle intensità relative dei picchi, la scelta più plausibile e standard è la \textbf{struttura tipo NaCl}.
+
+\subsection{Punto 4: Caso Limite con Fattori di Forma Identici}
+Consideriamo ora il caso ipotetico in cui $f_A = f_B = f$. Questo equivale a decorare ogni sito del reticolo FCC con una base di due atomi identici.
+Riprendiamo i fattori di struttura per la struttura NaCl:
+\begin{itemize}
+    \item Per $(h,k,l)$ \textbf{tutti pari}: $S_\mathbf{K} = f + f = 2f$. L'intensità $|S_\mathbf{K}|^2 = 4f^2$. Questi picchi \textbf{rimangono visibili}.
+    \item Per $(h,k,l)$ \textbf{tutti dispari}: $S_\mathbf{K} = f - f = 0$. L'intensità è zero. Questi picchi \textbf{scompaiono}.
+\end{itemize}
+Quindi, se gli atomi fossero identici, vedremmo solo le riflessioni con indici di Miller tutti pari.
+I picchi che scomparirebbero dalla nostra lista sono quelli corrispondenti a $S$ che derivano da indici tutti dispari:
+\begin{itemize}
+    \item $S=3 \implies (111)$: \textbf{Scompare}
+    \item $S=11 \implies (311)$: \textbf{Scompare}
+    \item $S=19 \implies (331)$: \textbf{Scompare}
+    \item $S=27 \implies (511), (333)$: \textbf{Scompare}
+\end{itemize}
+
+\subsection{Conclusione e Prospettive Future}
+L'esercizio dimostra come, partendo da un set di dati di diffrazione, sia possibile ricostruire in modo sistematico e completo la struttura di un cristallo, identificandone il reticolo di Bravais, misurandone le dimensioni e deducendone la disposizione atomica interna.
+
+Il professore conclude la lezione anticipando l'argomento successivo: la descrizione quantomeccanica delle oscillazioni degli ioni in un solido. Questi quanti di oscillazione, chiamati \textbf{fononi}, obbediscono alla statistica di Bose-Einstein e rappresentano i "quanti del suono" nel cristallo.
