@@ -1,0 +1,83 @@
+
+\section{Reticolo Reciproco, Funzioni di Correlazione e Teoria della Diffrazione}
+
+\subsection{Introduzione}
+Questa lezione inizia con la dimostrazione di un'importante identità che lega il volume della cella primitiva nel reticolo reciproco a quello nel reticolo diretto. Successivamente, introduce strumenti concettuali, come la funzione di correlazione a coppie, per descrivere quantitativamente la struttura della materia, distinguendo tra l'ordine a corto raggio dei liquidi e l'ordine a lungo raggio dei cristalli. Infine, viene sviluppata dalle basi la teoria della diffrazione, mostrando come l'interazione tra un'onda incidente e la densità elettronica di un cristallo porti naturalmente alla condizione di Laue e al concetto di reticolo reciproco.
+
+\subsection{Volume della Cella Primitiva nel Reticolo Reciproco}
+
+Un risultato fondamentale, che finora avevamo solo enunciato per casi specifici, è la relazione generale tra il volume della cella primitiva nel reticolo reciproco, \(\tilde{v}\), e il volume della cella primitiva nel reticolo diretto, \(v\). Dimostriamo che vale sempre:
+\[ \tilde{v} = \frac{(2\pi)^3}{v} \]
+Questa relazione evidenzia la natura "reciproca" dei due spazi: a un grande volume nello spazio diretto corrisponde un piccolo volume nello spazio reciproco, e viceversa.
+
+\paragraph{Strumenti Matematici: Identità Vettoriale.}
+La dimostrazione si basa su una nota identità del calcolo vettoriale che coinvolge il prodotto misto di quattro vettori generici \(\mathbf{a}, \mathbf{b}, \mathbf{c}, \mathbf{d}\):
+\[ (\mathbf{a} \times \mathbf{b}) \cdot (\mathbf{c} \times \mathbf{d}) = (\mathbf{a} \cdot \mathbf{c})(\mathbf{b} \cdot \mathbf{d}) - (\mathbf{a} \cdot \mathbf{d})(\mathbf{b} \cdot \mathbf{c}) \]
+
+\paragraph{Dimostrazione Dettagliata.}
+Siano \(\mathbf{a}_1, \mathbf{a}_2, \mathbf{a}_3\) i vettori primitivi del reticolo diretto. Il volume della sua cella primitiva è \(v = |\mathbf{a}_1 \cdot (\mathbf{a}_2 \times \mathbf{a}_3)|\). I vettori primitivi del reticolo reciproco, \(\mathbf{b}_1, \mathbf{b}_2, \mathbf{b}_3\), sono definiti come:
+\[ \mathbf{b}_1 = 2\pi \frac{\mathbf{a}_2 \times \mathbf{a}_3}{v}, \quad \mathbf{b}_2 = 2\pi \frac{\mathbf{a}_3 \times \mathbf{a}_1}{v}, \quad \mathbf{b}_3 = 2\pi \frac{\mathbf{a}_1 \times \mathbf{a}_2}{v} \]
+Il volume della cella primitiva del reticolo reciproco è, per definizione, \(\tilde{v} = |\mathbf{b}_1 \cdot (\mathbf{b}_2 \times \mathbf{b}_3)|\). Procediamo calcolando prima il prodotto vettoriale \(\mathbf{b}_2 \times \mathbf{b}_3\):
+\[ \mathbf{b}_2 \times \mathbf{b}_3 = \frac{(2\pi)^2}{v^2} (\mathbf{a}_3 \times \mathbf{a}_1) \times (\mathbf{a}_1 \times \mathbf{a}_2) \]
+Utilizziamo ora la nota identità del doppio prodotto vettoriale \(\mathbf{A} \times (\mathbf{B} \times \mathbf{C}) = \mathbf{B}(\mathbf{A} \cdot \mathbf{C}) - \mathbf{C}(\mathbf{A} \cdot \mathbf{B})\), ponendo \(\mathbf{A} = \mathbf{a}_3 \times \mathbf{a}_1\), \(\mathbf{B} = \mathbf{a}_1\) e \(\mathbf{C} = \mathbf{a}_2\).
+\[ (\mathbf{a}_3 \times \mathbf{a}_1) \times (\mathbf{a}_1 \times \mathbf{a}_2) = \mathbf{a}_1 ((\mathbf{a}_3 \times \mathbf{a}_1) \cdot \mathbf{a}_2) - \mathbf{a}_2 ((\mathbf{a}_3 \times \mathbf{a}_1) \cdot \mathbf{a}_1) \]
+Il secondo termine è identicamente nullo, poiché il vettore \((\mathbf{a}_3 \times \mathbf{a}_1)\) è per definizione ortogonale sia ad \(\mathbf{a}_3\) che ad \(\mathbf{a}_1\).
+Il prodotto misto nel primo termine, grazie alla proprietà ciclica, è uguale a \((\mathbf{a}_3 \times \mathbf{a}_1) \cdot \mathbf{a}_2 = \mathbf{a}_1 \cdot (\mathbf{a}_2 \times \mathbf{a}_3) = v\).
+Sostituendo, otteniamo un risultato notevolmente semplice:
+\[ \mathbf{b}_2 \times \mathbf{b}_3 = \frac{(2\pi)^2}{v^2} (v \cdot \mathbf{a}_1) = \frac{(2\pi)^2}{v} \mathbf{a}_1 \]
+Ora possiamo calcolare \(\tilde{v}\) tramite il prodotto scalare con \(\mathbf{b}_1\):
+\[ \tilde{v} = \mathbf{b}_1 \cdot (\mathbf{b}_2 \times \mathbf{b}_3) = \left( 2\pi \frac{\mathbf{a}_2 \times \mathbf{a}_3}{v} \right) \cdot \left( \frac{(2\pi)^2}{v} \mathbf{a}_1 \right) = \frac{(2\pi)^3}{v^2} ((\mathbf{a}_2 \times \mathbf{a}_3) \cdot \mathbf{a}_1) \]
+Riconoscendo nuovamente che \((\mathbf{a}_2 \times \mathbf{a}_3) \cdot \mathbf{a}_1 = v\), si giunge al risultato finale:
+\[ \tilde{v} = \frac{(2\pi)^3}{v^2} v = \frac{(2\pi)^3}{v} \]
+
+\subsection{Funzione di Correlazione a Coppie: Descrivere la Struttura della Materia}
+Come possiamo descrivere e distinguere quantitativamente la struttura di un solido cristallino da quella di un liquido o di un solido amorfo? La risposta risiede nella \textbf{funzione di correlazione a coppie}, \(G(\mathbf{r})\).
+
+\paragraph{Definizione e Significato Fisico.}
+Immaginiamo di conoscere la densità di particelle \(\rho(\mathbf{r'})\) in ogni punto dello spazio. La funzione \(G(\mathbf{r})\) è definita come l'autocorrelazione della densità:
+\[ G(\mathbf{r}) = \frac{1}{N} \int d\mathbf{r'} \rho(\mathbf{r'}) \rho(\mathbf{r'} - \mathbf{r}) \]
+dove \(N\) è il numero totale di particelle. Il suo significato è profondo: \(G(\mathbf{r})\) è proporzionale alla probabilità media di trovare una particella a una distanza vettoriale \(\mathbf{r}\) da un'altra particella scelta come origine. È una misura di come la presenza di una particella in un punto influenzi la distribuzione delle altre particelle attorno ad essa.
+
+\paragraph{Confronto Strutturale tra Liquidi e Cristalli.}
+L'analisi di \(G(\mathbf{r})\) rivela la natura intrinseca dell'ordine nel materiale.
+\begin{itemize}
+    \item \textbf{Liquido / Solido Amorfo (Ordine a Corto Raggio):} Per un sistema disordinato, \(G(r)\) (assumendo isotropia) mostra un comportamento caratteristico. Per \(r \to 0\), \(G(r)\) è zero, a causa del "nocciolo duro" repulsivo degli atomi. Si osserva poi un primo picco pronunciato alla distanza media dei primi vicini, seguito da altri picchi meno definiti e smussati per i secondi e terzi vicini. Questi picchi si smorzano rapidamente e, a grandi distanze, \(G(r)\) tende a un valore costante legato alla densità media del sistema. Questo indica che, a grande distanza, la posizione di un atomo è completamente scorrelata da quella di un altro: l'ordine è solo locale.
+    \item \textbf{Solido Cristallino (Ordine a Lungo Raggio):} Per un cristallo ideale, il quadro è radicalmente diverso. La periodicità perfetta si traduce in una funzione di correlazione che non decade mai. \(G(\mathbf{r})\) è costituita da una serie infinita di picchi matematicamente netti (delta di Dirac) localizzati esattamente in corrispondenza di ogni vettore del reticolo di Bravais \(\mathbf{R}\). Non importa quanto lontano ci si sposti, la correlazione rimane perfetta. Questo è il significato di \textbf{ordine a lungo raggio}.
+\end{itemize}
+La diffrazione dei raggi X è la tecnica sperimentale che ci permette di "misurare" la trasformata di Fourier di \(G(\mathbf{r})\), e quindi di mappare la struttura del materiale.
+
+\subsection{Teoria della Diffrazione: Dalla Densità Elettronica alla Condizione di Laue}
+Deriviamo ora l'espressione per l'ampiezza dell'onda diffusa, che ci condurrà in modo naturale e rigoroso alla condizione di interferenza costruttiva nei cristalli.
+
+\paragraph{Ampiezza dell'Onda Diffusa e Trasformata di Fourier.}
+Il modello fisico è il seguente: un'onda piana monocromatica incidente (es. un raggio X), descritta da \(e^{i\mathbf{k} \cdot \mathbf{r}}\), illumina il cristallo. L'onda interagisce con la distribuzione di carica elettronica del materiale, \(\rho_e(\mathbf{r})\). Secondo il principio di Huygens-Fresnel, ogni elemento di volume \(d\mathbf{r}\) con densità di carica \(\rho_e(\mathbf{r})\) agisce come una sorgente secondaria di onde sferiche. L'ampiezza totale dell'onda diffusa in una direzione lontana, identificata dal vettore d'onda \(\mathbf{k'}\), è data dalla somma coerente (integrale) di tutti questi contributi. L'ampiezza diffusa \(A_{diff}\) risulta essere proporzionale alla \textbf{trasformata di Fourier} della densità elettronica del campione:
+\[ A_{diff} \propto \int d\mathbf{r} \, \rho_e(\mathbf{r}) e^{-i(\mathbf{k'}-\mathbf{k})\cdot\mathbf{r}} \]
+Definendo il \textbf{vettore di scattering} \(\mathbf{K} = \mathbf{k'} - \mathbf{k}\), che rappresenta il momento trasferito dall'onda al cristallo (in unità di \(\hbar\)), l'espressione diventa:
+\[ A_{diff}(\mathbf{K}) \propto \int d\mathbf{r} \, \rho_e(\mathbf{r}) e^{-i\mathbf{K}\cdot\mathbf{r}} \]
+
+\paragraph{Separazione: Fattore di Forma Atomico e Fattore di Struttura Geometrico.}
+La potenza di questo formalismo emerge quando si esprime la densità elettronica totale del cristallo. Per un cristallo con un solo tipo di atomo (reticolo di Bravais monoatomico), la densità totale è la somma delle densità elettroniche di ogni singolo atomo, \(\rho_{at}\), traslate sui siti del reticolo \(\mathbf{R}\):
+\[ \rho_e(\mathbf{r}) = \sum_{\mathbf{R}} \rho_{at}(\mathbf{r}-\mathbf{R}) \]
+Sostituendo questa espressione nell'integrale dell'ampiezza, e con un semplice cambio di variabile (\(\mathbf{r'} = \mathbf{r}-\mathbf{R}\)), si ottiene una fondamentale separazione:
+\begin{align*} A_{diff}(\mathbf{K}) &\propto \sum_{\mathbf{R}} \int d\mathbf{r} \, \rho_{at}(\mathbf{r}-\mathbf{R}) e^{-i\mathbf{K}\cdot\mathbf{r}} \\ &\propto \sum_{\mathbf{R}} e^{-i\mathbf{K}\cdot\mathbf{R}} \int d\mathbf{r'} \, \rho_{at}(\mathbf{r'}) e^{-i\mathbf{K}\cdot\mathbf{r'}} \end{align*}
+L'ampiezza totale è il prodotto di due termini con un significato fisico ben distinto:
+\begin{enumerate}
+    \item \textbf{Fattore di Forma Atomico \(f(\mathbf{K})\)}:
+    \[ f(\mathbf{K}) = \int d\mathbf{r'} \, \rho_{at}(\mathbf{r'}) e^{-i\mathbf{K}\cdot\mathbf{r'}} \]
+    Questo termine è la trasformata di Fourier della densità elettronica di un \textbf{singolo atomo}. Dipende dalla natura chimica dell'elemento (il suo "aspetto" ai raggi X) ma non dalla sua posizione nel cristallo.
+    \item \textbf{Fattore di Struttura Geometrico \(S(\mathbf{K})\)}:
+    \[ S(\mathbf{K}) = \sum_{\mathbf{R}} e^{-i\mathbf{K}\cdot\mathbf{R}} \]
+    Questo termine è una somma di fasi su tutti i siti del reticolo di Bravais. Dipende \textbf{esclusivamente dalla geometria} del reticolo (la sua simmetria, i suoi passi reticolari) e non dal tipo di atomi che lo occupano. È questo fattore che governa l'interferenza tra le onde diffuse dai diversi atomi.
+\end{enumerate}
+L'intensità misurata sperimentalmente, proporzionale a \(|A_{diff}|^2\), è quindi modulata sia dalla capacità di scattering del singolo atomo sia, e soprattutto, dalla disposizione geometrica dell'intero reticolo.
+
+\paragraph{La Condizione di Interferenza Costruttiva (Condizione di Laue).}
+L'intensità dei picchi di diffrazione è diversa da zero solo se \(|S(\mathbf{K})|^2\) è diverso da zero. Analizziamo la somma per \(S(\mathbf{K})\). Per un vettore di scattering \(\mathbf{K}\) generico, i termini \(e^{-i\mathbf{K}\cdot\mathbf{R}}\) sono fasi complesse che, sommate su un numero enorme di siti reticolari (\(N \to \infty\)), si annullano a vicenda (interferenza distruttiva).
+L'unico modo per ottenere un segnale macroscopico è che tutti i termini della somma interferiscano \textbf{costruttivamente}. Questo avviene se e solo se ogni termine della somma è uguale a 1. La condizione è quindi:
+\[ e^{-i\mathbf{K}\cdot\mathbf{R}} = 1 \quad \forall \mathbf{R} \in \text{Reticolo Diretto} \]
+Questo richiede che l'esponente sia un multiplo intero di \(2\pi i\), ovvero:
+\[ \mathbf{K} \cdot \mathbf{R} = 2\pi \times \text{intero, per ogni vettore } \mathbf{R} \]
+Questa non è altro che la \textbf{definizione matematica di un vettore del reticolo reciproco}.
+Pertanto, la diffrazione costruttiva, e quindi l'osservazione di un picco di intensità, avviene solo quando il vettore di scattering \(\mathbf{K}\) coincide esattamente con un vettore del reticolo reciproco, \(\mathbf{G}\). Questa è la \textbf{Condizione di Laue}:
+\[ \mathbf{K} = \mathbf{G} \]
+Il reticolo reciproco, che poteva sembrare una pura costruzione matematica, emerge qui come lo spazio naturale in cui descrivere e visualizzare i fenomeni di diffrazione. I punti del reticolo reciproco corrispondono direttamente ai picchi di diffrazione osservabili sperimentalmente.

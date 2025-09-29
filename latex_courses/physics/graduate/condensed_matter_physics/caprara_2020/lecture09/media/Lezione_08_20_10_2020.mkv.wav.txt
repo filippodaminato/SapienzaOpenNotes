@@ -1,0 +1,578 @@
+ of nuclei in crystals as i said in the previous lecture
+ by the way we are moving to astroft mermin chapter
+ 22 which is a big leap
+ we prefer to keep first the crystal part of the course and then the electron
+ part of the course et cetera so we do not follow the order of chapters in the Ashcroft mermin at this
+ point we jump to chapter 22 and then we go back to the electron properties so when discussing the
+ dynamics of a lattice of a crystal lattice we have to make a quantum mechanical approximation
+ which is the Born-Oppenheimer approximation the main content of this approximation is that
+ electrons being much lighter than nuclei move much faster so that we can in principle
+ treat the motion of the electrons in a landscape where the nuclei are assumed to be fixed and once we
+ have solved the problem of an electron of electrons in this landscape we have the eigenvalues of the
+ electron problem in a landscape of fixed nuclei and this object which is a function of the nuclear
+ position acts as an effective potential for the nuclei
+ there is nothing new with respect to molecules within this and many other respects as i told you
+ you can consider a solid a crystal as a huge molecule so i will not go into the details of
+ the bono-conignal approximation because they are just the same as in molecular physics so i assume
+ that you have at least some idea of how the bono-oppenheimer approximation works
+ what i'm going to discuss today is yet another approximation which is
+ dynamical and this the harmonic approximation
+ with this approximation we assume that electrons
+ are much faster
+ than nuclei
+ with this approximation we assume that
+ nuclear
+ oscillations
+ are sufficiently
+ more
+ of course if we start from
+ a ground state which in classical mechanics is
+ the state where all the nuclei are at their equilibrium positions
+ and then if we imagine to inject energy into the system for instance by
+ increasing the temperature the nuclei will start to oscillate around their
+ equilibrium position. If the oscillations are sufficiently
+ small then we can treat the nuclear dynamics within the
+ harmonic approximation and this is a quite simple task.
+ Of course as the temperature rises the motion the oscillation of the nuclei
+ become wider and wider and at a certain point of course they become so wide that
+ actually the crystal melts and becomes a liquid
+ so even before the crystal melts of course some anharmonic effect come about
+ but this can be incorporated in the theory
+ by going beyond the harmonic approximation in a systematic way
+ so for the moment and for the rest of our course we will only deal with the harmonic effect
+ so what is this assumption that the oscillations are sufficient for this moment
+ so we imagine to have left this and imagine that the nuclei at their equilibrium positions are found
+ the nodes of a given Revei-Laptis, which is the natural mathematical structure to describe the perfect crystal.
+ This is the ground state. If now we allow the nuclei to move, then of course,
+ all the nuclei can move in different positions so that they will be found in some displaced positions.
+ Of course, this object is no longer a brevet lattice because the different nuclei move in a different manner so that in general, the resulting picture, even if we take a static picture of the system, will not look as a regular array of atoms.
+ So, our assumption is that we can level the position of the atoms according to the lattice position where they belong.
+ And for this reason, we must assume that each atom stays sufficiently close to its original lattice position.
+ Of course, if now this atom is allowed to go there, it's very difficult that we attribute it to this equilibrium position.
+ So, it must make sense, the statement, that we can label the instantaneous position of every individual atom or nucleus with the corresponding equilibrium position.
+ So, the position of each nucleus is labelled according to the position of this very same man, nucleus at equilibrium.
+ And what is this?
+ This is, of course, the equilibrium position, which is a brevet lattice vector, plus a displacement with respect to the equilibrium position.
+ So, in this drawing, this vector is the vector that I call U of capital R, the displacement with respect to the equilibrium position.
+ So, if I have an origin, say this is the origin, to locate an atom, say this atom, I must take the brevet lattice vector that locates this atom with respect to the origin, capital R,
+ plus the displacement of the atom located at the equilibrium position R.
+ And this is true for all atoms.
+ Now we can discuss about the potential energy that describes the interaction between atoms.
+ The total potential energy is 1/2 the sum over capital R and capital R' of a function.
+ It is a function of the position of the atom, or the nucleus, at R'.
+ So, if I take all the nuclei higher-wise, I choose this and this, or this and this, or this and this, in all possible ways.
+ I can write the interaction energy between all pairs of nuclei and the sum over all possible pairs divided by two to avoid over counting, otherwise I count the interaction twice.
+ Then I have the full potential energy. Of course this function must be symmetric in the exchange of the two nuclei, so it's symmetric with respect to the two arguments.
+ Because this is just the interaction between two nuclei, it doesn't depend whether I take r minus r prime or r prime minus r.
+ Then, this is of course exact in principle. To be more precise, we are neglecting three-body or four-body interactions, so this is a two-body interaction.
+ We assume that only interactions can be taken pairwise. But, okay, this assumption is neglecting three-body or higher-body interactions. But then here comes the approximation. We want to assume that our displacement are sufficiently small.
+ Which is the lattice parameter, we want that u is much smaller than the lattice parameter.
+ Actually, this is a condition for power approximation to work. This condition is necessary, not sufficient because to precise how much smaller than, this depends
+ of course on the details of the interaction, but in principle there is a regime where this is much smaller than A that obeys all criteria.
+ So, provided that U is sufficiently small, then we can be sure that our harmonic approximation works.
+ Of course, there is an empiric criterion, which is due to Lindemann, that states that when these numbers become comparable, then the crystal melts.
+ Usually, if the motion of the nuclei becomes comparable to the distance between the nuclei, then the liquid phase is more stable than the solid phase and the crystal melts.
+ So this criterion of course is empirical but it works very nice. There is a pre-factor, a number that tells me when actually the crystal must melt.
+ We will stay away from the melting point, far away from the melting point, so that our harmonic approximation works all the time.
+ What is the harmonic approximation? The harmonic approximation is the expansion of this potential for small u.
+ Then there is the first term, and the first term is the term at u = 0.
+ This is a constant, it's just the potential energy of the crystal in its equilibrium position.
+ I will write another expression for this constant in a while.
+ Then I have the first order term in this expansion.
+ The gradient of the function phi, calculated at equilibrium, times u of r minus u of r prime.
+ But this term is zero because at equilibrium the potential energy is a minimum to have stable equilibrium.
+ And so the gradient of phi at equilibrium must be zero.
+ If it were not so, then there would be forces acting on the ions at equilibrium which is, of course, meaningless.
+ And then there is the fourth order term, the second order term, sorry, which is sum of r and r'
+ sum over the various components, x, y and z, the Cartesian components, of what?
+ I have to take the second derivative of this expression and this is usually written in the form...
+ of taking all the possible products of U R minus U R prime times the gradient squared,
+ because this is a second order term in the Taylor expansion, and I must apply this operator to my function phi,
+ and then calculate the acting of this operator on my potential phi.
+ So...
+ Sorry, here I have not made explicit the various components,
+ so I have not yet needed this sum over the components.
+ Now we make the components explicit in the next step.
+ So here there is no components, no need to sum over the components.
+ Now, first term.
+ This is a function of r minus r prime only.
+ I have a double sum, I can change variable and name one of the variables r minus r prime.
+ And the other is three.
+ So, the first term is capital N divided by two, the number of lattice sides, plus the sum over one single variable of phi of capital R.
+ This is the equilibrium potential energy.
+ The second term is zero, and now I write the other term in this way.
+ Now, I introduce the sum of the components.
+ Those are the Cartesian components of my vectors.
+ And then I introduce a matrix that I call
+ phi mu nu, where phi mu nu is the second derivative of phi
+ with respect to R component mu, R component nu, calculated at u equal 0.
+ And the factor of 2 came from the Taylor expansion, so 1 over 2 became 1 over 4.
+ Now, I made explicit now the Carcesian components of the vectors, so now those are scalar, just the components of the corresponding vectors.
+ And this is the harmonic potential.
+ Of course, here, in principle, we have ordered u^3 terms, and here, with the harmonic approximations, we are neglecting those u^3 terms.
+ We stop our scalar expansion to the second-order terms, and we neglect third-order terms.
+ So here I write approximately equal, which means neglect order u^3.
+ And this is harmonic approximation.
+ We are also assuming that u of r doesn't change with time.
+ No, no, for the moment time is fixed, at a fixed time.
+ Then of course this will become our dynamical variable.
+ So they will oscillate.
+ Now we are taking a picture, a snapshot of our crystal, which is that picture.
+ And we are calculating the energy in that configuration.
+ And this is the energy in this configuration up to the second order in the small, small because we are assuming them to be small displacements U of R.
+ Then, of course, these will become the dynamical variables of our problem.
+ They will allow to, we will allow nuclei to oscillate.
+ Otherwise, it's not really interesting to see what we are doing.
+ Ok, so...
+ Scusi, professore.
+ Potrebbe rispiegare perché il termine d'equilibrio l'abbiamo potuto riscrivere in questo modo come n, mezzi e con la funzione valutata in R.
+ Grazie.
+ So, the function phi, so the question is why we could write the first term in this simpler way.
+ Actually, it doesn't matter, because we are going to treat this term as a constant.
+ So, its expression is not really relevant to the forthcoming discussion.
+ But, I want to make this point clear, because this point will come out in several other contexts.
+ I have a function of two variables, ok, six, two vectors.
+ But this function is not the function of r and r' separately.
+ It's a function of their difference.
+ So I now can make a change of variables in my sum and call r_2 the argument of my function.
+ And so I am summing over r_2.
+ And then the sum over one of the two is completely free now,
+ because it's summing over a function that does no longer depend on that variable.
+ But then this sum over a free sum gives me just the number of lattice solids.
+ This means that the potential energy is an extensive quantity.
+ If I take a larger lattice, my potential energy is proportional to the size of my lattice.
+ And this is reasonable.
+ The total energy of a microscopic body is an extensive quantity.
+ It is proportional to the volume or to the size, in this case to the number of lattice size.
+ This is again proportional to the volume, because the volume of my system is nothing but the number of cells times the volume of the single cell.
+ The total volume of my crystal is the number of brevet-lactic size times the volume of the primitive cell.
+ So, whenever I say capital N is the same as I think the volume of my system.
+ So, this is an extensive quantity.
+ This sum usually converges because at large distances this function goes to zero quite fast.
+ So, this sum is a number that depends, of course, on the details of this function phi of r,
+ but this sum is convergent because this function goes to zero sufficiently fast for a large capital R, or capital R second.
+ So, the final make-up.
+ I'm writing my U as the equilibrium plus.
+ Now I rewrite this term in a form that I will use in the next of my calculations, which is...
+ by comparing the two expressions, we can give an explicit expression
+ of this. This is called the dynamical matrix.
+ It's a matrix that is finite with respect to the indices mu and mu, because they take three values, so this is a three-by-three matrix with respect to the indices mu and mu, but it's a very large matrix with respect to the indices r and r
+ prime because in principle i can couple every individual ion or nucleus to any other so this is a very large matrix but when we will come to this point i will show you that actually finding the eigenvalues of this or the related dynamical problems it's made simple by the translational environment
+ of the lattice and whenever you have translational invariant fourier transform does the job and so this apparently man's problem will be put in a diagonal form by simple fourier transform okay
+ sorry the one now i'll explain when i so on the one hand it's now simpler to write in the forthcoming we will see that it's simpler to write
+ this as a one half so there is a factor of two that i have absorbed somewhere and now i'll show you where
+ this factor of two comes by making a connection between the two so to find the connection between
+ the two i must expand this product here so i'll do that
+ i have four terms my statement is that these four terms are equal two by two so i have this times
+ this this times this this times this and this times this four terms let's look at them one by one
+ first term is
+ now i write the argument this depends on r minus r prime
+ because it's calculated that u equals zero and then i have
+ the same r r r now as before i have to sum over r and r prime
+ this does not depend on r prime and this is a sum i can change the variable
+ so i have a term that i can write in this form
+ is the sum of phi of say per second which is sum of a second and then i say that this is a delta
+ of r minus r prime this is different from zero only if r and r prime are equal
+ and then i have the sum of r and r prime but one sum is just eliminated by the delta so i have two sums
+ one sum is over r and the other is over the prime i change variable here i call this our second so now
+ i sum over our second this does not depend on our second then i introduce a new sum over the prime i
+ call this r prime but then i want r prime to be equal to r so i put two sums for the delta so a single sum
+ actually then i have this times this this is a minus and now r and r prime
+ this is good this is a term like
+ and i have exhausted all the terms where i started from this
+ now i start with this and i have first time second i have
+ mu of r prime and nu of r
+ with a minus sign again
+ but now since this function is symmetric when i exchange the arguments
+ i can call my variable r prime r and my variable r r prime and so i find exactly
+ the same term as before
+ and then i have the last term this time this with a plus sign
+ and here now i have plus r prime and r prime
+ i can again call this r second and this gives me exactly a term like this
+ again these two are the same and now i can recall the indexes are under prime
+ and the delta collapses means the two says that this two must be the same so i have
+ then this plus this makes a factor of two this plus this makes a factor of two and so one fourth
+ becomes one over two and my dynamical matrix is this recipe
+ professor mi sente sì io non vedo la parte estremona della lavagna cosa non vede
+ la parte laterale della lavagna la parte laterale sì meglio grazie così no e un po più come era prima
+ ecco perfetto grazie grazie mille
+ so
+ this represents the potential energy
+ now expressed as a function of my degrees of freedom
+ my degrees of freedom are the coordinates of the displacements of the individual ions
+ of course they will become dynamical variables so I have also kinetic energy
+ and I have to write the equation of motion now what makes the harmonic
+ approximation solvable is that we know from classical mechanics that whenever
+ we have a small oscillation around a stable equilibrium position the system
+ can be described in terms of independent normal modes
+ each normal mode moving as a harmonic oscillator
+ and this is also true in this case in general
+ the problem of finding the normal modes for a large system is very complicated
+ because we have to diagonalize the so-called
+ problem of dynamical problem of
+ dynamical algebraic problem to to determine the
+ the normal modes but here as i show you in a while not today but in the next
+ lecture because this function is translational
+ invariant we can use fourier transform to cast
+ the terrible problem of a huge matrix to a much much simpler problem of
+ diagonalizing the much much smaller matrix
+ before we do that for a while we will play with some toy models
+ I will take a one-dimensional lapis
+ assume that the atoms can move only along my axis
+ the axis that defines my one-dimensional crystal
+ and that the model can be treated by taking the model of springs and bolts
+ this is a very crude model but I'll try to convince you that this model describes in a fair manner the dynamical properties of every lattice
+ and then this model can be enriched to be more and more accurate in describing the situation in real lattices
+ so on one hand this model is sufficiently simple to be exactly solvable
+ and to let us determine the normal modes in an explicit way
+ on the other hand it illuminates us on the general way to proceed when we have to solve a general lattice
+ and once we have sufficient confidence with the simple toy model
+ then we'll go back to the general problem of solving a general lattice
+ so my strategy is first to play with toy models
+ and then to introduce the general equation that determine the dynamic of a general lattice in three-dimension
+ which is our final goal
+ so we imagine
+ can you hear me
+ yes
+ uh professor can i just wanted to ask um in the dynamical matrix
+ where exactly is the factor two uh absorbed
+ or the factor half
+ so you you should have asked before i i erase the the blackboard
+ so i will not write this again
+ but each each terms comes twice
+ and the two terms are exactly equal
+ because i use the fact that if i change r and r prime
+ all these functions are symmetric function of r minus r prime
+ which means that if i take the interaction between two atoms
+ this interaction is the same regardless of whether i consider the first atom as in r
+ and the second in r prime or vice versa
+ of course any interaction is symmetric in the two atoms
+ and so when expanding the product i had four terms
+ but the four addends were equal two by two
+ and this made an extra factor of two
+ it was written on the blackboard so if you
+ have doubts just ask me before i erase
+ them okay thank you professor anyway
+ you're welcome
+ so we imagine that we have our ions as
+ as represented by volts of a given mass
+ let's say that capital N is their mass
+ and those are joined by springs
+ of elastic constant capital K
+ ok now I imagine to label my balls
+ my atoms the ions they represent the atoms
+ by the lattice position they belong to
+ so I have an integer n + 1 n + 2 n - 1 n - 2 and so on
+ an infinite lattice at least for the moment
+ then we will put some boundary conditions
+ now of course if my system is in equilibrium
+ all the springs are the same, all the masses are the same
+ and so all the points are equally spaced in the equilibrium position
+ if I move one single mass away from the equilibrium position
+ and then I let it go
+ it will start oscillating and of course it will transfer the motion to the other masses
+ which means that the motion of the individual masses is not a normal mode of my system
+ so the question is what are the normal modes
+ what are the harmonic oscillators that must describe the motion of this system
+ of course they are found by diagonalizing the secular problem for this particular system
+ but as I will show you this is made very simple by Fourier Transformer
+ so of course I will describe the motion of each individual ion by a displacement
+ which is a function of the label n that numbers the lattice sides of my previous lattice
+ the lattice facing at equilibrium is always the same let's call this a the lattice facing of my
+ ok of course now we will let this be also a function of time
+ because we want to study the dynamics of this so the harmonic potential must have
+ this four it's one half the string constant k times the sum over an index l that labels all my lattice position of
+ why this form well this form is quadratic in the u so it is harmonic and it has the following property if i take two points
+ and i displace them in such a way that this difference is kept constant so a rigid shift then no force will appear between the two
+ so this must depend on this difference because if i move two ions by the same amount then their elastic energy must not change
+ cannot change their elastic energy only changes if i move them independently if i move them by the same amount then their elastic energy will not change and so it must take this specific form in this model of springs that connect nearest neighbor islands
+ now as i told you the question is what kind of boundary condition would i impose to my lattice of course in principle i can imagine that this is a very long crystal and then at some far ends i have two walls
+ and so my system is a long chain stretched between two walls like i take a chain made of springs and balls
+ i attach my chain to one end of this room then i stretch the chain to the other end of the room
+ i attach the chain and this is my system now this is the lattice and equilibrium all the distances will be the same
+ and because all the springs are equivalent and this will be a finite version of my crystal with some fixed boundary conditions
+ in these systems there cannot exist solutions in the form of traveling waves because the chain is fixed at two ends
+ so the waves that my system can support are all stationary waves
+ of course we can describe our system in terms of stationary waves
+ there is no problem with this, no physical problem with this
+ but traveling waves are much simpler to deal with
+ and so there is a trick that is due to Bohrman from Kármán to make our system look periodic
+ I assume that my system has a ring shape where the atom at the origin coincides with the N atom
+ so I have an atom at the origin, then I have my atom number 1, number 2, number 3, number 4, number 5 and so on
+ my number N, this is N minus 1, N is the total number of unit cell
+ my end is back again at the origin so now my system is a system where all my screens connect the masses in this way
+ this will allow me to search for solutions such that the displacement of the atom at the origin
+ must be the same as the displacement of the end atom of my chain
+ and of course this is true for all displacement k
+ and the displacement of u of k is equal to the displacement of u of capital m plus k
+ so my system is fully periodic and those are called the periodic boundary conditions
+ or born from kerman boundary condition
+ so what is the situation the situation of course is that the real crystal moves
+ much more like this
+ actually even not because of course at the ends if this is my crystal
+ at the end of my crystal there is another elastic body in this case is the air
+ so part of the vibration can be transmitted to the air of course part of the vibration travels through the system
+ and part of the vibration can be transmitted to the air so the system is complicated
+ and the boundary condition the real physical boundary condition may be complicated
+ but the point is this for most of the atoms that are far away from the boundary of my crystals
+ there is really not much difference between these boundary conditions and these boundary conditions
+ if you imagine a stationary wave every point oscillates and the wave does not travel
+ but now imagine there is eola in a stadium then of course you rise and then go down
+ and now the wave is traveling because you have exactly this geometry in a stadium
+ and as soon as the wave reaches you you go up and then go down like in a standing wave
+ so there is not much difference in the motion of most of the atoms
+ whether the wave is standing or traveling or whatever
+ and this is because we are dealing with a system with so many atoms
+ that most of them are far from the boundaries of the system
+ so to describe the physical properties of a macroscopic body
+ it's really immaterial whether we choose born from carman boundary condition
+ or other more refined boundary condition
+ and since born from carman boundary condition allows for a very simple treatment of the system
+ then these are universally adopted to solve these kind of problems
+ and we will adopt them even when describing the electron spectrum of the system
+ some years ago i wrote some notes that can be found on my web pages
+ those notes are called elementary excitations if solid
+ unfortunately they are in italian so there is not so far an english version of them
+ but in those notes i solve for a linear chain the problem with two different boundary conditions
+ which is born from carman or fixed and show that the two solutions are really very very similar
+ so there is at least an example of applying two methods to deal with the same system with different boundary conditions
+ and show that if the system is macroscopic then the two solutions look very similar
+ so if you want to convince yourself that this is the case you can go through those notes
+ now let's write the kinetic energy of the system
+ and my kinetic energy is the sum over n of one half the mass times the velocity u dot of n squared
+ this is just the kinetic energy
+ so if we want to write the Lagrangian
+ the Lagrangian of my mechanical system is just the difference between the kinetic energy and the potential energy
+ sorry I write L as the index for reasons that will be clear in just the name of the index
+ now I want to write the equation of motion for this system
+ this is the difference between the kinetic energy and the potential energy
+ the equations of motion according to Lagrange are that the time derivative of the derivative of the Lagrangian with respect to one coordinate to one velocity
+ that's equal to the derivative of the Lagrangian with respect to one coordinate for n equal one to capital N or zero to n minus one which is because the site f at the end is equivalent to the site of n equals now
+ now let's write this equation of motion the first term is a sum over L so the term with L equal N only appears once in my sum and I have these two simplifies with these two and I have mu dot and then I have to take the derivative and I have mass times the acceleration of my ion
+ and this must be equal to the force. What is the force? It's this derivative. Now, when I take this derivative with respect to u_n, I must count the number of times that n appears in this sum and this is two times.
+ Because one is when n is equal to n, when n is equal to n, then this is n and this is n plus 1.
+ But there is another term where l minus 1 is equal to n, so l is equal to n minus 1.
+ In this case, this is n minus 1 and this is n, so I have two terms.
+ So when I take the derivative with respect to un, I have two terms.
+ Let's take the derivative. L is equal to n. Then I have this derivative, 2, simplifies with this 2, and then I have this term.
+ And then I have to take the derivative of this with respect to u n, which is a minus 1, minus, and the minus is a plus.
+ And then I have the other term, where this is n, and this is n minus 1, then I take the derivative, this 2, and then I have k, and then I have u n minus u n minus 1, but now with a minus sign.
+ Bottom line of my calculation, the equation of motion is written in this way.
+ This term appears twice: minus u n minus u n is 2 u n minus u n plus 1 minus u n minus 1.
+ Plus u n plus 1.
+ I have a minus in front.
+ Okay?
+ Questions?
+ Before I erase the blackboard?
+ So, now what is the problem with this equation of motions?
+ As we know, each individual displacement is coupled to the neighboring displacements.
+ And since these in turn are coupled to the other, any disturbance on UN propagates along the chain.
+ So my UN are not the normal modes of my chain.
+ But I can figure out what the normal modes can look like.
+ Imagine that I am looking for a solution of my problem in the form of travelling waves.
+ I am looking, this is a guess, I show that this is a good guess, I am looking for solutions
+ of this form to my equations. I will show that the solution of this form exists in my problem.
+ This is a travelling wave, this is just r, the position of my atom is n, a, where a is the lattice spacing.
+ So the position of my atom with respect to the origin is n, an integer, times a, the lattice spacing.
+ This is qr minus omega t, this is the travelling wave, a wave that travels along my chain.
+ Of course, this cannot be the solution in the case of a chain with fixed boundary conditions.
+ In that case I must look for standing waves in the form of sines or cosines.
+ Here I can directly work with travelling waves because I have adopted Bohr-Form-Kermann boundary conditions.
+ So, before we go to put this into my equation and see under which conditions this is a solution to my problem,
+ let me discuss about the values of Q.
+ My wave at all T must be periodic, so it must be such that mu of zero is equal to U of capital N.
+ At all times, so T is irrelevant in this discussion because it's a factor that is common.
+ And then I have U of 0, E to the 0, which is 1, must be equal to...
+ This is possible only if this here is a multiple of 2pi, an integer multiple of 2pi.
+ The independent solutions...
+ The independent solutions are those where this number is a fraction of 2pi over a, so from 1 to n or from 0 to n minus 1.
+ So the number of degrees of freedom is exactly the same.
+ There are exactly as many traveling waves as there are degrees of freedom in my system.
+ Which is good because we are not changing the number of degrees of freedom.
+ And now I will show that these waves are the normal nodes of my system.
+ So, this completes the proof.
+ There are exactly as many traveling waves as there are degrees of freedom in my system,
+ and those are solutions to my dynamical problem.
+ So, this completes the proof that these are all the solutions to my problem.
+ What I want to point here, now this is not so relevant, but it will be in a while,
+ my independent q's are all within a primitive cell of my reciprocal lattice,
+ because if I take from n upon zero to n minus one,
+ I'm always within a cell of sides to pi over a, which is the primitive cell of the reciprocal lattice.
+ So I can always choose my independent values of q within the first balloon zone,
+ which is the primitive cell of the reciprocal lattice.
+ So even in this problem, which is not related to x-ray scattering,
+ the reciprocal lattice and the primitive cell of the reciprocal lattice
+ play a major relevant role.
+ Now, once I'm done with my degrees of freedom,
+ I must put this into my equation and check whether this is a solution to my equation.
+ Now, if I am to take the second derivative of this,
+ I am to take the second derivative of an exponential,
+ the exponential is itself,
+ and then I have i omega or minus i omega as a factor
+ two times, minus i omega times minus i omega
+ is minus omega squared.
+ And then I have a and the exponential,
+ I am not writing the exponential again,
+ it's the exponential, okay?
+ So the only effect of the time derivative,
+ two times derivative,
+ is to put the factor minus omega squared in front.
+ Then, the right-hand side.
+ This is minus capital K, my elastic constant.
+ And then, what is there?
+ Here I have u of n,
+ here I have u of n plus 1,
+ and here I have u of n minus 1.
+ The dependence on n is the same,
+ and then I have also n plus 1 and n minus 1.
+ I can put a common factor out of my parenthesis,
+ which is the common factor with an n,
+ that is common to all factors,
+ and then I have 2 minus,
+ this is n plus 1,
+ so I have e to the i q a,
+ and this is n minus 1,
+ so e to the minus i q a,
+ and then I have a, capital A, e to i, the same exponent.
+ The exponent is never zero,
+ so it drops.
+ It can be safely simplified on both sides of my equation.
+ And then let's look at the equation.
+ The equations say that this number must be equal to this number for this to be a solution.
+ This is two times the cosine of QA minus this is two times the cosine of QA.
+ And then I have a factor of two.
+ Now this must be equal to this.
+ There are two possibilities that I see.
+ Either A is equal to zero.
+ This is always a solution.
+ And this is true for all dynamical problems.
+ One possibility to solve the equation of motion is to stand still.
+ If you stand still, you are solving the equation of motion, but in a trivial manner.
+ You are just not moving.
+ And since we want non-trivial solution, we must assume a to be non-zero.
+ And if a is non-zero, then it drops from my equation.
+ And here I find now the condition that must be met so that this is the solution to my equation.
+ The frequency of my oscillation must be 2k over n times 1 minus cosine of q over n.
+ Of q times a, sorry.
+ So, if this is true, then my wave oscillates with a frequency that changes when q changes.
+ There are n values of q, there are n possible values for my frequencies.
+ Actually, there are the generacies, but this is, of course, not important.
+ What is important is that the number of degrees of freedom is the same,
+ and some of them can have the same frequency, and this may be the case.
+ So, to find those frequencies, let me put this expression in a somewhat simpler form by using the bisection form.
+ This is two times the sine squared of QA/2.
+ This is just bisection formulas in trigonometry.
+ Then we have this 4K/m the sine squared of Q/A divided by 2.
+ So, if I take the square root, I find that the expression for my frequency, omega, which is a function of Q is equal to 2 times the square root of K/m.
+ This is a typical frequency scale, as in all harmonic oscillators, the square root of K/m is a frequency scale, times the absolute value of the sine of Qa over 2.
+ This is called the dispersion law because it says that the frequency of my oscillation depends on the wave number, on the wave vector.
+ And so different waves have different frequencies. They are not all the same frequencies and so there is a dispersion of my waves with a group velocity that is different for different wave vectors.
+ Now I want to discuss about the properties of, so there is an absolute value that I didn't close, sorry.
+ So I want to discuss this dispersion log here by making a picture.
+ Oh yes. We started from our toy model, we adopted periodic boundary conditions, I write them here.
+ And then we found solutions in the form of travelling waves.
+ And those solutions exist provided the frequency and the wave vector are related by this relation which is the dispersion model.
+ Now I want to plot this dispersion model in a reciprocal space.
+ Of course, this is not a function because the set of Q is discrete.
+ And so this is not a function.
+ There is, for each value of Q that is allowed, a value of the frequency that is allowed.
+ Okay? So there is nothing like a continuous function.
+ There are points, but n is a large number, say the Avogadro.
+ So these points are very dense.
+ So you cannot possibly tell the difference between this function of isolated dots from the corresponding continuous function.
+ So it's customary to trace, to draw this as a continuous function.
+ We know that only some points of it are allowed, but these points are so dense that to all purposes we can draw this as a continuous function.
+ Then I take as my natural domain the first driven zone, so I take the origin exactly in the middle, because the first driven zone is the Wigner's side cell of my reciprocal lattice.
+ Like all Wigner's side cells, the origin is exactly at the center of the cell, so it goes from minus pi over 2a to pi over 2a.
+ Sorry, from minus pi over a to pi over a, 2 doesn't exist, so the total size is 2 pi over a, and then I'm drawing my function.
+ The absolute value of the sine increases from 0 to pi over a, where I have sine of pi over 2, which is 1.
+ So in this domain, from minus pi over a to pi over a, my function is monotonic, it always increases.
+ So it's minimum at zero, where the sign is zero, and maximum at the boundary of my zone, where it reaches the maximum value.
+ 2 square root of k over n.
+ What is the behavior of this function in between?
+ Well, it's the absolute value of the sine, so the sine is this function.
+ And if I am to take the absolute value, I must reflect this, and so this will look like this.
+ So there is a cusp at zero.
+ What is the meaning of this cusp?
+ Then, but this you should know, if I go to the second driven zone, this function is periodic in reciprocal lattice.
+ We find again the properties of the reciprocal lattice.
+ All my properties are periodic in my travel lattice and then when translated into properties of the reciprocal lattice, they are periodic in my reciprocal lattice.
+ So the second primitive cell is equivalent to the first, all the primitive cells are equivalent.
+ There are no new degrees of freedom here, all the independent degrees of freedom are in the first.
+ All the others are just replicated by periodicity of the degrees of freedom in the first.
+ Now, my question. This is another question.
+ I know that it is late, but I would like you to meditate on the meaning of this solution.
+ This is a solution. Of course, it's a mathematical solution, but we are physicists and we want to attach a physical meaning to this solution.
+ So what is this? Is something that we know or that we expected to be there or it's something that is somewhat unexpected?
+ This is a displacement, a very short cue, which means very long wavelength.
+ We are discussing about elastic waves, longitudinal elastic waves in my crystal.
+ The sound is propagating in my crystal, it must propagate in my crystal.
+ This is sound and this is the sound that we can hear because those wavelengths are very small because they correspond to q of the order of one over a.
+ so the wavelength here are on the order of the lattice spacing and it's meaningless to study wavelengths shorter than the lattice spacing because in my system there is not a continuum, the shortest distance between two points is the lattice spacing so it's meaningless to study wavelengths that are shorter than the lattice spacing which means q that are larger than the boundary of the brillian zone.
+ Those are not new solutions because if I take a wave like this or a wave like this from this point those are exactly the same wave so far.
+ I don't mean the wavelength that are shorter than my characteristics spacing but they are no physical mean they are not different solutions.
+ But now I am discussing the other region of my spectrum, the region of a very long wavelength, very short, so they are macroscopic now.
+ Here I find the waves that have a wavelength of one meter, ten meter, one hundred meter, one kilometer, very long wavelength.
+ Some of them we can hear because they are sound modes.
+ So the sound modes, we know in a sound the dispersion is such that I have the velocity of sound times the wave vector.
+ This is the dispersion relation for a sound wave.
+ The frequency is a linear function of the wave vector and the coefficient is just the velocity of sound.
+ So let's take my system.
+ For small values of q, the sine is just a linear function of its argument.
+ So we can write l-anomiga as 2 square root of k over capital M times qA over 2.
+ This is for q larger than zero, for q less than zero, just symmetric.
+ Then this too simplifies, and then I have an expression for the velocity of sound, which is as simple as it is, the whole model, we have an expression that relates the velocity of sound to
+ sound. Now, I will show that this is exactly what we are describing. This is M, the mass divided by the lattice, the size of the lattice cell is just the mass density.
+ Density per unit length. And this k over a is just the tension of my stream. So this is the expression for the sound, the velocity of sound in a stream with a tension tau, which is the force of k, the elastic constant time for the
+ formation a, this is just the tension of my stream, and the tension divided by the mass per unit point is nothing but the speed of sound. So we have an expression for the speed of sound that corresponds to the expression that we would have found if we treated our stream as a mass per stream.
+ Why this? Well, this is because the fathers, the fathers, actually there were no mothers, I think, but okay. The fathers and mothers of the theory of elasticity didn't know about the atoms.
+ So they treated the elastic bodies as a continuum and they wrote their equation and their equation are the equation for elasticity and those equations give sound because sound is a property of all elastic bodies.
+ so i will show you in the next lecture that if we start from our equation of motion i write it again mass times the acceleration is minus k 2 u of n minus u on n plus 1 minus u of n minus 1 and i now look for solutions to this equation in the form of very long wavelength disturbances
+ this equation is turning to the equation of sound and at this point it will become clear that the equation like all the equations for sound modes also gives us the velocity of sound and of sound and we will find exactly this next question again from an equation which now we know or we should know which is the equation for the propagation of sound so what i want to say now and then we will go back to this and i'll show you that this is exactly the equation
+ that we expect for the propagation of sound when i study elastic the formation of my crystal there are two different regions in this region the wavelength is much larger than the typical atomic distances so much larger that we can neglect the atomic distances and treat our system
+ as a continuum system there are no atoms actually in this region well there are because we know that these are only points but those points are so dense that we cannot tell the difference between a discrete and a continuum system they behave exactly the same so elastic waves exist in crystals and they behave exactly the way the father that founded the theory of elasticity which is a classical theory
+ describe them where the situation is completely different this part was missed by the father of the theory of elasticity for them this equation was true for all cubes so the dispersion of sound in the theory of elasticity would look like this
+ this is wrong because the condition for this equation to give rise to the equation of the elasticity fail in
+ this region in this region this is the true equation and this equation gives us that the sound mode
+ platens actually it must go with zero tangent to the next zone because of periodicity you see that if this function must be sufficiently good so it must be differentiable here the only way to be periodically differentiable is that the tangent is horizontal at the boundary of the living zone and this is exactly the thing so you go there with a tangent and then you have replicas because there are atoms the crystal is a discrete set of atoms
+ and so it's meaningless to study wavelength that are shorter than the distance between atoms this is makes no sense so whereas for the fathers it's a continuum there is no minimum distance and I can study all wavelength even very very short wavelengths a very large cube so the two theories agree in the region where they should agree and so we can still study the theory of elasticity this is a good theory
+ that works here unfortunately here there are the sounds that we can hear so if we want to describe a piano or a guitar or a violin we can use the classic theory we don't need to go quantum we will go quantum in a while we don't need to go quantum or to go to the atomic theory even in a classical sense but if we want to describe the sound in quotes because those sounds we cannot hear they are
+ very very short wavelength so beyond our reach but this is still an elastic vibration of my crystal then this description is the unique possible description of the dynamics of the discrete crystal of course this is a very simplified model i said this from the very beginning i have just three springs and balls but all the properties of an elastic
+ crystal are evident after the solution of this simple model then there are refinements to make this model more similar to a real crystal but all the properties that we understood today can be translated into the properties of a real crystal that is no longer described as single springs and single balls it's more complicated but nonetheless it behaves exactly the same way you have sound modes there must be sound modes
+ and the sound modes propagate in such a way that at small cube you find the velocity of sun in your crystal.
+ Do you see that in which, let's say, this profile is related to the periodicity in Bravais?
+ If this periodicity is a periodic structure in real space, then this periodicity is mirrored by a corresponding periodicity in reciprocal space.
+ So we said that associated to any brevet lattice, there is a reciprocal lattice that is a brevet lattice in reciprocal space.
+ This means that all our functions describing the proper case of our system in reciprocal space must be periodic in the reciprocal lattice.
+ And this is exactly the case of this dispersion law.
+ If I draw this dispersion law in the first brilliant zone, I don't see the periodicity.
+ This symmetry is trivial, is inversion symmetry.
+ Q and minus Q are degenerate because all brevet lattices are endowed with inversion symmetry.
+ And this inversion symmetry, of course, is also a symmetry of the reciprocal lattice.
+ So this frequency is exactly equal to this frequency, this degeneracy is due to a symmetry.
+ All degeneracies are, unless they are really accidental, they are related to some symmetry of the system.
+ And so this degeneracy is related to inversion symmetry of the reciprocal lattice,
+ but there is no periodicity.
+ But if I draw now my function in the second Brillouin zone,
+ and then in the third Brillouin zone, and then in the fourth Brillouin zone,
+ and so on, I find now a periodic function on both sides, okay?
+ This periodicity is exactly the periodicity I was talking about.
+ This is just a manifestation of the periodicity in real lattice that translated in reciprocal lattice says that these degrees of freedom are not new degrees of freedom.
+ They are just a replica of these degrees of freedom.
+ Because this is 2 pi over L, which is a reciprocal capital K reciprocal lattice vector.
+ So, whatever I find here, I must find a K, 2K, 3K, 4K, 42K and so on, okay?
+ I know that for you the reciprocal lattice is still a very very obscure concept, but it is there.
+ And we will find it there again and again.
+ Every time we discuss the property of our system in reciprocal lattice,
+ we will find that this property must be periodic, and why?
+ Because we started from a crystal that is periodic in real space.
+ And so this periodicity is a corresponding periodicity in the reciprocal lattice.
+ This is just the size of the first ribbon zone.
+ And so it's my shortest K vector.
+ This is my family of lattice planes.
+ In one D it's very boring, there is only one family of lattice planes.
+ Actually, there are no lattice planes because my system is one-dimensional.
+ But I can imagine these would be my lattice planes and these are the K.
+ The shortest is this and then there is two capital K, three capital K, all longer than the shortest one.
+ Reciprocal altism.
+ No more questions, I will stop recording this lecture.

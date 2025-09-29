@@ -1,0 +1,88 @@
+\section{Vibrazioni in una Catena Diatomica - Modi Acustici e Ottici}
+
+\subsection{Introduzione e Raccordo con la Lezione Precedente}
+Nella lezione precedente abbiamo analizzato il modello più semplice di vibrazioni reticolari: la catena monoatomica. Abbiamo trovato una singola relazione di dispersione, \(\omega(q)\), che descrive le onde sonore che si propagano nel cristallo. Questa branca della dispersione è chiamata \textbf{branca acustica}. La lezione di oggi generalizza questo studio al caso più realistico di un cristallo con una \textbf{base}, ovvero con più di un atomo per cella primitiva. Come vedremo, la presenza di una base introduce una fisica completamente nuova: la comparsa di nuove branche di dispersione, chiamate \textbf{branche ottiche}.
+
+\subsection{Modello della Catena Diatomica 1D}
+Consideriamo il modello unidimensionale più semplice con una base: una catena lineare composta da due tipi di atomi alternati, con masse diverse, \(m_1\) e \(m_2\). Assumiamo che \(m_1 > m_2\). La distanza tra due atomi adiacenti è \(b\), e la costante reticolare (la dimensione della cella primitiva, che contiene due atomi) è \(a = 2b\). Anche in questo caso, assumiamo interazioni solo tra primi vicini, modellate da molle identiche di costante elastica \(K\).
+
+\paragraph{Definizione delle Coordinate e Scrittura delle Equazioni del Moto.}
+Indichiamo con \(u_n\) lo spostamento dalla posizione di equilibrio dell'n-esimo atomo di massa \(m_1\). La sua posizione di equilibrio è \(na\).
+Indichiamo con \(v_n\) lo spostamento dalla posizione di equilibrio dell'n-esimo atomo di massa \(m_2\). La sua posizione di equilibrio è \(na+b\).
+
+Scriviamo ora le equazioni del moto (legge di Newton) per i due atomi nella cella n-esima:
+\begin{itemize}
+    \item \textbf{Atomo di massa \(m_1\)}: Questo atomo interagisce con due atomi di massa \(m_2\). Uno si trova alla sua destra nella stessa cella (\(v_n\)) e uno alla sua sinistra, ma appartenente alla cella precedente (\(v_{n-1}\)).
+    \[ m_1 \ddot{u}_n = K(v_n - u_n) - K(u_n - v_{n-1}) = K(v_n + v_{n-1} - 2u_n) \]
+    \item \textbf{Atomo di massa \(m_2\)}: Questo atomo interagisce con due atomi di massa \(m_1\). Uno si trova alla sua sinistra nella stessa cella (\(u_n\)) e uno alla sua destra, appartenente alla cella successiva (\(u_{n+1}\)).
+    \[ m_2 \ddot{v}_n = K(u_{n+1} - v_n) - K(v_n - u_n) = K(u_{n+1} + u_n - 2v_n) \]
+\end{itemize}
+Otteniamo un sistema di due equazioni differenziali alle differenze finite accoppiate.
+
+\paragraph{Soluzione tramite Onde Piane.}
+Anche in questo caso, la simmetria traslazionale del reticolo (la cella primitiva si ripete identicamente) ci permette di cercare soluzioni a onda piana. Poiché abbiamo due gradi di libertà per cella, dobbiamo assumere che entrambi i tipi di atomi oscillino con la stessa frequenza \(\omega\) e lo stesso vettore d'onda \(q\), ma con ampiezze potenzialmente diverse, \(A\) e \(B\).
+\[ u_n(t) = A e^{i(qna - \omega t)} \]
+\[ v_n(t) = B e^{i(q(na+b) - \omega t)} \]
+Sostituiamo queste soluzioni nel sistema di equazioni. Dopo aver derivato rispetto al tempo e semplificato i termini di fase comuni, otteniamo un sistema algebrico lineare e omogeneo per le ampiezze A e B:
+\begin{align*}
+-m_1 \omega^2 A &= K(B e^{iqb} + B e^{-iqb}e^{-iqa} - 2A) \\
+-m_2 \omega^2 B e^{iqb} &= K(A e^{iqa} + A - 2B e^{iqb})
+\end{align*}
+Riorganizzando i termini e usando \(a=2b\), il sistema diventa:
+\[ \begin{cases} (2K - m_1 \omega^2)A - K(e^{iqb} + e^{-iqb})B = 0 \\ -K(e^{iqa} + 1)A + (2K - m_2 \omega^2)B = 0 \end{cases} \]
+Usando \(e^{i\theta} + e^{-i\theta} = 2\cos\theta\), le equazioni si semplificano in:
+\[ \begin{pmatrix} 2K - m_1 \omega^2 & -2K\cos(qb) \\ -2K\cos(qb) & 2K - m_2 \omega^2 \end{pmatrix} \begin{pmatrix} A \\ B \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \end{pmatrix} \]
+
+\paragraph{La Condizione di Esistenza e la Relazione di Dispersione.}
+Questo sistema ammette soluzioni non banali (cioè, \(A, B \neq 0\), che significa che il cristallo sta effettivamente vibrando) se e solo se il determinante della matrice dei coefficienti è nullo.
+\[ (2K - m_1 \omega^2)(2K - m_2 \omega^2) - 4K^2\cos^2(qb) = 0 \]
+Questa è un'equazione di secondo grado in \(\omega^2\), che ci darà due soluzioni per \(\omega^2\) per ogni valore di \(q\). Sviluppando l'equazione:
+\[ 4K^2 - 2K(m_1+m_2)\omega^2 + m_1m_2\omega^4 - 4K^2\cos^2(qb) = 0 \]
+\[ m_1m_2\omega^4 - 2K(m_1+m_2)\omega^2 + 4K^2(1-\cos^2(qb)) = 0 \]
+Usando \(1-\cos^2(x) = \sin^2(x)\), otteniamo l'equazione secolare:
+\[ m_1m_2\omega^4 - 2K(m_1+m_2)\omega^2 + 4K^2\sin^2(qb) = 0 \]
+Risolvendo questa equazione biquadratica per \(\omega^2\), troviamo le due relazioni di dispersione:
+\[ \omega^2_{\pm}(q) = \frac{K(m_1+m_2)}{m_1m_2} \pm \frac{K}{m_1m_2}\sqrt{(m_1+m_2)^2 - 4m_1m_2\sin^2(qb)} \]
+Queste due soluzioni, \(\omega_-(q)\) e \(\omega_+(q)\), rappresentano le due branche di dispersione dei fononi.
+
+\subsection{Analisi delle Branche di Dispersione: Modi Acustici e Ottici}
+
+Analizziamo ora il comportamento di queste due soluzioni ai limiti della prima zona di Brillouin, che in questo caso, avendo passo reticolare \(a\), è definita da \(q \in [-\pi/a, \pi/a] = [-\pi/2b, \pi/2b]\).
+
+\subsubsection{1. Il Centro della Zona di Brillouin (\(q \to 0\))}
+Nel limite di grandi lunghezze d'onda, \(\sin^2(qb) \approx (qb)^2 \to 0\). L'equazione secolare diventa:
+\[ m_1m_2\omega^4 - 2K(m_1+m_2)\omega^2 \approx 0 \implies \omega^2(m_1m_2\omega^2 - 2K(m_1+m_2)) = 0 \]
+Le due soluzioni per \(\omega^2\) sono:
+\begin{enumerate}
+    \item \textbf{Branca Acustica (\(\omega_A\))}:
+    \[ \omega^2_A(q \to 0) = 0 \implies \omega_A(q \to 0) = 0 \]
+    Questa branca parte da zero, proprio come nel caso monoatomico. Per capire il moto fisico, analizziamo il rapporto tra le ampiezze A e B per \(\omega \to 0\). Dalla prima riga del sistema matriciale: \((2K)A - (2K)B = 0 \implies A=B\).
+    \textbf{Significato fisico:} Per \(q \to 0\), gli atomi adiacenti si muovono \textbf{in fase} e con la stessa ampiezza. L'intera cella primitiva si muove come un'unità rigida. Questo è esattamente il moto di un'onda sonora (acustica) che si propaga nel cristallo.
+    
+    \item \textbf{Branca Ottica (\(\omega_O\))}:
+    \[ \omega^2_O(q \to 0) = \frac{2K(m_1+m_2)}{m_1m_2} = 2K\left(\frac{1}{m_1} + \frac{1}{m_2}\right) \]
+    Questa branca parte da un valore finito (una frequenza di "cut-off") anche a \(q=0\). Analizziamo il rapporto tra le ampiezze A e B per questa frequenza. Dalla prima riga: \((2K - m_1\omega_O^2)A - 2KB = 0\). Sostituendo \(\omega_O^2\):
+    \[ \left(2K - m_1 \frac{2K(m_1+m_2)}{m_1m_2}\right)A = 2KB \implies m_1 A = -m_2 B \]
+    \textbf{Significato fisico:} Per \(q \to 0\), gli atomi all'interno della cella si muovono \textbf{in opposizione di fase}. Poiché \(m_1 A + m_2 B = 0\), il centro di massa della cella primitiva rimane \textbf{fermo}. Questa è una vibrazione interna alla cella. Se gli atomi possiedono cariche opposte (cristallo ionico), questo moto crea un dipolo elettrico oscillante che può accoppiarsi fortemente con la radiazione elettromagnetica (luce). Da qui il nome "branca ottica".
+\end{enumerate}
+
+\subsubsection{2. I Bordi della Zona di Brillouin (\(q = \pm \pi/a = \pm \pi/2b\))}
+A questo valore di \(q\), \(\sin^2(qb) = \sin^2(\pi/2) = 1\). L'equazione secolare diventa:
+\[ m_1m_2\omega^4 - 2K(m_1+m_2)\omega^2 + 4K^2 = 0 \]
+Le soluzioni per \(\omega^2\) sono:
+\[ \omega^2 = \frac{2K(m_1+m_2) \pm \sqrt{4K^2(m_1+m_2)^2 - 16K^2m_1m_2}}{2m_1m_2} = \frac{K(m_1+m_2) \pm K(m_1-m_2)}{m_1m_2} \]
+Questo ci dà i due valori di frequenza ai bordi della zona:
+\begin{itemize}
+    \item \textbf{Frequenza superiore (Branca Ottica)}: \(\omega^2_+ = \frac{2Km_1}{m_1m_2} = \frac{2K}{m_2}\)
+    \item \textbf{Frequenza inferiore (Branca Acustica)}: \(\omega^2_- = \frac{2Km_2}{m_1m_2} = \frac{2K}{m_1}\)
+\end{itemize}
+Notiamo che tra la frequenza massima della branca acustica (\(\sqrt{2K/m_1}\)) e la frequenza minima di quella ottica (\(\sqrt{2K/m_2}\), poiché \(m_1>m_2\)) si apre un intervallo di frequenze proibite. Questo \textbf{gap fononico} è una caratteristica fondamentale dei cristalli con base: non possono esistere modi vibrazionali con frequenze all'interno di questo gap.
+
+\subsection{Conteggio dei Modi e Generalizzazione}
+Il nostro modello 1D ci ha mostrato una regola generale:
+\begin{itemize}
+    \item Il numero di \textbf{branche di dispersione} totali è pari al numero di gradi di libertà nella cella primitiva. In 3D, se ci sono \(p\) atomi nella base, ogni atomo ha 3 gradi di libertà (x,y,z), quindi ci sono \(3p\) branche totali.
+    \item Di queste, ci sono sempre \textbf{3 branche acustiche} (una longitudinale e due trasversali).
+    \item Le rimanenti \textbf{\(3p-3\)} branche sono \textbf{ottiche}.
+\end{itemize}
+Infine, il numero totale di modi vibrazionali indipendenti è dato dal numero di gradi di libertà dell'intero cristallo. Se ci sono \(N\) celle primitive, il numero totale di modi è \(3pN\). La discretizzazione dei valori di \(q\) dovuta alle condizioni al contorno del cristallo finito assicura che questo conteggio sia sempre rispettato.

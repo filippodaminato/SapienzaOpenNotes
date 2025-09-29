@@ -1,0 +1,736 @@
+ Yes, the resolution is already at the maximum.
+ So whenever you have a problem with the resolution, this is a problem of your band, not a problem
+ of my transmission band, because I put always the maximum resolution.
+ Okay, before we start with the main topic of this lecture, I would like to show you an
+ identity that we have proven so far only for specific life. This identity relates the volume
+ of the primitive cell of reciprocal space with the volume of the primitive cell in real space.
+ I'm going to show you a little bit more about the pattern, but I'm going to show you a little bit more about the pattern, so I'm going to show you a little bit more about the pattern, and I'm going to show you a little bit more about the pattern.
+ So, it is important to remember that any primitive cell accommodates just one lattice point. Given this, there is this relation between the volume of a primitive cell in the reciprocal lattice and the volume of a primitive cell in the brevet lattice.
+ If we have four vectors a, b, c, and d, and we conceive the following mixed product: a cross b times c cross d.
+ is this is a scalar of course because it's the scalar product of two vectors so this number is a
+ scalar and this can be written as a c times d d minus a d times b
+ okay and this is an identity now we want to use the identity and
+ the fact that the product of two primitive vectors in
+ direct space and reciprocal space is two pi the connected single delta identity
+ by these two properties we can then calculate
+ by very definition the volume of the reciprocal lattice
+ primitive cell as b1 times b2 cross b3
+ and then remember that we have defined b1 as two pi over the volume
+ of the primitive cell of the breve lattice
+ a2 cross a3 times b2 cross b3 and all this is nothing but b1
+ then we apply this identity now as you see apart from a constant three factor this is a cross b times
+ c cross d so we can use the identity and calculate this problem so we have two phi over b then we have
+ a dot c but a2 dot b2 is two phi
+ times b dot d so b dot b a3 times b3 is again two phi and this is two phi cubed minus a dot d
+ a2 scalar product b3 is zero a3 scalar product b2 is zero minus zero
+ and so we have two pi q over b and this is the identity sorry this is a square
+ the question is where the volume in this member comes from and this is the definition of b1
+ if you remember this object here is a1 dot a2 cross a3 which is nothing but the
+ volume of the unit cell the primitive cell in real space so this is just the
+ definition of b1 in terms of a1 a2 and a3
+ yes okay so this property which we have tested for some specific lattices like
+ the cube before the face centered cubic is a general properties and this is very
+ important in the forthcoming discussion you know why we see that this property is
+ very important because it allows to counter the number of points in lattice
+ space once we can count the number of points.
+ Now, when we want to investigate the structure of elliptis, as I told you, this is made possible
+ if we use some kind of experimental probe, like, for instance, X-ray or neutrons.
+ Of course, we must take the wavelength of the incoming radiation of particles in such a
+ way as it is comparable with the typical lattice spacing.
+ A typical lattice spacing is in the order of 10 to the minus 10 meters, one ohmstrom, and so this fixes the energy of the radiation or of neutrons.
+ For instance, if we take radiation, the energy of this radiation, which is nothing but the ratio between h-bar or h, the Planck constant, the speed of light and the wavelength,
+ if we set for the wavelength something like 10 to the minus 10 meters, and we calculate this quantity, this quantity is in the order of 12 kilo electron volt, and the kilo electron volt is an energy for its rays.
+ So in order to investigate the structure of the lattice, we have to use X-rays.
+ So before we go to a theory of X-ray scattering from crystals, which is the main goal of our lecture today,
+ I would like to give you just a hint of how one can settle the problem of discussing the structure of an even condensed system,
+ or even non-condensed system, in terms of the position, the average position of the atoms or molecules,
+ and the correlation between positions.
+ Actually, in some sense, X-ray scattering probes a property like this.
+ Given that I have a particle sitting at the origin, what is the probability of finding another particle at some distance r from the given particle?
+ And so, X-ray of neutron scattering gives a description of the lattice structure in terms of this function,
+ which is a correlation function for positions of atoms or molecules in a given structure.
+ This structure can be a liquid, an amorphous solid, a solid, or even a gas, of course.
+ In a gas, there is very little correlation. If the gas is perfect, then there is no correlation between the positions of particles.
+ So let me start with some crucial concepts.
+ Let's start with defining what we can call, I put a hat to say that this is an operator.
+ The density, microscopic density, of a given system, which is composed of a large number of atoms.
+ Let's, for simplicity, consider the case of single atoms.
+ Okay.
+ Then this is the sum for i that goes from 1 to n, the number of atoms, capital N.
+ Delta, the Dirac delta, of r minus ri, where ri is the position of the i atom.
+ This object is, of course, a general microscopic description of the system, but it's a very,
+ very noisy object, because this object is zero whenever r is different from one of the ri
+ so if I take this object and I zoom inside my system, then I will find spikes at r1, another spike at r2, another spike at r3, and so on, another spike where the fourth particle is sticking, and so on and so forth.
+ This is, of course, three-dimensional. I have given just a couple of moments in general. So this is a very, very specific object, which is, in some sense, taking a picture of the system at a given moment, and it's very, very noisy.
+ So this is not a reasonable object to deal with when we are describing the microscopic body.
+ In a microscopic body, what is more meaningful is to take the thermodynamic average of such an object,
+ because this gives, in some sense, the distribution of matter when I average over the timescales of the microscopic movements of the particles.
+ So, we can define the average density field, which is nothing but the average of this object in a thermodynamic sense.
+ So, you can calculate this average in a given ensemble by assuming that the number of particles is fixed.
+ So, the most reasonable ensemble in thermodynamics and statistical mechanics, in this case, is the canonical ensemble.
+ But, of course, you can generalize this definition to work with the grand canonical ensemble.
+ I don't want to go into these details because those details are really a part of the program of statistical mechanics.
+ So I will not discuss that in details unless you are asking questions about these averages.
+ Of course, if my system is homogeneous, this number is nothing but the average density, a constant.
+ By homogeneous I mean that the properties of my system do not depend on the place where
+ I fixed the origin of my reference frame.
+ So this object cannot be dependent on R if the position of the origin is immaterial.
+ And then if this object cannot depend on R, then it must be a constant and this constant
+ is nothing but the average density of my system.
+ So, the number of particles divided by the volume occupied by the system.
+ So, study of the density is not very interesting in a homogeneous system because it just gives the average density.
+ What is more interesting and gives us insight into the properties of my system is the study of correlations.
+ So, we have to go one step further and introduce a correlation function.
+ We introduce the correlation function capital G of R.
+ So, I am taking the average of a product of the density at a given point R, and the density
+ at a given point R plus, sorry, at a given point F prime, and the density at a given point
+ R plus F prime, and then I am averaging this product.
+ Again, why averaging this? Because this product is the product of two-delta function, so it's again a very messy object.
+ Now, I am writing the definition of this object.
+ I take the definition of this
+ and the definition of this.
+ And then I take the average of this object.
+ Now,
+ when I take the average of this object,
+ there are two different terms.
+ I have this sum times this sum.
+ For each i here, there is a term where i is equal to j.
+ And then, these and these arguments are the same,
+ and so this is non-zero only if r is equal to zero.
+ So, we have a first term, which is nothing but the delta of r itself,
+ which comes from taking the term i equal j.
+ There are n such terms, so n drops, and you are left with a genome delta function.
+ This is very uninteresting because it's the self-correlation in the origin.
+ If I put the particle in the origin, this is correlated with self.
+ What is interesting is the part where i is different from j.
+ And, sorry, I am integrating now the delta function.
+ And so whenever i find a prime i can put my eye.
+ The first term, as I said, is trivial. It's just the self-correlation.
+ The first term, as I said, is trivial. It's just the self-correlation. Real correlation comes from the second term, which gives the probability that given a particle in Rj, I have another particle in Ri plus R, and this is called the correlation function.
+ So we write this as where the factor of rho for the density is just coming from the fact that in a translational invariant system, this will only depend on R.
+ And so I have an overall factor density rho that I can introduce for purposes of making this object go to one where I take a large distance between the parties.
+ Now, this is by definition, sorry, so I can highlight, this is by definition, this curve here, where we define the correlation function.
+ If I look at the correlation function of a system, of a macroscopic system, I will make the plot here.
+ In an isotropic system, actually, this function G can only depend on what the problem is.
+ It can only depend on the magnitude of the vector r because all the directions are equivalent.
+ This is true in a liquid or in an amorphous solid.
+ In a crystalline solid, of course, this is no longer true because the directions are not all equivalents.
+ There are different directions and a crystal is highly anisotropic.
+ So, if I put this factor of row in front, this object for large r when I go far apart,
+ so this is the probability that even that I have a particle sitting at the origin,
+ I have another particle at a distance r from my particle.
+ So this function is zero until a typical average distance, which I will specify,
+ and then we'll have a peak, then it will go again down, then a second peak, then down, then third peak,
+ and then it will dive out at large distances.
+ Excuse me, Professor. Yes?
+ Could you re-explain from the left turn to the right one?
+ So from the left turn to the right one.
+ So this is my definition.
+ This is a definition, so I call this object G of R
+ and put the factor of rho in front just to make this function G of R defined such that
+ in the limit of a very large distance, this goes to one.
+ If I don't put the rho factor in front, then the function goes to the average density
+ when I go to large distances.
+ This is just a definition, a normalization of my function G.
+ If I want G to be a measure of how likely it is to find the particle at the distance r,
+ it's nice to put the factor of rho in front of the definition.
+ But it's just a definition of the object.
+ So if you want, G of r is 1 over capital N rho,
+ this sum of the average of the depth pass.
+ So what is this distance?
+ If I take the potential energy between two particles in a liquid,
+ the shape of this potential energy,
+ the function of the distance between the particle is something like that.
+ I have discussed this in the first lecture.
+ So at very, very large distances, the particles do not interrupt.
+ Then as they come closer, they start to feel each other,
+ and the tendency is to attract each other at a large distance.
+ Then there is a minimum, an equilibrium position,
+ and then if I try to put the particles too close to each other,
+ then there is a huge repulsion that comes from the overlap
+ of the outer electron shells of my atoms or molecules.
+ So this characteristic distance sets this characteristic distance.
+ How can I make a picture of this position, of this result?
+ Imagine that I have one atom sitting at the origin of my liquid.
+ Then, if I look around, there is nothing in a sphere of radius or not.
+ Outside of this sphere, there are the first neighbors.
+ Those first neighbors are random in space, but their average distance from the first particles are not.
+ Then there is almost nothing, or a lower density, and then I find a second shell at the distance of the order of 2 or 0,
+ where I find another peak in the density.
+ And then again and again, until when I go very far, my system looks very homogeneous.
+ When given from the standpoint of one single particle, so I am the particle sitting at the origin,
+ and I look around my face, I feel so lonely, because all the other particles cannot get close.
+ So there is nothing around me until I go to a distance or not, and then I start seeing particles.
+ Then there is a depletion, not a zero, but a depletion of the density.
+ And then after a while, because those must be at an average distance of R0.
+ So there is another depletion.
+ And then I find another shell of particles.
+ And then so on and so forth, until at a very large distance, I look at that distance and I see the average, a homogeneous system.
+ So this function goes to one, which means that seeing from far apart, my density is homogeneous.
+ So seeing from the point of view of a given particle, the density is not homogeneous around the particle, but only because it's homogeneous at very large distances.
+ I have a question.
+ Yes.
+ If we compare the diagram on the left side with the right one, we see that on the left side it has just one minimum by error.
+ The other one has more than one maximum and minimum, and all of them are on the distance
+ of R0. Why the function G has this repetition of maximum?
+ It's seen from the standpoint of a given particle. So this is the interaction between two given particles.
+ So, when I look at this particle, those particles, now I put them with a cross, are sitting in this minimum, somewhere.
+ When I go to this point, this point is not directly related to this particle,
+ because these points, when seen from the target particles, would be there,
+ where there is nothing interesting.
+ But they are seen from the viewpoint of these particles.
+ And they must be in a sphere of radius or not around these particles.
+ And this pattern repeats again and again until I go so far that in the average,
+ seen from the point of these particles, everything becomes homogeneous.
+ so it is the standpoint we are adopting that makes things looking this way okay now
+ this is the direct interaction
+ this is not the result of the direct interaction of this with this
+ but the result of the interaction of this with this this with this this with this this with this
+ and so on so it's a second shell
+ but nonetheless you can see that this correlates all the particles at some distance because I interact directly with the particles that are nearest to me
+ but since those interact with the particles that are nearest to them they not only interact with me but with other particles
+ and so through the particles that are in between I am propagating the correlation
+ and so I get this structure that is a nation of the correlations.
+ This peaky structure repeats for a while and then the peaks die out because at large distances
+ seen from the standpoint of a given particle the system is homogeneous.
+ Excuse me professor, yes, just to be sure but in the equation above the first term should
+ be a row, am I mistaken? Which first term? I mean that is a delta or a row? A delta. Delta, okay.
+ If you take the term where i is equal to j then there are n such terms so the factor one over n in front drops
+ and all those terms are non-zero only if r is equal to zero because I have one delta this argument is
+ r prime minus ri and the other delta was argument is r prime minus ri the same ri plus r so the two
+ are incompatible unless r is equal to zero and then this is a delta of r equal to okay thank you
+ how would this look in a solid now in a solid of course this is no longer
+ independent of the direction so we have to take a direction and look in a given direction okay
+ let's look in a given direction for a specific solid imagine that we have a square lattice
+ so
+ now depending on the direction i choose of course the distance between the peaks will be different
+ suppose i take for instance this direction along the diagonal and i take this as the origin
+ then i have nothing until i reach the second point which is at the distance
+ if i call a the lattice spacing this is a root of 2. so in this graph i have nothing nothing and then
+ a spike at a root of 2. then i have nothing nothing nothing nothing very boring until i have a spike at 2a
+ root of 2 and then nothing nothing very boring until i have a spike at 3a root of 2 and so on and so forth
+ correlation in a crystal never die out because the structure is ordered even at very large distances
+ so i have a very ordinary structure a very ordinary repetition of atoms
+ this is not true in a liquid when i go away from a point sufficiently far away my density is homogeneous
+ in a solid there is a solid in a crystal solid there is nothing like homogeneity the lattice spacing is
+ defining and if i take of course this direction the distance between peaks is a
+ if i pick another direction the distance between peaks is square root of 3a and so on and so forth
+ but given a direction i find peaks that repeat periodically and this is
+ the effect of the periodicity of my crystal when my crystal melts the result will look like this
+ when i go from a solid to a liquid i change my gdr into the gdr of a liquid which melts and
+ so it goes to one at large distance
+ so you can see the difference between the solid and liquid when looking at the gdr
+ hello sir i think the lecture is not being recorded sorry i didn't get your your question
+ uh i think a lecture is not being recorded
+ oh sorry you're right
+ i forgot to record the
+ sorry yes you're right
+ okay
+ you know if it doesn't the correlation functions
+ value of time instead no no this is the average in statistical sense so of course now you say
+ if i take the particle sitting at the origin this will be moving but i'm taking this as the origin
+ so once i take one particle as the origin this is the thermodynamic level so in thermodynamic
+ and so
+ of course it's possible to define also dynamical averages but we will not treat them if i want
+ to treat the system out of equilibrium they can then i can also discuss the dynamics of the correlation
+ we are taking a thermodynamic level just so we are implying that
+ the system is
+ as we shall see in a while actually a crystal
+ is not directly probing sorry x-ray scattering is not directly probing the crystal in real space
+ but actually we shall see x-ray scattering probes the crystal in reciprocal space and why
+ because if we take in the standard quantum mechanical perturbation theory the incoming and
+ upcoming state of a photon as plane waves we are taking matrix elements of the potential of interaction
+ between the x-ray and the atoms between two plane waves and this is a Fourier transform as usual in
+ quantum mechanics so actually the scattering rate of x-ray from a given crystal or a given liquid
+ is given in terms of the Fourier transform to the spherical space of the distribution of my pie.
+ This is just a standard result of life observation theory in quantum mechanics and I imagine that
+ each individual x-ray interacts with a given particle at a given position so the interaction
+ between the x-ray and the atom is point-like at a given point so I am taking a picture of my delta
+ functions averaging or taking the matrix element between two plane waves the incoming and outgoing
+ plane wave and so we are probing the Fourier transform so a crucial concept in condensed
+ and metaphysics is the Fourier transform of the object so let's start with the Fourier transform
+ of the density in real space let me use this with a k as an index to make a distinction
+ use the vector symbol for vectors
+ remember that my rho bar is a delta function
+ and so this Fourier transform is immediate because the delta function dictates the value of r when i
+ integrated and this is
+ when i put the delta function and i integrate with respect to r
+ wherever i see r i must put r i and then sum over that i
+ this is by definition of a delta function
+ actually what matters is another function which is related to gdr as i shall show in a while
+ which is called the structure factor
+ essentially this is the object that is proved by x-ray so whenever you make an x-ray experiment or a
+ neutron scattering experiment you are probing this object here and then as i shall show by
+ fourier transform you get the interesting object g of r which is related to this just by a fourier
+ transform this is defined as one over ten the average value of rho of k rho of minus k
+ where rho of k is this operator here
+ so when i take this it's one over the n the sum of the i of
+ the average value of the sum over i
+ again there is the place where i is equal to j there are n such terms and when
+ r i is equal to rj the product of the two exponentials is one
+ again there is the case where i is equal to j there are n such terms and when r i is equal to rj the
+ product of the two exponential is one there are n such terms so the factor one over n drops
+ and the term coming from i equal j is just a one
+ plus one
+ the term where ri is different from rj
+ okay excuse me why the average is inside the sum this time
+ well because in the end this sum is the same for any given
+ i and j and then i can take the sum of the average the average is a linear operator so the sum of
+ the average is the average of the sun
+ now
+ i can see that i can define this
+ sorry I have asked the pause but in the term that is what is the red one on the bottom there is not even a V a numerator that comes from the integration in R' ?
+ I can ask that I have asked that now that it is cancelled
+ a V a numerator that comes from the integration in R' ?
+ No, so the question is is there a volume factor that comes from the integral of R' ?
+ No, because the integral of R' is dictated by the delta
+ and simply implies that I must substitute in one delta the argument of the other delta.
+ There is no volume implied in the integral of R' .
+ So now we are looking at N of K and I am concentrating on this second term.
+ The first is trivialist, a one.
+ So let's concentrate on this second term.
+ This second term can be written as a Fourier transform,
+ where I introduce two integrals over two continuous variables,
+ R and R' and then I take the delta of R minus Rj.
+ Now, again I see that this is the average of the product of two delta functions, so this
+ is again G2.
+ The G2 does not depend separately on RR prime, it depends only on the distance, so I can integrate
+ over one of the variables and this now gives me a volume and so I have a volume that comes
+ from the integral over r prime and then I have here the integral
+ the definition of G of r that I have from this here I am taking advantage of the fact that this only depends on r minus r prime so I can change my variables and pull r minus r prime the new r and then here I find exactly the definition of G of r so as you see s of k is nothing but the Fourier transform of G of r
+ by definition more exactly s of k minus one is the Fourier transform of G of r so the final result of this calculation is that s of k minus one is the Fourier transform of rho G of r so once I measure by x-ray scattering
+ s of k then I can take s k minus one Fourier transform this and I have insight into the correlation properties of my system maybe it is a liquid maybe it is a lattice or a crystal solid the properties are embedded in this relation
+ and I will see you in the next one.
+ Sorry, why have we defined the microscopic density as an operator?
+ Because in quantum mechanics, it would be an operator. Of course, in classical mechanics, this is not. It's just to make a difference between the microscopic density distribution and the average, for instance, thermodynamic average distribution.
+ So not to use the same symbol for the two objects because they are very different. One is very noisy and the other is very smooth. For instance, in a homogeneous system, this is just the average density of my system.
+ So not to make confusion between the two, I put the half. The half comes from the idea that if I am in a quantum mechanical system, this is just an operator that counts the position, that identifies the position of my quantum particles given the state.
+ The average with respect to the wave function is the distribution of the quantum system. In that case, the average is the quantum average. In our case, the average is the thermodynamic average. But except for the meaning of the average that we are taking, the two objects are pretty much the same object.
+ So, this was a parenthesis that in some sense, first we have to go back to statistical mechanics and to the properties of macroscopic system from the standpoint of statistical mechanics.
+ When we deal with a crystal solid, which is the main topic of our course, we will find that there is a much simpler recipe to study the structure of a crystal, which takes into account the fact that the system is a crystal, so the atoms are ordered in space in a given crystal structure.
+ The theory of X-ray scattering applied to a crystal system, and in this case, all the machinery that we have set forth is not so useful because we will have a much simpler description of the scattering from a solid crystal.
+ So the general idea was just to show that in principle I can study a liquid and a solid exactly in the very same way, with the very same language and the very same formalism.
+ However, when I deal with a solid, I can take advantage of the symmetry of a solid, of a crystal solid, and make this formalism much simpler, which is the real goal of my lecture.
+ So that was a parenthesis, just to show you how, in principle, I can describe a solid and a liquid within the same formalism of the G of R and of the structure factor S of A being related by a Fourier transform.
+ Now, given this, let's go to a crystal and let's take advantage of the structure, of the periodic structure like this.
+ So a crucial concept in a crystal is the existence of lattice planes.
+ What is a lattice plane?
+ A lattice plane is a lattice that contains an infinite number of lattice points.
+ So the definition is very simple, I repeat this: a lattice plane is a plane that contains
+ an infinite number of points of a given lattice.
+ If a plane contains only one point, this is not a lattice plane. It must contain an infinite number of points and then this is a lattice plane.
+ Now, lattice planes come in two families of parallel planes.
+ Let me take again the example of a square lattice. In this case, the planes are not planes, they are just lines, but the idea is very simple.
+ So let's take a square lattice. Then, for instance, I can take the green one as a lattice plane. This is a lattice plane. It contains infinite points of my lattice.
+ This is a family of planes that are all the same distance, one from the other.
+ So this is a family of parallel planes. This is the second plane. This is the third plane. This is the fourth plane. And so on and so forth.
+ All the planes have the same distance, B, which in this case is the lattice spacing A.
+ Why all the planes must be the same distance? Because of the periodicity of the lattice.
+ If the distances were not the same, the distances between the planes and the system would not be periodic.
+ So it must be the same.
+ Now, in the same crystal, I can take yet another family of lattice planes.
+ Actually, I can take infinite. For instance, I can take this as a lattice plane,
+ and I have that also the east is a lattice plane, also the east is a lattice plane, also the east is a lattice plane.
+ This is a lattice plane. This is another family.
+ Now the distance is different.
+ The distance between two planes is D equal A root of 2 divided by 2.
+ And then I can take another family of lattice planes.
+ For instance, this family of lattice planes.
+ And so on and so forth.
+ Actually, there are infinite families of lattice planes, each containing an infinite number of planes.
+ What matters is that all the planes in the same family are parallel and the same distance, one with respect to the neighboring planes.
+ Now, a theorem which we are going to prove states that for any family
+ of lattice planes separated by a distance d, there exists a family of lattice vectors perpendicular,
+ reciprocal lattice vectors perpendicular to the plane.
+ All those lattice planes being perpendicular to the family of planes must be parallel.
+ And the shortest
+ with magnitude 2 pi over d.
+ And the converse is true.
+ So this theorem states that given a family of lattice planes,
+ there is a family of reciprocal lattice vectors that are all parallel,
+ and the shortest of those lattice vectors has magnitude 2pi over d,
+ where d is the distance between the lattices in the planes in my lattice plane family,
+ and vice versa.
+ Given a family of parallel lattice, reciprocal lattice vector,
+ when I take the shortest member of this family,
+ there is a family of lattice plane perpendicular to this family of lattice vectors,
+ whose spacing is related to the magnitude
+ of the shortest of those reciprocal lattice vectors,
+ exactly by this relation, d and two pi over d.
+ Okay?
+ Is the statement of the theorem clear to everybody?
+ Okay, so I'll go on with my proof.
+ Proof.
+ Let N be a unit vector.
+ Perpendicular to the family.
+ Let's take K as 2pi over D times N.
+ A reciprocal lattice vector.
+ Why is this a reciprocal lattice vector?
+ Because, sorry, a vector in reciprocal space.
+ I have not yet proven that this is a reciprocal lattice vector.
+ So for the moment this is a vector in reciprocal space.
+ Why am I sure that this vector lives in reciprocal space?
+ Because it has the dimension of the inverse of a length.
+ So we know that all vectors in reciprocal space have the dimension of 1 over a length.
+ So this is a vector in reciprocal space.
+ I want to prove that these and all the multiples of these are reciprocal lattice vectors.
+ This is what I want to prove.
+ So let me take the following plane wave.
+ This plane wave, being a plane wave in the direction n, is constant on planes perpendicular to k, separated by a distance that is the wavelength.
+ What is the wavelength?
+ What is the wavelength?
+ What is the wavelength?
+ The magnitude of k is 2pi over d, so 2pi divided by 2pi over d is d.
+ So this plane wave has the same value on all the planes perpendicular to k at the distance d.
+ But what is the value of this constant on lattice planes? For sure that there is one lattice plane that contains the origin of my crystal.
+ The origin is a lattice point, so it must be of one lattice plane.
+ So r equals zero is in one of those planes, and so the value, which is the same on all planes, is the value of r equals zero, which is equal to one.
+ So if I take the values of my plane wave on all the lattice points of my brevet lattice,
+ since the origin is there, I find that the value is one, but this is exactly the condition that k belongs to the reciprocal lattice of my brevet lattice r.
+ Of course, all the multiples of this with integer number give exactly the same value, so all the k that are larger than this, but integer multiple of this, will have wavelength that are sub-multiples of d, and so we have a constant value on all the other students.
+ Okay? The converse is also true. So let's now take the shortest lattice vector in a given direction.
+ Then, now this is a reciprocal lattice vector, so my plane weight will be equal to 1 on all the lattice points by definition of reciprocal lattice vectors.
+ So, this is a plane weight and then there will be a family of planes described by this equation, which is a family of planes perpendicular to planes.
+ Those planes are on the same distance, which is the periodicity of my plane weight.
+ So the distance of this plane is T equal to pi over the absolute value of k.
+ k must be the shortest of all vectors, because if I take a k that is multiple of this,
+ I need the general number, of course, because they are all reciprocal vectors,
+ so in a given direction there must be a periodicity k, 2k, 3k,
+ they must differ by an integer coefficient because of the composition rule of my brevet lattice.
+ I can always take this k as one of the primitive vectors,
+ and then in this direction the vectors are k, 2k, 3k, 4k, etc.
+ And then there cannot be a vector that is shorter,
+ because otherwise the wavelength would be larger,
+ and then this could not have the same values on all the lattice planes.
+ So this must be the shortest.
+ And this completes the proof.
+ This is very important because now this creates a very intimate relation
+ between the reciprocal lattice vectors and the lattice planes.
+ This intimate relation will come at hand in a while.
+ I want only to set a notation: if k is a reciprocal lattice vector, it can be written as a linear
+ combination with integer coefficients of my primitive vectors in reciprocal space: b_1, b_2, and b_2.
+ Now, if I take the shortest, this will identify h, k, and l corresponding to the shortest
+ of these vectors in a given direction, and those are called the Miller indices of the corresponding
+ line. Let me explain. It's written there, but I want to explain. So, if I take a cubic
+ surface, my a1 is a, the side of my cube, times i, the unit vector in the x direction, a2 is
+ a times j and a3 is a times k, the unit vector in the z direction, the unit vector in the
+ y direction. We have seen that a set of reciprocal lattice vectors for these is b1 equal 2pi over
+ a j, and b3 equal 2pi over a k. This is a set of reciprocal lattice vectors for my lattice,
+ okay? Cubic lattice. Now, let's imagine that this is the x-axis and I want to study a family
+ of lattice planes perpendicular to the x-axis, okay?
+ You see that those planes are separated by a distance d equal to a.
+ Now I want to apply my theory blindly. So, since I'm studying a family of lattice planes
+ perpendicular to the x-axis, there must be a reciprocal lattice vector that is perpendicular to them.
+ What is this lattice vector? This lattice vector must be perpendicular to the plane, so it must be directed along the i-direction.
+ It will be a given coefficient h times b1 because b1 is in the y in the x-direction.
+ But what is the shortest vector in the direction of b1?
+ If I take h equal 2, I get the vector which is long two times the magnitude of b1.
+ If I take h equal 3, I have a vector that is three times as long as b1.
+ So the shortest of all is b1.
+ So I must take h equal 1, and this vector is b1, which is 2pi over the distance, according to my theorem, and is perpendicular to the family of lattice planes.
+ Where n and b is equal to a for this family of planes.
+ Now, what are the middle indices of this family of planes?
+ I have taken h=1, t=0, n=0.
+ So, this family of planes is called the 1, 0, 0 family.
+ Like all families, once you characterize one member of the family, you characterize all the family.
+ So, it's just a name for the family of planes.
+ So, how do I read this for a cubic lattice?
+ From this, I read that those planes are perpendicular to the x-axis,
+ and their distance is b1, 2pi divided by b1.
+ 2pi divided by b1 is 2pi divided by 2pi over a.
+ So, I have a family of lattice planes parallel.
+ I can study also those lattice planes.
+ And in this case, this family is different because now I am taking these planes.
+ So, they are perpendicular to a direction that is along...
+ It cuts the X and Z, this is Z plane, it doesn't cut the Y.
+ So, it's directed in a direction that is the bisector of the X, Z plane.
+ And I must find the vector that is shortest in this direction.
+ This is a combination of B1 and B3.
+ And this is the family 1, 1, 0.
+ Because the shortest of all is when I take B1 with coefficient 1,
+ B2 with coefficient 1,
+ B3 with coefficient 0 because I don't, sorry, 1, 0, 1.
+ Because I'm taking B2 with coefficient 0 and B3 with coefficient 1.
+ And so this is another family of lattice plane, which is the 1, 0, 1.
+ Now, since the k-vector now is longer,
+ because the absolute value is the square root of 2, the magnitude of this,
+ the planes are closer to each other,
+ and indeed in this direction the distance is half the diagonal of the cube.
+ This is the distance between one plane and the next plane in this direction.
+ So the theorem holds for all families of planes,
+ and once one gets used to this notation,
+ there is an immediate correspondence between the family of planes
+ and the Miller indices.
+ For the cubic system, this is very transparent,
+ because this tells me that my planes cut the x-axis,
+ so are perpendicular to the x-axis,
+ they do not cut the y and z-plane axis,
+ zero, zero, they only cut,
+ and they are at the distance one,
+ which is the direction is just a,
+ the unit of my distances.
+ These planes cut the x and z-axis,
+ do not cut the y-axis because I have a zero there.
+ And, of course, their magnitude is larger,
+ so their distance is smaller.
+ And this immediately related to the value of the Miller indices.
+ Of course, since I must take the shortest,
+ h, k, and l cannot have common factors
+ because if they have a common factor,
+ say, for instance, a factor of 3 in common,
+ then I could put this 3 in front
+ and get a shorter vector.
+ So the miller indices for a family of planes
+ have no common factors
+ because they must be related to the shortest vector.
+ I say it again.
+ If a, k, and l had a common factor,
+ say 3, for instance,
+ I could put this factor of 3 in front
+ and then now a shorter vector times 3,
+ and so this would not be the shortest vector,
+ and so they cannot have a common factor.
+ This is very important when I take a family of lattice planes.
+ Okay?
+ Still, there are infinite ways to give three numbers
+ that have no common factors,
+ and so there are infinite families of lattice planes.
+ Now it's very simple, because you can put here three numbers,
+ provided they have no common factors,
+ then this is the shortest vector in that direction,
+ and there is a family of lattice planes perpendicular to that direction.
+ And it's very easy because the theorem we proved is valid in the two ways.
+ Why was I so concerned with lattice planes?
+ Because the first formulation of x-rays scattering from a crystal, then I stop and I will take
+ this subject in the next lecture, but it's just to make the point why do we care about lattice planes?
+ So the first theory of x-ray ray diffraction from a crystal was given by Krach.
+ And he was awarded the Nobel Prize for this theory of x-ray scattering.
+ Because once this theory was formulated, it was possible to relate the result of x-ray scattering with the very structure of my crystal.
+ The theory of Bragg is a very simple-minded theory.
+ It is very, very surprising that it works.
+ I state the assumption of the theory.
+ Assumptions.
+ There are lattice planes.
+ I take two of them.
+ They are at a given distance b.
+ When light is scattered by a lattice plane,
+ it is scattered the light by a mirror.
+ So it's perfectly reflected by a plane.
+ So I have my light.
+ Light comes to the plane.
+ I draw the perpendicular direction
+ and then the light forms equal angles
+ with respect to the normal to the plane.
+ Actually, for reasons that will be clear later,
+ we take as the angle theta,
+ the angle with respect to the lattice plane,
+ not with respect to the normal,
+ just for the purpose of simplicity
+ in the final formulation.
+ Now, imagine that there is a scattering
+ of another x-ray
+ by the other plane.
+ Here, I have my source
+ and here, somewhere, I have my detector.
+ Now, the argument by Bragg is this:
+ this angle is the same, theta and theta.
+ When do I expect to see something in my detector?
+ When the interference between these two rays is constructive.
+ If the interference between those two rays is destructive, then I will see nothing in my detector.
+ So, to see something in my detector, I must have a constructive interference between two X rays.
+ So, imagine to project by a perpendicular this point onto the next X ray.
+ Then, if this angle is theta, also this angle here is theta.
+ Because those are lines that are perpendicular to lines that are parallel between themselves.
+ So they form the same angle.
+ If theta goes to zero, also this angle goes to zero.
+ If theta goes to pi, also this angle goes to pi.
+ This is the same.
+ Now, what is the difference in the path between those two?
+ It's the sum of this and this.
+ This is the difference in the optical path.
+ So the difference in the optical path is two times the sign of a straight triangle whose hypotenuse is d.
+ So it's two times d, the sign of the angular theta.
+ To have a positive constructive interference, this must be an integer multiple of the wavelength.
+ The integer number n is called the order of the diffraction.
+ So, I have n=1, n=2, n=3.
+ So, how do I use this formula?
+ Imagine, for instance, that my wavelength is fixed.
+ I can, for instance, change my angle.
+ And if I change my angle at the Keenan wave length, this condition is not met until I reach a very, very peculiar value of my angle such that this condition is met for the first time with n equal 1.
+ And then I can tell something about the distance between these plates.
+ So, whenever I see it, right now I've added the angle, and I will see bright spots at some angles.
+ The angles such that this equality is true for n = 1, n = 2, n = 3, n = 4, etc.
+ Okay? There are very many angles that obey this formula for a given lambda.
+ Then, once I collect all the angles where I observe a bright spot, I can tell something about the distance between a family of lattice points.
+ Now, in Bragg's formulation, it's not easy to understand how do I change a family of lattice points.
+ Because Bragg stated from the very beginning that there are those lattice points.
+ But, I want to draw your attention to this very fact.
+ If this is a lattice point and this is a lattice point, there will be infinite families of lattice points that pass by these two points.
+ And so there will be drag peaks, bright spots in my X-ray scattering pattern that will be related to other families of plane with a different...
+ If I collect all my bright spots and I have a huge catalogue of X-ray from crystals, then I can, by the pattern, detect the corresponding lattice.
+ Because each pattern is like a fingerprint of the corresponding lattice.
+ Now, in Bragg's formulation, this very fact is, I would say, obscure.
+ I see that you are not convinced.
+ And indeed, it's not easy to convince oneself that this is true with this very simple-minded theory.
+ So, my goal in the next lecture is to formulate the theory of X-ray scattering from a crystal in a more modern formulation,
+ which is due to Von Laue, and once we will reformulate this theory, we will clearly make an identification
+ between the X-ray scattering pattern from a given crystal and its reciprocal lattice vector structure.
+ And then, since there is a one-to-one correspondence between reciprocal lattice and lattice on the one hand,
+ between reciprocal lattice and lattice planes on the other hand,
+ then a complete reconstruction of reciprocal space will allow us to make a complete reconstruction of the crystal structure.
+ Then, with some exercise, I will convince you that actually the fingerprint of a given crystal is really unique.
+ There are no two crystals with the same X-ray scattering pattern.
+ Which means that once I see an X-ray scattering pattern and I am an expert in crystal structure,
+ I cannot tell which is which because I am not an expert in X-ray scattering,
+ but if I were an expert in X-ray scattering, then at the first glance,
+ I would be able to tell by two different X-ray patterns what structure is one pattern
+ and what structure is the other in terms of crystal structure.
+ So I can say this is cubic, this is hexagonal, this is orthorhombic,
+ this is petragonal, simply by looking at the X-ray scattering pattern.
+ So, the X-ray scattering pattern, when I fix lambda,
+ is a collection of theta such that this is true for some lattice plane's distance d.
+ Now you say there are infinite families of lattice planes,
+ so there are infinite d, then that relation must be always true.
+ No, I will show you that this is not the case.
+ Even if there is an infinite number of lapis planes,
+ this relation, even when I let this d vary from one family to the other,
+ only selected a discrete set of possible value of theta,
+ and this is unique for a given crystal.
+ Then, we can also discuss, we will also discuss different techniques for X-ray scattering,
+ where, for instance, I also play with varying lambda,
+ this is also possible, to vary lambda and see what happens with varying lambda,
+ and in the end, one chooses one technique or the other,
+ depending on what is suitable within the given setup, the given experimental setup.
+ Okay, I will stop here now, and we will start the next lecture with the Von Lauer formulation.
+ If you have a question, this is the moment to ask for questions.
+ You said that for different lab displays we have different bright spots in the x-rays, Catherine.
+ But isn't the lab display like our vision of the crystal, the crystal is some structure and then we can have different...
+ This is exactly my point.
+ So the question is, you are saying, you are taking this formula, okay?
+ So, Prague wrote this formula on a paper and because he wrote this formula,
+ he was awarded a Nobel Prize, so this is a Nobel Prize for me. Look at it, as simple as that, this is a Nobel Prize for me, okay?
+ So, he wrote this. As I say, he assumed that there are lattice planes.
+ Now, you say, are lattice planes real or are they just a picture in our mind?
+ And then I think, once I will formulate von Laue's theory, it will be clear that what we are really seeing is reciprocal space.
+ But since there is this intimate connection on the one hand between a reciprocal lattice and real lattice,
+ on the other hand between the reciprocal lattice vectors and families of lattice planes,
+ actually we are seeing the planes.
+ We will see that the two theories actually are equivalent,
+ in the sense that they keep the very same condition.
+ The second does not assume the existence of lattice planes,
+ but lattice planes will emerge from them here.
+ So, in some sense, Bragg had a very good intuition.
+ His assumption, of course, is like, "Are you crazy?
+ Why are you assuming that lattice planes exist?"
+ Perhaps you want to prove that they exist, but you cannot assume that they exist, okay?
+ And so, this is exactly the point with the von Laue formulation.
+ We will not assume that lattice planes exist.
+ We will make a formulation independent of the existence,
+ of the very existence of lattice planes.
+ We will find a result.
+ Then we will look at this result and we will say,
+ "Oh, but then this is equivalent."
+ So there are the lattice planes,
+ and those lattice planes will be perpendicular
+ to reciprocal lattice vectors.
+ Are there other questions?
+ Professor, can you explain quickly
+ why k should be the shortest vector?
+ Why?
+ I didn't get there.
+ It's about the theorem we just proved.
+ Why k has to be the shortest vector?
+ Oh, the theorem before.
+ The theorem, the direct theorem of the inverse theorem.
+ In the direct, I take the shortest. I take a vector D, and then I see that all the multiples of that will have the same value on the same family of lattice plates.
+ So it's not an assumption.
+ The converse, when I prove that that is the shortest, is because if this was not the shortest,
+ then I would have a vector whose wavelength would be longer, so this vector could not give the same value on all the lattice plates,
+ which is absurd, because if I have a family of lattice planes, then the value of the plane wave might be the same on all the planes in the same family.
+ And so this is absurd.
+ Scusi, mi senti?
+ Sì?
+ Volevo farle una domanda relativa alla lezione precedente, semmai non l'avevo fatta all'inizio della lezione perché ho pensato che ne parlasse oggi.
+ È possibile fare il reciproco al lattice di un breve lattice più 2-point spaces?
+ Allora, questo è una questione molto importante perché è una source di confusione.
+ La rephrase in inglese per tutti e poi la risposta di questo.
+ La questione è: è possibile definire il reciproco al lattice di un breve latti con una base?
+ La questione è che questo concepto è significato.
+ Il reciproco al lattice è relato a un breve lattice.
+ Quindi, ci sono una relazione con un breve latti con un breve latti.
+ Non c'è una cosa che è il reciproco al lattice di un breve latti più un base.
+ Il reciproco al lattice di un obiettivo è il reciproco al lattice
+ di un obiettivo.
+ Quindi se ho un obiettivo, il nostro obiettivo è un breve latti, ma può essere interpretato
+ come un hexagonal lattice con un base.
+ Il reciproco al lattice è il reciproco al lattice di un hexagonal lattice.
+ Quindi il base non è in un reciproco al space.
+ Then you may ask me the question, "If this is the case, how can I distinguish with my theory of Brevet lattice scattering between a lattice and a lattice with a basis?"
+ And this is yet to be discussed.
+ Is it?
+ It is possible to distinguish between a lattice and a lattice with a basis.
+ Actually, this is a very crucial point with x-ray scattering, and I will tell you how.
+ But there is no such a concept as the reciprocal lattice of a lattice plus a basis.
+ The reciprocal lattice is only the reciprocal lattice of a given breve lattice.
+ So I start with a breve lattice, and this cannot be changed.
+ I must start with a breve lattice, and I take the reciprocal lattice of the given breve lattice.
+ I cannot define, I cannot define the Breve lattice, the reciprocal lattice of a Breve lattice plus basis.
+ This concept does not exist. I must be blind with respect to the basis and only define the reciprocal lattice of a given Breve lattice.
+ If there is a basis or there is not a basis, the reciprocal lattice is the same.
+ For all lattices with the same structure, independent or irrespective of the presence of the basis, the reciprocal lattices will always be the same.
+ This is a point that is always overlooked by students, so I thank you for your question, because I would make this clearer in the exercise, but it's a good point to make.
+ So please don't introduce a concept that I never introduced, never wanted to introduce the concept of a reciprocal lattice of a brevet lattice plus a basis.
+ Ok, thank you.
+ Are there other questions?
+ Sì, professore, vorrei fare una domanda sulle lezioni di oggi.
+ Sì, abbiamo detto che se non ho capito male quando abbiamo un liquido a grande distanza abbiamo un sistema omogeneo.
+ Sì, non ho capito bene questa cosa. Forse è ovvio, però...
+ ...è un particolo sitting at the origin, o finding another particle at some given distance.
+ Ok?
+ The probability density, actually, not the probability, but the probability density.
+ Normalized in some way, for instance, normalized to the total density.
+ This is why we put the factor of rho in front, just to have g of r that goes to one at large distances.
+ Then, since we are now taking the standpoint of a given particle, a tagged particle, then we see that as we move away from this particle, there will be nothing, because this particle repels all the other particles.
+ So the density of a solid or a liquid or a gas is homogeneous in the average.
+ But if I take the point of view of a given particle, it cannot be constant around the particle, of course.
+ And so this is a measure of correlation. Because in one case we are not taking, given that there is a particle at the origin,
+ we are saying what is the average density and the average density is a constant.
+ Now we are saying, given that one particle is at the origin, what is the probability of finding a second particle at a distance r?
+ And this object in a liquid is like this.
+ There is nothing at the beginning because of the repulsion.
+ Then I will have a peak that says that a given distance from my particle, it's more likely to find other particles.
+ Then if I go farther away from this first shell, this is a shell in a liquid.
+ This is really spherically symmetric in the average.
+ When I go away from this first shell, I find a region of depletion.
+ Why depletion?
+ Because these particles repel the other particles.
+ Then I find a second peak, a third peak, and then they die out.
+ Why do they die out?
+ Because when I go far away from a given particle,
+ in the average, even if I exclude the volume of other particles,
+ in the average, when seen from the distance, this average is constant density.
+ Because I am going to larger and larger shell,
+ so it's more and more easy to accommodate the particle,
+ given that they must avoid the particle in the n-1 shell.
+ Because the n-1 shell is very long,
+ so it's very easy to accommodate other particle very close to the shell,
+ even without being very close to the particles that are on the shell.
+ And so the density becomes,
+ this probability becomes homogeneous at large distances.
+ In a solid, this is never true.
+ In a crystalline solid, this would be the same in an amorphous solid.
+ It would be exactly like a liquid.
+ In a crystalline solid, this is not true,
+ because no matter how far I go, there will always be an ordered crystal structure.
+ And an ordered crystal structure is a regular array of atoms.
+ So in a given direction, either I find nothing or one atom.
+ Nothing or another. Nothing or another.
+ And so this will be made of sharp peaks with a given periodicity.
+ The periodicity of the crystal virus.
+ Prego.
+ Scusi, professore.
+ Sì, una sola cosa.
+ Ci sono delle novità per quanto riguarda le registrazioni.
+ So, what about recording?
+ I'm sorry, I really forgot to start the recording in the first part of the lecture, but I am recording, usually I will try to put the tag so that I always remember.
+ The previous two lectures were duly recorded.

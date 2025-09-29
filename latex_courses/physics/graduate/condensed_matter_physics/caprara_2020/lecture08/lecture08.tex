@@ -1,92 +1,88 @@
+
 \section{Dinamica Reticolare e Oscillazioni Armoniche}
-\label{sec:lecture8}
-In questa lezione iniziamo lo studio della dinamica dei nuclei in un cristallo, un argomento trattato nel capitolo 22 del testo di Ashcroft \& Mermin. Abbandoniamo temporaneamente lo studio delle proprietà elettroniche per concentrarci prima sulla fisica del reticolo cristallino.
 
-\subsection{Le Approssimazioni Fondamentali}
+\subsection{Introduzione: Dal Cristallo Statico al Cristallo Vibrante}
+In questa lezione, cambiamo prospettiva: passiamo dallo studio del cristallo come un'entità statica e perfettamente ordinata alla \textbf{dinamica del reticolo}, ovvero allo studio del moto dei nuclei che lo compongono. Questo argomento, trattato nel capitolo 22 del testo di Ashcroft \& Mermin, è fondamentale perché le vibrazioni reticolari sono responsabili di molte delle proprietà macroscopiche dei solidi, in particolare quelle termiche. Non seguiremo l'ordine del libro, ma affronteremo prima tutta la fisica legata al cristallo e poi torneremo alle proprietà degli elettroni.
 
-Per trattare la dinamica di un sistema così complesso come un cristallo, che contiene un numero enorme di nuclei ed elettroni in interazione, è necessario introdurre delle approssimazioni fisicamente motivate.
+\subsection{Le Approssimazioni Fondamentali per la Dinamica Reticolare}
 
-\subsubsection{1. L'Approssimazione di Born-Oppenheimer}
-La prima e più importante approssimazione è quella di \textbf{Born-Oppenheimer}. Il suo contenuto fisico si basa sulla grande differenza di massa tra elettroni e nuclei (\(m_{\text{nucleo}} \gg m_e\)).
+Il problema di descrivere il moto accoppiato di un numero di Avogadro di nuclei e di tutti i loro elettroni è, nella sua interezza, impossibile da risolvere. Per poterlo affrontare, la fisica della materia condensata si basa su due approssimazioni estremamente potenti e fisicamente ben motivate.
 
+\subsubsection{1. L'Approssimazione di Born-Oppenheimer (o Adiabatica)}
+Questa è l'approssimazione più importante e fondamentale. Si basa su un fatto sperimentale inequivocabile: la massa di un nucleo (anche il più leggero, il protone) è migliaia di volte più grande di quella di un elettrone (\(m_{\text{nucleo}} \gg m_e\)).
+
+\paragraph{Il Principio Fisico e la Separazione delle Scale Temporali.}
+Questa enorme differenza di massa si traduce in una drastica separazione delle scale temporali del moto dei due tipi di particelle:
 \begin{itemize}
-    \item Poiché gli elettroni sono molto più leggeri, si muovono su una scala temporale molto più rapida rispetto ai nuclei.
-    \item Possiamo quindi, in prima approssimazione, considerare i nuclei come "congelati" in una certa configurazione istantanea.
-    \item Si risolve il problema quantistico per i soli elettroni, che si muovono nel potenziale statico generato dai nuclei fissi.
-    \item Il risultato di questo calcolo è l'energia dello stato fondamentale degli elettroni, che dipende parametricamente dalle posizioni \(\lbrace \mathbf{R} \rbrace\) di tutti i nuclei.
-    \item Questa energia elettronica, \(E_{\text{el}}(\lbrace \mathbf{R} \rbrace)\), agisce come un \textbf{potenziale efficace} per il moto dei nuclei.
+    \item Gli \textbf{elettroni}, in quanto estremamente leggeri, si muovono a velocità molto elevate. Essi sono in grado di "adattarsi" quasi istantaneamente a qualsiasi lenta variazione nella posizione dei nuclei. Dal punto di vista degli elettroni, i nuclei appaiono quasi fermi.
+    \item I \textbf{nuclei}, al contrario, sono lenti e pesanti. Essi non percepiscono il moto individuale dei singoli elettroni, ma piuttosto una "nube" di carica elettronica stazionaria e mediata nel tempo che si riorganizza attorno a loro.
 \end{itemize}
-Questa è la stessa approssimazione utilizzata in fisica molecolare; un solido può essere visto come una molecola di dimensioni macroscopiche.
+Questa separazione temporale permette di disaccoppiare matematicamente il problema totale in due problemi più semplici, da risolvere in sequenza:
+\begin{enumerate}
+    \item \textbf{Risoluzione del Problema Elettronico:} In un primo momento, si "congelano" i nuclei in una configurazione fissa e arbitraria, definita dall'insieme delle loro posizioni \(\lbrace \mathbf{R} \rbrace\). Si risolve quindi l'equazione di Schrödinger per il sistema dei soli elettroni, che si muovono nel potenziale elettrostatico generato da questa disposizione statica di nuclei.
+    \item \textbf{Ottenimento del Potenziale Efficace Nucleare:} La soluzione del problema elettronico fornisce l'energia dello stato fondamentale degli elettroni, \(E_{\text{el}}\). Questo valore, tuttavia, non è una costante, ma dipende parametricamente dalle posizioni \(\lbrace \mathbf{R} \rbrace\) che abbiamo scelto per i nuclei: \(E_{\text{el}}(\lbrace \mathbf{R} \rbrace)\). Questa funzione energetica agisce come un \textbf{potenziale efficace} che governa il moto dei nuclei. È come se i nuclei si muovessero su una superficie energetica complessa, modellata dalla risposta quasi istantanea del "mare" di elettroni che li permea. Questo approccio è identico a quello usato in fisica molecolare, poiché un solido può essere visto, per molti versi, come una molecola di dimensioni macroscopiche.
+\end{enumerate}
 
 \subsubsection{2. L'Approssimazione Armonica}
-La seconda approssimazione cruciale è quella \textbf{armonica}. L'idea di base è che i nuclei non sono fermi, ma oscillano attorno alle loro posizioni di equilibrio reticolare.
+Una volta ottenuto il potenziale efficace per i nuclei, dobbiamo descriverne il moto. L'approssimazione armonica si basa sull'idea che gli atomi in un cristallo non vaghino liberamente, ma compiano \textbf{piccole oscillazioni} attorno alle loro posizioni di equilibrio, che coincidono con i siti del reticolo di Bravais \(\mathbf{R}\).
 
+\paragraph{Definizione degli Spostamenti e Sviluppo in Serie del Potenziale.}
+La posizione istantanea \(\mathbf{r}(\mathbf{R})\) di un nucleo, la cui posizione di equilibrio è \(\mathbf{R}\), viene scritta come:
+\[ \mathbf{r}(\mathbf{R}) = \mathbf{R} + \mathbf{u}(\mathbf{R}) \]
+dove \(\mathbf{u}(\mathbf{R})\) è il vettore \textbf{spostamento} da quella posizione di equilibrio. L'assunzione chiave è che l'ampiezza di questi spostamenti sia molto piccola rispetto alla spaziatura interatomica \(a\): \(|\mathbf{u}(\mathbf{R})| \ll a\). Questa condizione è ben verificata a basse temperature.
+
+Grazie a questa assunzione, possiamo espandere in serie di Taylor l'energia potenziale totale \(U\) del cristallo attorno alla configurazione di equilibrio (dove tutti gli \(\mathbf{u}\) sono nulli):
+\[ U(\lbrace \mathbf{R}+\mathbf{u} \rbrace) = U_0 + U_1 + U_2 + \mathcal{O}(u^3) \]
+Analizziamo i termini dello sviluppo:
 \begin{itemize}
-    \item La posizione istantanea \(\mathbf{r}(\mathbf{R})\) di un nucleo, la cui posizione di equilibrio è data dal vettore del reticolo di Bravais \(\mathbf{R}\), può essere scritta come:
-    \[ \mathbf{r}(\mathbf{R}) = \mathbf{R} + \mathbf{u}(\mathbf{R}) \]
-    dove \(\mathbf{u}(\mathbf{R})\) è il vettore \textbf{spostamento} dalla posizione di equilibrio.
-    \item L'approssimazione armonica consiste nell'assumere che l'ampiezza di queste oscillazioni sia \textbf{molto piccola} rispetto alla distanza interatomica (la costante reticolare \(a\)): \(|\mathbf{u}(\mathbf{R})| \ll a\).
-    \item Questa condizione è generalmente ben soddisfatta a basse temperature. Ad alte temperature, le oscillazioni diventano così ampie da rompere la struttura cristallina (fusione del cristallo), un fenomeno descritto empiricamente dal \textbf{criterio di Lindemann}.
+    \item \textbf{Termine di Ordine Zero, \(U_0\):} È l'energia potenziale del cristallo con tutti gli atomi fermi nelle posizioni reticolari perfette. Questa è una costante e rappresenta l'\textbf{energia di coesione} del solido.
+    \item \textbf{Termine di Primo Ordine, \(U_1\):} Questo termine è lineare negli spostamenti \(\mathbf{u}\) e proporzionale alle derivate prime del potenziale (cioè alle forze). Questo termine è \textbf{identicamente nullo}. Il motivo è che le posizioni \(\lbrace \mathbf{R} \rbrace\) sono, per definizione, le posizioni di equilibrio stabile, ovvero un punto di minimo per l'energia potenziale. In un punto di minimo, il gradiente (e quindi le forze nette su ogni atomo) è zero.
+    \item \textbf{Termine di Secondo Ordine, \(U_2\) (o \(U_{\text{harm}}\)):} Questo termine è quadratico negli spostamenti e coinvolge le derivate seconde del potenziale. È il primo termine non banale dello sviluppo e ha la forma matematica dell'energia potenziale di un sistema di oscillatori armonici accoppiati.
 \end{itemize}
+L'approssimazione armonica consiste nel \textbf{troncare lo sviluppo a questo ordine quadratico}, trascurando tutti i termini superiori (anarmonici), che sono responsabili di fenomeni più complessi come la dilatazione termica e la conducibilità termica finita.
 
-\subsection{Energia Potenziale nell'Approssimazione Armonica}
+L'Hamiltoniana del sistema, in questa approssimazione, diventa quella di \(N\) oscillatori accoppiati:
+\[ \mathcal{H} = \sum_{\mathbf{R}} \frac{\mathbf{p}(\mathbf{R})^2}{2M} + U_{\text{harm}}(\lbrace \mathbf{u}(\mathbf{R}) \rbrace) \]
 
-Consideriamo l'energia potenziale totale \(U\) del cristallo, che dipende dalle posizioni istantanee di tutti i nuclei. Assumendo interazioni a due corpi (trascurando interazioni a 3 o più corpi), possiamo scriverla come una somma su tutte le coppie di atomi:
-\[ U = \frac{1}{2} \sum_{\mathbf{R} \neq \mathbf{R'}} \Phi(\mathbf{r}(\mathbf{R}) - \mathbf{r}(\mathbf{R'})) = \frac{1}{2} \sum_{\mathbf{R} \neq \mathbf{R'}} \Phi(\mathbf{R} - \mathbf{R'} + \mathbf{u}(\mathbf{R}) - \mathbf{u}(\mathbf{R'})) \]
-Il fattore \(\frac{1}{2}\) corregge il doppio conteggio.
+\subsection{Modello Semplificato: La Catena Monoatomica Unidimensionale}
+Per cogliere l'essenza fisica delle vibrazioni reticolari senza la complessità matematica del caso tridimensionale, studiamo il modello più semplice possibile: una catena lineare infinita di atomi identici, ognuno di massa \(M\), separati da una distanza di equilibrio \(a\). Assumiamo che ogni atomo interagisca solo con i suoi primi vicini, come se fossero collegati da molle ideali di costante elastica \(K\).
 
-Ora espandiamo in serie di Taylor questa energia potenziale per piccoli spostamenti \(\mathbf{u}\).
-
-\paragraph{Termine di ordine zero (energia di equilibrio).}
-È l'energia del cristallo con tutti i nuclei nelle loro posizioni di equilibrio (\(\mathbf{u}=0\) per ogni \(\mathbf{R}\)).
-\[ U_0 = \frac{1}{2} \sum_{\mathbf{R} \neq \mathbf{R'}} \Phi(\mathbf{R} - \mathbf{R'}) \]
-Questo termine è una costante e rappresenta l'energia di coesione del cristallo. Poiché \(\Phi\) dipende solo dalla differenza \(\mathbf{R}-\mathbf{R'}\), la doppia somma può essere riscritta come:
-\[ U_0 = \frac{N}{2} \sum_{\mathbf{R} \neq 0} \Phi(\mathbf{R}) \]
-dove \(N\) è il numero totale di atomi. Questo dimostra che l'energia è una quantità \textbf{estensiva}, proporzionale alla dimensione del sistema.
-
-\paragraph{Termine del primo ordine.}
-Lo sviluppo al primo ordine coinvolge il gradiente del potenziale.
-\[ U_1 \propto \sum_{\mathbf{R}, \mathbf{R'}} (\nabla \Phi)_{\mathbf{u}=0} \cdot (\mathbf{u}(\mathbf{R}) - \mathbf{u}(\mathbf{R'})) \]
-Questo termine è \textbf{nullo}. La condizione di equilibrio stabile impone che la forza netta su ogni atomo sia zero, il che significa che il gradiente dell'energia potenziale calcolato nelle posizioni di equilibrio deve annullarsi.
-
-\paragraph{Termine del secondo ordine (termine armonico).}
-Questo è il primo termine non banale e descrive l'energia immagazzinata in un sistema di oscillatori accoppiati.
-\[ U_{\text{harm}} = \frac{1}{4} \sum_{\mathbf{R}, \mathbf{R'}} \sum_{\mu, \nu} (u_\mu(\mathbf{R}) - u_\mu(\mathbf{R'})) (u_\nu(\mathbf{R}) - u_\nu(\mathbf{R'})) \frac{\partial^2 \Phi}{\partial x_\mu \partial x_\nu} \bigg|_{\mathbf{u}=0} \]
-dove \(\mu, \nu\) sono gli indici cartesiani (x, y, z). L'approssimazione armonica consiste nel troncare lo sviluppo a questo ordine.
-
-L'Hamiltoniana del nostro sistema diventa quindi:
-\[ \mathcal{H} = \sum_{\mathbf{R}} \frac{\mathbf{p}(\mathbf{R})^2}{2M} + U_0 + U_{\text{harm}} \]
-dove il primo termine è l'energia cinetica di tutti i nuclei (assumendo un cristallo monoatomico con massa M).
-
-\subsection{La Matrice Dinamica}
-
-L'espressione per \(U_{\text{harm}}\) può essere riscritta in una forma più compatta:
-\[ U_{\text{harm}} = \frac{1}{2} \sum_{\mathbf{R}, \mathbf{R'}} \sum_{\mu, \nu} u_\mu(\mathbf{R}) D_{\mu\nu}(\mathbf{R} - \mathbf{R'}) u_\nu(\mathbf{R'}) \]
-dove abbiamo introdotto la \textbf{matrice dinamica} \(D_{\mu\nu}\). Questa matrice descrive le "costanti di accoppiamento" tra le oscillazioni dei diversi atomi. 
-
-\subsection{Modello Semplificato: Catena Monoatomica 1D}
-
-Per comprendere la fisica delle vibrazioni reticolari, partiamo dal modello più semplice possibile: una catena lineare di atomi identici di massa \(M\), separati da una distanza \(a\) all'equilibrio, con interazione tra primi vicini descritta da una costante elastica \(K\).
-
-L'equazione del moto per lo spostamento \(u_n\) dell'n-esimo atomo è:
+\paragraph{Scrittura dell'Equazione del Moto.}
+Focalizziamoci sull'n-esimo atomo. Il suo spostamento longitudinale dalla posizione di equilibrio \(na\) è denotato da \(u_n\). La forza totale che agisce su di esso è la somma vettoriale delle forze esercitate dalle due molle adiacenti:
+\begin{itemize}
+    \item Forza esercitata dalla molla di destra (collegata all'atomo \(n+1\)): \(F_{n \leftarrow n+1} = K(u_{n+1} - u_n)\)
+    \item Forza esercitata dalla molla di sinistra (collegata all'atomo \(n-1\)): \(F_{n \leftarrow n-1} = -K(u_n - u_{n-1})\)
+\end{itemize}
+La forza netta è quindi \(F_n = F_{n \leftarrow n+1} + F_{n \leftarrow n-1} = K(u_{n+1} + u_{n-1} - 2u_n)\).
+Applicando la seconda legge di Newton, \(M\ddot{u}_n = F_n\), otteniamo l'equazione del moto per l'n-esimo atomo:
 \[ M \ddot{u}_n = K(u_{n+1} + u_{n-1} - 2u_n) \]
-Questa è un'equazione differenziale alle differenze finite. Cerchiamo soluzioni di tipo \textbf{onda piana}:
+
+\paragraph{Soluzione tramite Onde Piane e Derivazione della Relazione di Dispersione.}
+Questa è un'equazione differenziale alle differenze finite che descrive un sistema di oscillatori accoppiati. La sua forma è identica per ogni atomo \(n\), riflettendo la simmetria traslazionale della catena. Sfruttiamo questa simmetria cercando soluzioni che siano onde piane, ovvero soluzioni in cui ogni atomo oscilla con la stessa ampiezza \(A\) e la stessa frequenza \(\omega\), ma con una fase che varia linearmente con la posizione di equilibrio:
 \[ u_n(t) = A e^{i(qna - \omega t)} \]
-dove \(q\) è il vettore d'onda e \(\omega\) la frequenza angolare.
+Qui, \(q\) è il vettore d'onda (in 1D, un numero) che determina la lunghezza d'onda \(\lambda = 2\pi/|q|\). Sostituiamo questa soluzione ("ansatz") nell'equazione del moto. Dopo aver derivato due volte rispetto al tempo, otteniamo:
+\[ -M\omega^2 A e^{i(qna - \omega t)} = K \left( A e^{i(q(n+1)a - \omega t)} + A e^{i(q(n-1)a - \omega t)} - 2 A e^{i(qna - \omega t)} \right) \]
+Semplifichiamo il fattore comune \(A e^{i(qna - \omega t)}\) da entrambi i lati:
+\[ -M\omega^2 = K (e^{iqa} + e^{-iqa} - 2) \]
+Utilizzando la formula di Eulero \(e^{i\theta} + e^{-i\theta} = 2\cos\theta\), l'espressione diventa:
+\[ -M\omega^2 = K(2\cos(qa) - 2) = -2K(1 - \cos(qa)) \]
+Infine, applicando l'identità trigonometrica di bisezione \(1 - \cos(x) = 2\sin^2(x/2)\), arriviamo al risultato fondamentale, la \textbf{relazione di dispersione}:
+\[ \omega^2 = \frac{4K}{M} \sin^2\left(\frac{qa}{2}\right) \implies \omega(q) = \sqrt{\frac{4K}{M}} \left| \sin\left(\frac{qa}{2}\right) \right| \]
 
-Sostituendo questa soluzione nell'equazione del moto, si ottiene la \textbf{relazione di dispersione}:
-\[ \omega^2 = \frac{4K}{M} \sin^2\left(\frac{qa}{2}\right) \]
-da cui:
-\[ \omega(q) = \sqrt{\frac{4K}{M}} \left| \sin\left(\frac{qa}{2}\right) \right| \]
+\subsection{Analisi della Dispersione e Nascita dei Fononi}
+La relazione di dispersione \(\omega(q)\) non è una semplice retta (come per la luce nel vuoto, \(\omega = ck\)), ma una funzione sinusoidale. Questa non-linearità è una diretta conseguenza della natura discreta del reticolo e contiene tutta la fisica delle vibrazioni.
 
-\subsection{Analisi della Relazione di Dispersione e Fononi}
+\paragraph{Il Limite delle Grandi Lunghezze d'Onda (Regime Acustico, \(q \to 0\)).}
+Quando la lunghezza d'onda \(\lambda\) è molto più grande della distanza interatomica \(a\), il vettore d'onda \(q\) è molto piccolo (\(qa \ll 1\)). In questo limite, possiamo usare l'approssimazione di Taylor per il seno: \(\sin(x) \approx x\). La relazione di dispersione diventa lineare:
+\[ \omega(q) \approx \sqrt{\frac{4K}{M}} \left( \frac{qa}{2} \right) = \left( a\sqrt{\frac{K}{M}} \right) q = v_s q \]
+Questa è la tipica relazione lineare delle \textbf{onde sonore} che si propagano in un mezzo continuo (come l'aria o una sbarra di metallo), dove \(v_s\) è la velocità di propagazione del suono. Ciò significa che per lunghe lunghezze d'onda, l'onda non "risolve" la struttura atomica discreta del materiale, che si comporta a tutti gli effetti come un continuo elastico.
 
-La relazione di dispersione \(\omega(q)\) descrive come la frequenza di vibrazione dipenda dal vettore d'onda.
+\paragraph{I Confini della Prima Zona di Brillouin (Massima Frequenza, \(q = \pm \pi/a\)).}
+A causa della periodicità discreta del reticolo, un'onda con vettore d'onda \(q\) e una con \(q + 2\pi n/a\) (con \(n\) intero) producono esattamente lo stesso schema di spostamenti atomici. Pertanto, tutti i modi di vibrazione fisicamente unici sono descritti limitando \(q\) a un intervallo di ampiezza \(2\pi/a\), tipicamente scelto come \([-\pi/a, \pi/a]\). Questo intervallo è la \textbf{prima zona di Brillouin} in 1D. Ai suoi bordi, dove \(q = \pm \pi/a\):
 \begin{itemize}
-    \item \textbf{Limite di grandi lunghezze d'onda (\(q \to 0\))}: Per \(q\) piccolo, \(\sin(qa/2) \approx qa/2\). La relazione diventa lineare:
-    \[ \omega(q) \approx \left( a\sqrt{\frac{K}{M}} \right) q = v_s q \]
-    Questa è la relazione per le onde sonore, dove \(v_s\) è la \textbf{velocità del suono}. In questo limite, il reticolo si comporta come un mezzo elastico continuo.
-    \item \textbf{Confini della Prima Zona di Brillouin (\(q = \pm \pi/a\))}: A causa della periodicità del reticolo, i vettori d'onda fisicamente unici sono confinati nell'intervallo \([-\pi/a, \pi/a]\), la \textbf{prima zona di Brillouin}. Ai bordi della zona, la velocità di gruppo \(v_g = d\omega/dq\) si annulla. Questo corrisponde a onde stazionarie, in cui atomi adiacenti oscillano in opposizione di fase.
+    \item La frequenza raggiunge il suo valore massimo possibile: \(\omega_{max} = \sqrt{4K/M}\). Non possono esistere vibrazioni con frequenza superiore.
+    \item La pendenza della curva \(\omega(q)\), che rappresenta la \textbf{velocità di gruppo} \(v_g = d\omega/dq\), si annulla. Una velocità di gruppo nulla significa che il pacchetto d'onda non si propaga; l'energia è stazionaria. Questo corrisponde a un'\textbf{onda stazionaria}, in cui atomi adiacenti oscillano in perfetta opposizione di fase (\(u_{n+1} = -u_n\)).
 \end{itemize}
-La quantizzazione di queste onde vibrazionali dà origine a quasiparticelle chiamate \textbf{fononi}, i quanti delle vibrazioni reticolari, che si comportano come bosoni.
 
+\paragraph{I Fononi: Quanti di Vibrazione Reticolare.}
+La meccanica quantistica impone che l'energia di un oscillatore armonico di frequenza \(\omega\) sia quantizzata in pacchetti discreti di valore \(\hbar\omega\). Applicando questo principio al nostro sistema, ogni modo vibrazionale del cristallo, caratterizzato da un vettore d'onda \(q\) e una frequenza \(\omega(q)\), può essere eccitato solo assorbendo o emettendo energia in quanti di \(\hbar\omega(q)\). Queste eccitazioni elementari quantizzate del campo di spostamento del cristallo sono trattate come quasiparticelle chiamate \textbf{fononi}. Un fonone è un "quanto di vibrazione reticolare" o, in modo più suggestivo, un "quanto di suono". Essi si comportano come bosoni e la loro popolazione, descritta dalla statistica di Bose-Einstein, determina le proprietà termiche dei solidi isolanti, come il calore specifico.

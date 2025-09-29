@@ -1,0 +1,150 @@
+
+\section{Introduzione: La Necessità di una Fusione}
+
+Il punto di partenza del nostro corso è l'unione di due pilastri della fisica moderna: la \textbf{Meccanica Quantistica (MQ)} e la \textbf{Relatività Speciale (RS)}.
+
+\begin{itemize}
+    \item La \textbf{Meccanica Quantistica} fornisce una descrizione estremamente efficace del mondo microscopico. La sua validità è manifesta quando le quantità con le dimensioni di un'azione sono confrontabili con la costante di Planck, $\hbar$. Quando le scale di azione in un problema sono molto più grandi di $\hbar$, il suo contributo diventa trascurabile e si può ricorrere al limite semi-classico ($\hbar \to 0$).
+    
+    \item La \textbf{Relatività Speciale} si rivela fondamentale per descrivere fenomeni in cui le velocità in gioco, $v$, sono paragonabili alla velocità della luce, $c$. Per velocità molto minori ($v \ll c$), le leggi della meccanica Newtoniana sono sufficienti.
+\end{itemize}
+
+L'obiettivo di questo corso è esplorare la "fusione" di questi due ambiti. Si potrebbe pensare che sia sufficiente "mettere insieme" le regole già note. Tuttavia, vedremo che questo processo non è una semplice combinazione tecnica, ma richiede un vero e proprio \textbf{salto concettuale}. La fusione tra MQ e RS ci costringerà a riconsiderare e abbandonare alcuni dei concetti fondamentali a cui siamo abituati, primo tra tutti quello di funzione d'onda.
+
+\subsection{Una Scala di Lunghezza Fondamentale: La Lunghezza d'Onda Compton}
+
+Per iniziare, combiniamo le costanti fondamentali di queste due teorie, $\hbar$ e $c$, con una proprietà intrinseca di una particella microscopica come l'elettrone: la sua massa a riposo, $m_e$. Possiamo costruire una quantità che ha le dimensioni di una lunghezza:
+
+$$
+\lambda_C = \frac{\hbar}{m_e c}
+$$
+
+Questa è nota come \textbf{lunghezza d'onda Compton} dell'elettrone. Per calcolarne il valore, è utile riscriverla come:
+
+$$
+\lambda_C = \frac{\hbar c}{m_e c^2}
+$$
+
+Utilizzando i valori noti ($\hbar c \approx 197 \text{ MeV fm}$ e $m_e c^2 \approx 0.5 \text{ MeV}$):
+
+$$
+\lambda_C \approx \frac{197 \text{ MeV fm}}{0.5 \text{ MeV}} \approx 394 \text{ fm} \approx 4 \times 10^{-13} \text{ m}
+$$
+
+Questa è una scala di lunghezza drammaticamente piccola. Per dare un contesto, il raggio di Bohr (la dimensione tipica di un atomo di idrogeno) è dell'ordine di $10^{-10}$ m, quindi la lunghezza d'onda Compton è migliaia di volte più piccola.
+
+\subsection{Il Principio di Indeterminazione nel Regime Relativistico}
+
+Consideriamo ora le implicazioni del \textbf{Principio di Indeterminazione di Heisenberg}:
+
+$$
+\Delta q \cdot \Delta p \ge \hbar 
+$$
+
+In MQ non relativistica, se si localizza con precisione una particella ($\Delta q \to 0$), l'incertezza sulla sua quantità di moto diverge ($\Delta p \to \infty$). Questo fatto non ha mai rappresentato un problema concettuale insormontabile.
+
+Le cose cambiano drasticamente quando introduciamo la relatività. Facciamo un'ipotesi audace (\textit{bold assumption}): supponiamo che esista una sorta di limite fisico alla localizzazione di una particella, una $(\Delta q)_{\min}$, e che questa sia proprio dell'ordine della lunghezza d'onda Compton:
+
+$$
+(\Delta q)_{\min} \sim \frac{\hbar}{m_e c}
+$$
+
+Cosa succede se proviamo a sondare una regione di spazio più piccola di questa, ovvero se $\Delta q < (\Delta q)_{\min}$? Dal principio di indeterminazione, segue che l'incertezza sul momento deve soddisfare:
+
+$$
+\Delta p > \frac{\hbar}{(\Delta q)_{\min}} = \frac{\hbar}{\hbar / (m_e c)} = m_e c
+$$
+
+Quindi, tentare di localizzare un elettrone in una regione più piccola della sua lunghezza d'onda Compton implica un'incertezza sulla sua quantità di moto \textbf{maggiore di $m_e c$}.
+
+\subsubsection{Dall'Incertezza sul Momento all'Incertezza sull'Energia}
+
+Vediamo come questa incertezza sul momento si traduce in un'incertezza sull'energia. Partiamo dalla relazione relativistica energia-momento:
+
+$$
+E = \sqrt{p^2 c^2 + m_e^2 c^4}
+$$
+
+Stimiamo la variazione di energia $\Delta E$ corrispondente a una variazione $\Delta p$:
+
+$$
+\Delta E \approx \left| \frac{dE}{dp} \right| \Delta p = \frac{p c^2}{E} \Delta p = v \Delta p
+$$
+
+Dato che abbiamo trovato $\Delta p > m_e c$, l'incertezza sull'energia diventa:
+
+$$
+\Delta E > v (m_e c)
+$$
+
+L'analisi dimensionale e le disuguaglianze sono coerenti con il fatto che l'incertezza sull'energia possa diventare significativamente grande, in particolare può superare una soglia critica:
+
+$$
+\Delta E \ge 2 m_e c^2
+$$
+
+\subsection{Creazione di Particelle e Crisi della Funzione d'Onda}
+
+Il valore $E_0 = m_e c^2$ è l'energia a riposo di un elettrone. La soglia di $2 m_e c^2$ ha quindi un significato fisico profondo: è l'energia minima necessaria per \textbf{creare dal vuoto una coppia elettrone-positrone}. Un positrone è un'\textbf{antiparticella}: una particella con la stessa massa dell'elettrone ma carica elettrica opposta. La creazione di una coppia particella-antiparticella non viola la conservazione della carica elettrica.
+
+Questo porta a una conseguenza sconvolgente: se tentiamo di misurare la posizione di un singolo elettrone con una precisione $\Delta q < \lambda_C$, l'energia che immettiamo nel sistema è così grande e indeterminata che potremmo, di fatto, creare altre particelle. Non siamo più nemmeno in grado di dire se nel nostro sistema ci sia un elettrone o tre (l'elettrone originale più una coppia elettrone-positrone).
+
+Questo fenomeno segna il \textbf{crollo del concetto di funzione d'onda di Schrödinger, $\Psi(q)$}.
+\begin{itemize}
+    \item La funzione d'onda $\Psi(q)$ è, per definizione, la funzione d'onda di una \textbf{singola particella}.
+    \item Se il numero di particelle nel sistema non è più conservato, che senso ha la "funzione d'onda dell'elettrone"? Di quale elettrone?.
+    \item Inoltre, l'idea stessa di funzione d'onda si basa sulla possibilità, almeno in linea di principio, di conoscere l'argomento $q$ con precisione infinita. Se esiste una $\Delta q_{\min}$ al di sotto della quale non si può andare, il concetto stesso di $\Psi(q)$ diventa problematico.
+\end{itemize}
+
+Dobbiamo quindi abbandonare la funzione d'onda e cercare un formalismo nuovo, capace di descrivere sistemi con un numero variabile di particelle.
+
+\subsection{Fluttuazioni Quantistiche e Particelle Virtuali}
+
+Un altro modo per comprendere questo fenomeno è attraverso il \textbf{principio di indeterminazione energia-tempo}:
+
+$$
+\Delta E \cdot \Delta t \ge \hbar
+$$
+
+Questo principio implica che la conservazione dell'energia può essere violata, purché ciò avvenga per intervalli di tempo $\Delta t$ sufficientemente brevi. Su scale temporali molto piccole, un elettrone non è mai veramente "solo". La sua esistenza è caratterizzata da continue \textbf{fluttuazioni quantistiche}.
+
+
+Ad esempio, un elettrone può emettere un fotone ($\gamma$) "virtuale", che a sua volta si scinde in una coppia elettrone-positrone ($e^-, e^+$) virtuale. Questa coppia vive per un istante brevissimo, per poi annichilarsi di nuovo in un fotone, che viene infine riassorbito dall'elettrone originale. Questo processo è chiamato "vestizione virtuale" (\textit{virtual dressing}) dell'elettrone.
+
+Queste particelle "virtuali" non violano i principi di conservazione globalmente, perché esistono solo all'interno dei limiti imposti dall'indeterminazione energia-tempo. Tuttavia, se una sonda esterna (ad esempio, un fotone ad alta energia) interagisce con l'elettrone durante una di queste fluttuazioni, può fornire l'energia mancante (maggiore di $2m_ec^2$) per rendere "reali" le particelle della coppia virtuale, proiettandole nel mondo osservabile.
+
+\subsection{Verso la Teoria Quantistica dei Campi}
+
+La crisi della funzione d'onda e la necessità di descrivere la creazione e l'annichilazione di particelle ci spingono verso un nuovo formalismo: la \textbf{Teoria Quantistica dei Campi (QFT)}.
+
+In QFT, le entità fondamentali non sono le particelle, ma i \textbf{campi}. Così come il fotone è l'eccitazione quantistica del campo elettromagnetico, l'elettrone sarà visto come l'eccitazione quantistica di un "campo elettronico".
+
+Questi campi quantistici non hanno l'interpretazione probabilistica di Born della funzione d'onda. Matematicamente, sono \textbf{operatori} definiti in ogni punto dello spaziotempo, che possono essere espressi in termini di \textbf{operatori di creazione e annichilazione}, analoghi a quelli studiati per l'oscillatore armonico quantistico. Un operatore di creazione, agendo sul vuoto, "crea" una particella (un'eccitazione del campo), mentre un operatore di annichilazione la distrugge. Questo formalismo è intrinsecamente progettato per gestire un numero variabile di particelle.
+
+\subsubsection{Antiparticelle e Causalità}
+
+La QFT fornisce anche una spiegazione profonda dell'esistenza delle antiparticelle, legata alla struttura causale della relatività.
+Consideriamo un processo in cui un elettrone viene emesso in un evento spaziotemporale $X$, interagisce (scattering) in un evento $Z$ e viene assorbito in un evento $Y$.
+
+Se gli eventi $X$ e $Z$ sono separati da un intervallo di tipo \textbf{spazio} (\textit{space-like}), l'ordine temporale tra di essi non è assoluto: dipende dall'osservatore inerziale.
+\begin{itemize}
+    \item Un osservatore $O$ potrebbe vedere l'elettrone emesso in $X$ (al tempo $t_X$) e poi interagire in $Z$ (al tempo $t_Z > t_X$).
+    \item Un altro osservatore $O'$ in moto relativo potrebbe vedere l'interazione in $Z$ (al tempo $t'_Z$) avvenire \textit{prima} dell'emissione in $X$ (al tempo $t'_X > t'_Z$).
+\end{itemize}
+
+La teoria deve fornire una descrizione coerente per entrambi. La QFT risolve questo paradosso in modo elegante: l'osservatore $O'$ non interpreta il processo come un elettrone che viaggia da $X$ a $Z$ "indietro nel tempo", ma come una \textbf{antiparticella (positrone)} che viaggia \textit{avanti nel tempo} da $Z$ a $X$.
+
+Il fatto che le ampiezze di probabilità per la propagazione tra punti separati da intervalli di tipo spazio siano diverse da zero nella teoria relativistica, implica necessariamente l'esistenza delle antiparticelle.
+
+
+\subsection{Conclusione e Prospettive}
+
+Questa prima lezione ha mostrato come il tentativo di unire Meccanica Quantistica e Relatività Speciale non sia un esercizio banale. Ci costringe a un cambio di paradigma:
+\begin{enumerate}
+    \item Abbandonare il concetto di funzione d'onda per una singola particella.
+    \item Accettare che il numero di particelle non è conservato ad alte energie.
+    \item Introdurre le antiparticelle come una necessità fondamentale della teoria.
+    \item Adottare il formalismo dei \textbf{campi quantistici} come descrizione fondamentale della materia.
+\end{enumerate}
+Nelle prossime lezioni, svilupperemo gli strumenti matematici di questo nuovo formalismo, imparando a calcolare le probabilità di processi come la creazione di coppie e lo scattering di particelle, entrando nel dominio della \textbf{Elettrodinamica Quantistica (QED)}.
+
