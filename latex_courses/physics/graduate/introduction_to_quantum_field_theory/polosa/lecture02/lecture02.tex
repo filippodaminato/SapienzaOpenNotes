@@ -1,0 +1,331 @@
+\section{Introduzione ai Campi Quantistici}
+
+In fisica classica, un campo è una quantità definita in ogni punto dello spaziotempo. In teoria quantistica dei campi, il concetto viene esteso: il campo, denotato come $\phi(x)$, non è più una funzione d'onda, ma un operatore  definito in ogni punto dello spaziotempo $x$ che agisce su uno spazio di Hilbert.
+
+Per comprendere questo concetto, partiamo da un modello semplificato: una sbarra elastica unidimensionale. Descriveremo prima il suo comportamento classico e poi procederemo alla sua quantizzazione. Questo modello ci servirà come strumento per introdurre i concetti fondamentali della teoria dei campi.
+
+\subsubsection{Modello Discreto della Sbarra Elastica}
+
+Consideriamo una sbarra elastica unidimensionale. Possiamo modellarla come una catena di $N$ oscillatori (masse) collegati da molle. Lo spostamento di ogni massa dalla sua posizione di equilibrio è descritto da una coordinata $q_n$, dove $n$ è l'indice che etichetta la massa. L'insieme di questi spostamenti definisce un campo di spostamento discreto  $q(x)$.
+
+La forza che agisce sulla $n$-esima massa è data dalla legge di Hooke e dipende dalle posizioni delle masse adiacenti. La forza a destra ($F_R$) e a sinistra ($F_L$) sulla massa $n$ sono:
+\begin{align}
+    F_R &= -\Omega^2(q_n - q_{n+1}) \\
+    F_L &= -\Omega^2(q_n - q_{n-1})
+\end{align}
+dove $\Omega^2$ è una costante legata alla rigidità della molla. La forza totale è quindi:
+\begin{equation}
+    F_{tot} = F_R + F_L = -\Omega^2(2q_n - q_{n+1} - q_{n-1})
+\end{equation}
+
+% Per descrivere la dinamica del sistema, possiamo scrivere l'Hamiltoniana. Assumendo per semplicità che la massa di ogni oscillatore sia $m=1$, l'Hamiltoniana del sistema è:
+% \begin{equation}
+%     H = \sum_{n=1}^{N} \left( \frac{p_n^2}{2} + \frac{\Omega^2}{2}(q_n - q_{n+1})^2 \right)
+% \end{equation}
+% dove $p_n = \dot{q}_n$ è il momento coniugato alla coordinata $q_n$. Le equazioni di Hamilton ci permettono di ritrovare l'equazione del moto per le masse. Infatti:
+% \begin{equation}
+%     \dot{p}_n = -\frac{\partial H}{\partial q_n} = -\Omega^2(2q_n - q_{n-1} - q_{n+1})
+% \end{equation}
+% che corrisponde esattamente alla forza totale che abbiamo calcolato.
+
+
+
+
+% 
+Per descrivere la dinamica del sistema, usiamo il formalismo Hamiltoniano. Assumendo per semplicità che la massa di ogni oscillatore sia $m=1$, l'Hamiltoniana del sistema, che rappresenta la sua energia totale, è data dalla somma dell'energia cinetica e potenziale:
+\begin{equation}
+    H = \sum_{n=1}^{N} \left( \frac{p_n^2}{2} + \frac{\Omega^2}{2}(q_n - q_{n+1})^2 \right)
+\end{equation}
+dove $p_n = \dot{q}_n$ è il momento coniugato alla coordinata $q_n$. Vogliamo dimostrare che le equazioni di Hamilton ci permettono di ritrovare l'equazione del moto derivata dalla legge di Newton.
+
+Le equazioni di Hamilton sono:
+\begin{align}
+    \dot{q}_k &= \frac{\partial H}{\partial p_k} \\
+    \dot{p}_k &= -\frac{\partial H}{\partial q_k}
+\end{align}
+La prima equazione è immediata: $\frac{\partial H}{\partial p_k} = \frac{\partial}{\partial p_k} \left( \sum_n \frac{p_n^2}{2} \right) = p_k$. Dunque $\dot{q}_k = p_k$, che è la definizione di momento coniugato.
+
+Concentriamoci sulla seconda equazione. Dobbiamo calcolare la derivata parziale dell'Hamiltoniana rispetto a una generica coordinata $q_k$. La derivata del termine cinetico è zero. Ci occupiamo quindi solo del termine di potenziale:
+\begin{equation}
+    -\frac{\partial H}{\partial q_k} = -\frac{\partial}{\partial q_k} \left[ \sum_{n=1}^{N} \frac{\Omega^2}{2}(q_n - q_{n+1})^2 \right]
+\end{equation}
+La coordinata $q_k$ appare in due termini della sommatoria: quando $n=k$ e quando $n=k-1$. Analizziamoli separatamente:
+\begin{itemize}
+    \item Per $n=k$, il termine è $\frac{\Omega^2}{2}(q_k - q_{k+1})^2$. La sua derivata rispetto a $q_k$ è:
+    \begin{equation*}
+        \frac{\partial}{\partial q_k} \left[ \frac{\Omega^2}{2}(q_k - q_{k+1})^2 \right] = \frac{\Omega^2}{2} \cdot 2(q_k - q_{k+1}) \cdot 1 = \Omega^2(q_k - q_{k+1})
+    \end{equation*}
+    \item Per $n=k-1$, il termine è $\frac{\Omega^2}{2}(q_{k-1} - q_k)^2$. La sua derivata rispetto a $q_k$ è:
+    \begin{equation*}
+        \frac{\partial}{\partial q_k} \left[ \frac{\Omega^2}{2}(q_{k-1} - q_k)^2 \right] = \frac{\Omega^2}{2} \cdot 2(q_{k-1} - q_k) \cdot (-1) = -\Omega^2(q_{k-1} - q_k)
+    \end{equation*}
+\end{itemize}
+Sommando questi due contributi otteniamo la derivata totale:
+\begin{equation}
+    \frac{\partial H}{\partial q_k} = \Omega^2(q_k - q_{k+1}) - \Omega^2(q_{k-1} - q_k) = \Omega^2(2q_k - q_{k+1} - q_{k-1})
+\end{equation}
+Inserendo questo risultato nell'equazione di Hamilton per $\dot{p}_k$:
+\begin{equation}
+    \dot{p}_k = -\frac{\partial H}{\partial q_k} = -\Omega^2(2q_k - q_{k-1} - q_{k+1})
+\end{equation}
+Dato che $\dot{p}_k = \ddot{q}_k$, questa espressione corrisponde esattamente alla forza totale $F_{\text{tot}}$ calcolata in precedenza, dimostrando la coerenza del formalismo Hamiltoniano.
+
+% --- Fine della sezione da copiare ---
+
+
+
+
+
+
+\subsection{La Transizione ai Modi Normali}
+
+L'Hamiltoniana descrive un sistema di oscillatori accoppiati, il che rende il problema difficile da risolvere. La soluzione consiste in un cambio di coordinate, passando dalle coordinate fisiche $q_n$ e $p_n$ a un nuovo set di coordinate complesse $Q_s$ e $P_s$, chiamate modi normali . Questo cambio di coordinate ha lo scopo di "disaccoppiare" il sistema, trasformando l'Hamiltoniana in una somma di Hamiltoniane di oscillatori armonici indipendenti.
+
+L'Hamiltoniana trasformata assume la forma:
+\begin{equation}
+    H = \sum_s \left( \frac{|P_s|^2}{2} + \frac{1}{2}\omega_s^2 |Q_s|^2 \right)
+\end{equation}
+Questa è l'Hamiltoniana di un insieme di oscillatori armonici indipendenti, ciascuno con la sua frequenza naturale di oscillazione $\omega_s$, chiamata frequenza normale .
+
+\subsubsection{Definizione dei Modi Normali}
+
+Le nuove coordinate sono definite come segue:
+\begin{align}
+    q_n &= \sum_s \frac{e^{isn}}{\sqrt{N}} Q_s \\
+    p_n &= \sum_s \frac{e^{-isn}}{\sqrt{N}} P_s
+\end{align}
+dove $s = \frac{2\pi l}{N}$, con $l = -\frac{N}{2}, \dots, \frac{N}{2}$.
+Dato che $q_n$ e $p_n$ devono essere reali (poiché rappresentano spostamenti e momenti fisici), le coordinate complesse devono soddisfare le seguenti condizioni:
+\begin{align}
+    Q_s^* &= Q_{-s} \\
+    P_s^* &= P_{-s}
+\end{align}
+
+Per semplificare i calcoli, imponiamo delle condizioni al contorno periodiche  (PBC - Periodic Boundary Conditions):
+\begin{equation}
+    q_{n+N} = q_n
+\end{equation}
+Questo equivale a immaginare che la catena di oscillatori sia chiusa a formare un anello.
+
+Con queste definizioni, si può dimostrare che le frequenze normali $\omega_s$ sono date da:
+\begin{equation}
+    \omega_s = 2\Omega \left| \sin\left(\frac{s}{2}\right) \right|
+\end{equation}
+
+\subsection{Quantizzazione del Sistema: I Fononi}
+
+Il passo successivo è la quantizzazione  del sistema. Promuoviamo le coordinate $q_n$ e $p_n$ a operatori hermitiani che agiscono su uno spazio di Hilbert.
+\begin{align}
+    q_n &\rightarrow \hat{q}_n, \quad \hat{q}_n = \hat{q}_n^\dagger \\
+    p_n &\rightarrow \hat{p}_n, \quad \hat{p}_n = \hat{p}_n^\dagger
+\end{align}
+Le regole di commutazione canoniche vengono imposte:
+\begin{equation}
+    [\hat{q}_n, \hat{p}_m] = i\hbar\delta_{nm}
+\end{equation}
+
+Anche le coordinate dei modi normali diventano operatori. Le condizioni di realtà si traducono in condizioni di hermiticità:
+\begin{align}
+    \hat{Q}_s^\dagger &= \hat{Q}_{-s} \\
+    \hat{P}_s^\dagger &= \hat{P}_{-s}
+\end{align}
+
+
+
+% \subsubsection{Operatori di Creazione e Distruzione}
+
+% Per trattare il sistema di oscillatori armonici indipendenti, è conveniente introdurre gli operatori di creazione ($a_s^\dagger$) e distruzione ($a_s$)  per ogni modo normale $s$:
+% \begin{align}
+%     \hat{Q}_s &= \sqrt{\frac{\hbar}{2\omega_s}} (a_s + a_{-s}^\dagger) \\
+%     \hat{P}_s &= -i\sqrt{\frac{\hbar\omega_s}{2}} (a_s - a_{-s}^\dagger)
+% \end{align}
+% Questi operatori soddisfano le seguenti relazioni di commutazione:
+% \begin{align}
+%     [a_s, a_{s'}^\dagger] &= \delta_{ss'} \\
+%     [a_s, a_{s'}] &= 0 \\
+%     [a_s^\dagger, a_{s'}^\dagger] &= 0
+% \end{align}
+% Queste relazioni implicano che gli oscillatori associati a modi normali diversi sono completamente indipendenti.
+
+% L'Hamiltoniana quantistica del sistema, espressa in termini di questi operatori, diventa:
+% \begin{equation}
+%     H = \sum_s \hbar\omega_s \left( a_s^\dagger a_s + \frac{1}{2} \right)
+% \end{equation}
+% Questa è l'Hamiltoniana di un insieme di oscillatori armonici quantistici disaccoppiati.
+
+
+% --- Inizio della sezione da copiare ---
+
+\subsubsection{Operatori di Creazione e Distruzione e Dinamica di Heisenberg}
+
+Per trattare il sistema di oscillatori armonici indipendenti, è conveniente introdurre gli operatori di creazione ($a_s^\dagger$) e distruzione ($a_s$)  per ogni modo normale $s$. Questi sono definiti come:
+\begin{align}
+    \hat{Q}_s &= \sqrt{\frac{\hbar}{2\omega_s}} (a_s + a_{-s}^\dagger) \\
+    \hat{P}_s &= -i\sqrt{\frac{\hbar\omega_s}{2}} (a_s - a_{-s}^\dagger)
+\end{align}
+e soddisfano le relazioni di commutazione bosoniche $[a_s, a_{s'}^\dagger] = \delta_{ss'}$. La loro utilità si manifesta pienamente quando l'Hamiltoniana viene espressa in termini di essi, diventando una semplice somma di energie di oscillatori indipendenti:
+\begin{equation}
+    H = \sum_s \hbar\omega_s \left( a_s^\dagger a_s + \frac{1}{2} \right)
+\end{equation}
+dove l'operatore $\hat{N}_s = a_s^\dagger a_s$ è l' operatore numero  che conta i quanti (fononi) nel modo $s$.
+
+A questo punto, come test di consistenza, verifichiamo che questa Hamiltoniana generi la corretta dinamica temporale per gli operatori. Utilizziamo l' equazione del moto di Heisenberg  per un operatore $\hat{A}$ generico (che non dipende esplicitamente dal tempo):
+\begin{equation}
+    \frac{d\hat{A}}{dt} = \frac{1}{i\hbar}[\hat{A}, H]
+\end{equation}
+Calcoliamo l'evoluzione temporale per l'operatore di distruzione $a_s$:
+\begin{align*}
+    \frac{da_s}{dt} &= \frac{1}{i\hbar}[a_s, H] = \frac{1}{i\hbar} \left[a_s, \sum_{s'} \hbar\omega_{s'} \left( a_{s'}^\dagger a_{s'} + \frac{1}{2} \right) \right] \\
+    &= \frac{1}{i\hbar} \sum_{s'} \hbar\omega_{s'} [a_s, a_{s'}^\dagger a_{s'}]
+\end{align*}
+L'unico termine non nullo nella somma è quello per $s'=s$:
+\begin{align*}
+    \frac{da_s}{dt} &= \frac{\omega_s}{i} [a_s, a_s^\dagger a_s]
+\end{align*}
+Usando l'identità $[A,BC] = [A,B]C + B[A,C]$ e il commutatore fondamentale $[a_s, a_s^\dagger]=1$:
+\begin{equation*}
+    [a_s, a_s^\dagger a_s] = [a_s, a_s^\dagger]a_s + a_s^\dagger[a_s, a_s] = (1)a_s + a_s^\dagger(0) = a_s
+\end{equation*}
+Sostituendo, otteniamo l'equazione differenziale:
+\begin{equation}
+    \frac{da_s}{dt} = \frac{\omega_s}{i} a_s = -i\omega_s a_s
+\end{equation}
+La cui soluzione è l'evoluzione temporale attesa per un oscillatore armonico di frequenza $\omega_s$:
+\begin{equation}
+    a_s(t) = a_s(0) e^{-i\omega_s t}
+\end{equation}
+In modo analogo, per l'operatore di creazione $a_s^\dagger$ si ottiene $\frac{da_s^\dagger}{dt} = i\omega_s a_s^\dagger$, che porta a $a_s^\dagger(t) = a_s^\dagger(0) e^{i\omega_s t}$. Questo conferma che la nostra Hamiltoniana descrive correttamente un insieme di oscillatori armonici quantistici indipendenti, ciascuno oscillante con la propria frequenza normale $\omega_s$.
+
+% --- Fine della sezione da copiare ---
+
+
+
+\subsubsection{Commento su: I Fononi come Quanti di Vibrazione}
+
+Nel contesto della fisica dello stato solido, le eccitazioni quantizzate di queste oscillazioni reticolari sono chiamate fononi . Il fonone è il quanto del suono, così come il fotone è il quanto della luce.
+
+Lo stato del sistema può essere descritto da un ket $|n_1, n_2, \dots, n_s, \dots \rangle$, che indica che ci sono $n_s$ fononi per ogni modo con frequenza $\omega_s$. Dire che un oscillatore si trova al livello energetico $n_s$ è equivalente a dire che nel sistema sono presenti $n_s$ fononi di quella particolare frequenza.
+L'energia di tale stato è data da:
+\begin{equation}
+    E = \sum_s \left( n_s + \frac{1}{2} \right) \hbar\omega_s
+\end{equation}
+Se il sistema non è perturbato, si trova nello stato fondamentale (il vuoto di fononi), dove tutti gli $n_s=0$. Se la sbarra viene colpita (ad esempio, con un martello), il sistema passa a uno stato eccitato, che può essere descritto come un "gas" di fononi.
+
+
+
+
+% \subsection{Dimostrazione della Diagonalizzazione dell'Hamiltoniana}
+% Vediamo come il cambio di coordinate diagonalizza l'Hamiltoniana. Analizziamo i due termini dell'Hamiltoniana separatamente, per un sistema di $N=2$ oscillatori.
+
+% \subsubsection{Termine Cinetico}
+% Il termine cinetico è $\sum_n \frac{p_n^2}{2}$.
+% \begin{align*}
+%     \sum_n p_n^2 &= \sum_n \left( \sum_s \frac{e^{-isn}}{\sqrt{N}} P_s \right) \left( \sum_{s'} \frac{e^{-is'n}}{\sqrt{N}} P_{s'} \right) \\
+%     &= \frac{1}{N} \sum_{s,s'} P_s P_{s'} \sum_n e^{-in(s+s')}
+% \end{align*}
+% La somma su $n$ dà $N\delta_{s,-s'}$. Quindi:
+% \begin{equation*}
+%     \sum_n p_n^2 = \sum_s P_s P_{-s} = \sum_s |P_s|^2
+% \end{equation*}
+
+% \subsubsection{Termine di Potenziale}
+% Il termine di potenziale è $\frac{\Omega^2}{2} \sum_n (q_n - q_{n+1})^2$. Per $N=2$, con PBC ($q_3=q_1$), questo diventa $\Omega^2(q_1-q_2)^2$.
+% \begin{equation*}
+%     \Omega^2(q_1-q_2)^2 = \Omega^2(q_1^2 + q_2^2 - 2q_1q_2)
+% \end{equation*}
+% Analizziamo i due pezzi:
+% \begin{itemize}
+%     \item $\mathbf{q_1^2+q_2^2 = \sum_{n=1}^2 q_n^2}$:
+%     \begin{align*}
+%         \sum_n q_n^2 &= \sum_n \left( \sum_s \frac{e^{isn}}{\sqrt{N}} Q_s \right) \left( \sum_{s'} \frac{e^{is'n}}{\sqrt{N}} Q_{s'} \right) \\
+%         &= \frac{1}{N} \sum_{s,s'} Q_s Q_{s'} \sum_n e^{in(s+s')} = \sum_s Q_s Q_{-s} = \sum_s |Q_s|^2
+%     \end{align*}
+%     \item $\mathbf{2q_1q_2 = \sum_n q_n q_{n+1}}$ (per $N=2$):
+%     \begin{align*}
+%         \sum_n q_n q_{n+1} &= \sum_n \left( \sum_s \frac{e^{isn}}{\sqrt{N}} Q_s \right) \left( \sum_{s'} \frac{e^{is'(n+1)}}{\sqrt{N}} Q_{s'} \right) \\
+%         &= \frac{1}{N} \sum_{s,s'} Q_s Q_{s'} e^{is'} \sum_n e^{in(s+s')} \\
+%         &= \sum_s Q_s Q_{-s} e^{-is} = \sum_s |Q_s|^2 e^{-is}
+%     \end{align*}
+% \end{itemize}
+% Combinando i termini:
+% \begin{align*}
+%     \frac{\Omega^2}{2} \sum_n (q_n - q_{n+1})^2 &= \frac{\Omega^2}{2} \sum_s |Q_s|^2 (1 - \cos(s)) \cdot 2 \\
+%     &= \Omega^2 \sum_s |Q_s|^2 (1-\cos(s))
+% \end{align*}
+% Usando l'identità trigonometrica $1-\cos(s) = 2\sin^2(s/2)$:
+% \begin{equation*}
+%     = \sum_s |Q_s|^2 (2\Omega^2 \cdot 2 \sin^2(s/2)) = \frac{1}{2} \sum_s |Q_s|^2 (2\Omega|\sin(s/2)|)^2 = \frac{1}{2} \sum_s \omega_s^2 |Q_s|^2
+% \end{equation*}
+% L'Hamiltoniana totale diventa quindi:
+% \begin{equation}
+%     H = \sum_s \left( \frac{|P_s|^2}{2} + \frac{1}{2}\omega_s^2 |Q_s|^2 \right)
+% \end{equation}
+% che è la forma disaccoppiata che volevamo ottenere.
+
+% --- Inizio della sezione da copiare ---
+
+\subsection{Dimostrazione della Diagonalizzazione dell'Hamiltoniana}
+
+Per illustrare come il cambio di coordinate riesca a diagonalizzare l'Hamiltoniana, esamineremo in dettaglio la trasformazione. Per rendere l'algebra più trasparente, eseguiremo la dimostrazione per un caso semplificato ma pienamente rappresentativo: un sistema con N=2 oscillatori  e condizioni al contorno periodiche (PBC), per cui si impone $q_3=q_1$.
+
+\subsubsection{Termine Cinetico}
+Il termine cinetico, $T = \sum_{n=1}^2 \frac{p_n^2}{2}$, viene trasformato come segue. La derivazione è generale e si applica a qualsiasi valore di $N$.
+\begin{align*}
+    \sum_{n=1}^2 p_n^2 &= \sum_{n=1}^2 \left( \frac{1}{\sqrt{2}} \sum_s e^{-isn} P_s \right) \left( \frac{1}{\sqrt{2}} \sum_{s'} e^{-is'n} P_{s'} \right) \\
+    &= \frac{1}{2} \sum_{s,s'} P_s P_{s'} \sum_{n=1}^2 e^{-in(s+s')}
+\end{align*}
+La somma su $n$ funge da delta di Kronecker discreta, risultando in $2\delta_{s,-s'}$. Questo semplifica il doppio sommatorio:
+\begin{equation*}
+    \sum_n p_n^2 = \frac{1}{2} \sum_{s,s'} P_s P_{s'} (2\delta_{s,-s'}) = \sum_s P_s P_{-s} = \sum_s |P_s|^2
+\end{equation*}
+
+\subsubsection{Termine di Potenziale}
+Consideriamo ora il termine di potenziale, $V = \frac{\Omega^2}{2} \sum_{n=1}^2 (q_n - q_{n+1})^2$. Per il caso N=2 con PBC, la somma si riduce a:
+\begin{equation*}
+    V = \frac{\Omega^2}{2} \left[ (q_1 - q_2)^2 + (q_2 - q_1)^2 \right] = \Omega^2(q_1-q_2)^2
+\end{equation*}
+Espandendo il quadrato, otteniamo una forma più comoda da trasformare:
+\begin{equation*}
+    V = \Omega^2(q_1^2 + q_2^2 - 2q_1q_2)
+\end{equation*}
+Analizziamo la trasformazione di ogni pezzo nei modi normali.
+
+\textbf{Passaggio 1: Trasformazione di $q_1^2 + q_2^2$}
+Questo termine è $\sum_{n=1}^2 q_n^2$. La sua trasformazione è formalmente identica a quella del termine cinetico:
+\begin{align*}
+    \sum_{n=1}^2 q_n^2 &= \sum_{n=1}^2 \left( \frac{1}{\sqrt{2}} \sum_s e^{isn} Q_s \right) \left( \frac{1}{\sqrt{2}} \sum_{s'} e^{is'n} Q_{s'} \right) \\
+    &= \frac{1}{2} \sum_{s,s'} Q_s Q_{s'} \sum_{n=1}^2 e^{in(s+s')} \\
+    &= \frac{1}{2} \sum_{s,s'} Q_s Q_{s'} (2\delta_{s,-s'}) = \sum_s Q_s Q_{-s} = \sum_s |Q_s|^2
+\end{align*}
+
+\textbf{Passaggio 2: Trasformazione di $2q_1q_2$}
+Questo termine di accoppiamento per N=2 con PBC è $\sum_n q_n q_{n+1}$. La sua trasformazione è:
+\begin{align*}
+    \sum_{n=1}^2 q_n q_{n+1} &= \sum_{n=1}^2 \left( \frac{1}{\sqrt{2}} \sum_s e^{isn} Q_s \right) \left( \frac{1}{\sqrt{2}} \sum_{s'} e^{is'(n+1)} Q_{s'} \right) \\
+    &= \frac{1}{2} \sum_{s,s'} Q_s Q_{s'} e^{is'} \sum_{n=1}^2 e^{in(s+s')} \\
+    &= \frac{1}{2} \sum_{s,s'} Q_s Q_{s'} e^{is'} (2\delta_{s,-s'}) = \sum_s Q_s Q_{-s} e^{-is} = \sum_s |Q_s|^2 e^{-is}
+\end{align*}
+
+\textbf{Passaggio 3: Combinazione dei termini}
+Sostituiamo i risultati dei passaggi 1 e 2 nell'espressione per $V$:
+\begin{equation*}
+    V = \Omega^2 \left( \sum_s |Q_s|^2 - \sum_s |Q_s|^2 e^{-is} \right) = \Omega^2 \sum_s |Q_s|^2 (1 - e^{-is})
+\end{equation*}
+Poiché $V$ deve essere reale, possiamo sostituire $e^{-is}$ con la sua parte reale, $\cos(s)$, dato che la parte immaginaria si cancella nella somma su $s$ e $-s$:
+\begin{equation*}
+    V = \Omega^2 \sum_s |Q_s|^2 (1 - \cos(s))
+\end{equation*}
+Utilizzando l'identità trigonometrica $1-\cos(s) = 2\sin^2(s/2)$ e riconoscendo la definizione di frequenza normale, $\omega_s^2 = 4\Omega^2\sin^2(s/2)$:
+\begin{align*}
+    V &= \Omega^2 \sum_s |Q_s|^2 \cdot 2\sin^2(s/2) \\
+      &= \frac{1}{2} \sum_s |Q_s|^2 \left( 4\Omega^2 \sin^2(s/2) \right) = \frac{1}{2} \sum_s \omega_s^2 |Q_s|^2
+\end{align*}
+
+\subsubsection{Risultato Finale}
+Combinando il termine cinetico e potenziale trasformati, l'Hamiltoniana totale assume la forma di una somma di Hamiltoniane di oscillatori armonici indipendenti:
+\begin{equation}
+    H = \sum_s \left( \frac{|P_s|^2}{2} + \frac{1}{2}\omega_s^2 |Q_s|^2 \right)
+\end{equation}
+che è la forma disaccoppiata e diagonalizzata cercata.
+
+% --- Fine della sezione da copiare ---

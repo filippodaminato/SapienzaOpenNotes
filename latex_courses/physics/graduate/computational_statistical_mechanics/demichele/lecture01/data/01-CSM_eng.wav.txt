@@ -1,0 +1,918 @@
+ Please switch. So this is me. So the judge did us to say that if you want to do the results on YouTube, right?
+ If you want, probably you can easily reach me to Google. And if you want an appointment, please send me an email and then we will, I mean, there is an official exception now, but if you want, I mean, send me an email and you will have an appointment, just to say this.
+ The lecture will be here and in our office. You know, in total, I will give like 21, 22 lectures of theory, let's say, where I will show you how to sum the basics behind the standard techniques, which are from Ricardo and Weber and Dynamics.
+ So, possibly, because we learned one week before Christmas, the last week before Christmas, so it's like around half of December.
+ In addition to this, we will have also practical classes.
+ On Tuesday, we start next week. So next week, we will start the practical classes.
+ We will take the hour for each lecture, and the idea is to, during this lecture, I will teach
+ how to implement the code, or how to write your own code to implement the algorithm, which
+ we will discover in a better direction.
+ The practical classes, maybe we will have 10 to 12 practical classes, it depends, probably
+ there will be also extra classes if you need, also in general, it happened in the past to
+ have also extra lessons as to help you finalize your project, because during these classes the
+ idea is that to develop with me the project, I will give you several projects for the final
+ exams, and I will let you realize in this project, so we will put this together and I will give you all the inputs, possibly starting from scratch, also about the C++, so I don't want to assume that you know C++, maybe some, you know, it's good if you have some idea of C, but I guess you have an idea of how
+ you can program to write the wrong one. So, at least, I mean, in principle, you can also learn C++ from scratch without knowing C. Some students in the past, they didn't know anything about programming, but in the end, they were able to do their own project.
+ The simulation code for the final project. I will come back to this, about the evaluation and the project.
+ So, in order to know, in principle, you are not obliged to attend the practical classes, neither the technical classes.
+ So, in order to know how many students have left, I will ask you to go to the learning page for the course.
+ At least sign up, because you know the learning page, but sign up for this course, the learning page of the course.
+ And this, on top of the page, you find a link to a questionnaire. Please fill in this questionnaire so that we know how many people, it's a way to know how many people want to attend the practical classes.
+ Please, go to the learning web page of course and fill the questionnaire. You'll find the link on top, it's a Google questionnaire. Please fill this questionnaire.
+ And do this possibly within this week, because this week we'll start with the practical classes.
+ Okay. As you know, this is why, I mean, there will be all the standard, you know, possibility for you to do the exam, but I would like to give you some information about the way the exam and the way I'm going to evaluate you.
+ In baseball, you can also come and just decide to study one single argument and I will give you, you'll find all the information.
+ So I will give you, we split the course into several topics.
+ And if you prepare one topic, you can get maximum 25 over 30.
+ This is the minimum, if you have just one argument, let's say Monte Carlo simulation, you can get at most 25.
+ On top of this, of course, you can also prepare a project, as I said.
+ And for this final project, I will give you a list of the fulfilled project in new time, like essentially possibly end of November, I don't know.
+ I will give you this list of possible projects, and if you do this project, you can get up to four points.
+ So, if you just decide to prepare one argument, one topic for this course, plus the project, and you get the maximum, you get 29.
+ But if you decide to prepare the whole course, like all the arguments plus the project, for you can get possibly also 30.
+ So this is actually a question on this, so, okay.
+ Of course, about the different project, but I will have time to discuss this.
+ Of course, you will have a friend, a plus part friend, in your studies, which is Chat CPT or Gemini or whatever, you can, of course, ask him to help you, and it's quite convenient.
+ I recommend you to do this, because it's a very useful tool, but, I mean, for the evaluation of the project, there will be, you know, a text for this project, you find, I will give you, but I will appreciate also what you are going to do more than what I have written in the project.
+ Meaning that, of course, you can ask CPT to do what is, to do the project, to help you, but I will also appreciate your contribution.
+ Because, of course, just CPT generally, they know what they have been fed in, let's say.
+ They know what they have been trained to know, but there is something more, of course, it's your contribution, your contribution.
+ Still, we have something to add to this, you know, which is our creativity.
+ So, anyway, this is .
+ So, anyway, I would strongly suggest you to use these tools.
+ Maybe all of you know, because, especially, you know, every language, and you know, very well, so C++, many languages, you know, so, etc.
+ It's really a good tool to, but you have to use it, I mean, being aware of what you're doing, of course, not like.
+ But, I mean, especially last year, and also two years ago, but last year, especially, also, many students started to use it, and through C++, they were able to start from scratch, and then C++,
+ and one of the students now is, for example, is a master who is very good, he started from scratch, the project, and then he kept working on this project, he became, you know, a master for this project, and now it's about to get his master.
+ So what are the goals of this course?
+ We are learning the basics of Monte Carlo simulation and molecular dynamics simulation.
+ So that you will be able to write your own code if you will learn C++ or whatever language you want to, or at least to use simulation package.
+ Nowadays, of course, a possibility is that in the past the simulator was the guy who wrote his own code.
+ Nowadays, I mean, there are many packages like, I mean, you know, lamps, chromas, which you can use to carry out simulation.
+ But of course, in any case, you have to know the basics of the techniques of the molecular dynamics in order to use these packages.
+ At least to use them 100%, by exploiting 100% of their possibilities.
+ So, the goal is to use, for the final example, for the final problem, you have to write your own code.
+ You are not allowed to use the package, but you have to know that, nowadays, many packages you can use without writing your own code.
+ Even though, of course, what you use is the flexibility.
+ Whenever you write your own code, it's much better to...
+ First, you know better what you are doing and, of course, you have much more flexibility since you can customize your own code.
+ In any way.
+ Okay, the question on this.
+ So, this is the problem.
+ So, about the reactions, the theoretical part, which will be here.
+ This, let's say, 21, 22 actions.
+ In this part, first, we will start with some records.
+ There are reports of statistical mechanics to tell you what I assume,
+ the basic things I expect you to know in order to grasp what we follow.
+ And after that, we will start with one another.
+ I assume that, I guess, that all of you know the technique,
+ because during the second year lab, you learn something about Monte Carlo,
+ you know.
+ But we want to consider in this course of last is Monte Carlo,
+ and we want to have some special techniques,
+ biasing, and some techniques to boost Monte Carlo.
+ And so this is also what I'd like to discuss, to show you.
+ Of course, we'll show you also interaction potential,
+ which is now very important,
+ because nowadays the interaction potential in the power,
+ I mean, all of you know the potential, I think,
+ but nowadays the interaction potential
+ can be also built from neural networks,
+ and this is a very hot topic also in the the thesis
+ where you can build your own network
+ which will have interaction potential,
+ this is a very effective way to speed up simulations,
+ we will discuss also typical interaction potential use in the past,
+ and I will just tell you briefly how you can use also
+ machine-led potential.
+ And then of course there are the standard optimization techniques,
+ which we use since the beginning of computer analysis,
+ and after this first part we will switch to weather dynamics,
+ and I will tell you a state-of-the-art approach to create an algorithm
+ which is based on the symplectic formulas,
+ which is very effective to build new algorithms,
+ and then we will discuss also what are called multiple time-step algorithms,
+ which is a technique to speed up simulation,
+ and then I will also show you some basics about the ways to control temperature,
+ other stuff like pressure,
+ of course whenever you want to simulate from a simulation of a complex system,
+ you have to, it is very convenient to control temperature and pressure,
+ and then I will also show you some,
+ I will also tell you something about the constraints,
+ which is the way to reduce the number of degree of freedom in the system,
+ because the idea of simulation is to perform,
+ to simulate the complex system,
+ system made of many degrees of freedom,
+ and of course it's important to possibly reduce this number of degrees of freedom
+ to do what is called graining,
+ in order to speed up the simulation,
+ even if you use the most powers for computers,
+ it's better to save time,
+ or in other words to carry out or simulation of larger systems.
+ So economic constants are a way to do this.
+ And then I will also detail something which is another way
+ to get rid of some degree of freedom in the system
+ and speed up simulation,
+ which is a thing you can find,
+ many also simulation packages.
+ These are the lectures.
+ About the laboratory,
+ the idea is to use C++,
+ because, yes, I grew up with C,
+ but C is not really so...
+ It's a good way to learn how to program,
+ how to code,
+ but C++ is an attempt to improve on C
+ and to make it better,
+ it's more pleasant to code in C++ than in C,
+ and so I would like you to use C++,
+ and so I will, during the first lectures in the practical classes,
+ I will tell you something briefly about C++,
+ about the, in general, the object-oriented programming,
+ and then I will give you an example,
+ and then the idea is to, during the first part of the class,
+ is to develop together a class for ending vectors and matrices.
+ We write the wrong class to handle, to manage,
+ to make computation vectors and matrices.
+ And after that, we will start after this introduction,
+ which is just the way you to start learning C++.
+ After that, we will start the implementation of Monte Carlo and Deco.
+ Very simple codes.
+ And of course, we start from these codes to develop a problem.
+ We expand these codes.
+ These are the references.
+ You will find this also there on the end.
+ The most, the text which I know the most used to learn,
+ simulation and understanding whatever simulation from Franklin has been there,
+ which is a very good text, but the text is good, apparently simple,
+ but it's less simple than it can, you know, it is more complicated than you may imagine that reading it initially.
+ I mean, it's good, but that's why possibly another good text is the text .
+ There is also a division, which is, you know, the first edition of the world is from the 80s.
+ But now there is a revised second edition, which is why it's good because Arlen is telling you all the details.
+ He will tell you all the details and he's not, you know, adding anything under the carpet.
+ So like Frankl sometime does. Frankl is mid sometimes too.
+ So what Arlen did is he and Frankl are two good books and that is also Mark Tachemann,
+ because Mark Tachemann is the inventor, let's say, of the one who developed,
+ who used the symplectic formalisms to say implement these formalisms.
+ And so there about the symplectic formalism to find many useful information because of this.
+ So it's very good.
+ This one probably you can ignore because it's mostly for dynamic dynamics,
+ but this year I've got to skip this part.
+ So it's a good book also.
+ In general, I mean, it's a good book for dynamic dynamics,
+ but possibly it is enough for you to use a line frame and a different type.
+ Then about, I mean, the theory is simply used for the statistical mechanics part,
+ and there are also details about simulation in this book of science.
+ There is a standard book for learning something about the theory behind liquids.
+ I don't know how many of you are attending the course on liquids, just one?
+ You will use this textbook because it is one of the textbooks suggested by John Wilson.
+ And the most important channel for information will be the Google Classroom.
+ So if you intend to attend this course, please sign up for this classroom.
+ There I will, you can find the link in the learning web page.
+ On top of the learning web page, you'll find the link to sign up for this classroom.
+ And there you'll find, I will upload, you know, exercises, whatever it may be.
+ In particular, I also will upload the notes of the course.
+ And I will try to upload the course in advance.
+ So you will have, before the lecture, the notes of the course which I will use.
+ So that you'll be able to give a look at them and to use them to better, you know, form of the lecture itself.
+ So there you'll find, last year I tried this for the first time.
+ It worked out, apparently, the students were quite happy with this, so that you will be able to use your own tablet or to print the notes and take notes.
+ I mean, I will discuss them, so you will be able to modify these notes during the lecture.
+ So it's important, because they are not, I mean, they are supposed to be enough for you to study the work course.
+ I mean, they are really, you can use them like the official course notes in a form that is quite useful for you.
+ They are supposed to be quite clear, like, you can compare them, but actually they are supposed to be enough and clear enough for you to study what you need about the theory for this case.
+ And then, about the C++, what I recommend most is this book, Data and Data, especially if you want to start from scratch, because this book does not assume that you know C or whatever language. Start from scratch, C++.
+ It's very good. There are many examples and many typical errors discussed. It's very nice book to start from scratch.
+ So if you are not aware of, if you do not know C++ or if you know C, this is a good book to start.
+ And then, of course, another recommended book is the reference book for C++, which is because it's the father of C++.
+ But this book is more fun and less probably a bit more difficult to use as a first book on C++.
+ And then there is also this one at an intermediate level for you, for all of you who know already C++.
+ But my suggestion is to start with this if you find it.
+ There are many ways to get your story.
+ So if there are no questions about what I told you so far?
+ No?
+ Very good, so we can go ahead.
+ By the way, typically we start the portal past the hour.
+ And we will make 14 breaks between the parts.
+ So this is now the second part where I want to just quickly tell you a brief history of computers.
+ And I'm going to show you what are the systems which we will consider, considering simulations.
+ Of course, I don't know, are there any of you who attended my channel of Laboratronic Art?
+ For you, some slides won't be new, but okay.
+ So, because, possibly this one, because you don't know that even nowadays,
+ a strong motivation for the computer, also quantum computer and whatever,
+ is, you know, typically military, it's typically motivated by military applications.
+ The computer were used to develop the first nuclear bomb,
+ but more like, by failing the data, so you know those elements,
+ but you know that in the case computer were used like, you know,
+ the machine to do calculations and not more to really simulate,
+ but the very first application, like the computer,
+ used to really simulate what happened in a nuclear weapon,
+ is this, this is the first application.
+ The first success, real success, it was like a real explosion,
+ and the fact that the first ion-gel bond was a success,
+ unfortunately, it was due to any computer, the computer used at the time.
+ After the success, of course, you know that nowadays there are many more interesting applications,
+ like playing games, playing games, like PlayStation or whatever,
+ but of course computers are also useful to perform simulation,
+ to perform, to study a complex system, but it's more than that.
+ It's not like, it's really now, nowadays, if you compute a way to do physics,
+ because you know that if you want to carry out calculations by hand, it's impossible.
+ If you want to do the calculation in oneself.
+ Like, you are able to solve what? I mean, the monocylator, what you can do?
+ The evolution of one particle, two, three, no?
+ The particle is complicated, you know the trip body problem,
+ I think you know also the TV series of this, the book, I don't know,
+ but it's too complicated.
+ And by computer you can solve the equation and you can do physics.
+ And I will come back to this, because it was very important,
+ because nowadays it's not only about carrying out simulation,
+ it's about studying models of the world.
+ And the only way you can do this in computer,
+ and the beauty of computer simulation is that you can carry out simulation,
+ and at the same time you can also do
+ calculation of the model which you are using, so that you can compare.
+ And this is the unique opportunity offered by computers.
+ That's why of course we have here a course, several courses on computers,
+ the courses you attend during the first two years,
+ and why everyone is supposed to use a computer.
+ So it's possible to skip this.
+ And in 1953, Metropolis and his group for the first time
+ were allowed to use the computer used during the Civil World War,
+ to carry out simulation of complex systems.
+ And Metropolis is the father of Monte Carlo's approach to reform simulation.
+ Of course, what happened before the computers, before the Second World War?
+ Of course, typically you have mechanical computing machines, there is a rule.
+ So what you did is you carried out the experiment, and then you had the theory, and typically you were not able to do much.
+ You needed to resolve to approximation, even stronger approximations, in order to do some calculation,
+ and you were able to compare with the experiment of the model of the real world.
+ You cannot really simulate the real world but model of the real world, but it was quite limited.
+ Indeed mechanical computers, they were used for developing the first nuclear bomb, not the hydrogen bomb.
+ Of course mechanical computers, for example, if you click the time of the system,
+ if you can mis-realize that this is a time, because here you have a mass, a length, and an energy,
+ and this one is giving you a time, so if you take this like a characteristic time,
+ and if you consider a mechanical system like a mechanical computer,
+ of course at least you have to deal with objectivity time, let's say with a mass of around 0.1 kg,
+ you have legs typically, probably a bit optimistic,
+ but probably here at the same 10 cm, but of course they are larger,
+ but I'm trying to be optimistic to say that the size is very small,
+ and energy, typical energy of a mechanical system,
+ so if you use this typical quantity, you end up with a frequency around 300 Hz.
+ But all of you know that even your mobile phone outperforms a lot your mechanical computers
+ because the typical you know frequencies of mechanical computers were far too small compared to your laptop.
+ But before computers what happened so how physicists started you could do you know mechanical calculations
+ but there were also physicists like Bernal for example who performed what they are called mechanical simulations.
+ What Bernal did? Bernal took typically two rubber balls or ball bearings or balls of metal balls, metal spheres
+ and he put these spheres into a box and he studied all the microscopic spheres.
+ Typically, he was his secretary doing this through very bad job of accounting for counting how many, you know,
+ for counting how many atoms you find given the position of one atom.
+ For example, if you want to build the radio execution function, you have to take one atom and say how many atoms are at a given distance.
+ This work typically was done by a secretary and so these are mechanical simulations, this is an alternative to theoretical calculation.
+ But as you can easily realise, you could not go much far with this. You can do something and Bernal was a fan of this approach.
+ He was not convinced by the power of the computer, he tried to keep using this approach.
+ I mean, eventually, Bernal has to give up and accept the idea that the computer is much better in a simulated complex system.
+ So, indeed, during the fifties, as I said, a new way of doing physics emerged.
+ This new way was based on computer simulation and so in addition to experiments theory, now you have computer simulation of a complex system.
+ When, no matter if the system is quantum classical, this is not the point.
+ The point is that we are solving the equations of the system we are studying.
+ And the beauty of this new way of doing physics is that now, if you are able to build the model of a physical system,
+ you can do both theory and simulation.
+ And you can also refine the model, do calculation based on the result of the simulation, the other way up,
+ carry out simulation based on the theory you are trying to diagnose.
+ So it's a really good way of doing physics.
+ So now you can play with both theory and simulation, and you can try to use both in order to provide a better description of the real system,
+ and possibly compare with these patterns. And it depends also on the landscape you want to study. If you consider landscapes much larger than, let's say, Armstrong, and you switch to what is called soft matter physics,
+ there, on that landscape, starting from, say, nanometer up to micron, on that landscape, you can really play with the particles, geometry and interactions.
+ You can build your nanometer, you can really design particles and study them with simulation theory accordingly, but you can really change the particles.
+ Imagine that you have a water molecule, a water molecule, of course, you cannot change the angles of the two hydrogens.
+ It's a water molecule, you can perform simulation of water.
+ But if you move to landscape, which are a bit larger, you can now design particles like a water molecule, a bit larger,
+ of course, as we said, but where you can play with the angles, playing with the interaction, you can play with all the aspects of the molecule you want to change.
+ And this is very powerful because this way you can design new materials.
+ That's why nowadays the soft matrix is really valuable because you can really design the physical properties of the material by playing with the geometric interaction of the single particle you are using for that material.
+ It is very, very valuable.
+ Also, as I have said already, now we are around gigahertz, so it is compared to 100 of hertz, and so we are talking of millions of machines, computers which are, I mean, a million of times faster than becoming a computer.
+ And so to give you a recap of this history of computer simulation, a boost given by the Second World War, but in the 50s when the computer were released for public use, Metropolis exploited for the first time computers and developed a technique to study computer systems, which is Monte Carlo technique.
+ And just a few years afterwards, Brahmann and others used also other techniques, which is molecular dynamics, and they started using study systems by computers.
+ And this is the Maestro paper, which is the paper of Metropolis, where he described all the details of what is called now the Metropolis Monte Carlo technique.
+ This is the important paper about the computer in physics.
+ The most important result was the solution of a problem which was very important at the time, which is the following.
+ This problem has been solved through a molecular time simulation by Bernie Alger and the question at the time was, can a sphere have a stable crystal?
+ So, imagine that you have spheres made of metallic spheres, you put them in a box and you watch, which I show you, and the idea is, what you get of these spheres, possibly, you can get out of the sphere a stable crystal, what do you think?
+ I will ask you to, you know, so it is possible to get a crystal out of the sphere, because typically the idea of a crystal is that you have no oscillation around a minimum for the energy for the atoms, but if you have arc balls, you do not have any interaction other than the possibility of not overlapping, let's say.
+ Okay, so you can be inclined to think that this is not the case, it is not impossible to have, you know, a crystal, where all these spheres are positioned on lattice, because there are, there are,
+ in a conference in New Jersey, in 1957, this question has to be asked to fix it, among them there were two Nobel Prize, and the answer was that half of the audience answered yes, half of the audience answered no, it is impossible to obtain a crystal out of, a stable crystal out of a system made of hard spheres, spheres like metallic spheres.
+ It was not so a trigger question, it wasn't in the, and how physicists were able to answer this? Through computer simulation, where Riyad showed that through a computer simulation of hard spheres, he was able to show that indeed a stable crystal made it.
+ So there would be a first-order transformation, hard spheres, metallic spheres, and you increase the concentration, at that point you end up with the first-order transition.
+ Why is it possible?
+ There is no energetic contribution.
+ There are, they cannot overlap.
+ The energy is like, the interaction energy is either infinite to zero.
+ If the overlap stays, they cannot overlap with zero.
+ It is possible because of entropic regions, for instance.
+ Of course, whenever you increase the concentration,
+ you will have, the spheres will have more accessible states
+ if they are positioned on the lattice rather than randomly.
+ That's the reason.
+ But, I mean, I'm telling you like it is triggered.
+ But at that time, I remind you that it was not clear to physicists that this is the case.
+ It's triggered because now we know and we have to know how we are in the...
+ I mean, we have defined that this is the case, but at that time it was not so clear.
+ The computer for the first time, I mean at least Alder was more computer programmer,
+ but Alder was more computer programmer.
+ The physicist in this case, that Alder and we have proved for the first time the predictive power of the computer.
+ The ability of the computer to give you answers to physical problems.
+ After that, of course, the use of computer became rather ubiquitous, let's say, in the world, and physically started to use computers.
+ In 1959, for the first time, the Weiner group used computers to study the damage of radiation
+ from a copper crystal.
+ And after this, in this paper, they for the first time used what's it called,
+ a display, now we are used to the liquid crystal display of your laptop,
+ but at the time it was also a kind of revolution to, for the first time,
+ to have the possibility to show the position of the hardware simulating,
+ and possibly also they're dynamic, so it was, you know, something really practical to have,
+ so displaying the hardware as dots on a display, on a monitor.
+ This is nice to...
+ And after that, Rahman, for the first time,
+ started the first, you know, model of global gas, argon,
+ through possible suitable model, which is the interaction,
+ and you study this system to complete the simulation.
+ OK.
+ And we also discussed .
+ Which you can use to compare results with experiments.
+ Rahman was giving this paper,
+ making results directly comparable with experiments.
+ Experimentally.
+ After the end of the course,
+ after this, you know,
+ fundamental works on computer,
+ they use a lot of computers,
+ like the work of Rahman,
+ the use of computer in the '60s and the '70s
+ started to become very wide
+ and up to a conference,
+ which is the school,
+ which is the Varenna School in 1985
+ where the physicists
+ that was now
+ the use of computers like a tool to do physics.
+ This is the point, not to do physics,
+ to also discover new physics.
+ Okay, so this is the scenario now
+ which holds down A,
+ which is where, as I have shown you before,
+ where you have experiments,
+ and then you build a model of your real world,
+ and then with this model you can do either theory and simulation,
+ and you try to provide a good description of the experiment
+ based on this mutual interaction between theory and simulation.
+ So this is a real system,
+ and in any case you use a model of the real world,
+ even if you use only the equation,
+ you can model of the real world.
+ In the end it's a model, a way to model the reality,
+ and of course as long as you reduce and cut the real freedoms,
+ if you do, for example, like co-screening, as I said,
+ you try to repeat the real freedom,
+ you try just to reduce the complexity of the system,
+ so you have to be able to carry out longer
+ or the simulation of the other system and the simulation of the other system.
+ So, after this I would like just to discuss examples of complex systems.
+ This is an example of system which you can study effectively through computer simulation.
+ But as I promised now it is time to have a short break of 15 minutes.
+ Here you can find the classroom link and this one is the link to the question as I said before about you have to fill within the screen in order to determine who wants to attend the practical classes.
+ Okay, and the second thing is that for the practical classes you can use your own laptop.
+ It's also suggested, I mean, strongly, you are strongly encouraged to use your own laptop,
+ because they are not there on computers, but if you have a laptop it's easier to keep closing.
+ So it's, and in this way, because in the computers or the computer of the lab,
+ there is two ideas like Visual Studio Code.
+ So it's, you have to use Emacs and compile the code by, you know, from CommonLine.
+ So in this way, you can install Visual Studio Code,
+ but it's better for you to use.
+ Last year, all the students have their laptop and use Visual Studio Code.
+ This is what I suggested.
+ OK, so now I will try to give you some example of a problem.
+ Of course, this course is about classical simulation.
+ We won't do any quantum Monte Carlo or Campanello
+ in chart techniques to account to solve,
+ in some approximation, the Schrodinger equation.
+ We use classical equation.
+ You will solve classical equation.
+ But, nevertheless, you are able to solve,
+ to study very interesting complex.
+ Of course, especially if you focus on scale,
+ on length scales, which are above one or a meter.
+ But let's start with an example.
+ For example, let's consider a thin film,
+ superconducting film,
+ where this is an image taken from STS microscopy,
+ but this is a thin film,
+ superconducting film,
+ which behaves like a type 2 superconductor.
+ In type 2 superconductor,
+ in a typical superconductor,
+ the magnetic field is not able to enter
+ the center of the superconductor,
+ but the magnetic field partially enters the center of the superconductor.
+ In particular, if we have a field,
+ there is no spot where the field is able to penetrate the superconductor.
+ And in particular, this, you know, spot where we have this penetration of the field
+ are called vortices, where we have the superconducting current around the field.
+ So the field is, the binary field is, you have a field,
+ and the field is this way.
+ And this spot is where the field is able to penetrate,
+ in these type 2 superconductors.
+ And you have that around this spot, in this spot,
+ which is able to have super currents.
+ And why I'm telling you this?
+ Because these, you know, let's say, vortices,
+ I mean, regions, small regions where the field is able to penetrate,
+ being like as 2D particles.
+ I mean, what I mean is that, I will show you something more later,
+ but this spot has circular region where the field is able to penetrate the superconductor,
+ it moves and behaves like a 2D fluid.
+ And you can study this system through computer simulation based on classical evolution.
+ And get very interesting results out of this.
+ Another classical example is computer simulation, you know the principle of the enterprise for studying glasses.
+ And glasses are an example of system in physics which are studied typically in a classical way.
+ And what is a glass?
+ Whenever you supercool a liquid down to very low temperature, if you supercool very quickly, quickly enough, the liquid is able to skip its natural isotropic crystal transition, the phase of the transition, it can become glass.
+ A system which is disordered but behaves at the same time like a solid.
+ It's an amorphous solid, so it's a solid where you do not have a lattice, where the particles are not placed onto a lattice.
+ This is the idea of a glass.
+ And this system, glasses, or superfueled liquids, have been widely studied and today they are studied by computer simulation.
+ Since I am talking about the liquid, I am referring to the case of lattes simulation, where we have the fluid, but of course I am also...
+ It is also interesting to restrict two lattes, like a laser model, and study model of glasses on lattes.
+ This is also the study of spin glasses, which is a study of a system, where you have a lattice.
+ So it is not like the case I am thinking of discussing this where the particle is real.
+ So it's, anyway, so the DNA is the same, so you have this, is that you have a transition, you avoid the first of the transition to a crystal and you get, if you, if you crash the system fast enough, you get a glass.
+ An example of systems where the use of classical integrators, so I referred to this system before as soft milk.
+ An example of a product system is milk, because milk is not simply water, but it's a suspension of many things.
+ It's another stuff, sugar or whatever, but the point is here that we have a solvent, this is the general definition of a solvent, and on which you have a suspension of particles whose size is of the order of one nanometer or more.
+ So they are large enough.
+ In this equilibrium system, of course, by this definition, all of you here in this room we have many examples of equilibrium systems.
+ All of you is equilibrium system out of equilibrium one, but you are in suspension, you are mostly done by mover,
+ and you are suspended into this water like lipids, possibly not that much, proteins and whatever.
+ Okay, so this means that some matter addresses a huge, it's also related to biophysics,
+ by this definition we are also in the biophysics field.
+ So that's why it's very important to study this system, which are called colloid,
+ because colloid comes from the Greek, it's kind of blue, this is the meaning of colloid,
+ and because this system typically whenever you reduce the temperature,
+ for example, you get like the cherry, which is like the glue.
+ The glue essentially is a special colloidal suspension where in that case you let the water evaporate
+ and whenever the concentration of this increase, not the temperature in this case, but the concentration increase you get a gel.
+ There's something which is kind of amorphous solid.
+ And that's why the first colloids started were blue.
+ But in any way a general theory of the colloids, whenever you reduce the temperature or increase the concentration
+ you may end up with something which is solid-like, like the glue.
+ And of course there are many examples, one example is a large colloidy, we are a small bubble filled with water and other stuff, so technically we are a colloidy.
+ A colloidal system is a better colloidal system.
+ But there are many examples, as shown here, if you want to restrict food,
+ you can consider an example, I mean, whatever, whatever you want,
+ water with the suspension of big particles, we have a colloidal system.
+ Why we are giving this definition?
+ Because if you consider a colloidal system,
+ let's consider what I would like to show you is that if we have a colloidal system,
+ we can, we are entitled to use classical equation to study this system, why?
+ Let's take for example the new wavelength which is defined this way,
+ the square root of this one T over H plus constant.
+ If, since we are dealing with, by definition, with a large particle,
+ there are masses also very large.
+ Dalton is the mass of the hydrogen, so it's a unit mass.
+ So the mass of the colloidal is 10,000 Dalton because they are one meter or more large.
+ Temperature, a colloidal system like us, room temperature,
+ we cannot, if we go down to temperature below zero, we freeze and we die.
+ And if the temperature is high, the DNA and the proteins unfold, we die.
+ So we are constrained to live within a given range of temperatures.
+ But so temperature, so it's around room temperature, and if you plug this temperature,
+ this mass into the W wavelength, you get something which is 0.4 picometre,
+ which is much less than the size of the colloidal particle themselves.
+ This means that the De Broglie equivalent is short enough,
+ small enough, so that you can ignore quantum effects.
+ And if it is a colloidal particle, you do not need at all to include quantum effects.
+ You can just study the system through classical equation.
+ And this represents a large branch of quantum effects.
+ This is what I just said, that the wavelength is around 1000 of the colonial sites, so it is much smaller.
+ So you can ignore quantum effects if you want to study the colonial system, like a biophysical system.
+ You can safely ignore quantum effects, even though of course in some cases it is better to account for them.
+ It depends on what you find. In general, you can safely ignore.
+ On this lens case, one millimeter and above, you can ignore quantum effects.
+ But why is it important to study through computer algorithms and be aware of the tool you are using?
+ You can start thinking, you can also think that, okay, I get like a package like Glomax.
+ Maybe you know what I'm talking about.
+ It's a package to carry out simulation of biological systems with a plant.
+ I get this, I learn how to use it, that's it.
+ And then I start performing simulation.
+ I want to perform DFT, I use pass for quantum express.
+ I use the package and that's it, I blindly use it.
+ That's not safe.
+ Okay, you say it's not safe.
+ Okay, I will ask ChatGPT what's safe or not.
+ I will ask Gemini to know whether it's safe what I'm doing or not.
+ Yes, but also Gemini and ChatGPT know what they are...
+ what they are, you know, trained to know, let's say.
+ For example, just to give you an example, I wanted to implement an isobaric...
+ an algorithm to perform whatever kind of simulation in the isobaric-asodermal ensemble.
+ There was a paper published in 2003 where they show how to do this.
+ In specific, I don't want to enter the details.
+ If a few years ago, you asked about this, they could point you towards this paper and say you can use this.
+ They know because they are fairly with this paper.
+ And so they can give you all the help to implement this.
+ The point is that although it was wrong, there was an issue with this and this is what I discovered.
+ But not because I found this paper and I started implementing it.
+ But the point is you have to know the tool you are using.
+ You have to know what you are using because in principle it can be wrong.
+ And so in this world we have shown how to fix this and possibly how to have an argument which is working correctly.
+ So, yes, use the tool you have at the end, like CHPT, GEMI, whatever, but do this being aware that you are using something which can be wrong or partially wrong.
+ Now I want to just, so, this is another reason to know the algorithms so that you can understand whether something is correct or not, and many times this AI suggests wrong things, frequently, signs which are wrong, maybe you have already encountered cases where they were suggesting you wrong things, it happens very frequently.
+ And typically if you say, you are wrong, they say, oh yes, they try to, you know, to accept what you are saying every time, sometimes it is confusing, if you say something wrong, you are right, it is better to, of course, they do a lot of things, it is a good way to access some information because much faster than googling or trying
+ to read the book. I agree with you on this, but you have to be careful. We have to check what you receive as a reply from an article. This is my suggestion. You want to use it, of course, but with some, you know, being very careful. I'm just telling you, this is an example of a model used to
+ to study a protein, which is the glysozyme. I'm telling you this because this is one of the proteins studied, it's a widely studied protein licensing, and it has been, it can be studied through whatever atomistic simulation by a package like Glomax or whatever, but the point is that the approach you can use to study the system, proteins
+ biological system based on whatever and all this approach has been developed by Lévi-Carpus who they got the Nobel Prize in 2013 for this work on how to study biological system in a cold-skine fashion but without resorting to approximation which are
+ on a scale larger than a single atom so meaning that these objects here are all atoms even though the interaction between the atom is classical so the atomistic simulation which today many chemists and physicists also use for studying this system is classical here we have a set of atoms which interact classically and all the set of all the possible interactions and the parameters we have to set
+ are called the force fit and what Lely-Cartus and Walsh had found that with a suitable set of the parameters for the many interactions between the many atoms which belong to the systems you can obtain very good results which you can compare with experiments and they got the Nobel Prize for this, it is classical system so they set up an approach
+ where the interaction between the classical and they were able to study like a biophysical system like this
+ going back to the superconductive things, how you can study this system you can introduce a suitable Hamiltonian which is called the Sy Hamiltonian
+ and coupled to the external field so you have an interaction which is quantified by this j between the vortices
+ I remind you that the vortices are this region where the magnetic field is able to enter the superconductor
+ and we have interaction between the vortices and also interaction of the vortices with the external field which is the magnetic field
+ so by modeling this way, this system, you are able to study the dynamics of these vortices as if they were, you know, a fluid
+ and indeed, I mean, experimental results confirm that this, you know, scenario is correct
+ so it depends, so also the tool you are using or the equation you are using can be useful
+ but not depending also on what you are looking at
+ of course here if we want to study the details of the superconducting, of the superconducting vortices
+ you have to resort to quantum mechanics, it's a quantum mechanical formula
+ but if you want to study the dynamic of the vortices, their motion let's say
+ which is like this, these are the single vortices moving, these are from the simulation
+ but you should get the same from the experiment if you want
+ but if you want to look at the dynamics, let's say the motion of the vortices
+ you can use the classical simulation, even in this case we used the Monte Carlo simulation
+ Monte Carlo simulation
+ and we were able to confirm and predict new behaviors
+ and the experimenters were able to confirm the prediction of this system
+ because in the end nicely this system of vortices behaves like a glass
+ so the motion, the diffusion, the motion of this, so whenever you change the magnetic field
+ you change the concentration of vortices and you may end up with a system which is like an amorphous solid of vortices
+ very nice, it was very nice to find this analogy, this bridging two different fields which are like condensed matter, superconductors and soft matter
+ and to give you an example of a prototopic example of a glass, a molecular glass, this is the orthoterfinite which is a molecule made of three aromatic rings and this orthoterfinite behaves in such a way that it can be classified as a fragile glass
+ because what is if you can calculate of a liquid its viscosity how much it flows and this is on the y-axis and this is the temperature inverse of temperature so whenever you decrease the temperature you move right towards right and so and look the viscosity as you can see increases because as we said a glass is an amorphous soil
+ and the fluid and the solid doesn't flow so the viscosity is expected to increase but the way the viscosity as a functional inverse temperature increases can be you can have two different ways of this increase of viscosity meaning the first way is that viscosity increases exponentially
+ or it does increase in a different way it's a different function which is not exponential and if the glass follow this curve it's said to be fragile otherwise it's strong and also this classification all glasses essentially fall into these two categories either fragile or strong which depends on the
+ way the viscosity increases with temperature changes with temperature and autoteption is an example of a fragile glass and which can easily simulate by modeling each of these rings by an
+ energy sphere and together by rigid bonds means that this is a rigid particle made of with these three sides interacting with other side with the potential of this
+ but this can be modeled in a very simple way it is supposed to require since here you have many more atoms at least here you have 18 atoms and more than 20 atoms and here you are just three so it's a close-grade fashion it's a close-grade simulation the model but by modeling this orthotericism this way we are able to get the right
+ the correct behavior in terms of measuring the viscosity simulation you are able to do this correct and correct the behavior of the viscosity as a function of temperature
+ this is so this is an example of what I said before co-screping you are simulating
+ now with DNA I mean now today we are in the era of nanotechnology as I said before you can design particles
+ not having the properties you need to get some material you want to obtain
+ like with some physical properties you want to obtain
+ this means that nowadays you can take DNA
+ of course you can take this out of vegetables or whatever
+ and synthesize the single strain DNA you need
+ so here for example you have this red single-stranded DNA
+ and then you have another two single-stranded DNA which is deep blue
+ and so here we have three single-stranded DNA
+ so you know that in the chromosome the DNA is made of two strands
+ which forms a double nucleus
+ you can somehow extract the single strand, cut it and rebuild it as you like
+ with the sequence you like, this is what you can do
+ and this opens up the possibility of designing in a wide variety of particles
+ in particular, if you take three sequences of DNA
+ here I am not showing you the include bases but they are complementary
+ you can build a structure like this
+ it's like you design this particle
+ now you can order the sequences, the single strand
+ here we have three sequences but two of them are equal
+ this blue and this blue here, single strand
+ is equal to this one
+ so we have a mixture, you take water, you put the single strand here
+ one blue sequence, a short one
+ and another longer one in ratio 2 over 2 to 1
+ because for each single red strand we have two blue sequences
+ and they self-assembled, they form two dupletes held together by this red link
+ and you get a structure like this
+ this is something you can build, you can create
+ this is a simple way
+ if you put this in many of these single strands in the water
+ you can end up with many of these particles
+ which without too much imagination
+ resemble a new channel
+ because here you have this
+ the double links is rather stiff
+ it's difficult to bend the double links
+ while the single strand DNA is rather flexible
+ so you have here two regions which are quite rigid
+ and in the middle we have the change
+ it's very flexible
+ because we have two cylinders
+ and a change in the middle
+ apart from this analogy
+ this is important because by this
+ we were able to for the first time
+ we were able to find a specific phase
+ which is the smective phase
+ it's a long story
+ but we found for the first time
+ by designing this monitor
+ we were able to find for the first time
+ a phase which was missing in the system
+ which is the smartphone
+ but I don't want to take a more time
+ anyway, what about the modeling of this system
+ as I said, you can take two cylinders
+ and then you have these two boards
+ which represent a covalent board
+ this is to say that the center of these two yellow boards
+ cannot be farther at a distance larger
+ than a given this quantity here
+ so it's a permanent board
+ but by modeling this
+ so double this
+ this way you are able to get the right phase physical decay
+ and again here we are reducing an extreme co-strain
+ because we are reducing the many atoms belonging
+ the thousands of atoms belonging to this
+ to just two particles which are two cylinders together in a suitable space
+ two particles, two cylinders
+ you are able to model this and you are able to get the right phase
+ I want to show you the results
+ and this is what I mean by coarse grading
+ and this is what I mean when I say
+ it depends on what you want to look at
+ if you are able to choose care for your model
+ you are able to care what you need for the system
+ it's very tough to convince chemists from this
+ but we are physicists, likely
+ and this is why we can play this game successfully
+ by reducing the degree of freedom
+ modeling and I will show you another system
+ where this approaching can be fundamental
+ to get very important results
+ I will come back to this in a while
+ another system, for example, is a neural family
+ you know, forming the particles of diseases
+ Alzheimer's diseases
+ and there you have this, you know
+ let's say they are formed typically by a few
+ single strands, single filaments
+ formed by a protein
+ so you have this, you know, spaghetti-like one
+ you can see that it's twisted
+ so there you have this, typically three, four
+ not more than that
+ you can see a single filaments
+ of proteins, many proteins
+ which self-assembly, which are aggregated into a filament
+ and these filaments, they aggregate
+ in a second state of self-assembly
+ and they form this spaghetti-like aggregate
+ with a tristinger
+ and these are images
+ obtained from this system
+ and of course if you take many you can also
+ you can also take the protein
+ which is able to give you the structure
+ and start with it
+ of course you cannot start using bio
+ in a patient who has a disease like Alzheimer
+ or whatever
+ but you can take the protein
+ make themselves assemble
+ and then form the structure in water
+ and start with it
+ this is very powerful
+ and in addition you can also model this system
+ for example in a very extreme cosmic fashion
+ where you can see that here
+ the modeling is obtained through several boxes
+ several rotating boxes
+ this is a rigid body
+ which forms the terminal of fiber
+ and this body is formed by several boxes
+ you can see that this is a box
+ and another box which rotates
+ it's a very simple model
+ where the number of particles you have
+ is much less than the real number of particles
+ belonging to the filament
+ but you can study this
+ to obtain some properties
+ but it will do for it to be successful
+ the last example is this one
+ which is very important
+ the ending part of the chromosome
+ is formed by a single filament
+ which is rich of one part
+ we have this
+ it is a chromosome
+ and you see the ending part
+ which is a chemical, sorry
+ a chemical formula
+ you have
+ so, these are the clube basis
+ timine, adenine, one line
+ it's a repeat of this
+ there are many of these sub sequence
+ and it's a single filament
+ so it's a single filament
+ so you have double index structure
+ typical of the layer
+ which is the chromosome
+ but the ending part
+ is made of this repeating sequence
+ which is called a tenumeric part
+ and here, the nice thing is that
+ this single-stranded DNA
+ is any final part of the chromosome
+ this single filament can fold
+ it's like, if you get for example this
+ and it folds, it can fold
+ no?
+ actually, I'm not really doing
+ anyway, it can fold
+ forming here
+ so you get the single strand which folds
+ and forms a structure which I call the G fold
+ which is G4, G by two axis
+ here you have one G by two axis fold of 12.9
+ so you need three of these
+ and you get a G4 and a G4 and a G4
+ why they are so important?
+ because this is an atomistic representation
+ you can see here the single filament G4
+ of course you can fold it in several ways
+ this is another story
+ but what's important is there is the form
+ in the telomeric region
+ there are typically hundreds of nuclear dyes
+ and you may form like
+ more than the tangy form
+ but the nice thing to know
+ is that cancer cells
+ typically in this telomeric region
+ shorten in replication
+ whenever a cell replicates
+ it's short, it's short, it's short
+ and at the end
+ eventually the cell dies
+ it's a natural process
+ for cancer cells
+ this does not happen
+ what happens for cancer cells
+ more than 80% of cancer cells show this behavior
+ like they are replicating
+ but the ternumeric region does not shorten
+ on the contrary it increases
+ it increases and they become immortal
+ and that's why the cancer cells
+ the cancer you know increases
+ and you know it's so catastrophic
+ because it keeps increasing and increasing
+ and so the multimeric region
+ are possible targets for anti-cancer drugs
+ because if you are able to stop this
+ to stop this increase in the terameric region
+ you are able to kill the cancer cells
+ or at least to block them
+ you won't block this behavior where the cancer keeps increasing
+ in size
+ and so this is important to study this structure
+ because in one shot you will be able to
+ say to find a cure for more than 80% of the cancer
+ which means a lot
+ means you are able to
+ you can say you can put a final word
+ almost the final word
+ on this fight against cancer
+ and this structure
+ of course you can also
+ what I have shown before is in view
+ it is the chromosome with a single thread
+ but you can, as I said before, you can take a single filament
+ like this one
+ and you put, you can somehow
+ order this
+ you can create
+ order this
+ filament and put them in water
+ and you can, if you take one
+ you get a G4
+ if you take many, you get many
+ and you can study them through experimental techniques
+ there are many
+ so it's a solution of these
+ objects, which are these filaments
+ folded, forming a structure
+ which is called G4
+ and what you can do
+ you can also model
+ this structure
+ a first modeling
+ is to model this as a cylinder
+ as I said, this is tough to convince chemists
+ but it works
+ because
+ in our vision
+ not only you can model
+ the single G4, the structure
+ but you can have also legal drugs
+ and try to study
+ the interaction between the legal and the G4
+ but you can also
+ of course you are not forced to use
+ an extreme cost grade modeling
+ you can use also a semi-atomistic approach
+ where now the G4
+ the single G4 is this one
+ and here you have a snapshot
+ of course note that in what cases
+ in the value of lupinous modeling
+ and in reaction modeling what is missing
+ with respect to the real case is water
+ and this is the step which gives you
+ a tremendous boost in studying this system
+ in this simulation you get rid
+ of water completely
+ while if you want to use an atomistic approach
+ like the one proposed by Carpus
+ in which you can
+ use by using
+ like chromax simulation package
+ you have specific water
+ but if you introduce specific water in the system
+ you have many atoms you have to simulate
+ and this is very complicated
+ but these approaches you are using
+ water in placement
+ and you can sell this to this approach
+ where a cartoon is this
+ where you have these are G4
+ where G4 is now a set of atoms
+ few atoms in the end
+ in this case you have like
+ 75 atoms
+ which in a case
+ it can seem
+ a large number
+ but it's much smaller than
+ the thousands of atoms
+ which belongs to the structure
+ so in any case it's a small number
+ and you can introduce explicitly
+ the ligands
+ polymeric ligands
+ and we study this in order to
+ understand what happens whenever you
+ design specific ligands
+ in order to maximize
+ the effect of this ligands
+ onto this term
+ onto this G4
+ and you can also
+ this is the guy I mentioned before
+ he got
+ he attended my course
+ he started from scratch
+ he didn't know
+ anything about the broadcast
+ he started learning
+ and in the end
+ he prepared
+ a new project and from this
+ now he is doing master's
+ students on this system
+ where he developed his own simulation code
+ which is a code to simulate
+ this system in a very
+ extreme fashion
+ very interesting results
+ I was able to show example
+ that by using polymetic ligands
+ which form a polymetic
+ we are able to
+ increase a lot
+ the efficiency of these ligands
+ in terms of aggregation
+ so it means that
+ this possibly
+ this new class
+ will be able to really
+ kill the cancer cells
+ so it's a very good job
+ I don't want to show you
+ much more of this
+ so in here this is
+ all I wanted to tell you
+ we are almost
+ at the end of the two
+ hours
+ and if you have questions next time
+ we will start with the recall of
+ statistical mechanics and I will tell you
+ what essentially what
+ I assume
+ you have to know
+ for the rest of the course
+ and if you have questions on this
+ otherwise you can stop here
+ and see if you are
+ on this Friday
+ in our
