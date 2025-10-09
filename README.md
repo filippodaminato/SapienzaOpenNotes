@@ -16,7 +16,7 @@ I PDF compilati sono disponibili anche online tramite il sito web del progetto: 
 ---
 
 ## 👁️ Struttura cartelle
-
+ 
 * `<faculty>/<level>/<course>/<instructor>/lectures`
   `/<lectureXX>`
     * `lectureXX.tex` → file LaTeX con appunti
