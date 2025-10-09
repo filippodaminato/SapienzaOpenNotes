@@ -106,32 +106,6 @@
       }
     }
 
-    // function populateFilters() {
-    //   const facultySet = new Set();
-    //   const levelSet = new Set();
-    //   const professorSet = new Set();
-
-    //   pdfData.forEach(pdf => {
-    //     if(pdf.faculty) facultySet.add(pdf.faculty);
-    //     if(pdf.level) levelSet.add(pdf.level);
-    //     if(pdf.professor) professorSet.add(pdf.professor);
-    //   });
-
-    //   const facultySelect = document.getElementById('filterFaculty');
-    //   const levelSelect = document.getElementById('filterLevel');
-    //   const professorSelect = document.getElementById('filterProfessor');
-
-    //   facultySet.forEach(f => facultySelect.appendChild(new Option(f, f)));
-    //   levelSet.forEach(l => levelSelect.appendChild(new Option(l, l)));
-    //   professorSet.forEach(p => professorSelect.appendChild(new Option(p, p)));
-
-    //   // Event listeners per filtri
-    //   facultySelect.addEventListener('change', filterList);
-    //   levelSelect.addEventListener('change', filterList);
-    //   professorSelect.addEventListener('change', filterList);
-    //   document.getElementById('searchBox').addEventListener('input', filterList);
-    // }
-
     function renderList(data) {
       const list = document.getElementById('pdf-list');
       list.innerHTML = '';
@@ -159,9 +133,6 @@
               <div><strong>Anno:</strong> ${pdf.year || '-'}</div>
               <div><strong>Semestre:</strong> ${pdf.semester || '-'}</div>
               <div><strong>Ultimo aggiornamento:</strong> ${pdf.last_edit_date || '-'}</div>
-              <div><strong>Contributors:</strong> 
-                ${pdf.contributors.map(c => `<a href="${c.profile_url}" target="_blank">${c.name}</a>`).join(', ')}
-              </div>
               <a href="${pdf.file_name}" target="_blank" class="download-btn">📄 Scarica PDF</a>
             </div>
           </div>
@@ -170,22 +141,9 @@
       });
     }
 
-    // function filterList() {
-    //   const query = document.getElementById('searchBox').value.toLowerCase();
-    //   const facultyFilter = document.getElementById('filterFaculty').value;
-    //   const levelFilter = document.getElementById('filterLevel').value;
-    //   const professorFilter = document.getElementById('filterProfessor').value;
-
-    //   const filtered = pdfData.filter(pdf => {
-    //     return (
-    //       (pdf.title.toLowerCase().includes(query) || pdf.professor.toLowerCase().includes(query) || pdf.year.toLowerCase().includes(query)) &&
-    //       (facultyFilter === "" || pdf.faculty === facultyFilter) &&
-    //       (levelFilter === "" || pdf.level === levelFilter) &&
-    //       (professorFilter === "" || pdf.professor === professorFilter)
-    //     );
-    //   });
-    //   renderList(filtered);
-    // }
+              // <div><strong>Contributors:</strong> 
+              //   ${pdf.contributors.map(c => `<a href="${c.profile_url}" target="_blank">${c.name}</a>`).join(', ')}
+              // </div>
 
 
     function populateFilters() {
@@ -247,22 +205,17 @@
 
 
     loadPDFs();
-  </script>
+    
+    document.querySelectorAll('.course-badge').forEach(badge => {
+      const summary = badge.querySelector('.course-summary');
+      const details = badge.querySelector('.course-details');
+      // const icon = badge.querySelector('.toggle-icon');
 
-
-
-
-<script>
-document.querySelectorAll('.course-badge').forEach(badge => {
-  const summary = badge.querySelector('.course-summary');
-  const details = badge.querySelector('.course-details');
-  const icon = badge.querySelector('.toggle-icon');
-
-  summary.addEventListener('click', () => {
-    const expanded = details.classList.toggle('expanded');
-    icon.textContent = expanded ? '⬆️' : '⬇️';
-  });
-});
+      summary.addEventListener('click', () => {
+        const expanded = details.classList.toggle('expanded');
+        // icon.textContent = expanded ? '⬆️' : '⬇️';
+      });
+    });
 </script>
 </body>
 </html>

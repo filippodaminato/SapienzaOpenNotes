@@ -1,0 +1,194 @@
+\section{Un Esperimento sul Conteggio di Fotoni}
+
+In questa lezione analizzeremo un esperimento fondamentale che ci permette di approfondire la natura della luce, andando oltre le conclusioni ottenute con il solo effetto fotoelettrico. L'esperimento è concettualmente molto semplice ma le sue implicazioni sono profonde.
+
+\subsection{Setup Sperimentale}
+
+Consideriamo un fascio di luce debole (\textit{faint light beam}) a intensità costante. Per "intensità costante" si intende che, se misurata con un fotorivelatore classico (come un fotodiodo), l'output elettrico (corrente o tensione) è costante nel tempo. La potenza di questo fascio è estremamente bassa, ad esempio dell'ordine di 1 nanowatt ($P \approx 10^{-9}$ W). L'energia dei singoli fotoni che compongono il fascio è di circa 2 eV, corrispondente a una luce rossa (circa 632 nm).
+
+Questo fascio di luce incide su un dispositivo chiamato \textbf{fotomoltiplicatore} (\textit{photomultiplier tube} - PMT).
+
+% \begin{figure}[h!]
+% \centering
+% \includegraphics[width=0.8\textwidth]{QO.pdf}
+% \caption{Schema del setup sperimentale. Un fascio di luce debole colpisce il catodo di un fotomoltiplicatore. L'elettrone emesso viene moltiplicato, generando un impulso elettrico misurabile.}
+% \end{figure}
+
+Il funzionamento è il seguente:
+\begin{enumerate}
+    \item Il fascio di luce colpisce una superficie metallica sensibile, chiamata \textbf{catodo}.
+    \item Per effetto fotoelettrico, un singolo fotone del fascio può estrarre un singolo elettrone dal catodo.
+    \item L'elettrone viene accelerato da un campo elettrico interno al tubo e fatto impattare su una serie di elettrodi (dinodi). Ad ogni impatto, un numero maggiore di elettroni secondari viene emesso.
+    \item Questo processo a cascata amplifica enormemente il segnale: da un singolo elettrone iniziale, si ottiene una valanga di circa $10^6$ elettroni all'anodo.
+    \item Questa grande quantità di carica genera un \textbf{impulso elettrico} (\textit{electrical pulse}) misurabile da un'elettronica esterna.
+\end{enumerate}
+
+L'elettronica di acquisizione conta questi impulsi in un determinato intervallo di tempo $T$.
+
+\subsubsection*{La Misura e i Risultati}
+
+L'esperimento consiste nel fissare un intervallo di tempo di misura, ad esempio $T = 1$ minuto, e contare il numero di impulsi $N$ registrati in questo tempo. Da questa misura, si calcola il rateo di conteggio (il numero di "click" al secondo):
+
+\begin{equation}
+ R = \frac{N}{T}
+\end{equation}
+
+La cosa cruciale dell'esperimento è che, se si ripete la misura più volte, mantenendo costanti sia l'intensità del fascio che l'intervallo di tempo $T$, il valore di $R$ che si ottiene non è sempre lo stesso. I risultati \textbf{fluttuano}.
+
+Se rappresentiamo i ratei ottenuti in un istogramma, otteniamo una distribuzione a campana. Ad esempio, per un rateo medio di $\bar{R} = 100$ conteggi/secondo, si osserva una larghezza della distribuzione, quantificata dalla deviazione standard, di circa $\sigma_R = 10$ conteggi/secondo.
+
+\subsubsection*{Il Problema: Come Spiegare le Fluttuazioni?}
+
+La domanda fondamentale è: come possiamo spiegare l'esistenza di queste fluttuazioni, dato che il fascio di luce ha un'intensità classicamente costante?
+
+\paragraph{Approccio Classico}
+Un approccio puramente classico, in cui la luce è descritta come un'onda elettromagnetica, fallisce immediatamente. Un'onda con intensità $I$ costante trasporta energia in modo continuo e costante. Di conseguenza, dovrebbe generare fotoelettroni a un ritmo costante, senza alcuna fluttuazione. Un'onda classica può essere descritta da:
+
+\begin{equation}
+ \vec{E}(z,t) = E_0 \cos(kz - \omega t + \phi) \hat{\epsilon}
+\end{equation}
+
+Se l'intensità $I \propto E_0^2$ è costante, non c'è nulla nel modello che possa giustificare le fluttuazioni casuali osservate.
+
+Vengono quindi proposti due modelli più sofisticati.
+\begin{itemize}
+    \item \textbf{Approccio Quantistico}: La luce stessa è intrinsecamente "granulare". Le fluttuazioni osservate non derivano dal processo di misura, ma sono una proprietà fondamentale del fascio di luce, che è composto da un numero di fotoni che fluttua nel tempo.
+    \item \textbf{Approccio Semi-classico}: La luce è un'onda classica a intensità costante, ma l'interazione luce-materia (l'emissione del fotoelettrone) è un processo intrinsecamente probabilistico. Le fluttuazioni nascono dalla natura quantistica del rivelatore.
+\end{itemize}
+Analizziamo entrambi i modelli.
+
+\subsection{Modello 1: L'Approccio Quantistico (Shot Noise)}
+
+In questo modello, assumiamo che le fluttuazioni siano dovute alla natura discreta della luce (fotoni).
+
+\subsubsection*{Flusso di Fotoni e Rateo di Conteggio}
+Definiamo il \textbf{flusso di fotoni} $\Phi$ come il numero di fotoni che attraversano una sezione del fascio per unità di tempo. È dato dal rapporto tra la potenza $P$ del fascio e l'energia di un singolo fotone $\hbar\omega$:
+
+\begin{equation}
+ \Phi = \frac{P}{\hbar\omega}
+\end{equation}
+
+Il rateo di conteggio $R$ misurato sarà proporzionale a questo flusso, attraverso un fattore $\eta$ chiamato \textbf{efficienza quantica} del rivelatore. L'efficienza quantica ($0 \le \eta \le 1$) rappresenta la probabilità che un fotone che incide sul catodo generi effettivamente un impulso elettrico.
+
+\begin{equation}
+ R = \eta \Phi
+\end{equation}
+
+Con i parametri dell'esperimento ($P \approx 10^{-9}$ W, $\hbar\omega \approx 2 \text{ eV} \approx 3.2 \times 10^{-19}$ J), assumendo $\eta \approx 1$, il rateo di conteggio atteso è:
+
+\begin{equation}
+ R \approx \frac{10^{-9} \text{ W}}{3.2 \times 10^{-19} \text{ J}} \approx 3.1 \times 10^9 \text{ s}^{-1}
+\end{equation}
+
+\subsubsection*{Modello Statistico dei Fotoni}
+L'idea chiave è che non è possibile avere una frazione di fotone. Se dividiamo il nostro fascio di luce in segmenti spaziali o temporali molto piccoli, in ogni segmento troveremo o un numero intero di fotoni o nessuno. Questo implica necessariamente che la loro distribuzione non può essere perfettamente uniforme e che il loro numero in un dato intervallo di tempo deve fluttuare.
+
+Costruiamo un modello per descrivere queste fluttuazioni.
+Consideriamo un intervallo di tempo $T$. Il numero medio di fotoni contati in questo intervallo è $\bar{n} = R \cdot T$.
+Dividiamo l'intervallo $T$ in un numero molto grande $N$ di sotto-intervalli di durata $\Delta t = T/N$. Scegliamo $N$ così grande che la probabilità di trovare più di un fotone in un singolo $\Delta t$ sia trascurabile.
+
+La probabilità $p$ di contare un fotone in un dato sotto-intervallo $\Delta t$ è molto piccola e data da:
+
+\begin{equation}
+ p = \frac{\bar{n}}{N}
+\end{equation}
+
+Assumiamo che il conteggio di un fotone in un intervallo sia un evento indipendente dai conteggi negli altri intervalli. La probabilità $P(n)$ di contare esattamente $n$ fotoni nell'intero intervallo $T$ (cioè in $N$ "tentativi") segue quindi una \textbf{distribuzione binomiale}:
+
+\begin{equation}
+ P(n) = \binom{N}{n} p^n (1-p)^{N-n}
+\end{equation}
+
+dove $\binom{N}{n} = \frac{N!}{n!(N-n)!}$ è il coefficiente binomiale.
+
+Ora consideriamo il limite per $N \to \infty$ (intervalli infinitesimali). In questo limite, la distribuzione binomiale tende alla \textbf{distribuzione di Poisson}:
+
+\begin{equation}
+ P(n) = \frac{\bar{n}^n e^{-\bar{n}}}{n!}
+\end{equation}
+
+Questa distribuzione descrive la probabilità di osservare $n$ eventi in un dato intervallo, quando gli eventi accadono in modo indipendente e con un rateo medio costante $\bar{n}$.
+
+Una proprietà fondamentale della distribuzione di Poisson è che la varianza è uguale alla media:
+$Var(n) = \bar{n}$.
+La deviazione standard è quindi $\sigma_n = \sqrt{Var(n)} = \sqrt{\bar{n}}$.
+
+\subsubsection*{Confronto con l'Esperimento}
+Torniamo ai dati sperimentali. Il numero medio di conteggi era $\bar{n} = 100$. Il modello quantistico, basato sulla distribuzione di Poisson, predice una deviazione standard di:
+
+\begin{equation}
+ \sigma_n = \sqrt{100} = 10
+\end{equation}
+
+Questo valore coincide perfettamente con la deviazione standard misurata sperimentalmente. L'approccio quantistico, che attribuisce le fluttuazioni alla natura discreta dei fotoni (shot noise), è quindi in grado di spiegare i risultati dell'esperimento in modo quantitativo.
+
+\subsection{Modello 2: L'Approccio Semi-Classico}
+
+In questo modello, trattiamo la luce come un'onda classica e la rivelazione come un processo quantistico probabilistico.
+
+\subsubsection*{Probabilità di Fotoemissione}
+L'assunzione fondamentale, derivata dalla "regola d'oro di Fermi", è che la probabilità di emettere un fotoelettrone in un intervallo di tempo infinitesimo $d\tau$ sia proporzionale all'intensità istantanea del fascio luminoso $I(\tau)$:
+
+\begin{equation}
+ P(1, \tau, \tau+d\tau) = \xi I(\tau) d\tau
+\end{equation}
+
+dove $\xi$ è una costante di proporzionalità che racchiude le proprietà atomiche del catodo.
+Poiché nel nostro esperimento l'intensità è costante, $I(\tau) = I$, la probabilità di emissione per unità di tempo è una costante, che chiamiamo $c = \xi I$. Quindi:
+\begin{itemize}
+    \item La probabilità di avere 1 conteggio in $d\tau$ è $c \cdot d\tau$.
+    \item La probabilità di avere 0 conteggi in $d\tau$ è $1 - c \cdot d\tau$.
+\end{itemize}
+
+\subsubsection*{Derivazione della Distribuzione di Probabilità}
+Vogliamo trovare la probabilità $P_n(\tau)$ di aver contato $n$ fotoelettroni nell'intervallo di tempo $[0, \tau]$.
+Per contare $n$ elettroni al tempo $\tau+d\tau$, possono verificarsi due scenari mutuamente esclusivi:
+\begin{enumerate}
+    \item Avere già contato $n$ elettroni al tempo $\tau$ E non contarne nessuno in $d\tau$.
+    \item Avere contato $n-1$ elettroni al tempo $\tau$ E contarne uno in $d\tau$.
+\end{enumerate}
+
+Matematicamente, questo si traduce in:
+\begin{equation}
+ P_n(\tau+d\tau) = P_n(\tau)(1 - c d\tau) + P_{n-1}(\tau)(c d\tau)
+\end{equation}
+
+Riorganizzando i termini:
+\begin{equation}
+ \frac{P_n(\tau+d\tau) - P_n(\tau)}{d\tau} = c [P_{n-1}(\tau) - P_n(\tau)]
+\end{equation}
+
+Prendendo il limite per $d\tau \to 0$, otteniamo un sistema di equazioni differenziali:
+
+\begin{equation}
+ \frac{dP_n(\tau)}{d\tau} = c [P_{n-1}(\tau) - P_n(\tau)]
+\end{equation}
+
+Risolviamo questo sistema con la condizione iniziale che al tempo $\tau=0$ non abbiamo ancora contato nessun fotone, cioè $P_0(0)=1$ e $P_n(0)=0$ per $n>0$.
+
+\paragraph{Soluzione per n=0}
+Per $n=0$, si assume $P_{-1}(\tau)=0$. L'equazione diventa:
+$\frac{dP_0(\tau)}{d\tau} = -c P_0(\tau)$.
+La cui soluzione, con $P_0(0)=1$, è un semplice decadimento esponenziale:
+
+\begin{equation}
+ P_0(\tau) = e^{-c\tau}
+\end{equation}
+
+\paragraph{Soluzione per n>0}
+Le equazioni per $n \ge 1$ possono essere risolte in modo ricorsivo. L'equazione per $P_n$ è un'equazione differenziale lineare del primo ordine non omogenea. Utilizzando il metodo del fattore integrante ($e^{c\tau}$), si può dimostrare che la soluzione generale è:
+
+\begin{equation}
+ P_n(\tau) = \frac{(c\tau)^n e^{-c\tau}}{n!}
+\end{equation}
+
+\subsubsection*{Conclusione del Modello Semi-Classico}
+Sorprendentemente, anche il modello semi-classico predice che la probabilità di contare $n$ fotoelettroni in un tempo $\tau$ segue una \textbf{distribuzione di Poisson}, con un valore medio $\bar{n} = c\tau$.
+
+Questo significa che anche questo modello predice una deviazione standard $\sigma_n = \sqrt{\bar{n}}$, in accordo con i dati sperimentali.
+
+\subsection{Conclusioni Finali}
+
+Entrambi i modelli, quello puramente quantistico (fluttuazioni intrinseche del numero di fotoni) e quello semi-classico (fluttuazioni nel processo di rivelazione), predicono una statistica di conteggio poissoniana per un fascio di luce a intensità costante.
+
+Pertanto, questo esperimento, sebbene dimostri chiaramente l'inadeguatezza della teoria classica, \textbf{non permette di discriminare} tra l'approccio quantistico e quello semi-classico. Entrambi forniscono la stessa, corretta previsione statistica. Per distinguere tra i due modelli saranno necessari esperimenti più sofisticati, che verranno discussi in seguito.

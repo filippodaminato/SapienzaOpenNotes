@@ -1,0 +1,129 @@
+\section{L'Effetto Fotoelettrico e la Nascita del Fotone}
+
+Prima di addentrarci nei fenomeni che hanno fondato la disciplina, è utile interrogarsi sulla sua definizione. Spesso si incontrano formulazioni che, sebbene corrette, risultano parziali e non colgono l'intera portata del campo.
+
+\subsection{Definizioni Comuni e Loro Limiti}
+\begin{itemize}
+    \item \textbf{Definizione 1 (da Britannica):} \textit{"Lo studio dell'interazione quantistica della luce con la materia."} \\
+    Questa definizione, pur essendo un pilastro dell'ottica quantistica, ne descrive solo una parte. Non esaurisce la totalità degli argomenti trattati.
+
+    \item \textbf{Definizione 2 (dal testo di M. Fox):} \textit{"La materia che tratta i fenomeni ottici che possono essere spiegati solo assumendo che la luce sia un flusso di fotoni anziché un'onda elettromagnetica."} \\
+    Anche in questo caso, la definizione si concentra su un aspetto specifico e fondamentale (la natura corpuscolare della luce), ma tralascia interi settori della disciplina in cui il concetto di fotone non è strettamente necessario.
+\end{itemize}
+La vera natura e l'ampiezza dell'ottica quantistica si delineeranno progressivamente attraverso lo studio dei suoi fenomeni costitutivi.
+
+\subsubsection*{Che cos'è un Fotone?}
+Il concetto di "fotone" è centrale. Sebbene Wikipedia lo definisca correttamente come una "particella elementare", le implicazioni e le sottigliezze di questa definizione sono oggetto di profondi dibattiti scientifici.
+Un punto fermo è l'origine storica del termine:
+\begin{quote}
+    La parola \textbf{fotone} fu coniata nel \textbf{1926} dal chimico Gilbert N. Lewis in una lettera alla rivista \textit{Nature}.
+\end{quote}
+È notevole che il concetto fisico di "quanto di luce" sia stato introdotto da Einstein nel 1905, ma il nome universalmente accettato sia stato proposto solo 21 anni dopo.
+
+\subsection{L'Esperimento Fondamentale: Effetto Fotoelettrico (Lenard, 1902)}
+
+L'effetto fotoelettrico è il fenomeno fisico che, più di ogni altro, ha costretto i fisici a riconsiderare la natura della luce. L'apparato sperimentale di Lenard, nella sua semplicità, ha rivelato un comportamento inspiegabile con la fisica classica.
+
+\subsubsection*{L'Apparato Sperimentale}
+Il setup consiste in un tubo a vuoto contenente due elettrodi metallici: un \textbf{catodo (C)} e un \textbf{anodo (A)}. Una sorgente luminosa monocromatica (es. $\lambda \approx \SI{400}{\nano\meter}$) illumina il catodo. Un circuito esterno permette di applicare una differenza di potenziale $V$ tra gli elettrodi e di misurare la \textbf{fotocorrente} $\tilde{I}$ risultante, ossia il flusso di elettroni (fotoelettroni) emessi dal catodo che raggiungono l'anodo.
+
+\subsubsection*{Le Quattro Evidenze Sperimentali}
+L'esperimento produce quattro risultati chiave, riproducibili e inequivocabili.
+\begin{enumerate}
+    \item \textbf{Dipendenza lineare dall'intensità}: L'intensità della fotocorrente $\tilde{I}$ è direttamente proporzionale all'intensità $I$ della radiazione incidente.
+    \item \textbf{Esistenza del potenziale d'arresto}: Per ogni frequenza della luce, esiste un potenziale frenante $V_0 < 0$ che annulla la corrente. Questo potenziale è una misura dell'energia cinetica massima $K_{max} = e|V_0|$ degli elettroni emessi. Il fatto cruciale è che \textbf{$V_0$ non dipende in alcun modo dall'intensità $I$ della luce}.
+    \item \textbf{Esistenza della frequenza di soglia}: L'emissione di elettroni avviene solo se la frequenza della luce $\nu$ è superiore a un valore minimo $\nu_0$, caratteristico del materiale del catodo. Al di sotto di $\nu_0$, non si osserva alcuna corrente, per quanto intensa sia la luce.
+    \item \textbf{Emissione istantanea}: L'emissione è un processo immediato. Non appena la radiazione colpisce il catodo, si misura una corrente (il ritardo è sperimentalmente inferiore a $\SI{e-9}{\second}$).
+\end{enumerate}
+
+\subsection{Il Fallimento della Teoria Ondulatoria Classica}
+
+Secondo l'elettromagnetismo di Maxwell, la luce è un'onda e la sua energia è distribuita in modo continuo sul fronte d'onda. L'intensità $I$ è proporzionale al quadrato del campo elettrico ($I \propto E_0^2$). Questa visione è incompatibile con le evidenze sperimentali.
+
+\subsubsection*{Dimostrazione del Conflitto: Il Calcolo del Tempo di Emissione}
+Il punto di rottura più evidente è il tempo di emissione.
+\paragraph{Ipotesi di calcolo:}
+\begin{itemize}
+    \item Potenza sorgente: $P = \SI{1}{\milli\watt} = \SI{e-3}{\watt}$.
+    \item Distanza sorgente-catodo: $L = \SI{5}{\meter}$.
+    \item Lavoro di estrazione (energia per liberare un elettrone): $E_0 = \SI{2.2}{\electronvolt}$.
+    \item Raggio atomico (area di raccolta dell'elettrone): $r \approx \SI{e-9}{\meter}$.
+\end{itemize}
+
+\paragraph{Svolgimento:}
+\begin{enumerate}
+    \item \textbf{Intensità sul catodo}: L'energia si distribuisce su una sfera di area $A = 4\pi L^2 = 4\pi(5)^2 \approx \SI{314}{\meter^2}$. L'intensità è $I = P/A = \SI{e-3}{W} / \SI{314}{m^2} \approx \SI{3.18e-6}{W/m^2}$.
+
+    \item \textbf{Potenza assorbita da un elettrone}: L'area di raccolta è $A_e = \pi r^2 \approx \pi(\SI{e-9}{m})^2 \approx \SI{3.14e-18}{m^2}$. La potenza intercettata è $P_e = I \cdot A_e \approx (\SI{3.18e-6}{}) \cdot (\SI{3.14e-18}{}) \approx \SI{e-23}{J/s}$.
+
+    \item \textbf{Energia necessaria}: $E_0 = \SI{2.2}{eV} \times \SI{1.602e-19}{J/eV} \approx \SI{3.52e-19}{J}$.
+
+    \item \textbf{Tempo di emissione previsto}: Il tempo per accumulare l'energia necessaria è $t = E_0/P_e = \SI{3.52e-19}{J} / \SI{e-23}{J/s} \approx \SI{3.52e4}{s}$.
+\end{enumerate}
+Un tempo di $\approx \SI{35200}{s}$ corrisponde a circa \textbf{9.7 ore}. La previsione classica è in violenta contraddizione con l'osservazione sperimentale di un'emissione istantanea.
+
+\subsection{La Soluzione di Einstein: Quantizzazione dell'Energia Luminosa (1905)}
+
+Per risolvere questo insanabile conflitto, Einstein propose un'idea rivoluzionaria: l'energia della radiazione elettromagnetica non è continua, ma è granulare, composta da pacchetti discreti e indivisibili (i \textbf{quanti di luce} o \textbf{fotoni}). L'energia di ciascun fotone è proporzionale alla frequenza della luce:
+\begin{equation}
+E = h\nu
+\end{equation}
+dove $h$ è la costante di Planck. L'effetto fotoelettrico è descritto come un urto "uno a uno": un singolo fotone cede istantaneamente tutta la sua energia a un singolo elettrone. Il bilancio energetico è:
+\begin{equation}
+\label{eq:photoelectric}
+h\nu = E_0 + K_{max}
+\end{equation}
+Sostituendo $K_{max} = e|V_0|$, si ottiene:
+\begin{equation}
+e|V_0| = h\nu - E_0
+\end{equation}
+Questa singola equazione spiega brillantemente tutte e quattro le evidenze sperimentali.
+
+\subsection{Discussione Avanzata: L'Approccio Semi-Classico e i Suoi Calcoli}
+
+È naturale chiedersi se sia possibile spiegare il fenomeno senza ricorrere al concetto radicale di fotone. Si può, ad esempio, trattare la materia in modo quantistico e la luce in modo classico? Questo è noto come \textbf{modello semi-classico}.
+
+\begin{itemize}
+    \item \textbf{Luce}: Onda classica, $\vec{E}(t) = \vec{E}_0 \cos(\omega t)$.
+    \item \textbf{Materia (Atomo)}: Sistema quantistico descritto dall'equazione di Schrödinger, $i\hbar \frac{\partial}{\partial t} |\Psi(t)\rangle = \hat{H} |\Psi(t)\rangle$.
+\end{itemize}
+L'Hamiltoniana del sistema è $\hat{H} = \hat{H}_0 + \hat{H}_I(t)$, dove $\hat{H}_0$ è l'Hamiltoniana dell'atomo imperturbato e $\hat{H}_I$ è la perturbazione dovuta al campo elettrico. Nell'approssimazione di dipolo:
+\begin{equation}
+\hat{H}_I(t) = - \hat{\vec{d}} \cdot \vec{E}(t) = - \hat{\vec{d}} \cdot \vec{E}_0 \cos(\omega t)
+\end{equation}
+dove $\hat{\vec{d}} = -e\hat{\vec{r}}$ è l'operatore di momento di dipolo.
+
+\subsubsection*{Calcolo della Probabilità di Transizione}
+Si utilizza la teoria delle perturbazioni dipendenti dal tempo. Lo stato del sistema viene espanso sulla base degli autostati $|n\rangle$ di $\hat{H}_0$ (con energie $E_n$):
+\begin{equation}
+|\Psi(t)\rangle = \sum_n c_n(t) e^{-iE_n t / \hbar} |n\rangle
+\end{equation}
+Supponiamo che al tempo $t=0$ il sistema si trovi nello stato iniziale $|i\rangle$, quindi $c_i(0)=1$ e $c_{n\neq i}(0)=0$. Vogliamo calcolare la probabilità di trovare il sistema in un altro stato finale $|f\rangle$ al tempo $t$. Al primo ordine perturbativo, il coefficiente $c_f(t)$ è dato da:
+\begin{equation}
+c_f^{(1)}(t) = \frac{1}{i\hbar} \int_0^t \langle f | \hat{H}_I(t') | i \rangle e^{i(E_f - E_i)t' / \hbar} dt'
+\end{equation}
+Sostituendo l'espressione di $\hat{H}_I$ e usando $\cos(\omega t') = \frac{e^{i\omega t'} + e^{-i\omega t'}}{2}$, otteniamo:
+\begin{equation}
+c_f^{(1)}(t) = \frac{-\langle f | \hat{\vec{d}} \cdot \vec{E}_0 | i \rangle}{2i\hbar} \int_0^t \left( e^{i(\omega_{fi}+\omega)t'} + e^{i(\omega_{fi}-\omega)t'} \right) dt'
+\end{equation}
+dove $\omega_{fi} = (E_f - E_i)/\hbar$. Integrando e trascurando il termine non risonante (quello con $\omega_{fi}+\omega$), si ottiene per il processo di assorbimento:
+\begin{equation}
+c_f^{(1)}(t) = \frac{-\langle f | \hat{\vec{d}} \cdot \vec{E}_0 | i \rangle}{2i\hbar} \left[ \frac{e^{i(\omega_{fi}-\omega)t} - 1}{i(\omega_{fi}-\omega)} \right]
+\end{equation}
+La probabilità di transizione allo stato $|f\rangle$ è $P_{i\to f}(t) = |c_f^{(1)}(t)|^2$:
+\begin{equation}
+P_{i\to f}(t) = \frac{|\langle f | \hat{\vec{d}} \cdot \vec{E}_0 | i \rangle|^2}{4\hbar^2} \frac{\sin^2((\omega_{fi}-\omega)t/2)}{(\omega_{fi}-\omega)^2/4}
+\end{equation}
+
+\subsubsection*{La Regola d'Oro di Fermi e le Spiegazioni Semi-Classiche}
+Nell'effetto fotoelettrico, lo stato finale $|f\rangle$ non è un singolo stato discreto, ma appartiene a un continuo di stati (l'elettrone libero). Sommando su tutti gli stati finali possibili, la probabilità per unità di tempo (tasso di transizione) diventa costante e pari alla \textbf{Regola d'Oro di Fermi}:
+\begin{equation}
+W_{i\to f} = \frac{2\pi}{\hbar} |\langle f | \hat{H}_I | i \rangle|^2 \rho(E_f)
+\end{equation}
+dove $\rho(E_f)$ è la densità degli stati finali e l'elemento di matrice è calcolato alla frequenza di risonanza $\omega = \omega_{fi}$.
+Questo risultato semi-classico è notevolmente potente:
+\begin{enumerate}
+    \item \textbf{Spiega la dipendenza dalla frequenza}: La transizione ha una probabilità significativa solo quando $\omega \approx \omega_{fi}$, cioè quando l'energia del campo $\hbar\omega$ è circa pari alla differenza di energia $E_f - E_i$. Questo spiega perché serve una frequenza minima.
+    \item \textbf{Spiega la dipendenza dall'intensità}: Il tasso di transizione $W$ è proporzionale a $|\langle f | \hat{\vec{d}} \cdot \vec{E}_0 | i \rangle|^2 \propto |\vec{E}_0|^2$. Poiché l'intensità della luce $I \propto |\vec{E}_0|^2$, il numero di elettroni emessi al secondo (la corrente) è proporzionale all'intensità.
+\end{enumerate}
+Questo modello, quindi, riproduce il 99.9\% delle caratteristiche sperimentali. Il suo fallimento, come discusso, è concettuale e risiede nel non considerare la quantizzazione del campo stesso e la conservazione dell'energia a livello della singola interazione.

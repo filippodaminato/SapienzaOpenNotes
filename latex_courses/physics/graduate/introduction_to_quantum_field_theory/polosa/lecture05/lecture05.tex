@@ -1,0 +1,332 @@
+% % DEFINIZIONI DI COMANDI UTILI
+% \newcommand{\dd}{\mathrm{d}}
+% \newcommand{\pd}{\partial}
+% \newcommand{\field}{\phi(\vec{x}, t)}
+% \newcommand{\conjmom}{\pi(\vec{x}, t)}
+% \newcommand{\ket}[1]{|#1\rangle}
+% \newcommand{\bra}[1]{\langle#1|}
+% \newcommand{\braket}[2]{\langle#1|#2\rangle}
+% \newcommand{\expval}[1]{\langle#1\rangle}
+
+% \section{Il Campo Scalare Quantistico}
+
+% In questa lezione proseguiamo lo studio del campo scalare quantistico. L'oggetto fondamentale, il campo \(\phi(x)\), è un operatore la cui espressione è una sovrapposizione di onde piane, pesata da operatori di creazione e annichilazione.
+
+% \begin{equation}
+% \phi(x) = \phi(\vec{x}, t) = \sum_{\vec{k}} \frac{1}{\sqrt{2V\omega_k}} \left( a(\vec{k})e^{-ikx} + a^\dagger(\vec{k})e^{ikx} \right)
+% \end{equation}
+
+% Qui, \(x\) rappresenta il quadrivettore posizione \(x^\mu = (t, \vec{x})\) e \(k\) il quadrimpulso \(k^\mu = (\omega_k, \vec{k})\). L'esponente \(kx\) è il prodotto scalare quadridimensionale \(k_\mu x^\mu\), che nella nostra metrica \((+,-,-,-)\) si scrive come \(k_0 x^0 - \vec{k} \cdot \vec{x} = \omega_k t - \vec{k} \cdot \vec{x}\). Le componenti spaziali di \(k\) sono quantizzate a causa della scatola di volume \(V\), ma presto passeremo al limite del continuo.
+
+% Un punto cruciale è che, in questa espressione, l'energia \(\omega_k\) e l'impulso \(\vec{k}\) non sono indipendenti. Sono vincolati dalla condizione cinematica per una particella relativistica di massa \(m\). Utilizzando le \textbf{unità naturali}, dove \(c=1\) (e \(\hbar=1\)), questa relazione, nota come \textbf{condizione di mass-shell}, è:
+
+% \begin{equation}
+% \omega_k^2 = |\vec{k}|^2 + m^2 \quad \implies \quad \omega_k = \sqrt{|\vec{k}|^2 + m^2}
+% \end{equation}
+
+% Questo significa che, una volta fissato l'impulso \(\vec{k}\) di un'eccitazione del campo, la sua energia è completamente determinata. Le eccitazioni del campo che soddisfano questa condizione sono dette "on-shell".
+
+% \subsection{Interpretazione Fisica e Azione sul Vuoto}
+
+% Come abbiamo visto, gli operatori \(a(\vec{k})\) e \(a^\dagger(\vec{k})\) distruggono e creano quanti del campo con impulso \(\vec{k}\). Lo stato fondamentale del sistema è il vuoto, \(\ket{0}\), definito come lo stato annichilato da tutti gli operatori \(a(\vec{k})\): \(a(\vec{k})\ket{0} = 0\) per ogni \(\vec{k}\).
+
+% L'operatore di creazione \(a^\dagger(\vec{k})\) agisce sul vuoto per creare uno stato a singola particella:
+
+% \begin{equation}
+% a^\dagger(\vec{k})\ket{0} = \ket{\vec{k}}
+% \end{equation}
+
+% Vediamo ora come agisce l'operatore di campo \(\phi(x)\) sul vuoto. Applicando la definizione e sfruttando la proprietà del vuoto:
+
+% \begin{equation}
+% \phi(x)\ket{0} = \sum_{\vec{k}} \frac{1}{\sqrt{2V\omega_k}} \left( a(\vec{k})e^{-ikx}\ket{0} + a^\dagger(\vec{k})e^{ikx}\ket{0} \right) = \sum_{\vec{k}} \frac{e^{ikx}}{\sqrt{2V\omega_k}} \ket{\vec{k}}
+% \end{equation}
+
+% Lo stato \(\phi(x)\ket{0}\) è quindi una sovrapposizione di tutti gli stati a singola particella possibili. Per capire il significato di questo risultato, proiettiamolo su uno stato a singola particella con impulso \(\vec{p}\), \(\bra{\vec{p}}\). Questo calcolo ci dà l'ampiezza di probabilità di trovare una particella con impulso \(\vec{p}\) nello stato creato applicando il campo nel punto \(x\) al vuoto.
+
+% \begin{equation}
+% \bra{\vec{p}}\phi(x)\ket{0} = \sum_{\vec{k}} \frac{e^{ikx}}{\sqrt{2V\omega_k}} \braket{\vec{p}}{\vec{k}}
+% \end{equation}
+
+% Utilizzando la relazione di ortonormalizzazione tra stati a singola particella, \(\braket{\vec{p}}{\vec{k}} = \delta_{\vec{p},\vec{k}}\), la somma collassa:
+
+% \begin{equation}
+% \bra{\vec{p}}\phi(x)\ket{0} = \frac{e^{ipx}}{\sqrt{2V\omega_p}} = \frac{e^{i(\omega_p t - \vec{p}\cdot\vec{x})}}{\sqrt{2V\omega_p}}
+% \end{equation}
+
+% Questa espressione è quasi identica alla funzione d'onda di una particella libera con impulso \(\vec{p}\) in meccanica quantistica non relativistica, \(\psi_{\vec{p}}(\vec{x}) = \frac{e^{i\vec{p}\cdot\vec{x}}}{\sqrt{V}}\). La differenza cruciale è il fattore \(\sqrt{2\omega_p}\) al denominatore. Questo fattore non è accidentale, ma è essenziale per la consistenza relativistica della teoria. Garantisce che la densità di probabilità, definita tramite la quadricorrente conservata \(j^\mu\), si trasformi correttamente sotto trasformazioni di Lorentz.
+
+% \subsection{Regole di Commutazione a Tempi Uguali (ETCR)}
+
+% Il passo successivo nella quantizzazione canonica è imporre le relazioni di commutazione tra il campo e il suo momento coniugato, \(\pi(x)\). Queste sono le \textbf{Equal Time Commutation Relations (ETCR)}, ovvero calcolate allo stesso istante di tempo \(t\). Esse sono l'estensione al continuo delle regole \([q_i, p_j] = i\delta_{ij}\).
+
+% \begin{equation}
+% [\phi(\vec{x}, t), \phi(\vec{y}, t)] = 0
+% \end{equation}
+% \begin{equation}
+% [\pi(\vec{x}, t), \pi(\vec{y}, t)] = 0
+% \end{equation}
+% \begin{equation}
+% [\phi(\vec{x}, t), \pi(\vec{y}, t)] = i\delta^{(3)}(\vec{x} - \vec{y})
+% \end{equation}
+
+% Il momento coniugato \(\pi(x)\) è la derivata temporale del campo, \(\pi(x) = \dot{\phi}(x)\). Calcoliamola:
+
+% \begin{equation}
+% \pi(x) = \frac{\pd}{\pd t} \phi(x) = \sum_{\vec{k}} \frac{1}{\sqrt{2V\omega_k}} \left( (-i\omega_k) a(\vec{k})e^{-ikx} + (i\omega_k) a^\dagger(\vec{k})e^{ikx} \right)
+% \end{equation}
+
+% Verifichiamo ora la relazione di commutazione fondamentale, la terza. Sostituiamo le espressioni per \(\phi\) e \(\pi\):
+
+% \begin{align}
+% [\phi(\vec{x}, t), \pi(\vec{y}, t)] &= \sum_{\vec{k}, \vec{k}'} \frac{1}{\sqrt{2V\omega_k}} \frac{1}{\sqrt{2V\omega_{k'}}} \times \nonumber \\
+% & \quad \left[ a_{\vec{k}}e^{-ikx} + a^\dagger_{\vec{k}}e^{ikx}, -i\omega_{k'}a_{\vec{k}'}e^{-ik'y} + i\omega_{k'}a^\dagger_{\vec{k}'}e^{ik'y} \right]
+% \end{align}
+
+% dove i campi sono valutati in \((t, \vec{x})\) e \((t, \vec{y})\). Espandiamo il commutatore in quattro termini, utilizzando la linearità:
+% \begin{align}
+% \text{Termine 1: } & [a_{\vec{k}}e^{-ikx}, -i\omega_{k'}a_{\vec{k}'}e^{-ik'y}] = -i\omega_{k'}e^{-ikx}e^{-ik'y}[a_{\vec{k}}, a_{\vec{k}'}] = 0 \\
+% \text{Termine 2: } & [a_{\vec{k}}e^{-ikx}, i\omega_{k'}a^\dagger_{\vec{k}'}e^{ik'y}] = i\omega_{k'}e^{-ikx}e^{ik'y}[a_{\vec{k}}, a^\dagger_{\vec{k}'}] = i\omega_{k'}e^{-ikx}e^{ik'y}\delta_{\vec{k},\vec{k}'} \\
+% \text{Termine 3: } & [a^\dagger_{\vec{k}}e^{ikx}, -i\omega_{k'}a_{\vec{k}'}e^{-ik'y}] = -i\omega_{k'}e^{ikx}e^{-ik'y}[a^\dagger_{\vec{k}}, a_{\vec{k}'}] = i\omega_{k'}e^{ikx}e^{-ik'y}\delta_{\vec{k},\vec{k}'} \\
+% \text{Termine 4: } & [a^\dagger_{\vec{k}}e^{ikx}, i\omega_{k'}a^\dagger_{\vec{k}'}e^{ik'y}] = i\omega_{k'}e^{ikx}e^{ik'y}[a^\dagger_{\vec{k}}, a^\dagger_{\vec{k}'}] = 0
+% \end{align}
+% Sommando i termini non nulli (2 e 3) e raggruppando i fattori:
+% \begin{equation}
+% [\phi(\vec{x}, t), \pi(\vec{y}, t)] = \sum_{\vec{k}, \vec{k}'} \frac{i\omega_{k'}}{2V\sqrt{\omega_k \omega_{k'}}} \delta_{\vec{k},\vec{k}'} \left( e^{-ikx}e^{ik'y} + e^{ikx}e^{-ik'y} \right)
+% \end{equation}
+% La delta di Kronecker \(\delta_{\vec{k},\vec{k}'}\) fa collassare la somma su \(\vec{k}'\), imponendo \(\vec{k}'=\vec{k}\) e \(\omega_{k'}=\omega_k\):
+% \begin{equation}
+% = \sum_{\vec{k}} \frac{i\omega_{k}}{2V\omega_k} \left( e^{-i(\omega_k t - \vec{k}\cdot\vec{x})} e^{i(\omega_k t - \vec{k}\cdot\vec{y})} + e^{i(\omega_k t - \vec{k}\cdot\vec{x})} e^{-i(\omega_k t - \vec{k}\cdot\vec{y})} \right)
+% \end{equation}
+% Semplificando e notando che le dipendenze temporali \(e^{\pm i\omega_k t}\) si cancellano a vicenda:
+% \begin{equation}
+% = \frac{i}{2V} \sum_{\vec{k}} \left( e^{i\vec{k}\cdot(\vec{x}-\vec{y})} + e^{-i\vec{k}\cdot(\vec{x}-\vec{y})} \right)
+% \end{equation}
+% Ora effettuiamo il \textbf{passaggio al limite del continuo}, dove il volume della scatola tende all'infinito, \(V \to \infty\). In questo limite, la somma sugli impulsi discreti diventa un integrale:
+% \begin{equation}
+% \frac{1}{V} \sum_{\vec{k}} \longrightarrow \int \frac{\dd^3 k}{(2\pi)^3}
+% \end{equation}
+% Il commutatore diventa:
+% \begin{equation}
+% [\phi(\vec{x}, t), \pi(\vec{y}, t)] = \frac{i}{2} \int \frac{\dd^3 k}{(2\pi)^3} \left( e^{i\vec{k}\cdot(\vec{x}-\vec{y})} + e^{-i\vec{k}\cdot(\vec{x}-\vec{y})} \right)
+% \end{equation}
+% Possiamo cambiare la variabile di integrazione \(\vec{k} \to -\vec{k}\) nel secondo termine. Poiché l'integrazione è su tutto lo spazio, il dominio non cambia e \(\dd^3 k\) rimane invariato. I due termini diventano identici.
+% \begin{equation}
+% = \frac{i}{2} \int \frac{\dd^3 k}{(2\pi)^3} e^{i\vec{k}\cdot(\vec{x}-\vec{y})} + \frac{i}{2} \int \frac{\dd^3 k}{(2\pi)^3} e^{i\vec{k}\cdot(\vec{x}-\vec{y})} = i \int \frac{\dd^3 k}{(2\pi)^3} e^{i\vec{k}\cdot(\vec{x}-\vec{y})}
+% \end{equation}
+% Questa è la rappresentazione integrale della funzione \textbf{delta di Dirac} tridimensionale. Il risultato finale è quindi:
+% \begin{equation}
+% [\phi(\vec{x}, t), \pi(\vec{y}, t)] = i\delta^{(3)}(\vec{x} - \vec{y})
+% \end{equation}
+% Questo risultato è fondamentale per due motivi:
+% \begin{enumerate}
+%     \item \textbf{Causalità:} Per \(\vec{x} \neq \vec{y}\), il commutatore è zero. Fisicamente, questo significa che una misura del campo in \(\vec{x}\) non può influenzare una misura del suo momento coniugato in \(\vec{y}\) se le due misure sono simultanee. I due eventi \((t, \vec{x})\) e \((t, \vec{y})\) sono separati da un intervallo di tipo spazio, e quindi non possono essere connessi da un segnale che viaggi al più alla velocità della luce. La teoria rispetta il principio di causalità di Einstein.
+%     \item \textbf{Divergenze:} Per \(\vec{x} = \vec{y}\), la delta di Dirac è infinita. Questo indica che il valore del commutatore tra un campo e il suo momento coniugato nello stesso punto dello spazio è infinito. Questa è la prima di una serie di \textbf{divergenze} che appaiono nella Teoria Quantistica dei Campi. Questi infiniti sono una caratteristica intrinseca della teoria, legata al fatto che stiamo trattando con un numero infinito di gradi di libertà. La loro gestione richiederà tecniche avanzate di rinormalizzazione.
+% \end{enumerate}
+
+% \section{Ritorno alla Formulazione Lagrangiana}
+
+% Per comprendere più a fondo la struttura della teoria, è utile ritornare alla formulazione classica basata sulla Lagrangiana, da cui poi si deriva l'Hamiltoniana e si procede con la quantizzazione.
+
+% L'azione \(S\) è un funzionale del campo, definita come l'integrale della densità Lagrangiana \(\mathcal{L}\):
+% \begin{equation}
+% S[\phi] = \int \dd^4 x \, \mathcal{L}(\phi(x), \pd_\mu \phi(x))
+% \end{equation}
+% Per un campo scalare libero di massa \(m\), la densità Lagrangiana è:
+% \begin{equation}
+% \mathcal{L} = \frac{1}{2}(\pd_\mu \phi)(\pd^\mu \phi) - \frac{1}{2}m^2\phi^2 = \frac{1}{2}\dot{\phi}^2 - \frac{1}{2}(\vec{\nabla}\phi)^2 - \frac{1}{2}m^2\phi^2
+% \end{equation}
+% Questa Lagrangiana è uno scalare di Lorentz, e quindi l'azione è invariante. Il termine con il gradiente \(\vec{\nabla}\phi\) è cruciale: è l'analogo nel continuo del termine di interazione tra oscillatori vicini nel nostro modello discreto. Ricordiamo che l'Hamiltoniana del sistema di oscillatori accoppiati conteneva un termine \((q_{i+1}-q_i)^2\), che nel limite del continuo diventa proprio \((\vec{\nabla}\phi)^2\).
+
+% Il momento coniugato \(\pi(x)\) si definisce a partire dalla Lagrangiana:
+% \begin{equation}
+% \pi(x) = \frac{\pd \mathcal{L}}{\pd \dot{\phi}} = \dot{\phi}(x)
+% \end{equation}
+% Questo conferma la nostra precedente identificazione. Avendo la Lagrangiana e il momento coniugato, si può costruire l'Hamiltoniana \(\mathcal{H}\) tramite una trasformata di Legendre:
+% \begin{equation}
+% \mathcal{H} = \pi\dot{\phi} - \mathcal{L} = \pi^2 - \left(\frac{1}{2}\pi^2 - \frac{1}{2}(\vec{\nabla}\phi)^2 - \frac{1}{2}m^2\phi^2\right)
+% \end{equation}
+% \begin{equation}
+% \mathcal{H} = \frac{1}{2}\pi^2 + \frac{1}{2}(\vec{\nabla}\phi)^2 + \frac{1}{2}m^2\phi^2
+% \end{equation}
+% Questa densità Hamiltoniana, quando integrata sullo spazio, ci darà l'operatore Hamiltoniano del campo, le cui autovalori rappresentano le energie permesse del sistema. Notiamo che è definita positiva, il che garantisce che l'energia del sistema sia limitata inferiormente (esistenza di uno stato di vuoto stabile).
+
+
+
+\section{Il Campo Scalare Quantistico}
+
+Il punto di partenza del nostro formalismo è l'espressione del \textbf{campo scalare quantistico} $\phi(x)$, un operatore definito in ogni punto dello spaziotempo $x = (\vec{x}, t)$, che descrive una particella di massa $m$ con spin 0. Il campo è sviluppato in una somma di modi normali (onde piane), dove i coefficienti sono gli operatori di creazione e annichilazione.
+
+Utilizziamo unità naturali ($\hbar=c=1$). Il campo è dato da:
+
+\begin{equation}
+\phi(x) = \phi(\vec{x},t) = \sum_{\vec{k}} \frac{1}{\sqrt{2V\omega_{\vec{k}}}} \left( a(\vec{k})e^{ikx} + a^{\dagger}(\vec{k})e^{-ikx} \right)
+\end{equation}
+
+Il quadrivettore posizione è $x^\mu = (t, \vec{x})$, e il quadrivettore momento $k^\mu = (\omega_{\vec{k}}, \vec{k})$. Il prodotto scalare di Minkowski è $kx = k_\mu x^\mu = \omega_{\vec{k}} t - \vec{k} \cdot \vec{x}$.
+
+La frequenza $\omega_{\vec{k}}$ e il momento $\vec{k}$ non sono indipendenti; sono legati dalla \textbf{condizione di mass-shell} (guscio di massa), una relazione fondamentale della relatività per una particella libera:
+
+\begin{equation}
+\omega_{\vec{k}} = \sqrt{\vec{k}^2 + m^2}
+\end{equation}
+
+L'operatore $a^{\dagger}(\vec{k})$ crea un quanto del campo (una particella) con momento $\vec{k}$, e $a(\vec{k})$ lo annichila. L'azione del campo sul vuoto $|0\rangle$ genera uno stato a singola particella:
+
+\begin{equation}
+\phi(x)|0\rangle = \sum_{\vec{k}} \frac{e^{-ikx}}{\sqrt{2V\omega_{\vec{k}}}} |\vec{k}\rangle
+\end{equation}
+
+\subsection{Collegamento alla Funzione d'Onda e Densità di Corrente}
+
+L'elemento di matrice tra il vuoto e uno stato a una particella con momento $\vec{p}$ è:
+
+\begin{equation}
+\langle \vec{p} | \phi(x) | 0 \rangle = \frac{e^{-ipx}}{\sqrt{2V\omega_{\vec{p}}}} = \frac{e^{-i(\omega_{\vec{p}} t - \vec{p} \cdot \vec{x})}}{\sqrt{2V\omega_{\vec{p}}}}
+\end{equation}
+
+Questa espressione è il vero analogo relativistico della funzione d'onda $\Psi_{\vec{p}}(x) \sim \frac{e^{i\vec{p}\cdot\vec{x}}}{\sqrt{V}}$. La differenza cruciale risiede nel fattore di normalizzazione $\mathbf{1/\sqrt{2\omega_{\vec{p}}}}$.
+
+Questo fattore è essenziale per la \textbf{normalizzazione relativistica}. Nella Meccanica Quantistica non relativistica, la densità di probabilità $\rho = |\Psi|^2$ è uno scalare, ma in un contesto relativistico, essa deve essere la componente temporale $j^0$ di un \textbf{quadrivettore corrente} conservato $j^\mu = (\rho, \vec{j})$, tale che la sua divergenza sia nulla: $\partial_\mu j^\mu = 0$.
+
+Per assicurare che l'integrale della densità di probabilità sia correttamente normalizzato ($\int d^3x \, j^0 = 1$) in modo Lorentz-invariante, si impone che il fattore di normalizzazione della funzione d'onda relativistica contenga $\sqrt{2\omega_{\vec{p}}}$. Questo è un requisito formale per garantire che la probabilità totale sia conservata in ogni sistema di riferimento.
+
+\subsection{Regole di Commutazione e Causalità}
+
+Il campo $\phi(x)$ è un operatore e deve soddisfare le regole di commutazione. Ci concentriamo sulla \textbf{Equal Time Commutation Relation (ETCR)} tra il campo e il suo momento coniugato $\Pi(\vec{x},t) = \dot{\phi}(\vec{x},t) = \frac{\partial\phi}{\partial t}$.
+
+Il commutatore a tempi uguali deve rispettare la \textbf{causalità} (nullo per $\vec{x} \neq \vec{y}$) e la \textbf{quantizzazione canonica} (proporzionale a $i$ per $\vec{x} = \vec{y}$).
+
+Il momento coniugato $\dot{\phi}(x)$ è:
+\begin{equation}
+\dot{\phi}(x) = \sum_{\vec{k}} \frac{1}{\sqrt{2V\omega_{\vec{k}}}} \left( i\omega_{\vec{k}} a(\vec{k})e^{ikx} - i\omega_{\vec{k}} a^{\dagger}(\vec{k})e^{-ikx} \right)
+\end{equation}
+
+Calcoliamo il commutatore $[\phi(\vec{x},t), \dot{\phi}(\vec{y},t)]$. Poniamo $t=0$ senza perdita di generalità.
+Usiamo le relazioni canoniche di commutazione per gli operatori:
+$$[a(\vec{k}), a(\vec{k}')] = [a^{\dagger}(\vec{k}), a^{\dagger}(\vec{k}')] = 0$$
+$$[a(\vec{k}), a^{\dagger}(\vec{k}')] = \delta_{\vec{k}\vec{k}'}$$
+
+Svolgendo l'espressione si ottengono quattro termini, due dei quali sono nulli:
+\begin{align*}
+[\phi(\vec{x},0), \dot{\phi}(\vec{y},0)] &= \sum_{\vec{k},\vec{k}'} \frac{1}{\sqrt{4V^2 \omega_{\vec{k}}\omega_{\vec{k}'}}} \cdot \left[ a(\vec{k})e^{i\vec{k}\cdot\vec{x}} + a^{\dagger}(\vec{k})e^{-i\vec{k}\cdot\vec{x}}, i\omega_{\vec{k}'} a(\vec{k}')e^{i\vec{k}'\cdot\vec{y}} - i\omega_{\vec{k}'} a^{\dagger}(\vec{k}')e^{-i\vec{k}'\cdot\vec{y}} \right] \\
+&= \sum_{\vec{k},\vec{k}'} \frac{-i\omega_{\vec{k}'}}{\sqrt{4V^2 \omega_{\vec{k}}\omega_{\vec{k}'}}} \left( e^{i(\vec{k}\cdot\vec{x} - \vec{k}'\cdot\vec{y})} [a(\vec{k}), a^{\dagger}(\vec{k}')] - e^{-i(\vec{k}\cdot\vec{x} - \vec{k}'\cdot\vec{y})} [a^{\dagger}(\vec{k}), a(\vec{k}')] \right)
+\end{align*}
+Sostituendo $[a(\vec{k}), a^{\dagger}(\vec{k}')] = \delta_{\vec{k}\vec{k}'}$ e $[a^{\dagger}(\vec{k}), a(\vec{k}')] = -\delta_{\vec{k}\vec{k}'}$:
+\begin{align*}
+&= \sum_{\vec{k},\vec{k}'} \frac{-i\omega_{\vec{k}'}}{\sqrt{4V^2 \omega_{\vec{k}}\omega_{\vec{k}'}}} \left( \delta_{\vec{k}\vec{k}'} e^{i(\vec{k}\cdot\vec{x} - \vec{k}'\cdot\vec{y})} + \delta_{\vec{k}\vec{k}'} e^{-i(\vec{k}\cdot\vec{x} - \vec{k}'\cdot\vec{y})} \right) \\
+&= \sum_{\vec{k}} \frac{-i\omega_{\vec{k}}}{2V\omega_{\vec{k}}} \left( e^{i\vec{k}\cdot(\vec{x} - \vec{y})} + e^{-i\vec{k}\cdot(\vec{x} - \vec{y})} \right) \\
+&= \frac{i}{2V} \sum_{\vec{k}} \left( e^{i\vec{k}\cdot(\vec{x} - \vec{y})} + e^{-i\vec{k}\cdot(\vec{x} - \vec{y})} \right)
+\end{align*}
+
+Passando al limite continuo ($V \to \infty$), la sommatoria si trasforma in un integrale $\frac{1}{V}\sum_{\vec{k}} \to \int \frac{d^3k}{(2\pi)^3}$. L'integrale risultante è proprio la rappresentazione integrale della funzione delta di Dirac.
+
+\begin{equation}
+[\phi(\vec{x},t), \dot{\phi}(\vec{y},t)] = i\delta^3(\vec{x}-\vec{y})
+\end{equation}
+
+Questo risultato conferma in modo cruciale la coerenza della QFT con la \textbf{causalità} e la \textbf{quantizzazione}.
+
+\subsection{Patologie della Teoria: Gli Infiniti}
+
+L'applicazione del formalismo di quantizzazione canonica ai campi introduce inevitabilmente delle \textbf{divergenze}, i cosiddetti infiniti.
+
+\subsubsection{Fluttuazioni Quantistiche del Vuoto}
+
+La prima manifestazione problematica emerge nel calcolo della deviazione standard del campo nel vuoto, $(\Delta\phi)^2$, che rappresenta l'ampiezza delle \textbf{fluttuazioni quantistiche} del campo nel punto $x$.
+\begin{equation}
+(\Delta\phi)^2 = \langle 0 | \phi^2(x) | 0 \rangle - (\langle 0 | \phi(x) | 0 \rangle)^2
+\end{equation}
+
+Poiché $\langle 0 | \phi(x) | 0 \rangle = 0$, dobbiamo calcolare $\langle 0 | \phi^2(x) | 0 \rangle$.
+Sostituendo l'espressione del campo:
+$$
+\langle 0 | \phi^2(x) | 0 \rangle = \sum_{\vec{k},\vec{k}'} \frac{1}{\sqrt{4V^2 \omega_{\vec{k}}\omega_{\vec{k}'}}} \langle 0 | \left( a(\vec{k})e^{ikx} + a^{\dagger}(\vec{k})e^{-ikx} \right) \left( a(\vec{k}')e^{ik'x} + a^{\dagger}(\vec{k}')e^{-ik'x} \right) | 0 \rangle
+$$
+Il vuoto annichila gli operatori $a$: $a(\vec{k})|0\rangle = 0$. Il contributo non nullo proviene solo dal termine $a^{\dagger}a$ e dal commutatore. Per il termine $a a^{\dagger}$ usiamo la relazione $a a^{\dagger} = a^{\dagger} a + \delta_{\vec{k}\vec{k}'}$.
+\begin{align*}
+\langle 0 | \phi^2(x) | 0 \rangle &= \sum_{\vec{k},\vec{k}'} \frac{1}{\sqrt{4V^2 \omega_{\vec{k}}\omega_{\vec{k}'}}} \langle 0 | a(\vec{k}) a^{\dagger}(\vec{k}') e^{i(k-k')x} | 0 \rangle \\
+&= \sum_{\vec{k},\vec{k}'} \frac{1}{\sqrt{4V^2 \omega_{\vec{k}}\omega_{\vec{k}'}}} e^{i(k-k')x} \langle 0 | (\delta_{\vec{k}\vec{k}'} + a^{\dagger}(\vec{k}')a(\vec{k})) | 0 \rangle \\
+&= \sum_{\vec{k}} \frac{1}{2V\omega_{\vec{k}}} \cdot 1
+\end{align*}
+Passando al limite continuo ($V \to \infty$) e ricordando che $\sum_{\vec{k}} \to V \int \frac{d^3k}{(2\pi)^3}$, otteniamo:
+
+\begin{equation}
+\langle 0 | \phi^2(x) | 0 \rangle = \int \frac{d^3k}{(2\pi)^3 2\omega_{\vec{k}}}
+\end{equation}
+
+Questo è il valore al punto zero della funzione di Green a due punti, $G(0)$. Sostituendo $\omega_{\vec{k}} = \sqrt{\vec{k}^2 + m^2}$ e passando a coordinate sferiche ($d^3k = k^2 dk \, d\Omega$):
+$$
+\langle 0 | \phi^2(x) | 0 \rangle = \frac{4\pi}{(2\pi)^3} \int_0^\infty \frac{k^2 dk}{2\sqrt{k^2 + m^2}} \propto \int_0^\infty k \, dk
+$$
+L'integrale \textbf{diverge quadraticamente} per grandi momenti $k$ (ultravioletto, UV). La fluttuazione del campo in un singolo punto dello spaziotempo è, di fatto, infinita.
+
+\subsubsection{Energia del Vuoto}
+
+La seconda e più nota divergenza riguarda l'energia dello stato fondamentale, l'\textbf{energia del vuoto} ($E_0$). L'Hamiltoniana è la somma delle energie di punto zero di tutti i modi oscillanti:
+
+\begin{equation}
+H = \sum_{\vec{k}} \omega_{\vec{k}} \left(a_{\vec{k}}^\dagger a_{\vec{k}} + \frac{1}{2}\right)
+\end{equation}
+
+L'energia dello stato di vuoto ($|0\rangle$) è data da:
+
+\begin{equation}
+E_0 = \langle 0 | H | 0 \rangle = \sum_{\vec{k}} \frac{1}{2}\omega_{\vec{k}}
+\end{equation}
+
+Questa somma, nel limite continuo, si trasforma nell'integrale:
+
+\begin{equation}
+E_0 = \int d^3x \mathcal{E}_0 = V \int \frac{d^3k}{(2\pi)^3} \frac{1}{2}\omega_{\vec{k}}
+\end{equation}
+
+L'integrale dell'energia del vuoto (o densità di energia del vuoto $\mathcal{E}_0$) diverge.
+$$
+\mathcal{E}_0 = \int \frac{d^3k}{(2\pi)^3} \frac{1}{2}\sqrt{\vec{k}^2 + m^2} \propto \int_0^\infty k^3 dk
+$$
+Questo è un infinito ancora più violento, una \textbf{divergenza cubica} in $k$. Questo fenomeno, dove ogni modo contribuisce con $\frac{1}{2}\hbar\omega_{\vec{k}}$, costringe la teoria a introdurre cutoff (limiti superiori di integrazione) e a ricorrere alla \textbf{rinormalizzazione} per ottenere risultati finiti e misurabili, una tematica che sarà centrale nel corso.
+
+\section{Formalismo Lagrangiano: Il Ritorno al Classico}
+
+Per affrontare in modo sistematico le interazioni e le divergenze, è necessario stabilire la teoria partendo dal \textbf{formalismo Lagrangiano classico} e applicare la quantizzazione solo alla fine.
+
+L'oggetto fondamentale è l'\textbf{Azione} $S$, un funzionale della Lagrangiana $L$:
+
+\begin{equation}
+S = \int dt L[\phi(\vec{x},t), \dot{\phi}(\vec{x},t)]
+\end{equation}
+
+È prassi definire la Lagrangiana $L$ tramite la \textbf{densità Lagrangiana} $\mathcal{L}$, integrata su tutto lo spazio:
+
+\begin{equation}
+L = \int d^3x \, \mathcal{L}
+\end{equation}
+
+L'Azione $S$ è quindi un integrale quadridimensionale sullo spaziotempo:
+
+\begin{equation}
+S = \int dt \int d^3x \, \mathcal{L} = \int d^4x \, \mathcal{L}
+\end{equation}
+
+Affinché la teoria sia compatibile con la Relatività Speciale, la densità Lagrangiana $\mathcal{L}$ deve essere uno \textbf{scalare di Lorentz}, una quantità che non cambia sotto trasformazioni di Lorentz. Deve quindi dipendere dal campo $\phi$ e dalle sue derivate $\partial_\mu \phi$, combinate in modo invariante:
+
+\begin{equation}
+\mathcal{L} = \mathcal{L}(\phi(\vec{x},t), \dot{\phi}(\vec{x},t), \vec{\nabla}\phi(\vec{x},t))
+\end{equation}
+
+L'inclusione delle derivate spaziali $\vec{\nabla}\phi$ è un requisito fisico per l'invarianza di Lorentz, ma ha anche una radice nel nostro modello meccanico: l'energia potenziale degli oscillatori accoppiati $\sum_n (\mathbf{q}_n - \mathbf{q}_{n+1})^2$ si traduce nel limite continuo in un termine proporzionale a $\int d^3x (\vec{\nabla}\phi)^2$. L'unica estensione relativistica naturale di questo termine spaziale è l'uso del quadrivettore derivato.
+
+Il \textbf{principio di minima azione} ($\delta S = 0$) impone che l'evoluzione fisica del campo soddisfi le \textbf{equazioni di Eulero-Lagrange} per i campi. L'equazione di Eulero-Lagrange si generalizza dalla meccanica classica al campo $\phi$ e alle sue derivate spaziali:
+
+\begin{equation}
+\frac{\partial}{\partial t} \left( \frac{\partial \mathcal{L}}{\partial \dot{\phi}} \right) + \sum_{i=1}^{3} \frac{\partial}{\partial x_i} \left( \frac{\partial \mathcal{L}}{\partial (\partial_i \phi)} \right) - \frac{\partial \mathcal{L}}{\partial \phi} = 0
+\end{equation}
+
+L'introduzione della notazione quadrivettoriale $\partial_\mu = (\partial/\partial t, -\vec{\nabla})$ permette di condensare l'equazione di Eulero-Lagrange in una forma manifestamente covariante (invariante sotto trasformazioni di Lorentz):
+
+\begin{equation}
+\partial_\mu \left( \frac{\partial \mathcal{L}}{\partial (\partial_\mu \phi)} \right) - \frac{\partial \mathcal{L}}{\partial \phi} = 0
+\end{equation}
+
+Questo formalismo è la base da cui deriveremo la dinamica del campo (Equazione di Klein-Gordon) e procederemo alla sua quantizzazione per costruire la Teoria Quantistica dei Campi.

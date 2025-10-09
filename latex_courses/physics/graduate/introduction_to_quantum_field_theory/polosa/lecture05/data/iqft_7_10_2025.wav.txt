@@ -1,0 +1,865 @@
+ This is a five of facts in T, or three of facts.
+ And this one is summation of K, 1 divided by 2,
+ and this one is summation of K, 2 divided by 2, plus 3 divided by 2, plus 3 divided by 2.
+ So the Kx, the Kx here is Km Xm, which is written as K dot X minus omega K dot T.
+ And here Mu runs from one, two, three, and the temporal component, sometimes we call it zero component, sometimes we call it four.
+ Well, we will go into this debate a little bit later.
+ Omega k is related to k squared, well, we said that we will go in the vacuum where the velocity is velocity applied.
+ So it's a squared c squared plus m squared c4.
+ At some point we will drop the c, we will go to the natural units, actually the sooner the better, and so this would be the expression of k.
+ So the k in this equation, in this equation for the field, in this equation which actually defines the field, the k and omega k are not independent.
+ In this equation defining the scalar field, the k and omega k are connected one to the other.
+ If you know k, you know omega k.
+ Through this relation, this is called, sometimes, the mass-shell condition,
+ where we will do some recap of special relativity.
+ You will understand the study of the shell.
+ Maybe you already know.
+ Mass shared conditions have the name that we use for that.
+ But we will also tell that in other ways.
+ So as we commented yesterday, this expression has a lot of features.
+ It defines phi as an operator.
+ This operator depends on its creation, creation and annihilation operators.
+ You see that this K here is substituting the S that we had in the discrete model.
+ So this one is a creation operator, we could say, of a particle.
+ We call this the phonon in the elastic model of a particle of momentum k
+ when this is supposed to act on the ground state of our system,
+ which could be the vacuum itself.
+ And sometimes the vacuum itself is named with a zero,
+ which in our usual notation is the zero of the ground state of an harmonic oscillator.
+ At the end, we started talking about a couple of harmonic oscillators.
+ So this could be the vacuum state, not of any material.
+ And of course, this one, the A dagger K on zero, can make what we will call this direct notation
+ as a state, this is a vector in the Hilbert space, as a state of one particle with momentum K.
+ The one particle with momentum K has to satisfy this relation here, because if you know K you know omega, it's on the mass square.
+ That is important to strike off, because this is what happens with this case over here.
+ So therefore, if you look at this expression here, and you imagine you actually apply the field of the vacuum, all the fields,
+ you will see that this operator here eliminates the vacuum, because this is a distraction operator.
+ So this is simply zero, whereas the other one has an effect as this e to the minus i k/dx divided by 2d of k,
+ and then there is a state of k that appears to be some constant.
+ This is trivially the action of this quantum field on the vector state.
+ You could project this on some one particle state with a specific momentum p and therefore this is given e to the minus ikx divided by 2b omega k and k.
+ You go inside this, inside the summation I need, e to the minus ikx, eb omega k, and that is pk, which gives you an orthogonality condition, of course.
+ So, this can be written as e to the minus ikx plus i omega kp divided by 2b omega k, and then there is a delta, say, kp, which removes the summation and gives an e to the minus ip dot x,
+ and an e to the i omega p t, this is divided by 2b omega k.
+ Right, so this in turn is equal to p, and then there is this phi of x on the back.
+ And you get this factor here and a time evolution factor of the form i omega p because we changed
+ all the k's into p's because of this product p dot k.
+ So this factor here is something that you remember of because what you know is that p
+ p x is equal to e to the minus i p x divided by the square root of p.
+ Well, this is what you remember from elementary quantum mechanics because that's basically the wave function of
+ a particle with some fixed momentum p, a free particle of fixed momentum p is what, actually we call it like that, x, p or using a more clear notation, at least for me, psi of x, this is an again state of the position, this is an again state of the momentum, the comma and the parenthesis are a scalar product, this is the classical
+ foundation which was also substituted by the direct foundation sometimes. And this is e to the i px divided by the square root of e, which in turn sometimes is also called the weight function of a three particle with momentum pixels p and what else function of x. That is normalized in the rocks as usual.
+ And so if you look at this it's like, it's kind of similar, somewhat. We know very well that there is no connection because the phi is a greater than in the inbound space and wave function is a wave function, but we can appreciate that there is some connection between these things because if you look at this piece that we just deduced before, it contains something here which is p projected on
+ something which is depending on x of course which is depending on that particular oscillator which is like and then there is this factor here which is like this and then there is the square root of v which is like this but then there is also the time well but the time is not a real issue because the evolution time is something that you put also in the complete wave function of a free particle to the evolution of time as well so also that is not really strange
+ because you could certainly and I presume that this is p on the left right so when you put the evolution time you should put e to the minus i omega t here
+ that's the time evolution operator right if you put it with the minus in the px
+ right sorry if you put on the minus in xp then you put it on the part with the plus
+ in px right so all of this is fine the only thing that it's a little bit different is this
+ two omega which appears which appears here so the two omega for us is not it's really
+ admired in our derivation of this formula the two omega in the denominator for us comes
+ from the definition itself of the normal modes in terms of creation of the structure of the operators because the normal coordinates the q and the p are defined with the two omega in the denominator that's where well the q with the two omega in the denominator and the p with an omega in the denominator but this is coming from the q
+ when we do this when we do this when we compute this object over here we realize that there is a kind of it's kind that we are making phi of x zero to be compared to the psi of x
+ and so we have this analogy with the standard wave function so we might wonder where this two omega is coming from. Well this is a sort of analogy that we are pursuing and let's see if we can get some intuition where this is really coming from.
+ In quantum mechanics that you can define them, I'm talking about not relativistic quantum mechanics, just to have a feeling of that two omega there.
+ You remember that that is, in quantum mechanics you can define the current density from the wave function and the current density from the wave function is defined to this.
+ Well, this is a well-known expression that you have used also in problems, exercises and all that.
+ Well, this expression here has, I think that you remember, this expression here contains a 2m, but this 2m comes from the building of this expression from the Schrodinger equation.
+ That 2m comes from the 2m that you have in the kinetic energy of Schrodinger equation, right?
+ So it's contained here.
+ Now we have in mind a relativistic formulation, not a, there's no Schrodinger equation with p squared divided by 2m.
+ There is no p squared divided by 2m.
+ But at the same time, so we can kind of make this 2m disappear because we don't want this 2m around.
+ So in our mind, just we are trying to do a sketchy reasoning to understand that 2 omega in an independent way.
+ So we could say forget about the h over here, which is like h equals 2m.
+ And let's kind of think of a j of some relativistic theory that you want to make up.
+ There is not a 2m in the denominator, but we want to retain this expression.
+ So we might absorb the 2m in the definition itself of the wave function.
+ In such a way that we have something like that.
+ If you absorb the 2m in the wave function,
+ you absorb the 2m equally in the psi and the psi star.
+ So you absorb the square root of 2m.
+ The psi absorbs the square root of 2m and the psi star absorbs the square root of 2m.
+ But if you really want to go in a relativistic theory,
+ well, m is the rest energy, so you could absorb a square root of 2e in both of them, in psi and psi star.
+ Now, it's also true that if you really want to make up a relativistic theory,
+ there should be, for covariance, for relativistic covariance, not only a j,
+ you should imagine to have also another component, a time component,
+ and they have to be treated at the same level.
+ This is not certainly there in your non-relativistic treatment,
+ but if you want to do everything relativistic,
+ you have to imagine that there is a d0,
+ where d0 is the derivative with respect to time,
+ minus psi psi, right?
+ So you have to assume something like that too.
+ And if everything is semantic and treated in the same way,
+ this square root of 2e is included in the wave functions everywhere.
+ But when you do the derivative with respect to time of the psi e,
+ of course you do the derivative of the part which contains e to the minus e t into psi, right?
+ psi is proportional to e to the minus e t, and psi star is proportional to e to the plus e t.
+ So when you do the derivative here, you will have 2e in the numerator divided by 2e in the denominator divided by b,
+ and this really makes a density.
+ In fact, the j zero must be a current density.
+ You know the equation of continuity for constant mechanics,
+ which is the problem.
+ It says that minus nabla j, j,
+ is equal to zero in dt.
+ Right?
+ Therefore, you have nabla j plus dt dt and rho,
+ where rho is what you call the probability density
+ in non-relatistic quantum mechanics.
+ So this is from your previous course.
+ And this is what you can figure out.
+ Now, if you want, as I said,
+ if you want to do something relativistic,
+ you should do something like this.
+ So there is one piece, which is like this,
+ and another piece, right,
+ which is minus d in dt j0.
+ That's the relativistic way.
+ This is the Minkowski method, right?
+ And this can be written as lambda j plus d in dt minus j0.
+ So if we want to compare this one, the relativistic one we want to seek for, with this.
+ The comparison says that rho must be minus j0.
+ Let's see if it's okay. Minus j0.
+ So j0 must be like j because everything is relativistic.
+ It should be treated everything in the same way.
+ Time and space is treated in the same way.
+ If you define a density current in space in this way,
+ you define a density current in the time component in the same way.
+ But we are saying that in order to satisfy the continuity equation,
+ the rho is minus j0, so there should be a minus in front.
+ Let's see if the minus in front gives the right result over here, which is the one will be.
+ Well, minus i e to the minus i et, derivative with respect to t, e to the plus et,
+ and then there is a minus e to the i et, derivative with respect to time, e to the minus i et,
+ and of course all the other factors cancel and there is a 1 over v which comes from the normalization
+ together with the famous 2e that we just introduced.
+ Now from this we get i e and then after the derivative the two guys cancel and from this we get minus minus i e.
+ So 2i e and the minus e in front, the minus i in front, cancels minus i and makes this 2e here which is just plus 1 over v.
+ That's the density. So this 2e is sort of the magic factor that makes the right normalization of what we would name as the would-be relativistic wave function in a formulation which is totally symmetric with respect of time and space.
+ It's not, I wish you to remind, I wish to remind you that this is not how things are presented in a relativistic quantum mechanics because this, well this is certainly what you did and so you talked about the divergence of j but then you said that this one is equal to minus d rho in dt and what was d rho for you, what is rho for you?
+ rho for you is just the square modulus of the wave function, you should remember, rho is like the size square root
+ this is what is rho in a relativistic quantum mechanics
+ but in a relativistic theory things cannot be like that
+ in a relativistic theory this j and rho should be meant as being component of a full vector
+ and so j is the special component and rho is the time component of that
+ and therefore all the derivatives should be
+ the non-relativistic theories are much more difficult than the relativistic ones
+ in the non-relativistic theory the time and space are treated in a different way
+ to begin with, think to the Schrodinger equation
+ the Schrodinger equation has a second derivative in sign because of the kinetic term in space
+ but as a first derivative in time
+ and the two things are completely different
+ there is an operator which is second order in space, first order in time
+ and then there is the mass and so on
+ the relativistic theories are much more harmonic
+ they do basically the same thing
+ whenever you see something done to the space part
+ they should be the same as we did today to the time part
+ everything is strictly the same
+ you see a j and you have to imagine immediately that there is a j0
+ which is like that but with time derivatives
+ so we will kind of pursue this rule of the thumb
+ to do our generalizations from non-relativistic to relativistic
+ and I insist on that, you will understand with time
+ that the relativistic formulation is way more simple
+ than the non-relativistic one
+ in terms of formalism
+ than the simplicity, you know
+ it's just words
+ so I hope that I convinced you a bit
+ that there is a sort of rational in this 2e
+ which goes beyond the pure fact
+ that we define the normal modes
+ to have this 2e in the denominator
+ of course we did that
+ but this has more roots around
+ now also please remember this
+ simple thing that we did here and remember the fact that we are saying that
+ in a way if we want to talk about the normalization of our function in the relativistic way
+ we should use 2b omega or 2be in place of b
+ because we will use this also when we will come to the definition of final propagating and all that
+ in many textbooks you will find this way of talk
+ ah the relativistic wave functions as a different normalization
+ it's kind of sloppy
+ what is really meant is this stuff that we
+ it is just how the file of x works on the back
+ and well basically how it is defined
+ but still it's good to observe that
+ now let's go to something more say solid
+ we have the phi and we have the phi dot
+ phi is the fifth and phi dot is the conjugate momentum
+ and we know from quantum mechanics that
+ well these are two operators
+ two quantized operators
+ both of them depend on creation and annihilation operators
+ the creation and annihilation operators have computation rules
+ because we have done the quantization of that
+ so there is quantization rules for a and a dagger
+ and therefore there will be quantization rules for phi and phi dot
+ so suppose that we take the commutator phi x and t and phi y and t
+ well this is a strange commutator if you look at it as separate, right?
+ sorry, because I insisted on the fact that x and y are different but I think the same time
+ this is called equal time commutation relation E T C R
+ equal time commutation and we take the same instant time
+ the two different locations in space
+ so we are sort of saying that we want to see what happens
+ to the commutator of the field phi when the field phi is taken at some point x
+ which is different from the point y
+ and so we are kind of asking ourselves if we could
+ as you say quantum mechanics is it possible to make a simultaneous measurement of phi and phi dot
+ at two different locations but we are introducing the time at the savings of the time right so suppose that
+ you can access the field and suppose that you can make a measurement of the field at that precise
+ position x suppose quantum mechanics tells that if you can do that you will have
+ well with ermithian operators you say that you will have negative value of that you are making a measurement of that operator in that precise position
+ simultaneously you want to do simultaneously same thing you want to do the measurement of the phi dot but elsewhere
+ right phi dot is phi dot it's just the time derivative of that so these are two different operators
+ right the only thing that you might observe here is that you have two different locations
+ and the same instance of time in quantum mechanics this doesn't mean much in a relativistic theory
+ this means a lot because in a relativistic theory there is one extra fact that we have to keep in mind all the time
+ that every signal moves max at the velocity of light max now you cannot go faster than that
+ so if you are at the same time there is no way that what you are doing here to measure the operator phi of x
+ can propagate to here where you are measuring the operator phi dot
+ now forget about the dot for a second say that this is phi and this is psi
+ so you are measuring two different fields at two different locations but at the same instant of time
+ same instant of time they could be even close but it doesn't
+ same instant of time means that there's no signal that can go from here to there
+ so these two things are sort of causally disconnected
+ there's no way that they communicate
+ so the measurement here does not interfere with what you are doing there at the same instant of time
+ so you expect this commutator to be zero even if you don't compute it
+ and this expectation is a relativistic expectation so you are not doing much you are just saying
+ well what can it be if it makes any sense it's impossible that the two things talk to each other
+ how can they talk is the same instant of time right and this is causality
+ causality is a wild here this is an expression of it now you might wonder if this causality
+ which is something that you really expect is taken in consideration by the expression that we derive
+ so we could actually compute this commutator and see if this causality is correct
+ because of course there is always a doubt that we should keep
+ so let's do it
+ and the reason why I insist on phi and phi dot instead of doing phi phi that is left for you as an exercise
+ the reason of phi and phi dot is not something that should escape too much from your logic
+ because now, exception for the story of the causality that should hold anyway
+ phi and phi dot should remind you of Q and P
+ because at the end what we did with a lot of effort is to find phi as the three-dimensional generalization of the displacement field
+ and the displacement field was something that we called q of x
+ and q dot is p
+ so phi and phi dot are the same as q and p
+ and the reason why we are insisting on phi and phi dot is simply that we expect something more
+ we expect not only the causality that we have here
+ but we expect that x and p should make the same commutation rules of q and p
+ and you know that q and p has a commutator which is an i or ih
+ right so if this building if you know we are building a theory now if we are building it in a consistent way
+ we should have since phi is the generalization of cool in the quantum and phi dot comes from there
+ that should be an i right like a commutator of u and p let's see if also this is true
+ there are two things that we have to check right
+ so to recap if x is different from y then it should be zero
+ if x and y are not different, like at the same time, there must be some dependency on i, and so we should reproduce the q dot p.
+ This is kind of naive expectations that we have.
+ Quantum mechanics, causality.
+ Quantum mechanics and causality are basically the things.
+ Now, causality from special relativity and quantum mechanics from quantum mechanics.
+ And the field should encode these two things together.
+ Let's do it.
+ So this is the summation over k and k prime of 1 divided by 2b.
+ And now I'm just reproducing what I have written over there.
+ And then there is 1 divided by omega k, omega k prime.
+ And then the phi is the usual ak e to the i kx plus e to the minus i kx.
+ And now I put a commutator here with the dotted one.
+ and the dotted one presents itself in the same way so it's a_k but I have to do the dot so the dot ik so it's minus i_k e to the ikx plus a_k and then a plus i_k e to the minus ikx.
+ So I have to do this big commutator, right?
+ But this big commutator looks like p, but it's not big at all.
+ Because we know that a_a is zero, plus is zero, a dagger, a dagger.
+ So this forget.
+ So this term, like the first with the first and second with the second, they are zero.
+ The only ones which are not zero are the first with the second here and the second here with the first here.
+ They are not zero.
+ These k's are all primed in such a way that it's this omega k omega k prime and we distinguish the k from k prime and on the top of that we remember that ak of a dagger k prime k delta k k prime as you might remember.
+ from what we did is the delta ss prime in the speech model or kk prime in the cozenian model and therefore for example if i take the first with the last i will get a delta kk prime from this and this and then of course there will be an e to the ik x and e to the minus i
+ i prime x and sorry for the x advice I made my usual mess here so the kx to be precise this kx is into the ik x vector minus i omega k and t and this is e to the minus i k
+ x vector minus omega k and t. What about this? This should be meant by e to the ik prime. You see there is a y here. So let's put it somewhere for this. Let's put it a y. So it's k prime y and then minus i k prime
+ sorry, omega k prime and t. Same t because it's equal time permutation relations. And this one is going to be e to the minus i k prime y minus i omega k prime and the same t. Right? This is really to be precise because phi of x and t
+ contains i k x but i k x is this. This is minus i k x so this is perfectly fine but in this one we have to change x and y but just the space because the time is the same. So we change the space y y but don't change the time t t. This is the prescription that we are following because we want to check this story of the causality. That's why we take the same time. Right?
+ I just forgot to put the y's on the second one. But if you look at it, it's only that. So again, when you do this commutator with the last one, you will get delta kk prime, which comes from the permutation relations of the a. And then you will get e to the ik and an x and e to the minus.
+ minus ik prime and a y. So you get the ikx from here and the ik prime y from here. Now let's look at the other. It is e to the minus i omega k and t and e to the plus i omega k prime and t. This is to be including everything. So I'm looking at
+ this piece, as I said, and this piece. And finally, I have to multiply by i omega k prime. i omega k prime is this factor. And now I think that I have everything, but this is just one of the two, which is different from z. Now there is a summation of a k and k prime. The summation of a k and k prime
+ and k prime must be the same. So this turns into omega k, i omega k. The k prime and k are the same, so these two go away, all of them, and we are left with e to the i k and an x minus y with an omega k prime.
+ That's my rule. Of course, when k is equal to k prime, this square root here is reduced to the summation over k, one over 2d, and then there is one over omega k, only one of the two, because k is equal to k prime, and then there is this out omega k, which is
+ k, coming from that, and what else? e to the i table. And this is one of the two commutators.
+ Now, what about the other one? The other one is for you to fill the blanks. I copy it here. It's the same.
+ I get it. And it is the same here, but a little bit different here. So this is a tiny exercise for you.
+ You don't see it immediately because if you start from here, right, there is a dagger and a, but you start with i minus kx.
+ and this is reflected in the minus kx, but a dagger and a, with respect to a dagger has a minus for an ecker, but the minus for an ecker is hitting the minus of this minus i omega, so at the end it's that sum over there.
+ So, the omega k's get cancelled, right? So the omega k's get cancelled and what you have is, let's write it here, it is i divided by 2b, the summation over k of e to the i k x minus y,
+ plus e to the minus y, right, now what we do know about the k, well the k is a 2 pi L divided by L, this is what we found.
+ So these are numerable somewhat, so this L is an integer which is a vector of 3 integers, we did it in one dimension explicitly but that is a vector of 3 integers, so it's something numerable but we also said if we set the limit, if we set L capital L to infinity, this would be a continuous.
+ This will make a continuous path because if we set that to infinity, this is very tiny, you increase by integers and you move just a little bit so it's a continuous path.
+ And we also learned that in that limit there is a very practical expression here which is 1 divided by 2b divided by 2b, the integral in E3k in place of the sum.
+ And then ik x minus y, and this is 1 plus D3k into the minus ik x minus 1.
+ And then B goes away into B. What is the first? Well, you know that this is 2 pi to the 2 bit D3x minus y.
+ And you know that this is 2 pi, this is 2 pi to the 2 bit D3y minus x.
+ So the 2 pi cancels.
+ And so that is the sum of delta 3x minus y and delta 3y minus x, which is the same thing.
+ You should know that.
+ And therefore this has an i here, it is i delta 3x minus y.
+ So we skip the 2 in the denominator because delta by delta is the same.
+ Delta 3x minus y plus delta 3y minus x, you know very well twice delta 3x minus 1.
+ So you remove the 2 and you get this.
+ So we have a good new and a bad new.
+ The good news is the following that we just discovered after this brief calculation that phi x and t and phi dot y and t contains that famous i that we like so much because the i of the quantization that reminds us of the quantization of q and t contains this delta which has a nice advantage.
+ because if x is different from y this is just zero so the delta is certainly ensuring you that there is no problem at all if x and y are different if x and y are different then there is no problem with causality.
+ There is no problem in this place because this is like qp equals y but there is something in between and the fact that everything looks nice but the question is what happens if x and y are the same?
+ Well in the continuous theory and this is why I wanted to do the limit because we will mostly use for our things we will mostly use the summations of a k and a b because that makes an enormous simplification in many intermediate calculations as you will see.
+ I think it's crazy to go to the continuum theory all the way and keep working on distributions using the Kronecker as you will see makes a lot of it's a lot of clutter stuff that gets removed when you use the Kronecker instead of the Dirac there.
+ But when you go to the continuum, at some point you go to the continuum, right? You have always in mind this limit, not the continuum, sorry, the large volume, this infinite volume limit, you always know that.
+ Infinite volume does not necessarily mean the whole universe because one says, ah, what is this V which goes to infinity? It's infinity of physics. If you are doing an experiment in this place here and you are doing an experiment on a scale, which is the scale of particle experiment, which is the Fermi scale, a volume of one centimeter is infinity, right?
+ So it's that mean. So you always go to infinity in the sense that the place where you apply this theory is huge with respect to the place where the interaction works and that, where the interaction happens.
+ So it's decent to do the limit for d that goes to infinity, but you get the delta. When x is equal to 1, the delta is infinity.
+ So, this commutator is kind of strange because it has a lot of nice features, but when you go to the same point, it's infinity.
+ Well, this is, in brief, the main source of all pathologies of quantibility.
+ So this theory that we are trying to develop here adds a very problematic, say, winter.
+ When people discover that there were still problems like this and others that we will talk about just today briefly.
+ So the emergence of infinities because of all these delta functions that appear as soon as you take the large volume living.
+ People thought that quantum field theory was garbage, something to just throw away.
+ So during the development of quantum mechanics, this enterprise of making a unification of relativistic and quantum mechanics was already at work.
+ It was done at the beginning by the same people that were working on quantum mechanics, basically.
+ So Eisenberg was there, Pauli was there, Jordan was there, same people.
+ They were just doing this part.
+ But this fast turned out clearly to be affected by this kind of pathologies, which are connected to the distribution space.
+ So these are called the problem of infinity. This has been started for quite some time, this problem of infinity.
+ And at some point, as you will see later on, especially in the second part of this lecture course,
+ Feynman, Schringer, and others proposed even an approach to handle the infinities,
+ which is called the renormalization theory, and it's a long time.
+ There were a lot of people who said that this renormalization program was crazy.
+ And so quantum theory went in disgrace, because this theory was abandoned for quite some time, even if there was this.
+ But then there were events, particle physics, etc., that showed that this was the only real paradigm to pursue.
+ It was the best one, by far.
+ And now, after many years, this is the paradigm.
+ We know how to handle these infinities.
+ No one is completely happy about this story of the infinities
+ and the way you work with them.
+ But it works so well that it's the best thing that we have.
+ Quantum electrodynamics, which we will study here,
+ is formulated in the language of quantum field theory,
+ is the theory of electrons and photons.
+ And quantum electrodynamics is by far the most precise things that we have in physics,
+ because if you want to measure this table with some precision,
+ you go mad after a while, you know, there is uncertainties of the truth, etc.
+ In quantum electrodynamics, you make experiments and theory, and you confront two things with 12 digits,
+ and they go one after the other.
+ There is nothing like that. Nothing.
+ And under the rug of quantum electrodynamics, there are these infinities that we are encountering here for the first time now,
+ and I will show you a little bit more what it does mean.
+ So even if there are these pathologies, even if there are these odd,
+ because they are odd in many ways, things,
+ the framework and the toolkit that you have,
+ there's no comparison.
+ Whatever you look in physics, there's nothing there.
+ So you keep it, right?
+ So let's delve a little bit more on this infinitescope.
+ Just a little bit.
+ A little bit means just to give the flavour of what's there.
+ What is that commutator then?
+ Now suppose that you say that the field is zero,
+ which is kind of a bold statement, no?
+ phi of x is zero everywhere, including x.
+ So phi of x is always everywhere zero, x is equal, right?
+ Now there is phi dot.
+ phi dot is the rate of change of phi.
+ So phi is zero, but it can change in time.
+ And the derivative phi dot tells that phi can change.
+ If the derivative is little, this variation will take place slowly.
+ If the derivative is steep, the variation of phi will take over quickly, right?
+ The higher the derivative, the higher the rate of change of the phi.
+ So suppose that phi is zero everywhere, including x.
+ Then that formula over there tells you that if y is taken on x,
+ if you put y to x, the commutator is infinity.
+ What does that mean?
+ But that says that, well, it could even be that the field is supposedly zero everywhere, including x.
+ But the rate of change of the field in that same point x is infinity, because the infinity must come from somewhere.
+ If phi is zero, it must be that phi dot is infinity in a way that does not keep zero times infinity equal to finite.
+ It goes in a way that the derivative is overwhelming with respect to that zero.
+ No, the infinity wins. So that means that the rate of change of the field at the point x is immense.
+ And so you actually say, yes, but if I say that x at x the field is zero,
+ but at the same time I say that the rate of change of the field in the same position is immense.
+ What do I really know about the fact that the field is zero at x?
+ It's a certain indetermination relation, no?
+ The rate is so quick, it's infinity.
+ This has to do with what people call the quantum fluctuations of the field.
+ Now, you know the fluctuations are like, what is a fluctuation?
+ Let's call the fluctuation d5 and let's define the fluctuation in this way.
+ This is phi squared of x on the vacuum minus 0 phi on the vacuum squared.
+ Or we could simply call it like this, phi squared of x, the expectation value on the vacuum, phi expectation value on the vacuum squared inside.
+ If you look at these things, this is precisely the formula for the delta x and delta p that you use in quantum mechanics.
+ It's the same thing, right? It's the fluctuation, the variation, you can call it.
+ So it's a word that you already know.
+ But if you look at the definition that I just cancelled, the definition of the field phi,
+ the definition of the field phi tells immediately that this expectation value has to be zero.
+ Why is that?
+ Because the field phi contains two things: the distraction operator and the creation operator.
+ The distraction operator destroys the vacuum, zero.
+ The creation operator creates on the right but destroys on the left.
+ Well, if you create on the right, you create a quantum K,
+ and when you project K on vacuum, it's zero. Therefore, this guy is off.
+ So we have to study simply these five squares of x on the left.
+ That's the fluctuation. Now what is that?
+ Well, that is something that we can write explicitly.
+ Again, repeating the same calculation as we did before.
+ So this can be written as one summation of k and k prime.
+ One divided by tb, omega k, omega k prime.
+ And then there is a k, e dagger k prime.
+ And I sandwich this between the vacuum state.
+ And as you can see, I retained only one term in the product 5a.
+ I retained only the term, which is a dagger.
+ Because that's the only one that can survive.
+ Let's look at the other ones.
+ If I have aa, no problem.
+ Because a destroys the vacuum, zero.
+ If I have a dagger a dagger, again, it's zero.
+ If I have a dagger a is zero because a on the vacuum is zero.
+ The only one is this because this one creates something
+ which then gets destroyed if k is equal to k prime, right?
+ Well, we could this mark here and say, you know what?
+ We say that a k and a dagger k prime is equal to that k prime, right?
+ So we can say that a k, a dagger k prime plus, sorry, minus a dagger a prime a k is equal to that a k prime.
+ This means that a, a dagger can be written as a dagger a plus, minus a.
+ plus delta a k prime.
+ So this can be written as minus a dagger a prime a k plus delta a k prime.
+ When this acts on the vacuum, it's gone, but the delta survives.
+ And when the delta survives, we get 0 summation over k, 1 divided by 2b omega k only, and the vacuum side.
+ And what I forgot here, but it's not very relevant.
+ Well, let's put everything.
+ e to the i kx, e to the i minus k prime x.
+ There is also this.
+ Let's put it here.
+ e to the i kx, e to the minus i kx prime.
+ And k is equal to k, so this is k prime k, k, k.
+ So x minus x prime.
+ Sorry, x minus x, I want to say.
+ x minus x, which is zero.
+ So this is summation over k, e to the i kx minus x.
+ That's why it's not, that's one, e omega k, zero.
+ So, let's collect stuff.
+ This is going to be zero, zero goes away.
+ 2 divided by 2 pi, cubic, 2 3 k, 1, 2 alpha k, and there is a b which goes away.
+ And that's the limit of infinite value.
+ In the limit of infinite value, there is this magic that the b goes away.
+ And that is the result.
+ Now, you don't have to be particularly knowledgeable in mathematics to know that this integral here is divergent.
+ And the reason is that omega k is on the mass shell, so omega k is like this.
+ So omega k depends linearly on k, if k is very large, but this is d3k.
+ This is cubic in k, so something cubic in k divided by something linear in k, this integral diverges.
+ So this is telling you what we just observed before, that the field phi at the same point,
+ if you look at the field phi at the same point, as a fluctuation delta phi,
+ which is in principle divergent.
+ This were called in the past quantum fluctuations and still this word has a very important meaning.
+ Quantum fluctuations, the field violently fluctuates.
+ Now, the point is, do we have really access to this quantum fluctuations and this violent behavior of the field or not?
+ The problem is that, in the framework of quantum field theory, there is a sort of, in the framework of quantum field theory that we are kind of building here, there is a sort of dichotomy.
+ There are things that you can really access and that particles, their creation, destruction, as we said, the production of pages, all those things that are experimentally accessible.
+ And then there are things that we have to accept to be not accessible experimentally and these are fields.
+ The field is not something that we can really touch or measure etc.
+ It is a mathematical device that we use to describe the physics of particles which instead are something that we see.
+ So if we assume this mindset in which the field is a tool, is a mathematical tool that makes possible to us to compute what happens to elementary processes of particles like, I don't know, the annihilation of an electron and a positron in the center of mass which produces a new one and an anti-new one in the final state.
+ And this is a typical process of quantum field theory that we will study.
+ Well, the quantum field theory language works precisely to do the calculation of the probability for this process to happen even telling you in which angle you should see the moon in the detector.
+ The operator, the creation and destruction operators are at work. You destroy the impossible, destroy the electron and create the moon and the anti-new one.
+ All these things allow you to make a computation of a probability, something that you can count
+ with a detective. You say click, click, click, you know exactly what to do and in the probabilistic
+ term of quantum mechanics this works in an unbelievable way. But the same fields that you are using
+ to make all these counting and you have to accept that are not something that you can really
+ take your hands off. Because putting the hands on a field means that you know the field at
+ that precise location but I just told you that the mathematical formalism that is behind
+ this definition of fields is really wide. Because the mathematical formula is telling
+ you that the fluctuation of the field in that precise location is just infinity. What does
+ it mean? Right? So it's always the same problem. If you assume, that's the same problem of everything
+ in this science. If you want to be, if you assume a very straightforward realistic approach,
+ you say, but then what is this infinity? It doesn't make any sense. What is the meaning of... If for you
+ the field is just a practical tool, mathematically, which has its own flaws, apparently, but it's
+ something that you can pursue and make pragmatically a theory which works and gives prediction, you
+ forget about all this. No? It's something... Maybe one day we will have a theory which has
+ no infinities and no nothing. For the moment, we have this. It works. It's fantastic. Of
+ course, it's not at the level of quantum mechanics as you can read in one of this classic textbook.
+ If quantum mechanics fails, it's a disaster. If special relativity fails, it's a disaster.
+ It means that we are done. Many years ago, for example, there was an experiment in which
+ neutrinos produced in Gran Sasso and traveling to Sur, where there was a claim that
+ these neutrinos were traveling at a velocity higher than the velocity flat.
+ And this was a big thing because imagine that there is something traveling at the
+ velocity, larger than the velocity, it's a disaster. You have to throw away one of the main
+ building blocks of our knowledge of the world, which is special relativity, that's huge.
+ Well, there was a cable that was not connected well, you know, and it took a while to understand
+ that there was the cable. And what do you expect theoreticians did? What do you expect theoreticians
+ is? There was a bunch of theoreticians saying, ah, you see, this is precisely what I predicted
+ years ago. It is the violation of the fact that the velocity of flight is a problem. I told
+ them. And then they wrote a paper on many, many papers on H-C. You see what happens? This
+ thing, like when the experimentalist in Switzerland said, Oh my God, it's the case. It was like,
+ no, it was not connected well. What do you think they said? They said, I say they, but I
+ am part of the community. They said, yeah, this time it went like that. But this doesn't
+ mean much. The next time you will see. There is always this approach. It's always like
+ that, right? But everyone knows that if special relativity fails, it's like we go home because
+ no one would trust the model of that one who said, yes, I am. If quantum mechanics fails,
+ we go because quantum mechanics fails. There is such a huge amount of things.
+ No, the chemistry, okay, think to chemistry, just that. Pharmacology is based on chemistry.
+ Chemistry without quantum mechanics is a sort of a big game of people doing this.
+ So chemistry is just, without quantum mechanics, the chemists start with 1s, 2p,
+ and they fill in.
+ What's that?
+ You know, that's the orbital angular momentum.
+ So, that's the lecture number one in chemistry, quantum mechanics.
+ If quantum mechanics fail, we have done.
+ If quantum theory fails, well, it's bad.
+ It's certainly bad, but it's not as bad.
+ I just said that quantum electrodynamics works so precisely like anything else in the world.
+ So it's bad.
+ But it's not at the same level of disaster, right?
+ So there is still margin to improve on that.
+ Probably things like the ones we are going to talk about will be...
+ There was a time in which people thought that string theory was the solution to everything.
+ Because string theory, for example, has no infinities.
+ And the reason is that there is no delta-dita current.
+ And the reason is that interactions are not local.
+ There are no points.
+ The points that we are talking about, x, y...
+ and that are connected to the fact that we imagine that everything could happen in a point,
+ that particles are point-like, that they could just do things wherever, in a single part.
+ In string t, there is no part.
+ The elementary unit is a string, which has a length.
+ But is there anything that you can cut out of that length? No.
+ Therefore, no infinities.
+ Who knows? For the moment, this is it, and you have to learn this.
+ All right, so now we are ready to abandon for a little bit the quantum world,
+ commutators, fluctuations, and disasters of all kinds.
+ There is one last disaster that I want to leave you with, and then we will see,
+ and I don't even need to write that disaster because you already know it.
+ Do you remember the energy of these oscillators that we wrote so nicely?
+ Summation over k, h, forget about the h,
+ omega k, and then there is n plus 1 off.
+ It's the linear resolution.
+ That looks like just OK, right?
+ But it's OK up to a pocket because also there, what happens if n is equal to 0?
+ And you get omega k divided by 2.
+ But there is a summation over k, right?
+ Omega k divided by 2 and summation over k.
+ But if you do the summation over k in the infinite volume limit, what happens?
+ Again, it's a problem, right?
+ It's V divided by 2 pi in cubic, integral in the 3k of omega k divided by 2.
+ And what this integral does?
+ It's V, again.
+ So even in the definition itself of the energy of the oscillators, there is a problem.
+ And the problem is 1/2.
+ 1/2 in quantum mechanics is not a problem.
+ Who cares?
+ But here, in which we want to do, you know, the infinite volume limit, et cetera, because we have all that,
+ one says, "Yes, but what is the energy of the vacuum state?"
+ Because the vacuum state corresponds to no excitations.
+ Nk is equal to zero everywhere, right?
+ It's infinity, again.
+ And so what says over there?
+ The typical reply to this, there is a cheaper reply and a more refined reply.
+ The more refined reply, we'll come to that later, the cheaper reply is the following.
+ Yeah, but we know that in physics everything is defined, energy is defined up to a constant.
+ And therefore, we say that this constant is E zero.
+ Okay, you can be large, but we measure all the energies as different with respect to an offset.
+ Because this is what we do.
+ And therefore, it's like that we have this offset under our, say,
+ and we have it, it's there, but we only access differences.
+ So this other infinity is kind of hidden.
+ Then there is a more technical reply.
+ The more technical reply has to do with something that probably we will study later,
+ which is called the normal ordering of operators.
+ Everything looks very much more professional.
+ Oh yeah, you invert the ordering of A and A dagger and this goes...
+ It's more professional, it's technical, but the story is always the same.
+ There is a problem there, which is this zero energy of the vacuum.
+ You will hear about the story of the energy of the vacuum many times.
+ I don't think that there is any need to insist on that now,
+ because in my view, the fact that we saw with our eyes right now,
+ it's quite enough to tell you about the pathology of the theory we are building.
+ Look at this, the fluctuation, it's infinity, right?
+ And actually, just for good keeping, this function here is called delta plus zero.
+ Remember this definition because at some point this is part of the final propagator that we will meet much later.
+ And this is called power-yard function.
+ And it's the power-yard function which is calculated in zero to be divergent.
+ I want you to remind this name because you will encounter this later, so just make connections.
+ And also I want to mention what we said in the first lecture about the fact that the propagation of a particle from one point to the other can be described by an amplitude
+ that is different from zero even if the interval is space-like, you remember the story, the space-like interval and the fact that you can produce pairs and that antimatter is expected.
+ Well, that function that I had in mind is a very close relative of this delta plus that we met today.
+ At the end of all this you will see everything under your nose and you make connections.
+ Alright, so now it's time to go back to quantum, to leave a little bit of quantum field theory and to go to field theory, not quantum,
+ to make a little bit of exercise with the classical aspects and then we will come back to quantum.
+ So what's our journey now?
+ Now we will do a little bit of classical field theory.
+ We will study the Lagrange equations for the classical fields.
+ And then we will study the prototypical classical field theory.
+ The prototypical classical field theory is electromagnetism, Maxwell's equations.
+ We will discover that Maxwell's equation can be derived by a Lagrange.
+ And also, the Maxwell theory can be cast in a Hamiltonian formula.
+ So there is a Lagrange and a Hamiltonian formula for the theory of electromagnetism.
+ So this is what we want to do now.
+ And we will do mostly at the classical level.
+ Then at some point, when we are done with this excursus in classical field theory,
+ which is basically an excursus in electromagnetics,
+ but done in a way that is relativistic,
+ which is not precisely the way that you used in general physics.
+ It's a little bit more advanced on the formal side,
+ but not on the conceptual side.
+ After that, we will say,
+ okay, now we are ready to do something like what we did for the scalar, to quantize.
+ So we will say that, why don't we do the same thing that we did today?
+ So we have a field, we have its canonical conjugate momentum.
+ Here is phi dot, so we have phi and phi dot, and we do the commutation relations,
+ and maybe we will discover the same things that we have discovered today,
+ but at least we will have a quantum theory of electromagnetism, right?
+ And this route is not a straight shot.
+ Actually, this is the most difficult part of all the stuff,
+ because we will go back to Maxwell,
+ we will develop Maxwell in this relativistic form,
+ and then we will feel ready to do the quantizations,
+ just following the same thing that we said today and in the previous days.
+ But we will discover a very trivial thing,
+ that one of the two blocks in the commutator,
+ which is the conjugate momentum, is zero.
+ There is a conjugate momentum, which is zero.
+ Z, just z, both z.
+ So apparently, all the story that we developed
+ for the scalar field does not work.
+ But there will be a turnaround there.
+ There will be an escape.
+ There will be a very tricky way to get out of this mess
+ and we will do what is called quantization in Coulomb gauge
+ of the electromagnetic field, which is a piece of art, right?
+ That will lead us to a new field,
+ which is not the five we discussed here, of course,
+ but it's a new field, which is the field of the photon,
+ and the field of the photon will be called A mu.
+ A mu has four components, three components is the vector potential,
+ and the other component is not dynamic, as we can see.
+ It is the source of all the problems I mentioned before.
+ And this will be formulated in the same way as our quantum field,
+ of the exception made, as I told you yesterday,
+ of the appearance of the polarizations of the photons
+ close to the creation and destruction operators.
+ So the general formula is like the same,
+ but there will be new ingredients inside.
+ And you will see that we have to suffer quite a bit
+ to get those new ingredients at the right place
+ and to get the formulas for those new parts
+ of the expression of the quantum field.
+ So now we start this part, okay?
+ So up to now it was carbon oscillators, discrete model,
+ continuous model, wave equations, quantization,
+ problems with quantization related to causality,
+ which is fulfilled, but quantum fluctuations,
+ which are violent.
+ Now we stop, we go back again to classical,
+ where we started from,
+ and again, classical now is another thing,
+ is electricity and magnitude.
+ We will grow up in that, go quantum,
+ and we will find a new, complete,
+ a new problem to be solved.
+ Before that, we will have an intermezzo
+ on these Lagrange equations for a few theories.
+ So, let's do that.
+ I told you, it's a lot of work.
+ You don't even imagine how much work is this.
+ So, even if we are reducing this lecture course every year,
+ this is a reduction that is needed because otherwise you suffer too much.
+ But it's not really something that is so good for you guys.
+ Because, you know what, it's like we are very fastly going in this AI world.
+ So, it will be very easy to be substituted by machine in the next few years.
+ So, you really have to go high to be better than that.
+ So, yeah, I know this is a very much undervalued problem.
+ Have you tried, of course, you try every day these chat boxes with AI doing things, right?
+ Yeah, so it's better that we do our job as better as possible, to be better than the machine
+ because very soon most of the jobs will be substituted, including the teaching.
+ Imagine the teaching with an AI here, right?
+ What do you do with this guy here talking? Nothing.
+ There is a machine. The teaching of this would be just perfect.
+ You have to be even an individual teacher. You sit in front of a TV and you see a fantastic lecture in quantity theory.
+ All right. For the moment, we have to be here.
+ Let's throw out one back.
+ Yes, the AI discussion is on your own.
+ Okay, this is the Lagrangian.
+ It changed phase.
+ The Lagrangian you are used to do in classical theory is qq dot.
+ And if there is the conservation of energy, you remove the T and you are happy with that.
+ This is the new Lagrangian.
+ The new Lagrangian is phi, phi dot, instead of qq dot, which is what we said today, no?
+ So phi substitutes q and phi dot substitutes q dot, right?
+ So it's expected.
+ The reason why I put this square parenthesis here, instead of the standard parenthesis,
+ round parenthesis, is that phi x and t is the field, classically speaking now,
+ this is not yet quantized, but it could.
+ The phi of x and t is itself something that changes over space and over time.
+ So this is what people call a functional, which is a function of a function.
+ If you change the shape of that function, you change the functional, which is the Lagrange.
+ That's the square brackets to remember that it's a function.
+ And of course, there is the famous conjugate momentum, x and t, which is the functional derivative,
+ which we already met of x and t and phi naught of x and t.
+ And this functional derivative is done with respect to phi naught of x and t.
+ This is a very important formula.
+ This is just copied from your classical conjugate momentum in mechanics,
+ where the derivative is the derivative of an ordinary function.
+ Yes, it's the derivative of an ordinary function,
+ and here is the derivative of a functional.
+ So we substitute the square, the round brackets, and the derivative in this way,
+ as we did when we computed the equations of motion the other time.
+ Then there is another thing that you already meant, which is the action,
+ which is the integral over time of the, in this case, the Lagrange function.
+ So I'm doing the list of the things you know,
+ and the list of the things you know is just going step by step,
+ substituting Q and Q dot.
+ That's the action.
+ Then there is the variation of the action,
+ and you learn from variational principles in analytic mechanics
+ that the variation of the action is a very important thing,
+ because that function phi and phi dot that are such to make the variation of the action,
+ variation of the action means you have a certain phi and a certain phi dot.
+ You just perturb this phi and phi dot a little bit.
+ You change them a little bit, right?
+ And if you change them a little bit and the action does not change,
+ it means that you are sitting on a functional minimum or maximum.
+ And those phi phi dot are those ones that make the motion.
+ The actual motion is minimizing the variation.
+ It's on the medium of delta s.
+ So the delta s is an important thing, as you know.
+ So there is a delta t here, which is this delta t.
+ And then we have to take the variations, the variation of L, which is this delta.
+ It's the functional variation of L, right?
+ But L, as you can tell, right, so there is an integral in dt in the action,
+ but L does depend on all the possible axes, right?
+ And so when you do the variation, the functional variation of L, the delta L,
+ you should do this.
+ You integrate over all the dx, and you do the functional variation of L with respect to i,
+ and then there is a delta phi plus the functional variation of L with respect to phi dot,
+ and there is a delta phi dot, and you span all the possible x's in doing this variation,
+ which is the story that you learned when you did that in analytic mechanics,
+ it was x of t, right? So x of t was the function which was changed.
+ You did it in the space tx and there was an x of t, which is the path.
+ And you said, let's vary the path a little bit, right?
+ This is what you did, right?
+ And the variation of the path is the variation of our function.
+ So it's basically something very similar to what we are doing here.
+ But here, of course, there is something more because it's not only an x of t,
+ which is the path. It's more than that because this is in place of x of t,
+ it is phi, which is a function of t, but also of x, right?
+ And like there, so there is more to do, right?
+ You have to change not only the pattern like in this space,
+ but with respect to all the other coordinates.
+ This is x of t, which is your path.
+ Let's call it q of t.
+ But then, you know, it's like there are more things here than the other things,
+ and then you have to vary the phi of x of t.
+ And so you pass all the possible coordinates too, not only time, everything.
+ And this can be written sharply like d for x, dL d phi, and minus, I will tell you what's this.
+ So this delta t dot is the derivative with respect to dine of delta dine.
+ And here we will not do all the physics, mathematical physics to say that the delta and d dt commute,
+ let's be a little bit easy with that.
+ The derivative with respect to time goes into and out from the variation of the phi itself,
+ which is a variation like in shape, we can say.
+ So this goes in and out and this is d dt dl d phi dot with a d phi outside,
+ vectorized.
+ Now if you look at what I did now, I did a few steps that are the same steps that you do to find the Lagrangian equations.
+ And then you said when the variation is zero, the variation is zero but this delta phi is a completely generic variations of the field,
+ they can be whatever.
+ So in order for this integral to be zero, what is in the parenthesis has to be zero.
+ That means that dl in d phi should be d in dt dl in dt dot.
+ And you might say that this is precisely the same thing as the Lagrange equations that we met previously.
+ Yes, indeed it's just the same, looks like the same. Lagrange equations were written in terms of dl in dt dot.
+ So the very difference that we have to appreciate is that in the case of the Lagrange equation, of course,
+ the function l, which is called the Lagrange function, is taken to be an ordinary function of q and q dot.
+ An ordinary function of q and q dot, right?
+ And this is the Lagrange equation. Here, instead of having an ordinary function of q and q dot,
+ we have a function of q and q dot, which names as 5 and 5 dot, right?
+ And that functional part resides in the fact that there is this dependency on x, basically,
+ which is extra with respect to what we knew from the Lagrange standard thing.
+ And that is taken care by this.
+ So, technically speaking, it's quite different if you go inside the map,
+ but they are very much similar, it's easy to have them in mind soon.
+ The action is the time integral of this functional Lagrangian.
+ And there is one thing that we might say now,
+ that the functional Lagrangian of L that we just defined can be,
+ and this is new with respect to what we have already seen,
+ can be written in terms of density L,
+ which is called a Lagrangian density.
+ And this density L, which I used the cursive letters for that,
+ is instead an ordinary function of what?
+ Of phi, of phi log.
+ And let's put a question mark for the moment.
+ So what I'm saying here,
+ that L is a functional of phi, x and d, and phi log, for example.
+ And this functional can be written as an integral over the 3x
+ of an ordinary function, which is called Lagrangian density.
+ So as I told you a few seconds before, the problem is in this x.
+ There is this extra dependency on x around.
+ So if we integrate out this extra dependency on x,
+ in this function here, which we call Lagrangian density,
+ we can define this as, say, an ordinary function of phi and phi 0.
+ And then there is the outside, which is the function, right?
+ So, oh sorry, yes.
+ Actually, what we should do is the following.
+ I don't want to make too many steps.
+ So we have this D4, this is DT, so we set S DTL, and then we do DT, D3X of L.
+ Therefore, this is L, and I use this thing, and then S is equal to L.
+ So from now on, we will do this intermediate step.
+ We will write the Lagrangian in terms of this density, which is called Lagrangian density.
+ This one is itself a function only of -- it's an ordinary function.
+ Ordinary means that phi and phi r are things that we can derive with respect to, no?
+ It's like x and y in a function of x and y.
+ So this is an ordinary one.
+ Now, if you look at this, you might say, oh, then, to be clear here, the Lagrangian itself, technically speaking, if we write L as literally x of an ordinary function of phi and phi dot, say, and then we will say one extra.
+ Since phi and phi dot are functions, and we are integrating over T3x, T3x will be W.
+ So, in this sense, the Lagrangian function of phi will be a function of T and phi dot T.
+ Because all the dependency in x is encoded in the L, sorry, all the dependency in x, yes, is encoded in the L, but we are integrating over the L.
+ So we are introducing this new object, which is the Lagrangian density.
+ And the Lagrangian density makes an integral of the 3x and produces this L of phi and phi T, which is this function over here.
+ And this, it's really doing the pair with what you did in classical mechanics.
+ So actually, when you are trying to do this, the best thing is to start and say,
+ okay, the Lagrange function is as in classical mechanics, it's a function of phi and phi dot.
+ phi and phi dot are phi t and phi dot t.
+ And then you do the conjugate momentum and all this.
+ You do the integral of d3x over here.
+ Well, actually we did the integral d3x over here
+ because we have not yet introduced this Lagrange of x.
+ So one way or the other.
+ I could do even like this and then integrate over there.
+ It's not wrong.
+ But we need to make this definition.
+ That's the new part.
+ And this definition will help us a little bit in formulating the problem.
+ And now I will tell you what I expect when it is not.
+ So, what is in the dots?
+ I said that L of phi t and phi dot t can be defined as d3x of a density of phi x and t,
+ and phi dot, but if we aim to have a relativistic theory, which is actually where we want to go,
+ if we have phi dot, we should also have the gradient of phi.
+ Because as I told you, whenever you try to build a relativistic theory, you need both
+ derivatives treated in the same way. If you have the time derivative, you also have the gradient. Otherwise,
+ you don't know how to build scalar products which are invariant under Lorentz transformations.
+ The only way to build scalar products invariant under Lorentz transformations is to have everything.
+ A typical example of a scalar product that we will find under Lorentz transformations is
+ in your P than you think, right? The move, as we will see, contains the gradient
+ and the relative respect of R. Both of them.
+ But now you might say, yes, but where is this gradient of phi coming from in general?
+ Why it should be in general there?
+ Now, this is a general remark, the fact that if you have phi dot, you should have a nabla phi.
+ You remember what we did before with the current density in quantum mechanics?
+ You have the current density and then you build immediately a time component of phi, which is just the same.
+ So you have this, so this is the time derivative, then there must be some gradient around in such a way that...
+ This is new, right? Because we want to make a field theory, which is also relativistic.
+ But should we be surprised of this gradient of phi? We already met the gradient of phi.
+ You remember the Hamiltonian of our system of oscillators was px squared divided by 2 plus 1 of p squared dqx in x.
+ Now you know that there is a relation between the Hamiltonian and the Lagrangian.
+ You know that one can go from one to the other. We will do it.
+ But you can immediately appreciate the fact that there is a gradient of q here.
+ And this gradient of q will appear in the Lagrangian.
+ And if it appears in the Lagrangian, it appears also in the Lagrangian density
+ because the Lagrangian density at the end is just something that has to be integrated over d3x to give you the Lagrangian.
+ At the end, right?
+ And therefore, we already met practically the emergence of this gradient.
+ We just saw it.
+ But we saw it in one dimension because this problem was a one-dimensional problem.
+ It was only one gradient.
+ When we write the gradient here, we write the gradient with the vector because we are in a four-dimensional world.
+ There are three derivatives with respect to x, y, and z, and one derivative with respect to time.
+ They have to be all together because the only way to build a Lorentz scalar is thanks to all of them together.
+ So this was only, as I say, a lead to the fact that gradient derives in the form.
+ - All right, so I think that they have no that time left.

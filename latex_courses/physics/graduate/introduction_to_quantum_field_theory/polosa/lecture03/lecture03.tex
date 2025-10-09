@@ -1,0 +1,121 @@
+% \section{Limite Continuo e Modi Normali}
+
+% Abbiamo ripreso il modello della sbarra elastica discreta. Questo sistema è composto da un insieme di molle e masse, dove le masse sono unitarie ($m=1$) e le \textbf{condizioni al contorno sono periodiche} (Period Bounding Conditions), ovvero $q_{n+N} = q_n$.
+
+% Il nostro obiettivo è analizzare il \textbf{Limite Continuo} del sistema, che si ottiene quando $a \rightarrow 0$ e $N \rightarrow \infty$, mantenendo costante la lunghezza totale $L=Na$.
+
+% \subsection{Trasformazione delle Coordinate}
+
+% Nel limite continuo, la coordinata di spostamento discreto $q_{n}$ si trasforma nel campo di spostamento continuo $q(x)$:
+% \begin{equation}
+% q_{n} \rightarrow \sqrt{2} q(x)
+% \end{equation}
+% Il \textbf{vettore d'onda discreto} $s$ si definisce in relazione alla lunghezza $L$:
+% \begin{equation}
+% s = \frac{2\pi l}{N \cdot a} = \frac{2\pi l}{L} = K \quad (\text{Dog. wave})
+% \end{equation}
+
+% Le coordinate dei modi normali $\eta_{n}$ (o $q_n$) nel limite continuo si esprimono in varie forme (trascrizione letterale delle note):
+% \begin{gather}
+% \eta_{n}=\sum_{j}\frac{e^{i\Delta x_{k}}}{\sqrt{n^{2}}}Q_{k}\rightarrow Ck~\eta(x)+\sum_{j}\frac{e^{i(\frac{1}{k})(n\cdot x)}\partial_{k} \\
+% g(x)=\sum_{n}\frac{e^{i\omega x}}{\sqrt{n^{3}}}Q_{n} \\
+% q(x)=\sum_{m}\frac{e^{ixm}}{\sqrt{2}} Q \quad 2
+% \end{gather}
+% Se facessimo il limite di \textbf{spazio infinito} ($L \rightarrow \infty$), la sommatoria discreta $\sum_{n}$ si trasforma nell'integrale sul vettore d'onda continuo $k$:
+% \begin{equation}
+% \sum_{n} \xrightarrow{L \rightarrow \infty} \frac{L}{2\pi}\int_{0}^{\infty}dk
+% \end{equation}
+
+% \subsection{Hamiltoniana nel Limite Continuo}
+
+% Tornando all'Hamiltoniana, che in 3D è definita in termini di integrale spaziale (come già visto in Meccanica Statistica), nel limite continuo (1D, campo scalare libero) essa è:
+% \begin{equation}
+% H=\int dx\left[\frac{p(x)^{2}}{2m}+\frac{1}{2}v^{2}\left(\frac{\partial q(x)}{\partial x}\right)^{2}\right]
+% \end{equation}
+
+% \section{Diagonalizzazione e Frequenze dei Modi Normali}
+
+% L'obiettivo è trasformare l'Hamiltoniana, che descrive un sistema accoppiato, in una collezione di oscillatori liberi (Modi Normali), attraverso la trasformata di Fourier.
+
+% \subsection{Diagonalizzazione dell'Hamiltoniana}
+
+% Esempio di diagonalizzazione del termine cinetico $\int_{0}^{L} dx p(x)^{2}$ (assumendo $m=1$):
+% \begin{equation}
+% \int_{0}^{L} dx p(x)^{2} = \int_{0}^{L} dx \left(\sum_{k}\frac{e^{ikx}}{\sqrt{L}}P_{-k}\right)\left(\sum_{k'}\frac{e^{ik'x}}{\sqrt{L}}P_{-k'}\right) \rightarrow \sum_{k} |P_{k}|^2
+% \end{equation}
+% L'Hamiltoniana diagonalizzata in termini dei modi normali $Q_k$ e $P_k$ è:
+% \begin{equation}
+% H = \sum_{k} \left(\frac{|P_{k}|^{2}}{2} + \frac{1}{2}\omega_{k}^{2}|Q_{k}|^{2}\right)
+% \end{equation}
+% Questa rappresenta l'Hamiltoniana di una collezione di oscillatori armonici indipendenti, ciascuno con frequenza $\omega_k$.
+
+% \subsection{Frequenze dei Modi Normali $\omega_s$}
+
+% La \textbf{frequenza al quadrato} dei modi normali $\omega_{s}^{2}$ (che sono gli autovalori della matrice di accoppiamento) è:
+% \begin{equation}
+% \omega_{s}^{2} = (2\Omega \sin \frac{s}{2})^{2}
+% \end{equation}
+% La dimostrazione proviene dal termine potenziale diagonalizzato:
+% \begin{equation}
+% \frac{1}{2} \Omega^2 \sum_{n} (q_{n}-q_{n+1})^2 = \sum_{s} \Omega^2 |Q_{s}|^2 \left[2 \sin^2 \left(\frac{s}{2}\right)\right]
+% \end{equation}
+% Da cui l'autofrequenza al quadrato:
+% \begin{equation}
+% \omega_{s}^{2} = 4 \Omega^2 \sin^2 \left( \frac{s}{2} \right)
+% \end{equation}
+
+% \subsection{Equazioni del Moto e Relazione di Dispersione}
+
+% Le Equazioni di Hamilton nel limite continuo ci portano alla \textbf{Wave Equation} (Equazione d'Onda):
+% \begin{equation}
+% \frac{\partial^2 q(x,t)}{\partial t^2} = v^2 \frac{\partial^2 q(x,t)}{\partial x^2}
+% \end{equation}
+% Questo recupera l'equazione d'onda nella forma standard nel modello continuo.
+
+% Una generalizzazione del modello (introducendo un nuovo termine costante $\Omega_0$) porta alla relazione di dispersione:
+% \begin{equation}
+% \omega_{k}^{2}=w^{2}k^{2}+\Omega_{0}^{2}
+% \end{equation}
+% Si notano le analogie con la Relatività Speciale:
+% \begin{itemize}
+%     \item Il momento in 3D: $k \rightarrow \vec{k}$
+%     \item La velocità: $v \rightarrow c$
+%     \item Il termine di massa a riposo: $\Omega_{0} \rightarrow mc^{2}$
+% \end{itemize}
+
+% \section{Seconda Quantizzazione: Operatori di Campo}
+
+% Attraverso la scomposizione in modi normali, si passa alla \textbf{Quantizzazione del Campo} (seconda quantizzazione), promuovendo i modi normali $Q_s$ e $P_s$ a operatori di campo quantistici.
+
+% \subsection{Definizione degli Operatori di Creazione e Distruzione}
+
+% Gli operatori complessi $Q_s$ e $P_s$ sono espressi in termini degli operatori di creazione ($a_s^{\dagger}$) e distruzione ($a_s$):
+% \begin{equation}
+% Q_{s} = \frac{1}{\sqrt{2 \omega_{s}}} \left( a_{s} + a_{-s}^{\dagger} \right)
+% \end{equation}
+
+% \begin{equation}
+% P_{s} = -i \sqrt{\frac{\omega_{s}}{2}} \left( a_{-s} - a_{s}^{\dagger} \right)
+% \end{equation}
+
+% \subsubsection{Condizione di Realtà}
+
+% La condizione fondamentale che il campo fisico $q_n$ sia hermitiano si traduce nella condizione sui modi normali:
+% \begin{equation}
+% Q_{s}^{\dagger} = Q_{-s}
+% \end{equation}
+
+% \subsection{Dinamica Temporale}
+
+% Le relazioni di evoluzione temporale (derivate da $\dot{\phi}(t)=-i \vartheta \phi(t)$) sono:
+% \begin{equation}
+% a(t) = e^{-i \omega t} a \quad \text{e} \quad a^{\dagger}(t) = e^{i \omega t} a^{\dagger}
+% \end{equation}
+% L'evoluzione temporale dell'operatore $Q_s(t)$ è:
+% \begin{equation}
+% Q_{s}(t) = \frac{1}{\sqrt{2\omega_{s}}} \left( a_{s} e^{-i\omega_{s}t} + e^{i\omega_{s}t} a_{-s}^{\dagger} \right)
+% \end{equation}
+% \begin{center}
+% \textit{Nota a mano parziale (per completezza):}
+% $Q_{a}(t):\frac{1}{\sqrt{2\omega}}(a_{3}(t)+a_{2,2}^{+}(t))=\frac{1}{\sqrt{2\omega_{5}}}(a_{5}e^{-i\omega_{5}t}+e^{i\omega_{5}t}a_{-s...}$
+% \end{center}

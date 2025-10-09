@@ -1,0 +1,1097 @@
+ This is an event in space-time where an electron is created, and this is an event which scatters, and this is an event which gets absorbed, and altogether this is what we call a scattering process.
+ Now X and Z can be separate, with time-like, light-like, space-like intervals, there are three options.
+ What is interesting, what we will discover soon, soon, I don't know, but in a while, is that there is a quantity which we name propagator.
+ This propagator is a probability amplitude for the particle to go from X to Y.
+ And this probability amplitude, which we will name as delta, happens to be different from 0, whatever X and Y or X and Z, whatever interval you have.
+ You can have space-like, time-like interval is the same. This is always different from 0.
+ What we observed yesterday is that if this interval is of the space-like kind, then things get interesting,
+ because when intervals are of the space-like kind, it means that you cannot have Lorentz transformations.
+ You can have different observers which are reached with Lorentz transformations.
+ And these observers have different points of view about what happens here.
+ There is one observer that says that x is before z, and one observer that says the opposite.
+ And so if the net result here is that, for example, the source located at x gets more positive,
+ it can get more positive because it's emitting an electron or it's absorbing a positron,
+ which is the opposite of the electron.
+ So in a way, this path, which we will see explicitly, opens the logical possibility that there exists particles and antiparticles.
+ But now if you look at the scattering process, it means that there is an observer that says that in the event z there is maybe a particle which goes from here to here,
+ and an anti-particle which goes from here to here. When I say here to here, I say events, so this is space-time stuff, right?
+ The z is a location and some time, and this is a location and some time, these are all space-time points, x and t.
+ So at some time t, a pair is produced, and pair will always mean for us an electron and a positron, that's the pair.
+ One goes from z to y and one goes from x to z.
+ Of course there is another observer who says that this is not like that, it's just a scary process in which there is an electron scattering in z and being observed in y.
+ The numbers, the probability amplitude as we will see, are always the same, but there are different interpretations of these processes.
+ But the fact that there are different interpretations of these processes also means that there are these processes, all these processes might really occur.
+ And this is something that we will take our time to understand, but we will get to that and we will discover how anti-electrons were predicted in the so-called Dirac theory of the electron.
+ Dirac was the first one to predict the existence of such particles.
+ It didn't went through this observation. It went through another, I mean, another logical argument, but the result is the same.
+ Other particles are there, there can be produced, and therefore, this calls back to what we said yesterday, if the indetermination on the energy is larger than twice mc^2, it means that you can allow that.
+ And when this happens, when you try to make a localization of the particle in an interval dq, which is smaller than some delta q minimum, which we saw in this.
+ When you try to localize an electron so primarily, so with such a high accuracy, then you could be in this situation.
+ Another thing that we said yesterday is that we made a scheme of what a field production means.
+ We said that basically a field production is a process of this kind in which an external photon provides enough energy
+ to make a field.
+ So this is the electron and this is a field production.
+ And this field production is due to the fact that this photon is carrying enough for momentum,
+ which is three momentum and energy, to allow the creation.
+ That's the creation of a field from the vacuum.
+ So this is a very sketchy way to say that you might be in the condition of creating a field.
+ This is much more close to the actual theory that we want to do in this lecture course,
+ which is QED, quantum medical dynamics.
+ In QED these things can happen, and this drawing here, in every single part, has meaning,
+ even if it now looks like just a scheme.
+ So these are photons, these are called vertices.
+ It is where the photon interacts with electrons.
+ And in each of these vertices, as we will see, there is an electric charge,
+ and the electric charge of the electron is a sort of coupling strength.
+ If the electric charge of the electron were different,
+ you would have a different coupling strength of the electron with photons.
+ Photons and electrons interact.
+ And this interaction is weighted by the electric charge.
+ This is again something that we will see.
+ Now, the electric charge, as you might remember,
+ this is called the fine structure constant,
+ can be computed in even natural units in which h and c are equal to one.
+ And then alpha is a small number.
+ So we will see that this process here has a probability to happen.
+ And if you keep on introducing more pairs, like this,
+ because we said that this would be four, could be six, could be whatever.
+ So if you keep on introducing more pairs, which is certainly possible,
+ you pay the price of all these e's.
+ There is an e in the vertex, and since the e is connected to alpha,
+ and alpha is this number here, 1 divided by 157,
+ this process will turn out to be much less likely than this.
+ So if delta E happens to be very large,
+ it's more likely to produce an energetic E plus E minus pair
+ rather than produce more pairs.
+ All these things are hardwired in this theory we aim to build.
+ But the main point was the following.
+ The main point was this.
+ If there is the possibility of creating an E plus E minus space,
+ just trying to localize an electron in a very tiny space,
+ which means having very little uncertainty on the position,
+ that means that you have q and a little disk delta q around q.
+ Well, this means that the wave function we are used to
+ is a concept which has some troubles,
+ because the wave function is typically the wave function of one particle,
+ whereas in a situation like this, you might have three particles.
+ So the wave function of the electron should be treated as the wave function of the electron,
+ or the wave function of the electron plus two, or the wave function of the electron plus four,
+ starts being a little odd concept to use.
+ Whereas it would be more convenient to be able to count the particles you have,
+ especially in connection to the energy of the process itself, right?
+ So you have some amount of energy in the initial process,
+ say particles on the left of this diagram,
+ and you want to have a counting of the particles in the final state, for example.
+ Counting means counting, how many of them you have.
+ The wave function is not really counting.
+ The wave function is a description of one particle at a time.
+ You can have also wave functions of a number of particles.
+ When you studied fermions and bosons,
+ you started with a wave function of two,
+ and you studied what happens with a wave function of two.
+ If you change the positions and labels,
+ you can have the functions symmetric and symmetric.
+ That's again a fixed number of particles.
+ You say two is two, say n is n.
+ Here you don't know because it depends, right?
+ The number of particles is not really fixed.
+ And so as we said yesterday,
+ we have to go beyond that concept.
+ Another last thing that we can say about this
+ is that if you look at this dq, this dq minimum here,
+ we name h divided by mc.
+ Of course, this can be written hc divided by mc squared,
+ which is hc divided by the energy
+ at rest of some particle.
+ You might ask yourself,
+ can we apply this relation here for the delta q minimum
+ also to something else, not to the electron maybe?
+ Well in general, this means that dq is hc divided by d.
+ d can be the rest energy or d energy in general.
+ So this is like making a boost.
+ What about the photon then, for example?
+ So, well, in the case of the photon, this relation here, it's completely different because in the case of the photon, the energy, which is p squared, c squared plus m squared and so forth,
+ well as you might remember from other classes, the photon is considered to be a particle with no mass, we will come back to that, so if the photon is a particle with no mass, this is just p by c and therefore this delta q for the photon, it is hc divided by p to c, we cancel the c, and so it's h divided by p, and this is called Deborah-D-weight.
+ So there is this delta q here, which is the Deborah-D-weight of the photon, and this is telling you another important thing that we left behind.
+ If the particle is massless, as the case of the photon, which is the other particle we are interested in here,
+ then the delta Q beam of the Compton wavelength actually coincides with the de Broglie wavelength.
+ It's the same thing.
+ Now suppose that you are studying these photons with some setup,
+ which is an experimental setup, a classical setup, whose size,
+ I'm talking about the size of the setup with which you study the photon,
+ whose size is kind of larger than this scale,
+ which is the debris wavelength of the photon,
+ which happens to be the .
+ Well, if the size of the system is like that,
+ it has some sense to talk about the coordinates of a photon,
+ because you can at least say that you localize this photon in this box cell,
+ which is your experimental apparatus.
+ But suppose that the experimental apparatus that you are working with,
+ for some reason, it's comparable to this liberally wave length,
+ or even smaller than that.
+ And then this is saying that the uncertainty on the position of the photon
+ is larger than the tool with which you study the photon itself,
+ which means that it has no sense to talk about the position of the photon
+ because you don't even know what is that with respect to the size of the apparatus.
+ You know, in most of the quantum applications, the coordinate of the photon is not a useful concept.
+ Because of this.
+ Because delta Q is typically larger than the size of the device itself with which you start the photon.
+ So, of course it depends on how large is the WD wavelength of the photon.
+ This is what people call the limit of geometrical optics, in which photons propagate over rays.
+ In macroscopic setups, where L is enormous, no?
+ This would be, I don't know, the arm of the Virgo interferometer where you study gravitational waves.
+ Everything is just gigantic with respect to the WD wavelength of the photon itself.
+ In a tiny region of space, the coordinates of the photon is something that is very elusive.
+ And we will see that again later.
+ We will see that it's kind of impossible to make up a weak function of the photon.
+ It's a very tricky concept.
+ Actually we said that wave function is a tricky concept anyway whenever you are in a description
+ which encodes both quantum mechanics and special development.
+ So we have to change paradigm and this was a sort of mind introduction reasoning that
+ is telling us that we have to change paradigm and at least we have this in our hands.
+ You see, the number of particles is not fixed.
+ In this description of the world there is an open possibility which is creating pairs out of nothing, one would say.
+ What is nothing?
+ Well this is not really nothing, there is an electron at the beginning, you know, so it's a strange expression out of nothing.
+ The mindset is that an electron is a lonely particle, you try to observe the electron with some probe, which is light, we typically observe stuff with light,
+ and all of a sudden a pair comes up, and so there is this language of saying out of nothing.
+ Well, it's not really nothing because this photon here that gets emitted from the electron is responsible for this pair of production,
+ as it is this one which comes from outside.
+ But I think that you get what this vacuum expression has inside.
+ Let's see how we can go beyond all this.
+ For the moment, this is just a suggestion.
+ So we have to work on that.
+ So our next step is trying to introduce the concept of a field.
+ And in particular, we want to go to quantum things.
+ To do that, we will start with a very basic mechanical example.
+ What we will see is that fields, as we said yesterday,
+ are completely different mathematical objects with respect to wave functions.
+ It's a little bit tricky because when you see in text and art and papers,
+ the field is typically represented like that,
+ which reminds you a lot of the Schrodinger wave function
+ that you have been using up to now.
+ So as for the writing, they appear like the same thing.
+ They look like a function.
+ But this is really a complex function.
+ As you know, I'm talking about the Schledinger wave function.
+ But as we will see soon, the field is an operator.
+ It's an operator in the space.
+ So most text and treatments don't go with that cluttering,
+ so we have to keep in mind that we have completely different mathematical tools.
+ But there is more to it.
+ The wave function is a function of the position.
+ It could be a function of the position in time, actually.
+ Imagine the complete wave function of a three particle in quantum mechanics, right?
+ That's a function of position in time, this is the moment.
+ And then there is an organization, which is typically the volume, or it could be two pi to the three halves.
+ And that is a function of activity.
+ In the case of the fields, as we will see soon, again, there is an argument of the five.
+ We said that it's an operator.
+ This argument here, it's a little bit, has a little bit different meaning as we will see soon.
+ This x refers to an event in space-time, and also here there is an x and t, so there is space and time again.
+ But it actually has to do with, it's better to say what it has to do with, but tell it in advance.
+ So let's start with our example.
+ Take a rod, this is a one-dimensional rod, and suppose that we use q of x, q of x in place of 5, q of x is a classical quantity.
+ So q of x is the displacement from the equilibrium position of a piece of this elastic rod at point x.
+ So q of x tells that x is displaced to the right or to the left.
+ So this is what I meant here. It's a function of x. It means that you are looking at a special point of a system, in this case a one-dimensional rod.
+ And you ask yourself, how large is the displacement of this x, of this point here, from the equilibrium position?
+ So, I'm saying this, q of x tells you that this is positive, this is negative, and so you locate the part of the rod and q of x is telling you how much this is displaced from the original point, the equilibrium position.
+ Why am I talking about that? If this is an elastic system and you beat this system with a number, say here, this is a number and you beat this system, if you beat this system all the parts of the system, parts that we will call x1, x2, x3, x4, etc.
+ And you start jiggling, even if it's an iron rod, this is why.
+ You beat the rod with an hammer and all these one-dimensional particles that make up the rod will be hidden
+ and each of them hits the other one and the other one and the other one,
+ there's a jiggling of the whole system inside.
+ And each of these parts of the rod, which is located at some X, displaces from its original position before the hammer was hitting the rod.
+ So each of them moves, moves a little bit because this is a rigid system, it's not moving that goes on the other side to black, it just moves a little bit.
+ And this movement actually is an oscillation because it goes on one side and then back and forth, right? It's a jiggling.
+ You can beat the rod with a hammer or you can eat the rod, also that produces a jiggling of parts of the rod.
+ And this Q of X is telling you how much you displace on one side and the other side.
+ So you locate a part of the rod and the displacement field.
+ This is a classical displacement field.
+ This is telling you how much you go to the left or to the right.
+ So each X has its own Q of X, right?
+ So you see that this is a little bit different than talking about the wave function.
+ We have in mind a system of coupled oscillators, and this Q of X, which here we call Phi of X, with another letter,
+ is just telling you how much each of those single oscillators is displacing from the equilibrium position,
+ which is a different statement with respect to the Psi of X.
+ Here we really have in mind a system of coupled oscillators.
+ So let's make a model of this rod in terms of a discrete system of coupled oscillators.
+ This is just a model.
+ So we can say that our iron rod is like one spring, one mass, one spring, one mass, one spring and another mass, and so on.
+ This is a discrete model of an iron bar, for example, an iron rod.
+ Each of these mass is connected to the other one by a spring.
+ This is just a mathematical model of the rod.
+ I'm not saying that this is how the rod is made, but it's a representation.
+ Now, of course, this does exactly what I said before.
+ Suppose that this is some x location of the rod.
+ Now x is x. It's x in one dimension, right? It's just that.
+ There is a q of x which can be positive if q goes -- if this oscillator is shifted to the right, it can be negative if this oscillator is shifted to the left.
+ And this is the displacement q. And this holds for each of them.
+ So each of them has the same stuff, right?
+ Now, suppose that this...so you hit the system with a hammer here.
+ As soon as you hit the system with a hammer, everything starts jiggling. All of them.
+ Since I introduced springs, I am introducing an elastic constant here.
+ Since all these springs are represented with the same elastic constant, then I can use what we know from the hook force.
+ There is a force to the right and a force to the left.
+ What I mean a force to the right is a force on the oscillator here, which is due to the right of the oscillator,
+ because the oscillator is connected with a screen to the rest of the system on the right and on the left.
+ And as you can see, this is just minus omega squared Qn minus Qn plus 1.
+ Now Q of x is better to call it Qn because this is a discrete system.
+ Let's change the continuous index x in a discrete index n.
+ This is the continuous rod. There is a continuous of x values.
+ And here there is a discrete set. So the index x is changed in n.
+ And so this is q of n. This is q of n plus 1. And this is q of n minus 1.
+ And therefore this will be q of n minus q of n plus 1.
+ And this will be minus omega squared q of n minus q of n minus 1.
+ This is the Uc force.
+ And omega is connected to the elastic constant in the usual way.
+ This is just a Uc elastic force.
+ Look at this for example.
+ Let's look at the right part.
+ Suppose that q of n is positive.
+ q of n positive means that this oscillator is a little bit displaced on the right.
+ And suppose that q of n minus 1 is negative.
+ This means that this oscillator is a little bit displaced in this direction.
+ So this gets displaced a little bit like that, and this gets displaced like this.
+ Since there is a minus here in between, it means that the difference of this positive number and this, which is negative,
+ with the minus in front, this gets positive. So this is larger. It's a larger number, right?
+ The larger this, the stronger will be the force from the right of the system, right?
+ So this goes there. This goes a little bit to the left.
+ This means that there is a very, there is a larger force pushing this oscillator backwards. You see?
+ This is the u to the right of the rod, u to the left of the rod.
+ Now suppose instead that qn plus 1 is 2 to the right also.
+ Then this qn minus qn plus 1 is a smaller number.
+ And indeed the fact that this goes to the right pushes a little bit, you know,
+ pulls a little bit this oscillator on the right.
+ And therefore the force that makes this go to the left is smaller.
+ This is just a whole clock.
+ You can repeat the same reasoning to the left.
+ And for the moment, we didn't do much.
+ This is just a very basic general physics application.
+ Omega is connected to K, where K is the elastic constant.
+ We can make a simplification here and decide that each mass is one in some units.
+ All of them are the same.
+ All the elastic concepts are the same.
+ And therefore, if the mass is equal to one,
+ there is a direct proportionality between the elastic concept and the frequency omega,
+ which is the so-called characteristic frequency of the spring.
+ You know, k divided by m is connected to homogeneous, so if m is equal to 1.
+ Now, we have this representation of this system.
+ This is a system of coupled oscillators.
+ We can write the Hamiltonian of the system of coupled oscillators that we have here.
+ And Hamiltonian will be a sum on all the oscillators that we have.
+ I wish you to observe what we did here. We changed from x to m.
+ It's a discrete system. So the sum is a discrete sum.
+ It runs on all the single oscillators of the system.
+ Since the mass is equal to 1, there is the momentum of each of these oscillators,
+ and we will divide by 2 with no n to make it shorter.
+ And then there should be a potential, as usual.
+ And this potential here will be for us this omega squared,
+ which is the elastic omega that we use there,
+ divided by 2 and then multiplied by qn minus qn plus 1 squared.
+ This is an obvious term.
+ This one is a little bit less obvious.
+ We have to convince ourselves that this is correct.
+ And we will convince ourselves that this is correct
+ because now we will apply the Hamilton equations
+ to find the equations of motion.
+ And from the Hamilton equations,
+ we will find exactly the force F that I just wrote here.
+ The force F will be F of R plus F of L,
+ which is minus omega squared.
+ And then there is Qn twice plus minus Qn plus 1 minus Qn minus 1.
+ So we will get exactly this relation for the force from the Hamilton equation,
+ provided that the potential is greater than that.
+ Now, this is just the Hamiltonian of that system, which is the total energy.
+ And as you can see, this term presents a complication.
+ It's not like the Hamiltonian of an oscillator.
+ The Hamiltonian of a single oscillator is difficult
+ because the Hamiltonian of a single oscillator presents itself, well, a single oscillator.
+ It's something like this.
+ You can put the minus.
+ You see, there is one coordinate, one conjugate momentum, fixed.
+ In this case, there is the conjugate momentum, the coordinate, and another coordinate.
+ There are two things.
+ Here it's simple, right?
+ Coordinate, square, momentum, square.
+ More coordinate, square.
+ This means that there is a square of this, square of this,
+ and the product of the two.
+ The product of the two is the complication.
+ Because if there were no product of the two,
+ that would be something that you already know,
+ which is the ambitonium of the harmonic oscillator.
+ This product of the two is making this problem
+ very much complicated.
+ This is due to the fact that each oscillator
+ is coupled to the other oscillator through a spring.
+ Well, this problem could be even more complicated than that
+ because we could say that each of these oscillators,
+ instead of being only coupled to the next or to the previous,
+ it could be even coupled to its original position
+ through another system of springs.
+ Like you could put another string here
+ and so this happens to be connected with a spring to the next,
+ with a spring to the previous
+ and then there are two other independent springs
+ that keeps him to the original position, right?
+ So this is a further complication of the problem
+ that we will discuss briefly a little bit later on.
+ For the moment, let's stick to this.
+ Let's convince, just briefly, it's not difficult,
+ but that this has the right equations of motion,
+ which are the ones we wrote before.
+ So to begin with, you know that P n dot,
+ it is minus the derivative of the Hamiltonian
+ with respect to the Q of n.
+ This is what we know.
+ Let's take a little bit more space here.
+ Let's expand the sum that we brought about.
+ So let's fix some n.
+ And let's expand that sum.
+ So the first term with the momentum is kind of easy.
+ Let's leave the term with the squared momentum
+ out of this reasoning for a few minutes.
+ let's look at the second one
+ so in the second one we have
+ omega squared divided by 2
+ terms in the sum
+ omega squared divided by 2
+ Qn minus 1 minus Qn
+ squared plus omega squared divided by 2
+ Qn minus Qn plus 1
+ squared plus terms
+ so this is what is contained
+ in this summation
+ now I am fixing some n
+ and you see that Q of n
+ appears in one term
+ which has Qn minus 1, Qn
+ and another term which has Qn, Qn plus 1
+ and no more, right?
+ suppose that n is equal to 7
+ there are 100 oscillators
+ n is equal to 7
+ so the Q7 will be there
+ when Q6 minus Q7
+ and Q7 minus Q8
+ there are no other Q7s at n
+ this is what I mean, right?
+ 100 oscillators
+ now let's do the derivative
+ which is P of n
+ which is minus the derivative of the amytonic
+ with respect to Q of n
+ and this derivative is not difficult
+ because this is minus omega squared divided by 2
+ times 2 times minus 1
+ Qn minus 1 minus Qn
+ and then minus omega squared divided by 2 times 2
+ because the 2 comes from here of course
+ plus 1 because this is plus this is minus
+ and then Qn minus Qn plus 1 and so on
+ other than 2
+ the 2 will go away and as you can see from here
+ we get a minus omega squared
+ there is this minus here
+ a Qn from here, Qn from there twice
+ and then minus Qn minus 1
+ minus Qn plus 1
+ that is Pn dot
+ now let's do the Qn dot
+ the Qn dot is DH in Dpn
+ now again the sum if you fix some Pn
+ there is like Pn minus 1 squared right by 2
+ actually stuff Pn squared right by 2
+ Pn plus 1 squared right by 2 and so on
+ but you are fixing some n 7
+ and so you do the dh in dp7
+ so forget about this, forget about this you do this
+ so that is Pn
+ but this is Pn dot
+ so this is Qn 2 dot
+ so Qn 2 dot is equal to that
+ but m is equal to 1
+ therefore this is the force on the antithosylator
+ and the force on the antithosylator coincides with what we found with the Puc-Law over there
+ so this is the right amittonium to the end, right?
+ and we just found it checking with the Amitton's equation of motion
+ that we find exactly that formula for the F, this is F
+ this is F on the oscillator n, which is precisely what I wrote over there
+ it's this thing
+ because we were focusing on this oscillator n
+ so you see
+ this is telling you that this amine to amine is fine
+ it's our model
+ so we can work with that
+ but what can we do with that?
+ this, as I told you, because of the coupling of the coordinates
+ it's a kind of difficult problem, right?
+ what we want to do here
+ and what we are going to do now
+ is really crucial to the concept of fields and quantum fields
+ is that we want to do a really clever trick
+ which is a change of coordinates
+ from this coordinates here which are the physical coordinates
+ the displacement of the single oscillator in space
+ to new coordinates
+ these new coordinates are complex numbers
+ and they are called normal modes
+ or normal coordinates actually
+ I should say normal coordinates
+ we want to change from Qn and Pn
+ to a new set of coordinates
+ which will be linked with the capital Q
+ and an index S
+ and the capital P and an index S
+ this new coordinates as you will see in a second
+ are complex in nature
+ which means that they are complex numbers
+ and they come with an immense advantage
+ if you make this change in a clever way
+ so if you define the capital Q and B in an appropriate way
+ you will change the Hamiltonian we have
+ which is a description of the discrete rod
+ which is in turn a description of this elastic rod
+ you will change that in a completely different Hamiltonian
+ which is extremely familiar
+ and is this
+ there will be a sum on s
+ I will tell you what the s index is
+ of ps square modulus divided by 2
+ plus 1/2 omega s squared
+ qs square modulus divided by 2
+ sorry, the divided by 2 was done
+ so we will change the Hamiltonian
+ in this element
+ what's the difference between the two?
+ well, it's a huge difference
+ because that is the Hamiltonian of a coupled system
+ and this is the superposition of many Hamiltonians
+ of three one-dimensional harmonic oscillators
+ each of these three one-dimensional harmonic oscillators
+ has a frequency of oscillation that is called omega s
+ and this is what is called typically the normal frequency
+ so what we are doing in changing the coordinates like that?
+ we are decoupling the system
+ we are mathematically decoupling the system
+ we are saying that this very complicated system of coupled oscillators
+ which is certainly a good description of an elastic rod
+ can be transformed into a superposition of three oscillators
+ each of them oscillates with his own frequency
+ which we call omega of s
+ there are many, we will compute these many frequencies
+ but each of them has his own frequency
+ each of them oscillates on this normal frequency
+ and this is a system of not coupled oscillators
+ free oscillators
+ so there is another model then
+ with this normal mode, nm
+ this system here can be transformed into this
+ say, well, let's do like this
+ this is an oscillator
+ another oscillator
+ and another one
+ but all of them are decoupled
+ and this will be done with a, as I told you, with a very good trick
+ a very good mathematical trick
+ at the price of introducing complex coordinates
+ but as you can see in this a Newtonian
+ the complex numbers ps and qs get squared
+ squared in modules, so these are real numbers
+ this is a real number, this is a real number
+ this is technically speaking, the Hamiltonian of a system
+ of free or symbols
+ why we should bother to do that?
+ well, if you can do this, as we will prove now
+ then you can make a further step
+ and the further step is that you promote the qn and pn
+ from classical objects
+ which is displacement and the momentum conjugated with displacement
+ two quantum objects
+ so the p and q become quantum
+ so you require the quantization conditions on p and q
+ so you do the quantization of p and q
+ the quantization of p and q will reflect on some quantization rules on the normal portings as well
+ and this will be a quantum Hamiltonian which we know just in a perfect way
+ we just know everything about that, we know the levels, everything
+ so we don't have to do much
+ and therefore in doing these steps that we want to do now
+ we will land on a quantum description of the elastic rod
+ in terms of independent quantum oscillators
+ each of them oscillating on a certain prefix
+ in the quantum description of the rod that we are about to make now
+ these oscillations are called phonons
+ in solid state physics, phonons are very popular
+ the phonons is different from photons
+ the photon is the quantum of light
+ and this is the quantum of sound
+ the quantum of sound is this excitations
+ this quantum excitations that we have here
+ this is an oscillator with equals omega 1
+ this is an oscillator with equals omega 2
+ and so on
+ so we can describe the state of the system
+ as ket in which there are the first oscillator here
+ I mean the first oscillators the one connected to the frequency omega 1
+ is at the level n1
+ this is at the level n2
+ and so on
+ so the quantum description of the elastic rod
+ it's a system in which there is a number of independent oscillators
+ the oscillator omega 1 is on the level n1
+ the oscillator omega 2 is on the level n2 and so on
+ and so this cat here which is a state cat
+ is a representation of that rod after you beat the rod in the hand
+ if nothing happens in principle
+ if you don't do anything to this rod
+ the system is in the ground state
+ so let's say that all the oscillators
+ are in the ground state
+ then you get to the rod with a hammer
+ everything gets shaped
+ everything starts oscillating
+ but you will land on a special cat of the rod
+ in which this oscillator has a certain configuration
+ and this configuration is completely
+ the frequency omega 1 would be at the level n1
+ you know the levels of the harmonic oscillator
+ when you say that the harmonic oscillator at En
+ equals to
+ this is in one dimension, right?
+ what are you saying here?
+ that you are on the n energy level of that oscillator
+ so suppose that this is omega 1
+ so the oscillator, the independent oscillator omega 1 finds itself on a level
+ in the quantum description of this system
+ people uses a language, and you will understand soon why
+ it is a very imaginative way of saying this
+ one says that there are n1 form nodes of frequency omega 1
+ m2 of frequency omega 2 etc it's kind of language to be honest right
+ it means that that oscillator is on that specific level
+ you will understand why this language is appropriate and useful
+ so at the end of the day we started with a very innocent thing which is an elastic rod
+ we hit the rod with a hammer we know that classically everything starts jiggling
+ then we make a discrete model of this rod then we write the amytonian for it
+ we discovered that this amytonian is very difficult but there is a trick that we have to study now
+ which is changing the organs to normal organs this changed the amytonian in a system of decoupled oscillators
+ all these decoupled oscillators have different frequencies and the quantum system is described by a cat of this kind
+ and the language is once you do that the rod is a sort of say gas of phonons which are these excitations
+ and there are n1 of these phonons of frequency omega 1 or energy omega 1
+ because the frequency of the energy are connected by h and two of the other kind and three of the other kind
+ so it's a completely different picture it's the quantum picture of an elastic rod which gets excited in some way
+ of course there is not only the hammer you can as I said you can eat the rod you can do many things to the rod
+ but whatever you do to this rod there is some excitation
+ the system of the rod changes from the ground state of oscillators which are in their lowest energy state
+ to a new state in which each oscillator changes a little bit, excites a little bit
+ and so you represent this rod as a gas of photons
+ so why we should be so much concerned about the rod?
+ because as I told you this brings us directly to the mathematical correlation of fields
+ because even if this for us will be only a tool to introduce the concept of quantum field
+ solid state physics is more than a tool, it's unreal stuff
+ so systems, elastic systems can be described with similar methods
+ you will hear about phonons a lot in solids in condensed manifests
+ for us this is just a tool to get somewhere else
+ at some point we will abandon the elastic rod
+ and we will be left with what we learnt from it
+ but it's not completely useless because as I said in other fields
+ this kind of concepts are of value, percept
+ not really for us
+ let's go on and see what happens and how to change the coordinates and all that
+ yeah?
+ what the phonons exactly are
+ phonons is a representation of
+ for the moment let me tell you like this
+ phonon is a representation of this
+ so you know what is this?
+ this is telling you on what energy level of the harmonic oscillators you have
+ as you know if this is the ground state of the harmonic oscillator
+ if you apply the creation operator say a w on it
+ you go from this to this which is the first
+ and then you can do it again
+ that's all this one two three etc are the integers that i'm putting here
+ but this cat as a one and two etc because i'm considering the possibility that there are oscillators of different frequencies which is omega one omega two etc and these are the normal modes that are listed on
+ this one for us in the case of the quantum case of the oscillator is just saying that you go from one level sorry one state which is the ground state to the excited state so you go from one level which is the lowest energy level one alpha h omega one to the next
+ so what we are saying is that we are associating these integers here one two three etc to what people call excitations of the field so you are saying that the integer three can be described in terms of three excitations
+ let's call them particles which is very much it's just a language and so say that n is equal to three it will be transformed in we have three phonons around which for the moment is really just language
+ technically speaking n equals to three means that you have that independent oscillator is on the level n equals to three
+ and then this phonon language is just useful for many reasons but I think that you will learn better that in condensed matter physics
+ well it's very interesting actually to tell the truth one should spend more time on that
+ in condensed matter physics the phonons for example have an incredible role in the description of superfluid helium
+ I don't have time for all this before I'm just giving the minimum because I need to go elsewhere
+ but the theory of superfluid helium, you know about superfluid helium
+ if you take the helium and you make it the helium gas and you cool it, very low temperature
+ it behaves in an incredible way, it just flows without friction in pipes
+ and this was experimentally a mystery because this frictionless propagation of helium in pipes was something completely stunning
+ and it has a lot of other features. This is called, as I said, superfluidity, the absence of friction
+ and believe it or not, in the description of superfluidity, this notion that I just drew like that of phonons
+ plays a very crucial role. Landau used this notion of phonons to make up a very smart reasoning
+ to explain why helium behaves in a superfluid way.
+ So it looks like something like a little bit like that.
+ But as you can see, it's a far-reaching concept.
+ For us, it's just a tool.
+ So it's just another way of calling it out there.
+ If you prefer not to use this name, of course you can.
+ It doesn't change very much where we are going.
+ But keep in mind, because you will see that coming out elsewhere.
+ So let's go back to our amytonia, this in particular, this one.
+ And let's see what we can do for that.
+ So, first of all, we introduce these new coordinates, Qs and Ps.
+ And the definition is this.
+ Qn is going to be defined to be the summation over s,
+ I will test what s is in a second,
+ of e to the Sn divided by this wave of n, Qs.
+ And p of n will be the summation of x of e to the minus a second divided by the square root of n, p of n.
+ Well, these are definitions.
+ We will motivate these definitions, but for the moment it's no more than that.
+ It's kind of clear that these definitions are kind of requiring this Q and P to be complex,
+ because there is a complex space here, so there's no question.
+ Q of n must be real, because Q of n, in our description of the rod,
+ it's just a coordinate displacement, it's the discrete version of the displacement field.
+ So they have to be real.
+ But if you look at this definition here, in order for them to be real,
+ of course something must happen, which is the fact that Q* of x has to be equal to Q of minus x.
+ Let's see why. This is the first thing to check.
+ If you take Q* of x, according to this formula here, which is the summation of x,
+ you get e to the minus x, divided by the square root of x, and then Q* of x.
+ But as we will see, as we define the summation of x,
+ this summation here goes on negative and positive s.
+ Actually, s is defined, all these are all definitions,
+ so I am building a clever trick to change the coordinates.
+ So this is defined to be 2 pi l divided by n,
+ where n is an integer which goes from minus n divided by 2
+ to plus n divided by 2.
+ These are all definitions.
+ What I'm saying is that this sum runs on negative and positive.
+ You can see it from here, negative and positive.
+ When you substitute l into that, this is positive and negative s.
+ And as you can see, if you put n divided by 2 here,
+ you get s is equal to minus 5, s is equal to plus 5.
+ But then you scale by 1 from this to the next, right?
+ You scale by 1 in n. So it's 2 pi minus n divided by 2 n, which is minus 5.
+ And then 2 pi minus n divided by 2 plus 1, this scales by 1, divided by n, you do it, right?
+ So this s runs from negative positive, just all of them.
+ But look at this, this can be written as the summation of an s, e to the plus i s n divided by the square root of n, and q minus s.
+ What I'm doing now is that I'm changing the s into negative.
+ Who cares? The sum is spanning all the s from negative to positive.
+ So there is negative s, positive s.
+ All of them get summed.
+ Therefore, if in the symbolic formula for the sum, I change the letter s into minus s.
+ So if I change this s into minus s, the sum is the same sum of negative and positive.
+ So if I change s to minus s, I get plus isn here and q star minus s here.
+ So this is telling you that this is the condition for the qn to be real.
+ Well, the same happens in this other definition.
+ The condition for the ps star to be real is this.
+ So pn star is the same as ps.
+ So we have these two definitions of this and this
+ and two constraints which are the following one.
+ This is part of the definition.
+ So it's this definition of S in terms of that is part of the definition.
+ Now we will add another input which makes the calculation a little bit easier
+ and is that the model above has no walls.
+ So you might ask yourself what happens when I move to the far right or to the far left?
+ Is it a wall or what?
+ Because all these springs are connected to masses, are connected to springs, etc.
+ Does this go for forever or at the end in this model we put a couple of walls?
+ This is certainly a model of a wall.
+ You just link the first spring and the last spring to the wall.
+ We will not put any wall.
+ In order to simplify what we want to do
+ is we will require some periodic boundary conditions.
+ Periodic boundary conditions.
+ We will say that if we take any of these displacements
+ and if we add n, n is the number of oscillators,
+ we go back to qi, right?
+ So you add n, you move to the next, to the next, to the next, to the next,
+ you don't hit the wall, you go back.
+ That's why it's periodic boundary conditions.
+ Have you ever met periodic boundary conditions?
+ So this is a little simplification for us.
+ Now, what we will discover is that with these definitions here, we will indeed be able to transform this Hamiltonian plot.
+ And we will also be able to find a formula for omega, which is the following.
+ So with this model in our head, periodic boundary conditions and this definition of the complex coordinate,
+ the Hamiltonian tail will be a representation of independent oscillators, phonons,
+ and the frequencies on which these phonons can have are these ones.
+ These are the normal modes.
+ So we have to compute that.
+ We have to find that.
+ Now, before doing this actual calculation,
+ let me tell you what we have in mind,
+ because this is classical for the moment, right?
+ And we are directly jumping to, we have always in mind the jump to the quantum system.
+ So let's say something about that before doing the calculation that will lead us to the frequency of the moment.
+ So in the case in which qn and pn are just the position and the momentum of that specific n oscillator,
+ all we have to require is that this is equal to its complex conjugate and this is equal to its complex conjugate.
+ This is just a classical system, everything has to be real.
+ But now suppose that you go to the quantum world and then you promote q_n to an operator.
+ And you do the same for the p_n, also p_n is an operator.
+ What do you require then?
+ That these operators are an observable quantities.
+ So you require a different condition.
+ You say that q_n is equal to q_n.
+ Now these are operators.
+ So you also say that there are computation relations between the q_n and the p_n because these are operators.
+ So this is a very big leap, as you know, right?
+ You go from position and momentum to operators, quantization conditions, and all.
+ Since you have the harmonic oscillator in your mind, it is better to introduce immediately
+ what we know, and I mentioned this a few minutes ago,
+ what we know to be the creation and destruction operators of the harmonic oscillator.
+ how do you translate this condition qn equals to qn dagger and pn equals to pn dagger on the qs and ps?
+ In the same way as we did before.
+ So the q of s will be equal to q dagger minus s, and the p of s will be equal to q dagger minus s.
+ Again, if you promote the q and the p to become quantum operators, you have to do the same with this.
+ And if you want this to be a medium, then you have to require the q operator to be in this way,
+ which is exactly what we did before. It's like substituting the star with the dagger.
+ But as you know, it's not the symbol star and dagger.
+ It's a lot of stuff. Star is just a complex conjugation of a variable, of a C number, and dagger is the immediate conjugation of an operator.
+ So actually, it doesn't look so much, but it is a lot.
+ Now, we will see that this Q of s can be written in this way.
+ Again, this is part of the construction that we want to do.
+ Q of s will be an a s plus a dagger minus s,
+ and P of s will be omega s divided by 2 square root minus e.
+ You will understand these things one by one very soon.
+ I'm just putting down everything.
+ A is that.
+ This reminds you to the building of the Newtonian of the harmonic oscillators.
+ In terms of a dagger a plus one and a half h omega.
+ I want to go there.
+ So this should remind you of those steps that will be clear kind of soon.
+ If you do this job here, if you make this definition here,
+ you see that q of s dagger, it is 1 divided by 2 omega s, a dagger s plus a minus s.
+ But you see that this is just q minus s.
+ And this is the requirement that comes from here.
+ Because if q s is equal to q dagger minus s,
+ this is the same as q minus s equal to the q dagger of s.
+ Well, this goes without sin, right?
+ So with this definition in terms of creation and annihilation operators,
+ we implement precisely this condition on daggers.
+ And the same can be said here.
+ It's going to be E minus S.
+ So these two facts that are very important
+ if we want to pursue the quantization conditions
+ are just hardwired in this definition.
+ To make a step further,
+ I might remind of the quantization conditions
+ on DAS operators.
+ Well, you remind from the theory
+ of the one-dimensional harmonic oscillator,
+ you know this, right?
+ You should remember this.
+ What we have here is a little bit different
+ because we have a set of independent oscillators.
+ This is where we are going.
+ A set of decoupled oscillators,
+ which are these ones.
+ And we want to quantize each of them one by one.
+ The phonons, right?
+ We want to quantize all of those phonons.
+ So we say that there is AS and AS prime.
+ One is connected to a certain omega S,
+ which is one of those frequencies.
+ And the other one is the creation operator of another frequency,
+ in general.
+ And so the quantization condition here will be the following.
+ And this is kind of very telling to you.
+ What I'm writing here is that if this is the creation,
+ it is the destruction operator connected to the oscillator omega s,
+ and this is the creation collected to the oscillator omega s prime,
+ they don't talk to each other.
+ Because they are just independent things.
+ They really don't talk to each other.
+ So the connected delta will be zero.
+ If s and s prime are the same thing,
+ you are sitting on a specific oscillator,
+ which has oscillation frequency omega x,
+ and then you use the same rules that for the one-dimensional oscillator.
+ The quantization condition goes in the same way as usual.
+ As, as prime is equal to zero.
+ In any case, if the two are different,
+ it's because these are two independent oscillators.
+ If the two are the same,
+ it's the typical quantization conditions
+ for the harmonic oscillators in one dimension.
+ And the same happens here.
+ So this is the set of the typical quantization conditions
+ of the harmonic oscillators.
+ And this reflects,
+ and that is a little exercise for you,
+ if you assume these properties,
+ this reflects in the following:
+ QS PR equals to R delta SI.
+ This is an exercise for you,
+ first exercise for you.
+ So, I'm saying this:
+ you assume that we have quantization conditions
+ on this operator say,
+ we will discover soon that these are the creation
+ and annihilation operators of harmonicos related
+ and that will be enclosed.
+ But, let's assume that you have that.
+ For the moment, there are definitions
+ appearing in these two qs and qs.
+ But if you assume that, you get this.
+ So, what you have to do to solve this exercise?
+ You take this definition of qs and you put it here.
+ You take this definition of p with all the coefficients that they place
+ and you put it here.
+ You immediately see that there is an omega s in the denominator here,
+ that there is an omega s in the numerator.
+ When you take the product, this cancels with this.
+ You see that there is a square root of 2 here and another square root of 2 here,
+ so there will be two contributions that will sum up and will give you this.
+ And then there is an I here, and this I will appear here.
+ So let's put it this way.
+ You define the QS like this, you define the PS like that,
+ you postulate these quantization conditions,
+ and everything will close up at the end because you would say,
+ ah, but these are quantization conditions of the harmonic oscillators, right?
+ But for the moment, you postulate this and you get this.
+ And these are the standard quantization conditions on P and Q.
+ The exercise number two, which is a trivial extension of exercise number one,
+ is if you have these quantization conditions on the Q capital and P capital,
+ what are the quantization conditions on the P and Q?
+ That's for you. But, well, it goes without saying, right?
+ It's not so difficult. So it's just a little check for you to do.
+ And then, before going on, I wish to remind you another couple of things, and then we compute the fields.
+ Let's do it like this.
+ So, you will remind from the lecture first in quantum mechanics the Isenberg equations, right?
+ Now, we will introduce a time dependency on these A and A-W operators,
+ and the time dependency according to the Isenberg equation is given by this.
+ There is a dot here and a minus I omega here.
+ This holds for whatever operator. This is the Isenberg equation in general that you studied very well in the previous lecture.
+ So this is the Isenberg equation and this is the H on A that is the typical result that you get in the case of the harmonic conciliation.
+ Now, if you do the dagger, that is no surprise that you will have I, H, A dagger, T and this was I omega, A dagger, T.
+ Now, if you do this and then you assume that there is a time dependency in this Q of s and P of s.
+ So you have to put a dot on Q of s to see what happens on the time dependency.
+ This is 2 omega s, a dot s plus a dot minus s, right here.
+ And then you use the result of the iceberg.
+ a dot s is minus i omega s, as, plus i omega s, a dot s.
+ I use the first and the second, this and this.
+ Now you factorize the omega minus i, the square root of omega s,
+ divided by the square root of 2, i minus a s plus a diagonal minus s.
+ And this is the p.
+ We found an interesting result here.
+ If you do the dot of a q, a capital q,
+ what we call a normal coordinate,
+ the dot of the normal coordinate is the momentum,
+ which is not really surprising because, ah,
+ the dot of the normal q is the normal p.
+ But with a little subtlety here, the dot of the normal q is the p,
+ but there is a minus s.
+ And this comes from the definitions that we introduced.
+ This minus s, as you will see now, is totally armless
+ because this minus s here is just inside that summation.
+ You see the summation, where is that?
+ Well, this. Here we sum the positive and negative s.
+ So, yes, t minus s, they are both included in the sum.
+ The same sum at the end of the day.
+ Therefore, this is something to keep in mind.
+ And then, let's see what happens to qn dot.
+ qn dot is the summation over s, e to the i as n, divided by the square root of n, qs dot.
+ This is the summation over s, e to the i as n, the square root of n, v minus s.
+ But now we change s into minus s everywhere.
+ The summation is a negative positive, so we can change s into minus s.
+ So this is e to the minus s n, square root of n, v s, which exactly is p n.
+ So we recover the fact that the q dot is p, q dot n is p n.
+ And you recover that going through those definitions of q s and p s in this way.
+ q s dot is p minus n, but you can change s into minus s.
+ And this is the definition of the p n.
+ So everything is kind of built in a consistent way.
+ When you see this sort of manipulation, you have to think that this is...
+ We are making up a clever trick to do this decomposition of the coupled system into an uncoupled one.
+ And it's not something that comes from the scan, right?
+ When people does this kind of thing, you adjust here and there until you find something consistent that allows you to make a trick.
+ So this is how I'm trying to do this stuff.
+ So I wanted to see that everything goes to its place using a few definitions which are certainly very good definitions for starters.
+ So what we learned now, there are two definitions there, Q and BN, in terms of capital Q and P.
+ Those capital Q and P can be written in terms of this AES and AES diagram.
+ This AES and AES diagram will turn out to be the creation/destruction operators of the harmonic distillator.
+ At the end, we will see that clearly.
+ But for the moment, they are just another set of operators and this is just a definition.
+ But with that definition, we obtain that Q AES diagram is equal to Q minus AES, Q AES diagram is equal to T minus AES.
+ And that is consistent with the quantization rules.
+ So it's good to put things in that way because we get the quantization rules.
+ Once you have that and you go here, you see that Q S dot is equal to P minus C,
+ but this allows you to have Q dot equals to P.
+ So for the moment, everything is in equilibrium.
+ We are doing reasonable things that work.
+ Now, slowly we have to put it all together and see what happens.
+ So let's say that if you reach this point, you would say,
+ all right, so what do we have at this point, right?
+ So we have all this set up.
+ We have the q's and the p's, etc.
+ So we should put everything into these definitions, q and pn.
+ We should put them in the classical Hamiltonian p that we had at the beginning.
+ Remember the periodic boundary conditions.
+ And if everything is correct,
+ we should recover that.
+ Let's see if it's true and what other things.
+ This is what we have to check now.
+ Is that okay?
+ Is everything okay?
+ So this is the most important step.
+ Let's see if we can really develop it.
+ We made a number of consistency operations for the moment,
+ which are just derived from the basic definitions.
+ But let's go to the heart of the problem.
+ Let's see if it works.
+ Now to see if it works, we have to plug in.
+ There is not much to do.
+ We have to plug in those two definitions inside the amytonium and see what happens.
+ Let's start from the most difficult term, which is this.
+ Now we can do a decent simplification and we will assume that our system is made only of two oscillators.
+ The generalization to 3, 4, 5 will be trivial.
+ So let's start with a simple example.
+ Two oscillators, so let's look at this term for two oscillators.
+ So n equals to 1, omega squared divided by 2, q1, q1 squared, sorry, q1 minus q2 squared.
+ If I put n equals to 1, I put it here, and that's the first term.
+ Plus omega squared divided by 2, q1, sorry, q2.
+ This is n equals to 1, right?
+ This and this is n, and then plus 1.
+ q2 minus q3, right?
+ But there is no q3 because the oscillators are 2.
+ And we know that there are very odd boundary conditions.
+ Therefore, q2 plus 1 is going to be q2, right?
+ So this is 2 and this is 1.
+ 1 plus 2 is going to be 1.
+ So there are 2 oscillators.
+ 1 plus 2 is 3.
+ Therefore Q3 is equal to 2.
+ You know?
+ Periodic boundary conditions as this.
+ So this sum over here, let me state it right.
+ This is Q1.
+ This is the simplification introduced by periodic boundary conditions.
+ The third oscillator is the first.
+ It's like this system is closed on a circle.
+ Well, this simplification allows to do easier calculations as you will see now, so let's do it. So this is omega squared, q1 squared plus q2 squared, from here, and then minus omega squared, well, q1, q2, plus q2, q1.
+ Now someone would say, well, this is q1, q2, q2, q1 is the same, write it twice q1, indulge me for a second to understand why it is that way.
+ It's clearly twice q1, q2.
+ So this is the sum of these two terms.
+ Now let's do the first sum.
+ Q1 squared plus q2 squared, thus the same as n between 1 and 2 of qn squared,
+ which is the summation over n, right, of the summation over s of i as n divided by the square root of 2 qs,
+ and the summation over s prime to change the index, these are dummy indices, but it's always good to change the name to the dummy indices, it's not getting in trouble,
+ so this is flagging in the definition of qn, this is qn, and this is qn again, and this goes from 1 to 2, because we are on the oscillators, right,
+ now, let's put things together, this is going to be sum over s, one half, because square root of 2, square root of 2, sum over s prime, and then there is qs, qs prime,
+ and then there is a sum over n, between 1 and 2, of e to the i n, s plus s prime, which is factorized out.
+ Well, we are kind of there. You see, q1 plus q2 squared contains a qs, qs prime.
+ With a one alpha, qs, qs prime is very much similar to our goal.
+ Our goal, of course, is this, right?
+ It's kind of similar, but we have to see what happens with this summation here.
+ Suppose that this summation here is wrong, but this summation here is requiring that s prime is equal to minus s.
+ If this miracle happens, that this requires s prime equals to minus s, then this qs prime
+ will be q minus s, but q minus s is qs star, as we said, and then you get qs modulo squared,
+ and you start to be happy, so you start to see the light in this thing.
+ I'm just saying, suppose that this summation over here,
+ just by you, we will prove that suppose,
+ that this summation over here requires that this is equal to 1
+ only if s prime is equal to minus s.
+ If s prime is different from minus s, this is just 0,
+ so it's a Kronecker delta.
+ Suppose, in that case, this becomes Q minus s,
+ which is Q s star, which is Q s module squared.
+ And that's a nice boost towards the coupling that we wanted to do,
+ to go from the coupled system to the phonons,
+ which are the coupled.
+ Let me call them phonons, right?
+ These are the consonants of oscillators of the coupled.
+ Now the point is, is that true?
+ Is that correct?
+ Where is that thing coming from?
+ You have to remember the definitions that we put inside the beginning.
+ So what was S to begin with?
+ So here we have the summation between n and say capital N, where capital N could be everything,
+ e to the i n, and then in place of S you put 2 pi L divided by n minus 2 pi L prime divided by n.
+ So this can be casted and stored, even the i n divided by n, L minus S.
+ Now suppose that L and L prime, I wish to remember you that L is an integer.
+ We said that L runs between minus n divided by 2 and n divided by 2.
+ Remember that's a definition of this image.
+ Now if you look at this summation here, so this is the definition of s.
+ If you look at this summation, this summation is a nice one.
+ If L is equal to L prime, the exponent is zero, and so you are summing one n times, and you get that.
+ If L is different from L prime, it's 1 every integer, plus 3, minus 7, 11, whatever.
+ But if you look at that, this is a sum of vectors in the complex plane.
+ When you change n between 1 and n, this is like, say, suppose that this is just 1.
+ Say, make a trivial example, it is i 2 by n divided by n, the roots, you know.
+ So these vectors here are all canceling one against the other.
+ When you do the summation, on its own, it's done.
+ Now, a trivial exercise for you, say, exercise 3,
+ will be to convince yourself that if you change the integer here, nothing very much happens.
+ You can do this exercise now, everyone has a computer and the symbolic languages, etc.
+ Make a representation with some Mathematica tool, like Wolfram, whatever.
+ You can represent these vectors, you change the integer here, you will see that the pattern of canceling vectors change.
+ So what I'm saying here is that this thing is going to be n delta L prime.
+ This is what I'm saying.
+ So this last sum, yeah?
+ It should be plus L prime and I'm saying L minus L prime.
+ Yeah, but why is minus?
+ Oh, sorry. This is flat. No, no, it's minus. Let me put it this way.
+ Right, good question.
+ So the general rule is done like this, right? With a minus. Wait a second. So lm prime is with a minus.
+ Now, if I go here where there is the plus, that should just change. So this is something that you can cast into delta s square.
+ If I go here where there is the plus, I write s minus s square. You get that? Here there is the plus.
+ If the second one, you get the multiple square. Yes, this is the plus.
+ And now, but you see that this one has the plus and this has the minus.
+ So what I'm saying is that the summation between 1 and n by n s minus s prime is equal to n then s prime.
+ And when I change to plus, as you say, I get n s minus s prime.
+ It's the same thing, because if you call this minus s prime plus s prime, it's just the same thing.
+ Well, actually, your question is very good because if you look at this, since there is a class in between,
+ I conclude that this is delta s minus s prime.
+ And this means summation, one of Q s squared models, one.
+ Well this means that we are halfway, I can't believe it, I've been very slow, halfway to the result.
+ Yes, so I did not even stop and I am just here, it will be long this lecture course, oh my god.
+ All right, let's go, let's try to go on. I cannot complete the proof today because it's already 5 minutes to 10.
+ And I suppose that you start at 10 in the next one.
+ Right, so I'm just giving out a few minutes more and I will continue next time.
+ So this is one part of the story. Then there is another part of the story because Q1 and Q2, let's put it here,
+ so we said Q1, what is the, it's there, right? It's here. We have to do this. Q1, Q2 plus Q2, Q1.
+ That's our next goal. We made the first. Of course there is an omega squared here.
+ So you will remember to put the omega squared here, which is this omega squared.
+ So it's omega squared divided by 2. So now we have to do that.
+ Now you can be worried because you say, oh, we got the q squared s with the omega squared divided by 2.
+ Looks like this, but there is an omega small here to be computed.
+ Well, if there was only that, you would suppose that there was no term like this.
+ Then you would say, well, I know what this omega s squared here is.
+ It is just capital omega squared by the way, and that's it.
+ Of course, it's not like that, because there is an extra term to be computed, which is the following.
+ So in order to compute the normal modes, you need to compute this sum over here.
+ This is obvious. So we have to do that.
+ This is n from 1 to 2, qn, qn, plus 1.
+ Well, you know very well that this is the story, right?
+ Because when you put 1, it's q1, q2.
+ When you put 2, it's q2 plus 1, which is 3, which is n1.
+ So this and this are the same, right?
+ So this is n, which goes from 1 to 2, and in place of the qn, you put again the summation e to the is n divided by the square root of 2, because there are only 2 of them, and then you put the qs, and then there is the summation s prime e to the s prime n plus 1, remember, divided by the square root of 2, and then qs prime.
+ We do the same steps that we did before, so it is s and s prime, one half, 2 plus square root of 2 square root of 2, then it is qs and qs prime again, and then there is a summation of n between 1 and 2, of i s n plus s prime, just like before.
+ This is the same as we got it, but you see that there is a plus 1 over here.
+ So there is an extra thing. There is a lonely e to the s prime factorized out, right?
+ Because this is e to the s prime n plus 1. The n goes here and the other one stays out.
+ But that is going to be n delta s s prime like before, actually minus s prime as we learned.
+ n is equal to 2, so this n equals to 2 cancels the 2 over here.
+ I hope that I did this cancellation of the 2, which I clearly forgot.
+ There is a 2 over here and there is a 2 there, so the factor of 2 gets cancelled also here.
+ The factor is this: when l is equal to l prime you get n.
+ So the 2 don't worry because we will be recovered.
+ So I cancel the 2 here and here and I get the sum over s, 2s modulus squared and e to the i x prime.
+ This is what I get from this equation and the factor of 2 gets canceled.
+ And now it's about putting things together and finding the actual solution.
+ What we see from what we just did here, because of this Qn and Qn prime, that there is a phase.
+ So there is something with this phase that we have worked with.
+ And next time, I have no time now, I will go now, we will combine these two pieces.
+ We will remind you the final part.
+ We will combine these two pieces and we will find some edges.
+ Maybe some one of you can attempt to do it on its own, it's not much to do.
+ But in any case, next time we will do that.
+ So if some one of you wants to do it on its own, I give us a very tiny hint.
+ So you see this s prime, delta s s prime, this is going to be minus x, right?
+ This is q s, q minus s.
+ So the hint is the following, think to that.
+ This is one way to compute this sum.
+ I will do it next time, but if some one of you tries to do this exercise, it's not.
+ I started like this. I put in place of qn and qn plus one, this and this, right?
+ And I update this into the minus.
+ Now suppose that I changed my start. I go back. This is qn and qn plus one, right?
+ And now I have these two things. I suppose that I swap the s prime here and the s there.
+ It's kind of the same, no? It should be the same. If I put the s prime here and the s there,

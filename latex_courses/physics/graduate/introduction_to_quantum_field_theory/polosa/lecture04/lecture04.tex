@@ -1,0 +1,166 @@
+
+\section{Il Modello Discreto: Hamiltoniana degli Oscillatori Accoppiati}
+
+Il punto di partenza per la Teoria Quantistica dei Campi (QFT) è il modello di una sbarra elastica, descritta come una catena discreta di $N$ masse $m$ collegate da molle di costante elastica $k$. Per semplificare, poniamo $\mathbf{m}=1$ e $\mathbf{k}=\mathbf{\Omega^2}$.
+
+Le variabili fisiche del sistema sono le coordinate di spostamento $\mathbf{q}_n$ e i loro momenti coniugati $\mathbf{p}_n$. L'Hamiltoniana classica è data da:
+
+\begin{equation}
+H = \sum_{n=1}^{N} \left( \frac{\mathbf{p}_n^2}{2} + \frac{\Omega^2}{2}(\mathbf{q}_n - \mathbf{q}_{n+1})^2 \right)
+\end{equation}
+
+Questa Hamiltoniana, a causa del termine di accoppiamento potenziale $(\mathbf{q}_n - \mathbf{q}_{n+1})^2$, descrive un problema difficile. Il \textbf{trucco cruciale} per risolvere il sistema ed entrare nel concetto di campo è l'introduzione delle \textbf{coordinate normali}.
+
+\subsection{Analisi Spettrale: I Modi Normali}
+
+Per disaccoppiare l'Hamiltoniana, eseguiamo un cambiamento di coordinate che ci permette di passare dalle coordinate fisiche locali $(\mathbf{q}_n, \mathbf{p}_n)$ alle \textbf{coordinate normali} $(\mathbf{Q}_s, \mathbf{P}_s)$, che etichettano i modi di vibrazione collettivi del sistema.
+
+Assumiamo \textbf{Condizioni al Contorno Periodiche (PBC)}, $\mathbf{q}_{N+1} = \mathbf{q}_1$. L'indice $s$ (che diventerà il numero d'onda $k$ nel limite continuo) è quantizzato: $s = \frac{2\pi l}{N}$.
+
+\subsubsection{Trasformazione di Fourier Discreta}
+
+Le coordinate di spostamento e momento sono espresse in termini dei modi normali $\mathbf{Q}_s$ e $\mathbf{P}_s$:
+
+\begin{equation}
+\mathbf{q}_n = \frac{1}{\sqrt{N}} \sum_{s} e^{is n} \mathbf{Q}_s
+\end{equation}
+
+\begin{equation}
+\mathbf{p}_n = \frac{1}{\sqrt{N}} \sum_{s} e^{-is n} \mathbf{P}_s
+\end{equation}
+
+Dato che le variabili fisiche $\mathbf{q}_n$ e $\mathbf{p}_n$ sono reali, le coordinate normali (che sono complesse) devono soddisfare le seguenti condizioni:
+$$
+\mathbf{Q}_{-s} = \mathbf{Q}_s^{\dagger} \quad ; \quad \mathbf{P}_{-s} = \mathbf{P}_s^{\dagger}
+$$
+
+\subsubsection{Dimostrazione del Disaccoppiamento dell'Hamiltoniana}
+
+Sostituendo queste trasformazioni nell'Hamiltoniana (Eq. 2.1), si dimostra che essa si disaccoppia in una somma di oscillatori armonici indipendenti, uno per ogni modo $s$:
+
+\begin{equation}
+H = \sum_{s} \left( \frac{1}{2}|\mathbf{P}_s|^2 + \frac{1}{2}\omega_s^2 |\mathbf{Q}_s|^2 \right)
+\end{equation}
+
+\subsubsection{Energia Cinetica (T)}
+Sostituiamo $\mathbf{p}_n$ nell'energia cinetica $T = \sum_{n} \frac{\mathbf{p}_n^2}{2}$:
+$$
+T = \sum_{n} \frac{1}{2} \left( \frac{1}{\sqrt{N}} \sum_{s} e^{-is n} \mathbf{P}_s \right) \left( \frac{1}{\sqrt{N}} \sum_{s'} e^{-is' n} \mathbf{P}_{s'} \right) = \frac{1}{2N} \sum_{s, s'} \mathbf{P}_s \mathbf{P}_{s'} \sum_{n=1}^{N} e^{-i(s+s') n}
+$$
+Utilizzando la proprietà di ortogonalità della Trasformata di Fourier discreta in PBC:
+$$
+\sum_{n=1}^{N} e^{-i(s+s') n} = N \delta_{s+s', 0} = N \delta_{s', -s}
+$$
+Sostituendo il risultato:
+$$
+T = \frac{1}{2N} \sum_{s, s'} \mathbf{P}_s \mathbf{P}_{s'} N \delta_{s', -s} = \frac{1}{2} \sum_{s} \mathbf{P}_s \mathbf{P}_{-s}
+$$
+Applicando la condizione di realtà $\mathbf{P}_{-s} = \mathbf{P}_s^{\dagger}$ (complesso coniugato), otteniamo:
+\begin{equation}
+T = \sum_{s} \frac{1}{2} |\mathbf{P}_s|^2
+\end{equation}
+
+\subsubsection{Energia Potenziale (V)}
+Sostituiamo $\mathbf{q}_n$ nell'energia potenziale $V = \sum_{n} \frac{\Omega^2}{2}(\mathbf{q}_n - \mathbf{q}_{n+1})^2$. Il termine di accoppiamento è:
+$$
+\mathbf{q}_n - \mathbf{q}_{n+1} = \frac{1}{\sqrt{N}} \sum_{s} \mathbf{Q}_s (e^{is n} - e^{is (n+1)}) = \frac{1}{\sqrt{N}} \sum_{s} \mathbf{Q}_s e^{is n} (1 - e^{is})
+$$
+Il quadrato $(\mathbf{q}_n - \mathbf{q}_{n+1})^2$ è dato dal prodotto del termine con il suo complesso coniugato, che richiede l'uso di $\mathbf{Q}_{s'}^{*} = \mathbf{Q}_{-s'}$:
+$$
+\sum_{n} (\mathbf{q}_n - \mathbf{q}_{n+1})^2 = \sum_{s} |\mathbf{Q}_s|^2 (1 - e^{is})(1 - e^{-is})
+$$
+Sviluppando il prodotto si ottiene l'identità trigonometrica $2 - (e^{is} + e^{-is}) = 2 - 2 \cos(s) = 4 \sin^2(s/2)$.
+L'energia potenziale è quindi:
+$$
+V = \sum_{s} \frac{\Omega^2}{2} |\mathbf{Q}_s|^2 \cdot 4 \sin^2(s/2) = \sum_{s} \frac{1}{2} |\mathbf{Q}_s|^2 \left[ 4\Omega^2 \sin^2(s/2) \right]
+$$
+Questo definisce la \textbf{frequenza propria} $\omega_s$ per ogni modo:
+\begin{equation}
+\omega_s^2 = 4\Omega^2 \sin^2(s/2)
+\end{equation}
+La dimostrazione conferma che l'Hamiltoniana è disaccoppiata (Eq. 2.4).
+
+\subsection{Quantizzazione e Particelle}
+
+Il sistema è ora una collezione di oscillatori armonici non interagenti, uno per ogni modo $s$. Per quantizzarlo, si opera la \textbf{quantizzazione canonica}: si impongono le regole di commutazione sui modi normali, che diventano operatori:
+
+\begin{equation}
+[\mathbf{Q}_s, \mathbf{P}_{s'}^{\dagger}] = i\hbar\delta_{s,s'} \quad ; \quad [\mathbf{Q}_s, \mathbf{Q}_{s'}] = [\mathbf{P}_s, \mathbf{P}_{s'}] = 0
+\end{equation}
+
+\subsubsection{Operatori di Creazione e Annichilazione}
+
+Si introducono gli operatori di annichilazione $a_s$ e di creazione $a_s^\dagger$, che soddisfano le regole di commutazione bosoniche $[a_s, a_{s'}^{\dagger}] = \delta_{s,s'}$. Le coordinate normali sono:
+
+\begin{equation}
+\mathbf{Q}_s = \frac{1}{\sqrt{2\omega_s}} (a_s + a_{-s}^{\dagger}) \quad ; \quad \mathbf{P}_s = -i\sqrt{\frac{\omega_s}{2}} (a_s - a_{-s}^{\dagger})
+\end{equation}
+
+Sostituendo nell'Hamiltoniana disaccoppiata (Eq. 2.4), si ottiene la forma quantizzata:
+
+\begin{equation}
+H = \sum_{s} \hbar\omega_s \left( a_s^{\dagger} a_s + \frac{1}{2} \right)
+\end{equation}
+
+L'interpretazione fisica è chiara: \textbf{la particella è il quanto del campo}. Le eccitazioni del campo (contate dall'operatore numero $N_s = a_s^{\dagger} a_s$) sono le particelle (fononi, in questo caso specifico). La QFT non è la quantizzazione delle coordinate $\mathbf{q}_n$, ma la \textbf{quantizzazione dei modi normali} (o del campo).
+
+\subsection{Il Limite Continuo: Nascita del Campo}
+
+Il passo fondamentale verso la QFT è il \textbf{limite continuo}: il passo reticolare $a \to 0$, il numero di oscillatori $N \to \infty$, mentre la lunghezza totale $\mathbf{L=Na}$ rimane fissa.
+
+\subsubsection{Trasformazione delle Variabili Continue}
+
+In questo limite, le variabili discrete si trasformano in campi continui:
+\begin{itemize}
+    \item La coordinata di spostamento discreta $\mathbf{q}_n$ si trasforma nel \textbf{campo di spostamento} $\phi(x)$ nella forma $\mathbf{q}_n \to \sqrt{a} \phi(x)$.
+    \item La differenza finita $(\mathbf{q}_{n+1} - \mathbf{q}_n)$ si trasforma nella derivata spaziale: $\mathbf{q}_{n+1} - \mathbf{q}_n \to a \frac{\partial \phi(x)}{\partial x}$.
+    \item La somma discreta $\sum_n$ si trasforma nell'integrale spaziale $\int dx$: $\sum_n a \to \int dx$.
+    \item L'indice discreto del modo $s$ si trasforma nel numero d'onda continuo $k$ (il momento): $k = \frac{s}{a} = \frac{2\pi l}{Na} = \frac{2\pi l}{L}$.
+\end{itemize}
+Come ci ricordano le note, la trasformazione da $\mathbf{q}_n$ a $\phi(x)$ porta con sé il fattore $\sqrt{a}$ per la corretta gestione delle dimensioni nel passaggio $\mathbf{p}_n \to \sqrt{a}\mathbf{\Pi(x)}$.
+
+\subsubsection{Hamiltoniana Continua e Equazione delle Onde}
+
+Applicando queste trasformazioni all'Hamiltoniana (Eq. 2.1) (nel caso in cui $m=1$ e ridefinendo $v^2 = \Omega^2 a^2$), si ottiene l'Hamiltoniana espressa in termini della \textbf{densità Hamiltoniana} $\mathcal{H}(x) = \frac{\Pi^2(x)}{2} + \frac{v^2}{2} (\frac{\partial \phi(x)}{\partial x})^2$:
+
+\begin{equation}
+H = \int_{0}^{L} dx \left[ \frac{\Pi^2(x)}{2} + \frac{v^2}{2} \left( \frac{\partial \phi(x)}{\partial x} \right)^2 \right]
+\end{equation}
+
+Questa Hamiltoniana continua produce come equazioni del moto la classica \textbf{equazione delle onde}:
+
+\begin{equation}
+\frac{\partial^2 \phi(x,t)}{\partial t^2} - v^2 \frac{\partial^2 \phi(x,t)}{\partial x^2} = 0
+\end{equation}
+
+\subsection{Passaggio alla Relatività e Gradi di Libertà}
+
+Il modello della corda vibrante (Eq. 2.12) è un sistema non relativistico. Per arrivare alla \textbf{Teoria Quantistica dei Campi Relativistica (RQFT)}, dobbiamo sostituire la dinamica non relativistica con quella di Einstein, utilizzando la velocità della luce $c$ e la massa $m$.
+
+\subsubsection{La Condizione di Mass-Shell}
+
+La relazione di dispersione non relativistica del modo continuo è $\omega_k^2 = v^2 k^2$. In RQFT, si opera la seguente analogia formale:
+\begin{itemize}
+    \item La velocità di fase $v$ si trasforma nella velocità della luce $c$.
+    \item Il numero d'onda $k$ si trasforma nel momento $\vec{k}$ (in 3D).
+    \item La massa $m$ (o l'energia di soglia $\Omega_0$) è inclusa come termine additivo.
+\end{itemize}
+
+La relazione di dispersione relativistica e massiva, chiamata \textbf{condizione di mass-shell} (guscio di massa), è:
+
+\begin{equation}
+\omega_{\vec{k}}^2 = c^2 \vec{k}^2 + m^2 c^4 \quad \xrightarrow{\text{unità naturali}} \quad \omega_{\vec{k}}^2 = \vec{k}^2 + m^2
+\end{equation}
+
+Questa relazione, quando applicata al campo, conduce all'\textbf{equazione di Klein-Gordon} $(\square + m^2) \phi(x) = 0$, che è la base per la quantizzazione del campo scalare libero.
+
+\subsubsection{Gradi di Libertà Interni}
+
+Il campo $\phi(x)$ che stiamo studiando è uno \textbf{scalare} (spin 0) ed è il più semplice, poiché non ha gradi di libertà interni. La sua espressione finale in termini di operatori $a_{\vec{k}}$ e $a_{\vec{k}}^\dagger$ è data da una semplice sovrapposizione di onde piane.
+
+Per campi più complessi, come quelli che descrivono particelle con spin:
+\begin{itemize}
+    \item **Elettrone (spin 1/2, campo di Dirac)**: La sua espressione è arricchita da un indice interno che codifica lo spin.
+    \item **Fotone (spin 1, campo vettoriale)**: La sua espressione contiene anche il \textbf{vettore di polarizzazione} $\epsilon_\mu$, che rappresenta i gradi di libertà interni (come la polarizzazione trasversale dell'onda elettromagnetica).
+\end{itemize}
+Tuttavia, la struttura fondamentale rimane la stessa: la particella è sempre il \textbf{quanto} di eccitazione di un campo.

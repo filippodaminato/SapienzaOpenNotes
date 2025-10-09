@@ -1,0 +1,597 @@
+ The number of oscillators goes to infinity and l times a, which is, sorry, n times a,
+ which is l, stays fixed. This is the continuous thing that we studied and we found an Hamiltonian
+ for the continuous system. And from this, we deduce the equations of waves, the wave equation.
+ So what we want to see now is what happens to the normal holes. We saw that the normal
+ coordinates are written in terms of the normal, sorry, the displacement coordinates are written
+ in terms of the so-called displacement field. That's what we saw it. And we have another
+ equation for the q_n. We will recap that later. But what happens then to the normal modes? We have that q_n is equal to the sum over s of e to the i_sn divided by the square root of n stands for q_n. So when we go in this limit, we will find a q of x of the q_n.
+ And that will be the summation of s into the i_sn. So we can do s divided by a, and n times a, and we need the q_s as it is.
+ We multiply and divided by a.
+ Now we discovered that what we observed already last time is that n times a is x.
+ It's the position of the continuous system.
+ But this x, the response to the x basically, as I've told you in some other field, x is the
+ continuous variable that locates a special oscillator. So we are talking of that special oscillator
+ in the continuous variable x. And if you do n times a, it means that you are writing
+ x. Because a is going to zero and then it's an integer in this side. And what is s divided by a?
+ s divided by a is 2 pi an integer divided by n divided by a. Therefore, this is 2 pi l divided by l, which is the line of the rock.
+ This is like the wave number in classical physics. 2 pi divided by l times an integer, the wave number.
+ We will call it k, just to use the same notation of wave numbers that we know.
+ So we did these things already. We are just repeating them.
+ So we have the square root of a, 2 of x, equals to summation over s,
+ and then e to the i, s divided by a is k, n times a is x,
+ and then there is a square root of n here, and then 2 of x, which is the normal coordinate.
+ Now s is gone, so we label this as qk, and the summation is done over k.
+ Now the summation done over k is the summation of all these things where the integer l is running.
+ Now we can bring down this, and then we add q of x is the summation of k, e to the i k x, the square root of f, q of k.
+ Well, this is a kind of nice result because this part here should remind you of the typical three particles of quantum mechanics normalized to the interval n.
+ In fact, this will be useful a little bit later. Let's remind here that this is 2 by n, that's k. And then I'll have integers.
+ Now, a little side. So this would be the formula for the displacement field in terms of its normal coordinates.
+ Everything is expressed in terms of k. A cycle map is the following. If we allow l to go to infinity, which is certainly a possibility, we can also do that. We can decide that this continuous system is as large as we want. So we can even take the limit l to infinity. In that case, k is 2 pi.
+ It is 2 pi l, where l is integer, divided by l. And this l is very, very large. But this is very, very large. The factor 2 pi divided by l is very, very small. And so when you change the integer, you change by little amount. So it's like the k itself is becoming a continuous value itself. And what's the density of numbers
+ of numbers on this line of k, right? That is L divided by 2 times. And so this is a rho, and the volume is the integral in the k. So rho times volume is the number, which is the summation of k. So in the limit, which goes to infinity,
+ which is a formula which is sort of what they will know, you have seen this for the statistical mechanics for sure.
+ So this is a re-derivation of it. It's just the density times volume.
+ In three dimensions, the summation of the k, when the volume goes to infinity,
+ so a large volume will be e divided by 2 pi, cube, e3.
+ This is a master formula, which is of use everywhere.
+ And of course, this can be used also in our case, right?
+ If we send out infinity, we can change this and this.
+ It's equivalent.
+ Please keep in mind this old formula.
+ You have already seen them.
+ Just to repeat their derivation, keep in mind we will use them quite often.
+ Now, what should we do with this new formula for the normal moles?
+ Well, a trivial exercise is to go back to the Hamiltonian that we wrote last time.
+ This is just, say, an exercise.
+ If you go back to the Hamiltonian, and you remember that the Hamiltonian was in x, there was bx squared divided by two, and then there was a term, which was one of b squared, bqx in x.
+ Do you remember that? This was the Hamiltonian of the continuous one.
+ I repeat again to watch out this Hamiltonian,
+ because this Hamiltonian contains a very important fact.
+ Our nearest neighboring interaction in the discrete,
+ which was this term.
+ Now, this term here gets transformed
+ in the continuum to a degree.
+ In fact, you remember that the qn gets transformed into qx,
+ that the qn plus 1 gets transformed into qx plus 1,
+ plus a, because you have to, right?
+ But a is infinitesimal because we are doing the continuous living.
+ Therefore, the distance between two oscillators is infinitesimal.
+ So if I divide by a, which is infinitesimal,
+ I get the derivative.
+ The presence of this derivative in the amytonium,
+ and then you will see the Lagrangian,
+ is a factor of enormous importance for us.
+ The presence of this derivative.
+ I wish you to observe also that we saw last time
+ that the px in our derivation is equivalent to q dot.
+ We said that many times.
+ So you see that in this Hamiltonian we use a one-dimensional Hamiltonian.
+ So you have two ingredients that I really want you to focus on.
+ There is the derivative of q with respect to time,
+ and the derivative of q with respect to space.
+ These two derivatives in the Hamiltonian appear at the same order.
+ The derivative over time is the first derivative,
+ and the derivative over space is the first derivative.
+ As you can imagine, when we go from the Hamiltonian to the Lagrange,
+ things must be a little bit reshuffled
+ because we will use this Legend transformation to go from one to the other.
+ And you will see soon that the Lagrange is pretty much the same thing
+ but with a minus in between, right?
+ Now, if this V is associated to the velocity of flight instead of being the velocity of sound in a rod,
+ I'm just saying where we are going.
+ It's the velocity of flight, the velocity of flight, something, the photons,
+ then you get something which is already presenting itself in a relativistic form.
+ So we will land on our first relativistic Lagrangian for the scalar field.
+ So in a few moves from now, we will be able to write our first Lagrangian,
+ which in particle physics describes very well at least the kinematics of scalar particles,
+ slightly exposed, for example.
+ We are kind of there. We are approaching that very quickly.
+ And the secret is here.
+ This derivative will be very important.
+ So for the moment, this doesn't really sound much, but it's not even true,
+ because we made the equations of motion and we discovered that this arrangement
+ incorporates the equation of motion of waves.
+ Is that surprising? No, because the classical description of an excited rod
+ when you hit it, it's in terms of sound waves inside.
+ And you know that it's sound waves.
+ Indeed, if you take a metal rod and you hit the rod,
+ you will hit sound, which is the sound that is propagating even outside.
+ So, let's go here.
+ In place of p, sorry, in place of q law and q,
+ let's put the q that we just found.
+ But let's see what happens.
+ Here, really nothing special happens.
+ But just let's do this.
+ So it's 0L p squared x,
+ and that means, as I said, q dot x to the second power between 0 and L,
+ and that is dx 0L is just the summation of the k, as we wrote,
+ q to the i k x divided by the square root of L times the q k,
+ and then there is another summation, which is of a k prime,
+ q to the k prime x divided by the square root of L,
+ and then there is a k prime over here.
+ This is just the square, and I will put a dot on here
+ because we know that these normal nodes will have time dependency,
+ which is dotted after the dot.
+ Now, as the story repeats itself, this is 0L,
+ therefore there will be a summation of k and k prime,
+ and then 1 over L, and then i and k plus k prime multiplied by x,
+ and all these things will be multiplied by 2k and 2k dot, and this is prime.
+ Now you let the integral going inside,
+ so we have a summation of k and k prime, 1 over L,
+ and then the integral in the x between 2 L of k plus k prime x and x.
+ 2 dot k, 2 dot k prime.
+ Now, the problem is this integral here.
+ Actually, we know what this integral is.
+ We discussed this integral last time.
+ This integral is simply enough.
+ L delta k comma minus k prime.
+ You remember that?
+ It's one of the relations that we found.
+ L is already there, and therefore we get the same result we were expecting.
+ Well, the same result that we got in the discrete case.
+ So qk, q dot minus k.
+ But q dot minus k is the star, as we know.
+ So this is going to be q dot square modulus k.
+ No more than that.
+ What you can do as an exercise because this is very necessary to repeat the story here, right?
+ What you can do as an exercise to complete what I just did is the following:
+ Instead of doing what I did, you write this except x.
+ You write this as dx between 0 and l of the summation of k of e to the i k dx of l the square group of l.
+ And then you put a p minus k here.
+ Well, I'll tell you.
+ I wish to remind you that our first definition of e n was summation of s.
+ This is discrete.
+ e minus i s n q s divided by the square root of l.
+ So, remind please that our definition of p in terms of the normal p is in terms of minus i s.
+ But I also told you that this can be rewritten like this.
+ Because the summation is over positive and negative.
+ When you go from discrete to continuum,
+ you just substitute the s with the k,
+ the s with the k,
+ the s with the k,
+ the n with the n.
+ That's it.
+ That's the dictionary to go from the discrete to the continuum.
+ So you start with that.
+ You do the same steps that I did.
+ And what you will find is from here, well, it's a one-minute exercise.
+ You will find this.
+ Of course, you could say, "Ah, no, but I didn't see that this is a p minus k squared."
+ It doesn't mean anything because you sum off to the negative.
+ So p minus k squared is the same as p k squared.
+ That's it. So that's p.
+ The second part of the exercise is just-- instead of one second, it's three.
+ So this is OK.
+ And three seconds is to do this part.
+ So you do the derivative of qx with respect to x.
+ If you do the derivative, you have to put down i k.
+ You see it?
+ There is an i k.
+ So, let's try to do the exercise in our balance.
+ Derivative of q with respect to x.
+ Look at this.
+ Right? This is q.
+ If I do the derivative with respect to x, I have to put down i k.
+ Therefore, you might say, "Ah, I will do that two times."
+ So, it will be minus k squared.
+ No, because you put down ik, then you put another ik,
+ but one is ik and the other is ik prime.
+ And the normalization is delta k minus k prime,
+ so it is ik times minus ik, which is plus k squared.
+ So, the last part of the exercise boils down to this.
+ So, what you have to find after doing this real derivative is the following amitronium,
+ which is the amitronium of the continuum system, is p, sorry, pk squared divided by 2 plus,
+ plus, plus, you see the plus, k squared, b squared, qk divided by 2. pk is the same as qk dot.
+ It doesn't matter if we know that it's not being like that. This pk is like q dot minus k.
+ This is a derivation that we did. But when you do the summation, it doesn't matter, right?
+ So, and this is the omittalian for the continuous, for the continuous system.
+ What is k squared d squared?
+ k squared d squared is going to be 2 by L divided by L d squared.
+ This is the definition of k.
+ What was the definition of v?
+ Omega a squared. Remember that?
+ Now, this is 2 pi l squared.
+ What is the definition of capital L?
+ It's n times a.
+ So it's n squared a squared.
+ Then there is an a squared here.
+ And this goes away with this.
+ Then, what is 2 pi l squared by pi l squared?
+ And we are left with an omega squared.
+ And you might say, oh, look at that.
+ k squared d squared is the old variable s times omega squared.
+ How come?
+ But there is a reason for that, of course.
+ You remember our frequency, omega s.
+ These are the normal frequencies in the discrete moments.
+ This thing, 2 omega sine s, s divided by 2, 3.
+ Right?
+ Now, if you do the limit in which n goes to infinity,
+ the continuous limit in which n goes to infinity and a goes to zero,
+ you have to remember that s is 2 pi n divided by n.
+ But if n goes to infinity, s tends to be small.
+ And if s tends to be small, the sinus is approximated by s divided by 2.
+ But the 2 counts as the 2, and so you get omega times s squared.
+ Here we go, right?
+ So it poses on itself as it should.
+ So let's make a recap of everything.
+ So what we did until then.
+ So we have...
+ Let's do a little scheme of our journey to the moment.
+ We have a discrete model.
+ We saw that this corresponds, if you remember last time, this corresponds to a very special matrix.
+ This corresponds to...
+ It's an harmonic model to begin with because it's on the quadrat.
+ And this corresponds to a special matrix that we saw.
+ There are two on the diagonal, minus one on the off-diagonal, then it depends, you know?
+ And a bunch of zeros and then minus one and minus one for the periodic binary condition.
+ You can find the eigenvalues mechanically or you can do something a little bit trickier like what we do,
+ but what we did really gives you the eigenvalues for all the situations.
+ This model here is discrete, but we can look at the continuum as we learned.
+ Now we get another description in terms of these continuum variables.
+ The n is transformed into x, and we have p of x squared divided by 2 plus what we said before, 1 of the velocity squared, the derivative of qx divided by qx squared, like that.
+ This is what we did. That's the continuum here.
+ Now we can do the normal modes here, and we did it actually.
+ And the normal mode led us to write this in terms of the S variable,
+ and it was Vs squared divided by 2 plus 1/2,
+ omega squared Qs, squared, squared molecules.
+ And these normal frequencies are given by this formula here.
+ Same story here. We can go to the normal modes,
+ and we can find an economic which looks like this.
+ It's a summation of k pk squared divided by 2 plus 1.
+ Let's call them omega squared k 2k.
+ What is this omega?
+ Well, to make the paper bigger,
+ omega k squared for us will be k squared sub d squared k squared.
+ This is what we wrote one second ago.
+ The formula for the normal modes have been given.
+ And I wish you to observe one thing.
+ Suppose that -- this is all we did.
+ Well, we did another thing.
+ We discussed that the equations of motion is wave average.
+ Well, this is a fantastic result, of course, because the physics is really good.
+ What I said is that you can do another little bit of harmonic complication here.
+ You can say that each oscillator, instead of being bound to the next one, to the previous one,
+ could be bound to its location.
+ This is an important harmonic deformation, as you will see.
+ In our mechanical model, it's not this disruptive stuff,
+ because the mechanical model is springs and masses.
+ And then you say that each of these masses is bound to its location by another elastic constant.
+ Why not?
+ And what we said last time is this can be added to everything,
+ and you can add a term here, and you can simply call it omega zero square,
+ where omega zero is the oscillation frequency,
+ which is connected to the other spring, the spring that makes this mass, say whatever, linked to its position.
+ Now if you look at this relation here, this relation here is steadily similar to something that you have seen in special relativity.
+ Actually, we want to go to a relativistic formulation.
+ Now, as you remind from the first lecture, we said all we want to do here is to do quantum mechanics plus relativity.
+ All we have here looks classical, because this is classical, then it's classical, this is classical.
+ But then, as you know very well, we made a big step, because at some point we said, all right, take this classical, oriental, and do the quantization.
+ The quantization means that you apply the quantum rules on the normal coordinates.
+ So you say that Q and B are not from you, they are operators, you promote them to the operators.
+ And then you find the levels of the harmonic oscillators, you know?
+ That's the quantum mechanics.
+ And we did.
+ Well, actually, we did not match because we know very well that the levels of the harmonic oscillators are those,
+ with the normal frequency here.
+ So there is not really much to do.
+ But one thing that we found a very clever way to write these two things.
+ When we go to the quantum language,
+ we found a clever way to write these two things in terms of creation and annihilation.
+ That's what we need.
+ But beyond that, everything is already done in your mind.
+ Is there any distinction about doing quantization on this canonical barrier,
+ variable variable, I'm sorry, this normal variable. So no, you can do the same. But what I want to stress is that we get this relation. Why this relation should make a better sound in your head? Because change a little bit the things in this relation, right? Suppose that in place of V, suppose that in place of V, first of all, suppose that the momentum is in three dimensions instead of, to begin with.
+ This is a step that we can do. You can say why? Well, instead of taking a line of oscillator, we take a plane and then a mattress. So we do oscillators in all dimensions. You could do that. So instead of K linear, take V. Instead of V, put C.
+ Instead of omega, which is a dimension of energy and just a dimension of a frequency where h is equal to one, you know, a natural unit. Instead of this, we put...
+ And this sum here is just the energy in a relativistic theory. This is a huge thing.
+ This is the relativistic energy of a particle with momentum k.
+ A particle with momentum k and mass m in a relativistic description,
+ particle goes, has this energy squared.
+ And you see how close these two things are. Basically, you are sitting on that.
+ What is this V for us? This V for us is the velocity of sound in the bar.
+ If you remove the bar, like you forget about the bar.
+ If you remove this condensate matter physics, there's no matter.
+ It's just a vacuum.
+ In the vacuum, what is the velocity of propagation of...
+ What is the equivalent of the velocity of propagation of sound in an elastic medium
+ when you go from the elastic medium to the vacuum?
+ We said last time, it's the velocity of light, right?
+ You remove any elastic medium and you end up, right,
+ with the vacuum and the propagation of electromagnetic waves.
+ Electromagnetic waves are substituting the sound waves, no?
+ I'm talking about the electromagnetic waves only for a reason
+ because these are the things you know.
+ You know sound, you know electricity and magnet.
+ But we can talk also about other things.
+ So you remove the bar and you change the medium instead of the bar,
+ and you still have propagation of waves.
+ Do you have propagation of waves in the vacuum with the equation of motion that we found?
+ Yes.
+ The propagation of electromagnetic waves in the water.
+ What is the velocity between electromagnetic waves propagating the vacuum?
+ The velocity of light.
+ Radio waves.
+ Now forget all the matter effect.
+ There is no matter, right?
+ It's a vacuum.
+ So this is beautiful because this makes one of the first connection that we have to keep on observing.
+ Then the other connection that we have already exploited, let me just remind this one second.
+ We are here on a, we are still on a kind of intermediate level.
+ The formula that you see on the blackboard now, a classical form.
+ The quantization is in our mind, we talked about that.
+ You do the quantization of P and Q and you get the quantum theory and you get the quantum theory.
+ But there is an identification that you are aware of and that you want to stress again now.
+ It's the identification, this is the identification.
+ If you have a plane wave with some momentum K and some frequency omega, a plane wave with momentum K and an energy or frequency omega gets associated, this plane wave is a classical thing, gets associated to a particle in quantum mechanics.
+ A particle of, to use the perfect language, when you talk about the wave, you say wave number K and frequency omega.
+ When you talk about particles, you say momentum K and energy omega.
+ This is really the language that you are being exposed to.
+ Then of course, when people talk, mix, etc.
+ Classical physics, plane wave, wave number k, frequency of.
+ Quantum description, particle, momentum k, energy of.
+ Particles, three particles in quantum mechanics you have learned that can be described in terms of plane wave.
+ Plane waves with some k, call it as you want, momentum or wave number.
+ And energy.
+ So there is this dictionary.
+ Plane wave, three parties.
+ So this dictionary must be in your mind all the time.
+ Plane wave, three parties.
+ Let's take the rod.
+ In the rod, we do all those dramatic things that I told you.
+ We eat the rod, we beat the rod, we put a bulb in there under this rod.
+ And what happens that the rod gets excited?
+ Classically, what happens classically?
+ Waves are propagating in the rod.
+ With the velocity of sound, which is connected to the elasticity of the rod.
+ You know that if you make the rod stiff, the sound is different than if you make the rod loose.
+ So the velocity is connected to the stiffness of the rod.
+ And the stiffness of the rod is connected to the hook k, and the hook k is connected to the natural frequency omega, right?
+ So waves, classically.
+ But in your dual language of quantum mechanics, you can understand those plane waves that make sound in terms of particles.
+ Now, what you can have, you have many waves, you know, in the rod.
+ There is a wave with some frequency, another wave with another frequency which is a little bit close to that, and all that.
+ Do you know how to put this language of the frequency? Yes, you have the normal modes.
+ All the normal frequencies are listed here.
+ So you have a set of possible frequencies, and of course also a set of possible direction of propagation in the rod.
+ Well, let's say that the rod is in the dimension, so the direction of propagation is something different.
+ But you have different frequencies.
+ So you have several classical waves in the rod with different frequencies,
+ and if you want, in a three-dimensional rod, also different direction of propagation.
+ What you can do with that?
+ You can do superpositions.
+ If you take a bunch of them, you superimpose them,
+ and you do the thing that you call the wave packet.
+ If there is a little dispersion in the frequency,
+ this wave packet could be kind of pretty much focused
+ around the certain fields.
+ And then the language tool is fantastic,
+ because the wave packet, the part,
+ as you learn, is just the same.
+ That's why we said that in a quantum description
+ of the elastic rod, you can get thinking
+ about a gas of phonons.
+ What are these phonons?
+ Phonons are your way of thinking to the vibrations in the rod.
+ This is what we said, no?
+ And we said there is the harmonic oscillator
+ and then the level of the harmonic oscillators
+ and there are ns, n1 with normal frequency, n2, etc.
+ And this is a cat which describes the quantum state
+ in terms of there is a gas of three,
+ because the oscillators are decoupled,
+ a gas of three photons.
+ And these photons are particles in your mind, no?
+ Because there is a correspondence, a duality, between the waves with certain wave number, certain frequencies, and particles.
+ So there is a bunch of these photons.
+ And this is the way you used to think of the excitation of a solid in a quantum mechanical language.
+ Look at this formula here.
+ What is making the phonons?
+ The phonons have no mass.
+ This is something that I will not go too much inside.
+ But in your condensed matter physics studies,
+ you will see that the phonons have no mass.
+ The phonons are like this, kd.
+ Actually, in condensed matter, the things go more fancy
+ because this function is not...
+ There are branches.
+ It's more complicated.
+ It's called the optical branches and other things.
+ You will see that when you do the solid state phases.
+ The phonons are sort of massless particles
+ because we are cropping these massless particles which are allowed in this volume, which is
+ taken by the volume. Right? Now, we said, imagine that you change these models and you put
+ an anarmonic interaction here. Anarmonic means that you put something A, A, B, C, Q, A,
+ A, Q, B, Q, C. If you put an anarmonic in a term, then the situation changes because all of a sudden these phonons, it turns out that can interact one with the other.
+ Phonons can decay to other phonons, can scatter on phonons, and the system becomes more. In solid state physics, there is this story that the
+ harmonic terms take over when you eat the bar, right? If the bar is at very low temperature,
+ there are no anarmonic things, and there are just the three phonons that we like so much,
+ like three phonons in many situations. Now, are we really interested about phonons here?
+ You will study them as well. The phonons are... do we see the phonons? No. Actually, I can't talk about that, but let's say no, right?
+ Do we see the particles that we want to talk about? Yes.
+ So from now on, from let's say now on, gradually we will forget about this story of the elastic media, etc.
+ But we will retain all the philosophy of this, the oscillators, the couple of oscillators.
+ This will be in the back of our mind, but now we will just make the last conclusion out of this model before gradually abandon this model.
+ There will be no medium. We don't need any medium. We don't need phonons.
+ Phonons, with respect to what we will be doing in the next future, is like meteorology.
+ The phonons are so-called quasi-particles, or collective excitations.
+ In a way, the phonon is not really a particle that you...
+ It belongs to the wall crystal.
+ The wall crystal is making these oscillations,
+ there are waves propagating in the wall crystal,
+ and the phonon is a very smart description of the material in terms of particles,
+ but quasar.
+ It's not really, you know, what you say.
+ Here we go, right?
+ So we want to go on a more fundamental level,
+ and we want to talk about particles that you really see,
+ and you can just verify their kinematics as written in this form.
+ This is our objective.
+ Now, it goes without saying, more or less,
+ that an introduction to quantum field theory,
+ especially done from a particle physicist,
+ could completely skip the story of the phonons and the matter,
+ and this is typically what is done.
+ But my taste is that there is so much understanding here that--
+ well, so keep it as a--
+ you will decide if you like it or not.
+ I energy people don't even know this thing.
+ Quantum V here is just .
+ It's coming from something else.
+ But the contact gives a lot of information.
+ Now, I'll tell you in the last 10 minutes,
+ I'll tell you about our super formula.
+ And our super formula will stay with us for very long.
+ And our super formula, which is typically the thing that,
+ in a quantum theory, it's just like, boom, here it is.
+ For us, it's just a consequence of this crazy.
+ Let's write it the super formula.
+ Let me remind you that a, the destruction operator, dot, is minus i omega at.
+ This is a relation that we already used.
+ We can solve the differential equation and say that it is e to the minus i omega t a.
+ There is no law, just e to the minus i.
+ We all need this.
+ What is q of s?
+ We remind that q of s is 2 omega s, a s of t, plus a dagger minus s of t.
+ For us, this q of s has a very specific meaning.
+ This q of s for us is the normal coordinates that we introduce to find the normal frequencies in a system of harmonic oscillators.
+ Now, this can be written as 2 omega s, and this can be a s e to the minus i omega s t plus e to the plus i omega s t.
+ That is the minus s over here, and a dagger, a dagger minus s, right?
+ So this is due to the fact that a dagger t is plus i omega, a dagger t,
+ and so if we solve the equation, it's going to be e to the i omega t, a dagger.
+ These two relations are coming from the Heisenberg equations in the theory of the .
+ So we have this. Now, what is qn? qn of t is the summation of s of e to the i omega t,
+ of e to the i omega t, 1 divided by the square root of n, multiplied by q of s, d.
+ So we take the formula we just wrote and we plug it in qn.
+ We plug it in qn with the summation of s, 1 divided by 2, omega s and n, a s, e to the i, and then there is sn, minus omega s and phi, plus e diagonal minus s.
+ Let me write it here now, a diagonal minus s, e to the i s n, plus omega s and times t.
+ Well, for the moment I didn't do much, I'm just using the things that you already know very well.
+ Let's do a little transformation here.
+ Now I'm changing all the s into minus s.
+ I can do that because the sum is from the negative.
+ But the frequencies do not depend because there is the absolute value of the sum.
+ So the frequencies are always like this.
+ Always. The frequencies that we found.
+ So this is a dagger s, e to the minus i s n, then minus omega s e.
+ Right?
+ What is s times n?
+ Let's go to the continuum.
+ Let's go to the continuum.
+ So, continue.
+ s times n is going to be k times x.
+ This is something that we did before.
+ Right?
+ s times n is k times x.
+ We did it earlier.
+ So we don't need to do it again.
+ So we have
+ A to x summation k e to the i kx divided by 2 of the k times a k e to the i kx minus
+ k times a k plus plus eta here. We're going to k because I'm changing the s to k, e to the
+ n, e to the n, e to the n, e to the n.
+ This is what we said today. So we made it. Because now, q x is going to be the sum of the k, e to the i to the x,
+ let's write it like this, k x, minus plus a dagger k, i k x, where k dot x, from now on,
+ which is k x minus omega k. What's the meaning of this ? This is the formula for the displacement field that we have in one dimension.
+ This is one of the most important formulas we have.
+ In three dimensions, we will talk of a scalar figure and we will write it like this.
+ But, in that case, the kx will be k cross x O minus omega k.
+ What is omega k?
+ Omega k.
+ This is not a relation that we just cancelled.
+ This is called the mass shell condition.
+ So this formula here, we will write this formula dozens of times.
+ That's the formula for a scalar field in quantum 15.
+ What's the meaning of this?
+ Well, you can tell.
+ It's a sort of Fourier transform of creation and destruction operators.
+ The creation and destruction of operators are related to the creation and destruction of quanta.
+ For us, the quanta are the photons.
+ And when you remove the bar, the quanta will be whatever quanta, not necessarily the photons.
+ So, in this case, could be the volume.
+ The volume is a scalar particle that is even observed in experiments.
+ It's a scalar particle. It's a composite particle.
+ It's not an integrated particle.
+ The x-speed is a scalar particle of this kind.
+ A dagger creates an x-speed.
+ A destroys it.
+ How does it create the x-speed?
+ It's a certain momentum k.
+ And the momentum k is connected to the energy
+ when you use this operator to act on the vacuum k to the x-particle
+ through this relation.
+ So if the momentum is k,
+ the energy will be omega k,
+ and the mass is 125 G.
+ That's it.
+ So our description is the following file:
+ it's an operator which creates or destroys particles.
+ And what is the state on which this operator acts?
+ The vacuum.
+ Which vacuum?
+ The vacuum of harmonic oscillators.
+ The same vacuum that we have in mind when you study the harmonic oscillators.
+ It's the ground state of the harmonic oscillators of one.
+ Right?
+ When you start using phi of that, you switch on.
+ But you can switch on the quanta with all these possible k's
+ and all these possible omega k, right?
+ So you create one particle state, two particle states, n particle states.
+ Do you remember the story, no?
+ No wave functions.
+ We have to count how many particles we have.
+ The wave function is misleading because the wave function
+ is the wave function of one particle or two particles wherever.
+ If you go to the relativistic world and you try to localize things with precision,
+ which means do I really have one particle in that location?
+ Then you don't know.
+ Because it's not only that you have an uncertainty momentum.
+ You have an uncertainty which is compatible with the fact that
+ instead of having one particle you attend,
+ which is not amenable for a treatment group.
+ but it's certainly amenable for this because this comes.
+ You count the particles.
+ This operates as cells.
+ In this case of excitement of the raw or of the vacuum,
+ there is one x-volts or two.
+ If you use it in repetition, three.
+ Whatever, right?
+ So this for us is a two-master formula of one-to-two theory.
+ We will meet fields of any type.
+ Scalar, and we will discuss them again and again.
+ Spinner, spin one-out.
+ Vector, spin one-out.
+ In which particles they describe?
+ The scalar is more perceptive,
+ because the scalar describes very exotic elements.
+ In fact, like it's exotic just for us.
+ But the spin 1 describes the electron, describes the proton.
+ The spin 1 describes the photon.
+ So the photon, which is everywhere,
+ will be described by a field,
+ which is kind of similar to this, very similar.
+ But instead of having only creation and annihilation
+ operator in this structure,
+ as also multiplied here and here,
+ one thing that you know very well,
+ which is the polarization of the photon.
+ We will see that these fields
+ are a little bit enriched with respect to the scale
+ because there is another degree of freedom
+ that the scalar field does not have.
+ Scalar fields are no speed,
+ so there is nothing here.
+ But the electron and the photon
+ have extra degrees of freedom
+ that have to appear in this expression.
+ That the structure of this expression will be the same.
+ Creation and the structure.
+ And this scale of x, as you can tell,
+ it's something that in relativity,
+ and I close with this, it's very well known.
+ This is k-move, x-move.
+ It's the scalar problem in Dinkowski space
+ of momentum and position.
+ And so this is a Lorentz scale.
+ So we have seen the relativity for the first time
+ emerging in this combination.
+ Actually, there is another place where relativity emerges here,
+ which is this normalization, but this I would tell you more.

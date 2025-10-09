@@ -1,0 +1,160 @@
+\section{Piani e Direzioni Reticolari nel Cristallo}
+
+\subsection{Definizione di Piano Reticolare}
+
+Dato un reticolo di Bravais, un **piano reticolare** (\textit{lattice plane}) è definito come un qualsiasi piano che contiene almeno tre punti del reticolo di Bravais che non sono allineati. Grazie alla simmetria traslazionale del reticolo, un tale piano conterrà in realtà infiniti punti reticolari, che formano al suo interno un reticolo di Bravais bidimensionale.
+
+Una \textbf{famiglia di piani reticolari} è un set di piani paralleli e equidistanti che insieme contengono tutti i punti del reticolo di Bravais tridimensionale.
+
+\subsection{Indici di Miller \texorpdfstring{$(hkl)$}{(hkl)}}
+
+Gli \textbf{Indici di Miller} $(hkl)$ sono la notazione standard per identificare un set di piani reticolari. Il procedimento di calcolo è rigorosamente basato sulle intercette con gli assi definiti dai vettori primitivi $\vec{a}_1, \vec{a}_2, \vec{a}_3$:
+
+\begin{enumerate}
+    \item Si trovano le intercette del piano lungo gli assi definiti dai vettori reticolari primitivi $\vec{a}_1, \vec{a}_2, \vec{a}_3$. Siano $n_1 \vec{a}_1, n_2 \vec{a}_2, n_3 \vec{a}_3$ queste intercette.
+    \item Si prendono i reciproci di questi numeri: $\frac{1}{n_1}, \frac{1}{n_2}, \frac{1}{n_3}$.
+    \item Si riducono queste frazioni al più piccolo insieme di tre numeri interi $(hkl)$ aventi lo stesso rapporto.
+\end{enumerate}
+
+\subsubsection{Esempio di Calcolo}
+Considerando un piano che intercetta gli assi a $3\vec{a}_1, 2\vec{a}_2, 2\vec{a}_3$:
+\begin{itemize}
+    \item Intercette: $3, 2, 2$.
+    \item Reciproci: $\frac{1}{3}, \frac{1}{2}, \frac{1}{2}$.
+    \item Riduzione a interi: Si moltiplica per 6, ottenendo $(233)$.
+\end{itemize}
+
+\subsection{Sintesi delle Notazioni Usate}
+
+Le parentesi quadre, tonde e graffe definiscono specifici insiemi di piani o direzioni:
+
+\begin{itemize}
+    \item \textbf{$(hkl)$}: Indica un \textbf{singolo piano} reticolare o un set di piani paralleli.
+    \item \textbf{$[hkl]$}: Indica una \textbf{direzione} reticolare. Nel caso di reticoli cubici semplici, questa direzione è perpendicolare al piano $(hkl)$.
+    \item \textbf{$\{hkl\}$}: Indica una \textbf{famiglia di piani} che condividono la stessa simmetria, ottenibili l'uno dall'altro per rotazione del cristallo (es. $\{100\}$ include $(100), (010), (001), (\bar{1}00)$, etc.).
+    \item \textbf{$\langle hkl \rangle$}: Indica una \textbf{famiglia di direzioni} che condividono la stessa simmetria (es. $\langle 100 \rangle$ include $[100], [010], [001], [\bar{1}00]$, etc.).
+\end{itemize}
+
+\section{Problema degli Indici di Miller nei Reticoli Non-Cubici Semplici}
+
+\subsection{Le Inconsistenze BCC e FCC}
+
+Si osserva una significativa contraddizione nell'applicazione degli indici di Miller a reticoli non-cubici semplici come il **Body-Centered Cubic (BCC)** e il **Face-Centered Cubic (FCC)**.
+
+La famiglia di piani del tipo $(001)$ o $(100)$ **non** è una famiglia di piani reticolari per il reticolo BCC. La famiglia di piani che indichiamo con questa notazione, del tipo $\{100\}$, **non sono piani reticolari per il reticolo BCC**.
+
+\subsubsection{L'Esempio del Piano \texorpdfstring{$(020)$}{(020)}}
+Se si desidera definire piani, per esempio, paralleli al piano $XY$ che contengano anche l'atomo che si trova nel centro della cella convenzionale (il punto reticolare aggiuntivo del BCC), dobbiamo produrre un nuovo set di famiglie di piani, che è del tipo $\mathbf{(020)}$.
+Il piano $(020)$ è quello in cui il piano interseca, per esempio, l'asse $Y$ a **metà** del vettore reticolare. In questo caso, questa famiglia di piani è una **reale** famiglia di piani per il BCC.
+
+Se confrontiamo i piani della famiglia $(020)$ con i piani $(100)$ del cubico semplice, notiamo che i piani $(100)$ sono i piani che tagliano la cella convenzionale parallelamente ma **non** contengono il punto reticolare centrale del BCC. Il piano $(020)$, invece, è un piano che ha indice $h=0, k=2, l=0$, il che implica che il piano intercetta l'asse $Y$ ad $\frac{1}{2} \vec{a}_2$. Essendo questo un punto reticolare (perché il centro della cella convenzionale si trova ad $\frac{1}{2}\vec{a}_1 + \frac{1}{2}\vec{a}_2 + \frac{1}{2}\vec{a}_3$, e i piani sono traslati), il piano $(020)$ è corretto.
+
+Lo stesso problema accade per la famiglia di piani $(111)$.
+
+\subsection{Motivazione dell'Errore}
+La ragione di questa incongruenza risiede nel fatto che, per definire gli indici di Miller in FCC e BCC, si continuano a usare i **vettori reticolari primitivi del reticolo cubico semplice** $\vec{a}_1, \vec{a}_2, \vec{a}_3$, i quali non sono i vettori primitivi dei reticoli BCC o FCC. Si utilizza questa notazione legata al sistema ortogonale $X, Y, Z$ per motivi di semplicità e abitudine al sistema cartesiano, ma si deve essere consapevoli delle sue contraddizioni, come quando si introducono insiemi di piani che non sono strettamente piani reticolari per la simmetria cubica semplice su cui si basa questa definizione.
+
+\section{Indici di Miller-Bravais per il Reticolo Esagonale}
+
+Per il reticolo esagonale (Indici di Miller-Bravais), che è il caso ad esempio dell'HCP (Esagonale Compatto), si utilizzano \textbf{quattro indici} $(h k i l)$ anziché i tre che sarebbero sufficienti per individuare un punto nello spazio. I vettori primitivi sul piano sono $\vec{a}_1$ e $\vec{a}_2$ (che formano un angolo di $120^{\circ}$), e $\vec{a}_3$ perpendicolare al piano. Viene introdotto un terzo asse sul piano $\vec{A}_3$.
+
+Il terzo indice, $i$, è \textbf{ridondante} e non indipendente dagli altri due, ed è legato dalla relazione geometrica:
+
+\vspace{1em}
+\begin{equation}
+i = -(h+k)
+\end{equation}
+\vspace{1em}
+
+\subsection{Motivazione della Notazione a Quattro Indici}
+La ragione per l'uso di quattro indici è più estetica che fisica, ed è cruciale per la rappresentazione della simmetria.
+
+Nel sistema cubico semplice, i piani equivalenti sono quelli i cui indici di Miller sono una \textbf{permutazione} l'uno dell'altro. Questo permette di definire una famiglia $\{hkl\}$ che racchiude tutti i piani equivalenti per simmetria.
+
+Se nel sistema esagonale si usasse solo una notazione a tre indici, piani che sono \textbf{fisicamente e geometricamente equivalenti} (ad esempio, un piano $(2\bar{1}0)$ e un piano $(110)$) non risulterebbero una permutazione l'uno dell'altro. Si concluderebbe erroneamente che non sono equivalenti.
+
+L'uso della notazione a quattro numeri, $(h k i l)$, permette di recuperare la proprietà della permutazione degli indici, che indica correttamente la loro equivalenza geometrica. La notazione a quattro indici è stata introdotta apposta per fornire una descrizione formale che mantenga la simmetria tra i piani reticolari nel reticolo di Bravais esagonale.
+
+\section{Il Reticolo Reciproco: La Trasformata di Fourier del Reticolo Diretto}
+
+\subsection{Definizione e Condizione di Laue}
+
+Il **Reticolo Reciproco** è l'insieme di tutti i vettori d'onda $\vec{G}$ che producono onde piane con la periodicità del dato reticolo di Bravais.
+
+In termini matematici, possiamo caratterizzare il Reticolo Reciproco come l'insieme di vettori d'onda $\vec{G}$ che soddisfano la **condizione di Laue**:
+
+\vspace{1em}
+\begin{equation}
+e^{i \vec{G} \cdot \vec{R}} = 1
+\end{equation}
+\vspace{1em}
+
+dove $\vec{R}$ è un vettore qualsiasi del reticolo diretto ($\vec{R} = n_1\vec{a}_1 + n_2\vec{a}_2 + n_3\vec{a}_3$).
+
+Dobbiamo considerare il Reticolo Reciproco come un **nuovo reticolo di Bravais** definito nello spazio reciproco. Le sue dimensioni non sono espresse in metri, ma in $\text{metri}^{-1}$ o $\text{lunghezza}^{-1}$.
+
+\subsection{Vettori Primitivi del Reticolo Reciproco}
+
+I vettori del Reticolo Reciproco, $\vec{G}$, sono dati da una combinazione lineare intera dei vettori primitivi del reticolo reciproco $\vec{b}_1, \vec{b}_2, \vec{b}_3$:
+
+\vspace{1em}
+\begin{equation}
+\vec{G} = n_1 \vec{b}_1 + n_2 \vec{b}_2 + n_3 \vec{b}_3
+\end{equation}
+\vspace{1em}
+
+dove $n_1, n_2, n_3$ sono numeri interi.
+
+I vettori primitivi del reticolo reciproco $\vec{b}_i$ sono definiti in modo da soddisfare la relazione di ortogonalità con i vettori primitivi del reticolo diretto $\vec{a}_j$:
+
+\vspace{1em}
+\begin{equation}
+\vec{b}_i \cdot \vec{a}_j = 2\pi \delta_{i j}
+\end{equation}
+\vspace{1em}
+
+\subsubsection{Formule di Calcolo Esplicite}
+I vettori $\vec{b}_i$ si calcolano tramite le seguenti formule, dove $V_c = \vec{a}_1 \cdot (\vec{a}_2 \times \vec{a}_3)$ è il volume della cella primitiva nel reticolo diretto:
+
+\vspace{1em}
+\begin{equation}
+\vec{b}_1 = 2\pi \frac{\vec{a}_2 \times \vec{a}_3}{V_c}
+\end{equation}
+\vspace{1em}
+
+\vspace{1em}
+\begin{equation}
+\vec{b}_2 = 2\pi \frac{\vec{a}_3 \times \vec{a}_1}{V_c}
+\end{equation}
+\vspace{1em}
+
+\vspace{1em}
+\begin{equation}
+\vec{b}_3 = 2\pi \frac{\vec{a}_1 \times \vec{a}_2}{V_c}
+\end{equation}
+\vspace{1em}
+
+\subsection{La Dualità Reticolo Diretto \texorpdfstring{$\leftrightarrow$}{<->} Reticolo Reciproco}
+
+Il Reticolo Reciproco è la Trasformata di Fourier (FT) del reticolo diretto, e questa dualità si manifesta in modo specifico:
+
+\begin{itemize}
+    \item Il reticolo reciproco di un reticolo **cubico semplice (SC)** è un altro reticolo **cubico semplice**, ma con il lato della cella pari a $2\pi/a$.
+    \item Il reticolo reciproco di un reticolo **Face-Centered Cubic (FCC)** è un reticolo **Body-Centered Cubic (BCC)**, con un lato della cella convenzionale pari a $4\pi/a$.
+    \item Il reticolo reciproco di un reticolo **Body-Centered Cubic (BCC)** è un reticolo **Face-Centered Cubic (FCC)**, con un lato della cella convenzionale pari a $4\pi/a$.
+\end{itemize}
+
+\textbf{Nota sul Calcolo (Esercizio):}
+È fondamentale comprendere e svolgere il calcolo per la valutazione dei vettori $\vec{G}$ (ovvero $\vec{b}_1, \vec{b}_2, \vec{b}_3$) per il caso più semplice, il reticolo di Bravais cubico semplice. Questa valutazione è lasciata come esercizio individuale per lo studente.
+
+\subsection{Prima Zona di Brillouin}
+
+La **Prima Zona di Brillouin (FZB)** è l'equivalente della **Cella Primitiva di Wigner-Seitz** ma definita nello spazio reciproco.
+
+La FZB si trova esattamente con lo stesso metodo utilizzato nello spazio reale:
+\begin{enumerate}
+    \item Si prende un punto (l'origine).
+    \item Si tracciano i vettori che lo congiungono ai suoi primi vicini.
+    \item Si definisce lo spazio diviso dai piani medi perpendicolari a questi vettori (piani di Bragg).
+\end{enumerate}
+Questo volume centrale, formato dai piani medi perpendicolari ai vettori dei primi vicini, costituisce la Prima Zona di Brillouin.

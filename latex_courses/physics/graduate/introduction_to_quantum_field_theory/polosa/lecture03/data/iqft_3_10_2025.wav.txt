@@ -1,0 +1,1406 @@
+ This was our model for a discrete elastic rod, basically.
+ And I wish to remind you this was the description of a system of springs and masses.
+ That's the mass equal to 1, each of them is equal to 1.
+ And there were period bounding conditions saying that 2i plus n is equal to 2i.
+ So the mass is equal to 1 means that the elastic constant divided by n is only as greater.
+ n is equal to 1, right?
+ So this is why I'm not gay.
+ This was an alphabet that we were talking about.
+ And let me introduce the, sort of, our normal nodes.
+ No, rather.
+ And go on again.
+ Basically.
+ These are the coordinates.
+ E to the 5SN.
+ E to the S.
+ E to the 5 times the oscillators.
+ P of F.
+ Summation of S.
+ E to the minus target 10.
+ P of S.
+ Now we said that S was two pi and integer divided by n.
+ And this relation allowed us to write an orthogonality,
+ a very useful orthogonality relation with this ISN, as I will remind you, in a second.
+ So, the purpose of all this was we introduce the coordinates QS and QS.
+ These coordinates are common.
+ In order to have QN equals to QN star,
+ we need clearly from here that QS star is equal to Q minus S.
+ We have the same mode for momentum. Momentum and momentum coordinates are real in our plastic system for sure.
+ So the purpose is we take 1 and 2, we put it back here,
+ and in doing that we transform this Hamiltonian, which is Hamiltonian of a coupled system,
+ a very specific coupled system because we are deciding how the coupling is done.
+ You see there is an interaction between the QL displacement coordinate,
+ where say the N oscillator and the next one on the right and the next one on the left.
+ But as you can see from the arithmetic that we wrote, there is no interaction,
+ no direct elastic interaction between this and this, you know.
+ There is no term in which there is QL plus 2 or plus 3.
+ And this is a simplification, of course.
+ We are introducing this kind of interaction in the system.
+ So every mass interacts through a spring to the next one.
+ But not to the next-to-next, because we would have the next-to-next interaction with the .
+ This doesn't mean that it can't be done in a model like that.
+ Of course, you might introduce an interaction which is more complicated.
+ It's like qij and then qi, qj, and you sum over all i's and j's that you have around.
+ Why not?
+ This contains all the same terms that you see here because there are all the squares,
+ of course, whether this matrix is diagonal, you get all the squares and you have all the couplings.
+ You have qn and qn plus 1, you have of course qi and qi plus 1.
+ But you have also more because in principle this matrix could be filled up completely
+ and so you could have all sorts of couplings between all masses in this linear system.
+ So this is just a specific choice for that.
+ Now if you want to look at this choice a little bit closer and you want to see things using this general formulation of the potential,
+ well what you can say about this interaction is that Kaj for us looks something like this.
+ You see, take on this term and call this Kaj and so there will be diagonal terms.
+ Take, for example, fix an n. There will be qn minus 1 minus qn squared plus qn minus qn plus 1 squared.
+ So there is a square of qn from here and a square of qn from here.
+ And the same happens with qn plus 1.
+ And the same happens there are two squares.
+ For each n fixed reference.
+ So this matrix we have 2s on the diagonal.
+ And then in this model here there is qn minus 1 of qn coupled with qn plus 1.
+ And it comes with a minus.
+ And of course also qn plus 1 and qn which comes with a minus.
+ So there is a minus 1 over here.
+ And of course a minus 1.
+ And this means that the population of the matrix is this diagram.
+ Minus 1, minus 1.
+ So there is a diagram which is made of rules.
+ And there is one line here which is made of minus 1,
+ and another line which is made of minus 1.
+ Well, of course, if you move one step forward, like this entry here,
+ this is a 1, 3.
+ And in the entry 1, 3, there is the coupling q1, say, with q3.
+ But there is no coupling q1 with q3.
+ So you put a zero here.
+ And the same you do here, there is no coupling here.
+ This magic is perfectly symmetric.
+ And so you keep on filling with zeros because you have to keep on filling with zeros outside.
+ So you get this stripe here of numbers and zeros.
+ But when you go here, this is 1 and n.
+ When you get here, well, that is different because that is the first with the last one, right?
+ And therefore, in our interaction here, that is, say, is the qn plus 1.
+ So it is qn, say, minus, say, if you put n, which is one of the indices is n,
+ then you have n plus 1 and, say, 1.
+ But, so, let's say, this could be q, 1, n, and the order is qi and qn,
+ and qi and qi, 1, n, and the order.
+ And, so, I would say this is the same because it's the last of the chain.
+ If you put 1 here, then this model has only the interaction with the last one.
+ But if you go to the last here, you will get a 2x plus 1 here, which is the 2x.
+ Yes, that's right.
+ So in this point here, there are these tricky things and there is a minus 1.
+ Only there.
+ And the last is 0, which is kind of good.
+ So it's a matrix done in this way, right?
+ So there is a minus 1 here, a minus 1 here, and this is purely how it comes with interventions,
+ and all the rest.
+ But of course, when you have a matrix of this kind, a matrix of this kind can be diagonalized,
+ like it's a symmetric matrix.
+ So kij, say qj, you can finally get values, lambda qi.
+ So what we are saying here is that you can take whatever of these matrices,
+ like in our model, last time we were doing a model with two oscillators,
+ we can do a model with three, with four, whatever.
+ So suppose that you do a model with four oscillators,
+ you can just take a matrix which is four entries,
+ like 2, 1, sorry, 2, minus 1, 0, minus 1, minus 1, 2, minus 1, 0, 0, minus 1, 2, minus 1, and then 0, 0.
+ No, minus 1, 0, minus 1, 2.
+ And you can see the structure that we found like this, like this, this, and this, and these are the minus 1s.
+ So this is a model with 4.
+ And you can do the eigenvalues of this matrix, and this is a simple exercise.
+ Well, a 4 by 4 matrix is not so nice to do it by n, for the eigenvalues,
+ but whatever symbolic computer program you take for doing the eigenvalues
+ will speed the eigenvalues in a second, like this.
+ And you have to compare what you find from here with our formula,
+ the formula that we wanted to derive last time.
+ We were almost there, I will finish today,
+ which is telling that omega s squared is, that was,
+ if I remember, 2 omega squared, the sine s,
+ I should have it, is the sine s divided by 2,
+ which is what we want to re-derive today.
+ Check.
+ Yes, 4 omega squared sine s squared dot.
+ And the s will be 2 pi l divided by 4 because now n is equal to 4.
+ And l has to vary between n divided by 2 with a minus and n divided by 2.
+ So which means l has to be between minus 2 and 4 divided by 2 is 2.
+ And this means that l is equal to minus 2 and then minus 1 and then 0 and then 1, and that's it.
+ You see, you need four again values, that's why I put here greater or equal to l is just 4.
+ Otherwise you get out of each, the matrix is 4.
+ Minus 2, minus 1, 0 and 1, these are the values of n, so you have to plug the values of l here, and you make the values of s, and you can get 4 values of s.
+ You put the 4 values of s in this formula, you can even forget about the omega squared, because omega squared is everywhere, and you get 4 frequencies.
+ But you should get the same ones from here in making the eigenvalues of this matrix, and you will get that.
+ Well, let's say that this is an exercise. You will be surprised to see precisely the same eigenvalues, so this formula here is very nice, I would say, because this formula solves this eigenvalue problem
+ for every dimension, basically. It's not that, I mean, if you have a matrix of this structure, you can increase the dimensions, five, six, seven, whatever, and of course the computation of eigenvalues becomes more and more expensive, but all the eigenvalues that you get from this matrix are also normalized by that formula.
+ So this is someone who was saying, yeah, but we could have diagonalized the matrix last time, but it's way more expensive than doing the model that we are doing, right?
+ So please do that. This formula here is just telling that you have to get basically...
+ This is the formula for the eigenvalues and for the eigenfracted frequencies.
+ So you will get the same.
+ In a way, what you see from here, I'm going a little bit, for those who are right later,
+ I'm going a little bit slower today because there is not any balance.
+ So, I'll go a little bit slower, I'll do less stuff, but please propagate your notes to other people.
+ So, if we want to say something else about this term and about the story of the eigenvalues here,
+ let's do it, for example.
+ So suppose that you start back from this expression, qi, qj,
+ this is the general potential on eigenvalue, right?
+ And you want to write the Hamilton equations for that.
+ Well, we saw that, say, p dot l is equal to q dot l is minus ph,
+ in dql.
+ So you can take it from here, right?
+ So this is going to be the sum minus ij.
+ This is kij.
+ And therefore, there is d in dql of qi qj.
+ If you do simply the derivatives,
+ so you will get a derivative iL from here into j.
+ And you will get a derivative kij qi delta jl.
+ And therefore, you will get iL is klj qj.
+ And this is k pi qi.
+ As you have seen, we are up to making this matrix symmetric.
+ That matrix is spectacularly symmetric.
+ So, that's making qij.
+ So, ah, the summation over--
+ when you do the data here, you make a summation of, in both cases.
+ You see, there is a summation of j here and a summation of i here.
+ But the matrix is symmetric, so you can just have a summation on j.
+ And this is qlj, qj, right?
+ So, what you see from here is that the equation of motion
+ is q dot dot l equals to minus sum over j klj to j.
+ Well, as I told you about, this...
+ Sometimes I put the sum, sometimes I don't put it.
+ When we get repeated from now on, there is a sum.
+ This is called the Einstein Conversion.
+ I would use it all the way, all the time.
+ Whenever I have repeated indices, there is a summation.
+ If I don't put the sum, you understand the sum.
+ If there is no sum, I will tell you there is no sum.
+ But when you see the indices repeated, it's always a sum.
+ Repeated indices come with a sum.
+ So this is the sum.
+ So if you go there, you see that this is minus lambda l,
+ which is the eigenvalues that we've got there, and ql, right?
+ Which is this expression here.
+ And now you might remind that the equation,
+ so if lambda l is minus, so there is a minus here,
+ if lambda l corresponds to omega l squared, ql,
+ this is the equation of the oscillator.
+ That's why I'm saying that when you diagonalize that matrix,
+ you get the eigenfrequencies, it's because of that, right?
+ So these eigenvalues should correspond to the normal mode space,
+ what we call the normal modes, which are in our formula,
+ they are computed automatically with this science of S by vector.
+ Now, that is true for this matrix.
+ If you change the matrix and you start filling these zeros with something else,
+ of course the story changes completely and you will get a new set of normal modes, right?
+ It depends on the model.
+ This is not so, I mean, our model is very reasonable.
+ It's really a model which every single mass interacts with the nearest neighbors.
+ The mass connected through spring, which is a kind of very intuitive picture of an elastic rod.
+ And then we see that this intuitive picture, this Kij model that we use, is going pretty far.
+ It's representing waves as we would see, waves, elastic waves in a solid,
+ things that are known from physics very well.
+ Is this clear?
+ So please do this exercise.
+ I can use whatever computer tools, take that matrix here or do it by n,
+ take that matrix and find the n and balance.
+ Then you go to the formula with the sinus that we are going to derive again.
+ Just plug in and you plug the n equal to 4 as we did, right?
+ Just plug in the band and you should find the same.
+ That's what you can find.
+ I can also tell you what you will find.
+ The eigenvalues...
+ Let's see if I have something of this exercise.
+ You, just to give the required,
+ if you do this matrix,
+ you should find, well, you should find this,
+ 4, 2, 2, and 3.
+ There is a repetition of bigger values.
+ 2 times 2, 4, and n.
+ And it goes without saying that you should find the same,
+ if you plug in the science fraction over there.
+ Well, this is basically under your eyes.
+ I'm not including the omega squared in the calculation,
+ because the omega squared here is everywhere, right?
+ If in this Kij -- don't be fooled by the omega squared,
+ that is just a constant.
+ If in this Kij I included a factor of capital omega squared,
+ you would have an omega squared everywhere, right?
+ So this lambda here,
+ if I include an omega squared here,
+ this lambda here are four omega squared,
+ two omega squared, two omega squared.
+ And no, it's not, I think that I made it.
+ No, yeah, yeah, you get it sometimes.
+ So different from zero, you will get this one.
+ So we can put an overall omega squared.
+ You see the zero?
+ When you put this in the signs, it's zero.
+ All right.
+ So this is just to tell how the model was done.
+ Last time, we were in the process of finding the formula that I told you about.
+ And so let's go back to that and let's finish our little calculations for finding that formula.
+ If I remember when I did a piece of it, I did just a little piece of that.
+ And so I did this.
+ One square plus .
+ This was the part that I did last time.
+ Yeah.
+ Just to be sure, so the lambda is the eigenvalues of this matrix.
+ Is this.
+ So these are names.
+ So lambda is just a name.
+ So this, these are the eigenvalues of this matrix.
+ Now the eigenvalues of that matrix, here I call them lambda just to give a name.
+ But I change the name like this. Why I'm doing this changing of names?
+ Because if you look at this, this is the equation of an oscillator,
+ provided that this constant has the frequency squared.
+ In fact, you get the equation of an oscillator.
+ So if you call this eigenvalues omega l squared,
+ well this is just the equation of an harmonic oscillator, right?
+ Therefore, if I call the eigenvalues of that matrix,
+ omega l squared, right?
+ So the point is, what eigenvalues I get?
+ I get those eigenvalues which correspond
+ to the ones I get from the other formula.
+ The other formula is giving that in any dimension.
+ Only that.
+ So last time we were doing this calculation.
+ So we need, maybe you can tell me if I really did that,
+ but we need q1 squared plus q2 squared,
+ which was just the summation of s of qs and qs.
+ Which means summation of s, qs.
+ Do you remember that we did this explicitly?
+ And we started to do the other one,
+ and I told you try to do it yourself.
+ So let's do it now.
+ This was one piece of the story, right?
+ Let me recap why.
+ So we said let's take two oscillators, double. This is a very trivial case. So it is 1/2 omega squared q1 minus q2 squared plus 1/2 omega squared 2 minus q3 squared.
+ but this corresponds to 1 alpha omega squared Q1 minus Q2 squared plus 1 alpha omega squared Q2 minus Q1 squared.
+ Then this is 1 alpha omega squared Q1 squared plus Q2 squared plus Q2 squared minus Q1Q2 minus Q2Q1.
+ And this is repeated again twice, because there is Q1Q2 from here and then Q2, these are commuting, it's just because I told you last time, when you see this it's the same writing twice Q1Q2.
+ So Q1 squared, you see the 2s, Q1 squared and Q1 squared, Q2 squared and Q2 squared, these are the 2s that are on this matrix here.
+ And then there is this Q1Q2 and Q2Q1 and you see that Q1Q2 is the entry 1, 2 of that matrix.
+ And the entry 1, 2 of that matrix has a minus 1 and then there is the other entry which has a minus 1 as well.
+ Right?
+ And therefore you should include also the other one from here is minus Q2Q1 minus Q1Q2.
+ So we should get this thing.
+ Now, I think that, yes.
+ So we did part of it.
+ And so now we can repeat our calculation for the Q1Q group.
+ So let's do it here.
+ Q1Q2 plus Q2Q1 is equal to the summation of 1 and n of Qn and Qn plus 1, I would say.
+ And then it's only equals to 2.
+ So this is the term that we want to check now.
+ And then we substitute the normal modes.
+ So there will be a summation here, e to the i, s, n divided by the square root of 2.
+ And then there is a 2s.
+ And then there is an e to the s prime, e to the s prime, n and i plus 1 divided by the square root of 2.
+ Now it's completely arbitrary where you decide to put the n plus 1, the n plus 1 to be here or to be here, just doesn't make any real difference.
+ It really does not. But let's do it like this. This is the summation over s and s prime, 1 divided by 2, and then there is the summation over n, as we did, d to the i n, s plus s prime.
+ Therefore, now you can remember this formula that we found last time.
+ Let's write it explicitly.
+ We said, look, this is i n, but the s is 2 pi divided by n, and then there is l plus l prime.
+ See? Right?
+ And then we said, this is a special formula, this is just the vectors in the complex plane.
+ So when l, this is the formula that, well actually we made a little trick.
+ We said this is the typical one that we know everything about, even with n.
+ So this is delta L prime.
+ But it doesn't matter if you get a plus here.
+ You just substitute one of the two with a plus.
+ So it doesn't really matter.
+ Therefore, from here you get the summation of an S and S prime, one out,
+ and then you get a factor of two and a delta S S prime.
+ but actually we get a theta s minus x prime because you see and this is a plus and then we get qs
+ and qs prime therefore the two drops we get summation over s qs qs and star
+ but what we left behind is this plus one that i wanted to stress
+ you know that's the huge difference to the calculation we did before
+ the calculation q1 squared plus q2 squared was basically what i did now
+ but if you have an s plus one here it is an i s prime down and of course if it's i s prime it should be i minus s
+ so we'll get that
+ now let's see
+ all right so
+ let's go back to that so that is sum over s qs and qs prime
+ sorry qs and then e to the minus i s
+ and this is with an i s
+ so now what i want to tell you
+ is that this formula here
+ is summed
+ the sum is over positive and negative integers
+ so since the sum is over positive and negative integers
+ then this is perfectly the same as doing like this
+ the same
+ I'm just relabeling all the indices changing S to minus S
+ it's the same because I'm running over positive and negative integers
+ so I'm summing the same quantities if I rename the indices, right?
+ but this is the same as this
+ and this is because of the properties that make the QN real
+ we said, look, Q minus S is going to be QS star
+ so this is QS star and this is QS, right?
+ If I do the star of this, it's all the same
+ so this is being the same as this
+ so what I'm saying is that these two things are the same
+ just the same, but since they are the same, I can be wise and I can do like this
+ you sum two things which are the same and divide by two, it's the same
+ ten plus ten by two is ten, right? this is what I'm doing
+ but if I do that, I get this
+ this is precisely what I told you to do last time, right?
+ so I'm just exploiting a few things
+ now that we did this simple step, these are simple but kind of tricky
+ maybe I was looking at this, look at that
+ this is just a little parenthesis to break from the previous proof
+ you see this is the one, and this is interesting the case for two oscillators
+ because there is Q1 and Q1 squared sum makes a 2
+ Q2 and Q2 makes a 2
+ and then there is Q1 Q2 Q2 Q1
+ right?
+ you would say I think there is a 2 also there
+ no, because there is the periodic boundary conditions here
+ so this is like the fact that this matrix
+ is a little bit, you know, it's different
+ because the 1 and 2 are the first and the last
+ when you go to 2 links back to 1
+ right? that's why it comes like this
+ if you change the order of the matrices
+ so this is a special case
+ the 2 oscillators matrix
+ which changes a little bit
+ that pattern that you see over there
+ because you see here
+ in this matrix here, this is q1 squared
+ and then there are q1 and q2
+ but the 2 is not the last part of the chain
+ there is a 3, there is a 4
+ there is a 5
+ well in this case there is a 3 and 1
+ so the last part of the chain is the 4
+ and the 4 connects to 1
+ but when you are in the case
+ of just 2 oscillators
+ the matrix looks a little bit different
+ as you can see
+ so what I'm saying is that
+ this pattern of the matrix should be
+ in the case of n equals to 2
+ should be right from here
+ this is the case by case
+ but I mean I think that
+ it was clear that that is the case
+ for 4, right?
+ and it's also the case for 5
+ in the sense that if you do 5
+ you just increase 1, 0
+ on the first row
+ ok, this close to parenthesis
+ so this is the cosine
+ so we have two things
+ we have q1 squared to b2 squared
+ this and then this
+ so we can put them together
+ observing that
+ from here
+ we have this guy and this guy
+ this is repeated twice
+ the two removes the two here
+ so we have omega squared
+ summation over s
+ qs squared
+ and that is one pair
+ and then there is this
+ this with this
+ repeated twice
+ and this with this twice
+ remove the two
+ there is another omega squared
+ but there is a minus
+ in between
+ there is a summation over s
+ the qs squared modulus
+ and cos
+ now we can
+ collect the omega squared
+ we can collect the omega squared
+ and there is one minus cos
+ and this means
+ that you get
+ two omega squared
+ summation over s
+ qs
+ squared, well, let's put it like this
+ so we have
+ maybe
+ omega
+ x^2
+ x^2
+ x^2
+ r12
+ let's put it like this
+ and therefore
+ we can do like this
+ which are just simple sets
+ to clarify the situation
+ this is omega s
+ therefore
+ omega s, this is omega s squared
+ but 4 omega s is going to be
+ 2 omega
+ which is the formula
+ that we will discuss about
+ you see 4 omega squared times squared
+ s divided by 2
+ so this completes the little algebra that we need to
+ to make this part
+ the part with the momentum is very easy
+ there is not really much to do
+ because the part with the momentum
+ we said that we started from this
+ and so the story is the same
+ you substitute the normal modes
+ and you remember this
+ minus ISN which here doesn't do much
+ right
+ and you do the same
+ I'm repeating the same
+ same thing
+ you do the multiplication
+ you use the orthogonality relation
+ and you will find again
+ the same thing which is here
+ so at the end of the day
+ we are going to join
+ to the one half
+ ps squared
+ plus one
+ omega s squared
+ qs squared
+ but we have also
+ a formula for omega s
+ which is kind of general
+ and these are our
+ normal frequencies
+ now what is the pitch?
+ let's go down
+ to the brass tacks
+ what's the picture here?
+ the picture is that you have a system of oscillators
+ the picture is different
+ you have a system of oscillators
+ and you are
+ sort of exciting
+ with a hammer
+ or whatever
+ motion in the system
+ so every single mass starts jigging
+ so from the point of view of the mechanics
+ you have a very complicated thing
+ because this is interactive with everything
+ but
+ either
+ diagonalizing a matrix
+ or doing
+ these tricks that we are doing
+ in such a way that we have an analytic formula
+ for all of the matrices that we can have
+ we find
+ an alternative description
+ of the same system
+ which is done in terms of normal modes
+ so this system becomes
+ a very different thing
+ it's described as a collection
+ of free oscillators
+ and free oscillator is easy
+ here is the collection of free oscillators
+ this is this one
+ it's a collection of free oscillators
+ in a space of complex coordinates
+ but don't worry
+ it's because
+ everything is harmonic here, right?
+ so you take the square of everything
+ you don't see this
+ and this collection of free oscillators
+ have different frequencies
+ we know these frequencies
+ they are called normal modes
+ this situation can be extended
+ in two dimensions
+ like this
+ this is a plane with oscillators
+ so in two dimensions
+ you have oscillators in one direction
+ oscillators in another direction
+ and everything
+ and then you can do three
+ right
+ and of course the treatment
+ becomes more and more complicated
+ because there will be nearest neighbor
+ in the x
+ nearest neighbor in the y
+ nearest neighbor in the z
+ but you can imagine
+ that beyond this terrible complication
+ of having all these directions
+ at the end you will be able
+ to make a normal mode
+ decomposition and you will find again
+ a set of independent oscillators
+ with their normal
+ frequencies with their normal modes
+ and these oscillations
+ in the system
+ are these oscillations
+ you have to image that
+ really the normal mode
+ each normal mode with a certain frequency
+ represents a state
+ of oscillation of the system
+ a mode of oscillation of the system
+ so you can do many things
+ you can superimpose this oscillation
+ you can make wave packets
+ right?
+ and as we said last time
+ you can go very much beyond
+ so you can go from
+ the classical description
+ in which you have
+ a set of independent oscillators
+ with their frequency
+ and maybe
+ superpositions of them
+ you can go to the quantum description
+ you can change completely language
+ and you can promote the positions
+ and momenta to be
+ and if you do that
+ the qn has to be equal to qn dagger
+ and pn to bn dagger
+ and the structure of things
+ stays basically the same
+ you repeat all the considerations that we did
+ but having in mind that these are operators
+ instead of being simple
+ just classical things
+ let's remind something of that
+ let's say something about that
+ so we can
+ go to
+ the quantum description
+ what we said last time
+ well we said that
+ if you assume
+ that
+ qn and pn
+ are quantum operators
+ instead of just position and momentum
+ just see numbers
+ then you need to make the quantization
+ in the standard way, you need to have
+ commutation relations
+ between the Q's and the B's
+ and there is a device
+ for doing this in a kind
+ of appropriate way and the device
+ is the following, we can
+ take the two normal modes
+ that we have here
+ and we can just
+ cast them
+ in terms of new operators
+ which we call ANA diagram
+ because we are copying
+ everything from the theory of the harmonic oscillator
+ and we write it like this
+ and we remind you about this rule
+ this is AS
+ plus A dagger
+ minus S
+ now this decomposition here
+ is basically copied from your
+ book of relativistic quantum mechanics
+ because if you go back
+ you will see that it's an A plus A dagger
+ doing the coordinate
+ but this is a normal mode
+ and the normal mode
+ it's a little bit different than just a Q
+ and the normal mode has to be
+ such that QS dagger
+ has to be equal to 2 minus F
+ in order for this to be true
+ and this is explaining
+ this little trick that we have the minus S
+ in fact
+ if you do the QS dagger
+ over here, you will get
+ 1 divided by 2
+ omega S
+ and you can get
+ an A S dagger
+ plus A minus S
+ but this is precisely
+ 2 minus S
+ as required
+ so the structure A plus A dagger
+ is copied
+ from your normal .
+ There is this little subtlety
+ that there is an S here and a minus S here
+ from the opposite
+ and this is due to the fact
+ that
+ you need to do this
+ with normal modes because normal modes
+ are complex stuff
+ up here
+ it's like weight of Fourier phases
+ so you need this condition
+ and this is the same
+ is true for the P
+ we said let's define the P
+ in this way
+ it is minus I omega S
+ divided by the square root of 2
+ A minus S
+ minus A divided by S
+ same thing
+ this combination
+ is kind of good because
+ if I take the PS
+ it gives me the P minus S
+ but this combination is good also
+ for another reason
+ and
+ what is the other reason?
+ these combinations are very well
+ devised also this is copied
+ from your quantum academic book
+ and then the only thing
+ which is different is the story of S and minus S
+ no difference
+ everything is very well done
+ because if I assume
+ A S, A S prime dagger equals to delta S
+ S S prime
+ this is the quantization rule
+ and
+ together
+ A A is equal to zero
+ and A dagger A dagger is equal to zero
+ right?
+ if I put all together
+ well
+ as you can check by yourself
+ it's a very easy calculation
+ you get this
+ so you have a physical quantization conditions
+ on PS and QS
+ and this reflects also
+ on a quantization condition on P and QS
+ so everything is at its place
+ then we went to
+ I mean at the end this is the physics of the quantum oscillator
+ we are talking about harmonic oscillators
+ the reason why I'm spending
+ so much time about this model
+ of harmonic oscillators is that quantum futile
+ the paradigm of quantum futile
+ is based on this
+ on harmonic oscillators
+ in many treatments
+ this thing is hidden
+ in the sense that
+ in many treatments
+ like
+ all this story is not said
+ it's not told anymore
+ but this
+ is not because we like
+ to do an historical
+ approach
+ this is because this is how things
+ have been done and historical
+ approach is not something
+ that ah
+ why we should bother with
+ historical approach if things have been done
+ like this it means that there is a reason
+ for that right this is
+ really the core of
+ is the story of harmonic oscillators
+ we are coming slowly to that
+ so this example
+ has a lot of content
+ so let's
+ pursue it a little bit more
+ again
+ you remember I'm saying
+ things that I already said
+ like this is the
+ equation that you
+ found in your
+ relativistic quantum mechanics
+ class
+ and also we use the
+ dagger of this
+ the dagger of this
+ plus I omega A
+ of E with a dagger
+ now that you have this
+ well we observed
+ that QS dot
+ I will not repeat this calculation
+ we already did it, it's minus I
+ omega S
+ divided by the square root of 2
+ and AS
+ minus A dagger minus S
+ and this is D minus S
+ also this is very interesting
+ you see there is a connection
+ between the Q dot and the P
+ which is precisely
+ what you expect
+ but with a little caveat
+ because there is this S minus S
+ trick due to the fact that these
+ are normal goals and there is this
+ condition on the M
+ E T C D
+ but this
+ reflects in the fact that Q
+ N dot which is
+ the summation of L S
+ of I S N divided by
+ the square root of N S
+ with a dot here
+ it's going to be sum of an S
+ to the I S N
+ square root of N
+ and in place of that there is some
+ P minus S
+ over here
+ now you can change the names
+ and you will say, alright, this is P M
+ now you really see why there was a minus in the definition of the P
+ because the Q dot M has to be equal to P M
+ you take the lot, you get the P minus S
+ you change the value to cost
+ this summation is over positive and negative
+ so you can change the label S into minus S
+ S into minus S is the same summation
+ that's good, everything is kind of consistent
+ so what is the conclusion of all this?
+ that you just change the language of everything
+ you will get the same thing
+ but the modulus means Q S plus R
+ so also the P S means P S plus R
+ so this is a quantum amytonium
+ as just an exercise that you can do
+ actually it's an exercise that you have already done in quantum mechanics
+ but please repeat it
+ you just use the creation and annihilation operators A and A dagger here
+ so you put the PS written like this and the QS written like this
+ you put it back into the amycon
+ this formula here, this formula there
+ and you use the commutators that I brought on the black
+ if needed
+ and you will obtain something that you know very well
+ and this is the Newtonian of quantum oscillators in one dimension
+ if it is three dimensions, three times
+ and these are the omega s, but the omega s are precisely the omega s because it is different
+ and so these are what we call the quantum normal modes
+ and I wish to remind you, I wish to remind the typical anthropics
+ for example A s, A s dagger, the A s destroys, one says in the languages
+ destroy one quantum with frequency omega x
+ and the A dagger creates one quantum with frequency omega x
+ so if you have a ket in which you have n1 quantum with frequency omega 1
+ n2 with omega 2
+ and nx with omega x and so on
+ this will destroy one of them and create one
+ so you will get the same ket out of it
+ but you remember that when you do this
+ you remember that from the oscillator theory
+ when you destroy it there are eigenvalues
+ and there is a square root of ns and another square root of ns
+ so you get the same cat multiplied by ns
+ and you said in the quantum mechanics like the first
+ that this is counting the quanta in that particular frequency
+ so you will get simply ns from here
+ n1, n2, blah blah blah ns
+ again blah blah
+ so this counts the quanta without frequency
+ and indeed this has the eigenvalues
+ which are here by the formula
+ which is this one
+ there are n in each
+ so this is just a tensor product
+ and we said this quanta
+ let's call this quanta
+ we can call them the excitation of this quantum vibrating system
+ and therefore each quantum state of this quantum vibrating system
+ is represented by n1 quanta with that frequency and 2 with that frequency and so on
+ so in your head this is a picture it's like you have a gas of particles and you call this particle phonons
+ phonons from sound and n1 of them have a certain frequency and so on
+ and this is a description of the state of excitement of the system
+ so if you look at these things, if you look at this mind picture of what we are doing
+ it's kind of, you are kind of, you start with a rod, which is an elastic system
+ and then you did a model, which is this discrete model
+ and then you solve this model in terms of independent oscillators
+ and then you quantize it
+ and then you have a quantum description of this model in terms of maquette
+ which contains a cell of phonons of all kinds
+ and so if you are kind of changing the description
+ you are doing a quantum description of this problem
+ but what is that?
+ so this is the qy which describes the displacement
+ imagine that this is the distance between one mass and the other
+ the distance at rest is always the same
+ so you can make this distance smaller and smaller and smaller
+ and so you can substitute the qn where n is a discrete index
+ with a continuous index because this distance is all smaller and smaller
+ and you call this a displacement field, that's the term that you use, a displacement field
+ this is a displacement coordinate, this is a displacement field
+ which is something that you reach in the limit in which you use it
+ so the displacement field exists because this system of springs and masses exists
+ there is a material system of masses and springs
+ and each mass has a displacement from its equilibrium position
+ and the very fact that you have this mass in springs determines the fact that you have a displacement coordinate or field in the limit in which a goes between
+ so the displacement field is inherent to the fact that there is a rod
+ but the quanta we were talking about before they are not here due to fact that there is a rod
+ because if you lift the rod alone there is a system which creates a mass and that's it
+ and all these qn's will stay where they are, right?
+ Now forget about the jiggling due to the isometric determination.
+ Let's just put it there.
+ So with no temperature at the absolute zero temperature, blah, blah, blah,
+ just that you have this displacement field which is doing basically nothing.
+ But if you excite the rod, if you heat the rod,
+ if you use a hammer on the rod,
+ this state of phase will change
+ because the displacement field will start doing stuff.
+ The masses will start changing.
+ And so you will change the quantum state of the system.
+ You will start having n1 quanta with frequency omega 1
+ and n2 quanta with frequency omega 2.
+ Your system becomes a collection of quanta,
+ which is your description.
+ The excited levels of the R1-0.
+ These are the excitations of the system,
+ which is a language very much of .
+ Now, are these excitations
+ something that's been imagined in terms of particles?
+ Particles means particles, right?
+ Well, here, in this system, it's kind of abstract.
+ But yes, at the end, you can say that
+ whenever you have a quantum with some frequency,
+ you multiply by the h constant,
+ and that is the energy of particles
+ that you call the excitations of the system,
+ and you call them hormones.
+ So you see what happens.
+ The particles have phenomena
+ which are not really perfect.
+ The field is always there
+ because the rod is there.
+ The displacement field is there all the time.
+ Sometimes you hit the rod and there are particles around.
+ But then this energy will get discharged
+ and the rod will fall back to its normal state.
+ So the particles are around.
+ Let's say the quanta, the excitement quanta of the rod are around.
+ If you hit the rod.
+ If you don't hit the rod, there are none, right?
+ The field is there all the time
+ because the field is just connected to the fact that there is a rod.
+ And so in your mind there is a mathematical description
+ of all the particles of the rod
+ which are elastically connected one to the other.
+ But the particles of the excitations
+ are dependent about what you do to the rod.
+ Now this picture has been repeated and repeated and repeated
+ and this is the backbone of modern point of view.
+ Because you remove the rod. There is no rod.
+ The rod is just a tool that helps to make this formulation.
+ You remove the rod and you talk about the vacuum.
+ The vacuum means nothing, right?
+ And you assume that there are fields,
+ and this is all, these are all, it's just a mind description that we have.
+ The reality and the mind description,
+ the mathematical description of the world are two different things all the time.
+ So you have the vacuum, in the vacuum its field is defined.
+ And you might ask, this is a field of what?
+ Where are the masses connected with springs?
+ There are no masses and no springs.
+ When you talk about the light going through a bubble,
+ you know those things that you say in general physics.
+ You take a big bubble of glass,
+ you make the bubble of glass empty inside,
+ you take a lamp and you will see light on the other side, right?
+ And people was puzzled by that because think to sound.
+ I'm speaking, I make an excitation of the air here.
+ It's a pressure wave.
+ This pressure wave propagates with some speed
+ and it reaches your detector, which is the ear.
+ And it takes some time.
+ But we know that if we remove the air from this room,
+ well of course we will die very quickly,
+ but before that we will realize that there is no sound propagation.
+ And then after that you make this realization, you die.
+ But the same happens with the bubble of glass.
+ You remove the air, you would expect no light.
+ So the light is a wave phenomenon that propagates in the vacuum.
+ And this was a big leap forward.
+ So going that direction, right?
+ The sound is like the rod.
+ The air is a very, is a very, so to say, kind of,
+ it's not really a rod because the rod has very strong elastic connections.
+ One mass and the other are very tightly bound one to the other, right?
+ So it's good to put a spring.
+ There is a very loose rod.
+ But there is something like that, no?
+ There is an oscillation here which propagates and gets around.
+ But what if you remove the rod?
+ The theory of electromagnet is the same.
+ Let's assume that it's the same.
+ So there is a field, even if there is no rod, which is the lesson from electricity manual.
+ That is the lesson of electrical data.
+ So what are these fields?
+ What is the substance?
+ There is no substance.
+ There is no rod, no substance.
+ There is a field.
+ And these fields are permanent in the sense that they are permanent
+ like in the rod.
+ The rod is there, no?
+ And there is a field defined in the rod.
+ So these fields are permanent.
+ But suppose that you have a way to heat the field,
+ to perturb the system.
+ Then, perturbing the system, right,
+ you can excite the system as you do with the rod.
+ You perturb it, you excite.
+ And this transforms into a sort of excitation of everything,
+ which can be described in terms of a bunch of quanta
+ with some normal mode frequencies.
+ And this is what we call particles.
+ This means that particles are not permanent.
+ This means that particles can be created and annihilated.
+ Particles are not forever, right?
+ So the fact that particles are not forever
+ is kind of a surprise.
+ Because one could say, oh my god,
+ so my protons and my electrons
+ that do my hydrogen, that do my water,
+ and I'm all, you know, oxygen,
+ they are not forever.
+ Well, we will go to that.
+ It's not that your hand at some point
+ starts disappearing.
+ Well, let's say that there are,
+ there is a bunch of particles
+ which have this property of being stable.
+ So there is the Big Bang.
+ This is our picture.
+ It's the Big Bang.
+ Whatever happens in the first instance
+ of the Big Bang will host.
+ But at the end you create from nothing an immense amount of particles.
+ Most of them will decay, as we will learn.
+ Some of them are stable and stable.
+ But they were created.
+ The electron is stable.
+ The proton happens to be stable.
+ This was disputed at some point.
+ It was people thinking that the proton was not stable.
+ Well, because of things that you will learn later.
+ What about the neutrons?
+ Well, you would say, well, in hydrogen there is no neutrons.
+ That's fine.
+ But water contains a lot of neutrons
+ because there are the neutrons in the oxygen.
+ Are they stable? No.
+ The neutron is something that if you take a nucleus,
+ you take a neutron out of a nucleus,
+ after 700 seconds it's gone.
+ It makes a bit of a game.
+ This doesn't happen in your body.
+ Because when nutrients are in nuclei,
+ they become stable for energetic reasons.
+ Not because nutrients are stable percent.
+ So you see that the neutron is an example of something
+ that can be sort of created,
+ lasted a while and gets destroyed.
+ Decays in something else.
+ Now, how does this work with the fields?
+ Now, there was this field at the beginning.
+ Then there is an immense shaking of the field.
+ There is the field of the electron,
+ the field of the proton,
+ the field of the neutron,
+ the field of how many others.
+ The Big Bang comes,
+ makes a shaking of this piano charge,
+ like this piano strings.
+ Now you play the piano,
+ the strings are always there,
+ you play, you hear the music.
+ The music is the particle and the strings are the strings.
+ And you produce an immense amount of things.
+ Some will decay, some will stay, and some nuclei will be formed.
+ It's called the nucleosynthesis.
+ You form the nuclei and this allows the fact that you have some neutrons around,
+ otherwise the neutrons will all be gone, right?
+ But the very fact that you create things and things can be destroyed is the new part.
+ It's not, particles are not forever, well, most of them are not forever.
+ Exception made for a very few set of them.
+ And this also has a very big content of mystery of all these things.
+ Most of them are not forever and are just like sound on strings which are the things.
+ What is the fact, what happens when the proton, the neutrons, sorry, decays?
+ You learned from nuclear and subnuclear physics that the neutron decay is something very well-known.
+ The neutron decays into an electron, right?
+ A proton, conservation of charge, and a neutrino that you don't see.
+ You don't see easily, but if you do things well, you see also in a tree, right?
+ The case into three points.
+ So this means that a certain particle can be transformed into other particles.
+ How does this connect to the picture that we have?
+ Think to this. What we did today and last time?
+ We did a model which is an harmonic model.
+ This mass interacts with this mass.
+ And this with this and this with this.
+ We could have been more fancy and said that this interacts with this and also with that.
+ We wouldn't have been much more than that.
+ But still, we can do many harmonic models.
+ This is the Kij matrix.
+ Our Kij is very reasonable, this nearest neighbor interaction.
+ We could go on and we could say why don't we just say that this oscillator here has also some elastic constant
+ which keeps it close to its original position.
+ So it's like you imagine another pair of strings.
+ This is a complication.
+ No, it's like you put complications.
+ It's like a Swiss watch.
+ You keep on putting complications on the data and that I have.
+ So you put another screen here, right?
+ This is something more.
+ This, of course, introduces new frequency.
+ All these masses will have another oscillation frequency, which is like that.
+ So you introduce a new .
+ But it could be more progressed.
+ You could say, no, I want to do more.
+ Or I want to put another thing, like k, i, j, and k.
+ No, I mean, say, a, b, c, q, a, q, b, and q, c, right?
+ Why not?
+ This is different.
+ Because this time, you go beyond the harmonic model.
+ The harmonic model is the model in which everything is squared, basically.
+ The coordinates are squared.
+ It's the harmonic oscillator.
+ This complication that I introduced, this is certainly a complication, but it's not such a complication because it's again an harmonic term.
+ But this is an harmonic.
+ Anarmonic terms make things more difficult, of course, but the anarmonic terms in quantum field theory are the tool to understand the particle details.
+ The neutron, as we will see here, the neutron breaking into an electron, a proton and a neutrino, it's a particle which is, you have to imagine the quantum of this system, if you have an anarmonic excitation of this linear spring, the anarmonic excitation could be responsible of the fact that a certain, say, phonon can break into two phonons,
+ which are of different frequencies.
+ You mix up taking space.
+ So the anarmonic term explains the fact that you break up certain excitations into one.
+ You sort of allow them to be transformed one into the other,
+ thanks to the anarmonic terms.
+ But this is just a mathematical description.
+ No, the anarmonic terms are possible, right?
+ And the anarmonic terms in this field theory language are possible,
+ and they are connected to the fact that you transform one thing into two or three or four,
+ and you call this decay.
+ So the point is, can we observe this field?
+ But in the case of the rod, everything is stiff.
+ There are masses.
+ Of course, there are no springs, no?
+ But there is this aesthetic in the rod that makes the elasticity possible.
+ But can we observe these fields in the vacuum?
+ And the reply is no, right?
+ It's an abstract formulation of things.
+ What can we observe? Particles.
+ Particles are accessible.
+ We see the electrons, we see the protons,
+ we are made of them.
+ What is accelerator physics doing?
+ What LHC is doing, what's doing?
+ Why these colliders were built?
+ Why this proton-proton collider,
+ like the one that is active at CERN in Geneva,
+ what is that doing?
+ Why one should smash a proton against a proton,
+ or an electron against a prostatron and these things?
+ The point of doing that was inspired by all the stuff
+ that we will be working on in this lecture course.
+ It's exciting, the piano springs.
+ When you smash a proton and a proton in a specific point of the accelerator,
+ what you are doing is that you are hitting the rod.
+ The energy of the smash hits the rod.
+ And the rod is the vacuum, it's the stuff, that region of space now.
+ You are putting a lot of energy in one point, which is the collision point.
+ You are smashing it.
+ And all this energy excites that little point in space.
+ And it's like a big undersmash on that little volume of space.
+ And that makes the piano sing.
+ And all these nodes are coming up.
+ And these are particles that you see.
+ Because after you smash, you see a lot of stuff coming up.
+ And this stuff that comes out from the proton-protein collision
+ was not contained at the beginning.
+ At the beginning there was a proton-protein and another proton-protein.
+ Boom.
+ And then you do this collision and you see an enormous amount of stuff coming out from the collision.
+ Where is that stuff coming from?
+ There was none of them at the beginning, right?
+ You create from that.
+ You are making the raw clay.
+ You are doing all this excitation in the system and you see them.
+ So it's like you hear the music of the piano.
+ Do you see the strings of the piano?
+ The strings of the piano are not something that we can see,
+ measured, but we can hear the music.
+ And the music is the particle that you create in this mesh.
+ So it's kind of the rod without the rod.
+ There is nothing there, right?
+ There is just nothing.
+ The beam pipe is just a vacuum.
+ The beam pipe is vacuum, a deep vacuum.
+ There is one beam of proton from one side,
+ one beam of proton from the other side.
+ Now remove the beam.
+ Just imagine that there is one proton and another proton.
+ And you would say, well, if these two things smash,
+ at the beginning there was that,
+ at the end there would be that.
+ No.
+ You put a lot of energy there and you start seeing stuff.
+ They saw things exotic, things like the Higgs boson there,
+ which the Higgs particle itself.
+ It was conjectured and then C.
+ And it was conjectured because it was needed to introduce something
+ that is called the heat speed and the heat speed was the explanation of masses,
+ the origin of masses in the fundamental theory which we have,
+ which is called the standard model.
+ So, and you saw that. How did you saw that?
+ I mean, hitting with the hammer in the back,
+ just being the vacuum all day with this bang, bang, bang.
+ And at the end, you saw it.
+ And the logic is kind of this logic that we are kind of slowly making up.
+ Let me just imagine that everything is a collection of oscillating.
+ Now what we want to do is to do, I think I'm going slowly enough, so still I think that it's a little bit of a pity for the people who's not here, I don't know.
+ But all right, that's something still.
+ So what we want to do now is to make our model a little bit more continuous than the strings and math.
+ So we have this, which is A, and in two peaks, and then we have the length of L, which is L.
+ And of course L, it is M times A. And M is the number of oscillators.
+ So L is the length of the rod, A is the distance between one mass and the other, etc.
+ So we want to go a little bit more realistic and suppose that A goes to zero, which is kind of our imagination of the rod.
+ The distance between the two masses is very small.
+ It's not that the rod is made of holes, it's just very tight.
+ And the number of oscillators grows immensely in such a way that this state is.
+ So it's a special limit, a goes to zero, n goes to infinity, the product stays fixed.
+ This makes a trivial continuous limit.
+ Now, imagine the energy of this thing.
+ This is an armonic, as we said, it's an armonic system.
+ So the energy, roughly speaking, is proportional to the square of the cubes summed very roughly.
+ And this is kind of n to n squared and n goes to infinity.
+ And so if n goes to infinity, it's a little bit tricky because when n goes to infinity,
+ if n goes to infinity, well this energy could be infinity.
+ You know, you are kind of putting a very small and the fact that a is very small
+ is this alpha by a very much.
+ So here there is a little trick in doing this continuous limit,
+ which is the following: you always say that qn goes into qx,
+ so you change the annual to x, the discrete index into the continuous index,
+ because you are making the fine, fine, fine discrete model,
+ and you put a square root of a here.
+ This trick allows to remove the a from here and there is no infinity left.
+ This is a sort of regularization in the definition of the displacement field.
+ This is our first field.
+ That's the name that has been given here.
+ Why don't you call it function in the quantum version, a wave function?
+ You see that it's a different thing because the x at the end
+ is just locating one of the oscillators.
+ So the x is like the n.
+ It's locating a special oscillator in a system.
+ That's the meaning of the x.
+ And this is what people call displacement here.
+ And this is displacement forward, and this is the connection
+ between the discrete and the continuum.
+ Now, you know very well that in this continuum limit,
+ the density of oscillator will be one oscillator
+ in the line tail on average, right?
+ Take A like this, move the window of A like that, what oscillators?
+ You know that the number of oscillators will be the density times the volume.
+ This is a well known fact of life.
+ Density time volume is a number of things.
+ But the number is the summation between n equals to 1 and n of 1, obviously.
+ And the row is 1 over a.
+ And the volume, in the case of one dimension, is given by this integral.
+ And this is the integral between 0 and n.
+ So what we are doing here is that we are changing all the summations between 1 and n into 1 over a integral of the x.
+ This is a really nice formula.
+ It will help us a lot in defining the continuous formula.
+ It's just volume times density.
+ That's the story.
+ Now this formula, for example, can be used here.
+ We have this relation.
+ We have used this relation many times.
+ And now we can ask ourselves how we could, sorry, this is n,
+ how we could change this relation.
+ Why don't we use this formula to change it?
+ So we have 1 divided by A over here.
+ Then we have a dx between 0 and L into the height n.
+ What's n?
+ n is giving to you the positioning of your oscillator, right?
+ If you go to the continue,
+ n is going to be x divided by a.
+ Or in other words, x is n times a.
+ a is very tiny.
+ You do one a, you find two a's, three a's, that's the x.
+ And then there is the s.
+ And we said that the s, well, so that's n.
+ So we said that s minus s prime, s is connected to the e to just two pi l, etc.
+ Now we can do like this, zero l to the x, e to the i x, 2 pi l divided by n divided by a minus 2 pi l prime divided by a.
+ But n times a is the length of the rod, zero l to the x into the i x, 2 pi l divided by l minus 2 pi l prime divided by l.
+ Therefore, we get a new relation that will be very useful for us.
+ And this relation is obtained by introducing this definition that should make a trigger in your head.
+ Define this k over here.
+ And it's just 2 pi the integer that we said at the beginning divided by the length of the rod in the continuous model.
+ And therefore this is 1 divided by a integral of dx between 0 and n of ix k minus k prime multiplied by x.
+ And so what is that?
+ Well, we started from here and made all these deductions.
+ Therefore, this is going to be n times delta.
+ Oh my god, you didn't tell me that there was an n over there.
+ n times delta k k prime.
+ So this is our new relation here that we will make use of.
+ It's actually the same thing that we had before,
+ but we are exploiting this continuous variable stuff.
+ So another few things.
+ In doing this continuous limit,
+ you will reach an arbitrage, which is very nice.
+ And you will sort of remember to have already seen it.
+ So let's start from our original model.
+ This is our original model, right?
+ Now, we said that the qn gets substituted by the square root of a, qx.
+ We said that the summation gets substituted by 1 over 8, the in.
+ So this is a dictionary of things to be done.
+ Now, you will not be surprised to think that pn should be substituted by px.
+ That goes without saying, you know, because it's just a lot.
+ So we can apply this dictionary here and therefore we can say that this Hamiltonian can be 1/8 dx between here and L.
+ And then we have 1/2 and that's the 1/2, well the 1/2, we can put the 1/2 outside and then it is a dx squared.
+ And this comes from here. Then plus 1/2 omega squared. Q, sorry, square root of A Qx minus square root of A Q. What would you say here? N plus 1. What is N plus 1?
+ It is x plus A, right? Square root. So this term can be written as 1 out omega squared A Qx minus Qx plus A.
+ Why not dividing by A and multiplying by A squared, right? You could do that.
+ But this A drops. So you get one half dx zero L dx squared plus one half omega squared A squared times Qs plus A minus Qx, Qx divided by A squared.
+ The square doesn't care about the ordering of Qx and Qx plus A.
+ Why there is one half more omega?
+ Sorry.
+ Oh, sorry.
+ My God.
+ Yes.
+ There is a one half outside.
+ Sorry for that.
+ Yes.
+ Thank you.
+ So the ordering here can be just 2x plus a minus 2x divided by a.
+ But this is the definition of a derivative when a goes to 0.
+ And therefore, the electron would be one half dx, 0, 11.
+ And of course, you understand immediately that there is another thing to be kept in mind.
+ If a goes to 0, the omega has grown.
+ So there is a third thing that we didn't say in the dictionary in the beginning.
+ When you imagine that the omega, the a goes to 0,
+ the springs must be stiffer and stiffer and stiffer.
+ Otherwise the spring, otherwise the harmonic potential disappears.
+ The harmonic potential evaporates.
+ So you have to make the spring very stiff, no?
+ In such a way that everything is super compact and super stiff.
+ A times A is something that must stay, must be finite.
+ So omega must be .
+ Omega very high means that the Hooke constant is very high
+ because remember that the mass is equal to 1 here.
+ So omega and k are the same thing.
+ So the elasticity must be very, very stable.
+ And so this is the Hamiltonian we get.
+ And this is the Hamiltonian for this continuous system.
+ Well, this omega and A, which is here,
+ can be converted into what we call V squared.
+ That's that we are saying that V is kind of omega and A.
+ So we have this amytonic here.
+ This is an amytonic in terms of the continuous variable X.
+ And the difference between this amytonic and this amytonic is very clear.
+ Look at this.
+ This is in N and this is in X.
+ This is integrated on the length of the rod.
+ This goes on all the oscillators on the rod.
+ This contains a finite difference,
+ and this contains a derivative.
+ And the nearest Nape over 3 was very useful
+ because it allowed us to make up a derivative with a continuum.
+ And the bonus of this Hamiltonian is that
+ if we compute the Hamiltonian equations of this Hamiltonian,
+ we will get the very famous equations of the waves
+ that you studied in general physics.
+ And this is a very little computation that we can do right now.
+ This gives the equation of the waves
+ in the form of the equation of the waves
+ that you have already met in general physics.
+ Because we get that u dot r of x,
+ which is the second time derivative of the position,
+ as we will see now.
+ It is just d squared, the second derivative of 2 x,
+ with respect to the x squared.
+ This is the equation of waves in the displacement .
+ So which waves?
+ The elastic waves in the row.
+ Precisely those.
+ The sound waves in the one-dimensional row.
+ Now one can see that this V parameter is connected to the velocity of propagation of the sound wave in the row.
+ In an elastic system, when you produce excitations, you talk about sound and waves of sound.
+ That's precisely the mathematical equation of waves.
+ And this mathematical equation of waves comes from this discrete model that is amenable of a description in terms of independent oscillators.
+ So classical waves.
+ So I think that all of you have seen this wave equation before, right?
+ So before concluding, one can ask how to derive this equation from here, and then we have that.
+ Well, it's not so difficult. We don't need much space, actually.
+ So we have to do one thing that you have met, I think that you have seen that in your lecture course on analytic mechanics.
+ This is the Hamiltonian equation in this form.
+ So you do a derivative of the Hamiltonian and when you do the derivative of the Hamiltonian you change the qx.
+ It's not changing a c number. You change this q of x altogether. This is called functional derivative, right?
+ How do you do this functional derivative? That is the p dot x and the p dot x as we know is interned in this model. This is q dot dot.
+ This is always true in this model. So how do we do that?
+ You see that there is no q of x dependency in the first term, there is only a q of x dependency in the other one.
+ And therefore you can say that you have minus e squared divided by 2,
+ and then delta q of x of the integral dx, sorry, dy 0l, dqy in dy squared.
+ When you do these things, y is an integration variable, it's a dummy variable,
+ so you can change the name as you want, y, z, w, whatever it is.
+ The reason to change the name is obvious, you can see now, this is v squared by 2,
+ that is between 0 and l, and dy, then there is a factor of 2, dq in dy,
+ and then there is a derivative, normal derivative,
+ and then there is this, qy and qx.
+ And all you really need to know is that this is by definition the delta y and x.
+ This is all you need to know.
+ And the 2 goes away.
+ And there is a formula for the distributions that probably you saw in mathematical methods of physics,
+ in which you know that if you take the derivative of the delta, it sort of looks like an integration bypass.
+ You take the derivative of the delta, you can go with the derivative of that, the other one.
+ So you put a plus d squared right by 2, dy, 0, n, second derivative of q, y, with respect to y squared, delta y minus x.
+ And finally, this is precisely, ah, the 2, the factor of 2 is gone, sorry.
+ This is precisely v squared, d second qx in dx squared,
+ which is the equation of motion that I told you at the beginning.
+ This is the equation of waves.
+ So in the continuing model, in the continuing model,
+ you recover the wave equation in the standard form.
+ And all you have to do is to write the Hamiltonian
+ and the Hamiltonian equations from the Hamiltonian
+ give you those waves.
+ So next time, we will see a little bit better
+ of the continuous model.
+ We will do also some few considerations about the fact
+ that the rod itself may be made larger and larger and larger
+ and the reason to send L to infinity for us has a meaning
+ because we will imagine that the fields of the electrons and photons and etc.
+ are immersed in the whole space and path.
+ So it's like that you take the rod, you make it immense
+ and then you remove the rod.
+ So at some point we have to send the limit L to infinity 2.
+ For the moment L is fine.
+ But you will see that this is not really dramatic.
+ So next time we will be able to introduce the definition
+ of the displacement field in terms of the definition of a scalar field.
+ And this definition of the scalar field that we produce like this
+ will stay for all the lecture course in the same way.
+ It will be one basic definition which we will work on all the time.
